@@ -23,23 +23,31 @@ def parse_postliste(html):
     soup = BeautifulSoup(html, "html.parser")
     dokumenter = []
 
-    articles = soup.select("article.bc-content-teaser--item")
-    for art in articles:
+    # Hver oppføring ligger i <a class="SakListItem_sakListLink__...">
+    links = soup.select("a.SakListItem_sakListLink__16759c")
+    for link in links:
+        detalj_link = link.get("href")
+        art = link.find("article")
+
+        # Tittel
         title_elem = art.select_one(".bc-content-teaser-title-text")
         tittel = title_elem.get_text(strip=True) if title_elem else ""
 
+        # DokumentID
         dokid_elem = art.select_one(".bc-content-teaser-meta-property--dokumentID dd")
         saksnr = dokid_elem.get_text(strip=True) if dokid_elem else ""
 
+        # Dato
         dato_elem = art.select_one(".bc-content-teaser-meta-property--dato dd")
         dato = dato_elem.get_text(strip=True) if dato_elem else ""
 
-        link_tag = art.find("a")
-        detalj_link = urljoin(BASE_URL, link_tag["href"]) if link_tag and link_tag.has_attr("href") else None
+        # Mottaker
+        mottaker_elem = art.select_one(".bc-content-teaser-meta-property--mottaker dd")
+        mottaker = mottaker_elem.get_text(strip=True) if mottaker_elem else ""
 
+        # Gå inn på detaljsiden for å finne PDF
         pdf_link = None
         krever_innsyn = False
-
         if detalj_link:
             try:
                 detalj_html = hent_html(detalj_link)
@@ -56,14 +64,14 @@ def parse_postliste(html):
         dokumenter.append({
             "dato": dato,
             "tittel": tittel,
-            "avsender": "",
-            "mottaker": "",
+            "mottaker": mottaker,
             "saksnr": saksnr,
             "pdf_link": pdf_link,
             "detalj_link": detalj_link,
             "krever_innsyn": krever_innsyn
         })
 
+    print(f"Fant {len(dokumenter)} dokumenter i postlisten.")
     return dokumenter
 
 def lag_mailto_innsyn(dok):
