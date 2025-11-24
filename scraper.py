@@ -197,4 +197,10 @@ def render_html(dokumenter):
             dup_card = (
                 "<section class='card'>"
                 f"<h3>{dup_title}</h3>"
-                f"<div class='meta'>{meta
+                f"<div class='meta'>{meta_html}</div>"
+                "<div><span class='badge innsyn'>Må bes om innsyn</span></div>"
+                f"<div class='actions'>{' '.join(dup_actions)}</div>"
+                "</section>"
+            )
+
+        cards_html.append(dup_card)
