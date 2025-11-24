@@ -234,7 +234,8 @@ a.btn:hover{background:#efefef}""")
             """
             cards_html.append(dup_card)
 
-    content = f'<div class="list">\n{"\n".join(cards_html)}\n</div>'
+    sep = "\n"
+    content = f'<div class="list">\n{sep.join(cards_html)}\n</div>'
 
     # Render base
     with open(base_path, "r", encoding="utf-8") as f:
