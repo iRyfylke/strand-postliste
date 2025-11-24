@@ -179,4 +179,16 @@ def render_html(dokumenter):
         cards_html.append(card)
 
         if dok.get("krever_innsyn"):
-            dup_title = f"Innsyn: {dok.get('tittel') or 'Uten tittel'}"
+        dup_title = f"Innsyn: {dok.get('tittel') or 'Uten tittel'}"
+        dup_card = f"""
+        <section class="card">
+          <h3>{dup_title}</h3>
+          <div class="meta">{meta_html}</div>
+          <div><span class="badge innsyn">Må bes om innsyn</span></div>
+          <div class="actions">
+            <a class="btn" href="{lag_mailto_innsyn(dok)}">Send innsynsbegjæring</a>
+         {f"<a class='btn' href='{dok['detalj_link']}' target='_blank' rel='noopener'>Detaljer</a>" if dok.get("detalj_link") else ""}
+         </div>
+        </section>
+        """
+    cards_html.append(dup_card)
