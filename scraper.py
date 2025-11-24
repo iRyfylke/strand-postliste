@@ -178,17 +178,34 @@ def render_html(dokumenter):
         """
         cards_html.append(card)
 
+        # Duplisert oppføring for innsyn
         if dok.get("krever_innsyn"):
-    dup_title = f"Innsyn: {dok.get('tittel') or 'Uten tittel'}"
-    dup_card = f"""
-    <section class="card">
-      <h3>{dup_title}</h3>
-      <div class="meta">{meta_html}</div>
-      <div><span class="badge innsyn">Må bes om innsyn</span></div>
-      <div class="actions">
-        <a class="btn" href="{lag_mailto_innsyn(dok)}">Send innsynsbegjæring</a>
-        {f"<a class='btn' href='{dok['detalj_link']}' target='_blank' rel='noopener'>Detaljer</a>" if dok.get("detalj_link") else ""}
-      </div>
-    </section>
-    """
-    cards_html.append(dup_card)
+            dup_title = f"Innsyn: {dok.get('tittel') or 'Uten tittel'}"
+            dup_card = f"""
+            <section class="card">
+              <h3>{dup_title}</h3>
+              <div class="meta">{meta_html}</div>
+              <div><span class="badge innsyn">Må bes om innsyn</span></div>
+              <div class="actions">
+                <a class="btn" href="{lag_mailto_innsyn(dok)}">Send innsynsbegjæring</a>
+                {f"<a class='btn' href='{dok['detalj_link']}' target='_blank' rel='noopener'>Detaljer</a>" if dok.get("detalj_link") else ""}
+              </div>
+            </section>
+            """
+            cards_html.append(dup_card)
+
+    # Bygg hele innholdet
+    content = '<div class="list">\n' + '\n'.join(cards_html) + '\n</div>'
+
+    # Sett inn i base.html
+    with open(base_path, "r", encoding="utf-8") as f:
+        template = f.read()
+
+    html = template.replace("<!-- CONTENT -->", content).replace(
+        "{{timestamp}}",
+        datetime.now().strftime("%Y-%m-%d %H:%M")
+    )
+
+    out_path = os.path.join(OUTPUT_DIR, "index.html")
+    with open(out_path, "w", encoding="utf-8") as f:
+        f.write(html)
