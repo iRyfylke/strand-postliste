@@ -7,7 +7,7 @@ from urllib.parse import urljoin, quote
 import requests
 from bs4 import BeautifulSoup
 
-# Grunnleggende konfigurasjon
+# Konfigurasjon
 BASE_URL = "https://www.strand.kommune.no"
 POSTLISTE_URL = "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/"
 
@@ -20,7 +20,7 @@ os.makedirs(PDF_DIR, exist_ok=True)
 os.makedirs(TEMPLATES_DIR, exist_ok=True)
 os.makedirs(ASSETS_DIR, exist_ok=True)
 
-POSTMOTTAK_EMAIL = "postmottak@strand.kommune.no"  # endre hvis kommunen bruker en annen adresse
+POSTMOTTAK_EMAIL = "postmottak@strand.kommune.no"
 
 # ------------------- Hjelpefunksjoner -------------------
 
@@ -173,23 +173,18 @@ def render_html(dokumenter):
         if dok.get("krever_innsyn"):
             actions.append(f'<a class="btn" href="{lag_mailto_innsyn(dok)}">Be om innsyn</a>')
 
-        card = f"""
-        <section class="card">
-          <h3>{dok.get('tittel') or 'Uten tittel'}</h3>
-          <div class="meta">{meta_html}</div>
-          <div>{" ".join(badges)}</div>
-          <div class="actions">{" ".join(actions)}</div>
-        </section>
-        """
+        card = (
+            "<section class='card'>"
+            f"<h3>{dok.get('tittel') or 'Uten tittel'}</h3>"
+            f"<div class='meta'>{meta_html}</div>"
+            f"<div>{' '.join(badges)}</div>"
+            f"<div class='actions'>{' '.join(actions)}</div>"
+            "</section>"
+        )
         cards_html.append(card)
 
         # Duplisert oppføring for innsyn
         if dok.get("krever_innsyn"):
             dup_title = f"Innsyn: {dok.get('tittel') or 'Uten tittel'}"
-            dup_card = f"""
-            <section class="card">
-              <h3>{dup_title}</h3>
-              <div class="meta">{meta_html}</div>
-              <div><span class="badge innsyn">Må bes om innsyn</span></div>
-              <div class="actions">
-                <a class="btn" href="{lag_mailto_innsyn(dok)}
+            dup_actions = (
+                f"<a class='btn' href='{lag_mailto_innsyn(dok)}'>Send
