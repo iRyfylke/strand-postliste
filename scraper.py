@@ -17,31 +17,46 @@ def hent_html(url):
     return r.text
 
 def parse_postliste(html):
+    """
+    Parser HTML fra Strand kommunes postliste (ACOS).
+    Returnerer en liste med dokumenter.
+    """
     soup = BeautifulSoup(html, "html.parser")
     dokumenter = []
-    rows = soup.select("table.searchResult tr") or soup.select("div.search-result")
-    for rad in rows:
-        celler = rad.find_all("td")
-        if not celler:
-            continue
-        dato = celler[0].get_text(strip=True) if len(celler) > 0 else ""
-        tittel_elem = celler[1] if len(celler) > 1 else None
-        tittel = tittel_elem.get_text(strip=True) if tittel_elem else ""
+
+    # Hent alle oppføringer
+    articles = soup.select("article.bc-content-teaser--item")
+
+    for art in articles:
+        # Tittel
+        title_elem = art.select_one(".bc-content-teaser-title-text")
+        tittel = title_elem.get_text(strip=True) if title_elem else ""
+
+        # DokumentID
+        dokid_elem = art.select_one(".bc-content-teaser-meta-property--dokumentID dd")
+        saksnr = dokid_elem.get_text(strip=True) if dokid_elem else ""
+
+        # Dato
+        dato_elem = art.select_one(".bc-content-teaser-meta-property--dato dd")
+        dato = dato_elem.get_text(strip=True) if dato_elem else ""
+
+        # Avsender/mottaker finnes ikke alltid i teaser, kan være tomme
+        avsender = ""
+        mottaker = ""
+
+        # Lenker – sjekk om det finnes <a> inne i artikkelen
+        link_tag = art.find("a")
         pdf_link, detalj_link = None, None
-        if tittel_elem:
-            link_tag = tittel_elem.find("a")
-            if link_tag and link_tag.get("href"):
-                href = link_tag["href"]
-                if href.lower().endswith(".pdf"):
-                    pdf_link = urljoin(BASE_URL, href)
-                else:
-                    detalj_link = urljoin(BASE_URL, href)
-        avsender = celler[2].get_text(strip=True) if len(celler) > 2 else ""
-        mottaker = celler[3].get_text(strip=True) if len(celler) > 3 else ""
-        saksnr = celler[4].get_text(strip=True) if len(celler) > 4 else ""
-        krever_innsyn = False
-        if not pdf_link or "innsyn" in tittel.lower():
-            krever_innsyn = True
+        if link_tag and link_tag.has_attr("href"):
+            href = link_tag["href"]
+            if href.lower().endswith(".pdf"):
+                pdf_link = urljoin(BASE_URL, href)
+            else:
+                detalj_link = urljoin(BASE_URL, href)
+
+        # Innsynsoppføring hvis ingen PDF eller teksten inneholder "innsyn"
+        krever_innsyn = not pdf_link or "innsyn" in tittel.lower()
+
         dokumenter.append({
             "dato": dato,
             "tittel": tittel,
@@ -52,6 +67,7 @@ def parse_postliste(html):
             "detalj_link": detalj_link,
             "krever_innsyn": krever_innsyn
         })
+
     print(f"Fant {len(dokumenter)} dokumenter i postlisten.")
     return dokumenter
 
