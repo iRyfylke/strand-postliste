@@ -36,38 +36,44 @@ def er_innsynsoppforing(celle_text: str) -> bool:
     return any(h in txt for h in hints)
 
 def parse_postliste(html):
+    """
+    Parser HTML fra Strand kommunes postliste (ACOS).
+    Returnerer en liste med dokumenter.
+    """
     soup = BeautifulSoup(html, "html.parser")
     dokumenter = []
 
-    rows = soup.select("table tr")
-    if not rows:
-        rows = soup.select(".list, .table, .content, .search-result, article")
+    # ACOS bruker ofte <table class="searchResult"> eller <div class="search-result">
+    rows = soup.select("table.searchResult tr") or soup.select("div.search-result")
 
     for rad in rows:
-        celler = rad.find_all(["td", "div", "li"])
+        celler = rad.find_all("td")
         if not celler:
             continue
 
-        dato, tittel, avsender, mottaker, saksnr, pdf_link = "", "", "", "", "", None
+        # Typisk struktur: [Dato, Tittel, Avsender, Mottaker, Saksnr]
+        dato = celler[0].get_text(strip=True) if len(celler) > 0 else ""
+        tittel_elem = celler[1] if len(celler) > 1 else None
+        tittel = tittel_elem.get_text(strip=True) if tittel_elem else ""
 
-        if len(celler) >= 2:
-            dato = celler[0].get_text(strip=True)
-            tittel_elem = celler[1]
-            tittel = tittel_elem.get_text(strip=True)
+        # Finn lenke til PDF eller detaljside
+        pdf_link, detalj_link = None, None
+        if tittel_elem:
             link_tag = tittel_elem.find("a")
             if link_tag and link_tag.get("href"):
                 href = link_tag["href"]
-                pdf_link = urljoin(BASE_URL, href) if href.startswith("/") else href
+                if href.lower().endswith(".pdf"):
+                    pdf_link = urljoin(BASE_URL, href)
+                else:
+                    detalj_link = urljoin(BASE_URL, href)
 
-        if len(celler) >= 3:
-            avsender = celler[2].get_text(strip=True)
-        if len(celler) >= 4:
-            mottaker = celler[3].get_text(strip=True)
-        if len(celler) >= 5:
-            saksnr = celler[4].get_text(strip=True)
+        avsender = celler[2].get_text(strip=True) if len(celler) > 2 else ""
+        mottaker = celler[3].get_text(strip=True) if len(celler) > 3 else ""
+        saksnr = celler[4].get_text(strip=True) if len(celler) > 4 else ""
 
+        # Innsynsoppføring hvis ingen PDF eller teksten inneholder "innsyn"
         krever_innsyn = False
-        if pdf_link is None or (tittel and er_innsynsoppforing(tittel)):
+        if not pdf_link or "innsyn" in tittel.lower():
             krever_innsyn = True
 
         dokumenter.append({
@@ -76,12 +82,12 @@ def parse_postliste(html):
             "avsender": avsender,
             "mottaker": mottaker,
             "saksnr": saksnr,
-            "pdf_link": pdf_link if (pdf_link and pdf_link.lower().endswith(".pdf")) else None,
-            "detalj_link": pdf_link if (pdf_link and not pdf_link.lower().endswith(".pdf")) else None,
+            "pdf_link": pdf_link,
+            "detalj_link": detalj_link,
             "krever_innsyn": krever_innsyn
         })
 
-    dokumenter = [d for d in dokumenter if any(d.get(k) for k in ["tittel", "pdf_link", "detalj_link"])]
+    print(f"Fant {len(dokumenter)} dokumenter i postlisten.")
     return dokumenter
 
 def last_ned_pdf(url, filnavn):
