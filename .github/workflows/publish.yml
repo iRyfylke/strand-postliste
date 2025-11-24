@@ -27,6 +27,9 @@ jobs:
       - name: Run scraper
         run: python scraper.py
 
+        - name: List files
+        run: ls -R .
+
       - name: Commit generated files
         run: |
           git config --global user.name "github-actions[bot]"
