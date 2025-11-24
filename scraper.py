@@ -167,11 +167,11 @@ def render_html(dokumenter):
 
         actions = []
         if dok.get("pdf_link"):
-            actions.append(f'<a class="btn" href="{dok["pdf_link"]}" target="_blank">Åpne PDF</a>')
+            actions.append(f"<a class='btn' href='{dok['pdf_link']}' target='_blank'>Åpne PDF</a>")
         elif dok.get("detalj_link"):
-            actions.append(f'<a class="btn" href="{dok["detalj_link"]}" target="_blank">Detaljer</a>')
+            actions.append(f"<a class='btn' href='{dok['detalj_link']}' target='_blank'>Detaljer</a>")
         if dok.get("krever_innsyn"):
-            actions.append(f'<a class="btn" href="{lag_mailto_innsyn(dok)}">Be om innsyn</a>')
+            actions.append(f"<a class='btn' href='{lag_mailto_innsyn(dok)}'>Be om innsyn</a>")
 
         card = (
             "<section class='card'>"
@@ -186,5 +186,5 @@ def render_html(dokumenter):
         # Duplisert oppføring for innsyn
         if dok.get("krever_innsyn"):
             dup_title = f"Innsyn: {dok.get('tittel') or 'Uten tittel'}"
-            dup_actions = (
-                f"<a class='btn' href='{lag_mailto_innsyn(dok)}'>Send
+            dup_actions = []
+            dup_actions.append(f"<a class='btn' href='{lag_mailto_innsyn(dok)}'>Send innsynsbegjæring</a>
