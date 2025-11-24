@@ -34,3 +34,5 @@ jobs:
           git add index.html postliste.json assets/ pdf_dokumenter/ || true
           git commit -m "Update generated files" || true
           git push origin main
+      - name: List files
+        run: ls -R .
