@@ -179,4 +179,4 @@ def render_html(dokumenter):
         cards_html.append(card)
 
         if dok.get("krever_innsyn"):
-            dup_title = f"Innsyn: {dok.get('tittel') or '
+            dup_title = f"Innsyn: {dok.get('tittel') or 'Uten tittel'}"
