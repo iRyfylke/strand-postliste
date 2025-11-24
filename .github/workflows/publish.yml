@@ -10,6 +10,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write   # nødvendig for å pushe til main
 
     steps:
       - name: Checkout
