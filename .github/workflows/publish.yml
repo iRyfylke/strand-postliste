@@ -35,6 +35,8 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git fetch origin main
+          git rebase origin/main || echo "No rebase needed"
           git add -A
           git commit -m "Update generated files" || echo "No changes to commit"
-          git push origin main --force
+          git push origin HEAD:main
