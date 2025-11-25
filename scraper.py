@@ -1,80 +1,23 @@
 import os
 import json
 from datetime import datetime
-from urllib.parse import urljoin, quote
+from urllib.parse import quote
 import requests
-from bs4 import BeautifulSoup
 
-BASE_URL = "https://www.strand.kommune.no"
-POSTLISTE_BASE = (
-    "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/"
-    "postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/"
-)
+API_URL = "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/overview"
 OUTPUT_DIR = "."
 POSTMOTTAK_EMAIL = "postmottak@strand.kommune.no"
 
-def hent_html(url):
-    headers = {"User-Agent": "Mozilla/5.0 (compatible; PostlisteScraper/1.0)"}
-    r = requests.get(url, headers=headers, timeout=30)
+def hent_side(page=1, page_size=100):
+    headers = {"Accept": "application/json", "User-Agent": "Mozilla/5.0"}
+    params = {"pageNumber": page, "pageSize": page_size}
+    r = requests.get(API_URL, headers=headers, params=params, timeout=30)
     r.raise_for_status()
-    return r.text
-
-def parse_postliste(html):
-    soup = BeautifulSoup(html, "html.parser")
-    dokumenter = []
-
-    # Hver oppføring ligger i <a class="SakListItem_sakListLink__...">
-    links = soup.select("a.SakListItem_sakListLink__16759c")
-    for link in links:
-        detalj_link = link.get("href")
-        art = link.find("article")
-
-        # Tittel
-        title_elem = art.select_one(".bc-content-teaser-title-text")
-        tittel = title_elem.get_text(strip=True) if title_elem else ""
-
-        # DokumentID
-        dokid_elem = art.select_one(".bc-content-teaser-meta-property--dokumentID dd")
-        saksnr = dokid_elem.get_text(strip=True) if dokid_elem else ""
-
-        # Dato
-        dato_elem = art.select_one(".bc-content-teaser-meta-property--dato dd")
-        dato = dato_elem.get_text(strip=True) if dato_elem else ""
-
-        # Mottaker
-        mottaker_elem = art.select_one(".bc-content-teaser-meta-property--mottaker dd")
-        mottaker = mottaker_elem.get_text(strip=True) if mottaker_elem else ""
-
-        # Gå inn på detaljsiden for å finne PDF
-        pdf_link = None
-        krever_innsyn = False
-        if detalj_link:
-            try:
-                detalj_html = hent_html(detalj_link)
-                detalj_soup = BeautifulSoup(detalj_html, "html.parser")
-                pdf_tag = detalj_soup.find("a", href=lambda h: h and h.lower().endswith(".pdf"))
-                if pdf_tag:
-                    pdf_link = urljoin(BASE_URL, pdf_tag["href"])
-                else:
-                    krever_innsyn = True
-            except Exception as e:
-                print(f"Feil ved henting av detaljside {detalj_link}: {e}")
-                krever_innsyn = True
-
-        dokumenter.append({
-            "dato": dato,
-            "tittel": tittel,
-            "mottaker": mottaker,
-            "saksnr": saksnr,
-            "pdf_link": pdf_link,
-            "detalj_link": detalj_link,
-            "krever_innsyn": krever_innsyn
-        })
-
-    return dokumenter
+    data = r.json()
+    return data["content"]["searchItems"]["items"]
 
 def lag_mailto_innsyn(dok):
-    emne = f"Innsynsbegjæring – {dok.get('tittel') or 'Dokument'} ({dok.get('dato')})"
+    emne = f"Innsynsbegjæring – {dok.get('title')} ({dok.get('dato')})"
     body = f"Hei Strand kommune,\n\nJeg ber om innsyn i dokumentet:\n{dok}\n\nVennlig hilsen\nNavn"
     return f"mailto:{POSTMOTTAK_EMAIL}?subject={quote(emne)}&body={quote(body)}"
 
@@ -84,15 +27,11 @@ def render_html(dokumenter):
     else:
         cards = []
         for dok in dokumenter:
-            title = dok.get("tittel") or "Uten tittel"
-            meta = f"Dato: {dok.get('dato','')} · Saksnr: {dok.get('saksnr','')}"
+            title = dok.get("title") or "Uten tittel"
+            meta = f"Dato: {dok.get('dato','')} · DokumentID: {dok.get('dokumentID','')}"
             actions = []
-            if dok.get("pdf_link"):
-                actions.append(f"<a href='{dok['pdf_link']}' target='_blank'>Åpne PDF</a>")
-            elif dok.get("detalj_link"):
-                actions.append(f"<a href='{dok['detalj_link']}' target='_blank'>Detaljer</a>")
-            if dok.get("krever_innsyn"):
-                actions.append(f"<a href='{lag_mailto_innsyn(dok)}'>Be om innsyn</a>")
+            # foreløpig ingen PDF‑lenker i API, så bare innsyn
+            actions.append(f"<a href='{lag_mailto_innsyn(dok)}'>Be om innsyn</a>")
             card = (
                 "<section class='card'>"
                 f"<h3>{title}</h3>"
@@ -127,29 +66,27 @@ def render_html(dokumenter):
         f.write(html)
     print(f"Skrev index.html til {out_path}")
 
-def hent_alle_sider(max_pages=4000, page_size=100):
-    alle_dokumenter = []
-    for page in range(1, max_pages+1):
-        url = f"{POSTLISTE_BASE}?page={page}&pageSize={page_size}"
-        print(f"Henter side {page}: {url}")
-        try:
-            html = hent_html(url)
-            dokumenter = parse_postliste(html)
-            print(f"Side {page}: fant {len(dokumenter)} dokumenter")
-            alle_dokumenter.extend(dokumenter)
-            if not dokumenter:
-                break
-        except Exception as e:
-            print(f"Feil ved henting av side {page}: {e}")
-            break
-    return alle_dokumenter
-
 def main():
-    dokumenter = hent_alle_sider(max_pages=5, page_size=100)
-    render_html(dokumenter)
+    alle_dokumenter = []
+    for page in range(1, 6):  # hent opptil 5 sider
+        items = hent_side(page=page, page_size=100)
+        if not items:
+            break
+        for it in items:
+            dok = {
+                "title": it.get("title"),
+                "type": it.get("type"),
+                "dokumentID": it.get("properties", {}).get("dokumentID"),
+                "dato": it.get("properties", {}).get("dato"),
+                "identifier": it.get("identifier"),
+                "parentIdentifier": it.get("parentIdentifier"),
+            }
+            alle_dokumenter.append(dok)
+
+    render_html(alle_dokumenter)
     json_path = os.path.join(OUTPUT_DIR, "postliste.json")
     with open(json_path, "w", encoding="utf-8") as f:
-        json.dump(dokumenter, f, ensure_ascii=False, indent=2)
+        json.dump(alle_dokumenter, f, ensure_ascii=False, indent=2)
     print(f"Lagret JSON til {json_path}")
 
 if __name__ == "__main__":
