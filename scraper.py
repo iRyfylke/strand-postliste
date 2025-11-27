@@ -2,7 +2,7 @@ from playwright.sync_api import sync_playwright
 import json
 import os
 from datetime import datetime
-import pytz
+from zoneinfo import ZoneInfo
 
 CONFIG_FILE = "config.json"
 DATA_FILE = "postliste.json"
@@ -43,7 +43,6 @@ def safe_text(element, selector: str) -> str:
 
 # Ny hjelpefunksjon for å formatere datoer til DD.MM.YYYY
 def format_dato(dato_str: str) -> str:
-    from datetime import datetime
     try:
         # antar at dato kommer som YYYY-MM-DD
         dt = datetime.strptime(dato_str, "%Y-%m-%d")
@@ -201,7 +200,7 @@ ul.files li {{ margin: .25rem 0; }}
 </head>
 <body>
 <h1>Postliste – Strand kommune</h1>
-<p>Oppdatert: {datetime.now(pytz.timezone("Europe/Oslo")).strftime("%d.%m.%Y %H:%M")}</p>
+<p>Oppdatert: {datetime.now(ZoneInfo("Europe/Oslo")).strftime("%d.%m.%Y %H:%M")}</p>
 <div id="container"></div>
 <div id="pagination" class="pagination"></div>
 <script>
