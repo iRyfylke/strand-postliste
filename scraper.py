@@ -183,27 +183,27 @@ def main():
 <meta charset="utf-8">
 <title>Postliste</title>
 <style>
-body {{ font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; margin: 2rem; }}
-.controls {{ display: flex; gap: 1rem; align-items: center; margin: 1rem 0; flex-wrap: wrap; }}
-.controls label {{ font-weight: 600; color: #333; }}
-select {{ padding: .25rem .5rem; }}
-.card {{ border: 1px solid #ddd; border-radius: 8px; padding: 1rem; margin-bottom: 1rem; }}
-.card h3 {{ margin: 0 0 .5rem 0; font-size: 1.1rem; }}
-.meta {{ color: #555; margin-bottom: .5rem; }}
-.status-publisert {{ color: #1a7f37; font-weight: 600; }}
-.status-innsyn {{ color: #b42318; font-weight: 600; }}
-.type-inngående {{ color: #1f6feb; font-weight: 600; }}
-.type-utgående {{ color: #b78103; font-weight: 600; }}
-.type-sakskart {{ color: #7d3fc2; font-weight: 600; }}
-.type-møtebok {{ color: #0ea5a5; font-weight: 600; }}
-.type-møteprotokoll {{ color: #8b5e34; font-weight: 600; }}
-.type-saksfremlegg {{ color: #14532d; font-weight: 600; }}
-.type-internt {{ color: #667085; font-weight: 600; }}
-ul.files {{ margin: .5rem 0 0 0; padding-left: 1rem; }}
-ul.files li {{ margin: .25rem 0; }}
-.pagination {{ margin: 1rem 0; display: flex; gap: .75rem; align-items: center; }}
-.pagination button {{ padding: .25rem .6rem; }}
-.summary {{ color: #444; font-size: .95rem; }}
+body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; margin: 2rem; }
+.controls { display: flex; gap: 1rem; align-items: center; margin: 1rem 0; flex-wrap: wrap; }
+.controls label { font-weight: 600; color: #333; }
+select { padding: .25rem .5rem; }
+.card { border: 1px solid #ddd; border-radius: 8px; padding: 1rem; margin-bottom: 1rem; }
+.card h3 { margin: 0 0 .5rem 0; font-size: 1.1rem; }
+.meta { color: #555; margin-bottom: .5rem; }
+.status-publisert { color: #1a7f37; font-weight: 600; }
+.status-innsyn { color: #b42318; font-weight: 600; }
+.type-inngående { color: #1f6feb; font-weight: 600; }
+.type-utgående { color: #b78103; font-weight: 600; }
+.type-sakskart { color: #7d3fc2; font-weight: 600; }
+.type-møtebok { color: #0ea5a5; font-weight: 600; }
+.type-møteprotokoll { color: #8b5e34; font-weight: 600; }
+.type-saksfremlegg { color: #14532d; font-weight: 600; }
+.type-internt { color: #667085; font-weight: 600; }
+ul.files { margin: .5rem 0 0 0; padding-left: 1rem; }
+ul.files li { margin: .25rem 0; }
+.pagination { margin: 1rem 0; display: flex; gap: .75rem; align-items: center; }
+.pagination button { padding: .25rem .6rem; }
+.summary { color: #444; font-size: .95rem; }
 </style>
 </head>
 <body>
@@ -246,7 +246,7 @@ let perPage = {per_page};
 let currentPage = 1;
 let currentFilter = "";
 
-function cssClassForType(doktype) {{
+function cssClassForType(doktype) {
   if (!doktype) return "";
   if (doktype.includes("Inngående")) return "type-inngående";
   if (doktype.includes("Utgående")) return "type-utgående";
@@ -256,9 +256,9 @@ function cssClassForType(doktype) {{
   if (doktype.includes("Saksfremlegg")) return "type-saksfremlegg";
   if (doktype.includes("Internt")) return "type-internt";
   return "";
-}}
+}
 
-function iconForType(doktype) {{
+function iconForType(doktype) {
   if (!doktype) return "📄";
   if (doktype.includes("Inngående")) return "📬";
   if (doktype.includes("Utgående")) return "📤";
@@ -268,95 +268,96 @@ function iconForType(doktype) {{
   if (doktype.includes("Saksfremlegg")) return "📝";
   if (doktype.includes("Internt")) return "📂";
   return "📄";
-}}
+}
 
-function escapeHtml(s) {{
+function escapeHtml(s) {
   if (!s) return "";
-  return s.replace(/[&<>"]/g, c => ({{"&":"&amp;","<":"&lt;","">":"&gt;","\\"":"&quot;"}})[c]);
-}}
+  return s.replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"})[c]);
+}
 
-function getFilteredData() {{
+function getFilteredData() {
   if (!currentFilter) return data;
   return data.filter(d => d.dokumenttype && d.dokumenttype.includes(currentFilter));
-}}
+}
 
-function renderSummary(totalFiltered) {{
+function renderSummary(totalFiltered) {
   const totalAll = data.length;
   const txt = currentFilter
     ? `Viser ${totalFiltered} av ${totalAll} (filter: ${currentFilter})`
     : `Viser ${totalFiltered} av ${totalAll}`;
   document.getElementById("summary").textContent = txt;
-}}
+}
 
-function renderPage(page) {{
+function renderPage(page) {
   const filtered = getFilteredData();
   const start = (page-1) * perPage;
   const end = start + perPage;
   const items = filtered.slice(start, end);
 
-  const html = items.map(d => {{
+  const html = items.map(d => {
     const typeClass = cssClassForType(d.dokumenttype || "");
     const typeIcon = iconForType(d.dokumenttype || "");
     const statusClass = d.status === "Publisert" ? "status-publisert" : "status-innsyn";
+
     const filesHtml = (d.filer && d.filer.length)
-      ? "<ul class='files'>" + d.filer.map(f => `<li><a href='${{f.url}}' target='_blank'>${{escapeHtml(f.tekst) || "Fil"}}</a></li>`).join("") + "</ul>"
-      : (d.detalj_link ? `<p><a href='${{d.detalj_link}}' target='_blank'>Be om innsyn</a></p>` : "");
+      ? "<ul class='files'>" + d.filer.map(f => `<li><a href='${f.url}' target='_blank'>${escapeHtml(f.tekst) || "Fil"}</a></li>`).join("") + "</ul>"
+      : (d.detalj_link ? `<p><a href='${d.detalj_link}' target='_blank'>Be om innsyn</a></p>` : "");
 
     const am = d.avsender_mottaker ? escapeHtml(d.avsender_mottaker) + " – " : "";
 
     return `
       <div class='card'>
-        <h3>${{escapeHtml(d.tittel)}}</h3>
+        <h3>${escapeHtml(d.tittel)}</h3>
         <p class='meta'>
-          ${{escapeHtml(d.dato)}} – ${{escapeHtml(d.dokumentID)}} – ${{am}}
-          <span class='${{typeClass}}'>${{typeIcon}} ${{escapeHtml(d.dokumenttype || "")}}</span>
+          ${escapeHtml(d.dato)} – ${escapeHtml(d.dokumentID)} – ${am}
+          <span class='${typeClass}'>${typeIcon} ${escapeHtml(d.dokumenttype || "")}</span>
         </p>
-        <p>Status: <span class='${{statusClass}}'>${{d.status}}</span></p>
-        ${{d.detalj_link ? `<p><a href='${{d.detalj_link}}' target='_blank'>Detaljer</a></p>` : ""}}
-        ${{filesHtml}}
+        <p>Status: <span class='${statusClass}'>${d.status}</span></p>
+        ${filesHtml}
+        ${d.detalj_link ? `<p><a href='${d.detalj_link}' target='_blank'>Se journalposten</a></p>` : ""}
       </div>`;
-  }}).join("");
+  }).join("");
 
   document.getElementById("container").innerHTML = html;
   renderPagination("pagination-top", page, filtered.length);
   renderPagination("pagination-bottom", page, filtered.length);
   renderSummary(filtered.length);
-}}
+}
 
-function renderPagination(elementId, page, totalItems) {{
+function renderPagination(elementId, page, totalItems) {
   const maxPage = Math.ceil(totalItems / perPage) || 1;
   document.getElementById(elementId).innerHTML =
-    `<button onclick='prevPage()' ${{page===1?"disabled":""}}>Forrige</button>
-     Side ${{page}} av ${{maxPage}}
-     <button onclick='nextPage()' ${{page>=maxPage?"disabled":""}}>Neste</button>`;
-}}
+    `<button onclick='prevPage()' ${page===1?"disabled":""}>Forrige</button>
+     Side ${page} av ${maxPage}
+     <button onclick='nextPage()' ${page>=maxPage?"disabled":""}>Neste</button>`;
+}
 
-function prevPage() {{
-  if (currentPage > 1) {{
+function prevPage() {
+  if (currentPage > 1) {
     currentPage--;
     renderPage(currentPage);
-  }}
-}}
+  }
+}
 
-function nextPage() {{
+function nextPage() {
   const maxPage = Math.ceil(getFilteredData().length / perPage) || 1;
-  if (currentPage < maxPage) {{
+  if (currentPage < maxPage) {
     currentPage++;
     renderPage(currentPage);
-  }}
-}}
+  }
+}
 
-function applyFilter() {{
+function applyFilter() {
   currentFilter = document.getElementById("filterType").value;
   currentPage = 1;
   renderPage(currentPage);
-}}
+}
 
-function changePerPage() {{
+function changePerPage() {
   perPage = parseInt(document.getElementById("perPage").value, 10);
   currentPage = 1;
   renderPage(currentPage);
-}}
+}
 
 renderPage(currentPage);
 </script>
