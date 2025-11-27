@@ -14,7 +14,7 @@ def load_config():
     if os.path.exists(CONFIG_FILE):
         with open(CONFIG_FILE, "r", encoding="utf-8") as f:
             return json.load(f)
-    return {"max_pages": 20, "per_page": 50}
+    return {"max_pages": 2, "per_page": 50}
 
 def safe_text(element, selector: str) -> str:
     node = element.query_selector(selector)
@@ -22,12 +22,13 @@ def safe_text(element, selector: str) -> str:
 
 def hent_side(page_num: int, browser):
     url = BASE_URL.format(page=page_num)
+    print(f"[INFO] Åpner side {page_num}: {url}")
     page = browser.new_page()
-    page.goto(url, timeout=30000)
     try:
-        page.wait_for_selector("article.bc-content-teaser--item", timeout=10000)
-    except:
-        print(f"[Side {page_num}] Ingen oppføringer funnet.")
+        page.goto(url, timeout=15000)
+        page.wait_for_selector("article.bc-content-teaser--item", timeout=5000)
+    except Exception as e:
+        print(f"[WARN] Ingen oppføringer på side {page_num} ({e})")
         page.close()
         return []
 
@@ -47,8 +48,8 @@ def hent_side(page_num: int, browser):
         if detalj_link:
             detail_page = browser.new_page()
             try:
-                detail_page.goto(detalj_link, timeout=30000)
-                detail_page.wait_for_selector("a.bc-content-link", timeout=5000)
+                detail_page.goto(detalj_link, timeout=15000)
+                detail_page.wait_for_selector("a.bc-content-link", timeout=3000)
                 file_links = detail_page.query_selector_all("a.bc-content-link")
                 for fl in file_links:
                     href = fl.get_attribute("href")
@@ -59,7 +60,7 @@ def hent_side(page_num: int, browser):
                             "url": "https://www.strand.kommune.no" + href
                         })
             except Exception as e:
-                print(f"[Side {page_num}] Klarte ikke hente filer for {tittel}: {e}")
+                print(f"[WARN] Klarte ikke hente filer for '{tittel}': {e}")
             finally:
                 detail_page.close()
 
@@ -73,30 +74,31 @@ def hent_side(page_num: int, browser):
             "filer": filer
         })
     page.close()
-    print(f"[Side {page_num}] Fant {len(dokumenter)} dokumenter.")
+    print(f"[INFO] Side {page_num}: {len(dokumenter)} dokumenter funnet.")
     return dokumenter
 
 def main():
+    print("[INFO] Starter scraper…")
     config = load_config()
-    max_pages = config.get("max_pages", 20)
+    max_pages = config.get("max_pages", 2)
     per_page = config.get("per_page", 50)
 
     alle_dokumenter = []
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
+        browser = p.chromium.launch(headless=True, args=["--no-sandbox"])
         for page_num in range(1, max_pages + 1):
             docs = hent_side(page_num, browser)
             if not docs:
-                print(f"[Side {page_num}] Stopper – ingen flere dokumenter.")
+                print(f"[INFO] Stopper på side {page_num} – ingen flere dokumenter.")
                 break
             alle_dokumenter.extend(docs)
-            print(f"Totalt hittil: {len(alle_dokumenter)} dokumenter.")
+            print(f"[INFO] Totalt hittil: {len(alle_dokumenter)} dokumenter.")
         browser.close()
 
     # lagre JSON
     with open("postliste.json", "w", encoding="utf-8") as f:
         json.dump(alle_dokumenter, f, ensure_ascii=False, indent=2)
-    print(f"✅ Lagret JSON med {len(alle_dokumenter)} dokumenter")
+    print(f"[INFO] Lagret JSON med {len(alle_dokumenter)} dokumenter")
 
     # lag HTML med paginering og fil-lenker
     html = f"""<!doctype html>
@@ -147,7 +149,7 @@ renderPage(currentPage);
 </html>"""
     with open("index.html", "w", encoding="utf-8") as f:
         f.write(html)
-    print(f"✅ Lagret HTML med paginering og fil-lenker")
+    print(f"[INFO] Lagret HTML med paginering og fil-lenker")
 
 if __name__ == "__main__":
     main()
