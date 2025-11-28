@@ -56,6 +56,7 @@ body {{
 }}
 header h1 {{ margin: 0 0 .25rem 0; }}
 header .updated {{ color: var(--muted); margin-bottom: 1rem; }}
+
 .controls {{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -166,7 +167,7 @@ hr {{ border: none; border-top: 1px solid var(--border); margin: 1rem 0; }}
       <option value="5">5</option>
       <option value="10">10</option>
       <option value="20">20</option>
-      <option value="50">50</option>
+      <option value="50" selected>50</option>
     </select>
   </div>
   <div class="actions">
@@ -180,13 +181,17 @@ hr {{ border: none; border-top: 1px solid var(--border); margin: 1rem 0; }}
 <nav id="pagination-bottom" class="pagination" aria-label="Paginering bunn"></nav>
 
 <script>
+// Data fra JSON
 const data = {json.dumps(data, ensure_ascii=False)};
+
+// Konfig
 let perPage = {per_page};
 let currentPage = 1;
 let currentFilter = "";
 let currentSearch = "";
 let currentSort = "dato-desc";
 
+// Utils
 function escapeHtml(s) {{
   if (!s) return "";
   return s.replace(/[&<>"]/g, c => ({{"&":"&amp;","<":"&lt;",">":"&gt;","\\"":"&quot;"}})[c]);
@@ -216,35 +221,44 @@ function iconForType(doktype) {{
   return "📄";
 }}
 
-function parseNoDate(d) {{
-  // Dato forventes som DD.MM.YYYY
-  if (!d) return 0;
-  const [DD, MM, YYYY] = d.split(".");
-  return new Date(`${{YYYY}}-${{MM}}-${{DD}}`).getTime();
+// Hent dato for sortering: bruk parsed_date (ISO) hvis finnes, ellers d.dato (DD.MM.YYYY)
+function getDateForSort(d) {{
+  const iso = d.parsed_date || "";
+  if (iso) {{
+    const t = Date.parse(iso);
+    if (!isNaN(t)) return t;
+  }}
+  const dd = d.dato || "";
+  if (!dd) return 0;
+  const parts = dd.split(".");
+  if (parts.length === 3) {{
+    const [DD, MM, YYYY] = parts;
+    const t = Date.parse(`${{YYYY}}-${{MM}}-${{DD}}`);
+    return isNaN(t) ? 0 : t;
+  }}
+  return 0;
 }}
 
+// Filtrering + søk + sortering
 function getFilteredData() {{
   let arr = data.slice();
 
-  // Søk
   if (currentSearch) {{
     const q = currentSearch.toLowerCase();
     arr = arr.filter(d =>
       (d.tittel && d.tittel.toLowerCase().includes(q)) ||
-      (d.dokumentID && d.dokumentID.toLowerCase().includes(q)) ||
+      (d.dokumentID && String(d.dokumentID).toLowerCase().includes(q)) ||
       (d.avsender_mottaker && d.avsender_mottaker.toLowerCase().includes(q))
     );
   }}
 
-  // Filter type
   if (currentFilter) {{
     arr = arr.filter(d => d.dokumenttype && d.dokumenttype.includes(currentFilter));
   }}
 
-  // Sortering
   arr.sort((a,b) => {{
-    if (currentSort === "dato-desc") return parseNoDate(b.dato) - parseNoDate(a.dato);
-    if (currentSort === "dato-asc") return parseNoDate(a.dato) - parseNoDate(b.dato);
+    if (currentSort === "dato-desc") return getDateForSort(b) - getDateForSort(a);
+    if (currentSort === "dato-asc") return getDateForSort(a) - getDateForSort(b);
     if (currentSort === "type-asc") return (a.dokumenttype||"").localeCompare(b.dokumenttype||"");
     if (currentSort === "type-desc") return (b.dokumenttype||"").localeCompare(a.dokumenttype||"");
     if (currentSort === "status-publisert") return (b.status === "Publisert") - (a.status === "Publisert");
@@ -265,6 +279,7 @@ function renderSummary(totalFiltered) {{
     `Viser ${{totalFiltered}} av ${{totalAll}}${{ctx}}`;
 }}
 
+// Render side
 function renderPage(page) {{
   const filtered = getFilteredData();
   const start = (page-1) * perPage;
@@ -275,22 +290,32 @@ function renderPage(page) {{
     const typeClass = cssClassForType(d.dokumenttype || "");
     const typeIcon = iconForType(d.dokumenttype || "");
     const statusClass = d.status === "Publisert" ? "status-publisert" : "status-innsyn";
-    const filesHtml = (d.filer && d.filer.length)
-      ? "<ul class='files'>" + d.filer.map(f => `<li><a href='${{f.url}}' target='_blank'>${{escapeHtml(f.tekst) || "Fil"}}</a></li>`).join("") + "</ul>"
-      : (d.detalj_link ? `<p><a href='${{d.detalj_link}}' target='_blank'>Be om innsyn</a></p>` : "");
+    const link = d.journal_link || d.detalj_link || "";
+
+    // Betinget visning av dokumenter
+    let filesHtml = "";
+    if (d.status === "Publisert" && d.filer && d.filer.length) {{
+      filesHtml = "<ul class='files'>" + d.filer.map(f => `
+        <li><a href='${{f.url}}' target='_blank'>${{escapeHtml(f.tekst) || "Fil"}}</a></li>
+      `).join("") + "</ul>";
+    }} else if (link) {{
+      // Status != Publisert => vis "Be om innsyn"
+      filesHtml = `<p><a href='${{link}}' target='_blank'>Be om innsyn</a></p>`;
+    }}
 
     const am = d.avsender_mottaker ? escapeHtml(d.avsender_mottaker) + " – " : "";
+    const datoVis = escapeHtml(d.dato || (d.parsed_date ? new Date(d.parsed_date).toLocaleDateString("no-NO") : ""));
 
     return `
       <article class='card'>
         <h3>${{escapeHtml(d.tittel)}}</h3>
         <p class='meta'>
-          ${{escapeHtml(d.dato)}} – ${{escapeHtml(d.dokumentID)}} – ${{am}}
+          ${{datoVis}} – ${{escapeHtml(String(d.dokumentID||""))}} – ${{am}}
           <span class='${{typeClass}}'>${{typeIcon}} ${{escapeHtml(d.dokumenttype || "")}}</span>
         </p>
         <p>Status: <span class='${{statusClass}}'>${{d.status}}</span></p>
         ${{filesHtml}}
-        ${{d.detalj_link ? `<p class='footer-link'><a href='${{d.detalj_link}}' target='_blank' aria-label='Åpne journalposten'>Se journalposten</a></p>` : ""}}
+        ${{link ? `<p class='footer-link'><a href='${{link}}' target='_blank' aria-label='Åpne journalposten'>Se journalposten</a></p>` : ""}}
       </article>`;
   }}).join("");
 
@@ -349,16 +374,17 @@ function changePerPage() {{
 
 function exportCSV() {{
   const filtered = getFilteredData();
-  const rows = [["Dato","DokumentID","Tittel","Dokumenttype","Avsender/Mottaker","Status","Detaljlenke"]];
+  const rows = [["Dato","DokumentID","Tittel","Dokumenttype","Avsender/Mottaker","Status","Journalpostlenke"]];
   filtered.forEach(d => {{
+    const link = d.journal_link || d.detalj_link || "";
     rows.push([
-      d.dato || "",
-      d.dokumentID || "",
+      d.dato || (d.parsed_date || ""),
+      String(d.dokumentID || ""),
       (d.tittel || "").replace(/\\s+/g, " ").trim(),
       d.dokumenttype || "",
       d.avsender_mottaker || "",
       d.status || "",
-      d.detalj_link || ""
+      link
     ]);
   }});
   const csv = rows.map(r => r.map(v => `"${{String(v).replace(/"/g, '""')}}"`).join(",")).join("\\n");
@@ -373,7 +399,6 @@ function exportCSV() {{
   URL.revokeObjectURL(url);
 }}
 
-// Init
 document.addEventListener("DOMContentLoaded", () => {{
   // Sett default perPage fra config
   const perPageSelect = document.getElementById("perPage");
