@@ -46,6 +46,11 @@ def parse_dato_str(s):
     except Exception:
         return None
 
+def format_dato_ddmmYYYY(d):
+    if not d:
+        return ""
+    return d.strftime("%d.%m.%Y")
+
 def hent_side(url, browser):
     page = browser.new_page()
     docs = []
@@ -68,12 +73,11 @@ def hent_side(url, browser):
         mottaker = safe_text(art, ".bc-content-teaser-meta-property--mottaker dd")
         am = f"Avsender: {avsender}" if avsender else (f"Mottaker: {mottaker}" if mottaker else "")
 
-        # Finn detaljlenke fra tittelen
+        # Finn detaljlenke som i scraper.py
         detalj_link = ""
         try:
-            link_elem = art.query_selector("a.bc-content-teaser-title")
-            if link_elem:
-                detalj_link = link_elem.get_attribute("href")
+            link_elem = art.evaluate_handle("node => node.closest('a')")
+            detalj_link = link_elem.get_attribute("href") if link_elem else ""
         except Exception:
             detalj_link = ""
         if detalj_link and not detalj_link.startswith("http"):
@@ -84,23 +88,11 @@ def hent_side(url, browser):
             dp = browser.new_page()
             try:
                 dp.goto(detalj_link, timeout=20000)
-                dp.wait_for_selector("h4.bc-heading", timeout=5000)
-
-                # Hoveddokument
-                for a in dp.query_selector_all("h4:has-text('Hoveddokument') ~ div a[href]"):
-                    href = a.get_attribute("href")
-                    tekst = (a.inner_text() or "").strip()
-                    if href:
+                for fl in dp.query_selector_all("a"):
+                    href, tekst = fl.get_attribute("href"), fl.inner_text()
+                    if href and "/api/presentation/v2/nye-innsyn/filer" in href:
                         abs_url = href if href.startswith("http") else "https://www.strand.kommune.no" + href
-                        filer.append({"tekst": tekst, "url": abs_url})
-
-                # Vedlegg til saken
-                for a in dp.query_selector_all("h4:has-text('Vedlegg til saken') ~ div a[href]"):
-                    href = a.get_attribute("href")
-                    tekst = (a.inner_text() or "").strip()
-                    if href:
-                        abs_url = href if href.startswith("http") else "https://www.strand.kommune.no" + href
-                        filer.append({"tekst": tekst, "url": abs_url})
+                        filer.append({"tekst": tekst.strip(), "url": abs_url})
             except Exception:
                 pass
             finally:
@@ -110,7 +102,7 @@ def hent_side(url, browser):
 
         docs.append({
             "tittel": tittel,
-            "dato": dato_str,
+            "dato": format_dato_ddmmYYYY(parsed_date) if parsed_date else dato_str,
             "parsed_date": parsed_date.isoformat() if parsed_date else None,
             "dokumentID": dokid,
             "dokumenttype": doktype,
