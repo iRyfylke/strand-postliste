@@ -1,531 +1,90 @@
 from playwright.sync_api import sync_playwright
-import json
-import os
+import json, os
 from datetime import datetime
-from zoneinfo import ZoneInfo
 
 CONFIG_FILE = "config.json"
 DATA_FILE = "postliste.json"
-
-BASE_URL = (
-    "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/"
-    "postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/?page={page}&pageSize=100"
-)
+BASE_URL = "https://www.strand.kommune.no/.../sok-i-post-dokumenter-og-saker/#/?page={page}&pageSize=100"
 
 def load_config():
     if os.path.exists(CONFIG_FILE):
-        with open(CONFIG_FILE, "r", encoding="utf-8") as f:
-            return json.load(f)
-    return {
-        "mode": "incremental",
-        "max_pages_incremental": 5,
-        "max_pages_update": 200,
-        "per_page": 50
-    }
+        with open(CONFIG_FILE,"r",encoding="utf-8") as f: return json.load(f)
+    return {"mode":"incremental","max_pages_incremental":5,"max_pages_update":100,"max_pages_full":200,"per_page":50}
 
 def load_existing():
     if os.path.exists(DATA_FILE):
-        with open(DATA_FILE, "r", encoding="utf-8") as f:
-            try:
-                data = json.load(f)
-                # Sikre at vi har liste -> dict keyed by dokumentID
-                return {d["dokumentID"]: d for d in data if "dokumentID" in d}
-            except Exception:
-                return {}
+        with open(DATA_FILE,"r",encoding="utf-8") as f:
+            try: return {d["dokumentID"]:d for d in json.load(f) if "dokumentID" in d}
+            except: return {}
     return {}
 
-def safe_text(element, selector: str) -> str:
+def safe_text(el,sel): 
+    try: node=el.query_selector(sel); return node.inner_text().strip() if node else ""
+    except: return ""
+
+def format_dato(s):
+    try: return datetime.strptime(s,"%Y-%m-%d").strftime("%d.%m.%Y")
+    except: return s
+
+def hent_side(page_num,browser):
+    url=BASE_URL.format(page=page_num); print(f"[INFO] Åpner side {page_num}")
+    page=browser.new_page()
     try:
-        node = element.query_selector(selector)
-        return node.inner_text().strip() if node else ""
-    except Exception:
-        return ""
-
-# Ny hjelpefunksjon for å formatere datoer til DD.MM.YYYY
-def format_dato(dato_str: str) -> str:
-    from datetime import datetime
-    try:
-        dt = datetime.strptime(dato_str, "%Y-%m-%d")
-        return dt.strftime("%d.%m.%Y")
-    except Exception:
-        return dato_str
-
-def hent_side(page_num: int, browser):
-    url = BASE_URL.format(page=page_num)
-    print(f"[INFO] Åpner side {page_num}: {url}")
-    page = browser.new_page()
-    try:
-        page.goto(url, timeout=15000)
-        page.wait_for_selector("article.bc-content-teaser--item", timeout=5000)
-    except Exception as e:
-        print(f"[WARN] Ingen oppføringer på side {page_num} ({e})")
-        page.close()
-        return []
-
-    articles = page.query_selector_all("article.bc-content-teaser--item")
-    dokumenter = []
-    for art in articles:
-        tittel = safe_text(art, ".bc-content-teaser-title-text")
-        dato_raw = safe_text(art, ".bc-content-teaser-meta-property--dato dd")
-        dato = format_dato(dato_raw)
-        dokid = safe_text(art, ".bc-content-teaser-meta-property--dokumentID dd")
-        doktype = safe_text(art, ".SakListItem_sakListItemTypeText__16759c")
-
-        # Avsender/mottaker med label
-        avsender = safe_text(art, ".bc-content-teaser-meta-property--avsender dd")
-        mottaker = safe_text(art, ".bc-content-teaser-meta-property--mottaker dd")
-        if avsender:
-            am = f"Avsender: {avsender}"
-        elif mottaker:
-            am = f"Mottaker: {mottaker}"
-        else:
-            am = ""
-
-        if not dokid:
-            continue
-
-        detalj_link = ""
+        page.goto(url,timeout=15000); page.wait_for_selector("article.bc-content-teaser--item",timeout=5000)
+    except: page.close(); return []
+    docs=[]
+    for art in page.query_selector_all("article.bc-content-teaser--item"):
+        dokid=safe_text(art,".bc-content-teaser-meta-property--dokumentID dd")
+        if not dokid: continue
+        tittel=safe_text(art,".bc-content-teaser-title-text")
+        dato=format_dato(safe_text(art,".bc-content-teaser-meta-property--dato dd"))
+        doktype=safe_text(art,".SakListItem_sakListItemTypeText__16759c")
+        avsender=safe_text(art,".bc-content-teaser-meta-property--avsender dd")
+        mottaker=safe_text(art,".bc-content-teaser-meta-property--mottaker dd")
+        am=f"Avsender: {avsender}" if avsender else f"Mottaker: {mottaker}" if mottaker else ""
+        detalj_link=""; filer=[]
         try:
-            link_elem = art.evaluate_handle("node => node.closest('a')")
-            detalj_link = link_elem.get_attribute("href") if link_elem else ""
-        except Exception:
-            detalj_link = ""
-
-        filer = []
+            link_elem=art.evaluate_handle("node => node.closest('a')")
+            detalj_link=link_elem.get_attribute("href") if link_elem else ""
+        except: pass
         if detalj_link:
-            detail_page = browser.new_page()
+            dp=browser.new_page()
             try:
-                detail_page.goto(detalj_link, timeout=15000)
-                file_links = detail_page.query_selector_all("a")
-                for fl in file_links:
-                    href = fl.get_attribute("href")
-                    tekst = fl.inner_text()
+                dp.goto(detalj_link,timeout=15000)
+                for fl in dp.query_selector_all("a"):
+                    href,tekst=fl.get_attribute("href"),fl.inner_text()
                     if href and "/api/presentation/v2/nye-innsyn/filer" in href:
-                        abs_url = href if href.startswith("http") else "https://www.strand.kommune.no" + href
-                        filer.append({"tekst": tekst, "url": abs_url})
-            except Exception as e:
-                print(f"[WARN] Klarte ikke hente filer for '{tittel}': {e}")
-            finally:
-                detail_page.close()
-
-        dokumenter.append({
-            "tittel": tittel,
-            "dato": dato,
-            "dokumentID": dokid,
-            "dokumenttype": doktype,
-            "avsender_mottaker": am,
-            "side": page_num,
-            "detalj_link": detalj_link,
-            "filer": filer,
-            "status": "Publisert" if filer else "Må bes om innsyn"
-        })
-    page.close()
-    return dokumenter
+                        abs_url=href if href.startswith("http") else "https://www.strand.kommune.no"+href
+                        filer.append({"tekst":tekst,"url":abs_url})
+            finally: dp.close()
+        status="Publisert" if filer else "Må bes om innsyn"
+        docs.append({"tittel":tittel,"dato":dato,"dokumentID":dokid,"dokumenttype":doktype,
+                     "avsender_mottaker":am,"side":page_num,"detalj_link":detalj_link,
+                     "filer":filer,"status":status})
+    page.close(); return docs
 
 def main():
     print("[INFO] Starter scraper…")
-    config = load_config()
-    mode = config.get("mode", "incremental")
-    max_pages = config["max_pages_incremental"] if mode == "incremental" else config["max_pages_update"]
-    per_page = config.get("per_page", 50)
-
-    existing = load_existing()
-    updated = dict(existing)
+    config=load_config(); mode=config.get("mode","incremental")
+    max_pages=config.get(f"max_pages_{mode}",50)
+    existing=load_existing(); updated=dict(existing)
 
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True, args=["--no-sandbox"])
-        for page_num in range(1, max_pages + 1):
-            docs = hent_side(page_num, browser)
-            if not docs:
-                continue
-
-            # Oppdater/legg til
+        browser=p.chromium.launch(headless=True,args=["--no-sandbox"])
+        for page_num in range(1,max_pages+1):
+            docs=hent_side(page_num,browser)
+            if not docs: break
             for d in docs:
-                doc_id = d["dokumentID"]
-                if doc_id not in updated:
-                    print(f"[NEW] {doc_id} – {d['tittel']}")
-                    updated[doc_id] = d
-                else:
-                    old = updated[doc_id]
-                    changed = (
-                        old.get("status") != d.get("status") or
-                        len(old.get("filer", [])) != len(d.get("filer", [])) or
-                        old.get("tittel") != d.get("tittel") or
-                        old.get("dokumenttype") != d.get("dokumenttype") or
-                        old.get("avsender_mottaker") != d.get("avsender_mottaker")
-                    )
-                    if changed:
-                        print(f"[UPDATE] {doc_id} – {d['tittel']}")
-                        updated[doc_id] = d
-
-            # I incremental-modus: stopp når vi treffer kjent ID (resten antas å være gamle)
-            #if mode == "incremental":
-            #    if any(d["dokumentID"] in existing for d in docs):
-            #        print("[INFO] Incremental: Stoppet – fant eksisterende oppføring på denne siden.")
-            #        break
+                doc_id=d["dokumentID"]; old=updated.get(doc_id)
+                if not old or any(old.get(k)!=d.get(k) for k in ["status","tittel","dokumenttype","avsender_mottaker"]) or len(old.get("filer",[]))!=len(d.get("filer",[])):
+                    updated[doc_id]=d
+                    print(f"[{'NEW' if not old else 'UPDATE'}] {doc_id} – {d['tittel']}")
+            if mode=="incremental" and any(d["dokumentID"] in existing for d in docs):
+                print("[INFO] Incremental: Stoppet – fant eksisterende oppføring på denne siden."); break
         browser.close()
 
-    # Lagre JSON (liste av verdier sortert etter dato, hvis mulig)
-    data_list = list(updated.values())
-    try:
-        data_list.sort(key=lambda x: x.get("dato", ""), reverse=True)
-    except Exception:
-        pass
-
-    with open(DATA_FILE, "w", encoding="utf-8") as f:
-        json.dump(data_list, f, ensure_ascii=False, indent=2)
+    data_list=sorted(updated.values(),key=lambda x:x.get("dato",""),reverse=True)
+    with open(DATA_FILE,"w",encoding="utf-8") as f: json.dump(data_list,f,ensure_ascii=False,indent=2)
     print(f"[INFO] Lagret JSON med {len(data_list)} dokumenter")
 
-    # Generer komplett HTML med søk, sortering, filtrering, eksport, responsiv design, paginering (topp/bunn) og norsk tid/datoformat
-    html = f"""<!doctype html>
-<html lang="no">
-<head>
-<meta charset="utf-8">
-<title>Postliste</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-:root {{
-  --border: #ddd;
-  --text: #333;
-  --muted: #555;
-  --bg: #fff;
-  --link: #1f6feb;
-  --green: #1a7f37;
-  --red: #b42318;
-}}
-body {{
-  font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
-  margin: 2rem;
-  color: var(--text);
-  background: var(--bg);
-}}
-header h1 {{ margin: 0 0 .25rem 0; }}
-header .updated {{ color: var(--muted); margin-bottom: 1rem; }}
-
-.controls {{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: .75rem;
-  align-items: end;
-  margin: 1rem 0;
-}}
-.controls .field {{ display: flex; flex-direction: column; gap: .25rem; }}
-.controls label {{ font-weight: 600; color: var(--text); }}
-.controls input[type="text"], .controls select, .controls button {{
-  padding: .4rem .6rem;
-  border: 1px solid var(--border);
-  border-radius: 6px;
-  background: #fff;
-}}
-.controls .actions {{ display: flex; gap: .5rem; align-items: center; }}
-
-.container {{
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 1rem;
-}}
-@media (min-width: 900px) {{
-  .container {{ grid-template-columns: 1fr 1fr; }}
-}}
-
-.card {{
-  border: 1px solid var(--border);
-  border-radius: 10px;
-  padding: 1rem;
-  display: flex;
-  flex-direction: column;
-  gap: .5rem;
-}}
-.card h3 {{ margin: 0; font-size: 1.1rem; }}
-.meta {{ color: var(--muted); }}
-.status-publisert {{ color: var(--green); font-weight: 600; }}
-.status-innsyn {{ color: var(--red); font-weight: 600; }}
-.type-inngående {{ color: #1f6feb; font-weight: 600; }}
-.type-utgående {{ color: #b78103; font-weight: 600; }}
-.type-sakskart {{ color: #7d3fc2; font-weight: 600; }}
-.type-møtebok {{ color: #0ea5a5; font-weight: 600; }}
-.type-møteprotokoll {{ color: #8b5e34; font-weight: 600; }}
-.type-saksfremlegg {{ color: #14532d; font-weight: 600; }}
-.type-internt {{ color: #667085; font-weight: 600; }}
-ul.files {{ margin: .25rem 0 0 0; padding-left: 1rem; }}
-ul.files li {{ margin: .25rem 0; }}
-.card .footer-link a {{ color: var(--link); text-decoration: none; }}
-.card .footer-link a:hover {{ text-decoration: underline; }}
-
-.pagination {{
-  margin: 1rem 0;
-  display: flex;
-  gap: .75rem;
-  align-items: center;
-  flex-wrap: wrap;
-}}
-.pagination button {{
-  padding: .35rem .7rem;
-  border: 1px solid var(--border);
-  border-radius: 6px;
-  background: #fff;
-}}
-.summary {{ color: var(--muted); font-size: .95rem; }}
-
-hr {{ border: none; border-top: 1px solid var(--border); margin: 1rem 0; }}
-</style>
-</head>
-<body>
-<header>
-  <h1>Postliste – Strand kommune</h1>
-  <p class="updated">Oppdatert: {datetime.now(ZoneInfo("Europe/Oslo")).strftime("%d.%m.%Y %H:%M")}</p>
-</header>
-
-<section class="controls" aria-label="Kontroller for filtrering, søk og sortering">
-  <div class="field">
-    <label for="searchInput">Søk (tittel, dokumentID, avsender/mottaker):</label>
-    <input id="searchInput" type="text" placeholder="Skriv for å søke …" oninput="applySearch()" />
-  </div>
-  <div class="field">
-    <label for="filterType">Filtrer på dokumenttype:</label>
-    <select id="filterType" onchange="applyFilter()">
-      <option value="">Alle</option>
-      <option value="Inngående">Inngående</option>
-      <option value="Utgående">Utgående</option>
-      <option value="Sakskart">Sakskart</option>
-      <option value="Møtebok">Møtebok</option>
-      <option value="Møteprotokoll">Møteprotokoll</option>
-      <option value="Saksfremlegg">Saksfremlegg</option>
-      <option value="Internt">Internt</option>
-    </select>
-  </div>
-  <div class="field">
-    <label for="sortSelect">Sorter:</label>
-    <select id="sortSelect" onchange="applySort()">
-      <option value="dato-desc">Dato (nyeste først)</option>
-      <option value="dato-asc">Dato (eldste først)</option>
-      <option value="type-asc">Dokumenttype (A–Å)</option>
-      <option value="type-desc">Dokumenttype (Å–A)</option>
-      <option value="status-publisert">Status (Publisert først)</option>
-      <option value="status-innsyn">Status (Må bes om innsyn først)</option>
-    </select>
-  </div>
-  <div class="field">
-    <label for="perPage">Oppføringer per side:</label>
-    <select id="perPage" onchange="changePerPage()">
-      <option value="5">5</option>
-      <option value="10" selected>10</option>
-      <option value="20">20</option>
-      <option value="50">50</option>
-    </select>
-  </div>
-  <div class="actions">
-    <button onclick="exportCSV()">Eksporter CSV</button>
-    <span class="summary" id="summary" aria-live="polite"></span>
-  </div>
-</section>
-
-<nav id="pagination-top" class="pagination" aria-label="Paginering topp"></nav>
-<main id="container" class="container"></main>
-<nav id="pagination-bottom" class="pagination" aria-label="Paginering bunn"></nav>
-
-<script>
-const data = {json.dumps(data_list, ensure_ascii=False)};
-let perPage = {per_page};
-let currentPage = 1;
-let currentFilter = "";
-let currentSearch = "";
-let currentSort = "dato-desc";
-
-function cssClassForType(doktype) {{
-  if (!doktype) return "";
-  if (doktype.includes("Inngående")) return "type-inngående";
-  if (doktype.includes("Utgående")) return "type-utgående";
-  if (doktype.includes("Sakskart")) return "type-sakskart";
-  if (doktype.includes("Møtebok")) return "type-møtebok";
-  if (doktype.includes("Møteprotokoll")) return "type-møteprotokoll";
-  if (doktype.includes("Saksfremlegg")) return "type-saksfremlegg";
-  if (doktype.includes("Internt")) return "type-internt";
-  return "";
-}}
-
-function iconForType(doktype) {{
-  if (!doktype) return "📄";
-  if (doktype.includes("Inngående")) return "📬";
-  if (doktype.includes("Utgående")) return "📤";
-  if (doktype.includes("Sakskart")) return "📑";
-  if (doktype.includes("Møtebok")) return "📘";
-  if (doktype.includes("Møteprotokoll")) return "📜";
-  if (doktype.includes("Saksfremlegg")) return "📝";
-  if (doktype.includes("Internt")) return "📂";
-  return "📄";
-}}
-
-function escapeHtml(s) {{
-  if (!s) return "";
-  return s.replace(/[&<>"]/g, c => ({{"&":"&amp;","<":"&lt;",">":"&gt;","\\"":"&quot;"}})[c]);
-}}
-
-function parseNoDate(d) {{
-  // d forventes som DD.MM.YYYY
-  if (!d) return 0;
-  const [DD, MM, YYYY] = d.split(".");
-  const iso = `${{YYYY}}-${{MM}}-${{DD}}`;
-  return new Date(iso).getTime();
-}}
-
-function getFilteredData() {{
-  let arr = data.slice();
-
-  // Søk
-  if (currentSearch) {{
-    const q = currentSearch.toLowerCase();
-    arr = arr.filter(d =>
-      (d.tittel && d.tittel.toLowerCase().includes(q)) ||
-      (d.dokumentID && d.dokumentID.toLowerCase().includes(q)) ||
-      (d.avsender_mottaker && d.avsender_mottaker.toLowerCase().includes(q))
-    );
-  }}
-
-  // Filter type
-  if (currentFilter) {{
-    arr = arr.filter(d => d.dokumenttype && d.dokumenttype.includes(currentFilter));
-  }}
-
-  // Sortering
-  arr.sort((a,b) => {{
-    if (currentSort === "dato-desc") return parseNoDate(b.dato) - parseNoDate(a.dato);
-    if (currentSort === "dato-asc") return parseNoDate(a.dato) - parseNoDate(b.dato);
-    if (currentSort === "type-asc") return (a.dokumenttype||"").localeCompare(b.dokumenttype||"");
-    if (currentSort === "type-desc") return (b.dokumenttype||"").localeCompare(a.dokumenttype||"");
-    if (currentSort === "status-publisert") return (b.status === "Publisert") - (a.status === "Publisert");
-    if (currentSort === "status-innsyn") return (a.status === "Publisert") - (b.status === "Publisert");
-    return 0;
-  }});
-
-  return arr;
-}}
-
-function renderSummary(totalFiltered) {{
-  const totalAll = data.length;
-  const parts = [];
-  if (currentSearch) parts.push(`søk: "${{currentSearch}}"`);
-  if (currentFilter) parts.push(`filter: ${{currentFilter}}`);
-  const ctx = parts.length ? ` (${{parts.join(", ")}})` : "";
-  document.getElementById("summary").textContent =
-    `Viser ${{totalFiltered}} av ${{totalAll}}${{ctx}}`;
-}}
-
-function renderPage(page) {{
-  const filtered = getFilteredData();
-  const start = (page-1) * perPage;
-  const end = start + perPage;
-  const items = filtered.slice(start, end);
-
-  const cards = items.map(d => {{
-    const typeClass = cssClassForType(d.dokumenttype || "");
-    const typeIcon = iconForType(d.dokumenttype || "");
-    const statusClass = d.status === "Publisert" ? "status-publisert" : "status-innsyn";
-    const filesHtml = (d.filer && d.filer.length)
-      ? "<ul class='files'>" + d.filer.map(f => `<li><a href='${{f.url}}' target='_blank'>${{escapeHtml(f.tekst) || "Fil"}}</a></li>`).join("") + "</ul>"
-      : (d.detalj_link ? `<p><a href='${{d.detalj_link}}' target='_blank'>Be om innsyn</a></p>` : "");
-
-    const am = d.avsender_mottaker ? escapeHtml(d.avsender_mottaker) + " – " : "";
-
-    return `
-      <article class='card'>
-        <h3>${{escapeHtml(d.tittel)}}</h3>
-        <p class='meta'>
-          ${{escapeHtml(d.dato)}} – ${{escapeHtml(d.dokumentID)}} – ${{am}}
-          <span class='${{typeClass}}'>${{typeIcon}} ${{escapeHtml(d.dokumenttype || "")}}</span>
-        </p>
-        <p>Status: <span class='${{statusClass}}'>${{d.status}}</span></p>
-        ${{filesHtml}}
-        ${{d.detalj_link ? `<p class='footer-link'><a href='${{d.detalj_link}}' target='_blank' aria-label='Åpne journalposten'>Se journalposten</a></p>` : ""}}
-      </article>`;
-  }}).join("");
-
-  document.getElementById("container").innerHTML = cards;
-  renderPagination("pagination-top", page, filtered.length);
-  renderPagination("pagination-bottom", page, filtered.length);
-  renderSummary(filtered.length);
-}}
-
-function renderPagination(elementId, page, totalItems) {{
-  const maxPage = Math.ceil(totalItems / perPage) || 1;
-  document.getElementById(elementId).innerHTML =
-    `<button onclick='prevPage()' ${{page===1?"disabled":""}}>Forrige</button>
-     <span>Side ${{page}} av ${{maxPage}}</span>
-     <button onclick='nextPage()' ${{page>=maxPage?"disabled":""}}>Neste</button>`;
-}}
-
-function prevPage() {{
-  if (currentPage > 1) {{
-    currentPage--;
-    renderPage(currentPage);
-  }}
-}}
-
-function nextPage() {{
-  const maxPage = Math.ceil(getFilteredData().length / perPage) || 1;
-  if (currentPage < maxPage) {{
-    currentPage++;
-    renderPage(currentPage);
-  }}
-}}
-
-function applyFilter() {{
-  currentFilter = document.getElementById("filterType").value;
-  currentPage = 1;
-  renderPage(currentPage);
-}}
-
-function applySearch() {{
-  currentSearch = document.getElementById("searchInput").value.trim();
-  currentPage = 1;
-  renderPage(currentPage);
-}}
-
-function applySort() {{
-  currentSort = document.getElementById("sortSelect").value;
-  currentPage = 1;
-  renderPage(currentPage);
-}}
-
-function changePerPage() {{
-  perPage = parseInt(document.getElementById("perPage").value, 10);
-  currentPage = 1;
-  renderPage(currentPage);
-}}
-
-function exportCSV() {{
-  const filtered = getFilteredData();
-  const rows = [["Dato","DokumentID","Tittel","Dokumenttype","Avsender/Mottaker","Status","Detaljlenke"]];
-  filtered.forEach(d => {{
-    rows.push([
-      d.dato || "",
-      d.dokumentID || "",
-      (d.tittel || "").replace(/\\s+/g, " ").trim(),
-      d.dokumenttype || "",
-      d.avsender_mottaker || "",
-      d.status || "",
-      d.detalj_link || ""
-    ]);
-  }});
-  const csv = rows.map(r => r.map(v => `"${{String(v).replace(/"/g, '""')}}"`).join(",")).join("\\n");
-  const blob = new Blob([csv], {{type: "text/csv;charset=utf-8;"}});
-  const url = URL.createObjectURL(blob);
-  const a = document.createElement("a");
-  a.href = url;
-  a.download = "postliste.csv";
-  document.body.appendChild(a);
-  a.click();
-  document.body.removeChild(a);
-  URL.revokeObjectURL(url);
-}}
-
-renderPage(currentPage);
-</script>
-</body>
-</html>"""
-    with open("index.html", "w", encoding="utf-8") as f:
-        f.write(html)
-    print("[INFO] Lagret HTML til index.html")
-
-if __name__ == "__main__":
-    main()
+if __name__=="__main__": main()
