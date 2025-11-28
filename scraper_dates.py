@@ -102,8 +102,11 @@ def update_json(new_docs):
 def velg_dato(page, dato, felt_selector):
     måneder = ["Januar","Februar","Mars","April","Mai","Juni","Juli","August","September","Oktober","November","Desember"]
 
+    # Vent på at feltet er synlig
+    page.wait_for_selector(felt_selector, state="visible", timeout=30000)
+
     # Klikk i inputfeltet for å åpne date-picker
-    page.click(felt_selector)
+    page.click(felt_selector, force=True)
 
     # Klikk på måned/år-velger
     page.click("div.bc-datepicker-header-month")
@@ -125,12 +128,6 @@ def main(start_date=None, end_date=None):
         browser = p.chromium.launch(headless=True, args=["--no-sandbox"])
         page = browser.new_page()
         page.goto(BASE_URL, timeout=20000)
-
-        # Vent til backdrop er fjernet
-        try:
-            page.wait_for_selector("div.bc-content-modal-backdrop", state="detached", timeout=10000)
-        except Exception:
-            pass
 
         # Klikk radioknappen "Velg periode"
         page.click("input[type='radio'][value='Other']", force=True)
