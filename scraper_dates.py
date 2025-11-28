@@ -126,8 +126,14 @@ def main(start_date=None, end_date=None):
         page = browser.new_page()
         page.goto(BASE_URL, timeout=20000)
 
+        # Vent til backdrop er fjernet
+        try:
+            page.wait_for_selector("div.bc-content-modal-backdrop", state="detached", timeout=10000)
+        except Exception:
+            pass
+
         # Klikk radioknappen "Velg periode"
-        page.click("input[type='radio'][value='Other']")
+        page.click("input[type='radio'][value='Other']", force=True)
 
         # Velg fra- og til-dato via date-picker
         if start_date:
