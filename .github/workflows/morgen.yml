@@ -1,38 +1,49 @@
-name: Morgen-scraper (incremental)
+name: Morgen-scraping
 
 on:
   schedule:
-    - cron: "0 5 * * *"   # kjører hver dag kl 05:00
-  workflow_dispatch:       # kan trigges manuelt
+    # Kjør hver morgen kl 06:00
+    - cron: "0 6 * * *"
+  workflow_dispatch:
 
 jobs:
-  run-scraper:
+  scrape:
     runs-on: ubuntu-latest
+
     steps:
       - name: Sjekk ut repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
 
       - name: Sett opp Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v4
         with:
           python-version: "3.11"
 
-      - name: Installer Playwright
+      - name: Installer avhengigheter
         run: |
+          python -m pip install --upgrade pip
           pip install playwright
           playwright install chromium
 
-      - name: Sett modus til incremental
+      - name: Sett config til incremental mode (5 sider)
         run: |
-          jq '.mode="incremental"' config.json > tmp.json && mv tmp.json config.json
+          echo '{ 
+            "mode": "incremental", 
+            "max_pages_incremental": 5, 
+            "max_pages_update": 200, 
+            "max_pages_full": 500, 
+            "per_page": 50 
+          }' > config.json
 
       - name: Kjør scraper
         run: python scraper.py
 
-      - name: Commit og push resultater
-        run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "actions@github.com"
-          git add postliste.json index.html
-          git commit -m "Oppdatert postliste (incremental)"
-          git push
+      - name: Generer HTML
+        run: python generate_html.py
+
+      - name: Commit og push oppdateringer
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: "postliste.json index.html"
+          message: "Automatisk morgenoppdatering"
+          push: true
