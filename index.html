@@ -2,7 +2,7 @@
 <html lang="no">
 <head>
 <meta charset="utf-8">
-<title>Postliste</title>
+<title>Postliste – Strand kommune</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 :root {
@@ -14,6 +14,7 @@
   --green: #1a7f37;
   --red: #b42318;
 }
+* { box-sizing: border-box; }
 body {
   font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
   margin: 2rem;
@@ -22,7 +23,6 @@ body {
 }
 header h1 { margin: 0 0 .25rem 0; }
 header .updated { color: var(--muted); margin-bottom: 1rem; }
-
 .controls {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -38,7 +38,7 @@ header .updated { color: var(--muted); margin-bottom: 1rem; }
   border-radius: 6px;
   background: #fff;
 }
-.controls .actions { display: flex; gap: .5rem; align-items: center; }
+.controls .actions { display: flex; gap: .5rem; align-items: center; flex-wrap: wrap; }
 
 .container {
   display: grid;
@@ -61,6 +61,7 @@ header .updated { color: var(--muted); margin-bottom: 1rem; }
 .meta { color: var(--muted); }
 .status-publisert { color: var(--green); font-weight: 600; }
 .status-innsyn { color: var(--red); font-weight: 600; }
+
 .type-inngående { color: #1f6feb; font-weight: 600; }
 .type-utgående { color: #b78103; font-weight: 600; }
 .type-sakskart { color: #7d3fc2; font-weight: 600; }
@@ -68,6 +69,7 @@ header .updated { color: var(--muted); margin-bottom: 1rem; }
 .type-møteprotokoll { color: #8b5e34; font-weight: 600; }
 .type-saksfremlegg { color: #14532d; font-weight: 600; }
 .type-internt { color: #667085; font-weight: 600; }
+
 ul.files { margin: .25rem 0 0 0; padding-left: 1rem; }
 ul.files li { margin: .25rem 0; }
 .card .footer-link a { color: var(--link); text-decoration: none; }
@@ -87,14 +89,13 @@ ul.files li { margin: .25rem 0; }
   background: #fff;
 }
 .summary { color: var(--muted); font-size: .95rem; }
-
 hr { border: none; border-top: 1px solid var(--border); margin: 1rem 0; }
 </style>
 </head>
 <body>
 <header>
   <h1>Postliste – Strand kommune</h1>
-  <p class="updated">Oppdatert: 28.11.2025 20:19</p>
+  <p class="updated">Oppdatert: 28.11.2025 20:35</p>
 </header>
 
 <section class="controls" aria-label="Kontroller for filtrering, søk og sortering">
@@ -130,7 +131,7 @@ hr { border: none; border-top: 1px solid var(--border); margin: 1rem 0; }
     <label for="perPage">Oppføringer per side:</label>
     <select id="perPage" onchange="changePerPage()">
       <option value="5">5</option>
-      <option value="10" selected>10</option>
+      <option value="10">10</option>
       <option value="20">20</option>
       <option value="50">50</option>
     </select>
@@ -152,6 +153,11 @@ let currentPage = 1;
 let currentFilter = "";
 let currentSearch = "";
 let currentSort = "dato-desc";
+
+function escapeHtml(s) {
+  if (!s) return "";
+  return s.replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"})[c]);
+}
 
 function cssClassForType(doktype) {
   if (!doktype) return "";
@@ -177,17 +183,11 @@ function iconForType(doktype) {
   return "📄";
 }
 
-function escapeHtml(s) {
-  if (!s) return "";
-  return s.replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"})[c]);
-}
-
 function parseNoDate(d) {
-  // d forventes som DD.MM.YYYY
+  // Dato forventes som DD.MM.YYYY
   if (!d) return 0;
   const [DD, MM, YYYY] = d.split(".");
-  const iso = `${YYYY}-${MM}-${DD}`;
-  return new Date(iso).getTime();
+  return new Date(`${YYYY}-${MM}-${DD}`).getTime();
 }
 
 function getFilteredData() {
@@ -340,7 +340,16 @@ function exportCSV() {
   URL.revokeObjectURL(url);
 }
 
-renderPage(currentPage);
+// Init
+document.addEventListener("DOMContentLoaded", () => {
+  // Sett default perPage fra config
+  const perPageSelect = document.getElementById("perPage");
+  if (perPageSelect) {
+    const opt = Array.from(perPageSelect.options).find(o => parseInt(o.value,10) === perPage);
+    if (opt) perPageSelect.value = String(perPage);
+  }
+  renderPage(currentPage);
+});
 </script>
 </body>
 </html>
