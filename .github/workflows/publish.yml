@@ -2,9 +2,16 @@ name: Publish-scraping
 
 on:
   workflow_dispatch:
+    inputs:
+      start_date:
+        description: "Startdato (YYYY-MM-DD)"
+        required: false
+      end_date:
+        description: "Sluttdato (YYYY-MM-DD)"
+        required: false
 
 jobs:
-  scrape:
+  scrape_dates:
     runs-on: ubuntu-latest
 
     steps:
@@ -22,19 +29,22 @@ jobs:
           pip install playwright
           playwright install chromium
 
-      - name: Sett mode til full i config.json (valgfritt)
+      - name: Kjør scraper_dates med input
         run: |
-          jq '.mode="full"' config.json > tmp.json && mv tmp.json config.json
+          if [ -n "${{ github.event.inputs.start_date }}" ] && [ -n "${{ github.event.inputs.end_date }}" ]; then
+            python -c "from datetime import datetime; import scraper_dates; scraper_dates.main(start_date=datetime.strptime('${{ github.event.inputs.start_date }}','%Y-%m-%d').date(), end_date=datetime.strptime('${{ github.event.inputs.end_date }}','%Y-%m-%d').date())"
+          elif [ -n "${{ github.event.inputs.start_date }}" ]; then
+            python -c "from datetime import datetime; import scraper_dates; scraper_dates.main(start_date=datetime.strptime('${{ github.event.inputs.start_date }}','%Y-%m-%d').date())"
+          else
+            python scraper_dates.py
+          fi
 
-      - name: Kjør scraper_dates (full mode, dato eller periode)
-        run: python scraper_dates.py
-
-      - name: Generer HTML fra JSON
+      - name: Generer HTML
         run: python generate_html.py
 
       - name: Commit og push oppdateringer
         uses: EndBug/add-and-commit@v9
         with:
-          add: "postliste.json index.html config.json"
-          message: "Manuell publish med scraper_dates (full mode)"
+          add: "postliste.json index.html"
+          message: "Manuell publish med scraper_dates"
           push: true
