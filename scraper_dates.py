@@ -1,9 +1,10 @@
 from playwright.sync_api import sync_playwright
 import json, os, sys
-from datetime import datetime
+from datetime import datetime, date
 
 DATA_FILE = "postliste.json"
 BASE_URL = "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/"
+PAGE_SIZE = 100  # hent flest mulig per side
 
 def load_existing():
     if os.path.exists(DATA_FILE):
@@ -25,56 +26,76 @@ def safe_text(el, sel):
     except Exception:
         return ""
 
-def format_dato(s):
+def parse_dato_str(s):
+    """Forsøk flere formater fra siden til Python date."""
+    if not s:
+        return None
+    for fmt in ("%Y-%m-%d", "%d.%m.%Y"):
+        try:
+            return datetime.strptime(s, fmt).date()
+        except Exception:
+            continue
+    # Rydd opp hvis tekst inneholder tid e.l. "2025-11-18 12:34"
     try:
-        return datetime.strptime(s, "%Y-%m-%d").strftime("%d.%m.%Y")
+        return datetime.fromisoformat(s[:10]).date()
     except Exception:
-        return s
+        return None
 
 def hent_side(url, browser):
     page = browser.new_page()
+    docs = []
     try:
         page.goto(url, timeout=20000)
-        page.wait_for_selector("article.bc-content-teaser--item", timeout=10000)
-    except Exception as e:
-        print(f"[WARN] Ingen oppføringer ({e})")
+        page.wait_for_selector("article.bc-content-teaser--item", timeout=8000)
+    except Exception:
         page.close()
-        return []
-    docs = []
+        return docs
+
     for art in page.query_selector_all("article.bc-content-teaser--item"):
         dokid = safe_text(art, ".bc-content-teaser-meta-property--dokumentID dd")
         if not dokid:
             continue
+
         tittel = safe_text(art, ".bc-content-teaser-title-text")
-        dato = format_dato(safe_text(art, ".bc-content-teaser-meta-property--dato dd"))
+        dato_str = safe_text(art, ".bc-content-teaser-meta-property--dato dd")
+        parsed_date = parse_dato_str(dato_str)
+
         doktype = safe_text(art, ".SakListItem_sakListItemTypeText__16759c")
         avsender = safe_text(art, ".bc-content-teaser-meta-property--avsender dd")
         mottaker = safe_text(art, ".bc-content-teaser-meta-property--mottaker dd")
-        am = f"Avsender: {avsender}" if avsender else f"Mottaker: {mottaker}" if mottaker else ""
+        am = f"Avsender: {avsender}" if avsender else (f"Mottaker: {mottaker}" if mottaker else "")
 
         detalj_link = ""
         filer = []
+        # Finn detaljlenke
         try:
-            link_elem = art.evaluate_handle("node => node.closest('a')")
-            detalj_link = link_elem.get_attribute("href") if link_elem else ""
+            # no anchor closest sometimes; fall back to explicit link selector
+            a = art.query_selector("a")
+            detalj_link = a.get_attribute("href") if a else ""
         except Exception:
-            pass
+            detalj_link = ""
+
+        # Hent filer fra detaljside
         if detalj_link:
             dp = browser.new_page()
             try:
                 dp.goto(detalj_link, timeout=20000)
                 for fl in dp.query_selector_all("a"):
-                    href, tekst = fl.get_attribute("href"), fl.inner_text()
+                    href = fl.get_attribute("href")
+                    tekst = fl.inner_text()
                     if href and "/api/presentation/v2/nye-innsyn/filer" in href:
                         abs_url = href if href.startswith("http") else "https://www.strand.kommune.no" + href
                         filer.append({"tekst": tekst, "url": abs_url})
+            except Exception:
+                pass
             finally:
                 dp.close()
 
         status = "Publisert" if filer else "Må bes om innsyn"
         docs.append({
             "tittel": tittel,
-            "dato": dato,
+            "dato": dato_str,
+            "parsed_date": parsed_date.isoformat() if parsed_date else None,
             "dokumentID": dokid,
             "dokumenttype": doktype,
             "avsender_mottaker": am,
@@ -82,6 +103,7 @@ def hent_side(url, browser):
             "filer": filer,
             "status": status
         })
+
     page.close()
     return docs
 
@@ -91,34 +113,31 @@ def update_json(new_docs):
     for d in new_docs:
         doc_id = d["dokumentID"]
         old = updated.get(doc_id)
-        if not old or any(old.get(k) != d.get(k) for k in ["status","tittel","dokumenttype","avsender_mottaker"]) or len(old.get("filer",[])) != len(d.get("filer",[])):
+        changed_files = len(old.get("filer", [])) != len(d.get("filer", [])) if old else True
+        changed_core = any(old.get(k) != d.get(k) for k in ["status","tittel","dokumenttype","avsender_mottaker"]) if old else True
+        if not old or changed_files or changed_core:
             updated[doc_id] = d
             print(f"[{'NEW' if not old else 'UPDATE'}] {doc_id} – {d['tittel']}")
-    data_list = sorted(updated.values(), key=lambda x: x.get("dato",""), reverse=True)
+
+    # Sorter på parsed_date hvis mulig, ellers på tekstlig dato
+    def sort_key(x):
+        try:
+            return datetime.fromisoformat(x.get("parsed_date")).date()
+        except Exception:
+            return parse_dato_str(x.get("dato")) or date.min
+
+    data_list = sorted(updated.values(), key=sort_key, reverse=True)
     save_json(data_list)
     print(f"[INFO] Lagret JSON med {len(data_list)} dokumenter")
 
-# Funksjon for å velge dato i date-picker
-def velg_dato(page, dato, felt_selector):
-    måneder = ["Januar","Februar","Mars","April","Mai","Juni","Juli","August","September","Oktober","November","Desember"]
-
-    # Vent på at feltet er synlig
-    page.wait_for_selector(felt_selector, state="visible", timeout=30000)
-
-    # Klikk i inputfeltet for å åpne date-picker
-    page.click(felt_selector, force=True)
-
-    # Klikk på måned/år-velger
-    page.click("div.bc-datepicker-header-month")
-
-    # Velg år
-    page.click(f"div.datePicker-module__years_9333_U1RF0 div:has-text('{dato.year}')")
-
-    # Velg måned
-    page.click(f"div.datePicker-module__months_9333_QuMa8 div:has-text('{måneder[dato.month-1]}')")
-
-    # Velg dag
-    page.click(f"div.datePicker-module__days_9333_vpqVw div:has-text('{dato.day}')")
+def within_range(d, start_date, end_date):
+    if d is None:
+        return False
+    if start_date and d < start_date:
+        return False
+    if end_date and d > end_date:
+        return False
+    return True
 
 def main(start_date=None, end_date=None):
     print("[INFO] Starter scraper_dates…")
@@ -126,32 +145,28 @@ def main(start_date=None, end_date=None):
 
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True, args=["--no-sandbox"])
-        page = browser.new_page()
-        page.goto(BASE_URL, timeout=20000)
 
-        # Klikk radioknappen "Velg periode"
-        page.click("input[type='radio'][value='Other']", force=True)
-
-        # Velg fra- og til-dato via date-picker
-        if start_date:
-            velg_dato(page, start_date, "input[id*='Dato'][id*='start']")
-        if end_date:
-            velg_dato(page, end_date, "input[id*='Dato'][id*='end']")
-
-        # Klikk på "Ferdig" i date-picker
-        page.click("button:has-text('Ferdig')")
-
-        # Vent på resultater
-        page.wait_for_selector("article.bc-content-teaser--item", timeout=10000)
-
-        # Iterer gjennom sider med filtrerte resultater
         page_num = 1
         while True:
-            url = f"{BASE_URL}?page={page_num}&pageSize=100"
+            url = f"{BASE_URL}?page={page_num}&pageSize={PAGE_SIZE}"
             docs = hent_side(url, browser)
             if not docs:
+                # Ingen flere resultater
                 break
-            all_docs.extend(docs)
+
+            # Filtrer på dato-intervallet lokalt
+            for d in docs:
+                pd = parse_dato_str(d.get("dato"))
+                if within_range(pd, start_date, end_date):
+                    all_docs.append(d)
+
+            # Heuristikk: hvis ingen dokumenter på siden matcher og alle parsed_date er utenfor intervallet,
+            # kan vi avslutte tidlig når vi passerer end_date (når sortering på siden er synkende).
+            parsed_on_page = [parse_dato_str(x.get("dato")) for x in docs if x.get("dato")]
+            if end_date and parsed_on_page and all(x and x < (start_date or date.min) for x in parsed_on_page):
+                # Hele siden ligger før start_date -> videre sider blir bare eldre
+                break
+
             page_num += 1
 
         browser.close()
