@@ -233,8 +233,13 @@
     "avsender_mottaker": "Mottaker: William Larsen",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017697!Edqk7x/d-6965376f__8677__47ea__a757__23e14c179149-2020248118!NDCUrn",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "5842 Forlengelse av frist - naust - Kvalevågveien 221 (pdf, 110KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1215595_1_A!d-2020248118!2F2yHm?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "57/32 Fakturakopi utslippstillatelse - Kvalvågvegen 4",
@@ -1342,13 +1347,8 @@
     "avsender_mottaker": "Avsender: Hallgeir Kleiveland",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016354!NFI4jr/d-6965376f__8677__47ea__a757__23e14c179149-2020248020!2Q8ByT",
-    "filer": [
-      {
-        "tekst": "Klage angående vedlikehold av Øvre Barkvedvegen (pdf, 69KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1215363_1_A!d-2020248020!ybGNUr?pid=29"
-      }
-    ],
-    "status": "Publisert"
+    "filer": [],
+    "status": "Må bes om innsyn"
   },
   {
     "tittel": "Aksept nytt lån",
@@ -3447,13 +3447,8 @@
     "avsender_mottaker": "Mottaker: Jæradvokatene As",
     "side": 3,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016288!MxlPOQ/d-6965376f__8677__47ea__a757__23e14c179149-2020247683!xngvni",
-    "filer": [
-      {
-        "tekst": "106/2 Vedrørende Kolabygdvegen 392 - Strand kommune følger opp saken videre (pdf, 139KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214507_1_A!d-2020247683!K29swf?pid=29"
-      }
-    ],
-    "status": "Publisert"
+    "filer": [],
+    "status": "Må bes om innsyn"
   },
   {
     "tittel": "Referat fra møte i Samarbeidsutvalget 30.04.2025 - Tau skole",
