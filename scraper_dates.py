@@ -163,4 +163,3 @@ if __name__ == "__main__":
     # main(start_date=date(2025,11,20))
     # Eksempel: periode
      main(start_date=date(2025,11,1), end_date=date(2025,11,18))
-    pass
