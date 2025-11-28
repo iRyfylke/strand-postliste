@@ -4,12 +4,13 @@ from datetime import datetime
 
 CONFIG_FILE = "config.json"
 DATA_FILE = "postliste.json"
-BASE_URL = "https://www.strand.kommune.no/.../sok-i-post-dokumenter-og-saker/#/?page={page}&pageSize=100"
+BASE_URL = "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/?page={page}&pageSize=100"
 
 def load_config():
     if os.path.exists(CONFIG_FILE):
-        with open(CONFIG_FILE,"r",encoding="utf-8") as f: return json.load(f)
-    return {"mode":"incremental","max_pages_incremental":5,"max_pages_update":100,"max_pages_full":200,"per_page":50}
+        with open(CONFIG_FILE,"r",encoding="utf-8") as f:
+            return json.load(f)
+    return {"mode":"incremental","max_pages_incremental":5,"max_pages_update":200,"max_pages_full":500,"per_page":50}
 
 def load_existing():
     if os.path.exists(DATA_FILE):
@@ -18,7 +19,7 @@ def load_existing():
             except: return {}
     return {}
 
-def safe_text(el,sel): 
+def safe_text(el,sel):
     try: node=el.query_selector(sel); return node.inner_text().strip() if node else ""
     except: return ""
 
