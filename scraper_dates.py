@@ -199,5 +199,5 @@ if __name__ == "__main__":
     # Eksempel: kjør med én dato
     # main(start_date=datetime(2025,11,20).date())
     # Eksempel: kjør med periode
-     main(start_date=datetime(2025,11,1).date(), end_date=datetime(2025,11,30).date())
+     main(start_date=datetime(2025,11,1).date(), end_date=datetime(2025,11,18).date())
     pass
