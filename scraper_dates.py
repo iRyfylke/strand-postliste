@@ -107,26 +107,44 @@ def main(start_date=None, end_date=None):
         page = browser.new_page()
         page.goto(BASE_URL, timeout=20000)
 
-        # Klikk på radioknappen "Velg periode"
+        # 1) Åpne filterpanelet (knappen som viser dato-filteret)
+        # Forsøk med synlig knapptekst "Dato"; faller tilbake til annen knapp om nødvendig.
+        try:
+            page.click("button:has-text('Dato')")
+        except Exception:
+            # Hvis siden bruker annen label, prøv en mer generell knapp i filterområdet
+            try:
+                page.click("button.bc-content-button")
+            except Exception:
+                pass
+
+        # 2) Vent til modal/backdrop er fjernet slik at klikk ikke blokkeres
+        try:
+            page.wait_for_selector("div.bc-content-modal-backdrop", state="detached", timeout=10000)
+        except Exception:
+            # Hvis ikke funnet, fortsett – noen skinn kan ikke bruke backdrop
+            pass
+
+        # 3) Velg radioknappen "Velg periode" (value='Other')
         page.click("input[type='radio'][value='Other']")
 
-        # Vent på at datofeltene blir synlige
+        # 4) Vent på at datofeltene blir synlige (robuste selectorer for dynamiske id-er)
         page.wait_for_selector("input[id*='Dato'][id*='start']", timeout=30000)
         page.wait_for_selector("input[id*='Dato'][id*='end']", timeout=30000)
 
-        # Fyll inn datoene
+        # 5) Fyll inn datoene
         if start_date:
             page.fill("input[id*='Dato'][id*='start']", start_date.isoformat())
         if end_date:
             page.fill("input[id*='Dato'][id*='end']", end_date.isoformat())
 
-        # Klikk på "Vis resultat"-knappen
+        # 6) Klikk på "Vis resultat"
         page.click("button.JumpToResult_button__a6e46c")
 
-        # Vent på resultater
+        # 7) Vent på resultater
         page.wait_for_selector("article.bc-content-teaser--item", timeout=10000)
 
-        # Iterer gjennom sider med filtrerte resultater
+        # 8) Iterer gjennom sider med filtrerte resultater
         page_num = 1
         while True:
             url = f"{BASE_URL}?page={page_num}&pageSize=100"
