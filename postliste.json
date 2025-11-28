@@ -233,13 +233,8 @@
     "avsender_mottaker": "Mottaker: William Larsen",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017697!Edqk7x/d-6965376f__8677__47ea__a757__23e14c179149-2020248118!NDCUrn",
-    "filer": [
-      {
-        "tekst": "5842 Forlengelse av frist - naust - Kvalevågveien 221 (pdf, 110KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1215595_1_A!d-2020248118!2F2yHm?pid=29"
-      }
-    ],
-    "status": "Publisert"
+    "filer": [],
+    "status": "Må bes om innsyn"
   },
   {
     "tittel": "57/32 Fakturakopi utslippstillatelse - Kvalvågvegen 4",
@@ -4955,8 +4950,13 @@
     "avsender_mottaker": "",
     "side": 4,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020010501!HNXScc/d-6965376f__8677__47ea__a757__23e14c179149-2020247644!Tm94dj",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "Notat - Status i saken (pdf, 125KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214427_1_A!d-2020247644!mVbtWj?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Kvittering - søknad om regionalt miljøtilskot i Rogaland 2025",
