@@ -1,9 +1,9 @@
 from playwright.sync_api import sync_playwright
 import json, os
-from datetime import datetime
+from datetime import datetime, date
 
 DATA_FILE = "postliste.json"
-BASE_URL = "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/?page={page}&pageSize=100"
+BASE_URL = "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/"
 
 def load_existing():
     if os.path.exists(DATA_FILE):
@@ -39,18 +39,15 @@ def parse_date_robust(s):
             continue
     return None
 
-def hent_side(page_num, browser):
-    url = BASE_URL.format(page=page_num)
-    print(f"[INFO] Åpner side {page_num}: {url}")
+def hent_side(url, browser):
     page = browser.new_page()
     try:
         page.goto(url, timeout=20000)
         page.wait_for_selector("article.bc-content-teaser--item", timeout=10000)
     except Exception as e:
-        print(f"[WARN] Ingen oppføringer på side {page_num} ({e})")
+        print(f"[WARN] Ingen oppføringer ({e})")
         page.close()
         return []
-
     docs = []
     for art in page.query_selector_all("article.bc-content-teaser--item"):
         dokid = safe_text(art, ".bc-content-teaser-meta-property--dokumentID dd")
@@ -89,12 +86,10 @@ def hent_side(page_num, browser):
             "dokumentID": dokid,
             "dokumenttype": doktype,
             "avsender_mottaker": am,
-            "side": page_num,
             "detalj_link": detalj_link,
             "filer": filer,
             "status": status
         })
-        print(f"[DEBUG] Hentet: {dokid} | {dato} | {doktype} | {status} | {am}")
     page.close()
     return docs
 
@@ -119,34 +114,53 @@ def main(start_date=None, end_date=None):
     """
     print("[INFO] Starter scraper_dates…")
     all_docs = []
+
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True, args=["--no-sandbox"])
-        page_num = 1
-        while True:
-            docs = hent_side(page_num, browser)
-            if not docs:
-                break
-            for d in docs:
-                dt = parse_date_robust(d["dato"])
-                if not dt:
-                    continue
-                if start_date and end_date:
-                    if start_date <= dt <= end_date:
+
+        # Primær: bruk kommunens URL-filter
+        if start_date and end_date:
+            url = f"{BASE_URL}?Dato={start_date.isoformat()}&Dato={end_date.isoformat()}&Dato=Other"
+        elif start_date:
+            url = f"{BASE_URL}?Dato={start_date.isoformat()}&Dato={start_date.isoformat()}&Dato=Other"
+        else:
+            url = BASE_URL
+
+        print(f"[INFO] Prøver primærmetode med URL-filter: {url}")
+        docs = hent_side(url, browser)
+
+        if docs:
+            print(f"[INFO] Fant {len(docs)} oppføringer via URL-filter")
+            all_docs.extend(docs)
+        else:
+            print("[WARN] Ingen treff via URL-filter, faller tilbake til robust metode…")
+            page_num = 1
+            while True:
+                url = f"{BASE_URL}?page={page_num}&pageSize=100"
+                docs = hent_side(url, browser)
+                if not docs:
+                    break
+                for d in docs:
+                    dt = parse_date_robust(d["dato"])
+                    if not dt:
+                        continue
+                    if start_date and end_date:
+                        if start_date <= dt <= end_date:
+                            all_docs.append(d)
+                    elif start_date:
+                        if dt == start_date:
+                            all_docs.append(d)
+                    else:
                         all_docs.append(d)
-                        print(f"[MATCH] {d['dokumentID']} – {d['dato']}")
-                elif start_date:
-                    if dt == start_date:
-                        all_docs.append(d)
-                        print(f"[MATCH] {d['dokumentID']} – {d['dato']}")
-                else:
-                    all_docs.append(d)
-            page_num += 1
+                page_num += 1
+
         browser.close()
+
     update_json(all_docs)
 
 if __name__ == "__main__":
     # Eksempel: spesifikk dato
-    # main(start_date=datetime(2025,11,20).date())
+    # main(start_date=date(2025,11,20))
     # Eksempel: periode
-     main(start_date=datetime(2025,11,1).date(), end_date=datetime(2025,11,18).date())
+     main(start_date=date(2025,11,1), end_date=date(2025,11,18))
     pass
