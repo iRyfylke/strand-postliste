@@ -1,6 +1,6 @@
 {
   "mode": "incremental",
-  "max_pages_incremental": 5,
+  "max_pages_incremental": 30,
   "max_pages_update": 20,
   "per_page": 50
 }
