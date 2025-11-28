@@ -107,7 +107,10 @@ def main(start_date=None, end_date=None):
         page = browser.new_page()
         page.goto(BASE_URL, timeout=20000)
 
-        # Vent på at feltene finnes
+        # Klikk på radioknappen "Velg periode"
+        page.click("input[type='radio'][value='Other']")
+
+        # Vent på at datofeltene blir synlige
         page.wait_for_selector("input[id*='Dato'][id*='start']", timeout=30000)
         page.wait_for_selector("input[id*='Dato'][id*='end']", timeout=30000)
 
