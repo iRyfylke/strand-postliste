@@ -159,10 +159,10 @@ def main():
                         updated[doc_id] = d
 
             # I incremental-modus: stopp når vi treffer kjent ID (resten antas å være gamle)
-            if mode == "incremental":
-                if any(d["dokumentID"] in existing for d in docs):
-                    print("[INFO] Incremental: Stoppet – fant eksisterende oppføring på denne siden.")
-                    break
+            #if mode == "incremental":
+            #    if any(d["dokumentID"] in existing for d in docs):
+            #        print("[INFO] Incremental: Stoppet – fant eksisterende oppføring på denne siden.")
+            #        break
         browser.close()
 
     # Lagre JSON (liste av verdier sortert etter dato, hvis mulig)
