@@ -1,0 +1,124 @@
+name: Full historical scrape
+
+on:
+  workflow_dispatch:
+
+jobs:
+  scrape_years:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        year: [2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,
+               2016,2017,2018,2019,2020,2021,2022,2023,2024,2025]
+
+    steps:
+      - name: Sjekk ut repo
+        uses: actions/checkout@v3
+
+      - name: Sett opp Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Installer avhengigheter
+        run: |
+          python -m pip install --upgrade pip
+          pip install playwright
+          playwright install chromium
+
+      - name: Oppdater config.json
+        run: |
+          echo '{"start_page": 1, "max_pages": 3500}' > config.json
+
+      - name: Scrape året ${{ matrix.year }}
+        run: |
+          python scraper_dates.py "${{ matrix.year }}-01-01" "${{ matrix.year }}-12-31"
+          mkdir -p archive
+          mv postliste.json "archive/postliste_${{ matrix.year }}.json"
+
+      - name: Commit og push per år
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: "archive/postliste_${{ matrix.year }}.json"
+          message: "Scrape for året ${{ matrix.year }}"
+          push: true
+
+  merge:
+    runs-on: ubuntu-latest
+    needs: scrape_years
+    steps:
+      - name: Sjekk ut repo
+        uses: actions/checkout@v3
+
+      - name: Sett opp Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Slå sammen alle JSON-filer fra archive/ uten duplikater
+        run: |
+          python - <<'EOF'
+          import json, glob, os
+          from datetime import datetime, date
+
+          # Last inn eksisterende postliste.json hvis den finnes
+          existing = {}
+          if os.path.exists("postliste.json"):
+              with open("postliste.json", encoding="utf-8") as fh:
+                  try:
+                      for d in json.load(fh):
+                          if "dokumentID" in d:
+                              existing[d["dokumentID"]] = d
+                  except Exception:
+                      pass
+
+          merged = dict(existing)
+          files = sorted(glob.glob("archive/postliste_*.json"))
+
+          total_new = 0
+          for f in files:
+              with open(f, encoding="utf-8") as fh:
+                  try:
+                      docs = json.load(fh)
+                  except Exception:
+                      docs = []
+              new_count = 0
+              for d in docs:
+                  docid = d.get("dokumentID")
+                  if not docid:
+                      continue
+                  if docid not in merged:
+                      merged[docid] = d
+                      new_count += 1
+              print(f"[INFO] {f}: {new_count} nye dokumenter lagt til")
+              total_new += new_count
+
+          def sort_key(x):
+              try:
+                  return datetime.fromisoformat(x.get("parsed_date")).date()
+              except Exception:
+                  s = x.get("dato")
+                  try:
+                      return datetime.strptime(s, "%d.%m.%Y").date()
+                  except Exception:
+                      return date.min
+
+          data_list = sorted(merged.values(), key=sort_key, reverse=True)
+
+          with open("postliste.json", "w", encoding="utf-8") as out:
+              json.dump(data_list, out, ensure_ascii=False, indent=2)
+
+          print(f"[INFO] Slått sammen {len(files)} års-filer.")
+          print(f"[INFO] Totalt {len(data_list)} unike dokumenter etter merge.")
+          print(f"[INFO] Totalt {total_new} nye dokumenter lagt til.")
+          EOF
+
+      - name: Generer HTML
+        run: python generate_html.py
+
+      - name: Commit og push samlet postliste
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: "postliste.json index.html"
+          message: "Full historical scrape merged"
+          push: true
