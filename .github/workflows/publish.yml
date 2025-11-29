@@ -9,6 +9,14 @@ on:
       end_date:
         description: "Sluttdato (YYYY-MM-DD)"
         required: false
+      start_page:
+        description: "Start side"
+        required: false
+        default: "1"
+      max_pages:
+        description: "Maks sider"
+        required: false
+        default: "100"
 
 jobs:
   scrape_dates:
@@ -29,9 +37,19 @@ jobs:
           pip install playwright
           playwright install chromium
 
+      - name: Oppdater config.json med sideparametere
+        run: |
+          echo '{"start_page": ${{ github.event.inputs.start_page }}, "max_pages": ${{ github.event.inputs.max_pages }}}' > config.json
+
       - name: Kjør scraper_dates med input
         run: |
-          python scraper_dates.py "${{ github.event.inputs.start_date }}" "${{ github.event.inputs.end_date }}"
+          if [ -n "${{ github.event.inputs.start_date }}" ] && [ -n "${{ github.event.inputs.end_date }}" ]; then
+            python scraper_dates.py "${{ github.event.inputs.start_date }}" "${{ github.event.inputs.end_date }}"
+          elif [ -n "${{ github.event.inputs.start_date }}" ]; then
+            python scraper_dates.py "${{ github.event.inputs.start_date }}"
+          else
+            python scraper_dates.py
+          fi
 
       - name: Generer HTML
         run: python generate_html.py
@@ -39,6 +57,6 @@ jobs:
       - name: Commit og push oppdateringer
         uses: EndBug/add-and-commit@v9
         with:
-          add: "postliste.json index.html"
+          add: "postliste.json index.html config.json"
           message: "Manuell publish med scraper_dates"
           push: true
