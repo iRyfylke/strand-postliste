@@ -50,35 +50,37 @@ def generate_html():
 * {{ box-sizing: border-box; }}
 body {{
   font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
-  margin: 2rem;
+  margin: 1rem;
   color: var(--text);
   background: var(--bg);
+  transition: background 0.3s, color 0.3s;
 }}
 header.sticky-header {{
   position: sticky;
   top: 0;
-  background: #fff;
+  background: var(--bg);
   z-index: 1000;
   padding: 1rem 0;
   border-bottom: 2px solid var(--border);
 }}
-header h1 {{ margin: 0 0 .25rem 0; }}
-header .updated {{ color: var(--muted); margin-bottom: 0.5rem; }}
+header h1 {{ margin: 0 0 .25rem 0; font-size: 1.4rem; }}
+header .updated {{ color: var(--muted); margin-bottom: 0.5rem; font-size: 0.9rem; }}
 
 .controls {{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   gap: .75rem;
   align-items: end;
   margin: 1rem 0;
 }}
 .controls .field {{ display: flex; flex-direction: column; gap: .25rem; }}
-.controls label {{ font-weight: 600; color: var(--text); }}
+.controls label {{ font-weight: 600; color: var(--text); font-size: 0.85rem; }}
 .controls input[type="text"], .controls select, .controls button {{
-  padding: .4rem .6rem;
+  padding: .5rem .6rem;
   border: 1px solid var(--border);
-  border-radius: 6px;
+  border-radius: 8px;
   background: #fff;
+  font-size: 0.95rem;
 }}
 .controls .actions {{ display: flex; gap: .5rem; align-items: center; flex-wrap: wrap; }}
 
@@ -87,34 +89,46 @@ header .updated {{ color: var(--muted); margin-bottom: 0.5rem; }}
   grid-template-columns: 1fr;
   gap: 1rem;
 }}
-@media (min-width: 900px) {{
+@media (min-width: 700px) {{
   .container {{ grid-template-columns: 1fr 1fr; }}
+}}
+@media (min-width: 1100px) {{
+  .container {{ grid-template-columns: 1fr 1fr 1fr; }}
 }}
 
 .card {{
   border: 1px solid var(--border);
-  border-radius: 10px;
-  padding: 1rem;
+  border-radius: 12px;
+  padding: 0.9rem;
   display: flex;
   flex-direction: column;
   gap: .5rem;
+  background: var(--bg);
+  transition: background 0.3s, color 0.3s, border-color 0.3s;
 }}
-.card h3 {{ margin: 0; font-size: 1.1rem; }}
-.meta {{ color: var(--muted); }}
+.card h3 {{
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.3;
+}}
+.meta {{
+  color: var(--muted);
+  font-size: 0.9rem;
+}}
 .status-publisert {{ color: var(--green); font-weight: 600; }}
 .status-innsyn {{ color: var(--red); font-weight: 600; }}
 
-.type-inngående {{ color: #1f6feb; font-weight: 600; }}
-.type-utgående {{ color: #b78103; font-weight: 600; }}
-.type-sakskart {{ color: #7d3fc2; font-weight: 600; }}
-.type-møtebok {{ color: #0ea5a5; font-weight: 600; }}
-.type-møteprotokoll {{ color: #8b5e34; font-weight: 600; }}
-.type-saksfremlegg {{ color: #14532d; font-weight: 600; }}
-.type-internt {{ color: #667085; font-weight: 600; }}
-
-ul.files {{ margin: .25rem 0 0 0; padding-left: 1rem; }}
+ul.files {{
+  margin: .25rem 0 0 0;
+  padding-left: 1rem;
+  font-size: 0.9rem;
+}}
 ul.files li {{ margin: .25rem 0; }}
-.card .footer-link a {{ color: var(--link); text-decoration: none; }}
+.card .footer-link a {{
+  color: var(--link);
+  text-decoration: none;
+  font-size: 0.9rem;
+}}
 .card .footer-link a:hover {{ text-decoration: underline; }}
 
 .pagination {{
@@ -123,14 +137,48 @@ ul.files li {{ margin: .25rem 0; }}
   gap: .75rem;
   align-items: center;
   flex-wrap: wrap;
+  font-size: 0.95rem;
 }}
 .pagination button {{
-  padding: .35rem .7rem;
+  padding: .45rem .8rem;
   border: 1px solid var(--border);
-  border-radius: 6px;
+  border-radius: 8px;
   background: #fff;
 }}
 .summary {{ color: var(--muted); font-size: .95rem; }}
+
+/* Type farger (klasser brukes for tydelig markering) */
+.type-inngående {{ color: #1f6feb; font-weight: 600; }}
+.type-utgående {{ color: #b78103; font-weight: 600; }}
+.type-sakskart {{ color: #7d3fc2; font-weight: 600; }}
+.type-møtebok {{ color: #0ea5a5; font-weight: 600; }}
+.type-møteprotokoll {{ color: #8b5e34; font-weight: 600; }}
+.type-saksfremlegg {{ color: #14532d; font-weight: 600; }}
+.type-internt {{ color: #667085; font-weight: 600; }}
+
+/* Dark mode */
+body.dark {{
+  --bg: #0f1115;
+  --text: #e6edf3;
+  --muted: #9aa7b5;
+  --border: #263041;
+  --link: #58a6ff;
+  --green: #3fb950;
+  --red: #ff6b6b;
+}}
+.toggle-dark {{
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  background: var(--link);
+  color: #fff;
+  border: none;
+  padding: .6rem .9rem;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 0.95rem;
+}}
+.toggle-dark:focus {{ outline: 2px solid var(--border); }}
 </style>
 </head>
 <body>
@@ -140,11 +188,11 @@ ul.files li {{ margin: .25rem 0; }}
 
   <section class="controls" aria-label="Kontroller for filtrering, søk og sortering">
     <div class="field">
-      <label for="searchInput">Søk (tittel, dokumentID, avsender/mottaker):</label>
+      <label for="searchInput">Søk:</label>
       <input id="searchInput" type="text" placeholder="Skriv for å søke …" oninput="applySearch()" />
     </div>
     <div class="field">
-      <label for="filterType">Filtrer på dokumenttype:</label>
+      <label for="filterType">Dokumenttype:</label>
       <select id="filterType" onchange="applyFilter()">
         <option value="">Alle</option>
         <option value="Inngående">Inngående</option>
@@ -157,7 +205,7 @@ ul.files li {{ margin: .25rem 0; }}
       </select>
     </div>
     <div class="field">
-      <label for="statusFilter">Filtrer på status:</label>
+      <label for="statusFilter">Status:</label>
       <select id="statusFilter" onchange="applyStatusFilter()">
         <option value="">Alle</option>
         <option value="Publisert">Publisert</option>
@@ -176,7 +224,7 @@ ul.files li {{ margin: .25rem 0; }}
       </select>
     </div>
     <div class="field">
-      <label for="perPage">Oppføringer per side:</label>
+      <label for="perPage">Per side:</label>
       <select id="perPage" onchange="changePerPage()">
         <option value="5">5</option>
         <option value="10">10</option>
@@ -186,7 +234,7 @@ ul.files li {{ margin: .25rem 0; }}
     </div>
     <div class="actions">
       <button onclick="exportCSV()">Eksporter CSV</button>
-      <span class="summary" id="summary" aria-live="polite"></span>
+      <span class="summary" id="summary"></span>
     </div>
   </section>
 </header>
@@ -194,6 +242,8 @@ ul.files li {{ margin: .25rem 0; }}
 <nav id="pagination-top" class="pagination" aria-label="Paginering topp"></nav>
 <main id="container" class="container"></main>
 <nav id="pagination-bottom" class="pagination" aria-label="Paginering bunn"></nav>
+
+<button class="toggle-dark" onclick="toggleDarkMode()" aria-label="Veksle mørk modus">🌙 Mørk modus</button>
 
 <script>
 const data = {json.dumps(data, ensure_ascii=False)};
@@ -203,6 +253,17 @@ let currentFilter = "";
 let currentSearch = "";
 let currentStatus = "";
 let currentSort = "dato-desc";
+
+// Persist mørk modus med localStorage
+(function initTheme() {{
+  const saved = localStorage.getItem("dark-mode");
+  if (saved === "on") document.body.classList.add("dark");
+}})();
+
+function toggleDarkMode() {{
+  document.body.classList.toggle("dark");
+  localStorage.setItem("dark-mode", document.body.classList.contains("dark") ? "on" : "off");
+}}
 
 function escapeHtml(s) {{
   if (!s) return "";
@@ -233,7 +294,7 @@ function iconForType(doktype) {{
   return "📄";
 }}
 
-// Dato for sortering: bruk parsed_date (ISO) hvis finnes, ellers DD.MM.YYYY
+// Dato for sortering: preferer parsed_date (ISO), fallback til DD.MM.YYYY
 function getDateForSort(d) {{
   const iso = d.parsed_date || "";
   if (iso) {{
@@ -264,7 +325,7 @@ function getFilteredData() {{
     );
   }}
 
-  // Dokumenttype
+  // Type
   if (currentFilter) {{
     arr = arr.filter(d => d.dokumenttype && d.dokumenttype.includes(currentFilter));
   }}
@@ -292,7 +353,7 @@ function renderSummary(totalFiltered) {{
   const totalAll = data.length;
   const parts = [];
   if (currentSearch) parts.push(`søk: "${{currentSearch}}"`);
-  if (currentFilter) parts.push(`filter: ${{currentFilter}}`);
+  if (currentFilter) parts.push(`type: ${{currentFilter}}`);
   if (currentStatus) parts.push(`status: ${{currentStatus}}`);
   const ctx = parts.length ? ` (${{parts.join(", ")}})` : "";
   document.getElementById("summary").textContent =
@@ -311,7 +372,7 @@ function renderPage(page) {{
     const statusClass = d.status === "Publisert" ? "status-publisert" : "status-innsyn";
     const link = d.journal_link || d.detalj_link || "";
 
-    // Betinget visning av dokumenter og innsyn
+    // Betinget visning av dokumenter/innsyn
     let filesHtml = "";
     if (d.status === "Publisert" && d.filer && d.filer.length) {{
       filesHtml = "<ul class='files'>" + d.filer.map(f => `
