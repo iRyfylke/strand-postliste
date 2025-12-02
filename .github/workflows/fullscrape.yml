@@ -30,7 +30,7 @@ jobs:
 
       - name: Oppdater config.json
         run: |
-          echo '{"start_page": 3000, "max_pages": 3500}' > config.json
+          echo '{"start_page": 3000, "max_pages": 3501}' > config.json
 
       - name: Scrape 2006 H1
         run: |
@@ -72,7 +72,7 @@ jobs:
 
       - name: Oppdater config.json
         run: |
-          echo '{"start_page": 3000, "max_pages": 3500}' > config.json
+          echo '{"start_page": 3000, "max_pages": 3501}' > config.json
 
       - name: Scrape 2006 H2
         run: |
