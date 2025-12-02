@@ -12,11 +12,6 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Sett opp Git
-        run: |
-          git config --global user.email "mariusbjo@users.noreply.github.com"
-          git config --global user.name "mariusbjo"
-
       - name: Sett opp Python
         uses: actions/setup-python@v4
         with:
@@ -30,7 +25,7 @@ jobs:
 
       - name: Oppdater config.json
         run: |
-          echo '{"start_page": 3000, "max_pages": 3501}' > config.json
+          echo '{"start_page": 3000, "max_pages": 3500}' > config.json
 
       - name: Scrape 2006 H1
         run: |
@@ -38,12 +33,13 @@ jobs:
           mkdir -p archive
           mv postliste.json "archive/postliste_2006_H1.json"
 
-      - name: Pull siste endringer og commit
-        run: |
-          git pull --rebase origin main
-          git add archive/postliste_2006_H1.json
-          git commit -m "Scrape 2006 H1"
-          git push origin main
+      - name: Commit og push H1
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: "archive/postliste_2006_H1.json config.json"
+          message: "Scrape 2006 H1"
+          push: true
+          pull: true
 
   scrape_2006_H2:
     runs-on: ubuntu-latest
@@ -54,11 +50,6 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Sett opp Git
-        run: |
-          git config --global user.email "mariusbjo@users.noreply.github.com"
-          git config --global user.name "mariusbjo"
-
       - name: Sett opp Python
         uses: actions/setup-python@v4
         with:
@@ -72,7 +63,7 @@ jobs:
 
       - name: Oppdater config.json
         run: |
-          echo '{"start_page": 3000, "max_pages": 3501}' > config.json
+          echo '{"start_page": 3000, "max_pages": 3500}' > config.json
 
       - name: Scrape 2006 H2
         run: |
@@ -80,9 +71,10 @@ jobs:
           mkdir -p archive
           mv postliste.json "archive/postliste_2006_H2.json"
 
-      - name: Pull siste endringer og commit
-        run: |
-          git pull --rebase origin main
-          git add archive/postliste_2006_H2.json
-          git commit -m "Scrape 2006 H2"
-          git push origin main
+      - name: Commit og push H2
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: "archive/postliste_2006_H2.json config.json"
+          message: "Scrape 2006 H2"
+          push: true
+          pull: true
