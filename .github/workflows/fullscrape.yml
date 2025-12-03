@@ -25,15 +25,26 @@ jobs:
           pip install playwright
           playwright install chromium
 
-      - name: Oppdater config.json
+      - name: Definer start_page og max_pages
         run: |
-          echo '{"start_page": 3000, "max_pages": 3503}' > config.json
+          echo '{"start_page": 1, "max_pages": 3500}' > config.json
 
       - name: Scrape 2006 H1
         run: |
           python scraper_dates.py "2006-01-01" "2006-06-30"
           mkdir -p archive
           mv postliste.json "archive/postliste_2006_H1.json"
+          # Logg første og siste dato i resultatet
+          python - <<'EOF'
+          import json
+          with open("archive/postliste_2006_H1.json", encoding="utf-8") as fh:
+              docs = json.load(fh)
+          if docs:
+              print("[INFO] Første dato:", docs[0].get("dato"))
+              print("[INFO] Siste dato:", docs[-1].get("dato"))
+          else:
+              print("[INFO] Ingen dokumenter funnet")
+          EOF
 
       - name: Commit og push H1
         uses: EndBug/add-and-commit@v9
@@ -65,15 +76,26 @@ jobs:
           pip install playwright
           playwright install chromium
 
-      - name: Oppdater config.json
+      - name: Definer start_page og max_pages
         run: |
-          echo '{"start_page": 3000, "max_pages": 3503}' > config.json
+          echo '{"start_page": 1, "max_pages": 3500}' > config.json
 
       - name: Scrape 2006 H2
         run: |
           python scraper_dates.py "2006-07-01" "2006-12-31"
           mkdir -p archive
           mv postliste.json "archive/postliste_2006_H2.json"
+          # Logg første og siste dato i resultatet
+          python - <<'EOF'
+          import json
+          with open("archive/postliste_2006_H2.json", encoding="utf-8") as fh:
+              docs = json.load(fh)
+          if docs:
+              print("[INFO] Første dato:", docs[0].get("dato"))
+              print("[INFO] Siste dato:", docs[-1].get("dato"))
+          else:
+              print("[INFO] Ingen dokumenter funnet")
+          EOF
 
       - name: Commit og push H2
         uses: EndBug/add-and-commit@v9
