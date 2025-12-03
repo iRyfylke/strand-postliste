@@ -1,9 +1,1 @@
-{
-  "mode": "incremental",
-  "max_pages_incremental": 5,
-  "max_pages_update": 100,
-  "max_pages_full": 200,
-  "per_page": 50,
-  "start_page": 1,
-  "max_pages": 100
-}
+{"start_page": 3000, "max_pages": 3503}
