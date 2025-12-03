@@ -42,7 +42,7 @@ jobs:
           message: "Scrape 2006 H1"
           push: true
           pull: true
-          branch: main
+          github_token: ${{ secrets.GITHUB_TOKEN }}
 
   scrape_2006_H2:
     runs-on: ubuntu-latest
@@ -83,4 +83,4 @@ jobs:
           message: "Scrape 2006 H2"
           push: true
           pull: true
-          branch: main
+          github_token: ${{ secrets.GITHUB_TOKEN }}
