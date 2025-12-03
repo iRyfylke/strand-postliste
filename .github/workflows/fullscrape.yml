@@ -27,7 +27,7 @@ jobs:
 
       - name: Definer start_page og max_pages
         run: |
-          echo '{"start_page": 1, "max_pages": 3500}' > config.json
+          echo '{"start_page": 1, "max_pages": 3600}' > config.json
 
       - name: Scrape 2006 H1
         run: |
@@ -78,7 +78,7 @@ jobs:
 
       - name: Definer start_page og max_pages
         run: |
-          echo '{"start_page": 1, "max_pages": 3500}' > config.json
+          echo '{"start_page": 1, "max_pages": 3600}' > config.json
 
       - name: Scrape 2006 H2
         run: |
