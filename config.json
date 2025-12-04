@@ -1,1 +1,7 @@
-{"start_page": 3493, "max_pages": 3504}
+{
+  "mode": "incremental",
+  "max_pages_incremental": 10,
+  "max_pages_update": 50,
+  "max_pages_full": 200,
+  "per_page": 100
+}
