@@ -8,7 +8,7 @@ OUTPUT_FILE = "web/index.html"
 TEMPLATE_FILE = "web/template.html"
 
 # Fastsett antall oppføringer per side (default 50)
-PER_PAGE = 50
+PER_PAGE = 3000
 
 def load_data():
     if not os.path.exists(DATA_FILE):
