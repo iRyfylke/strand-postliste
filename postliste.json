@@ -7465,8 +7465,13 @@
     "avsender_mottaker": "",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019113!UsIiC4/d-6965376f__8677__47ea__a757__23e14c179149-2020249398!wjezoz",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "Innkalling - Kommunestyret - 17.12.2025 (pdf, 1,8MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1218633_1_P!d-2020249398!cyF3Ar?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Referatsaker",
@@ -7487,8 +7492,13 @@
     "avsender_mottaker": "Avsender: Rogaland fylkeskommune",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020002554!fZZu1C/d-6965376f__8677__47ea__a757__23e14c179149-2020249027!pHG5fD",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "Kvittering på innsendt søknad om tilskudd til Jørpeland stadion - friidrettsstadion kunststoff (pdf, 209KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1217640_1_A!d-2020249027!VRSYaU?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Høringsbrev - NOU 2025: 11 Revidert konkurranselov",
@@ -7531,8 +7541,13 @@
     "avsender_mottaker": "Mottaker: Dnf As",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016868!OkfYSj/d-6965376f__8677__47ea__a757__23e14c179149-2020248923!rrL1Cf",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "44/90 Mangler ferdigmelding vannmåler (pdf, 154KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1217437_1_A!d-2020248923!zu7tUj?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "43/16 Avslutt sak - ny tilknytning til offentlig vann- /avløpsanlegg - Samslåttå 41",
@@ -7569,8 +7584,13 @@
     "avsender_mottaker": "Mottaker: Langvik Maskin As",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020013887!MbFCNo/d-6965376f__8677__47ea__a757__23e14c179149-2020248879!r1e9IK",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "49/408 Forespørsel om status i sak (pdf, 149KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1217344_1_A!d-2020248879!Kx6zaB?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "44/114 Ferdigmelding for tiltak på eksisterende sanitæranlegg - Resahaugen 29",
@@ -7580,8 +7600,21 @@
     "avsender_mottaker": "Avsender: Fiskå Maskin As",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016545!zuEGuk/d-6965376f__8677__47ea__a757__23e14c179149-2020248955!uRcUta",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "44/114 Ferdigmelding for tiltak på eksisterende sanitæranlegg - Resahaugen 29 (pdf, 89KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1217474_1_A!d-2020248955!S7pI4I?pid=29"
+      },
+      {
+        "tekst": "As-BUILT VA, 44 114, Resahaugen (pdf, 692KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1217475_1_A!d-2020248955!H2aEjO?pid=29"
+      },
+      {
+        "tekst": "Sluttdokumentasjon - 44/114 RESAHAUGEN 29 (sos, 2KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1217476_1_A!d-2020248955!aoHm61?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Utvidet søkerliste - miljøarbeider - Langelandsmoen omsorgsboliger",
@@ -7624,8 +7657,93 @@
     "avsender_mottaker": "Avsender: Vial As",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017457!kRodoa/d-6965376f__8677__47ea__a757__23e14c179149-2020249049!JWIvw8",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "PlanID202502 Komplett planforslag til førstegangsbehandling (pdf, 129KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1217687_1_A!d-2020249049!QsJyn4?pid=29"
+      },
+      {
+        "tekst": "_202502_Planbeskrivelse_14.11.2025 (pdf, 20,3MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1217688_1_A!d-2020249049!UKZCRM?pid=29"
+      },
+      {
+        "tekst": "Vedlegg 1_Referat fra oppstartsmøte 20.06.25 (pdf, 423KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1217689_1_A!d-2020249049!Cz2yRX?pid=29"
+      },
+      {
+        "tekst": "Vedlegg 10_Fagrapport Landskapsbildet_14.11.2025 (pdf, 9,4MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1217690_1_A!d-2020249049!7nag6A?pid=29"
+      },
+      {
+        "tekst": "Vedlegg 11_Fagrapport Friluftsliv_11.11.2025 (pdf, 7,6MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1217691_1_A!d-2020249049!KvvvKx?pid=29"
+      },
+      {
+        "tekst": "Vedlegg 12_Fagrapport_Luftforurensning_18-11-2025 (pdf, 3,9MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1217692_1_A!d-2020249049!mPBdyo?pid=29"
+      },
+      {
+        "tekst": "Vedlegg 13_Fagrapport Klimagassutslipp_17-11-25 (pdf, 2,9MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1217693_1_A!d-2020249049!2vpsVA?pid=29"
+      },
+      {
+        "tekst": "Vedlegg 14_Samlokalisering med hydrogenanlegg_27.10.2025 (pdf, 3,1MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1217694_1_A!d-2020249049!MbKPDV?pid=29"
+      },
+      {
+        "tekst": "Vedlegg 15_Fagrapport Naturmiljø_Nordmarka_29.09.2025 (pdf, 2,8MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1217695_1_A!d-2020249049!pNXjJ2?pid=29"
+      },
+      {
+        "tekst": "Vedlegg 16 - Fagrapport Støy_19.11.2025 (pdf, 9,4MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1217696_1_A!d-2020249049!K8CRLQ?pid=29"
+      },
+      {
+        "tekst": "Vedlegg 17_Fagrapport Energibruk og energiløsninger_11.11.2025 (pdf, 1,4MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1217697_1_A!d-2020249049!F33TX1?pid=29"
+      },
+      {
+        "tekst": "Vedlegg 2_Vedtatt planprogram_Tau Nordmarka_24.10.2025 (pdf, 2,4MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1217698_1_A!d-2020249049!bgF6Xq?pid=29"
+      },
+      {
+        "tekst": "Vedlegg 3_Merknadsbehandling_Varsel om planoppstart (pdf, 536KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1217699_1_A!d-2020249049!rgj3Os?pid=29"
+      },
+      {
+        "tekst": "Vedlegg 4_Plankart_14.11.2025 (pdf, 898KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1217700_1_A!d-2020249049!NMwN4u?pid=29"
+      },
+      {
+        "tekst": "Vedlegg 4_Plankart_14.11.2025 (sos, 170KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1217701_1_A!d-2020249049!32kDid?pid=29"
+      },
+      {
+        "tekst": "Vedlegg 4_Plankart_14.11.2025 (pdf, 136KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1217702_1_A!d-2020249049!5dzP11?pid=29"
+      },
+      {
+        "tekst": "Vedlegg 5_Bestemmelser_14.11.2025 (pdf, 101KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1217703_1_A!d-2020249049!m1LbuI?pid=29"
+      },
+      {
+        "tekst": "Vedlegg 6_Illustrasjonsplaner_14.11.2025 (pdf, 4,1MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1217704_1_A!d-2020249049!sWLKX5?pid=29"
+      },
+      {
+        "tekst": "Vedlegg 7_Risiko- og sårbarhetsanalyse_18-11-25 (pdf, 2,2MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1217705_1_A!d-2020249049!3EWAec?pid=29"
+      },
+      {
+        "tekst": "Vedlegg 8_VA_Rammeplan_07.11.2025 (pdf, 12,2MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1217706_1_A!d-2020249049!PmCP9F?pid=29"
+      },
+      {
+        "tekst": "Vedlegg 9_Fagrapport Mobilitetsplan_14.11.2025 (pdf, 1,2MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1217707_1_A!d-2020249049!hIRiSd?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "31/57 Forespørsel om status i sak",
@@ -7635,8 +7753,13 @@
     "avsender_mottaker": "Mottaker: Thomas Dalen",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020014382!seUKvf/d-6965376f__8677__47ea__a757__23e14c179149-2020248881!0JqxFE",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "31/57 Forespørsel om status i sak (pdf, 150KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1217346_1_A!d-2020248881!Ncg51q?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Vedrørende innsynsbegjæring på saker om ulovlig bygging i strandsonen i perioden 2020-2025",
@@ -7782,8 +7905,13 @@
     "avsender_mottaker": "Mottaker: Langvik Maskin As",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020015168!336y8m/d-6965376f__8677__47ea__a757__23e14c179149-2020248888!xMxKUp",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "53/106 Forespørsel om status i sak (pdf, 150KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1217354_1_A!d-2020248888!LBDt3K?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "12/7 Forespørsel om status i sak",
@@ -8075,13 +8203,8 @@
     "avsender_mottaker": "Avsender: Rogaland fylkeskommune",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016215!8nE1bJ/d-6965376f__8677__47ea__a757__23e14c179149-2020249031!sF61Yk",
-    "filer": [
-      {
-        "tekst": "Kvittering på innsendt søknad om tilskudd til Resahaugen aktivitetspark - Bordtennis og teqball ved Resahaugen skole (pdf, 209KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1217647_1_A!d-2020249031!MU8BnY?pid=29"
-      }
-    ],
-    "status": "Publisert"
+    "filer": [],
+    "status": "Må bes om innsyn"
   },
   {
     "tittel": "45/53 Forespørsel om status i sak",
@@ -8751,8 +8874,13 @@
     "avsender_mottaker": "Avsender: Anne Margrethe Erland Asmundsen",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020012783!XIvR4o/d-6965376f__8677__47ea__a757__23e14c179149-2020249034!mLoZBl",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "Innspill kommuneplanens arealdel - oppdrettsanlegg og økt forurensningsbelastning (pdf, 52KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1217653_1_A!d-2020249034!7lin4i?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Oversendelse av utvidet søkerliste - miljøarbeider - Langelandsmoen omsorgsboliger",
