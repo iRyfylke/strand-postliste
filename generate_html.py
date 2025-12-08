@@ -3,21 +3,29 @@ import os
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
-DATA_FILE = "postliste.json"
-OUTPUT_FILE = "index.html"
-TEMPLATE_FILE = "web/template.html"
+DATA_FILE = "postliste.json"        # ligger i rot
+OUTPUT_FILE = "index.html"          # skal ligge i rot
+TEMPLATE_FILE = "web/template.html" # ligger i web/
 
-# Fastsett antall oppføringer per side (default 50)
+# Fastsett antall oppføringer per side (default 50 eller 3000)
 PER_PAGE = 3000
 
 def load_data():
     if not os.path.exists(DATA_FILE):
+        print(f"[ERROR] Fant ikke {DATA_FILE}")
         return []
-    with open(DATA_FILE, "r", encoding="utf-8") as f:
-        try:
-            return json.load(f)
-        except Exception:
-            return []
+    try:
+        with open(DATA_FILE, "r", encoding="utf-8") as f:
+            data = json.load(f)
+            if isinstance(data, list):
+                print(f"[INFO] Lastet {len(data)} oppføringer fra {DATA_FILE}")
+                return data
+            else:
+                print(f"[ERROR] JSON-formatet er ikke en liste. Type: {type(data)}")
+                return []
+    except Exception as e:
+        print(f"[ERROR] Kunne ikke laste {DATA_FILE}: {e}")
+        return []
 
 def generate_html():
     data = load_data()
