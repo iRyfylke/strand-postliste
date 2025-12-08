@@ -57,6 +57,6 @@ jobs:
       - name: Commit og push oppdateringer
         uses: EndBug/add-and-commit@v9
         with:
-          add: "postliste.json index.html config.json"
+          add: "index.html web/script.js web/style.css web/template.html postliste.json"
           message: "Manuell publish med scraper_dates"
           push: true
