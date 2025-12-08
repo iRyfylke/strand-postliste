@@ -113,3 +113,28 @@ ul.files li { margin: .25rem 0; }
   body { margin: 0.5cm; }
   .card { break-inside: avoid; border: 1px solid #999; }
 }
+
+/* Dark mode */
+body.dark {
+  --border: #444;
+  --text: #eee;
+  --muted: #aaa;
+  --bg: #1e1e1e;
+  --link: #58a6ff;
+  --green: #3fb950;
+  --red: #f85149;
+}
+
+.toggle-dark {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  padding: .5rem .75rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg);
+  color: var(--text);
+  cursor: pointer;
+  font-size: 0.9rem;
+  z-index: 2000;
+}
