@@ -9,67 +9,86 @@
 <body>
   <header class="sticky-header">
     <h1>Postliste – Strand kommune</h1>
-    <p class="updated">Oppdatert: 08.12.2025 19:21</p>
+    <p class="updated">Oppdatert: 08.12.2025 19:29</p>
   </header>
 
-  <!-- Filterseksjon -->
-  <section id="filters" class="filters">
-    <!-- Søk i tittel/dokumentID -->
-    <input type="text" id="searchInput" placeholder="Søk i tittel eller dokumentID..." oninput="applySearch()" />
+  <!-- Filterseksjon tilpasset .controls -->
+  <section class="controls">
+    <div class="field">
+      <label for="searchInput">Søk i tittel/dokumentID</label>
+      <input type="text" id="searchInput" placeholder="Søk..." oninput="applySearch()" />
+    </div>
 
-    <!-- Søk i avsender/mottaker -->
-    <input type="text" id="searchAM" placeholder="Søk i avsender/mottaker..." oninput="applySearch()" />
+    <div class="field">
+      <label for="searchAM">Avsender/Mottaker</label>
+      <input type="text" id="searchAM" placeholder="Søk..." oninput="applySearch()" />
+    </div>
 
-    <!-- Dato-intervall -->
-    <label for="dateFrom">Fra:</label>
-    <input type="date" id="dateFrom" onchange="applyDateFilter()" />
-    <label for="dateTo">Til:</label>
-    <input type="date" id="dateTo" onchange="applyDateFilter()" />
+    <div class="field">
+      <label for="dateFrom">Fra dato</label>
+      <input type="date" id="dateFrom" onchange="applyDateFilter()" />
+    </div>
 
-    <!-- Hurtigvalg dato -->
-    <button onclick="setQuickRange('week')">Siste uke</button>
-    <button onclick="setQuickRange('month')">Siste måned</button>
+    <div class="field">
+      <label for="dateTo">Til dato</label>
+      <input type="date" id="dateTo" onchange="applyDateFilter()" />
+    </div>
 
-    <!-- Dokumenttype -->
-    <select id="filterType" onchange="applyFilter()">
-      <option value="">Alle dokumenttyper</option>
-      <option value="Inngående">Inngående</option>
-      <option value="Utgående">Utgående</option>
-      <option value="Sakskart">Sakskart</option>
-      <option value="Møtebok">Møtebok</option>
-      <option value="Møteprotokoll">Møteprotokoll</option>
-      <option value="Saksfremlegg">Saksfremlegg</option>
-      <option value="Internt">Internt</option>
-    </select>
+    <div class="actions">
+      <div class="quick">
+        <button onclick="setQuickRange('week')">Siste uke</button>
+        <button onclick="setQuickRange('month')">Siste måned</button>
+      </div>
+    </div>
 
-    <!-- Status -->
-    <select id="statusFilter" onchange="applyStatusFilter()">
-      <option value="">Alle statuser</option>
-      <option value="Publisert">Publisert</option>
-      <option value="Må bes om innsyn">Må bes om innsyn</option>
-    </select>
+    <div class="field">
+      <label for="filterType">Dokumenttype</label>
+      <select id="filterType" onchange="applyFilter()">
+        <option value="">Alle</option>
+        <option value="Inngående">Inngående</option>
+        <option value="Utgående">Utgående</option>
+        <option value="Sakskart">Sakskart</option>
+        <option value="Møtebok">Møtebok</option>
+        <option value="Møteprotokoll">Møteprotokoll</option>
+        <option value="Saksfremlegg">Saksfremlegg</option>
+        <option value="Internt">Internt</option>
+      </select>
+    </div>
 
-    <!-- Sortering -->
-    <select id="sortSelect" onchange="applySort()">
-      <option value="dato-desc">Dato nyeste først</option>
-      <option value="dato-asc">Dato eldste først</option>
-      <option value="type-asc">Type A–Å</option>
-      <option value="type-desc">Type Å–A</option>
-      <option value="status-publisert">Publisert først</option>
-      <option value="status-innsyn">Innsyn først</option>
-    </select>
+    <div class="field">
+      <label for="statusFilter">Status</label>
+      <select id="statusFilter" onchange="applyStatusFilter()">
+        <option value="">Alle</option>
+        <option value="Publisert">Publisert</option>
+        <option value="Må bes om innsyn">Må bes om innsyn</option>
+      </select>
+    </div>
 
-    <!-- Antall per side -->
-    <select id="perPage" onchange="changePerPage()">
-      <option value="25">25 per side</option>
-      <option value="50">50 per side</option>
-      <option value="100">100 per side</option>
-      <option value="3000">Vis alle</option>
-    </select>
+    <div class="field">
+      <label for="sortSelect">Sortering</label>
+      <select id="sortSelect" onchange="applySort()">
+        <option value="dato-desc">Dato nyeste først</option>
+        <option value="dato-asc">Dato eldste først</option>
+        <option value="type-asc">Type A–Å</option>
+        <option value="type-desc">Type Å–A</option>
+        <option value="status-publisert">Publisert først</option>
+        <option value="status-innsyn">Innsyn først</option>
+      </select>
+    </div>
+
+    <div class="field">
+      <label for="perPage">Per side</label>
+      <select id="perPage" onchange="changePerPage()">
+        <option value="25">25</option>
+        <option value="50">50</option>
+        <option value="100">100</option>
+        <option value="3000">Alle</option>
+      </select>
+    </div>
   </section>
 
   <!-- Sammendragstekst -->
-  <p id="summary"></p>
+  <p class="summary" id="summary"></p>
 
   <!-- Statistikkseksjon -->
   <section id="stats">
