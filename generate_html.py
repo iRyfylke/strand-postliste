@@ -7,8 +7,7 @@ DATA_FILE = "postliste.json"        # ligger i rot
 OUTPUT_FILE = "index.html"          # skal ligge i rot
 TEMPLATE_FILE = "web/template.html" # ligger i web/
 
-# Fastsett antall oppføringer per side (default 50 eller 3000)
-PER_PAGE = 3000
+PER_PAGE = 50  # standard antall per side (kan endres)
 
 def load_data():
     if not os.path.exists(DATA_FILE):
@@ -35,11 +34,12 @@ def generate_html():
     with open(TEMPLATE_FILE, "r", encoding="utf-8") as f:
         template = f.read()
 
-    # Sett inn variabler
-    html = template.format(
-        updated=updated,
-        per_page=PER_PAGE,
-        data_json=json.dumps(data, ensure_ascii=False)
+    # Sett inn placeholders manuelt
+    html = (
+        template
+        .replace("{updated}", updated)
+        .replace("{per_page}", str(PER_PAGE))
+        .replace("{data_json}", json.dumps(data, ensure_ascii=False))
     )
 
     # Lagre ferdig index.html
