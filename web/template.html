@@ -24,10 +24,7 @@
       <label for="searchInput">Søk i tittel/dokumentID</label>
       <input type="text" id="searchInput" placeholder="Søk..." oninput="applySearch()" />
     </div>
-    <div class="field">
-      <label for="searchAM">Avsender/Mottaker</label>
-      <input type="text" id="searchAM" placeholder="Søk..." oninput="applySearch()" />
-    </div>
+    <!-- Avsender/Mottaker søkefelt fjernet -->
     <div class="field">
       <label for="dateFrom">Fra dato</label>
       <input type="date" id="dateFrom" onchange="applyDateFilter()" />
@@ -36,12 +33,7 @@
       <label for="dateTo">Til dato</label>
       <input type="date" id="dateTo" onchange="applyDateFilter()" />
     </div>
-    <div class="actions">
-      <div class="quick">
-        <button onclick="setQuickRange('week')">Siste uke</button>
-        <button onclick="setQuickRange('month')">Siste måned</button>
-      </div>
-    </div>
+    <!-- Filterknapper "Siste uke" og "Siste måned" fjernet -->
     <div class="field">
       <label for="filterType">Dokumenttype</label>
       <select id="filterType" onchange="applyFilter()">
