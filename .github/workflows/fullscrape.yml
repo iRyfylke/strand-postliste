@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  scrape_2007_H1:
+  scrape_2006_H1:
     runs-on: ubuntu-latest
     steps:
       - name: Sjekk ut repo
@@ -29,22 +29,22 @@ jobs:
         run: |
           echo '{"start_page": 3484, "max_pages": 3493}' > config_fullscrape.json
 
-      - name: Scrape 2007 H1
+      - name: Scrape 2006 H1
         run: |
           sleep 10   # vent 10 sekunder før første sidelasting
-          python scraper_dates.py "2007-01-01" "2007-06-30"
+          python scraper_dates.py "2006-01-01" "2006-06-30"
           mkdir -p archive
-          mv postliste.json "archive/postliste_2007_H1.json"
+          mv postliste.json "archive/postliste_2006_H1.json"
 
       - name: Commit og push H1
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Scrape 2007 H1"
-          file_pattern: "archive/postliste_2007_H1.json config_fullscrape.json"
+          commit_message: "Scrape 2006 H1"
+          file_pattern: "archive/postliste_2006_H1.json config_fullscrape.json"
 
-  scrape_2007_H2:
+  scrape_2006_H2:
     runs-on: ubuntu-latest
-    needs: scrape_2007_H1   # <- H2 starter først når H1 er ferdig
+    needs: scrape_2006_H1   # <- H2 starter først når H1 er ferdig
     steps:
       - name: Sjekk ut repo
         uses: actions/checkout@v3
@@ -68,15 +68,15 @@ jobs:
         run: |
           echo '{"start_page": 3484, "max_pages": 3493}' > config_fullscrape.json
 
-      - name: Scrape 2007 H2
+      - name: Scrape 2006 H2
         run: |
           sleep 10   # vent 10 sekunder før første sidelasting
-          python scraper_dates.py "2007-07-01" "2007-12-31"
+          python scraper_dates.py "2006-07-01" "2006-12-31"
           mkdir -p archive
-          mv postliste.json "archive/postliste_2007_H2.json"
+          mv postliste.json "archive/postliste_2006_H2.json"
 
       - name: Commit og push H2
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Scrape 2007 H2"
-          file_pattern: "archive/postliste_2007_H2.json config_fullscrape.json"
+          commit_message: "Scrape 2006 H2"
+          file_pattern: "archive/postliste_2006_H2.json config_fullscrape.json"
