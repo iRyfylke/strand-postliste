@@ -1,6 +1,9 @@
 name: Oppdatering-scraping
 
 on:
+  schedule:
+    # Kjør hver dag kl 13:00 UTC (≈ 14:00 norsk tid vinter)
+    - cron: "0 13 * * *"
   workflow_dispatch:
 
 jobs:
@@ -35,6 +38,6 @@ jobs:
       - name: Commit og push oppdateringer
         uses: EndBug/add-and-commit@v9
         with:
-          add: "index.html web/script.js web/style.css web/template.html postliste.json"
+          add: "index.html web/script.js web/style.css web/template.html postliste.json changes.json"
           message: "Automatisk oppdatering av eksisterende oppføringer (update)"
           push: true
