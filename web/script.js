@@ -5,7 +5,6 @@
 let currentPage = 1;
 let currentFilter = "";
 let currentSearch = "";
-let currentSearchAM = "";
 let currentStatus = "";
 let currentSort = "dato-desc";
 let dateFrom = "";
@@ -54,15 +53,17 @@ function getDateForSort(d) {
 }
 
 function applySearch() {
-  currentSearch = document.getElementById("searchInput").value.trim();
-  currentSearchAM = document.getElementById("searchAM").value.trim();
+  const input = document.getElementById("searchInput");
+  currentSearch = input ? input.value.trim() : "";
   currentPage = 1;
   renderPage(currentPage);
 }
 
 function applyDateFilter() {
-  dateFrom = document.getElementById("dateFrom").value;
-  dateTo = document.getElementById("dateTo").value;
+  const fromEl = document.getElementById("dateFrom");
+  const toEl = document.getElementById("dateTo");
+  dateFrom = fromEl ? fromEl.value : "";
+  dateTo = toEl ? toEl.value : "";
   currentPage = 1;
   renderPage(currentPage);
 }
@@ -71,37 +72,45 @@ function setQuickRange(range) {
   const now = new Date();
   if (range === "week") {
     const lastWeek = new Date(now.getFullYear(), now.getMonth(), now.getDate() - 7);
-    document.getElementById("dateFrom").value = lastWeek.toISOString().split("T")[0];
-    document.getElementById("dateTo").value = now.toISOString().split("T")[0];
+    const fromEl = document.getElementById("dateFrom");
+    const toEl = document.getElementById("dateTo");
+    if (fromEl) fromEl.value = lastWeek.toISOString().split("T")[0];
+    if (toEl) toEl.value = now.toISOString().split("T")[0];
   }
   if (range === "month") {
     const lastMonth = new Date(now.getFullYear(), now.getMonth() - 1, now.getDate());
-    document.getElementById("dateFrom").value = lastMonth.toISOString().split("T")[0];
-    document.getElementById("dateTo").value = now.toISOString().split("T")[0];
+    const fromEl = document.getElementById("dateFrom");
+    const toEl = document.getElementById("dateTo");
+    if (fromEl) fromEl.value = lastMonth.toISOString().split("T")[0];
+    if (toEl) toEl.value = now.toISOString().split("T")[0];
   }
   applyDateFilter();
 }
 
 function applyFilter() {
-  currentFilter = document.getElementById("filterType").value;
+  const el = document.getElementById("filterType");
+  currentFilter = el ? el.value : "";
   currentPage = 1;
   renderPage(currentPage);
 }
 
 function applyStatusFilter() {
-  currentStatus = document.getElementById("statusFilter").value;
+  const el = document.getElementById("statusFilter");
+  currentStatus = el ? el.value : "";
   currentPage = 1;
   renderPage(currentPage);
 }
 
 function applySort() {
-  currentSort = document.getElementById("sortSelect").value;
+  const el = document.getElementById("sortSelect");
+  currentSort = el ? el.value : "dato-desc";
   currentPage = 1;
   renderPage(currentPage);
 }
 
 function changePerPage() {
-  perPage = parseInt(document.getElementById("perPage").value, 10);
+  const el = document.getElementById("perPage");
+  perPage = el ? parseInt(el.value, 10) : perPage;
   currentPage = 1;
   renderPage(currentPage);
 }
@@ -115,11 +124,6 @@ function getFilteredData() {
       (d.tittel && d.tittel.toLowerCase().includes(q)) ||
       (d.dokumentID && String(d.dokumentID).toLowerCase().includes(q))
     );
-  }
-
-  if (currentSearchAM) {
-    const q = currentSearchAM.toLowerCase();
-    arr = arr.filter(d => (d.avsender_mottaker && d.avsender_mottaker.toLowerCase().includes(q)));
   }
 
   if (currentFilter) {
@@ -161,7 +165,6 @@ function renderSummary(totalFiltered) {
   // Sammendragstekst med aktive filtre
   const parts = [];
   if (currentSearch) parts.push(`søk: "${currentSearch}"`);
-  if (currentSearchAM) parts.push(`avsender/mottaker: "${currentSearchAM}"`);
   if (currentFilter) parts.push(`type: ${currentFilter}`);
   if (currentStatus) parts.push(`status: ${currentStatus}`);
   if (dateFrom || dateTo) parts.push(`dato: ${dateFrom || "–"} til ${dateTo || "–"}`);
@@ -217,7 +220,9 @@ function renderPage(page) {
 
 function renderPagination(elementId, page, totalItems) {
   const maxPage = Math.ceil(totalItems / perPage) || 1;
-  document.getElementById(elementId).innerHTML =
+  const el = document.getElementById(elementId);
+  if (!el) return;
+  el.innerHTML =
     `<button onclick='prevPage()' ${page === 1 ? "disabled" : ""}>Forrige</button>
      <span>Side ${page} av ${maxPage}</span>
      <button onclick='nextPage()' ${page >= maxPage ? "disabled" : ""}>Neste</button>`;
@@ -272,7 +277,6 @@ function exportPDF() {
 function copyShareLink() {
   const params = new URLSearchParams();
   if (currentSearch) params.set("q", currentSearch);
-  if (currentSearchAM) params.set("am", currentSearchAM);
   if (currentFilter) params.set("type", currentFilter);
   if (currentStatus) params.set("status", currentStatus);
   if (dateFrom) params.set("from", dateFrom);
@@ -284,6 +288,7 @@ function copyShareLink() {
   const shareUrl = window.location.origin + window.location.pathname + "?" + params.toString();
   navigator.clipboard.writeText(shareUrl).then(() => {
     const el = document.getElementById("summary");
+    if (!el) return;
     const prev = el.textContent;
     el.textContent = "Delingslenke kopiert!";
     setTimeout(() => el.textContent = prev, 1500);
@@ -295,13 +300,12 @@ let weeklyChart = null;
 let typesChart = null;
 
 function buildStats(filtered) {
-  // Publisert per uke (ISO-aktig uke-nummer, forenklet)
+  // Publisert per uke (forenklet uke-beregning)
   const weekly = {};
   filtered.forEach(d => {
     if (d.status === "Publisert" && d.dato) {
       const dt = parseDDMMYYYY(d.dato);
       if (!dt) return;
-      // Forenklet uke-beregning (kalenderuke ~)
       const startOfYear = new Date(dt.getFullYear(), 0, 1);
       const dayDiff = Math.floor((dt - startOfYear) / 86400000) + 1;
       const week = Math.ceil(dayDiff / 7);
@@ -323,6 +327,7 @@ function buildStats(filtered) {
 
   const weeklyCanvas = document.getElementById("chartWeekly");
   const typesCanvas = document.getElementById("chartTypes");
+  if (!weeklyCanvas || !typesCanvas) return;
 
   if (weeklyChart) weeklyChart.destroy();
   if (typesChart) typesChart.destroy();
@@ -367,7 +372,6 @@ function buildStats(filtered) {
 function applyParamsFromURL() {
   const url = new URL(window.location.href);
   const q = url.searchParams.get("q") || "";
-  const am = url.searchParams.get("am") || "";
   const type = url.searchParams.get("type") || "";
   const status = url.searchParams.get("status") || "";
   const from = url.searchParams.get("from") || "";
@@ -376,27 +380,33 @@ function applyParamsFromURL() {
   const pp = parseInt(url.searchParams.get("perPage") || String(perPage), 10);
   const pg = parseInt(url.searchParams.get("page") || "1", 10);
 
-  document.getElementById("searchInput").value = q;
-  document.getElementById("searchAM").value = am;
-  document.getElementById("filterType").value = type;
-  document.getElementById("statusFilter").value = status;
-  document.getElementById("dateFrom").value = from;
-  document.getElementById("dateTo").value = to;
-  document.getElementById("sortSelect").value = sort;
+  const si = document.getElementById("searchInput");
+  if (si) si.value = q;
+  const ft = document.getElementById("filterType");
+  if (ft) ft.value = type;
+  const sf = document.getElementById("statusFilter");
+  if (sf) sf.value = status;
+  const df = document.getElementById("dateFrom");
+  if (df) df.value = from;
+  const dt = document.getElementById("dateTo");
+  if (dt) dt.value = to;
+  const ss = document.getElementById("sortSelect");
+  if (ss) ss.value = sort;
 
   const perPageSelect = document.getElementById("perPage");
-  const opt = Array.from(perPageSelect.options).find(o => parseInt(o.value,10) === pp);
-  if (opt) perPageSelect.value = String(pp);
+  if (perPageSelect) {
+    const opt = Array.from(perPageSelect.options || []).find(o => parseInt(o.value,10) === pp);
+    if (opt) perPageSelect.value = String(pp);
+  }
 
   currentSearch = q;
-  currentSearchAM = am;
   currentFilter = type;
   currentStatus = status;
   dateFrom = from;
   dateTo = to;
   currentSort = sort;
-  perPage = pp;
-  currentPage = pg;
+  perPage = isNaN(pp) ? perPage : pp;
+  currentPage = isNaN(pg) ? 1 : pg;
 }
 
 document.addEventListener("DOMContentLoaded", () => {
