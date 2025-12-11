@@ -1,4 +1,4 @@
-name: Publish-scraping
+name: Publish dates-scraping
 
 on:
   workflow_dispatch:
@@ -51,12 +51,10 @@ jobs:
             python scraper_dates.py
           fi
 
-      - name: Generer HTML
-        run: python generate_html.py
-
+      # Commit kun datafiler – frontend genereres av auto-publish.yml
       - name: Commit og push oppdateringer
         uses: EndBug/add-and-commit@v9
         with:
-          add: "index.html web/script.js web/style.css web/template.html postliste.json"
+          add: "postliste.json changes.json"
           message: "Manuell publish med scraper_dates"
           push: true
