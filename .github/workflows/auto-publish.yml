@@ -2,7 +2,7 @@ name: Auto-publish
 
 on:
   workflow_run:
-    workflows: ["Morgen-scraping", "Oppdatering-scraping", "Full historical scrape"]
+    workflows: ["Morgen-scraping", "Oppdatering-scraping", "Full historical scrape", "Publish-dates-scraping"]
     types:
       - completed
   workflow_dispatch:   # gir deg manuell trigger i Actions-fanen
