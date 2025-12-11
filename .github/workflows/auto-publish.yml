@@ -14,25 +14,25 @@ jobs:
       - name: Sjekk ut repo
         uses: actions/checkout@v3
         with:
-          ref: main   # sjekk ut gh-pages branch
+          ref: main   # sjekk ut main branch (Pages bygger fra denne)
 
       - name: Sett opp Python
         uses: actions/setup-python@v4
         with:
           python-version: "3.11"
 
+      # Avhengigheter: kun det generate_html.py faktisk trenger.
+      # Hvis generate_html.py ikke bruker Playwright, kan du droppe dette helt.
       - name: Installer avhengigheter
         run: |
           python -m pip install --upgrade pip
-          pip install playwright
-          playwright install chromium
 
       - name: Generer HTML fra postliste.json
         run: python generate_html.py
 
-      - name: Commit og push oppdateringer
+      - name: Commit og push frontend
         uses: EndBug/add-and-commit@v9
         with:
-          add: "index.html web/script.js web/style.css web/template.html postliste.json"
+          add: "index.html web/script.js web/style.css web/template.html"
           message: "Automatisk publish etter scraping"
           push: true
