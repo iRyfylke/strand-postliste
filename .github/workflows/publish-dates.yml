@@ -1,4 +1,4 @@
-name: Publish dates-scraping
+name: Publish-dates-scraping
 
 on:
   workflow_dispatch:
