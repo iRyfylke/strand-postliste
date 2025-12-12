@@ -12,6 +12,8 @@ import './java/export.js';
 import './java/stats.js';
 
 // Init fra URL params og første render
+let currentPage = 1;
+
 document.addEventListener("DOMContentLoaded", () => {
   applyParamsFromURL();
   renderPage(currentPage);
