@@ -20,7 +20,7 @@ function applyDateFilter() {
   currentPage = 1;
   renderPage(currentPage);
 }
-
+/*
 function setQuickRange(range) {
   const now = new Date();
   if (range === "week") {
@@ -35,7 +35,7 @@ function setQuickRange(range) {
   }
   applyDateFilter();
 }
-
+*/
 function applyFilter() {
   const el = document.getElementById("filterType");
   currentFilter = el ? el.value : "";
