@@ -21,8 +21,19 @@ document.addEventListener("DOMContentLoaded", () => {
    Backup av gammel script.js
    ===========================
 
+   For å rulle tilbake:
+   1. Fjern importene øverst.
+   2. Fjern denne kommentaren (/* ... */).
+   3. Lagre og push.
+
+   Da kjører du igjen på den gamle monolittiske script.js.
+*/
+
+/* ===========================
+   Backup av gammel script.js
+   ===========================
+
 // Hele gamle script.js-koden kan ligge her kommentert ut.
-// Da har du en trygg fallback hvis noe går galt med modulene.
 
 // Variabler settes inn fra generate_html.py via template.html
 // const data = {data_json};
