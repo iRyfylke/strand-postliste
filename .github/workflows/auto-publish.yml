@@ -33,6 +33,6 @@ jobs:
       - name: Commit og push frontend
         uses: EndBug/add-and-commit@v9
         with:
-          add: "index.html web/script.js web/style.css web/template.html postliste.json"
+          add: "index.html generate_html.py web/script.js web/style.css web/template.html postliste.json"
           message: "Automatisk publish etter scraping"
           push: true
