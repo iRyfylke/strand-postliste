@@ -40,3 +40,4 @@ jobs:
           add: "postliste.json changes.json"
           message: "Automatisk oppdatering av eksisterende oppføringer (update)"
           push: true
+          pull: true
