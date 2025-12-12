@@ -1,4 +1,5 @@
-// Global state
+export function renderPage(page) {
+  // Global state
 let currentPage = 1;
 let currentSearch = "";
 let currentFilter = "";
@@ -155,4 +156,4 @@ function renderPage(page) {
   renderSummary(filtered.length);
   buildStats(filtered);
 }
-
+}
