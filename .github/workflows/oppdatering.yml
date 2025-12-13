@@ -49,4 +49,7 @@ jobs:
           git config --global user.email "${{ github.actor }}@users.noreply.github.com"
           git add postliste.json changes.json
           git commit -m "Automatisk oppdatering av eksisterende oppføringer (update)" || echo "Ingen endringer å committe"
+          # Hent siste endringer fra main og legg dine commits oppå
+          git pull --rebase origin main || echo "Ingen endringer å hente"
           git push origin main
+
