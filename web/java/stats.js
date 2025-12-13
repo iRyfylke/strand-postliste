@@ -3,7 +3,7 @@
 let weeklyChart = null;
 let typesChart = null;
 
-function buildStats(filtered) {
+export function buildStats(filtered) {
   // Publisert per uke (forenklet uke-beregning)
   const weekly = {};
   filtered.forEach(d => {
@@ -74,4 +74,3 @@ function buildStats(filtered) {
     }
   });
 }
-
