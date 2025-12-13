@@ -43,4 +43,7 @@ jobs:
           git config --global user.email "${{ github.actor }}@users.noreply.github.com"
           git add index.html web/script.js web/style.css web/template.html postliste.json
           git commit -m "Force publish med oppdatert index.html og postliste.json" || echo "Ingen endringer å committe"
+          # Hent siste endringer fra main og legg dine commits oppå
+          git pull --rebase origin main || echo "Ingen endringer å hente"
           git push origin main
+
