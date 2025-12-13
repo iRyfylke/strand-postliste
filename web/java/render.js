@@ -5,6 +5,7 @@ export let currentStatus = "";
 export let dateFrom = null;
 export let dateTo = null;
 export let currentSort = "dato-desc";
+export let currentPage = 1;
 
 // === Hjelpefunksjoner ===
 function escapeHtml(s) {
@@ -113,6 +114,13 @@ function renderSummary(totalFiltered) {
 // === Rendering av kort og paginering ===
 export function renderPage(page) {
   const filtered = getFilteredData();
+  const maxPage = Math.ceil(filtered.length / perPage) || 1;
+
+  // Juster page hvis den er utenfor gyldig område
+  if (page < 1) page = 1;
+  if (page > maxPage) page = maxPage;
+  currentPage = page;
+
   const start = (page - 1) * perPage;
   const end = start + perPage;
   const items = filtered.slice(start, end);
@@ -151,8 +159,11 @@ export function renderPage(page) {
   const container = document.getElementById("container");
   if (container) container.innerHTML = cards;
 
-  renderPagination("pagination-top", page, filtered.length);
-  renderPagination("pagination-bottom", page, filtered.length);
+  // Oppdater paginering topp og bunn
+  renderPagination("pagination-top", currentPage, filtered.length);
+  renderPagination("pagination-bottom", currentPage, filtered.length);
+
+  // Oppdater sammendrag og statistikk
   renderSummary(filtered.length);
   buildStats(filtered);
 }
