@@ -2,14 +2,26 @@
 import { renderPagination } from './pagination.js';
 import { buildStats } from './stats.js';
 
-// === Global state ===
-export let currentSearch = "";
-export let currentFilter = "";
-export let currentStatus = "";
-export let dateFrom = null;
-export let dateTo = null;
-export let currentSort = "dato-desc";
-export let currentPage = 1;
+// === Global state (privat) ===
+let currentSearch = "";
+let currentFilter = "";
+let currentStatus = "";
+let dateFrom = null;
+let dateTo = null;
+let currentSort = "dato-desc";
+let currentPage = 1;
+
+// === Settere og gettere ===
+export function setSearch(val) { currentSearch = val; }
+export function setFilter(val) { currentFilter = val; }
+export function setStatus(val) { currentStatus = val; }
+export function setDateRange(from, to) { dateFrom = from; dateTo = to; }
+export function setSort(val) { currentSort = val; }
+export function setPage(val) { currentPage = val; }
+
+export function getState() {
+  return { currentSearch, currentFilter, currentStatus, dateFrom, dateTo, currentSort, currentPage };
+}
 
 // === Hjelpefunksjoner ===
 function escapeHtml(s) {
@@ -120,7 +132,6 @@ export function renderPage(page) {
   const filtered = getFilteredData();
   const maxPage = Math.ceil(filtered.length / perPage) || 1;
 
-  // Juster page hvis den er utenfor gyldig område
   if (page < 1) page = 1;
   if (page > maxPage) page = maxPage;
   currentPage = page;
@@ -163,11 +174,9 @@ export function renderPage(page) {
   const container = document.getElementById("container");
   if (container) container.innerHTML = cards;
 
-  // Oppdater paginering topp og bunn
   renderPagination("pagination-top", currentPage, filtered.length, perPage);
   renderPagination("pagination-bottom", currentPage, filtered.length, perPage);
 
-  // Oppdater sammendrag og statistikk
   renderSummary(filtered.length);
   buildStats(filtered);
 }
