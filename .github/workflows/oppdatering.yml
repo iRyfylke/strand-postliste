@@ -15,6 +15,9 @@ jobs:
     steps:
       - name: Sjekk ut repo
         uses: actions/checkout@v3
+        with:
+          persist-credentials: true
+          fetch-depth: 0
       
       - name: Sett opp Python
         uses: actions/setup-python@v4
@@ -34,10 +37,16 @@ jobs:
       - name: Kjør scraper (update)
         run: python scraper.py
       
+      - name: Sett opp git remote
+        run: |
+          git remote remove origin || true
+          git remote add origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+          git remote -v
+      
       - name: Commit og push oppdateringer
-        uses: EndBug/add-and-commit@v9
-        with:
-          add: "postliste.json changes.json"
-          message: "Automatisk oppdatering av eksisterende oppføringer (update)"
-          push: true
-          pull: true
+        run: |
+          git config --global user.name "${{ github.actor }}"
+          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
+          git add postliste.json changes.json
+          git commit -m "Automatisk oppdatering av eksisterende oppføringer (update)" || echo "Ingen endringer å committe"
+          git push origin main
