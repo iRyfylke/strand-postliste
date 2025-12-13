@@ -12,45 +12,23 @@
     <p class="updated">Oppdatert: {updated}</p>
   </header>
 
-  <!-- Tabs, kommentert ut -->
-  <!--
-  <nav class="tabs">
-    <button class="active" data-tab="postliste">📂 Postliste</button>
-    <button data-tab="stats">📈 Statistikk</button>
-  </nav>
-  -->
-
   <!-- Filterseksjon -->
   <section class="controls">
     <div class="field">
       <label for="searchInput">Søk i tittel/dokumentID</label>
-      <input type="text" id="searchInput" placeholder="Søk..." oninput="applySearch()" />
+      <input type="text" id="searchInput" placeholder="Søk..." />
     </div>
-    <!--
-    <div class="field">
-      <label for="searchAM">Avsender/Mottaker</label>
-      <input type="text" id="searchAM" placeholder="Søk..." oninput="applySearch()" />
-    </div>
-    -->
     <div class="field">
       <label for="dateFrom">Fra dato</label>
-      <input type="date" id="dateFrom" onchange="applyDateFilter()" />
+      <input type="date" id="dateFrom" />
     </div>
     <div class="field">
       <label for="dateTo">Til dato</label>
-      <input type="date" id="dateTo" onchange="applyDateFilter()" />
+      <input type="date" id="dateTo" />
     </div>
-    <!--
-    <div class="actions">
-      <div class="quick">
-        <button onclick="setQuickRange('week')">Siste uke</button>
-        <button onclick="setQuickRange('month')">Siste måned</button>
-      </div>
-    </div>
-    -->
     <div class="field">
       <label for="filterType">Dokumenttype</label>
-      <select id="filterType" onchange="applyFilter()">
+      <select id="filterType">
         <option value="">Alle</option>
         <option value="Inngående">Inngående</option>
         <option value="Utgående">Utgående</option>
@@ -63,7 +41,7 @@
     </div>
     <div class="field">
       <label for="statusFilter">Status</label>
-      <select id="statusFilter" onchange="applyStatusFilter()">
+      <select id="statusFilter">
         <option value="">Alle</option>
         <option value="Publisert">Publisert</option>
         <option value="Må bes om innsyn">Må bes om innsyn</option>
@@ -71,7 +49,7 @@
     </div>
     <div class="field">
       <label for="sortSelect">Sortering</label>
-      <select id="sortSelect" onchange="applySort()">
+      <select id="sortSelect">
         <option value="dato-desc">Dato nyeste først</option>
         <option value="dato-asc">Dato eldste først</option>
         <option value="type-asc">Type A–Å</option>
@@ -82,7 +60,7 @@
     </div>
     <div class="field">
       <label for="perPage">Per side</label>
-      <select id="perPage" onchange="changePerPage()">
+      <select id="perPage">
         <option value="10">10</option>
         <option value="25">25</option>
         <option value="50">50</option>
@@ -94,23 +72,12 @@
   <!-- Sammendragstekst -->
   <p class="summary" id="summary"></p>
 
-  <!-- Tab-innhold: Postliste -->
+  <!-- Postliste -->
   <section id="tab-postliste" class="tab-content active">
     <nav id="pagination-top" class="pagination"></nav>
     <main id="container" class="container"></main>
     <nav id="pagination-bottom" class="pagination"></nav>
   </section>
-
-  <!-- Tab-innhold: Statistikk, kommentert ut -->
-  <!--
-  <section id="tab-stats" class="tab-content">
-    <h2>📈 Statistikk</h2>
-    <div class="stats-container">
-      <div><h3>Publisert per uke</h3><canvas id="chartWeekly"></canvas></div>
-      <div><h3>Fordeling på dokumenttyper</h3><canvas id="chartTypes"></canvas></div>
-    </div>
-  </section>
-  -->
 
   <!-- Dark mode toggle -->
   <button class="toggle-dark" id="darkToggle">🌙 Dark mode</button>
@@ -120,21 +87,7 @@
     const data = {data_json};
     let perPage = {per_page};
 
-    // Tab-switching
     document.addEventListener("DOMContentLoaded", () => {
-      const tabs = document.querySelectorAll(".tabs button");
-      const contents = document.querySelectorAll(".tab-content");
-
-      tabs.forEach(tab => {
-        tab.addEventListener("click", () => {
-          tabs.forEach(t => t.classList.remove("active"));
-          tab.classList.add("active");
-
-          contents.forEach(c => c.classList.remove("active"));
-          document.getElementById("tab-" + tab.dataset.tab).classList.add("active");
-        });
-      });
-
       // Dark mode toggle
       const toggle = document.getElementById("darkToggle");
       toggle.addEventListener("click", () => {
@@ -143,6 +96,9 @@
           ? "☀️ Light mode"
           : "🌙 Dark mode";
       });
+
+      // Initier første side
+      renderPage(1);
     });
   </script>
 
