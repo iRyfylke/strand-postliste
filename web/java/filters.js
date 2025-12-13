@@ -1,41 +1,40 @@
-import { renderPage, currentSearch, currentFilter, currentStatus, currentSort, dateFrom, dateTo, currentPage } from './render.js';
+import { renderPage, setSearch, setFilter, setStatus, setDateRange, setSort, setPage } from './render.js';
 
 // === Filterfunksjoner ===
 function applySearch() {
   const input = document.getElementById("searchInput");
-  currentSearch = input ? input.value.trim() : "";
-  currentPage = 1;
-  renderPage(currentPage);
+  setSearch(input ? input.value.trim() : "");
+  setPage(1);
+  renderPage(1);
 }
 
 function applyDateFilter() {
   const fromEl = document.getElementById("dateFrom");
   const toEl = document.getElementById("dateTo");
-  dateFrom = fromEl ? fromEl.value : "";
-  dateTo = toEl ? toEl.value : "";
-  currentPage = 1;
-  renderPage(currentPage);
+  setDateRange(fromEl ? fromEl.value : "", toEl ? toEl.value : "");
+  setPage(1);
+  renderPage(1);
 }
 
 function applyFilter() {
   const el = document.getElementById("filterType");
-  currentFilter = el ? el.value : "";
-  currentPage = 1;
-  renderPage(currentPage);
+  setFilter(el ? el.value : "");
+  setPage(1);
+  renderPage(1);
 }
 
 function applyStatusFilter() {
   const el = document.getElementById("statusFilter");
-  currentStatus = el ? el.value : "";
-  currentPage = 1;
-  renderPage(currentPage);
+  setStatus(el ? el.value : "");
+  setPage(1);
+  renderPage(1);
 }
 
 function applySort() {
   const el = document.getElementById("sortSelect");
-  currentSort = el ? el.value : "dato-desc";
-  currentPage = 1;
-  renderPage(currentPage);
+  setSort(el ? el.value : "dato-desc");
+  setPage(1);
+  renderPage(1);
 }
 
 function changePerPage() {
@@ -46,8 +45,8 @@ function changePerPage() {
       perPage = newVal; // perPage er definert i template.html
     }
   }
-  currentPage = 1;
-  renderPage(currentPage);
+  setPage(1);
+  renderPage(1);
 }
 
 // === Koble filterfelter til event listeners ===
