@@ -1,14 +1,28 @@
-// Pagination-funksjoner
+// pagination.js – håndterer sidetall og navigasjon
 
 function renderPagination(elementId, page, totalItems) {
   const maxPage = Math.ceil(totalItems / perPage) || 1;
   const el = document.getElementById(elementId);
   if (!el) return;
 
-  el.innerHTML =
-    `<button onclick='prevPage()' ${page === 1 ? "disabled" : ""}>Forrige</button>
-     <span>Side ${page} av ${maxPage}</span>
-     <button onclick='nextPage()' ${page >= maxPage ? "disabled" : ""}>Neste</button>`;
+  // Bygg knappene
+  el.innerHTML = "";
+
+  const prevBtn = document.createElement("button");
+  prevBtn.textContent = "◀ Forrige";
+  prevBtn.disabled = page === 1;
+  prevBtn.onclick = prevPage;
+  el.appendChild(prevBtn);
+
+  const info = document.createElement("span");
+  info.textContent = ` Side ${page} av ${maxPage} `;
+  el.appendChild(info);
+
+  const nextBtn = document.createElement("button");
+  nextBtn.textContent = "Neste ▶";
+  nextBtn.disabled = page >= maxPage;
+  nextBtn.onclick = nextPage;
+  el.appendChild(nextBtn);
 }
 
 function prevPage() {
@@ -25,4 +39,3 @@ function nextPage() {
     renderPage(currentPage);
   }
 }
-
