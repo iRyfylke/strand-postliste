@@ -1,3 +1,7 @@
+// === Imports ===
+import { renderPagination } from './pagination.js';
+import { buildStats } from './stats.js';
+
 // === Global state ===
 export let currentSearch = "";
 export let currentFilter = "";
@@ -160,8 +164,8 @@ export function renderPage(page) {
   if (container) container.innerHTML = cards;
 
   // Oppdater paginering topp og bunn
-  renderPagination("pagination-top", currentPage, filtered.length);
-  renderPagination("pagination-bottom", currentPage, filtered.length);
+  renderPagination("pagination-top", currentPage, filtered.length, perPage);
+  renderPagination("pagination-bottom", currentPage, filtered.length, perPage);
 
   // Oppdater sammendrag og statistikk
   renderSummary(filtered.length);
