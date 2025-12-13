@@ -27,7 +27,7 @@ export function getState() {
 function escapeHtml(s) {
   if (!s) return "";
   return s.replace(/[&<>"]/g, c => (
-    {"&":"&amp;","<":"&lt;","&gt;","\"":"&quot;"}[c]
+    { "&": "&amp;", "<": "&lt;", ">": "&gt;", "\"": "&quot;" }[c]
   ));
 }
 
