@@ -1,7 +1,5 @@
-// Export-funksjoner: CSV, PDF og delingslenke
-import { getState } from './render.js';
-import { renderPage } from './render.js';
-import { getFilteredData } from './render.js';
+// export.js – funksjoner for eksport og deling
+import { getState, getFilteredData } from './render.js';
 
 export function exportCSV() {
   const filtered = getFilteredData();
@@ -18,7 +16,11 @@ export function exportCSV() {
       link
     ]);
   });
-  const csv = rows.map(r => r.map(v => `"${String(v).replace(/"/g, '""')}"`).join(",")).join("\n");
+
+  const csv = rows
+    .map(r => r.map(v => `"${String(v).replace(/"/g, '""')}"`).join(","))
+    .join("\n");
+
   const blob = new Blob([csv], { type: "text/csv;charset=utf-8;" });
   const url = URL.createObjectURL(blob);
   const a = document.createElement("a");
