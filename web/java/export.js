@@ -1,6 +1,9 @@
 // Export-funksjoner: CSV, PDF og delingslenke
+import { getState } from './render.js';
+import { renderPage } from './render.js';
+import { getFilteredData } from './render.js';
 
-function exportCSV() {
+export function exportCSV() {
   const filtered = getFilteredData();
   const rows = [["Dato","DokumentID","Tittel","Dokumenttype","Avsender/Mottaker","Status","Journalpostlenke"]];
   filtered.forEach(d => {
@@ -27,11 +30,13 @@ function exportCSV() {
   URL.revokeObjectURL(url);
 }
 
-function exportPDF() {
+export function exportPDF() {
   window.print();
 }
 
-function copyShareLink() {
+export function copyShareLink() {
+  const { currentSearch, currentFilter, currentStatus, dateFrom, dateTo, currentSort, currentPage } = getState();
+
   const params = new URLSearchParams();
   if (currentSearch) params.set("q", currentSearch);
   if (currentFilter) params.set("type", currentFilter);
@@ -51,4 +56,3 @@ function copyShareLink() {
     setTimeout(() => el.textContent = prev, 1500);
   });
 }
-
