@@ -2,9 +2,11 @@ from playwright.sync_api import sync_playwright
 import json, os, time
 from datetime import datetime, date
 
-CONFIG_FILE = "config.json"
-DATA_FILE = "postliste.json"
-CHANGES_FILE = "changes.json"
+# Oppdaterte filstier etter omstrukturering
+CONFIG_FILE = "src/config/config.json"
+DATA_FILE = "data/postliste.json"
+CHANGES_FILE = "data/changes.json"
+
 BASE_URL = "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/?page={page}&pageSize=100"
 
 def load_config():
@@ -71,7 +73,7 @@ def hent_side(page_num, browser):
     page = browser.new_page()
     try:
         page.goto(url, timeout=60000, wait_until="domcontentloaded")
-        time.sleep(2)  # liten pause etter sidelasting
+        time.sleep(2)
         page.wait_for_selector("article.bc-content-teaser--item", timeout=10000)
     except Exception:
         page.close()
@@ -161,17 +163,14 @@ def main():
                     })
                     print(f"[NEW] {doc_id} – {d['tittel']}")
                 else:
-                    # Samle endringer felt for felt
                     per_change = {}
                     for key in ["status", "tittel", "dokumenttype", "avsender_mottaker", "detalj_link", "dato", "dato_iso"]:
                         if old.get(key) != d.get(key):
                             per_change[key] = {"gammel": old.get(key), "ny": d.get(key)}
-                    # Sjekk filendringer
                     old_files = old.get("filer", [])
                     new_files = d.get("filer", [])
                     if len(old_files) != len(new_files):
                         per_change["filer_count"] = {"gammel": len(old_files), "ny": len(new_files)}
-                    # Logg hvis det er noen endringer
                     if per_change:
                         changes.append({
                             "tidspunkt": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
@@ -181,17 +180,14 @@ def main():
                             "endringer": per_change
                         })
                         print(f"[UPDATE] {doc_id} – {', '.join(per_change.keys())}")
-                    # Oppdater datasettet uansett (for å reflektere siste status)
                     updated[doc_id] = d
 
             if mode == "incremental":
-                # Stopp når ALLE dokumentene på siden allerede finnes (reduser kjøringstid)
                 if all(d["dokumentID"] in existing for d in docs):
                     print("[INFO] Incremental: Stoppet – alle oppføringer på denne siden er kjente.")
                     break
         browser.close()
 
-    # Sorter på norsk dato dd.mm.yyyy
     def sort_key(x):
         try:
             return datetime.strptime(x.get("dato"), "%d.%m.%Y").date()
