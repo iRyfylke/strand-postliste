@@ -4,7 +4,9 @@
   <meta charset="utf-8">
   <title>Postliste – Strand kommune</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="web/style.css">
+
+  <!-- Riktig sti etter omstrukturering -->
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="sticky-header">
@@ -88,7 +90,6 @@
     let perPage = {per_page};
 
     document.addEventListener("DOMContentLoaded", () => {
-      // Dark mode toggle
       const toggle = document.getElementById("darkToggle");
       toggle.addEventListener("click", () => {
         document.body.classList.toggle("dark");
@@ -99,7 +100,9 @@
     });
   </script>
 
-  <script type="module" src="web/script.js"></script>
+  <!-- Riktig sti etter omstrukturering -->
+  <script type="module" src="script.js"></script>
+
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
 </body>
