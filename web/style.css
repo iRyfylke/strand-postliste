@@ -1,3 +1,7 @@
+/* ============================================================
+   🌐 GLOBAL VARIABLES
+   (Gjelder både landing page og postliste)
+   ============================================================ */
 :root {
   --border: #ddd;
   --text: #333;
@@ -9,6 +13,7 @@
 }
 
 * { box-sizing: border-box; }
+
 body {
   font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
   margin: 1rem;
@@ -16,6 +21,9 @@ body {
   background: var(--bg);
 }
 
+/* ============================================================
+   📄 POSTLISTE – HEADER
+   ============================================================ */
 header.sticky-header {
   position: sticky;
   top: 0;
@@ -27,6 +35,9 @@ header.sticky-header {
 header h1 { margin: 0 0 .25rem 0; font-size: 1.4rem; }
 header .updated { color: var(--muted); margin-bottom: 0.5rem; font-size: 0.9rem; }
 
+/* ============================================================
+   📄 POSTLISTE – FILTERKONTROLLER
+   ============================================================ */
 .controls {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
@@ -46,6 +57,9 @@ header .updated { color: var(--muted); margin-bottom: 0.5rem; font-size: 0.9rem;
 .controls .actions { display: flex; gap: .5rem; align-items: center; flex-wrap: wrap; }
 .controls .quick { display: flex; gap: .5rem; flex-wrap: wrap; }
 
+/* ============================================================
+   📄 POSTLISTE – KORTVISNING
+   ============================================================ */
 .container {
   display: grid;
   grid-template-columns: 1fr;
@@ -77,6 +91,9 @@ ul.files li { margin: .25rem 0; }
 .card .footer-link a { color: var(--link); text-decoration: none; font-size: 0.9rem; }
 .card .footer-link a:hover { text-decoration: underline; }
 
+/* ============================================================
+   📄 POSTLISTE – PAGINERING
+   ============================================================ */
 .pagination {
   margin: 1rem 0;
   display: flex;
@@ -93,7 +110,9 @@ ul.files li { margin: .25rem 0; }
 }
 .summary { color: var(--muted); font-size: .95rem; }
 
-/* Type farger */
+/* ============================================================
+   📄 POSTLISTE – TYPEFARGER
+   ============================================================ */
 .type-inngående { color: #1f6feb; font-weight: 600; }
 .type-utgående { color: #b78103; font-weight: 600; }
 .type-sakskart { color: #7d3fc2; font-weight: 600; }
@@ -102,19 +121,26 @@ ul.files li { margin: .25rem 0; }
 .type-saksfremlegg { color: #14532d; font-weight: 600; }
 .type-internt { color: #667085; font-weight: 600; }
 
-/* Stats */
+/* ============================================================
+   📊 POSTLISTE – STATISTIKK
+   ============================================================ */
 #stats { margin: 2rem 0; }
 .stats-container { display: flex; flex-wrap: wrap; gap: 2rem; }
 .stats-container > div { flex: 1; min-width: 300px; }
 .stats-container h3 { margin: 0 0 .5rem 0; font-size: 1rem; }
 
+/* ============================================================
+   🖨️ PRINT
+   ============================================================ */
 @media print {
   header.sticky-header, .controls, .pagination, .toggle-dark { display: none !important; }
   body { margin: 0.5cm; }
   .card { break-inside: avoid; border: 1px solid #999; }
 }
 
-/* Dark mode */
+/* ============================================================
+   🌙 DARK MODE (gjelder alt)
+   ============================================================ */
 body.dark {
   --border: #444;
   --text: #eee;
@@ -137,4 +163,111 @@ body.dark {
   cursor: pointer;
   font-size: 0.9rem;
   z-index: 2000;
+}
+
+/* ============================================================
+   🏠 LANDING PAGE (forsiden i rot/index.html)
+   ============================================================ */
+
+body.landing {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #f5f7fa;
+}
+
+.landing-header {
+  background: #003366;
+  color: white;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.landing-header h1 {
+  margin: 0;
+  font-size: 2.4rem;
+}
+
+.landing-header .subtitle {
+  margin-top: .5rem;
+  font-size: 1.1rem;
+  opacity: .9;
+}
+
+.landing-container {
+  max-width: 1100px;
+  margin: 2rem auto;
+  padding: 1rem;
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.landing-card {
+  background: white;
+  padding: 2rem 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  border-left: 6px solid #003366;
+  transition: transform .15s ease, box-shadow .15s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.landing-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+}
+
+.landing-card .icon {
+  font-size: 2.4rem;
+  margin-bottom: .5rem;
+}
+
+.landing-card h2 {
+  margin: 0 0 .5rem 0;
+  font-size: 1.4rem;
+}
+
+.landing-card p {
+  margin: 0;
+  opacity: .85;
+}
+
+.landing-footer {
+  margin-top: auto;
+  text-align: center;
+  padding: 2rem;
+  font-size: .9rem;
+  opacity: .7;
+}
+
+/* ============================================================
+   🌙 DARK MODE – LANDING PAGE
+   ============================================================ */
+@media (prefers-color-scheme: dark) {
+  body.landing {
+    background: #1e1e1e;
+    color: #ddd;
+  }
+
+  .landing-header {
+    background: #001f3f;
+  }
+
+  .landing-card {
+    background: #2a2a2a;
+    border-left-color: #4da3ff;
+    box-shadow: 0 2px 6px rgba(255,255,255,0.05);
+  }
+
+  .landing-card:hover {
+    box-shadow: 0 6px 14px rgba(255,255,255,0.1);
+  }
+
+  .landing-footer {
+    opacity: .5;
+  }
 }
