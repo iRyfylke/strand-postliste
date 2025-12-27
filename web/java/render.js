@@ -1,6 +1,6 @@
 // === Imports ===
 import { renderPagination } from './pagination.js';
-import { buildStats } from './stats.js';
+// buildStats fjernet – statistikk håndteres nå kun i statistikk.html via initStats()
 
 // === Global state (privat) ===
 let currentSearch = "";
@@ -179,5 +179,6 @@ export function renderPage(page) {
   renderPagination("pagination-bottom", currentPage, filtered.length, perPage);
 
   renderSummary(filtered.length);
-  buildStats(filtered);
+
+  // buildStats(filtered);  <-- fjernet
 }
