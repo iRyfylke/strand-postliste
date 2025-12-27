@@ -2,8 +2,10 @@ import json, os, sys
 from datetime import datetime, date
 from playwright.sync_api import sync_playwright
 
-DATA_FILE = "postliste.json"
-CONFIG_FILE = "config.json"
+# Oppdaterte filstier etter omstrukturering
+DATA_FILE = "data/postliste.json"
+CONFIG_FILE = "src/config/config.json"
+
 BASE_URL = "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/"
 
 def load_config():
@@ -103,8 +105,8 @@ def hent_side(url, browser):
 
         docs.append({
             "tittel": tittel,
-            "dato": format_dato_ddmmYYYY(parsed_date),   # alltid dd.mm.yyyy
-            "dato_iso": parsed_date.isoformat() if parsed_date else None,  # ISO lagres også
+            "dato": format_dato_ddmmYYYY(parsed_date),
+            "dato_iso": parsed_date.isoformat() if parsed_date else None,
             "dokumentID": dokid,
             "dokumenttype": doktype,
             "avsender_mottaker": am,
@@ -128,7 +130,6 @@ def update_json(new_docs):
             print(f"[{'NEW' if not old else 'UPDATE'}] {doc_id} – {d['tittel']}")
 
     def sort_key(x):
-        # Sortering basert på norsk format dd.mm.yyyy
         try:
             return datetime.strptime(x.get("dato"), "%d.%m.%Y").date()
         except Exception:
