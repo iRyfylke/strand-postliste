@@ -15,7 +15,7 @@ jobs:
 
     steps:
       - name: Sjekk ut repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           persist-credentials: true
           fetch-depth: 0
@@ -25,18 +25,44 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Installer avhengigheter
+      - name: Installer Playwright + dependencies
         run: |
           python -m pip install --upgrade pip
           pip install playwright
           playwright install chromium
+          sudo apt-get update
+          sudo apt-get install -y \
+            libnss3 \
+            libatk1.0-0 \
+            libatk-bridge2.0-0 \
+            libcups2 \
+            libdrm2 \
+            libxkbcommon0 \
+            libxcomposite1 \
+            libxdamage1 \
+            libxfixes3 \
+            libxrandr2 \
+            libgbm1 \
+            libasound2t64
 
-      - name: Sett mode til incremental i config.json
+      - name: Skriv config.json for incremental-modus
         run: |
-          jq '.mode="incremental"' src/config/config.json > tmp.json && mv tmp.json src/config/config.json
+          mkdir -p src/config
+          {
+            echo "{"
+            echo "  \"mode\": \"incremental\","
+            echo "  \"per_page\": 100"
+            echo "}"
+          } > src/config/config.json
+
+          echo "=== INNHOLD I config.json ==="
+          cat src/config/config.json
 
       - name: Kjør scraper (incremental)
-        run: python src/scrapers/scraper.py
+        working-directory: src/scrapers
+        run: |
+          echo "=== STARTER INCREMENTAL-SCRAPER ==="
+          python scraper.py
 
       - name: Sett opp git remote
         run: |
@@ -44,12 +70,18 @@ jobs:
           git remote add origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
           git remote -v
 
-      # Commit kun datafiler – frontend genereres av auto-publish.yml
       - name: Commit og push oppdateringer
         run: |
           git config --global user.name "${{ github.actor }}"
           git config --global user.email "${{ github.actor }}@users.noreply.github.com"
-          git add data/postliste.json data/changes.json
+
+          echo "=== Endringer i data/ ==="
+          git status data/
+
+          git add data/postliste.json || true
+          git add data/changes.json || true
+
           git commit -m "Automatisk morgenoppdatering (incremental)" || echo "Ingen endringer å committe"
+
           git pull --rebase origin main || echo "Ingen endringer å hente"
           git push origin main
