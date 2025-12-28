@@ -43,25 +43,42 @@ jobs:
           pip install playwright
           playwright install chromium
 
-      - name: Oppdater config.json med sideparametere
+      - name: Skriv config.json basert på input
         run: |
-          echo '{"start_page": ${{ github.event.inputs.start_page }}, "max_pages": ${{ github.event.inputs.max_pages }}}' > src/config/config.json
+          echo "=== INPUT FRA ACTIONS ==="
+          echo "start_date:  ${{ github.event.inputs.start_date }}"
+          echo "end_date:    ${{ github.event.inputs.end_date }}"
+          echo "start_page:  ${{ github.event.inputs.start_page }}"
+          echo "max_pages:   ${{ github.event.inputs.max_pages }}"
+          echo ""
+          echo "=== SKRIVER config.json ==="
+          cat <<EOF > src/config/config.json
+{
+  "start_page": ${{
+    github.event.inputs.start_page
+  }},
+  "max_pages": ${{
+    github.event.inputs.max_pages
+  }},
+  "per_page": 100
+}
+EOF
+          echo "=== INNHOLD I config.json ==="
+          cat src/config/config.json
 
-      - name: Kjør scraper_dates med input
+      - name: Kjør scraper_dates.py
         run: |
-          if [ -n "${{ github.event.inputs.start_date }}" ] && [ -n "${{ github.event.inputs.end_date }}" ]; then
+          echo "=== STARTER SCRAPER ==="
+          if [ -n "${{ github.event.inputs.end_date }}" ]; then
             python src/scrapers/scraper_dates.py "${{ github.event.inputs.start_date }}" "${{ github.event.inputs.end_date }}"
-          elif [ -n "${{ github.event.inputs.start_date }}" ]; then
-            python src/scrapers/scraper_dates.py "${{ github.event.inputs.start_date }}"
           else
-            python src/scrapers/scraper_dates.py
+            python src/scrapers/scraper_dates.py "${{ github.event.inputs.start_date }}"
           fi
 
       - name: Sett opp git remote
         run: |
           git remote remove origin || true
           git remote add origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
-          git remote -v
 
       - name: Commit og push oppdateringer
         run: |
