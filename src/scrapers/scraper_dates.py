@@ -3,8 +3,8 @@ import json, os, time, sys
 from datetime import datetime, date
 
 # === Relative stier (samme som scraper.py) ===
-CONFIG_FILE = "src/config/config.json"
-DATA_FILE = "data/postliste.json"
+CONFIG_FILE = "../config/config.json"
+DATA_FILE = "../../data/postliste.json"
 
 BASE_URL = "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/?page={page}&pageSize={page_size}"
 
