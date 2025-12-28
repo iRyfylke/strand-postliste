@@ -80,8 +80,6 @@ jobs:
             "${{ github.event.inputs.start_date }}" \
             "${{ github.event.inputs.end_date }}"
 
-
-
       - name: Commit og push oppdateringer
         run: |
           git config --global user.name "${{ github.actor }}"
