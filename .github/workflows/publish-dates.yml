@@ -29,12 +29,6 @@ jobs:
       - name: Sjekk ut repo
         uses: actions/checkout@v3
 
-      - name: Sett working directory
-        run: |
-          echo "Working directory:"
-          pwd
-          ls -la
-
       - name: Sett opp Python
         uses: actions/setup-python@v4
         with:
@@ -63,11 +57,13 @@ jobs:
       - name: Skriv config.json basert på input
         run: |
           mkdir -p src/config
-          echo "{" > src/config/config.json
-          echo "  \"start_page\": ${{ github.event.inputs.start_page }}," >> src/config/config.json
-          echo "  \"max_pages\": ${{ github.event.inputs.max_pages }}," >> src/config/config.json
-          echo "  \"per_page\": 100" >> src/config/config.json
-          echo "}" >> src/config/config.json
+          {
+            echo "{"
+            echo "  \"start_page\": ${{ github.event.inputs.start_page }},"
+            echo "  \"max_pages\": ${{ github.event.inputs.max_pages }},"
+            echo "  \"per_page\": 100"
+            echo "}"
+          } > src/config/config.json
 
           echo "=== INNHOLD I config.json ==="
           cat src/config/config.json
@@ -84,7 +80,14 @@ jobs:
         run: |
           git config --global user.name "${{ github.actor }}"
           git config --global user.email "${{ github.actor }}@users.noreply.github.com"
-          git add data/postliste.json data/changes.json || true
-          git commit -m "Manuell publish med scraper_dates" || echo "Ingen endringer å committe"
+
+          echo "=== Endringer i data/ ==="
+          git status data/
+
+          git add data/postliste.json || true
+          git add data/changes.json || true
+
+          git commit -m "Oppdatert postliste via publish-dates workflow" || echo "Ingen endringer å committe"
+
           git pull --rebase origin main || echo "Ingen endringer å hente"
           git push origin main
