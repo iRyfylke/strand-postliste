@@ -2,25 +2,27 @@ import json, os, sys
 from datetime import datetime, date
 from playwright.sync_api import sync_playwright
 
-# Oppdaterte filstier etter omstrukturering
+# Dine endringer
 DATA_FILE = "data/postliste.json"
 CONFIG_FILE = "src/config/config.json"
 
 BASE_URL = "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/"
 
 def load_config():
-    if os.path.exists(CONFIG_FILE):
-        with open(CONFIG_FILE, "r", encoding="utf-8") as f:
-            return json.load(f)
-    raise FileNotFoundError(f"{CONFIG_FILE} mangler – opprett filen med nødvendige innstillinger.")
+    if not os.path.exists(CONFIG_FILE):
+        raise FileNotFoundError(f"{CONFIG_FILE} mangler.")
+    with open(CONFIG_FILE, "r", encoding="utf-8") as f:
+        cfg = json.load(f)
+    print(f"[INFO] Lest config.json: {cfg}")
+    return cfg
 
 def load_existing():
     if os.path.exists(DATA_FILE):
-        with open(DATA_FILE, "r", encoding="utf-8") as f:
-            try:
-                return {d["dokumentID"]: d for d in json.load(f) if "dokumentID" in d}
-            except Exception:
-                return {}
+        try:
+            with open(DATA_FILE, "r", encoding="utf-8") as f:
+                return {d["dokumentID"]: d for d in json.load(f)}
+        except Exception:
+            return {}
     return {}
 
 def save_json(data):
@@ -31,37 +33,34 @@ def safe_text(el, sel):
     try:
         node = el.query_selector(sel)
         return node.inner_text().strip() if node else ""
-    except Exception:
+    except:
         return ""
 
 def parse_dato_str(s):
-    """Prøver å tolke dato fra streng i ulike formater."""
     if not s:
         return None
-    try:
-        return datetime.strptime(s, "%Y-%m-%d").date()
-    except Exception:
-        pass
-    try:
-        return datetime.strptime(s, "%d.%m.%Y").date()
-    except Exception:
-        pass
+    for fmt in ("%Y-%m-%d", "%d.%m.%Y"):
+        try:
+            return datetime.strptime(s, fmt).date()
+        except:
+            pass
     try:
         return datetime.fromisoformat(s[:10]).date()
-    except Exception:
+    except:
         return None
 
 def format_dato_ddmmYYYY(d):
-    """Formatterer datoobjekt til dd.mm.yyyy."""
     return d.strftime("%d.%m.%Y") if d else ""
 
 def hent_side(url, browser):
+    print(f"[INFO] Åpner: {url}")
     page = browser.new_page()
     docs = []
     try:
         page.goto(url, timeout=20000)
         page.wait_for_selector("article.bc-content-teaser--item", timeout=8000)
     except Exception:
+        print("[WARN] Ingen artikler funnet på denne siden.")
         page.close()
         return docs
 
@@ -69,6 +68,7 @@ def hent_side(url, browser):
         dokid = safe_text(art, ".bc-content-teaser-meta-property--dokumentID dd")
         if not dokid:
             continue
+
         tittel = safe_text(art, ".bc-content-teaser-title-text")
         dato_str = safe_text(art, ".bc-content-teaser-meta-property--dato dd")
         parsed_date = parse_dato_str(dato_str)
@@ -81,8 +81,8 @@ def hent_side(url, browser):
         try:
             link_elem = art.evaluate_handle("node => node.closest('a')")
             detalj_link = link_elem.get_attribute("href") if link_elem else ""
-        except Exception:
-            detalj_link = ""
+        except:
+            pass
         if detalj_link and not detalj_link.startswith("http"):
             detalj_link = "https://www.strand.kommune.no" + detalj_link
 
@@ -96,7 +96,7 @@ def hent_side(url, browser):
                     if href and "/api/presentation/v2/nye-innsyn/filer" in href:
                         abs_url = href if href.startswith("http") else "https://www.strand.kommune.no" + href
                         filer.append({"tekst": tekst.strip(), "url": abs_url})
-            except Exception:
+            except:
                 pass
             finally:
                 dp.close()
@@ -114,25 +114,29 @@ def hent_side(url, browser):
             "filer": filer,
             "status": status
         })
+
     page.close()
+    print(f"[INFO] Fant {len(docs)} dokumenter på denne siden.")
     return docs
 
 def update_json(new_docs):
     existing = load_existing()
     updated = dict(existing)
+
     for d in new_docs:
         doc_id = d["dokumentID"]
         old = updated.get(doc_id)
-        changed_files = len(old.get("filer", [])) != len(d.get("filer", [])) if old else True
-        changed_core = any(old.get(k) != d.get(k) for k in ["status","tittel","dokumenttype","avsender_mottaker","journal_link"]) if old else True
-        if not old or changed_files or changed_core:
-            updated[doc_id] = d
-            print(f"[{'NEW' if not old else 'UPDATE'}] {doc_id} – {d['tittel']}")
+        if not old:
+            print(f"[NEW] {doc_id} – {d['tittel']}")
+        else:
+            if old != d:
+                print(f"[UPDATE] {doc_id} – {d['tittel']}")
+        updated[doc_id] = d
 
     def sort_key(x):
         try:
             return datetime.strptime(x.get("dato"), "%d.%m.%Y").date()
-        except Exception:
+        except:
             return date.min
 
     data_list = sorted(updated.values(), key=sort_key, reverse=True)
@@ -140,7 +144,7 @@ def update_json(new_docs):
     print(f"[INFO] Lagret JSON med {len(data_list)} dokumenter")
 
 def within_range(d, start_date, end_date):
-    if d is None:
+    if not d:
         return False
     if start_date and d < start_date:
         return False
@@ -150,32 +154,50 @@ def within_range(d, start_date, end_date):
 
 def main(start_date=None, end_date=None):
     print("[INFO] Starter scraper_dates…")
-    all_docs = []
+
     cfg = load_config()
-    max_pages = int(cfg.get("max_pages_full", 200))
+    start_page = int(cfg.get("start_page", 1))
+    max_pages = int(cfg.get("max_pages", 100))
     per_page = int(cfg.get("per_page", 100))
 
-    print(f"[INFO] Konfigurasjon fra config.json: max_pages_full={max_pages}, per_page={per_page}")
+    print(f"[INFO] Konfigurasjon:")
+    print(f"       start_page = {start_page}")
+    print(f"       max_pages  = {max_pages}")
+    print(f"       per_page   = {per_page}")
+    print(f"       start_date = {start_date}")
+    print(f"       end_date   = {end_date}")
+
+    all_docs = []
 
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True, args=["--no-sandbox"])
-        page_num = 1
+
+        page_num = start_page
         while page_num <= max_pages:
             print(f"[INFO] Henter side {page_num} …")
+
             url = f"{BASE_URL}?page={page_num}&pageSize={per_page}"
             docs = hent_side(url, browser)
+
             if not docs:
+                print(f"[INFO] Ingen dokumenter på side {page_num}, stopper.")
                 break
+
             for d in docs:
                 pd = parse_dato_str(d.get("dato"))
                 if within_range(pd, start_date, end_date):
                     all_docs.append(d)
+
             parsed_on_page = [parse_dato_str(x.get("dato")) for x in docs if x.get("dato")]
             if start_date and parsed_on_page and all(x and x < start_date for x in parsed_on_page):
                 print(f"[INFO] Tidlig stopp: alle datoer på side {page_num} er eldre enn start_date")
                 break
+
             page_num += 1
+
         browser.close()
+
+    print(f"[INFO] Totalt hentet {len(all_docs)} dokumenter innenfor dato-range.")
     update_json(all_docs)
 
 if __name__ == "__main__":
