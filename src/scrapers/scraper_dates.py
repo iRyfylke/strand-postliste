@@ -2,7 +2,7 @@ import json, os, sys
 from datetime import datetime, date
 from playwright.sync_api import sync_playwright
 
-# Finn absolutt basekatalog for scrapers/
+# === Absolutte stier ===
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))          # src/scrapers
 PROJECT_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, "..", ".."))
 
@@ -11,6 +11,11 @@ CONFIG_FILE = os.path.join(PROJECT_ROOT, "src", "config", "config.json")
 
 BASE_URL = "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/"
 
+# === Debug: vis stier ===
+print("[DEBUG] DATA_FILE =", DATA_FILE)
+print("[DEBUG] CONFIG_FILE =", CONFIG_FILE)
+
+
 def load_config():
     if not os.path.exists(CONFIG_FILE):
         raise FileNotFoundError(f"{CONFIG_FILE} mangler.")
@@ -18,6 +23,7 @@ def load_config():
         cfg = json.load(f)
     print(f"[INFO] Lest config.json: {cfg}")
     return cfg
+
 
 def load_existing():
     if os.path.exists(DATA_FILE):
@@ -28,9 +34,11 @@ def load_existing():
             return {}
     return {}
 
+
 def save_json(data):
     with open(DATA_FILE, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
+
 
 def safe_text(el, sel):
     try:
@@ -38,6 +46,7 @@ def safe_text(el, sel):
         return node.inner_text().strip() if node else ""
     except:
         return ""
+
 
 def parse_dato_str(s):
     if not s:
@@ -52,13 +61,16 @@ def parse_dato_str(s):
     except:
         return None
 
+
 def format_dato_ddmmYYYY(d):
     return d.strftime("%d.%m.%Y") if d else ""
+
 
 def hent_side(url, browser):
     print(f"[INFO] Åpner: {url}")
     page = browser.new_page()
     docs = []
+
     try:
         page.goto(url, timeout=20000)
         page.wait_for_selector("article.bc-content-teaser--item", timeout=8000)
@@ -122,6 +134,7 @@ def hent_side(url, browser):
     print(f"[INFO] Fant {len(docs)} dokumenter på denne siden.")
     return docs
 
+
 def update_json(new_docs):
     existing = load_existing()
     updated = dict(existing)
@@ -146,6 +159,7 @@ def update_json(new_docs):
     save_json(data_list)
     print(f"[INFO] Lagret JSON med {len(data_list)} dokumenter")
 
+
 def within_range(d, start_date, end_date):
     if not d:
         return False
@@ -154,6 +168,7 @@ def within_range(d, start_date, end_date):
     if end_date and d > end_date:
         return False
     return True
+
 
 def main(start_date=None, end_date=None):
     print("[INFO] Starter scraper_dates…")
@@ -170,12 +185,11 @@ def main(start_date=None, end_date=None):
     print(f"       start_date = {start_date}")
     print(f"       end_date   = {end_date}")
 
-    all_docs = []
-
     print("[DEBUG] Før Playwright startes")
 
     with sync_playwright() as p:
-    print("[DEBUG] Etter Playwright startet")
+        print("[DEBUG] Etter Playwright startet")
+
         browser = p.chromium.launch(
             headless=True,
             args=[
@@ -187,7 +201,9 @@ def main(start_date=None, end_date=None):
             ]
         )
 
+        all_docs = []
         page_num = start_page
+
         while page_num <= max_pages:
             print(f"[INFO] Henter side {page_num} …")
 
@@ -211,9 +227,10 @@ def main(start_date=None, end_date=None):
             page_num += 1
 
         browser.close()
-    
+
     print(f"[INFO] Totalt hentet {len(all_docs)} dokumenter innenfor dato-range.")
     update_json(all_docs)
+
 
 if __name__ == "__main__":
     args = sys.argv[1:]
