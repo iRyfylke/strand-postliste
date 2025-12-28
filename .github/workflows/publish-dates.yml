@@ -76,7 +76,10 @@ jobs:
         working-directory: src/scrapers
         run: |
           echo "=== STARTER SCRAPER ==="
-          python scraper_dates.py "${{ github.event.inputs.start_date }}" "${{ github.event.inputs.end_date }}"
+          python scraper_dates.py \
+            "${{ github.event.inputs.start_date }}" \
+            "${{ github.event.inputs.end_date }}"
+
 
 
       - name: Commit og push oppdateringer
