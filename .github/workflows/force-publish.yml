@@ -29,10 +29,9 @@ jobs:
           pip install jinja2
 
       - name: Generer index.html fra template og data
-        working-directory: src/utils
         run: |
           echo "=== GENERERER FRONTEND ==="
-          python generate_html.py
+          python src/utils/generate_html.py
 
       - name: Sett opp git remote
         run: |
