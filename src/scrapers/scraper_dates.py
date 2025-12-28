@@ -2,12 +2,15 @@ from playwright.sync_api import sync_playwright
 import json, os, time, sys
 from datetime import datetime, date
 
-# === Relative stier (samme som scraper.py) ===
+# === RIKTIGE RELATIVE PATHS (fra src/scrapers/) ===
 CONFIG_FILE = "../config/config.json"
 DATA_FILE = "../../data/postliste.json"
 
-BASE_URL = "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/?page={page}&pageSize={page_size}"
-
+BASE_URL = (
+    "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/"
+    "postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/"
+    "?page={page}&pageSize={page_size}"
+)
 
 # ------------------------------
 # Utility-funksjoner
@@ -96,7 +99,10 @@ def hent_side(page_num, browser, per_page):
         avsender = safe_text(art, ".bc-content-teaser-meta-property--avsender dd")
         mottaker = safe_text(art, ".bc-content-teaser-meta-property--mottaker dd")
 
-        am = f"Avsender: {avsender}" if avsender else (f"Mottaker: {mottaker}" if mottaker else "")
+        am = (
+            f"Avsender: {avsender}"
+            if avsender else (f"Mottaker: {mottaker}" if mottaker else "")
+        )
 
         # Hent detalj-link
         detalj_link = ""
@@ -119,7 +125,10 @@ def hent_side(page_num, browser, per_page):
                 for fl in dp.query_selector_all("a"):
                     href, tekst = fl.get_attribute("href"), fl.inner_text()
                     if href and "/api/presentation/v2/nye-innsyn/filer" in href:
-                        abs_url = href if href.startswith("http") else "https://www.strand.kommune.no" + href
+                        abs_url = (
+                            href if href.startswith("http")
+                            else "https://www.strand.kommune.no" + href
+                        )
                         filer.append({"tekst": tekst.strip(), "url": abs_url})
             finally:
                 dp.close()
@@ -217,9 +226,15 @@ def main(start_date=None, end_date=None):
                     all_docs.append(d)
 
             # Tidlig stopp hvis alle datoer er eldre enn start_date
-            parsed_on_page = [parse_dato_str(x.get("dato")) for x in docs if x.get("dato")]
-            if start_date and parsed_on_page and all(x and x < start_date for x in parsed_on_page):
-                print(f"[INFO] Tidlig stopp: alle datoer på side {page_num} er eldre enn start_date")
+            parsed_on_page = [
+                parse_dato_str(x.get("dato")) for x in docs if x.get("dato")
+            ]
+            if start_date and parsed_on_page and all(
+                x and x < start_date for x in parsed_on_page
+            ):
+                print(
+                    f"[INFO] Tidlig stopp: alle datoer på side {page_num} er eldre enn start_date"
+                )
                 break
 
             page_num += 1
