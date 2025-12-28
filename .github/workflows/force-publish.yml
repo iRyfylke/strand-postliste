@@ -39,7 +39,7 @@ jobs:
           git remote add origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
           git remote -v
 
-      - name: Commit og push oppdateringer
+      - name: Commit og push oppdateringer (konkurransesikker)
         run: |
           git config --global user.name "${{ github.actor }}"
           git config --global user.email "${{ github.actor }}@users.noreply.github.com"
@@ -48,9 +48,24 @@ jobs:
           git status web/
           git status data/
 
+          # Legg til endringer
           git add web/index.html web/script.js web/style.css web/template.html data/postliste.json || true
 
+          # Commit hvis det finnes endringer
           git commit -m "Force publish med oppdatert index.html og postliste.json" || echo "Ingen endringer å committe"
 
-          git pull --rebase origin main || echo "Ingen endringer å hente"
-          git push origin main
+          # Stash alt som ikke er commit'et
+          git stash --include-untracked || true
+
+          # Hent siste endringer fra main
+          git pull --rebase --autostash origin main || true
+
+          # Legg tilbake stash (hvis det finnes)
+          git stash pop || true
+
+          # Prøv å pushe opptil 5 ganger
+          for i in {1..5}; do
+            git push origin main && break
+            echo "Push feilet, prøver igjen ($i/5)..."
+            git pull --rebase --autostash origin main || true
+          done
