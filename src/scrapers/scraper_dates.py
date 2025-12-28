@@ -2,9 +2,12 @@ import json, os, sys
 from datetime import datetime, date
 from playwright.sync_api import sync_playwright
 
-# Dine endringer
-DATA_FILE = "data/postliste.json"
-CONFIG_FILE = "src/config/config.json"
+# Finn absolutt basekatalog for scrapers/
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))          # src/scrapers
+PROJECT_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, "..", ".."))
+
+DATA_FILE = os.path.join(PROJECT_ROOT, "data", "postliste.json")
+CONFIG_FILE = os.path.join(PROJECT_ROOT, "src", "config", "config.json")
 
 BASE_URL = "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/"
 
