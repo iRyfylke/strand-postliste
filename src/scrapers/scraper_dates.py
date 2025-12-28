@@ -1,6 +1,14 @@
+print("[DEBUG] Python startet scraper_dates.py")
+
 import json, os, sys
 from datetime import datetime, date
+
+print("[DEBUG] Standard imports OK")
+
 from playwright.sync_api import sync_playwright
+
+print("[DEBUG] Playwright importert OK")
+
 
 # === Absolutte stier ===
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))          # src/scrapers
