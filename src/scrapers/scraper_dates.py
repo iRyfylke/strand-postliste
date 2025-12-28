@@ -172,6 +172,8 @@ def main(start_date=None, end_date=None):
 
     all_docs = []
 
+    print("[DEBUG] Før Playwright startes")
+
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True, args=["--no-sandbox"])
 
@@ -199,6 +201,8 @@ def main(start_date=None, end_date=None):
             page_num += 1
 
         browser.close()
+    
+    print("[DEBUG] Etter Playwright startet")
 
     print(f"[INFO] Totalt hentet {len(all_docs)} dokumenter innenfor dato-range.")
     update_json(all_docs)
