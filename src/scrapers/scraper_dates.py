@@ -2,35 +2,26 @@ from playwright.sync_api import sync_playwright
 import json, os, time, sys
 from datetime import datetime, date
 
-# === Relative stier (samme som scraper.py) ===
+# === Relative stier (fra src/scrapers/) ===
 CONFIG_FILE = "../config/config.json"
 DATA_FILE = "../../data/postliste.json"
 
 BASE_URL = "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/?page={page}&pageSize={page_size}"
-
 
 # ------------------------------
 # Utility-funksjoner
 # ------------------------------
 
 def load_config():
-    # Fullscrape har egen config
-    fullscrape_cfg = "../config/config_fullscrape.json"
-    normal_cfg = "../config/config.json"
+    if not os.path.exists(CONFIG_FILE):
+        raise FileNotFoundError(f"Mangler config.json: {CONFIG_FILE}")
 
-    if os.path.exists(fullscrape_cfg):
-        cfg_path = fullscrape_cfg
-    else:
-        cfg_path = normal_cfg
-
-    if not os.path.exists(cfg_path):
-        raise FileNotFoundError(f"Mangler config-fil: {cfg_path}")
-
-    with open(cfg_path, "r", encoding="utf-8") as f:
+    with open(CONFIG_FILE, "r", encoding="utf-8") as f:
         cfg = json.load(f)
 
-    print(f"[INFO] Lest config: {cfg_path} → {cfg}")
+    print(f"[INFO] Lest config.json: {cfg}")
     return cfg
+
 
 def load_existing():
     if os.path.exists(DATA_FILE):
@@ -85,8 +76,10 @@ def hent_side(page_num, browser, per_page):
 
     try:
         page.goto(url, timeout=60000, wait_until="domcontentloaded")
-        # Gi siden tid til å laste API-data
+
+        # Gi siden tid til å laste API-data (GitHub Actions er treg)
         time.sleep(5)
+
         # Vent på at artiklene faktisk dukker opp
         page.wait_for_selector("article.bc-content-teaser--item", timeout=30000)
 
@@ -109,7 +102,10 @@ def hent_side(page_num, browser, per_page):
         avsender = safe_text(art, ".bc-content-teaser-meta-property--avsender dd")
         mottaker = safe_text(art, ".bc-content-teaser-meta-property--mottaker dd")
 
-        am = f"Avsender: {avsender}" if avsender else (f"Mottaker: {mottaker}" if mottaker else "")
+        am = (
+            f"Avsender: {avsender}"
+            if avsender else (f"Mottaker: {mottaker}" if mottaker else "")
+        )
 
         # Hent detalj-link
         detalj_link = ""
@@ -132,7 +128,10 @@ def hent_side(page_num, browser, per_page):
                 for fl in dp.query_selector_all("a"):
                     href, tekst = fl.get_attribute("href"), fl.inner_text()
                     if href and "/api/presentation/v2/nye-innsyn/filer" in href:
-                        abs_url = href if href.startswith("http") else "https://www.strand.kommune.no" + href
+                        abs_url = (
+                            href if href.startswith("http")
+                            else "https://www.strand.kommune.no" + href
+                        )
                         filer.append({"tekst": tekst.strip(), "url": abs_url})
             finally:
                 dp.close()
@@ -230,9 +229,15 @@ def main(start_date=None, end_date=None):
                     all_docs.append(d)
 
             # Tidlig stopp hvis alle datoer er eldre enn start_date
-            parsed_on_page = [parse_dato_str(x.get("dato")) for x in docs if x.get("dato")]
-            if start_date and parsed_on_page and all(x and x < start_date for x in parsed_on_page):
-                print(f"[INFO] Tidlig stopp: alle datoer på side {page_num} er eldre enn start_date")
+            parsed_on_page = [
+                parse_dato_str(x.get("dato")) for x in docs if x.get("dato")
+            ]
+            if start_date and parsed_on_page and all(
+                x and x < start_date for x in parsed_on_page
+            ):
+                print(
+                    f"[INFO] Tidlig stopp: alle datoer på side {page_num} er eldre enn start_date"
+                )
                 break
 
             page_num += 1
