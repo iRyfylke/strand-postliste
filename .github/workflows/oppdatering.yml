@@ -11,43 +11,70 @@ permissions:
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Sjekk ut repo
         uses: actions/checkout@v3
         with:
           persist-credentials: true
           fetch-depth: 0
-      
+
       - name: Sett opp Python
         uses: actions/setup-python@v4
         with:
           python-version: "3.11"
-      
-      - name: Installer avhengigheter
+
+      - name: Installer Playwright + dependencies
         run: |
           python -m pip install --upgrade pip
           pip install playwright
           playwright install chromium
-      
-      - name: Sett mode til update i config.json
+          sudo apt-get update
+          sudo apt-get install -y \
+            libnss3 \
+            libatk1.0-0 \
+            libatk-bridge2.0-0 \
+            libcups2 \
+            libdrm2 \
+            libxkbcommon0 \
+            libxcomposite1 \
+            libxdamage1 \
+            libxfixes3 \
+            libxrandr2 \
+            libgbm1 \
+            libasound2t64
+
+      - name: Skriv config.json for update-modus
         run: |
-          jq '.mode="update"' src/config/config.json > tmp.json && mv tmp.json src/config/config.json
-      
+          mkdir -p src/config
+          {
+            echo "{"
+            echo "  \"mode\": \"update\","
+            echo "  \"per_page\": 100"
+            echo "}"
+          } > src/config/config.json
+
+          echo "=== INNHOLD I config.json ==="
+          cat src/config/config.json
+
       - name: Kjør scraper (update)
-        run: python src/scrapers/scraper.py
-      
-      - name: Sett opp git remote
+        working-directory: src/scrapers
         run: |
-          git remote remove origin || true
-          git remote add origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
-          git remote -v
-      
+          echo "=== STARTER UPDATE-SCRAPER ==="
+          python scraper.py
+
       - name: Commit og push oppdateringer
         run: |
           git config --global user.name "${{ github.actor }}"
           git config --global user.email "${{ github.actor }}@users.noreply.github.com"
-          git add data/postliste.json data/changes.json
+
+          echo "=== Endringer i data/ ==="
+          git status data/
+
+          git add data/postliste.json || true
+          git add data/changes.json || true
+
           git commit -m "Automatisk oppdatering av eksisterende oppføringer (update)" || echo "Ingen endringer å committe"
+
           git pull --rebase origin main || echo "Ingen endringer å hente"
           git push origin main
