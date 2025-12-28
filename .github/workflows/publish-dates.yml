@@ -27,7 +27,10 @@ jobs:
 
     steps:
       - name: Sjekk ut repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
 
       - name: Sett opp Python
         uses: actions/setup-python@v4
@@ -76,7 +79,7 @@ jobs:
             "${{ github.event.inputs.start_date }}" \
             "${{ github.event.inputs.end_date }}"
 
-      - name: Commit og push oppdateringer
+      - name: Commit og push oppdateringer (konkurransesikker)
         run: |
           git config --global user.name "${{ github.actor }}"
           git config --global user.email "${{ github.actor }}@users.noreply.github.com"
@@ -84,10 +87,25 @@ jobs:
           echo "=== Endringer i data/ ==="
           git status data/
 
+          # Legg til endringer
           git add data/postliste.json || true
           git add data/changes.json || true
 
+          # Commit hvis det finnes endringer
           git commit -m "Oppdatert postliste via publish-dates workflow" || echo "Ingen endringer å committe"
 
-          git pull --rebase origin main || echo "Ingen endringer å hente"
-          git push origin main
+          # Stash alt som ikke er commit'et
+          git stash --include-untracked || true
+
+          # Hent siste endringer fra main
+          git pull --rebase --autostash origin main || true
+
+          # Legg tilbake stash (hvis det finnes)
+          git stash pop || true
+
+          # Prøv å pushe opptil 5 ganger
+          for i in {1..5}; do
+            git push origin main && break
+            echo "Push feilet, prøver igjen ($i/5)..."
+            git pull --rebase --autostash origin main || true
+          done
