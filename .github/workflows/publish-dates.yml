@@ -52,17 +52,15 @@ jobs:
           echo "max_pages:   ${{ github.event.inputs.max_pages }}"
           echo ""
           echo "=== SKRIVER config.json ==="
-          cat <<EOF > src/config/config.json
+
+          cat > src/config/config.json <<EOF
 {
-  "start_page": ${{
-    github.event.inputs.start_page
-  }},
-  "max_pages": ${{
-    github.event.inputs.max_pages
-  }},
+  "start_page": ${GITHUB_EVENT_INPUT_START_PAGE:-${{ github.event.inputs.start_page }}},
+  "max_pages": ${GITHUB_EVENT_INPUT_MAX_PAGES:-${{ github.event.inputs.max_pages }}},
   "per_page": 100
 }
 EOF
+
           echo "=== INNHOLD I config.json ==="
           cat src/config/config.json
 
@@ -75,16 +73,11 @@ EOF
             python src/scrapers/scraper_dates.py "${{ github.event.inputs.start_date }}"
           fi
 
-      - name: Sett opp git remote
-        run: |
-          git remote remove origin || true
-          git remote add origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
-
       - name: Commit og push oppdateringer
         run: |
           git config --global user.name "${{ github.actor }}"
           git config --global user.email "${{ github.actor }}@users.noreply.github.com"
-          git add data/postliste.json data/changes.json
+          git add data/postliste.json data/changes.json || true
           git commit -m "Manuell publish med scraper_dates" || echo "Ingen endringer å committe"
           git pull --rebase origin main || echo "Ingen endringer å hente"
           git push origin main
