@@ -431,3 +431,40 @@ body.landing {
 .collapsible-controls button:hover {
     background: #005fa3;
 }
+
+/* THEME VARIABLES */
+:root {
+    --bg: #ffffff;
+    --fg: #000000;
+    --card-bg: #ffffff;
+    --card-shadow: rgba(0,0,0,0.08);
+}
+
+body.dark {
+    --bg: #1e1e1e;
+    --fg: #e0e0e0;
+    --card-bg: #2a2a2a;
+    --card-shadow: rgba(0,0,0,0.4);
+}
+
+body {
+    background: var(--bg);
+    color: var(--fg);
+}
+
+.kpi-box,
+.collapsible,
+.modal-content {
+    background: var(--card-bg);
+    box-shadow: 0 2px 6px var(--card-shadow);
+}
+
+.theme-toggle {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: none;
+    border: none;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
