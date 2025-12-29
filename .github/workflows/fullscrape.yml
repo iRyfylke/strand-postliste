@@ -7,7 +7,7 @@ permissions:
   contents: write
 
 jobs:
-  scrape_2006_H1:
+  scrape_H1:
     runs-on: ubuntu-latest
 
     steps:
@@ -48,8 +48,8 @@ jobs:
           mkdir -p src/config
           {
             echo "{"
-            echo "  \"start_page\": 3484,"
-            echo "  \"max_pages\": 3493,"
+            echo "  \"start_page\": 3496,"
+            echo "  \"max_pages\": 3506,"
             echo "  \"per_page\": 100"
             echo "}"
           } > src/config/config_fullscrape.json
@@ -57,24 +57,24 @@ jobs:
           echo "=== INNHOLD I config_fullscrape.json ==="
           cat src/config/config_fullscrape.json
 
-      - name: Scrape 2006 H1
+      - name: Scrape H1
         working-directory: src/scrapers
         run: |
           echo "=== STARTER FULLSCRAPE H1 ==="
-          python scraper_dates.py "2006-01-01" "2006-06-30"
+          python scraper_dates.py "2007-01-01" "2007-06-30"
 
       - name: Arkiver H1-resultat
         run: |
           mkdir -p data/archive
-          mv data/postliste.json data/archive/postliste_2006_H1.json
+          mv data/postliste.json data/archive/postliste_2007_H1.json
 
       - name: Commit og push H1 (konkurransesikker)
         run: |
           git config --global user.name "${{ github.actor }}"
           git config --global user.email "${{ github.actor }}@users.noreply.github.com"
 
-          git add data/archive/postliste_2006_H1.json src/config/config_fullscrape.json
-          git commit -m "Scrape 2006 H1" || echo "Ingen endringer å committe"
+          git add data/archive/postliste_2007_H1.json src/config/config_fullscrape.json
+          git commit -m "Scrape H1" || echo "Ingen endringer å committe"
 
           git stash --include-untracked || true
           git pull --rebase --autostash origin main || true
@@ -86,9 +86,9 @@ jobs:
             git pull --rebase --autostash origin main || true
           done
 
-  scrape_2006_H2:
+  scrape_H2:
     runs-on: ubuntu-latest
-    needs: scrape_2006_H1
+    needs: scrape_H1
 
     steps:
       - name: Sjekk ut repo
@@ -128,8 +128,8 @@ jobs:
           mkdir -p src/config
           {
             echo "{"
-            echo "  \"start_page\": 3484,"
-            echo "  \"max_pages\": 3493,"
+            echo "  \"start_page\": 3496,"
+            echo "  \"max_pages\": 3506,"
             echo "  \"per_page\": 100"
             echo "}"
           } > src/config/config_fullscrape.json
@@ -137,24 +137,24 @@ jobs:
           echo "=== INNHOLD I config_fullscrape.json ==="
           cat src/config/config_fullscrape.json
 
-      - name: Scrape 2006 H2
+      - name: Scrape H2
         working-directory: src/scrapers
         run: |
           echo "=== STARTER FULLSCRAPE H2 ==="
-          python scraper_dates.py "2006-07-01" "2006-12-31"
+          python scraper_dates.py "2007-07-01" "2007-12-31"
 
       - name: Arkiver H2-resultat
         run: |
           mkdir -p data/archive
-          mv data/postliste.json data/archive/postliste_2006_H2.json
+          mv data/postliste.json data/archive/postliste_2007_H2.json
 
       - name: Commit og push H2 (konkurransesikker)
         run: |
           git config --global user.name "${{ github.actor }}"
           git config --global user.email "${{ github.actor }}@users.noreply.github.com"
 
-          git add data/archive/postliste_2006_H2.json src/config/config_fullscrape.json
-          git commit -m "Scrape 2006 H2" || echo "Ingen endringer å committe"
+          git add data/archive/postliste_2007_H2.json src/config/config_fullscrape.json
+          git commit -m "Scrape H2" || echo "Ingen endringer å committe"
 
           git stash --include-untracked || true
           git pull --rebase --autostash origin main || true
