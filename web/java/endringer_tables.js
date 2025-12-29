@@ -11,7 +11,9 @@ export function renderTables(changes, postliste) {
     const tbody = document.querySelector("#table-latest-changes tbody");
     tbody.innerHTML = "";
 
-    const latest = changes.slice(0, 50);
+    const latest = changes
+    .filter(c => c.type === "UPDATE")
+    .slice(0, 20);
 
     for (const c of latest) {
         const tr = document.createElement("tr");
@@ -41,7 +43,7 @@ export function renderTables(changes, postliste) {
 
     const sorted = Object.entries(counts)
         .sort((a, b) => b[1] - a[1])
-        .slice(0, 50);
+        .slice(0, 20);
 
     const tbody2 = document.querySelector("#table-most-changed tbody");
     tbody2.innerHTML = "";
@@ -67,7 +69,7 @@ export function renderTables(changes, postliste) {
         c.endringer && c.endringer.filer_count
     );
 
-    for (const c of fileChanges.slice(0, 50)) {
+    for (const c of fileChanges.slice(0, 20)) {
         const tr = document.createElement("tr");
         tr.innerHTML = `
             <td>${c.dokumentID}</td>
