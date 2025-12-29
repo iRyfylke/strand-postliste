@@ -468,3 +468,8 @@ body {
     font-size: 1.4rem;
     cursor: pointer;
 }
+
+.graph-container {
+    max-width: 600px;
+    margin: 0 auto 1.5rem auto;
+}
