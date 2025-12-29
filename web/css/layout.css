@@ -1,1 +1,53 @@
+/* ============================================================
+   📐 LAYOUT – Grids, flex, seksjonsstruktur
+   ============================================================ */
 
+.controls {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: .75rem;
+  align-items: end;
+  margin: 1rem 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+@media (min-width: 700px) {
+  .container { grid-template-columns: 1fr 1fr; }
+}
+
+@media (min-width: 1100px) {
+  .container { grid-template-columns: 1fr 1fr 1fr; }
+}
+
+.stats-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.stats-container > div {
+  flex: 1;
+  min-width: 300px;
+}
+
+.graph-container {
+  max-width: 600px;
+  margin: 0 auto 1.5rem auto;
+}
+
+.tables-grid {
+  display: flex;
+  gap: 1rem;
+}
+
+.table-card {
+  width: 33%;
+  min-width: 33%;
+  display: flex;
+  flex-direction: column;
+}
