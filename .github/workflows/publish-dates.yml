@@ -21,6 +21,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: postliste-scraping
+  cancel-in-progress: false
+
 jobs:
   scrape_dates:
     runs-on: ubuntu-latest
