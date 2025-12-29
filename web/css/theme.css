@@ -1,1 +1,63 @@
+/* ============================================================
+   🌙 THEME – Dark mode og tema-variabler
+   ============================================================ */
 
+body.dark {
+  --border: #444;
+  --text: #eee;
+  --muted: #aaa;
+  --bg: #1e1e1e;
+  --link: #58a6ff;
+  --green: #3fb950;
+  --red: #f85149;
+  --card-bg: #2a2a2a;
+  --card-shadow: rgba(0,0,0,0.4);
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+}
+
+.kpi-box,
+.collapsible,
+.modal-content {
+  background: var(--card-bg);
+  box-shadow: 0 2px 6px var(--card-shadow);
+}
+
+.theme-toggle {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+/* Dark mode for landing page */
+@media (prefers-color-scheme: dark) {
+  body.landing {
+    background: #1e1e1e;
+    color: #ddd;
+  }
+
+  .landing-header {
+    background: #001f3f;
+  }
+
+  .landing-card {
+    background: #2a2a2a;
+    border-left-color: #4da3ff;
+    box-shadow: 0 2px 6px rgba(255,255,255,0.05);
+  }
+
+  .landing-card:hover {
+    box-shadow: 0 6px 14px rgba(255,255,255,0.1);
+  }
+
+  .landing-footer {
+    opacity: .5;
+  }
+}
