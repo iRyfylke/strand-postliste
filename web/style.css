@@ -475,7 +475,12 @@ body {
 }
 
 .tables-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    display: flex;
     gap: 1rem;
 }
+
+.table-card {
+    width: 33%;
+    min-width: 33%;
+}
+
