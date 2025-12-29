@@ -1,6 +1,5 @@
 {
-  "start_page": 3492,
+  "start_page": 3496,
   "max_pages": 3506,
-  "per_page": 100,
-  "description": "Konfigurasjon for full historisk scraping. start_page og max_pages må settes manuelt for hvert år."
+  "per_page": 100
 }
