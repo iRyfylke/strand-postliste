@@ -5,8 +5,8 @@ from zoneinfo import ZoneInfo
 
 # Oppdaterte filstier etter omstrukturering
 DATA_FILE = "data/postliste.json"        # ligger nå i data/
-OUTPUT_FILE = "web/index.html"           # skal ligge i web/
-TEMPLATE_FILE = "web/template.html"      # ligger i web/
+OUTPUT_FILE = "web/postliste.html"           # skal ligge i web/
+TEMPLATE_FILE = "web/postliste_template.html"      # ligger i web/
 
 PER_PAGE = 50  # standard antall per side (kan endres)
 
