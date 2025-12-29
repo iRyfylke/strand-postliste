@@ -1,1 +1,29 @@
+/* ============================================================
+   🌐 BASE – Globale variabler, reset, typografi
+   ============================================================ */
 
+:root {
+  --border: #ddd;
+  --text: #333;
+  --muted: #555;
+  --bg: #fff;
+  --link: #1f6feb;
+  --green: #1a7f37;
+  --red: #b42318;
+
+  /* Theme variables (overridden in theme.css) */
+  --fg: #000000;
+  --card-bg: #ffffff;
+  --card-shadow: rgba(0,0,0,0.08);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  margin: 1rem;
+  color: var(--text);
+  background: var(--bg);
+}
