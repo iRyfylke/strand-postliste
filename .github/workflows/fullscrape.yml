@@ -52,8 +52,8 @@ jobs:
           mkdir -p src/config
           {
             echo "{"
-            echo "  \"start_page\": 3496,"
-            echo "  \"max_pages\": 3506,"
+            echo "  \"start_page\": 3485,"
+            echo "  \"max_pages\": 3505,"
             echo "  \"per_page\": 100"
             echo "}"
           } > src/config/config_fullscrape.json
@@ -67,20 +67,20 @@ jobs:
           echo "=== STARTER FULLSCRAPE H1 ==="
           python scraper_dates.py \
             --config ../config/config_fullscrape.json \
-            "2007-01-01" "2007-06-30"
+            "2008-01-01" "2008-06-30"
 
       - name: Arkiver H1-resultat (beholder postliste.json)
         run: |
           mkdir -p data/archive
-          cp data/postliste.json data/archive/postliste_2007_H1.json
+          cp data/postliste.json data/archive/postliste_2008_H1.json
 
       - name: Commit og push H1 (konkurransesikker)
         run: |
           git config --global user.name "${{ github.actor }}"
           git config --global user.email "${{ github.actor }}@users.noreply.github.com"
 
-          git add data/archive/postliste_2007_H1.json src/config/config_fullscrape.json
-          git commit -m "Fullscrape 2007 H1" || echo "Ingen endringer å committe"
+          git add data/archive/postliste_2008_H1.json src/config/config_fullscrape.json
+          git commit -m "Fullscrape 2008 H1" || echo "Ingen endringer å committe"
 
           git stash --include-untracked || true
           git pull --rebase --autostash origin main || true
@@ -134,8 +134,8 @@ jobs:
           mkdir -p src/config
           {
             echo "{"
-            echo "  \"start_page\": 3496,"
-            echo "  \"max_pages\": 3506,"
+            echo "  \"start_page\": 3485,"
+            echo "  \"max_pages\": 3505,"
             echo "  \"per_page\": 100"
             echo "}"
           } > src/config/config_fullscrape.json
@@ -149,20 +149,20 @@ jobs:
           echo "=== STARTER FULLSCRAPE H2 ==="
           python scraper_dates.py \
             --config ../config/config_fullscrape.json \
-            "2007-07-01" "2007-12-31"
+            "2008-07-01" "2008-12-31"
 
       - name: Arkiver H2-resultat (beholder postliste.json)
         run: |
           mkdir -p data/archive
-          cp data/postliste.json data/archive/postliste_2007_H2.json
+          cp data/postliste.json data/archive/postliste_2008_H2.json
 
       - name: Commit og push H2 (konkurransesikker)
         run: |
           git config --global user.name "${{ github.actor }}"
           git config --global user.email "${{ github.actor }}@users.noreply.github.com"
 
-          git add data/archive/postliste_2007_H2.json src/config/config_fullscrape.json
-          git commit -m "Fullscrape 2007 H2" || echo "Ingen endringer å committe"
+          git add data/archive/postliste_2008_H2.json src/config/config_fullscrape.json
+          git commit -m "Fullscrape 2008 H2" || echo "Ingen endringer å committe"
 
           git stash --include-untracked || true
           git pull --rebase --autostash origin main || true
