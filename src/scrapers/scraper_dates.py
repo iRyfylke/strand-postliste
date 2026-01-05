@@ -86,6 +86,7 @@ def safe_text(el, sel):
         return ""
 
 def parse_date(s):
+    """Brukes for datoer hentet fra nettsiden."""
     if not s:
         return None
     for fmt in ("%Y-%m-%d", "%d.%m.%Y"):
@@ -97,6 +98,17 @@ def parse_date(s):
         return datetime.fromisoformat(s[:10]).date()
     except:
         return None
+
+def parse_cli_date(s):
+    """Brukes for input-datoer fra workflowen (DD.MM.YYYY eller YYYY-MM-DD)."""
+    if not s:
+        return None
+    for fmt in ("%d.%m.%Y", "%Y-%m-%d"):
+        try:
+            return datetime.strptime(s, fmt).date()
+        except:
+            pass
+    raise ValueError(f"Ugyldig datoformat: {s}. Bruk DD.MM.YYYY")
 
 def format_date(d):
     return d.strftime("%d.%m.%Y") if d else ""
@@ -128,7 +140,6 @@ def hent_side(page_num, browser, per_page):
 
     page = browser.new_page()
 
-    # Robust liste-side
     if not safe_goto(page, url):
         page.close()
         return []
@@ -168,7 +179,6 @@ def hent_side(page_num, browser, per_page):
 
         am = f"Avsender: {avsender}" if avsender else (f"Mottaker: {mottaker}" if mottaker else "")
 
-        # Detaljlenke
         detalj_link = ""
         try:
             link_elem = art.evaluate_handle("node => node.closest('a')")
@@ -179,7 +189,6 @@ def hent_side(page_num, browser, per_page):
         if detalj_link and not detalj_link.startswith("http"):
             detalj_link = "https://www.strand.kommune.no" + detalj_link
 
-        # Hent filer
         filer = []
         if detalj_link:
             dp = browser.new_page()
@@ -303,8 +312,8 @@ if __name__ == "__main__":
     sd = args.start_date
     ed = args.end_date
 
-    start_date = datetime.strptime(sd, "%Y-%m-%d").date() if sd else None
-    end_date = datetime.strptime(ed, "%Y-%m-%d").date() if ed else None
+    start_date = parse_cli_date(sd) if sd else None
+    end_date = parse_cli_date(ed) if ed else None
 
     if start_date and not end_date:
         end_date = start_date
