@@ -29,25 +29,18 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Playwright cache
+        uses: actions/cache@v4
+        id: cache-playwright
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-v1
+
       - name: Installer Playwright + dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install playwright
+          pip install playwright beautifulsoup4
           playwright install chromium
-          sudo apt-get update
-          sudo apt-get install -y \
-            libnss3 \
-            libatk1.0-0 \
-            libatk-bridge2.0-0 \
-            libcups2 \
-            libdrm2 \
-            libxkbcommon0 \
-            libxcomposite1 \
-            libxdamage1 \
-            libxfixes3 \
-            libxrandr2 \
-            libgbm1 \
-            libasound2t64
 
       - name: Skriv config.json for incremental-modus
         run: |
@@ -82,23 +75,15 @@ jobs:
           echo "=== Endringer i data/ ==="
           git status data/
 
-          # Legg til endringer
           git add data/postliste.json || true
           git add data/changes.json || true
 
-          # Commit hvis det finnes endringer
           git commit -m "Automatisk morgenoppdatering (incremental)" || echo "Ingen endringer å committe"
 
-          # Stash alt som ikke er commit'et
           git stash --include-untracked || true
-
-          # Hent siste endringer fra main
           git pull --rebase --autostash origin main || true
-
-          # Legg tilbake stash (hvis det finnes)
           git stash pop || true
 
-          # Prøv å pushe opptil 5 ganger
           for i in {1..5}; do
             git push origin main && break
             echo "Push feilet, prøver igjen ($i/5)..."
