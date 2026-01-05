@@ -128,16 +128,17 @@ jobs:
           pip install playwright beautifulsoup4
           playwright install chromium
 
-      - name: Kjør H1-scrape
+      - name: Kjør H1-scrape (FULL-modus)
         working-directory: src/scrapers
         run: |
           echo "=== STARTER FULLSCRAPE H1 ==="
           python scraper_dates.py \
+            --mode full \
             --config ../config/config_fullscrape.json \
             "${{ github.event.inputs.h1_start }}" \
             "${{ github.event.inputs.h1_end }}"
 
-      - name: Arkiver H1-resultat
+      - name: Arkiver H1-resultat (kun filtrerte data)
         run: |
           mkdir -p data/archive
           cp data/postliste_filtered.json \
@@ -191,16 +192,17 @@ jobs:
           pip install playwright beautifulsoup4
           playwright install chromium
 
-      - name: Kjør H2-scrape
+      - name: Kjør H2-scrape (FULL-modus)
         working-directory: src/scrapers
         run: |
           echo "=== STARTER FULLSCRAPE H2 ==="
           python scraper_dates.py \
+            --mode full \
             --config ../config/config_fullscrape.json \
             "${{ github.event.inputs.h2_start }}" \
             "${{ github.event.inputs.h2_end }}"
 
-      - name: Arkiver H2-resultat
+      - name: Arkiver H2-resultat (kun filtrerte data)
         run: |
           mkdir -p data/archive
           cp data/postliste_filtered.json \
