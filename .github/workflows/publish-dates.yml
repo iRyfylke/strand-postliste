@@ -22,7 +22,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: postliste-scraping
+  group: postliste-publish-dates
   cancel-in-progress: false
 
 jobs:
@@ -41,25 +41,18 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Playwright cache
+        uses: actions/cache@v4
+        id: cache-playwright
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-v1
+
       - name: Installer Playwright + dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install playwright
+          pip install playwright beautifulsoup4
           playwright install chromium
-          sudo apt-get update
-          sudo apt-get install -y \
-            libnss3 \
-            libatk1.0-0 \
-            libatk-bridge2.0-0 \
-            libcups2 \
-            libdrm2 \
-            libxkbcommon0 \
-            libxcomposite1 \
-            libxdamage1 \
-            libxfixes3 \
-            libxrandr2 \
-            libgbm1 \
-            libasound2t64
 
       - name: Skriv config_dates.json basert på input
         run: |
@@ -75,11 +68,12 @@ jobs:
           echo "=== INNHOLD I config_dates.json ==="
           cat src/config/config_dates.json
 
-      - name: Kjør scraper_dates.py
+      - name: Kjør scraper_dates.py (PUBLISH-modus)
         working-directory: src/scrapers
         run: |
           echo "=== STARTER SCRAPER (publish-dates) ==="
           python scraper_dates.py \
+            --mode publish \
             --config ../config/config_dates.json \
             "${{ github.event.inputs.start_date }}" \
             "${{ github.event.inputs.end_date }}"
