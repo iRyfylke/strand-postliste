@@ -1,5 +1,4 @@
 import json
-import os
 from pathlib import Path
 
 ARCHIVE_DIR = Path("data/archive")
@@ -10,9 +9,7 @@ def extract_year_from_filename(filename):
     if len(parts) < 2:
         return None
     year = parts[1]
-    if year.isdigit():
-        return int(year)
-    return None
+    return int(year) if year.isdigit() else None
 
 def verify_file(path):
     with open(path, "r", encoding="utf-8") as f:
