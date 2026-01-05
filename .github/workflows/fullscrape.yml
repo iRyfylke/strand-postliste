@@ -140,7 +140,7 @@ jobs:
       - name: Arkiver H1-resultat
         run: |
           mkdir -p data/archive
-          cp data/postliste.json \
+          cp data/postliste_filtered.json \
             "data/archive/postliste_${{ github.event.inputs.year }}_H1.json"
 
       - name: Commit og push H1
@@ -203,7 +203,7 @@ jobs:
       - name: Arkiver H2-resultat
         run: |
           mkdir -p data/archive
-          cp data/postliste.json \
+          cp data/postliste_filtered.json \
             "data/archive/postliste_${{ github.event.inputs.year }}_H2.json"
 
       - name: Commit og push H2
