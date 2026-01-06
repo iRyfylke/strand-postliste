@@ -1,10 +1,7 @@
 from playwright.sync_api import sync_playwright
 import argparse
 from datetime import datetime
-from utils_dates import (
-    parse_date_from_page,
-    within_range,
-)
+from utils_dates import parse_date_from_page, within_range, parse_cli_date
 from utils_files import (
     ensure_directories,
     load_config,
@@ -14,24 +11,9 @@ from utils_files import (
 )
 from scraper_core import hent_side
 
-
 DEFAULT_CONFIG_FILE = "../config/config.json"
 DATA_FILE = "../../data/postliste.json"
 FILTERED_FILE = "../../data/postliste_filtered.json"
-
-
-def parse_cli_date(value):
-    """
-    Forventer DD.MM.YYYY fra workflow-input.
-    Konverterer til Python date-objekt.
-    """
-    if not value:
-        return None
-    try:
-        return datetime.strptime(value, "%d.%m.%Y").date()
-    except Exception:
-        print(f"[WARN] Klarte ikke parse dato (forventet DD.MM.YYYY): {value}")
-        return None
 
 
 def run_scrape(start_date=None, end_date=None, config_path=DEFAULT_CONFIG_FILE, mode="publish"):
@@ -44,9 +26,13 @@ def run_scrape(start_date=None, end_date=None, config_path=DEFAULT_CONFIG_FILE, 
     max_pages = int(cfg.get("max_pages", 100))
     per_page = int(cfg.get("per_page", 100))
 
+    # Riktig siderekkefølge avhengig av config
+    step = 1 if max_pages > start_page else -1
+
     print("[INFO] Konfigurasjon:")
     print(f"       start_page = {start_page}")
     print(f"       max_pages  = {max_pages}")
+    print(f"       step       = {step}")
     print(f"       per_page   = {per_page}")
     print(f"       start_date = {start_date}")
     print(f"       end_date   = {end_date}")
@@ -56,23 +42,27 @@ def run_scrape(start_date=None, end_date=None, config_path=DEFAULT_CONFIG_FILE, 
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True, args=["--no-sandbox"])
 
-        for page_num in range(start_page, max_pages + 1):
+        for page_num in range(start_page, max_pages + step, step):
             docs = hent_side(page_num, browser, per_page)
 
-            if not docs:
-                print(f"[INFO] Ingen dokumenter på side {page_num}. Stopper.")
-                break
+            if docs is None:
+                # Side feilet etter retries – hopp over, ikke stopp hele scrapen
+                print(f"[WARN] Hopper over side {page_num} pga. feil.")
+                continue
 
+            # Filtrer dokumenter innenfor dato-range
             for d in docs:
                 parsed_date = parse_date_from_page(d.get("dato"))
                 if within_range(parsed_date, start_date, end_date):
                     all_docs.append(d)
 
-            # Tidlig stopp hvis alle datoer er eldre enn start_date
+            # Tidlig stopp hvis ALLE datoer på siden er eldre enn start_date
             parsed_dates = [parse_date_from_page(x.get("dato")) for x in docs if x.get("dato")]
-            if start_date and parsed_dates and all(x and x < start_date for x in parsed_dates):
-                print("[INFO] Tidlig stopp: alle datoer på denne siden er eldre enn start_date")
-                break
+
+            if start_date and parsed_dates:
+                if all(x and x < start_date for x in parsed_dates):
+                    print("[INFO] Tidlig stopp: alle datoer på denne siden er eldre enn start_date")
+                    break
 
         browser.close()
 
@@ -98,7 +88,7 @@ def main():
 
     args = parser.parse_args()
 
-    start_date = parse_cli_date(args.start_date)
+    start_date = parse_cli_date(args.start_date) if args.start_date else None
     end_date = parse_cli_date(args.end_date) if args.end_date else start_date
 
     run_scrape(
