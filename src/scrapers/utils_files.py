@@ -5,7 +5,7 @@ from pathlib import Path
 
 # Standard paths used av scraper.py
 DATA_DIR = "../../data"
-CHANGES_FILE = "data/changes.json"
+CHANGES_FILE = "../../data/changes.json"
 
 
 def ensure_directories():
