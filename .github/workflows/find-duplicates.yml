@@ -1,4 +1,4 @@
-name: Find duplicates in postliste.json
+name: Find duplicates in shards
 
 on:
   workflow_dispatch:
@@ -21,5 +21,5 @@ jobs:
 
       - name: Kjør duplikatfinner
         run: |
-          echo "=== Søker etter duplikater i postliste.json ==="
+          echo "=== Søker etter duplikater i shard-filer ==="
           python tools/find_duplicates.py
