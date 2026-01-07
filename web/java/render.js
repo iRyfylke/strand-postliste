@@ -1,8 +1,8 @@
 // === Imports ===
 import { renderPagination } from './pagination.js';
-// buildStats fjernet – statistikk håndteres nå kun i statistikk.html via initStats()
 
 // === Global state (privat) ===
+let data = [];              // <-- NYTT: datasettet fra shards
 let currentSearch = "";
 let currentFilter = "";
 let currentStatus = "";
@@ -12,6 +12,8 @@ let currentSort = "dato-desc";
 let currentPage = 1;
 
 // === Settere og gettere ===
+export function setData(arr) { data = arr || []; }   // <-- NYTT
+
 export function setSearch(val) { currentSearch = val; }
 export function setFilter(val) { currentFilter = val; }
 export function setStatus(val) { currentStatus = val; }
@@ -179,6 +181,4 @@ export function renderPage(page) {
   renderPagination("pagination-bottom", currentPage, filtered.length, perPage);
 
   renderSummary(filtered.length);
-
-  // buildStats(filtered);  <-- fjernet
 }
