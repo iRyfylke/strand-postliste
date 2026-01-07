@@ -58,11 +58,26 @@
 
     async function loadData() {
       try {
-        const response = await fetch("../data/postliste.json");
-        const data = await response.json();
-        initStats(data);
+        // 1. Last indexfilen
+        const indexRes = await fetch("../data/postliste_index.json");
+        const shardFiles = await indexRes.json();
+
+        // 2. Last alle shards parallelt
+        const shardPromises = shardFiles.map(async (filename) => {
+          const res = await fetch(`../data/${filename}`);
+          return res.json();
+        });
+
+        const shardData = await Promise.all(shardPromises);
+
+        // 3. Slå sammen alle entries
+        const allEntries = shardData.flat();
+
+        // 4. Send til stats-modulen
+        initStats(allEntries);
+
       } catch (e) {
-        console.error("Kunne ikke laste data:", e);
+        console.error("Kunne ikke laste shard-data:", e);
       }
     }
 
