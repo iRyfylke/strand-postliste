@@ -1,0 +1,30 @@
+name: Verify migration of postliste.json to shards
+
+on:
+  workflow_dispatch:
+
+jobs:
+  verify-migration:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run verification script
+        run: |
+          echo "[INFO] Running verify_migration.py..."
+          python tools/verify_migration.py
+
+      - name: Fail if verification failed
+        run: |
+          if grep -q "VERIFIKASJON FEILET" -R .; then
+            echo "[ERROR] Verification failed. Do NOT delete postliste.json."
+            exit 1
+          fi
+          echo "[INFO] Verification passed. It is safe to delete postliste.json."
