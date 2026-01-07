@@ -18,12 +18,11 @@ jobs:
 
       - name: Run verification script
         run: |
-          echo "[INFO] Running verify_migration.py..."
-          python tools/verify_migration.py
+          python tools/verify_migration.py | tee verify_output.txt
 
       - name: Fail if verification failed
         run: |
-          if grep -q "VERIFIKASJON FEILET" -R .; then
+          if grep -q "VERIFIKASJON FEILET" verify_output.txt; then
             echo "[ERROR] Verification failed. Do NOT delete postliste.json."
             exit 1
           fi
