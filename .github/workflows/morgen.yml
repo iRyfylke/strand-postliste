@@ -42,6 +42,17 @@ jobs:
           pip install playwright beautifulsoup4
           playwright install chromium
 
+      # --- AUTOMATISK MIGRERING HVIS LEGACY-FIL FINNES ---
+      - name: Migrer postliste.json til shards (hvis nødvendig)
+        run: |
+          if [ -f data/postliste.json ]; then
+            echo "[INFO] Legacy postliste.json funnet – migrerer til shards..."
+            python tools/migrate_postliste_json_to_shards.py
+          else
+            echo "[INFO] Ingen legacy postliste.json – hopper over migrering."
+          fi
+
+      # --- SKRIV CONFIG FOR INCREMENTAL ---
       - name: Skriv config.json for incremental-modus
         run: |
           mkdir -p src/config
@@ -55,18 +66,21 @@ jobs:
           echo "=== INNHOLD I config.json ==="
           cat src/config/config.json
 
+      # --- KJØR SCRAPER ---
       - name: Kjør scraper (incremental)
         working-directory: src/scrapers
         run: |
           echo "=== STARTER INCREMENTAL-SCRAPER ==="
           python scraper.py
 
+      # --- GIT REMOTE ---
       - name: Sett opp git remote
         run: |
           git remote remove origin || true
           git remote add origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
           git remote -v
 
+      # --- COMMIT & PUSH ---
       - name: Commit og push oppdateringer (konkurransesikker)
         run: |
           git config --global user.name "${{ github.actor }}"
@@ -75,10 +89,17 @@ jobs:
           echo "=== Endringer i data/ ==="
           git status data/
 
-          git add data/postliste.json || true
+          # Shard-filer
+          git add data/postliste_*.json || true
+          git add data/postliste_index.json || true
+
+          # Endringslogg
           git add data/changes.json || true
 
-          git commit -m "Automatisk morgenoppdatering (incremental)" || echo "Ingen endringer å committe"
+          # Slett legacy hvis den fortsatt finnes
+          git rm data/postliste.json || true
+
+          git commit -m "Automatisk morgenoppdatering (incremental, sharded)" || echo "Ingen endringer å committe"
 
           git stash --include-untracked || true
           git pull --rebase --autostash origin main || true
