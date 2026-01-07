@@ -52,22 +52,23 @@ jobs:
           git status web/
           git status data/
 
-          # Legg til endringer
-          git add web/postliste.html web/script.js web/style.css web/postliste_template.html data/postliste.json || true
+          # Legg til endringer i frontend
+          git add web/postliste.html web/script.js web/style.css web/postliste_template.html || true
 
-          # Commit hvis det finnes endringer
-          git commit -m "Force publish med oppdatert postliste.html og postliste.json" || echo "Ingen endringer å committe"
+          # Legg til endringer i shards (frontend kan ha regenerert basert på dem)
+          git add data/postliste_*.json || true
+          git add data/postliste_index.json || true
+          git add data/changes.json || true
 
-          # Stash alt som ikke er commit'et
+          # Slett legacy hvis den finnes
+          git rm data/postliste.json || true
+
+          git commit -m "Force publish med oppdatert frontend (sharded)" || echo "Ingen endringer å committe"
+
           git stash --include-untracked || true
-
-          # Hent siste endringer fra main
           git pull --rebase --autostash origin main || true
-
-          # Legg tilbake stash (hvis det finnes)
           git stash pop || true
 
-          # Prøv å pushe opptil 5 ganger
           for i in {1..5}; do
             git push origin main && break
             echo "Push feilet, prøver igjen ($i/5)..."
