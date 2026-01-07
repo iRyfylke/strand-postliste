@@ -6,6 +6,9 @@ import { loadPostliste } from './java/endringer_data.js';
 import './java/export.js';
 import './java/stats.js';
 
+// Global konfig (brukes av filters.js)
+window.perPage = 50;
+
 document.addEventListener("DOMContentLoaded", async () => {
   // 1. Last datasettet fra shards
   const map = await loadPostliste();
