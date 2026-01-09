@@ -1,0 +1,30 @@
+name: Repair Year Scrape
+
+on:
+  workflow_dispatch:
+    inputs:
+      year:
+        description: "År som skal repareres (f.eks. 2013)"
+        required: true
+
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run repair scraper
+        run: |
+          python scraper_dates.py \
+            --mode repair \
+            ${{ github.event.inputs.year }}-01-01 \
+            ${{ github.event.inputs.year }}-12-31
