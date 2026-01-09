@@ -42,11 +42,10 @@ permissions:
   contents: write
 
 concurrency:
-  group: postliste-scraping
+  group: postliste-fullscrape
   cancel-in-progress: false
 
 jobs:
-
   fullscrape:
     runs-on: ubuntu-latest
 
@@ -59,7 +58,7 @@ jobs:
           ref: main
 
       - name: Sett opp Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
@@ -144,6 +143,5 @@ jobs:
 
           git commit -m "Fullscrape ${{ github.event.inputs.year }} (H1 + H2)" || echo "Ingen endringer å committe"
 
-          # Ingen stash, ingen rebase, ingen retry — ren push
           git pull --rebase origin main || true
           git push origin main || true
