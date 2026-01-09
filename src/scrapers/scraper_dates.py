@@ -17,10 +17,6 @@ FILTERED_FILE = "../../data/postliste_filtered.json"
 
 
 async def scrape_single_page(context, page_num, per_page, start_date, end_date, semaphore, index, total_pages):
-    """
-    Scraper én side i egen page (SPA-sikker), filtrerer på dato-range og returnerer liste med dokumenter.
-    Logger også progress: 'Scraper side X av Y'.
-    """
     print(f"[INFO] Scraper side {index} av {total_pages} (page_num={page_num})")
 
     async with semaphore:
@@ -30,7 +26,7 @@ async def scrape_single_page(context, page_num, per_page, start_date, end_date, 
                 page_num=page_num,
                 page=page,
                 per_page=per_page,
-                timeout=10_000,
+                timeout=20_000,
                 retries=5,
             )
         finally:
@@ -61,7 +57,6 @@ async def run_scrape_async(start_date=None, end_date=None, config_path=DEFAULT_C
     per_page = int(cfg.get("per_page", 100))
     step = 1 if max_pages > start_page else -1
 
-    # Antall sider som faktisk skal scrapes
     total_pages = abs(max_pages - start_page) + 1
 
     print("[INFO] Konfigurasjon:")
@@ -75,10 +70,8 @@ async def run_scrape_async(start_date=None, end_date=None, config_path=DEFAULT_C
 
     all_docs = []
 
-    # Dynamisk concurrency basert på CPU
     cpu_count = os.cpu_count() or 2
-    # Litt konservativ: ikke mer enn 8, ikke mindre enn 2, og ikke over (cpu_count - 1)
-    CONCURRENCY = min(8, max(2, cpu_count - 1))
+    CONCURRENCY = min(6, max(2, cpu_count - 1))
 
     print(f"[INFO] CPU-kjerner: {cpu_count}, bruker CONCURRENCY={CONCURRENCY}")
 
@@ -97,7 +90,6 @@ async def run_scrape_async(start_date=None, end_date=None, config_path=DEFAULT_C
 
         context = await browser.new_context()
 
-        # Resource-blocking: behold CSS/JS, blokker kun tunge ting
         async def block_resources(route):
             if route.request.resource_type in ["image", "media"]:
                 await route.abort()
@@ -109,7 +101,6 @@ async def run_scrape_async(start_date=None, end_date=None, config_path=DEFAULT_C
         semaphore = asyncio.Semaphore(CONCURRENCY)
 
         tasks = []
-        # Vi vil ha stabil index 1..total_pages uavhengig av step-retning
         for idx, page_num in enumerate(range(start_page, max_pages + step, step), start=1):
             tasks.append(
                 scrape_single_page(
@@ -124,10 +115,8 @@ async def run_scrape_async(start_date=None, end_date=None, config_path=DEFAULT_C
                 )
             )
 
-        # Kjør alle sidene parallelt
         results = await asyncio.gather(*tasks)
 
-        # Flatten resultatene
         for batch in results:
             all_docs.extend(batch)
 
@@ -135,6 +124,36 @@ async def run_scrape_async(start_date=None, end_date=None, config_path=DEFAULT_C
         await browser.close()
 
     print(f"[INFO] Totalt hentet {len(all_docs)} dokumenter innenfor dato-range.")
+
+    # -------------------------
+    # REPAIR-MODUS
+    # -------------------------
+    if mode == "repair":
+        print("[INFO] Repair-modus aktivert. Laster eksisterende datasett…")
+        existing_dict, _ = load_all_postliste()
+
+        missing_docs = []
+        for d in all_docs:
+            dokid = d.get("dokumentID")
+            if dokid and dokid not in existing_dict:
+                missing_docs.append(d)
+
+        year = start_date.year if start_date else "unknown"
+        missing_file = f"missing_{year}.json"
+
+        print(f"[INFO] Fant {len(missing_docs)} manglende dokumenter.")
+        atomic_write(missing_file, missing_docs)
+
+        if missing_docs:
+            print("[INFO] Merger manglende dokumenter inn i hoveddatasettet…")
+            merge_and_save_sharded(existing_dict, missing_docs)
+
+        print("[INFO] Repair fullført.")
+        return
+
+    # -------------------------
+    # NORMAL MODUS
+    # -------------------------
     atomic_write(FILTERED_FILE, all_docs)
 
     if mode == "publish":
@@ -148,7 +167,7 @@ async def run_scrape_async(start_date=None, end_date=None, config_path=DEFAULT_C
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--config", default=DEFAULT_CONFIG_FILE)
-    parser.add_argument("--mode", default="publish", choices=["full", "publish"])
+    parser.add_argument("--mode", default="publish", choices=["full", "publish", "repair"])
     parser.add_argument("start_date", nargs="?")
     parser.add_argument("end_date", nargs="?")
 
