@@ -53,7 +53,7 @@ async def run_scrape_async(start_date=None, end_date=None, config_path=DEFAULT_C
 
         # Raskere og tryggere resource-blocking
         async def block_resources(route):
-            if route.request.resource_type in ["image", "font", "stylesheet", "media"]:
+            if route.request.resource_type in ["image", "media"]:
                 await route.abort()
             else:
                 await route.continue_()
