@@ -1,5 +1,5 @@
 import asyncio
-from utils_playwright import safe_text
+from utils_playwright_async import safe_text, safe_goto
 from utils_dates import parse_date_from_page, format_date
 
 BASE_URL = (
@@ -27,7 +27,9 @@ async def hent_side_async(page_num, page, per_page, retries=5, timeout=10_000):
             print(f"[INFO] (async) Åpner side {page_num} (forsøk {attempt}/{retries}): {url}")
 
             # Naviger til siden
-            await page.goto(url, timeout=timeout, wait_until="domcontentloaded")
+            ok = await safe_goto(page, url, retries=1, timeout=timeout)
+            if not ok:
+                raise RuntimeError("safe_goto feilet")
 
             # Kort pause for rendering
             await page.wait_for_timeout(200)
@@ -72,7 +74,8 @@ async def hent_side_async(page_num, page, per_page, retries=5, timeout=10_000):
                 detalj_link = ""
                 try:
                     link_elem = await art.evaluate_handle("node => node.closest('a')")
-                    detalj_link = await link_elem.get_attribute("href") if link_elem else ""
+                    if link_elem:
+                        detalj_link = await link_elem.get_attribute("href")
                 except Exception:
                     pass
 
@@ -83,27 +86,28 @@ async def hent_side_async(page_num, page, per_page, retries=5, timeout=10_000):
                 filer = []
                 if detalj_link:
                     try:
-                        await page.goto(detalj_link, timeout=timeout, wait_until="domcontentloaded")
-                        await page.wait_for_timeout(150)
+                        ok = await safe_goto(page, detalj_link, retries=1, timeout=timeout)
+                        if ok:
+                            await page.wait_for_timeout(150)
 
-                        links = await page.query_selector_all("a")
-                        for fl in links:
-                            href = await fl.get_attribute("href")
-                            tekst = await fl.inner_text()
+                            links = await page.query_selector_all("a")
+                            for fl in links:
+                                href = await fl.get_attribute("href")
+                                tekst = await fl.inner_text()
 
-                            if href and "/api/presentation/v2/nye-innsyn/filer" in href:
-                                abs_url = href if href.startswith("http") else "https://www.strand.kommune.no" + href
-                                filer.append({
-                                    "tekst": (tekst or "").strip(),
-                                    "url": abs_url
-                                })
+                                if href and "/api/presentation/v2/nye-innsyn/filer" in href:
+                                    abs_url = href if href.startswith("http") else "https://www.strand.kommune.no" + href
+                                    filer.append({
+                                        "tekst": (tekst or "").strip(),
+                                        "url": abs_url
+                                    })
 
                     except Exception as e:
                         print(f"[WARN] (async) Klarte ikke hente filer for {dokid}: {e}")
 
                     finally:
                         # Gå tilbake til hovedsiden
-                        await page.goto(url, timeout=timeout, wait_until="domcontentloaded")
+                        await safe_goto(page, url, retries=1, timeout=timeout)
                         await page.wait_for_timeout(100)
 
                 status = "Publisert" if filer else "Må bes om innsyn"
