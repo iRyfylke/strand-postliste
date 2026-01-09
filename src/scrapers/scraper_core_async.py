@@ -36,7 +36,7 @@ async def hent_side_async(page_num, page, per_page, retries=5, timeout=10_000):
 
             # Vent på artikler
             try:
-                await page.wait_for_selector("article.bc-content-teaser--item", timeout=timeout)
+                await page.wait_for_selector("article.bc-content-teaser--item", timeout=timeout, state="attached")
             except Exception as e:
                 print(f"[WARN] Ingen artikler funnet på side {page_num}: {e}")
                 raise
