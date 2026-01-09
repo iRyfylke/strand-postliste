@@ -37,25 +37,57 @@ def run_scrape(start_date=None, end_date=None, config_path=DEFAULT_CONFIG_FILE, 
     all_docs = []
 
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True, args=["--no-sandbox"])
+        browser = p.chromium.launch(
+            headless=True,
+            args=[
+                "--no-sandbox",
+                "--disable-dev-shm-usage",
+                "--disable-gpu",
+                "--disable-background-networking",
+                "--disable-background-timer-throttling",
+                "--disable-renderer-backgrounding",
+            ],
+        )
+
+        context = browser.new_context()
+
+        # Blokker unødvendige ressurser
+        context.route("**/*", lambda route: (
+            route.abort()
+            if route.request.resource_type in ["image", "font", "stylesheet", "media"]
+            else route.continue_()
+        ))
+
+        page = context.new_page()
 
         for page_num in range(start_page, max_pages + step, step):
-            docs = hent_side(page_num, browser, per_page)
+            docs = hent_side(page_num, browser, per_page, page=page, timeout=10_000)
 
             if docs is None:
                 print(f"[WARN] Hopper over side {page_num} pga. feil.")
                 continue
 
+            if len(docs) == 0:
+                print(f"[INFO] Tom side {page_num}, stopper.")
+                break
+
+            # Tidlig stopp: hvis første dokument er eldre enn start_date
+            first_date = parse_date_from_page(docs[0].get("dato"))
+            if start_date and first_date and first_date < start_date:
+                print("[INFO] Tidlig stopp: første dokument på siden er eldre enn start_date")
+                break
+
+            # Filtrer dokumenter innenfor dato-range
             for d in docs:
                 parsed_date = parse_date_from_page(d.get("dato"))
                 if within_range(parsed_date, start_date, end_date):
                     all_docs.append(d)
 
+            # Tidlig stopp: alle dokumenter eldre enn start_date
             parsed_dates = [parse_date_from_page(x.get("dato")) for x in docs if x.get("dato")]
-            if start_date and parsed_dates:
-                if all(x and x < start_date for x in parsed_dates):
-                    print("[INFO] Tidlig stopp: alle datoer på denne siden er eldre enn start_date")
-                    break
+            if start_date and parsed_dates and all(x and x < start_date for x in parsed_dates):
+                print("[INFO] Tidlig stopp: alle dokumenter på siden er eldre enn start_date")
+                break
 
         browser.close()
 
