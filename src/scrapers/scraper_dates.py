@@ -60,9 +60,14 @@ async def run_scrape_async(start_date=None, end_date=None, config_path=DEFAULT_C
 
         await context.route("**/*", block_resources)
 
-        page = await context.new_page()
+        # --- NYTT: ikke opprett page her ---
+        # page = await context.new_page()
 
         for page_num in range(start_page, max_pages + step, step):
+
+            # --- NYTT: opprett ny page for hver side ---
+            page = await context.new_page()
+
             docs = await hent_side_async(
                 page_num=page_num,
                 page=page,
@@ -70,6 +75,9 @@ async def run_scrape_async(start_date=None, end_date=None, config_path=DEFAULT_C
                 timeout=10_000,
                 retries=5,
             )
+
+            # --- NYTT: lukk page etter bruk ---
+            await page.close()
 
             if docs is None:
                 print(f"[WARN] Hopper over side {page_num} pga. feil.")
