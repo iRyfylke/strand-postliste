@@ -15,8 +15,39 @@ DEFAULT_CONFIG_FILE = "../config/config.json"
 FILTERED_FILE = "../../data/postliste_filtered.json"
 
 
+async def scrape_single_page(context, page_num, per_page, start_date, end_date, semaphore):
+    """
+    Scraper én side i egen page (SPA-sikker), filtrerer på dato-range og returnerer liste med dokumenter.
+    """
+    async with semaphore:
+        page = await context.new_page()
+        try:
+            docs = await hent_side_async(
+                page_num=page_num,
+                page=page,
+                per_page=per_page,
+                timeout=10_000,
+                retries=5,
+            )
+        finally:
+            await page.close()
+
+        if not docs:
+            print(f"[INFO] Ingen dokumenter (eller feil) på side {page_num}")
+            return []
+
+        filtered = []
+        for d in docs:
+            parsed_date = parse_date_from_page(d.get("dato"))
+            if within_range(parsed_date, start_date, end_date):
+                filtered.append(d)
+
+        print(f"[INFO] Side {page_num}: {len(filtered)} dokumenter innenfor dato-range")
+        return filtered
+
+
 async def run_scrape_async(start_date=None, end_date=None, config_path=DEFAULT_CONFIG_FILE, mode="publish"):
-    print(f"[INFO] Starter ASYNC scraper_dates i modus='{mode}'…")
+    print(f"[INFO] Starter ASYNC PARALLELL scraper_dates i modus='{mode}'…")
 
     ensure_directories()
     cfg = load_config(config_path)
@@ -51,7 +82,7 @@ async def run_scrape_async(start_date=None, end_date=None, config_path=DEFAULT_C
 
         context = await browser.new_context()
 
-        # Raskere og tryggere resource-blocking
+        # Resource-blocking: behold CSS/JS, blokker kun tunge ting
         async def block_resources(route):
             if route.request.resource_type in ["image", "media"]:
                 await route.abort()
@@ -60,50 +91,29 @@ async def run_scrape_async(start_date=None, end_date=None, config_path=DEFAULT_C
 
         await context.route("**/*", block_resources)
 
-        # --- NYTT: ikke opprett page her ---
-        # page = await context.new_page()
+        # Hvor mange sider i parallell
+        CONCURRENCY = 8
+        semaphore = asyncio.Semaphore(CONCURRENCY)
 
+        tasks = []
         for page_num in range(start_page, max_pages + step, step):
-
-            # --- NYTT: opprett ny page for hver side ---
-            page = await context.new_page()
-
-            docs = await hent_side_async(
-                page_num=page_num,
-                page=page,
-                per_page=per_page,
-                timeout=10_000,
-                retries=5,
+            tasks.append(
+                scrape_single_page(
+                    context=context,
+                    page_num=page_num,
+                    per_page=per_page,
+                    start_date=start_date,
+                    end_date=end_date,
+                    semaphore=semaphore,
+                )
             )
 
-            # --- NYTT: lukk page etter bruk ---
-            await page.close()
+        # Kjør alle sidene parallelt
+        results = await asyncio.gather(*tasks)
 
-            if docs is None:
-                print(f"[WARN] Hopper over side {page_num} pga. feil.")
-                continue
-
-            if len(docs) == 0:
-                print(f"[INFO] Tom side {page_num}, stopper.")
-                break
-
-            # Tidlig stopp: hvis første dokument er eldre enn start_date
-            first_date = parse_date_from_page(docs[0].get("dato"))
-            if start_date and first_date and first_date < start_date:
-                print("[INFO] Tidlig stopp: første dokument på siden er eldre enn start_date")
-                break
-
-            # Filtrer dokumenter innenfor dato-range
-            for d in docs:
-                parsed_date = parse_date_from_page(d.get("dato"))
-                if within_range(parsed_date, start_date, end_date):
-                    all_docs.append(d)
-
-            # Tidlig stopp: alle dokumenter eldre enn start_date
-            parsed_dates = [parse_date_from_page(x.get("dato")) for x in docs if x.get("dato")]
-            if start_date and parsed_dates and all(x and x < start_date for x in parsed_dates):
-                print("[INFO] Tidlig stopp: alle dokumenter på siden er eldre enn start_date")
-                break
+        # Flatten resultatene
+        for batch in results:
+            all_docs.extend(batch)
 
         await context.close()
         await browser.close()
