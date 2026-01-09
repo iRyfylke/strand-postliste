@@ -70,32 +70,31 @@ jobs:
             "${YEAR}-01-01" \
             "${YEAR}-12-31"
 
-      - name: Commit og push manglende dokumenter
+      - name: Flytt missing-fil til archive
+        run: |
+          YEAR="${{ github.event.inputs.year }}"
+          mkdir -p data/archive
+
+          if [ -f missing_${YEAR}.json ]; then
+            mv missing_${YEAR}.json data/archive/missing_${YEAR}.json
+            echo "[INFO] missing_${YEAR}.json flyttet til data/archive/"
+          else
+            echo "[INFO] Ingen missing-fil funnet."
+          fi
+
+      - name: Commit og push missing-fil
         run: |
           YEAR="${{ github.event.inputs.year }}"
 
           git config --global user.name "${{ github.actor }}"
           git config --global user.email "${{ github.actor }}@users.noreply.github.com"
 
-          echo "=== Endringer i data/ ==="
-          git status data/
+          echo "=== Endringer i data/archive/ ==="
+          git status data/archive/
 
-          # Missing-fil
-          git add missing_${YEAR}.json || true
+          git add data/archive/missing_${YEAR}.json || true
 
-          # Shards som ble oppdatert av repair-modus
-          git add data/postliste_*.json || true
-          git add data/postliste_index.json || true
-          git add data/changes.json || true
+          git commit -m "Repair-scrape for år ${YEAR} – missing_${YEAR}.json lagret i archive" || echo "Ingen endringer å committe"
 
-          git commit -m "Repair-scrape for år ${YEAR} – la til manglende dokumenter" || echo "Ingen endringer å committe"
-
-          git stash --include-untracked || true
-          git pull --rebase --autostash origin main || true
-          git stash pop || true
-
-          for i in {1..5}; do
-            git push origin main && break
-            echo "Push feilet, prøver igjen ($i/5)..."
-            git pull --rebase --autostash origin main || true
-          done
+          git pull --rebase origin main || true
+          git push origin main || true
