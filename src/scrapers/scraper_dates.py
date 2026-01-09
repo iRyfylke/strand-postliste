@@ -1,5 +1,6 @@
-from playwright.sync_api import sync_playwright
 import argparse
+import asyncio
+from playwright.async_api import async_playwright
 from utils_dates import parse_date_from_page, within_range, parse_cli_date
 from utils_files import (
     ensure_directories,
@@ -8,14 +9,14 @@ from utils_files import (
     merge_and_save_sharded,
     atomic_write,
 )
-from scraper_core import hent_side
+from scraper_core_async import hent_side_async  # <-- ny async-versjon
 
 DEFAULT_CONFIG_FILE = "../config/config.json"
 FILTERED_FILE = "../../data/postliste_filtered.json"
 
 
-def run_scrape(start_date=None, end_date=None, config_path=DEFAULT_CONFIG_FILE, mode="publish"):
-    print(f"[INFO] Starter scraper_dates i modus='{mode}'…")
+async def run_scrape_async(start_date=None, end_date=None, config_path=DEFAULT_CONFIG_FILE, mode="publish"):
+    print(f"[INFO] Starter ASYNC scraper_dates i modus='{mode}'…")
 
     ensure_directories()
     cfg = load_config(config_path)
@@ -36,8 +37,8 @@ def run_scrape(start_date=None, end_date=None, config_path=DEFAULT_CONFIG_FILE, 
 
     all_docs = []
 
-    with sync_playwright() as p:
-        browser = p.chromium.launch(
+    async with async_playwright() as p:
+        browser = await p.chromium.launch(
             headless=True,
             args=[
                 "--no-sandbox",
@@ -49,19 +50,28 @@ def run_scrape(start_date=None, end_date=None, config_path=DEFAULT_CONFIG_FILE, 
             ],
         )
 
-        context = browser.new_context()
+        context = await browser.new_context()
 
         # Blokker unødvendige ressurser
-        context.route("**/*", lambda route: (
-            route.abort()
-            if route.request.resource_type in ["image", "font", "stylesheet", "media"]
-            else route.continue_()
-        ))
+        await context.route(
+            "**/*",
+            lambda route: (
+                asyncio.create_task(route.abort())
+                if route.request.resource_type in ["image", "font", "stylesheet", "media"]
+                else asyncio.create_task(route.continue_())
+            ),
+        )
 
-        page = context.new_page()
+        page = await context.new_page()
 
         for page_num in range(start_page, max_pages + step, step):
-            docs = hent_side(page_num, browser, per_page, page=page, timeout=10_000)
+            docs = await hent_side_async(
+                page_num=page_num,
+                page=page,
+                per_page=per_page,
+                timeout=10_000,
+                retries=5,
+            )
 
             if docs is None:
                 print(f"[WARN] Hopper over side {page_num} pga. feil.")
@@ -89,7 +99,7 @@ def run_scrape(start_date=None, end_date=None, config_path=DEFAULT_CONFIG_FILE, 
                 print("[INFO] Tidlig stopp: alle dokumenter på siden er eldre enn start_date")
                 break
 
-        browser.close()
+        await browser.close()
 
     print(f"[INFO] Totalt hentet {len(all_docs)} dokumenter innenfor dato-range.")
     atomic_write(FILTERED_FILE, all_docs)
@@ -114,11 +124,13 @@ def main():
     start_date = parse_cli_date(args.start_date) if args.start_date else None
     end_date = parse_cli_date(args.end_date) if args.end_date else start_date
 
-    run_scrape(
-        start_date=start_date,
-        end_date=end_date,
-        config_path=args.config,
-        mode=args.mode,
+    asyncio.run(
+        run_scrape_async(
+            start_date=start_date,
+            end_date=end_date,
+            config_path=args.config,
+            mode=args.mode,
+        )
     )
 
 
