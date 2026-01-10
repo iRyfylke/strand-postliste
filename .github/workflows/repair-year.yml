@@ -8,6 +8,16 @@ on:
         required: true
         type: string
 
+      start_page:
+        description: "Start page (f.eks. 3450)"
+        required: true
+        type: string
+
+      max_pages:
+        description: "Max page (f.eks. 3600)"
+        required: true
+        type: string
+
 permissions:
   contents: write
 
@@ -44,13 +54,13 @@ jobs:
           pip install playwright beautifulsoup4
           playwright install chromium
 
-      - name: Skriv config_repair.json
+      - name: Skriv config_repair.json basert på input
         run: |
           mkdir -p src/config
           cat <<EOF > src/config/config_repair.json
           {
-            "start_page": 1,
-            "max_pages": 9999,
+            "start_page": ${{ github.event.inputs.start_page }},
+            "max_pages": ${{ github.event.inputs.max_pages }},
             "per_page": 100
           }
           EOF
@@ -63,6 +73,7 @@ jobs:
         run: |
           YEAR="${{ github.event.inputs.year }}"
           echo "=== STARTER REPAIR FOR ÅR $YEAR ==="
+          echo "=== BRUKER SIDESPENN: ${{ github.event.inputs.start_page }} → ${{ github.event.inputs.max_pages }} ==="
 
           python scraper_dates.py \
             --mode repair \
