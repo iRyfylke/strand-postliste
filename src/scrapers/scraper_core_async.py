@@ -1,6 +1,6 @@
-import asyncio
+from utils_dates import parse_date_from_page, within_range
 from utils_playwright_async import safe_text, safe_goto
-from utils_dates import parse_date_from_page, format_date
+from utils_dates import format_date
 
 BASE_URL = (
     "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/"
@@ -11,46 +11,33 @@ BASE_URL = (
 
 async def hent_side_async(page_num, page, per_page, retries=5, timeout=10_000):
     """
-    Optimalisert async-versjon av hent_side():
-      - Gjenbruker page-instans
-      - Navigerer async
-      - Raskere detaljvisning
-      - Mindre memory leaks
-      - Bedre retry-logikk
-      - Mer robust retur til hovedsiden
+    Henter en side med dokumenter (async).
+    Returnerer liste med dokumenter eller None ved feil.
     """
-
     url = BASE_URL.format(page=page_num, page_size=per_page)
 
     for attempt in range(1, retries + 1):
         try:
             print(f"[INFO] (async) Åpner side {page_num} (forsøk {attempt}/{retries}): {url}")
 
-            # Naviger til siden
             ok = await safe_goto(page, url, retries=1, timeout=timeout)
             if not ok:
                 raise RuntimeError("safe_goto feilet")
 
-            # Kort pause for rendering
             await page.wait_for_timeout(150)
 
-            # Vent på artikler
-            try:
-                await page.wait_for_selector("article.bc-content-teaser--item", timeout=timeout, state="attached")
-            except Exception as e:
-                print(f"[WARN] Ingen artikler funnet på side {page_num}: {e}")
-                raise
+            await page.wait_for_selector(
+                "article.bc-content-teaser--item",
+                timeout=timeout,
+                state="attached",
+            )
 
             artikler = await page.query_selector_all("article.bc-content-teaser--item")
-            antall = len(artikler)
-            print(f"[INFO] (async) Fant {antall} dokumenter på side {page_num}")
-
-            if antall == 0:
+            if not artikler:
                 raise RuntimeError("0 artikler funnet")
 
             docs = []
 
-            # Hent dokumenter
             for art in artikler:
                 dokid = await safe_text(art, ".bc-content-teaser-meta-property--dokumentID dd")
                 if not dokid:
@@ -70,7 +57,6 @@ async def hent_side_async(page_num, page, per_page, retries=5, timeout=10_000):
                     else (f"Mottaker: {mottaker}" if mottaker else "")
                 )
 
-                # Hent detalj-link
                 detalj_link = ""
                 try:
                     link_elem = await art.evaluate_handle("node => node.closest('a')")
@@ -82,7 +68,6 @@ async def hent_side_async(page_num, page, per_page, retries=5, timeout=10_000):
                 if detalj_link and not detalj_link.startswith("http"):
                     detalj_link = "https://www.strand.kommune.no" + detalj_link
 
-                # Hent filer (async, raskere)
                 filer = []
                 if detalj_link:
                     try:
@@ -106,7 +91,6 @@ async def hent_side_async(page_num, page, per_page, retries=5, timeout=10_000):
                         print(f"[WARN] (async) Klarte ikke hente filer for {dokid}: {e}")
 
                     finally:
-                        # Gå tilbake til hovedsiden
                         await safe_goto(page, url, retries=1, timeout=timeout)
                         await page.wait_for_timeout(80)
 
@@ -127,13 +111,12 @@ async def hent_side_async(page_num, page, per_page, retries=5, timeout=10_000):
             return docs
 
         except Exception as e:
-            print(f"[WARN] (async) Feil ved lasting/parsing av side {page_num} (forsøk {attempt}/{retries}): {e}")
+            print(f"[WARN] (async) Feil ved lasting/parsing av side {page_num}: {e}")
             await asyncio.sleep(1)
 
     print(f"[ERROR] (async) Side {page_num} feilet etter {retries} forsøk.")
     return None
 
-from utils_dates import parse_date_from_page, within_range
 
 async def scrape_page_with_filter(
     page,
@@ -156,20 +139,15 @@ async def scrape_page_with_filter(
     print(f"[INFO] Scraper side {index} av {total_pages} (page_num={page_num})")
 
     async with semaphore:
-        try:
-            docs = await hent_side_async(
-                page_num=page_num,
-                page=page,
-                per_page=per_page,
-                timeout=timeout,
-                retries=5,
-            )
-        except Exception as e:
-            print(f"[WARN] Unntak ved henting av side {page_num}: {e}")
-            return {"failed": page_num}
+        docs = await hent_side_async(
+            page_num=page_num,
+            page=page,
+            per_page=per_page,
+            timeout=timeout,
+            retries=5,
+        )
 
         if not docs:
-            print(f"[WARN] Side {page_num} feilet eller returnerte ingen dokumenter")
             return {"failed": page_num}
 
         filtered = []
@@ -178,5 +156,4 @@ async def scrape_page_with_filter(
             if within_range(parsed_date, start_date, end_date):
                 filtered.append(d)
 
-        print(f"[INFO] Side {page_num}: {len(filtered)} dokumenter innenfor dato-range")
         return filtered
