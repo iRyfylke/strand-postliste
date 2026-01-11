@@ -9,14 +9,20 @@ on:
         type: string
 
       start_page:
-        description: "Start page (f.eks. 3450)"
-        required: true
+        description: "Start page (eldste side). Ignoreres hvis retry_failed=true"
+        required: false
         type: string
 
       max_pages:
-        description: "Max page (f.eks. 3600)"
-        required: true
+        description: "Max page (nyeste side). Ignoreres hvis retry_failed=true"
+        required: false
         type: string
+
+      retry_failed:
+        description: "Skrap kun feilede sider fra failed_pages_<år>.json"
+        required: false
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -54,26 +60,70 @@ jobs:
           pip install playwright beautifulsoup4
           playwright install chromium
 
-      - name: Skriv config_repair.json basert på input
+      # -------------------------------------------------------
+      # GENERER CONFIG BASERT PÅ RETRY-MODUS
+      # -------------------------------------------------------
+      - name: Generer config_repair.json
         run: |
+          YEAR="${{ github.event.inputs.year }}"
+          RETRY="${{ github.event.inputs.retry_failed }}"
+
           mkdir -p src/config
-          cat <<EOF > src/config/config_repair.json
-          {
-            "start_page": ${{ github.event.inputs.start_page }},
-            "max_pages": ${{ github.event.inputs.max_pages }},
-            "per_page": 100
-          }
-          EOF
+
+          if [ "$RETRY" = "true" ]; then
+            echo "=== RETRY-MODUS AKTIVERT ==="
+            FAILED_FILE="data/archive/failed_pages_${YEAR}.json"
+
+            if [ ! -f "$FAILED_FILE" ]; then
+              echo "[ERROR] Ingen failed_pages_${YEAR}.json funnet. Kan ikke kjøre retry."
+              exit 1
+            fi
+
+            echo "[INFO] Leser feilede sider fra $FAILED_FILE"
+
+            START=$(jq 'min' "$FAILED_FILE")
+            END=$(jq 'max' "$FAILED_FILE")
+
+            echo "[INFO] Retry-scrape vil kjøre fra side $START til $END"
+
+            cat <<EOF > src/config/config_repair.json
+            {
+              "start_page": $START,
+              "max_pages": $END,
+              "per_page": 100
+            }
+            EOF
+
+          else
+            echo "=== MANUELL MODUS ==="
+            START="${{ github.event.inputs.start_page }}"
+            END="${{ github.event.inputs.max_pages }}"
+
+            if [ -z "$START" ] || [ -z "$END" ]; then
+              echo "[ERROR] start_page og max_pages må settes når retry_failed=false"
+              exit 1
+            fi
+
+            cat <<EOF > src/config/config_repair.json
+            {
+              "start_page": $START,
+              "max_pages": $END,
+              "per_page": 100
+            }
+            EOF
+          fi
 
           echo "=== INNHOLD I config_repair.json ==="
           cat src/config/config_repair.json
 
+      # -------------------------------------------------------
+      # KJØR SCRAPER
+      # -------------------------------------------------------
       - name: Kjør repair-scraper
         working-directory: src/scrapers
         run: |
           YEAR="${{ github.event.inputs.year }}"
           echo "=== STARTER REPAIR FOR ÅR $YEAR ==="
-          echo "=== BRUKER SIDESPENN: ${{ github.event.inputs.start_page }} → ${{ github.event.inputs.max_pages }} ==="
 
           python scraper_dates.py \
             --mode repair \
@@ -81,6 +131,9 @@ jobs:
             "01.01.${YEAR}" \
             "31.12.${YEAR}"
 
+      # -------------------------------------------------------
+      # COMMIT MISSING + FAILED FILES
+      # -------------------------------------------------------
       - name: Commit og push missing- og failed-pages-filer
         run: |
           YEAR="${{ github.event.inputs.year }}"
@@ -91,24 +144,24 @@ jobs:
 
           echo "=== Sjekker etter nye filer i archive/ ==="
 
-          # Missing-fil
+          CHANGES=0
+
           if [ -f data/archive/missing_${YEAR}.json ]; then
             echo "[INFO] Fant missing_${YEAR}.json"
             git add data/archive/missing_${YEAR}.json
-          else
-            echo "[INFO] Ingen missing-fil funnet."
+            CHANGES=1
           fi
 
-          # Failed pages-fil
           if [ -f data/archive/failed_pages_${YEAR}.json ]; then
             echo "[INFO] Fant failed_pages_${YEAR}.json"
             git add data/archive/failed_pages_${YEAR}.json
-          else
-            echo "[INFO] Ingen failed_pages-fil funnet."
+            CHANGES=1
           fi
 
-          echo "=== Committer endringer (hvis noen) ==="
-          git commit -m "Repair-scrape for år ${YEAR} – oppdaterte missing/failed_pages" || echo "Ingen endringer å committe"
-
-          git pull --rebase origin main || true
-          git push origin main || true
+          if [ "$CHANGES" = "1" ]; then
+            git commit -m "Repair-scrape for år ${YEAR} – oppdaterte missing/failed_pages"
+            git pull --rebase origin main || true
+            git push origin main || true
+          else
+            echo "[INFO] Ingen endringer å committe."
+          fi
