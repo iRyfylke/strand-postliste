@@ -1,10 +1,8 @@
 import argparse
 import asyncio
 import os
-import glob
-import json
 from playwright.async_api import async_playwright
-from utils_dates import parse_date_from_page, within_range, parse_cli_date
+from utils_dates import parse_cli_date
 from utils_files import (
     ensure_directories,
     load_config,
@@ -13,63 +11,20 @@ from utils_files import (
     load_archive_year,
     append_missing,
     save_failed_pages,
+    find_missing_docs,
 )
-from scraper_core_async import hent_side_async
 from scraper_core_async import scrape_page_with_filter
 
 DEFAULT_CONFIG_FILE = "../config/config.json"
 FILTERED_FILE = "../../data/postliste_filtered.json"
 
 
-# ---------------------------------------------------------
-# SCRAPE SINGLE PAGE (with explicit failure return)
-# ---------------------------------------------------------
-async def scrape_page_with_filter(
-    page=context.new_page(),
-    page_num=page_num,
-    per_page=per_page,
-    start_date=start_date,
-    end_date=end_date,
-    semaphore=semaphore,
-    index=idx,
-    total_pages=total_pages,
+async def run_scrape_async(
+    start_date=None,
+    end_date=None,
+    config_path=DEFAULT_CONFIG_FILE,
+    mode="publish",
 ):
-    print(f"[INFO] Scraper side {index} av {total_pages} (page_num={page_num})")
-
-    async with semaphore:
-        page = await context.new_page()
-        try:
-            docs = await hent_side_async(
-                page_num=page_num,
-                page=page,
-                per_page=per_page,
-                timeout=20_000,
-                retries=5,
-            )
-        except Exception as e:
-            print(f"[WARN] Unntak ved henting av side {page_num}: {e}")
-            return {"failed": page_num}
-        finally:
-            await page.close()
-
-        if not docs:
-            print(f"[WARN] Side {page_num} feilet eller returnerte ingen dokumenter")
-            return {"failed": page_num}
-
-        filtered = []
-        for d in docs:
-            parsed_date = parse_date_from_page(d.get("dato"))
-            if within_range(parsed_date, start_date, end_date):
-                filtered.append(d)
-
-        print(f"[INFO] Side {page_num}: {len(filtered)} dokumenter innenfor dato-range")
-        return filtered
-
-
-# ---------------------------------------------------------
-# MAIN SCRAPER
-# ---------------------------------------------------------
-async def run_scrape_async(start_date=None, end_date=None, config_path=DEFAULT_CONFIG_FILE, mode="publish"):
     print(f"[INFO] Starter ASYNC PARALLELL scraper_dates i modus='{mode}'…")
 
     ensure_directories()
@@ -124,11 +79,11 @@ async def run_scrape_async(start_date=None, end_date=None, config_path=DEFAULT_C
 
         semaphore = asyncio.Semaphore(CONCURRENCY)
 
-        tasks = []
-        for idx, page_num in enumerate(range(start_page, max_pages + step, step), start=1):
-            tasks.append(
-                scrape_single_page(
-                    context=context,
+        async def task_for_page(page_num, idx):
+            page = await context.new_page()
+            try:
+                result = await scrape_page_with_filter(
+                    page=page,
                     page_num=page_num,
                     per_page=per_page,
                     start_date=start_date,
@@ -137,14 +92,23 @@ async def run_scrape_async(start_date=None, end_date=None, config_path=DEFAULT_C
                     index=idx,
                     total_pages=total_pages,
                 )
-            )
+            finally:
+                await page.close()
+            return result
+
+        tasks = []
+        for idx, page_num in enumerate(
+            range(start_page, max_pages + step, step),
+            start=1,
+        ):
+            tasks.append(task_for_page(page_num, idx))
 
         results = await asyncio.gather(*tasks)
 
         for batch in results:
             if isinstance(batch, dict) and "failed" in batch:
                 failed_pages.append(batch["failed"])
-            else:
+            elif isinstance(batch, list):
                 all_docs.extend(batch)
 
         await context.close()
@@ -158,24 +122,23 @@ async def run_scrape_async(start_date=None, end_date=None, config_path=DEFAULT_C
     # ---------------------------------------------------------
     if mode == "repair":
         print("[INFO] Repair-modus aktivert. Leser archive…")
-    
+
         year = start_date.year if start_date else "unknown"
-    
+
         # 1. Last archive
         archive_dict = load_archive_year(year)
-    
+
         # 2. Finn missing
-        from utils_files import find_missing_docs
         missing_docs = find_missing_docs(all_docs, archive_dict)
-    
+
         print(f"[INFO] Fant {len(missing_docs)} nye manglende dokumenter.")
-    
+
         # 3. Append + dedupe missing_<year>.json
         append_missing(year, missing_docs)
-    
-        # 4. Overskriv failed_pages_<year>.json
+
+        # 4. Overskriv failed_pages_<year>.json (kan være tom liste)
         save_failed_pages(year, failed_pages)
-    
+
         print("[INFO] Repair fullført.")
         return
 
@@ -196,7 +159,11 @@ async def run_scrape_async(start_date=None, end_date=None, config_path=DEFAULT_C
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--config", default=DEFAULT_CONFIG_FILE)
-    parser.add_argument("--mode", default="publish", choices=["full", "publish", "repair"])
+    parser.add_argument(
+        "--mode",
+        default="publish",
+        choices=["full", "publish", "repair"],
+    )
     parser.add_argument("start_date", nargs="?")
     parser.add_argument("end_date", nargs="?")
 
