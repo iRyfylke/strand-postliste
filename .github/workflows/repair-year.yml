@@ -57,7 +57,7 @@ jobs:
       - name: Installer Playwright + dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install playwright beautifulsoup4
+          pip install playwright beautifulsoup4 jq
           playwright install chromium
 
       # -------------------------------------------------------
@@ -85,7 +85,6 @@ jobs:
             END=$(jq 'max' "$FAILED_FILE")
 
             echo "[INFO] Retry-scrape vil kjøre fra side $START til $END"
-
           else
             echo "=== MANUELL MODUS ==="
             START="${{ github.event.inputs.start_page }}"
@@ -97,14 +96,8 @@ jobs:
             fi
           fi
 
-          # Skriv config-fil (heredoc må stå helt til venstre)
-cat <<EOF > src/config/config_repair.json
-{
-  "start_page": $START,
-  "max_pages": $END,
-  "per_page": 100
-}
-EOF
+          # Skriv config-fil uten heredoc
+          printf '{\n  "start_page": %s,\n  "max_pages": %s,\n  "per_page": 100\n}\n' "$START" "$END" > src/config/config_repair.json
 
           echo "=== INNHOLD I config_repair.json ==="
           cat src/config/config_repair.json
