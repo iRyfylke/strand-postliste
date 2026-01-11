@@ -15,6 +15,7 @@ from utils_files import (
     save_failed_pages,
 )
 from scraper_core_async import hent_side_async
+from scraper_core_async import scrape_page_with_filter
 
 DEFAULT_CONFIG_FILE = "../config/config.json"
 FILTERED_FILE = "../../data/postliste_filtered.json"
@@ -23,7 +24,16 @@ FILTERED_FILE = "../../data/postliste_filtered.json"
 # ---------------------------------------------------------
 # SCRAPE SINGLE PAGE (with explicit failure return)
 # ---------------------------------------------------------
-async def scrape_single_page(context, page_num, per_page, start_date, end_date, semaphore, index, total_pages):
+async def scrape_page_with_filter(
+    page=context.new_page(),
+    page_num=page_num,
+    per_page=per_page,
+    start_date=start_date,
+    end_date=end_date,
+    semaphore=semaphore,
+    index=idx,
+    total_pages=total_pages,
+):
     print(f"[INFO] Scraper side {index} av {total_pages} (page_num={page_num})")
 
     async with semaphore:
