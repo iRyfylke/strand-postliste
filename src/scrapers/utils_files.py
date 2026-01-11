@@ -81,6 +81,17 @@ def load_archive_year(year):
     print(f"[INFO] Totalt {len(existing)} dokumenter funnet i archive for {year}")
     return existing
 
+def find_missing_docs(scraped_docs, archive_dict):
+    """
+    Returnerer liste over dokumenter som finnes i scraped_docs,
+    men ikke i archive_dict.
+    """
+    missing = []
+    for d in scraped_docs:
+        did = d.get("dokumentID")
+        if did and did not in archive_dict:
+            missing.append(d)
+    return missing
 
 def append_missing(year, new_docs):
     """
