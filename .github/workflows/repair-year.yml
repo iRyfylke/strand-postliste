@@ -86,13 +86,17 @@ jobs:
 
             echo "[INFO] Retry-scrape vil kjøre fra side $START til $END"
 
-cat <<EOF > src/config/config_repair.json
+cat <<'EOF' > src/config/config_repair.json
 {
-  "start_page": $START,
-  "max_pages": $END,
+  "start_page": START_VALUE,
+  "max_pages": END_VALUE,
   "per_page": 100
 }
 EOF
+
+            # Erstatt placeholder-verdier
+            sed -i "s/START_VALUE/$START/" src/config/config_repair.json
+            sed -i "s/END_VALUE/$END/" src/config/config_repair.json
 
           else
             echo "=== MANUELL MODUS ==="
@@ -104,13 +108,16 @@ EOF
               exit 1
             fi
 
-cat <<EOF > src/config/config_repair.json
+cat <<'EOF' > src/config/config_repair.json
 {
-  "start_page": $START,
-  "max_pages": $END,
+  "start_page": START_VALUE,
+  "max_pages": END_VALUE,
   "per_page": 100
 }
 EOF
+
+            sed -i "s/START_VALUE/$START/" src/config/config_repair.json
+            sed -i "s/END_VALUE/$END/" src/config/config_repair.json
 
           fi
 
