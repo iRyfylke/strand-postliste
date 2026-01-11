@@ -132,3 +132,51 @@ async def hent_side_async(page_num, page, per_page, retries=5, timeout=10_000):
 
     print(f"[ERROR] (async) Side {page_num} feilet etter {retries} forsøk.")
     return None
+
+from utils_dates import parse_date_from_page, within_range
+
+async def scrape_page_with_filter(
+    page,
+    page_num,
+    per_page,
+    start_date,
+    end_date,
+    semaphore,
+    index,
+    total_pages,
+    timeout=20000,
+):
+    """
+    Wrapper rundt hent_side_async() som:
+      - henter en side
+      - filtrerer dokumenter på dato
+      - returnerer enten liste eller {"failed": page_num}
+    """
+
+    print(f"[INFO] Scraper side {index} av {total_pages} (page_num={page_num})")
+
+    async with semaphore:
+        try:
+            docs = await hent_side_async(
+                page_num=page_num,
+                page=page,
+                per_page=per_page,
+                timeout=timeout,
+                retries=5,
+            )
+        except Exception as e:
+            print(f"[WARN] Unntak ved henting av side {page_num}: {e}")
+            return {"failed": page_num}
+
+        if not docs:
+            print(f"[WARN] Side {page_num} feilet eller returnerte ingen dokumenter")
+            return {"failed": page_num}
+
+        filtered = []
+        for d in docs:
+            parsed_date = parse_date_from_page(d.get("dato"))
+            if within_range(parsed_date, start_date, end_date):
+                filtered.append(d)
+
+        print(f"[INFO] Side {page_num}: {len(filtered)} dokumenter innenfor dato-range")
+        return filtered
