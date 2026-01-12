@@ -15,7 +15,7 @@ BASE_URL = (
 # ---------------------------------------------------------
 # HENT SIDE (MED HARD TIMEOUT)
 # ---------------------------------------------------------
-async def hent_side_async(page_num, page, per_page, retries=5, timeout=10_000):
+async def hent_side_async(page_num, page, per_page, retries=5, timeout=20000):
     """
     Henter en side med dokumenter (async).
     Returnerer liste med dokumenter eller None ved feil.
@@ -35,7 +35,7 @@ async def hent_side_async(page_num, page, per_page, retries=5, timeout=10_000):
 
                 # Liten pause for rendering
                 try:
-                    await asyncio.wait_for(page.wait_for_timeout(0.15), timeout=1)
+                    await asyncio.wait_for(page.wait_for_timeout(150), timeout=2)
                 except Exception:
                     pass
 
@@ -47,7 +47,7 @@ async def hent_side_async(page_num, page, per_page, retries=5, timeout=10_000):
                             timeout=timeout,
                             state="attached",
                         ),
-                        timeout=timeout / 1000 + 2,
+                        timeout=(timeout / 1000) + 5,
                     )
                 except Exception:
                     print(f"[WARN] Ingen artikler funnet på side {page_num}")
@@ -105,7 +105,7 @@ async def hent_side_async(page_num, page, per_page, retries=5, timeout=10_000):
                             ok = await safe_goto(page, detalj_link, retries=1, timeout=timeout)
                             if ok:
                                 try:
-                                    await asyncio.wait_for(page.wait_for_timeout(0.12), timeout=1)
+                                    await asyncio.wait_for(page.wait_for_timeout(120), timeout=2)
                                 except Exception:
                                     pass
 
@@ -131,7 +131,7 @@ async def hent_side_async(page_num, page, per_page, retries=5, timeout=10_000):
                         finally:
                             await safe_goto(page, url, retries=1, timeout=timeout)
                             try:
-                                await asyncio.wait_for(page.wait_for_timeout(0.08), timeout=1)
+                                await asyncio.wait_for(page.wait_for_timeout(80), timeout=2)
                             except Exception:
                                 pass
 
@@ -162,7 +162,7 @@ async def hent_side_async(page_num, page, per_page, retries=5, timeout=10_000):
     # HARD TIMEOUT RUNDT HELE SIDEHENTINGEN
     # ---------------------------------------------------------
     try:
-        return await asyncio.wait_for(_inner(), timeout=90)
+        return await asyncio.wait_for(_inner(), timeout=120)
     except asyncio.TimeoutError:
         print(f"[ERROR] HARD TIMEOUT: hent_side_async hang på side {page_num}")
         return None
@@ -194,10 +194,16 @@ async def scrape_page_with_filter(
     async with semaphore:
         try:
             docs = await asyncio.wait_for(
-                hent_side_async(...),
-                timeout=120,   # 2 minutter per side
+                hent_side_async(
+                    page_num=page_num,
+                    page=page,
+                    per_page=per_page,
+                    retries=5,
+                    timeout=timeout,
+                ),
+                timeout=150,   # 2.5 minutter per side
             )
-            
+
         except asyncio.TimeoutError:
             print(f"[ERROR] HARD TIMEOUT: scrape_page_with_filter hang på side {page_num}")
             return {"failed": page_num}
