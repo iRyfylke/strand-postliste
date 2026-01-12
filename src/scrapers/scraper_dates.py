@@ -42,6 +42,25 @@ def load_archive_year(year):
 
 
 # ---------------------------------------------------------
+# FAILED PAGES – LOAD & SAVE
+# ---------------------------------------------------------
+def load_failed_pages(year):
+    path = f"../../data/archive/failed_pages_{year}.json"
+    if not os.path.exists(path):
+        return []
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return []
+
+
+def save_failed_pages(year, pages):
+    path = f"../../data/archive/failed_pages_{year}.json"
+    atomic_write(path, sorted(list(set(pages))))
+
+
+# ---------------------------------------------------------
 # SCRAPE SINGLE PAGE
 # ---------------------------------------------------------
 async def scrape_single_page(context, page_num, per_page, start_date, end_date, semaphore, index, total_pages):
@@ -62,7 +81,7 @@ async def scrape_single_page(context, page_num, per_page, start_date, end_date, 
 
         if not docs:
             print(f"[INFO] Ingen dokumenter (eller feil) på side {page_num}")
-            return []
+            return None  # <-- Viktig: None betyr FEIL
 
         filtered = []
         for d in docs:
@@ -101,6 +120,16 @@ async def run_scrape_async(start_date=None, end_date=None, config_path=DEFAULT_C
 
     all_docs = []
 
+    # ---------------------------------------------------------
+    # FAILED PAGES INIT
+    # ---------------------------------------------------------
+    year = start_date.year if start_date else None
+    failed_pages = []
+
+    if mode == "repair":
+        failed_pages = load_failed_pages(year)
+        print(f"[INFO] Repair-modus: Leser failed_pages_{year}.json → {failed_pages}")
+
     cpu_count = os.cpu_count() or 2
     CONCURRENCY = min(6, max(2, cpu_count - 1))
 
@@ -131,8 +160,16 @@ async def run_scrape_async(start_date=None, end_date=None, config_path=DEFAULT_C
 
         semaphore = asyncio.Semaphore(CONCURRENCY)
 
+        # ---------------------------------------------------------
+        # PAGE LIST (fullscrape vs repair)
+        # ---------------------------------------------------------
+        if mode == "repair":
+            page_list = failed_pages
+        else:
+            page_list = list(range(start_page, max_pages + step, step))
+
         tasks = []
-        for idx, page_num in enumerate(range(start_page, max_pages + step, step), start=1):
+        for idx, page_num in enumerate(page_list, start=1):
             tasks.append(
                 scrape_single_page(
                     context=context,
@@ -142,14 +179,15 @@ async def run_scrape_async(start_date=None, end_date=None, config_path=DEFAULT_C
                     end_date=end_date,
                     semaphore=semaphore,
                     index=idx,
-                    total_pages=total_pages,
+                    total_pages=len(page_list),
                 )
             )
 
         results = await asyncio.gather(*tasks)
 
         for batch in results:
-            all_docs.extend(batch)
+            if batch:
+                all_docs.extend(batch)
 
         await context.close()
         await browser.close()
@@ -157,12 +195,32 @@ async def run_scrape_async(start_date=None, end_date=None, config_path=DEFAULT_C
     print(f"[INFO] Totalt hentet {len(all_docs)} dokumenter innenfor dato-range.")
 
     # ---------------------------------------------------------
+    # FAILED PAGES UPDATE
+    # ---------------------------------------------------------
+    new_failed = []
+
+    for idx, page_num in enumerate(page_list):
+        batch = results[idx]
+
+        if batch is None:
+            # Side feilet
+            if mode == "repair":
+                # Behold kun sider som feilet igjen
+                if page_num in failed_pages:
+                    new_failed.append(page_num)
+            else:
+                # Fullscrape: registrer nye feilede sider
+                new_failed.append(page_num)
+
+    save_failed_pages(year, new_failed)
+    print(f"[INFO] Oppdatert failed_pages_{year}.json → {new_failed}")
+
+    # ---------------------------------------------------------
     # REPAIR MODE
     # ---------------------------------------------------------
     if mode == "repair":
         print("[INFO] Repair-modus aktivert. Leser archive…")
 
-        year = start_date.year if start_date else "unknown"
         existing_dict = load_archive_year(year)
 
         missing_docs = []
