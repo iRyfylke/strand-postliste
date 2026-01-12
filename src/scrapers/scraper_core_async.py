@@ -32,6 +32,8 @@ async def hent_side_async(page_num, page, per_page, retries=5, timeout=20000):
                 ok = await safe_goto(page, url, retries=1, timeout=timeout)
                 html = await page.content()
                 print(f"[DEBUG] HTML-lengde for side {page_num}: {len(html)}")
+                print(f"[DEBUG] HTML-start for side {page_num}: {html[:500]!r}")
+
 
                 if not ok:
                     raise RuntimeError("safe_goto feilet")
