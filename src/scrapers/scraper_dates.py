@@ -55,23 +55,35 @@ async def run_scrape_async(
     semaphore = asyncio.Semaphore(CONCURRENCY)
 
     # ---------------------------------------------------------
-    # SCRAPE ALL PAGES
+    # SCRAPE ALL PAGES (MED HARD TIMEOUT)
     # ---------------------------------------------------------
     async def task_for_page(page_num, idx):
         page = await context.new_page()
         try:
-            return await scrape_page_with_filter(
-                page=page,
-                page_num=page_num,
-                per_page=per_page,
-                start_date=start_date,
-                end_date=end_date,
-                semaphore=semaphore,
-                index=idx,
-                total_pages=total_pages,
+            return await asyncio.wait_for(
+                scrape_page_with_filter(
+                    page=page,
+                    page_num=page_num,
+                    per_page=per_page,
+                    start_date=start_date,
+                    end_date=end_date,
+                    semaphore=semaphore,
+                    index=idx,
+                    total_pages=total_pages,
+                ),
+                timeout=60,  # HARD TIMEOUT PER SIDE
             )
+        except asyncio.TimeoutError:
+            print(f"[ERROR] HARD TIMEOUT: task_for_page hang på side {page_num}")
+            return {"failed": page_num}
+        except Exception as e:
+            print(f"[ERROR] task_for_page exception på side {page_num}: {e}")
+            return {"failed": page_num}
         finally:
-            await page.close()
+            try:
+                await page.close()
+            except Exception:
+                pass
 
     tasks = [
         task_for_page(page_num, idx)
@@ -83,9 +95,23 @@ async def run_scrape_async(
 
     results = await asyncio.gather(*tasks)
 
-    await context.close()
-    await browser.close()
-    await p.stop()
+    # ---------------------------------------------------------
+    # CLEANUP PLAYWRIGHT
+    # ---------------------------------------------------------
+    try:
+        await context.close()
+    except Exception:
+        pass
+
+    try:
+        await browser.close()
+    except Exception:
+        pass
+
+    try:
+        await p.stop()
+    except Exception:
+        pass
 
     # ---------------------------------------------------------
     # COLLECT RESULTS
