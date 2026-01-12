@@ -60,22 +60,16 @@ async def run_scrape_async(
     async def task_for_page(page_num, idx):
         page = await context.new_page()
         try:
-            return await asyncio.wait_for(
-                scrape_page_with_filter(
-                    page=page,
-                    page_num=page_num,
-                    per_page=per_page,
-                    start_date=start_date,
-                    end_date=end_date,
-                    semaphore=semaphore,
-                    index=idx,
-                    total_pages=total_pages,
-                ),
-                timeout=60,  # HARD TIMEOUT PER SIDE
+            return await scrape_page_with_filter(
+                page=page,
+                page_num=page_num,
+                per_page=per_page,
+                start_date=start_date,
+                end_date=end_date,
+                semaphore=semaphore,
+                index=idx,
+                total_pages=total_pages,
             )
-        except asyncio.TimeoutError:
-            print(f"[ERROR] HARD TIMEOUT: task_for_page hang på side {page_num}")
-            return {"failed": page_num}
         except Exception as e:
             print(f"[ERROR] task_for_page exception på side {page_num}: {e}")
             return {"failed": page_num}
