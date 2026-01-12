@@ -30,21 +30,53 @@ async def hent_side_async(page_num, page, per_page, retries=5, timeout=20000):
                 print(f"[INFO] (async) Åpner side {page_num} (forsøk {attempt}/{retries}): {url}")
 
                 ok = await safe_goto(page, url, retries=1, timeout=timeout)
+
+                # Debug HTML
                 html = await page.content()
                 print(f"[DEBUG] HTML-lengde for side {page_num}: {len(html)}")
                 print(f"[DEBUG] HTML-start for side {page_num}: {html[:500]!r}")
 
-
                 if not ok:
                     raise RuntimeError("safe_goto feilet")
 
-                # Liten pause for rendering
+                # ---------------------------------------------------------
+                # VENT PÅ AT SPA-ROUTEREN KJØRER
+                # ---------------------------------------------------------
                 try:
-                    await asyncio.wait_for(page.wait_for_timeout(150), timeout=2)
+                    await page.wait_for_load_state("networkidle", timeout=timeout)
                 except Exception:
                     pass
 
-                # HARD TIMEOUT PÅ SELECTOR
+                # Vent på at hoved-innholdet er ferdig rendret
+                try:
+                    await page.wait_for_selector("main", timeout=timeout)
+                except Exception:
+                    pass
+
+                # ---------------------------------------------------------
+                # VENT PÅ AT API-KALLET SOM HENTER ARTIKLER FULLFØRES
+                # ---------------------------------------------------------
+                try:
+                    await page.wait_for_response(
+                        lambda r: (
+                            "presentation" in r.url
+                            or "nye-innsyn" in r.url
+                            or "post" in r.url
+                        ),
+                        timeout=timeout
+                    )
+                except Exception:
+                    pass
+
+                # Liten ekstra pause for rendering
+                try:
+                    await asyncio.wait_for(page.wait_for_timeout(200), timeout=2)
+                except Exception:
+                    pass
+
+                # ---------------------------------------------------------
+                # HENT ARTIKLER
+                # ---------------------------------------------------------
                 try:
                     await asyncio.wait_for(
                         page.wait_for_selector(
@@ -167,7 +199,7 @@ async def hent_side_async(page_num, page, per_page, retries=5, timeout=20000):
     # HARD TIMEOUT RUNDT HELE SIDEHENTINGEN
     # ---------------------------------------------------------
     try:
-        return await asyncio.wait_for(_inner(), timeout=120)
+        return await asyncio.wait_for(_inner(), timeout=180)
     except asyncio.TimeoutError:
         print(f"[ERROR] HARD TIMEOUT: hent_side_async hang på side {page_num}")
         return None
