@@ -162,7 +162,7 @@ async def hent_side_async(page_num, page, per_page, retries=5, timeout=10_000):
     # HARD TIMEOUT RUNDT HELE SIDEHENTINGEN
     # ---------------------------------------------------------
     try:
-        return await asyncio.wait_for(_inner(), timeout=timeout / 1000 + 10)
+        return await asyncio.wait_for(_inner(), timeout=90)
     except asyncio.TimeoutError:
         print(f"[ERROR] HARD TIMEOUT: hent_side_async hang på side {page_num}")
         return None
@@ -194,15 +194,10 @@ async def scrape_page_with_filter(
     async with semaphore:
         try:
             docs = await asyncio.wait_for(
-                hent_side_async(
-                    page_num=page_num,
-                    page=page,
-                    per_page=per_page,
-                    timeout=timeout,
-                    retries=5,
-                ),
-                timeout=timeout / 1000 + 15,
+                hent_side_async(...),
+                timeout=120,   # 2 minutter per side
             )
+            
         except asyncio.TimeoutError:
             print(f"[ERROR] HARD TIMEOUT: scrape_page_with_filter hang på side {page_num}")
             return {"failed": page_num}
