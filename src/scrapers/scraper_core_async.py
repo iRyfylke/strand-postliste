@@ -1,6 +1,9 @@
-from utils_dates import parse_date_from_page, within_range
+import asyncio
+from playwright.async_api import TimeoutError as PlaywrightTimeout
+
+from utils_dates import parse_date_from_page, within_range, format_date
 from utils_playwright_async import safe_text, safe_goto
-from utils_dates import format_date
+
 
 BASE_URL = (
     "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/"
@@ -9,115 +12,165 @@ BASE_URL = (
 )
 
 
+# ---------------------------------------------------------
+# HENT SIDE (MED HARD TIMEOUT)
+# ---------------------------------------------------------
 async def hent_side_async(page_num, page, per_page, retries=5, timeout=10_000):
     """
     Henter en side med dokumenter (async).
     Returnerer liste med dokumenter eller None ved feil.
+    Deadlock-sikker: ingen await kan henge uendelig.
     """
+
     url = BASE_URL.format(page=page_num, page_size=per_page)
 
-    for attempt in range(1, retries + 1):
-        try:
-            print(f"[INFO] (async) Åpner side {page_num} (forsøk {attempt}/{retries}): {url}")
+    async def _inner():
+        for attempt in range(1, retries + 1):
+            try:
+                print(f"[INFO] (async) Åpner side {page_num} (forsøk {attempt}/{retries}): {url}")
 
-            ok = await safe_goto(page, url, retries=1, timeout=timeout)
-            if not ok:
-                raise RuntimeError("safe_goto feilet")
+                ok = await safe_goto(page, url, retries=1, timeout=timeout)
+                if not ok:
+                    raise RuntimeError("safe_goto feilet")
 
-            await page.wait_for_timeout(150)
-
-            await page.wait_for_selector(
-                "article.bc-content-teaser--item",
-                timeout=timeout,
-                state="attached",
-            )
-
-            artikler = await page.query_selector_all("article.bc-content-teaser--item")
-            if not artikler:
-                raise RuntimeError("0 artikler funnet")
-
-            docs = []
-
-            for art in artikler:
-                dokid = await safe_text(art, ".bc-content-teaser-meta-property--dokumentID dd")
-                if not dokid:
-                    continue
-
-                tittel = await safe_text(art, ".bc-content-teaser-title-text")
-                dato_raw = await safe_text(art, ".bc-content-teaser-meta-property--dato dd")
-                parsed = parse_date_from_page(dato_raw)
-
-                doktype = await safe_text(art, ".SakListItem_sakListItemTypeText__16759c")
-                avsender = await safe_text(art, ".bc-content-teaser-meta-property--avsender dd")
-                mottaker = await safe_text(art, ".bc-content-teaser-meta-property--mottaker dd")
-
-                am = (
-                    f"Avsender: {avsender}"
-                    if avsender
-                    else (f"Mottaker: {mottaker}" if mottaker else "")
-                )
-
-                detalj_link = ""
+                # Liten pause for rendering
                 try:
-                    link_elem = await art.evaluate_handle("node => node.closest('a')")
-                    if link_elem:
-                        detalj_link = await link_elem.get_attribute("href")
+                    await asyncio.wait_for(page.wait_for_timeout(0.15), timeout=1)
                 except Exception:
+                    pass
+
+                # HARD TIMEOUT PÅ SELECTOR
+                try:
+                    await asyncio.wait_for(
+                        page.wait_for_selector(
+                            "article.bc-content-teaser--item",
+                            timeout=timeout,
+                            state="attached",
+                        ),
+                        timeout=timeout / 1000 + 2,
+                    )
+                except Exception:
+                    print(f"[WARN] Ingen artikler funnet på side {page_num}")
+                    return []
+
+                artikler = await page.query_selector_all("article.bc-content-teaser--item")
+                if not artikler:
+                    print(f"[WARN] 0 artikler funnet på side {page_num}")
+                    return []
+
+                docs = []
+
+                # ---------------------------------------------------------
+                # HENT DOKUMENTER
+                # ---------------------------------------------------------
+                for art in artikler:
+                    dokid = await safe_text(art, ".bc-content-teaser-meta-property--dokumentID dd")
+                    if not dokid:
+                        continue
+
+                    tittel = await safe_text(art, ".bc-content-teaser-title-text")
+                    dato_raw = await safe_text(art, ".bc-content-teaser-meta-property--dato dd")
+                    parsed = parse_date_from_page(dato_raw)
+
+                    doktype = await safe_text(art, ".SakListItem_sakListItemTypeText__16759c")
+                    avsender = await safe_text(art, ".bc-content-teaser-meta-property--avsender dd")
+                    mottaker = await safe_text(art, ".bc-content-teaser-meta-property--mottaker dd")
+
+                    am = (
+                        f"Avsender: {avsender}"
+                        if avsender
+                        else (f"Mottaker: {mottaker}" if mottaker else "")
+                    )
+
+                    # ---------------------------------------------------------
+                    # DETALJ-LINK
+                    # ---------------------------------------------------------
                     detalj_link = ""
-
-                if detalj_link and not detalj_link.startswith("http"):
-                    detalj_link = "https://www.strand.kommune.no" + detalj_link
-
-                filer = []
-                if detalj_link:
                     try:
-                        ok = await safe_goto(page, detalj_link, retries=1, timeout=timeout)
-                        if ok:
-                            await page.wait_for_timeout(120)
+                        link_elem = await art.evaluate_handle("node => node.closest('a')")
+                        if link_elem:
+                            detalj_link = await link_elem.get_attribute("href")
+                    except Exception:
+                        detalj_link = ""
 
-                            links = await page.query_selector_all("a")
-                            for fl in links:
-                                href = await fl.get_attribute("href")
-                                tekst = await fl.inner_text()
+                    if detalj_link and not detalj_link.startswith("http"):
+                        detalj_link = "https://www.strand.kommune.no" + detalj_link
 
-                                if href and "/api/presentation/v2/nye-innsyn/filer" in href:
-                                    abs_url = href if href.startswith("http") else "https://www.strand.kommune.no" + href
-                                    filer.append({
-                                        "tekst": (tekst or "").strip(),
-                                        "url": abs_url
-                                    })
+                    # ---------------------------------------------------------
+                    # HENT FILER
+                    # ---------------------------------------------------------
+                    filer = []
+                    if detalj_link:
+                        try:
+                            ok = await safe_goto(page, detalj_link, retries=1, timeout=timeout)
+                            if ok:
+                                try:
+                                    await asyncio.wait_for(page.wait_for_timeout(0.12), timeout=1)
+                                except Exception:
+                                    pass
 
-                    except Exception as e:
-                        print(f"[WARN] (async) Klarte ikke hente filer for {dokid}: {e}")
+                                links = await page.query_selector_all("a")
+                                for fl in links:
+                                    href = await fl.get_attribute("href")
+                                    tekst = await fl.inner_text()
 
-                    finally:
-                        await safe_goto(page, url, retries=1, timeout=timeout)
-                        await page.wait_for_timeout(80)
+                                    if href and "/api/presentation/v2/nye-innsyn/filer" in href:
+                                        abs_url = (
+                                            href
+                                            if href.startswith("http")
+                                            else "https://www.strand.kommune.no" + href
+                                        )
+                                        filer.append({
+                                            "tekst": (tekst or "").strip(),
+                                            "url": abs_url
+                                        })
 
-                status = "Publisert" if filer else "Må bes om innsyn"
+                        except Exception as e:
+                            print(f"[WARN] (async) Klarte ikke hente filer for {dokid}: {e}")
 
-                docs.append({
-                    "tittel": tittel,
-                    "dato": format_date(parsed),
-                    "dato_iso": parsed.isoformat() if parsed else None,
-                    "dokumentID": dokid,
-                    "dokumenttype": doktype,
-                    "avsender_mottaker": am,
-                    "journal_link": detalj_link,
-                    "filer": filer,
-                    "status": status,
-                })
+                        finally:
+                            await safe_goto(page, url, retries=1, timeout=timeout)
+                            try:
+                                await asyncio.wait_for(page.wait_for_timeout(0.08), timeout=1)
+                            except Exception:
+                                pass
 
-            return docs
+                    status = "Publisert" if filer else "Må bes om innsyn"
 
-        except Exception as e:
-            print(f"[WARN] (async) Feil ved lasting/parsing av side {page_num}: {e}")
-            await asyncio.sleep(1)
+                    docs.append({
+                        "tittel": tittel,
+                        "dato": format_date(parsed),
+                        "dato_iso": parsed.isoformat() if parsed else None,
+                        "dokumentID": dokid,
+                        "dokumenttype": doktype,
+                        "avsender_mottaker": am,
+                        "journal_link": detalj_link,
+                        "filer": filer,
+                        "status": status,
+                    })
 
-    print(f"[ERROR] (async) Side {page_num} feilet etter {retries} forsøk.")
-    return None
+                return docs
+
+            except Exception as e:
+                print(f"[WARN] (async) Feil ved lasting/parsing av side {page_num}: {e}")
+                await asyncio.sleep(1)
+
+        print(f"[ERROR] (async) Side {page_num} feilet etter {retries} forsøk.")
+        return None
+
+    # ---------------------------------------------------------
+    # HARD TIMEOUT RUNDT HELE SIDEHENTINGEN
+    # ---------------------------------------------------------
+    try:
+        return await asyncio.wait_for(_inner(), timeout=timeout / 1000 + 10)
+    except asyncio.TimeoutError:
+        print(f"[ERROR] HARD TIMEOUT: hent_side_async hang på side {page_num}")
+        return None
 
 
+# ---------------------------------------------------------
+# SCRAPE PAGE WITH FILTER
+# ---------------------------------------------------------
 async def scrape_page_with_filter(
     page,
     page_num,
@@ -139,13 +192,20 @@ async def scrape_page_with_filter(
     print(f"[INFO] Scraper side {index} av {total_pages} (page_num={page_num})")
 
     async with semaphore:
-        docs = await hent_side_async(
-            page_num=page_num,
-            page=page,
-            per_page=per_page,
-            timeout=timeout,
-            retries=5,
-        )
+        try:
+            docs = await asyncio.wait_for(
+                hent_side_async(
+                    page_num=page_num,
+                    page=page,
+                    per_page=per_page,
+                    timeout=timeout,
+                    retries=5,
+                ),
+                timeout=timeout / 1000 + 15,
+            )
+        except asyncio.TimeoutError:
+            print(f"[ERROR] HARD TIMEOUT: scrape_page_with_filter hang på side {page_num}")
+            return {"failed": page_num}
 
         if not docs:
             return {"failed": page_num}
