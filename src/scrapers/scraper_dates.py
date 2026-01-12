@@ -48,8 +48,13 @@ async def run_scrape_async(
     # ---------------------------------------------------------
     # SETUP: concurrency + Playwright
     # ---------------------------------------------------------
-    CONCURRENCY = compute_concurrency()
-    print(f"[INFO] Bruker CONCURRENCY={CONCURRENCY}")
+    # I repair-modus må vi unngå rate-limit fra kommunen
+    if mode == "repair":
+        CONCURRENCY = 1
+        print("[INFO] Repair-modus: Setter CONCURRENCY=1 for å unngå blokkering")
+    else:
+        CONCURRENCY = compute_concurrency()
+        print(f"[INFO] Bruker CONCURRENCY={CONCURRENCY}")
 
     p, browser, context = await create_playwright_context()
     semaphore = asyncio.Semaphore(CONCURRENCY)
@@ -60,6 +65,11 @@ async def run_scrape_async(
     async def task_for_page(page_num, idx):
         page = await context.new_page()
         try:
+            # Cooldown for å unngå rate-limit
+            if idx % 10 == 0:
+                print(f"[INFO] Cooldown: venter 5 sekunder etter side {page_num}")
+                await asyncio.sleep(5)
+
             return await scrape_page_with_filter(
                 page=page,
                 page_num=page_num,
