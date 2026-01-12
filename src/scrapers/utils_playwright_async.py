@@ -41,7 +41,7 @@ async def _safe_text_inner(element, selector):
 # ---------------------------------------------------------
 # SAFE GOTO
 # ---------------------------------------------------------
-async def safe_goto(page, url, retries=3, timeout=10000):
+async def safe_goto(..., timeout=20000):
     """
     Deadlock-sikker versjon av safe_goto:
     - hard timeout rundt page.goto
