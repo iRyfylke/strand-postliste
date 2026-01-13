@@ -60,16 +60,8 @@ jobs:
           pip install playwright beautifulsoup4 jq
           playwright install chromium
 
-      - name: Skriv config_fullscrape.json
-        run: |
-          mkdir -p src/config
-          printf '{\n  "start_page": %s,\n  "max_pages": %s,\n  "per_page": 100\n}\n' \
-            "${{ github.event.inputs.start_page }}" \
-            "${{ github.event.inputs.max_pages }}" \
-            > src/config/config_fullscrape.json
-
   # -------------------------
-  # KVARTALSMAL (gjenbrukbar template)
+  # KVARTALSMAL (Q1–Q4)
   # -------------------------
 
   scrape_Q1:
@@ -84,6 +76,14 @@ jobs:
           python -m pip install --upgrade pip
           pip install playwright beautifulsoup4 jq
           playwright install chromium
+
+      - name: Skriv config_fullscrape.json
+        run: |
+          mkdir -p src/config
+          printf '{\n  "start_page": %s,\n  "max_pages": %s,\n  "per_page": 100\n}\n' \
+            "${{ needs.setup.outputs.start_page }}" \
+            "${{ needs.setup.outputs.max_pages }}" \
+            > src/config/config_fullscrape.json
 
       - name: Kjør Q1-scrape
         working-directory: src/scrapers
@@ -113,6 +113,14 @@ jobs:
           pip install playwright beautifulsoup4 jq
           playwright install chromium
 
+      - name: Skriv config_fullscrape.json
+        run: |
+          mkdir -p src/config
+          printf '{\n  "start_page": %s,\n  "max_pages": %s,\n  "per_page": 100\n}\n' \
+            "${{ needs.setup.outputs.start_page }}" \
+            "${{ needs.setup.outputs.max_pages }}" \
+            > src/config/config_fullscrape.json
+
       - name: Kjør Q2-scrape
         working-directory: src/scrapers
         run: |
@@ -141,6 +149,14 @@ jobs:
           pip install playwright beautifulsoup4 jq
           playwright install chromium
 
+      - name: Skriv config_fullscrape.json
+        run: |
+          mkdir -p src/config
+          printf '{\n  "start_page": %s,\n  "max_pages": %s,\n  "per_page": 100\n}\n' \
+            "${{ needs.setup.outputs.start_page }}" \
+            "${{ needs.setup.outputs.max_pages }}" \
+            > src/config/config_fullscrape.json
+
       - name: Kjør Q3-scrape
         working-directory: src/scrapers
         run: |
@@ -168,6 +184,14 @@ jobs:
           python -m pip install --upgrade pip
           pip install playwright beautifulsoup4 jq
           playwright install chromium
+
+      - name: Skriv config_fullscrape.json
+        run: |
+          mkdir -p src/config
+          printf '{\n  "start_page": %s,\n  "max_pages": %s,\n  "per_page": 100\n}\n' \
+            "${{ needs.setup.outputs.start_page }}" \
+            "${{ needs.setup.outputs.max_pages }}" \
+            > src/config/config_fullscrape.json
 
       - name: Kjør Q4-scrape
         working-directory: src/scrapers
