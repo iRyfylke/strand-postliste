@@ -1,4 +1,5 @@
 import asyncio
+import random
 from utils_playwright_async import safe_text, safe_goto
 from utils_dates import parse_date_from_page, format_date
 
@@ -9,6 +10,99 @@ BASE_URL = (
 )
 
 
+async def _wait_for_content(page, page_num, timeout: int) -> bool:
+    """
+    Robust lastestrategi for SPA-siden:
+      - Vent på networkidle
+      - Gi JS litt ekstra tid
+      - Scroll litt for å trigge lazy loading
+      - Fallback til selector-wait
+    Returnerer True hvis vi mener siden er lastet nok til å lese innhold.
+    """
+
+    try:
+        # Vent på at nettverk er relativt stille
+        try:
+            await page.wait_for_load_state("networkidle", timeout=timeout)
+        except Exception as e:
+            print(f"[WARN] Side {page_num}: wait_for_load_state('networkidle') feilet: {e}")
+
+        # Gi JS litt tid til å tegne DOM
+        await page.wait_for_timeout(400)
+
+        # Scroll-nudge for å trigge evt. lazy loading
+        try:
+            await page.evaluate("window.scrollBy(0, 200)")
+            await page.wait_for_timeout(300)
+        except Exception as e:
+            print(f"[WARN] Side {page_num}: scroll-nudge feilet: {e}")
+
+        # Fallback / eksplisitt wait på artikler
+        try:
+            await page.wait_for_selector(
+                "article.bc-content-teaser--item",
+                timeout=timeout,
+                state="attached",
+            )
+        except Exception as e:
+            print(f"[WARN] Ingen artikler funnet på side {page_num} (selector-timeout): {e}")
+            # Vi returnerer False her – kallende kode må avgjøre om det er tom side eller feil
+            return False
+
+        return True
+
+    except Exception as e:
+        print(f"[WARN] Side {page_num}: _wait_for_content feilet: {e}")
+        return False
+
+
+async def _is_truly_empty_page(page, page_num) -> bool:
+    """
+    Forsøk å avgjøre om siden faktisk er "tom" (ingen dokumenter),
+    eller om det er en lastingsfeil.
+
+    Returnerer:
+      - True  -> siden virker gyldig, men uten dokumenter (skal IKKE i failed_pages)
+      - False -> vi vet ikke / dette bør behandles som teknisk feil
+    """
+
+    try:
+        # Sjekk om vi har en container for innhold
+        container = await page.query_selector("main, .bc-content, body")
+        if not container:
+            # Ingen fornuftig container – dette lukter teknisk feil
+            return False
+
+        html = await page.content()
+        text = (html or "").lower()
+
+        # Heuristikk: typiske tekster for tomme resultater
+        markers = [
+            "ingen dokumenter",
+            "ingen treff",
+            "ingen resultater",
+            "ingen saker",
+        ]
+
+        if any(m in text for m in markers):
+            print(f"[INFO] Side {page_num}: side ser ut til å være tom (ingen dokumenter).")
+            return True
+
+        # Sjekk eksplisitt om vi faktisk har artikler
+        artikler = await page.query_selector_all("article.bc-content-teaser--item")
+        if len(artikler) == 0:
+            # Ingen artikler, ingen "ingen dokumenter"-tekst → usikkert, behandle som feil
+            print(f"[WARN] Side {page_num}: 0 artikler og ingen tydelig 'ingen dokumenter'-tekst.")
+            return False
+
+        # Har artikler → definitivt ikke tom
+        return False
+
+    except Exception as e:
+        print(f"[WARN] Side {page_num}: _is_truly_empty_page feilet: {e}")
+        return False
+
+
 async def hent_side_async(page_num, page, per_page, retries=5, timeout=10_000):
     """
     Optimalisert async-versjon av hent_side():
@@ -16,8 +110,9 @@ async def hent_side_async(page_num, page, per_page, retries=5, timeout=10_000):
       - Navigerer async
       - Raskere detaljvisning
       - Mindre memory leaks
-      - Bedre retry-logikk
+      - Bedre retry-logikk (exponential backoff + jitter)
       - Mer robust retur til hovedsiden
+      - Skiller mellom ekte tom side og teknisk feil
     """
 
     url = BASE_URL.format(page=page_num, page_size=per_page)
@@ -31,22 +126,28 @@ async def hent_side_async(page_num, page, per_page, retries=5, timeout=10_000):
             if not ok:
                 raise RuntimeError("safe_goto feilet")
 
-            # Kort pause for rendering
-            await page.wait_for_timeout(150)
+            # Robust lastestrategi for innholdet
+            loaded = await _wait_for_content(page, page_num, timeout=timeout)
+            if not loaded:
+                # Sjekk om siden faktisk er tom (ikke teknisk feil)
+                if await _is_truly_empty_page(page, page_num):
+                    # Ekte tom side: returner tom liste slik at den IKKE havner i failed_pages
+                    print(f"[INFO] (async) Side {page_num} er tom, men gyldig. Returnerer tom liste.")
+                    return []
+                # Ellers: kast for å trigge retry
+                raise RuntimeError("Innhold ikke lastet / ingen artikler tilgjengelig")
 
-            # Vent på artikler
-            try:
-                await page.wait_for_selector("article.bc-content-teaser--item", timeout=timeout, state="attached")
-            except Exception as e:
-                print(f"[WARN] Ingen artikler funnet på side {page_num}: {e}")
-                raise
-
+            # Hent artikler
             artikler = await page.query_selector_all("article.bc-content-teaser--item")
             antall = len(artikler)
             print(f"[INFO] (async) Fant {antall} dokumenter på side {page_num}")
 
             if antall == 0:
-                raise RuntimeError("0 artikler funnet")
+                # Samme logikk som over, men ekstra sikkerhet
+                if await _is_truly_empty_page(page, page_num):
+                    print(f"[INFO] (async) Side {page_num} er tom, men gyldig (etter artikler-sjekk).")
+                    return []
+                raise RuntimeError("0 artikler funnet uten klar indikasjon på tom side")
 
             docs = []
 
@@ -88,7 +189,7 @@ async def hent_side_async(page_num, page, per_page, retries=5, timeout=10_000):
                     try:
                         ok = await safe_goto(page, detalj_link, retries=1, timeout=timeout)
                         if ok:
-                            await page.wait_for_timeout(120)
+                            await page.wait_for_timeout(150)
 
                             links = await page.query_selector_all("a")
                             for fl in links:
@@ -128,7 +229,16 @@ async def hent_side_async(page_num, page, per_page, retries=5, timeout=10_000):
 
         except Exception as e:
             print(f"[WARN] (async) Feil ved lasting/parsing av side {page_num} (forsøk {attempt}/{retries}): {e}")
-            await asyncio.sleep(1)
+
+            # Exponential backoff + jitter
+            base_delay = 1.0 * (2 ** (attempt - 1))  # 1, 2, 4, 8, ...
+            jitter = random.uniform(0, 0.5 * base_delay)
+            delay = base_delay + jitter
+            max_delay = 20.0
+            delay = min(delay, max_delay)
+
+            print(f"[INFO] (async) Venter {delay:.2f}s før nytt forsøk på side {page_num}…")
+            await asyncio.sleep(delay)
 
     print(f"[ERROR] (async) Side {page_num} feilet etter {retries} forsøk.")
     return None
