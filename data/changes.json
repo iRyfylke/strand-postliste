@@ -105330,5 +105330,485 @@
         "ny": 2
       }
     }
+  },
+  {
+    "tidspunkt": "2026-01-13 06:49:32",
+    "type": "UPDATE",
+    "dokumentID": "2026/461",
+    "tittel": "Forespørsel om VA-data for Idsevegen - 63/9",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 2,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-13 06:49:32",
+    "type": "UPDATE",
+    "dokumentID": "2026/414",
+    "tittel": "49/254 Søknad om tillatelse i ett trinn - VA-minirenseanlegg - Øvre Brauta 3 - Odd Magne Tønnesen",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 14,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-13 06:49:32",
+    "type": "UPDATE",
+    "dokumentID": "2025/38286",
+    "tittel": "48/59 Tilbygg - Åvegen 13B",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 3,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-13 06:49:32",
+    "type": "UPDATE",
+    "dokumentID": "2026/367",
+    "tittel": "9/27 Oppdatering status i klagesak knytt til arealoverføring fra gnr. /bnr. 9/9 til 9/54",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 2,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-13 06:49:32",
+    "type": "UPDATE",
+    "dokumentID": "2026/281",
+    "tittel": "65/33 Bekrefter mottatt ferdigmelding og as-built",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-13 06:49:32",
+    "type": "UPDATE",
+    "dokumentID": "2026/386",
+    "tittel": "16/348 Søknad om vannmåler - Breivikvegen 29",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-13 06:49:32",
+    "type": "UPDATE",
+    "dokumentID": "2026/459",
+    "tittel": "Forespørsel om VA-data for Sørskårvegen 461",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 2,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-13 06:49:32",
+    "type": "UPDATE",
+    "dokumentID": "2026/263",
+    "tittel": "Svar på spørsmål om plantegninger - Skogalivegen 16",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 2,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-13 06:49:32",
+    "type": "UPDATE",
+    "dokumentID": "2026/356",
+    "tittel": "45/3 og 45/87 Ber om møte - driftsbygning - Einerbakken gard - Kurt Oskar Solli Fossmark",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 2,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-13 06:49:32",
+    "type": "UPDATE",
+    "dokumentID": "2026/415",
+    "tittel": "16/207 Ny erklæring om arealoverføring",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-13 06:49:32",
+    "type": "UPDATE",
+    "dokumentID": "2026/456",
+    "tittel": "Plan 202502 Detaljregulering for gnr/bnr 16/340 m.fl. - Tau Datasenter - svar på merknader",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 4,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-13 06:49:32",
+    "type": "UPDATE",
+    "dokumentID": "2026/256",
+    "tittel": "44/655 Dokumentsjekk - ikke behov for mangelbrev",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-13 06:49:32",
+    "type": "UPDATE",
+    "dokumentID": "2026/353",
+    "tittel": "32/51 Dokumentsjekk - ikke behov for mangelbrev",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-13 06:49:32",
+    "type": "UPDATE",
+    "dokumentID": "2026/280",
+    "tittel": "44/190 Klage på godkjennelse - dispensasjon og tillatelse til tiltak - levegg med tak - Gangvegen 6",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 3,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-13 06:49:32",
+    "type": "UPDATE",
+    "dokumentID": "2026/439",
+    "tittel": "Svar vedrørende avfallshåndtering - Gjenbruken Jørpeland",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-13 06:49:32",
+    "type": "UPDATE",
+    "dokumentID": "2026/294",
+    "tittel": "Brøyting av Elgvegen 11",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-13 06:49:32",
+    "type": "UPDATE",
+    "dokumentID": "2026/116",
+    "tittel": "16/444 Utbyggingsavtale - næringsbygg/lager - Industrivegen 11",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 2,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-13 06:49:32",
+    "type": "UPDATE",
+    "dokumentID": "2026/292",
+    "tittel": "17/12 Klage - brygger og fylling i sjø og tiltak langs Tauvassdraget - Kvernvegen 58",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-13 06:49:32",
+    "type": "UPDATE",
+    "dokumentID": "2026/344",
+    "tittel": "65/2 Sluttutbetaling av tilskudd - restaurering av tak på våningshus",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-13 06:49:32",
+    "type": "UPDATE",
+    "dokumentID": "2026/296",
+    "tittel": "Påminnelse - frist for innmelding av kalkingsbehov for 2026 - med oppdatert skjema",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 2,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-13 06:49:32",
+    "type": "UPDATE",
+    "dokumentID": "2026/259",
+    "tittel": "44/655 Tillatelse til tiltak - hagestue - Elgstien 10",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-13 06:49:32",
+    "type": "UPDATE",
+    "dokumentID": "2025/41774",
+    "tittel": "49/147 49/153 Tillatelse til tiltak - riving av eneboliger - Rådhusgaten 4A og Stålverksvegen 5 - Strand kommune",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-13 06:49:32",
+    "type": "UPDATE",
+    "dokumentID": "2026/264",
+    "tittel": "31/859 Søknad om dispensasjon - ombygging av bolig - Einerhaugvegen 20 - Torstein Sigmundstad",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 15,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-13 06:49:32",
+    "type": "UPDATE",
+    "dokumentID": "2026/111",
+    "tittel": "Svar på bygging av kai på Tau - spørsmål om godkjenning",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 61,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-13 06:49:32",
+    "type": "UPDATE",
+    "dokumentID": "2025/38060",
+    "tittel": "44/916 Tillatelse til tiltak - fasadeendring og innvendig ombygging - Nedre Barkvedvegen 14",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-13 06:49:32",
+    "type": "UPDATE",
+    "dokumentID": "2026/177",
+    "tittel": "66/2 Melding til tinglysing arealoverføring",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 4,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-13 06:49:32",
+    "type": "UPDATE",
+    "dokumentID": "2026/117",
+    "tittel": "Vedrørende planer om trafostasjon på 16/327 på Tau",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-13 06:49:32",
+    "type": "UPDATE",
+    "dokumentID": "2026/206",
+    "tittel": "47/731 Godkjenning av søknad om ny tilknytning til offentlig vann- /avløpsanlegg - Fullshammarkroken 6",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-13 06:49:32",
+    "type": "UPDATE",
+    "dokumentID": "2026/284",
+    "tittel": "65/33 Søknad om dispensasjon - riving og oppføring av naust - Sør-Hidle 27 - Linn Sandvik Hetland",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 11,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-13 06:49:32",
+    "type": "UPDATE",
+    "dokumentID": "2026/187",
+    "tittel": "Vedkomande revisjon av reguleringsplan Heiplanen - invitasjon til å delta i arbeidet",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
   }
 ]
