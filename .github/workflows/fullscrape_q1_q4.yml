@@ -100,11 +100,11 @@ jobs:
           name: fullscrape-Q1
           path: data/postliste_filtered.json
 
-      - name: Last opp failed_pages
+      - name: Last opp failed_pages Q1
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: failed-pages-${{ needs.setup.outputs.year }}
+          name: failed-pages-${{ needs.setup.outputs.year }}-Q1
           path: data/archive/failed_pages_${{ needs.setup.outputs.year }}.json
           if-no-files-found: ignore
 
@@ -144,11 +144,11 @@ jobs:
           name: fullscrape-Q2
           path: data/postliste_filtered.json
 
-      - name: Last opp failed_pages
+      - name: Last opp failed_pages Q2
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: failed-pages-${{ needs.setup.outputs.year }}
+          name: failed-pages-${{ needs.setup.outputs.year }}-Q2
           path: data/archive/failed_pages_${{ needs.setup.outputs.year }}.json
           if-no-files-found: ignore
 
@@ -188,11 +188,11 @@ jobs:
           name: fullscrape-Q3
           path: data/postliste_filtered.json
 
-      - name: Last opp failed_pages
+      - name: Last opp failed_pages Q3
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: failed-pages-${{ needs.setup.outputs.year }}
+          name: failed-pages-${{ needs.setup.outputs.year }}-Q3
           path: data/archive/failed_pages_${{ needs.setup.outputs.year }}.json
           if-no-files-found: ignore
 
@@ -232,11 +232,11 @@ jobs:
           name: fullscrape-Q4
           path: data/postliste_filtered.json
 
-      - name: Last opp failed_pages
+      - name: Last opp failed_pages Q4
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: failed-pages-${{ needs.setup.outputs.year }}
+          name: failed-pages-${{ needs.setup.outputs.year }}-Q4
           path: data/archive/failed_pages_${{ needs.setup.outputs.year }}.json
           if-no-files-found: ignore
 
@@ -252,16 +252,36 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Last ned artifacts
+      - name: Last ned kvartals-artifacts
         uses: actions/download-artifact@v4
         with:
           path: artifacts
 
-      - name: Last ned failed_pages
+      - name: Last ned failed_pages-artifacts
         uses: actions/download-artifact@v4
         with:
-          name: failed-pages-${{ github.event.inputs.year }}
-          path: data/archive
+          pattern: failed-pages-${{ github.event.inputs.year }}-*
+          path: failed_pages_artifacts
+          merge-multiple: false
+
+      - name: Slå sammen failed_pages til én fil
+        run: |
+          YEAR="${{ github.event.inputs.year }}"
+          mkdir -p data/archive
+
+          # Finn alle failed_pages-filer fra artifacts
+          FILES=$(find failed_pages_artifacts -name "failed_pages_${YEAR}.json" -type f || true)
+
+          if [ -z "$FILES" ]; then
+            echo "Ingen failed_pages-filer funnet for ${YEAR}. Hopper over merge."
+          else
+            echo "Slår sammen failed_pages-filer for ${YEAR}:"
+            echo "$FILES"
+
+            # Slå sammen og fjern duplikater
+            jq -s 'add | unique | sort' $FILES > data/archive/failed_pages_${YEAR}.json
+            echo "Ferdig generert data/archive/failed_pages_${YEAR}.json"
+          fi
 
       - name: Arkiver kvartalsfiler
         run: |
@@ -279,8 +299,10 @@ jobs:
 
           YEAR="${{ github.event.inputs.year }}"
 
+          # Kvartalsfiler
           git add data/archive/postliste_${YEAR}_Q*.json
 
+          # failed_pages_<år>.json hvis den finnes
           if [ -f "data/archive/failed_pages_${YEAR}.json" ]; then
             git add data/archive/failed_pages_${YEAR}.json
           fi
