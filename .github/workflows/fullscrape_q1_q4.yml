@@ -214,17 +214,17 @@ jobs:
   merge_and_commit:
     runs-on: ubuntu-latest
     needs: [scrape_Q1, scrape_Q2, scrape_Q3, scrape_Q4]
-
+  
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-
+  
       - name: Last ned artifacts
         uses: actions/download-artifact@v4
         with:
           path: artifacts
-
+  
       - name: Arkiver kvartalsfiler
         run: |
           mkdir -p data/archive
@@ -233,15 +233,24 @@ jobs:
           cp artifacts/fullscrape-Q2/postliste_filtered.json data/archive/postliste_${YEAR}_Q2.json
           cp artifacts/fullscrape-Q3/postliste_filtered.json data/archive/postliste_${YEAR}_Q3.json
           cp artifacts/fullscrape-Q4/postliste_filtered.json data/archive/postliste_${YEAR}_Q4.json
-
-      - name: Commit og push kvartalsfiler
+  
+      - name: Commit og push kvartalsfiler + failed_pages
         run: |
           git config --global user.name "${{ github.actor }}"
           git config --global user.email "${{ github.actor }}@users.noreply.github.com"
-
-          git add data/archive/postliste_${{ github.event.inputs.year }}_Q*.json
-          git commit -m "Fullscrape ${{ github.event.inputs.year }} (Q1–Q4)" || echo "Ingen endringer"
-
+  
+          YEAR="${{ github.event.inputs.year }}"
+  
+          # Legg til kvartalsfiler
+          git add data/archive/postliste_${YEAR}_Q*.json
+  
+          # Legg til failed_pages_<år>.json hvis den finnes
+          if [ -f "data/archive/failed_pages_${YEAR}.json" ]; then
+            git add data/archive/failed_pages_${YEAR}.json
+          fi
+  
+          git commit -m "Fullscrape ${YEAR} (Q1–Q4) + failed_pages" || echo "Ingen endringer"
+  
           git pull --rebase origin main || true
           git push origin main || true
 
