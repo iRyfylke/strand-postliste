@@ -100,6 +100,14 @@ jobs:
           name: fullscrape-Q1
           path: data/postliste_filtered.json
 
+      - name: Last opp failed_pages
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: failed-pages-${{ needs.setup.outputs.year }}
+          path: data/archive/failed_pages_${{ needs.setup.outputs.year }}.json
+          if-no-files-found: ignore
+
   scrape_Q2:
     runs-on: ubuntu-latest
     needs: setup
@@ -135,6 +143,14 @@ jobs:
         with:
           name: fullscrape-Q2
           path: data/postliste_filtered.json
+
+      - name: Last opp failed_pages
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: failed-pages-${{ needs.setup.outputs.year }}
+          path: data/archive/failed_pages_${{ needs.setup.outputs.year }}.json
+          if-no-files-found: ignore
 
   scrape_Q3:
     runs-on: ubuntu-latest
@@ -172,6 +188,14 @@ jobs:
           name: fullscrape-Q3
           path: data/postliste_filtered.json
 
+      - name: Last opp failed_pages
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: failed-pages-${{ needs.setup.outputs.year }}
+          path: data/archive/failed_pages_${{ needs.setup.outputs.year }}.json
+          if-no-files-found: ignore
+
   scrape_Q4:
     runs-on: ubuntu-latest
     needs: setup
@@ -208,23 +232,37 @@ jobs:
           name: fullscrape-Q4
           path: data/postliste_filtered.json
 
+      - name: Last opp failed_pages
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: failed-pages-${{ needs.setup.outputs.year }}
+          path: data/archive/failed_pages_${{ needs.setup.outputs.year }}.json
+          if-no-files-found: ignore
+
   # -------------------------
   # MERGE & COMMIT (kun archive/)
   # -------------------------
   merge_and_commit:
     runs-on: ubuntu-latest
     needs: [scrape_Q1, scrape_Q2, scrape_Q3, scrape_Q4]
-  
+
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-  
+
       - name: Last ned artifacts
         uses: actions/download-artifact@v4
         with:
           path: artifacts
-  
+
+      - name: Last ned failed_pages
+        uses: actions/download-artifact@v4
+        with:
+          name: failed-pages-${{ github.event.inputs.year }}
+          path: data/archive
+
       - name: Arkiver kvartalsfiler
         run: |
           mkdir -p data/archive
@@ -233,24 +271,22 @@ jobs:
           cp artifacts/fullscrape-Q2/postliste_filtered.json data/archive/postliste_${YEAR}_Q2.json
           cp artifacts/fullscrape-Q3/postliste_filtered.json data/archive/postliste_${YEAR}_Q3.json
           cp artifacts/fullscrape-Q4/postliste_filtered.json data/archive/postliste_${YEAR}_Q4.json
-  
+
       - name: Commit og push kvartalsfiler + failed_pages
         run: |
           git config --global user.name "${{ github.actor }}"
           git config --global user.email "${{ github.actor }}@users.noreply.github.com"
-  
+
           YEAR="${{ github.event.inputs.year }}"
-  
-          # Legg til kvartalsfiler
+
           git add data/archive/postliste_${YEAR}_Q*.json
-  
-          # Legg til failed_pages_<år>.json hvis den finnes
+
           if [ -f "data/archive/failed_pages_${YEAR}.json" ]; then
             git add data/archive/failed_pages_${YEAR}.json
           fi
-  
+
           git commit -m "Fullscrape ${YEAR} (Q1–Q4) + failed_pages" || echo "Ingen endringer"
-  
+
           git pull --rebase origin main || true
           git push origin main || true
 
