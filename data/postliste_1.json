@@ -1,5 +1,29 @@
 [
   {
+    "tittel": "Møteprotokoll - Sakkyndig nemnd for eiendomsskatt - 13.01.2026",
+    "dato": "13.01.2026",
+    "dato_iso": "2026-01-13",
+    "dokumentID": "2026/1051",
+    "dokumenttype": "Møteprotokoll",
+    "avsender_mottaker": "",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019768!n1F5WU/d-6965376f__8677__47ea__a757__23e14c179149-2020255838!TO8r3L",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Møtebok - Sakkyndig nemnd for eiendomsskatt - 13.01.2026",
+    "dato": "13.01.2026",
+    "dato_iso": "2026-01-13",
+    "dokumentID": "2026/1052",
+    "dokumenttype": "Møtebok",
+    "avsender_mottaker": "",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019768!n1F5WU/d-6965376f__8677__47ea__a757__23e14c179149-2020255839!341YVJ",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
     "tittel": "Referatsaker",
     "dato": "12.01.2026",
     "dato_iso": "2026-01-12",
@@ -8,8 +32,13 @@
     "avsender_mottaker": "",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019768!n1F5WU/d-6965376f__8677__47ea__a757__23e14c179149-2020255732!84EuT0",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "Referatsaker (pdf, 63KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1232377_3_P!d-2020255732!qnM404?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Innkalling - Sakkyndig nemnd for eiendomsskatt - 13.01.2026",
@@ -34,8 +63,1476 @@
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019768!n1F5WU/d-6965376f__8677__47ea__a757__23e14c179149-2020255731!PSDQl3",
     "filer": [
       {
-        "tekst": "Godkjenning av protokoll fra forrige møte (pdf, 61KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1232376_2_P!d-2020255731!Vmd7Cl?pid=29"
+        "tekst": "Godkjenning av protokoll fra forrige møte (pdf, 65KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1232376_3_P!d-2020255731!aRDQzq?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Søknad om barnehageplass",
+    "dato": "11.01.2026",
+    "dato_iso": "2026-01-11",
+    "dokumentID": "2026/830",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Ingrid Nordbø",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019666!JTvk2e/d-6965376f__8677__47ea__a757__23e14c179149-2020255617!nZVZVs",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Søknad om plass i SFO",
+    "dato": "11.01.2026",
+    "dato_iso": "2026-01-11",
+    "dokumentID": "2026/833",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Olav Finnesand",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019669!dhe2vX/d-6965376f__8677__47ea__a757__23e14c179149-2020255620!3uM2oK",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Søknad om barnehageplass",
+    "dato": "11.01.2026",
+    "dato_iso": "2026-01-11",
+    "dokumentID": "2026/829",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Stanislav Samarskyi",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019666!JTvk2e/d-6965376f__8677__47ea__a757__23e14c179149-2020255616!GUEWIB",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Søknad om barnehageplass",
+    "dato": "11.01.2026",
+    "dato_iso": "2026-01-11",
+    "dokumentID": "2026/832",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Ihsan Jabr Mousa Abualnaja",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019666!JTvk2e/d-6965376f__8677__47ea__a757__23e14c179149-2020255619!KjIyba",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Søknad om plass i SFO",
+    "dato": "10.01.2026",
+    "dato_iso": "2026-01-10",
+    "dokumentID": "2026/826",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Kristin Hultin Steinskog",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019669!dhe2vX/d-6965376f__8677__47ea__a757__23e14c179149-2020255613!qgx5Tj",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Søknad om plass i SFO",
+    "dato": "10.01.2026",
+    "dato_iso": "2026-01-10",
+    "dokumentID": "2026/825",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Henriette Helland",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019669!dhe2vX/d-6965376f__8677__47ea__a757__23e14c179149-2020255612!nkB2Nu",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Søknad - lærer - hovedutlysning",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/696",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019709!FYqTAK/d-6965376f__8677__47ea__a757__23e14c179149-2020255483!0XaPga",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Søknader om dispensasjon fra utdanningskravet",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/717",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Preg barnehage",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016607!PxrPNZ/d-6965376f__8677__47ea__a757__23e14c179149-2020255504!V1oGyi",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Månedsbrev 12/2025 - Skatt & Tall",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/778",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Skatteetaten",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016747!dHDzqr/d-6965376f__8677__47ea__a757__23e14c179149-2020255565!qKaBO5",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "31/1/85 Angående tilbakemelding om mangler - bruksendring/fasadeendring/tilbygg/riving - Einerhaugvegen 15 - Snorre Kristian Walde",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/780",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Job Arkitekter As",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020018794!3wtCHX/d-6965376f__8677__47ea__a757__23e14c179149-2020255567!wBvHpe",
+    "filer": [
+      {
+        "tekst": "31/1/85 Angående tilbakemelding om mangler - bruksendring/fasadeendring/tilbygg/riving - Einerhaugvegen 15 - Snorre Kristian Walde (pdf, 115KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231967_1_A!d-2020255567!3i49vh?pid=29"
+      },
+      {
+        "tekst": "C Naboerklæring (pdf, 816KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231969_1_A!d-2020255567!SkWAXV?pid=29"
+      },
+      {
+        "tekst": "Q Tilbakemelding om mangler - bruksendringfasadeendringtilbyggriving- Einerhaugvegen 15 - Snorre Kristian Walde (pdf, 95KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231968_1_A!d-2020255567!9Zx5sH?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "106/3 Vedrørende midlertidig mellomlagring av steinmasse i Ytre Skjeivik",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/748",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Olav Lerang",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019047!uCc0sw/d-6965376f__8677__47ea__a757__23e14c179149-2020255535!l23VeP",
+    "filer": [
+      {
+        "tekst": "106/3 Vedrørende midlertidig mellomlagring av steinmasse i Ytre Skjeivik (pdf, 37KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231911_1_A!d-2020255535!z029ky?pid=29"
+      },
+      {
+        "tekst": "Skisse 09.01.2026 (pdf, 446KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231913_1_A!d-2020255535!VZWqns?pid=29"
+      },
+      {
+        "tekst": "E-post - SV 2542240 1063 Fråsegn - dispensasjon - midlertidig mellomlagring masser på landbrukseiendom - Meling (pdf, 70KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231912_1_A!d-2020255535!Q1wtOa?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Avslag på søknad om startlån og tilskudd",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/669",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019659!IMn5Zy/d-6965376f__8677__47ea__a757__23e14c179149-2020255456!SQXwhS",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Søknad om barnehageplass",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/755",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Ørjan Dybevik",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019666!JTvk2e/d-6965376f__8677__47ea__a757__23e14c179149-2020255542!w5TR3y",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "16/5/1 Gjennomføringsplan - bergverksdrift og utvinning - Lemensneset - Norsk Stein AS",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/783",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Norconsult Norge As",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020010276!DgGBzF/d-6965376f__8677__47ea__a757__23e14c179149-2020255570!wPcWsv",
+    "filer": [
+      {
+        "tekst": "16/5/1 Gjennomføringsplan - bergverksdrift og utvinning - Lemensneset - Norsk Stein AS (pdf, 267KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231973_1_A!d-2020255570!fhjboK?pid=29"
+      },
+      {
+        "tekst": "G Erklæring om ansvarsrett - Preci (pdf, 283KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231974_1_A!d-2020255570!ISv5jq?pid=29"
+      },
+      {
+        "tekst": "G Erklæring om ansvarsrett - Hå Element AS (pdf, 333KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231975_1_A!d-2020255570!y8ixIq?pid=29"
+      },
+      {
+        "tekst": "G Erklæring om ansvarsrett - Promostal AS (pdf, 474KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231976_1_A!d-2020255570!S2BcnT?pid=29"
+      },
+      {
+        "tekst": "G Erklæring om ansvarsrett - Fiskå Maskin AS (pdf, 331KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231977_1_A!d-2020255570!P4IVFS?pid=29"
+      },
+      {
+        "tekst": "G Erklæring om ansvarsrett - Norconsult Norge AS (pdf, 332KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231978_1_A!d-2020255570!lKCCzv?pid=29"
+      },
+      {
+        "tekst": "G Erklæring om ansvarsrett - Stangeland Maskin AS (pdf, 308KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231979_1_A!d-2020255570!DQfFDl?pid=29"
+      },
+      {
+        "tekst": "G Erklæring om ansvarsrett - Backe Rogaland AS (pdf, 331KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231980_1_A!d-2020255570!pYWlFV?pid=29"
+      },
+      {
+        "tekst": "G Erklæring om ansvarsrett - Hå Element AS (pdf, 333KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231981_1_A!d-2020255570!g2jk03?pid=29"
+      },
+      {
+        "tekst": "G Erklæring om ansvarsrett - Procon Rådgivende Ingeniører AS (pdf, 334KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231982_1_A!d-2020255570!xIYM65?pid=29"
+      },
+      {
+        "tekst": "G Erklæring om ansvarsrett - Procon Rådgivende Ingeniører AS (pdf, 334KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231983_1_A!d-2020255570!YgDpQs?pid=29"
+      },
+      {
+        "tekst": "Q Vedleggsopplysninger (pdf, 169KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231986_1_A!d-2020255570!dVrLtt?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Søknad om barnehageplass",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/815",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Agnieszka Rodak",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019666!JTvk2e/d-6965376f__8677__47ea__a757__23e14c179149-2020255602!JJLmhh",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Taushetserklæring",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/791",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Selma Hetleli",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2013000672!XjkSdY/d-6965376f__8677__47ea__a757__23e14c179149-2020255578!B25l0Z",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "11/35 Nabovarsel for Kjølevik",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/680",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: As Ryfylke Trelast",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019718!8XjIy1/d-6965376f__8677__47ea__a757__23e14c179149-2020255467!dA90RW",
+    "filer": [
+      {
+        "tekst": "11/35 Nabovarsel for Kjølevik (pdf, 153KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231744_1_A!d-2020255467!6vrZKZ?pid=29"
+      },
+      {
+        "tekst": "Situasjonskart_11-35 (pdf, 970KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231746_1_A!d-2020255467!3U7PAH?pid=29"
+      },
+      {
+        "tekst": "Tegninger-Snitt-Plan_11-35 (pdf, 128KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231747_1_A!d-2020255467!kxSq8B?pid=29"
+      },
+      {
+        "tekst": "Tegninger-Fasade_11-35 (pdf, 244KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231748_1_A!d-2020255467!RK8HUq?pid=29"
+      },
+      {
+        "tekst": "E-post - Nabovarsel for til STRAND KOMMUNE (964978751) (pdf, 85KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231745_1_A!d-2020255467!A6Q1f7?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Søknad - virksomhetsleder - Kultur og næring",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/688",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019232!8zzTpn/d-6965376f__8677__47ea__a757__23e14c179149-2020255475!8nZLtj",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "53/457 Søknad om tillatelse til tiltak - tomannsbolig - Svarthølsvegen 12A - Strand Eigendom AS",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/712",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Job Arkitekter As",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019655!2khnTh/d-6965376f__8677__47ea__a757__23e14c179149-2020255499!1adCLD",
+    "filer": [
+      {
+        "tekst": "53/457 Søknad om tillatelse til tiltak - tomannsbolig - Svarthølsvegen 12A - Strand Eigendom AS (pdf, 215KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231803_1_A!d-2020255499!s2qAOb?pid=29"
+      },
+      {
+        "tekst": "C Nabovarsel (pdf, 154KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231825_1_A!d-2020255499!101rzL?pid=29"
+      },
+      {
+        "tekst": "C Kvittering for nabovarsel (pdf, 92KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231813_1_A!d-2020255499!Z3k0ie?pid=29"
+      },
+      {
+        "tekst": "C Nabomerknad fra 53/480 (pdf, 104KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231826_1_A!d-2020255499!VoiLQP?pid=29"
+      },
+      {
+        "tekst": "D Situasjonsplan (pdf, 924KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231804_1_A!d-2020255499!MKd1uC?pid=29"
+      },
+      {
+        "tekst": "D Utomhusplan (pdf, 771KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231806_1_A!d-2020255499!sHNKf6?pid=29"
+      },
+      {
+        "tekst": "E Tegninger plan 1. og 2. etasje (pdf, 2,6MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231807_1_A!d-2020255499!o91Pqk?pid=29"
+      },
+      {
+        "tekst": "E Tegninger fasade nord med bod, nord uten bod og sør (pdf, 531KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231810_1_A!d-2020255499!EYCfIO?pid=29"
+      },
+      {
+        "tekst": "E Tegninger - fasade øst mot vest (pdf, 409KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231805_1_A!d-2020255499!bohOPR?pid=29"
+      },
+      {
+        "tekst": "E Tegninger - snitt (pdf, 851KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231808_1_A!d-2020255499!o4VWLB?pid=29"
+      },
+      {
+        "tekst": "F Redegjørelse - områdeskred (pdf, 7,2MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231812_1_A!d-2020255499!zKE9YL?pid=29"
+      },
+      {
+        "tekst": "F Underlag for beregning av utnytting (pdf, 148KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231811_1_A!d-2020255499!rdunwi?pid=29"
+      },
+      {
+        "tekst": "G Gjennomføringsplan (pdf, 223KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231830_1_A!d-2020255499!bcwY9P?pid=29"
+      },
+      {
+        "tekst": "G Erklæring om ansvarsrett - Brødrene Lie AS (pdf, 333KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231814_1_A!d-2020255499!Q1hSNt?pid=29"
+      },
+      {
+        "tekst": "G Erklæring om ansvarsrett - Din Byggtjeneste (pdf, 333KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231815_1_A!d-2020255499!ZhK7gM?pid=29"
+      },
+      {
+        "tekst": "G Erklæring om ansvarsrett - Gjesdal Tak AS (pdf, 331KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231816_1_A!d-2020255499!0WCmeI?pid=29"
+      },
+      {
+        "tekst": "G Erklæring om ansvarsrett - Job arkitekter AS (pdf, 332KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231817_1_A!d-2020255499!pu1r8U?pid=29"
+      },
+      {
+        "tekst": "G Erklæring om ansvarsrett - L.M Bygg AS (pdf, 331KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231818_1_A!d-2020255499!740mQ2?pid=29"
+      },
+      {
+        "tekst": "G Erklæring om ansvarsrett - Langvik Maskin AS (pdf, 334KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231819_1_A!d-2020255499!nMAFg7?pid=29"
+      },
+      {
+        "tekst": "G Erklæring om ansvarsrett - Optimera AS (pdf, 333KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231820_1_A!d-2020255499!iIYyTi?pid=29"
+      },
+      {
+        "tekst": "G Erklæring om ansvarsrett - Reianes Mur & Flis (pdf, 333KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231821_1_A!d-2020255499!865LC5?pid=29"
+      },
+      {
+        "tekst": "G Erklæring om ansvarsrett - Rycon AS (pdf, 334KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231822_1_A!d-2020255499!1zLPrN?pid=29"
+      },
+      {
+        "tekst": "G Erklæring om ansvarsrett - Sig Halvorsen AS (pdf, 333KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231823_1_A!d-2020255499!0Djcva?pid=29"
+      },
+      {
+        "tekst": "G Erklæring om ansvarsrett - Strand Forskaling AS (pdf, 333KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231824_1_A!d-2020255499!cJX0LD?pid=29"
+      },
+      {
+        "tekst": "Q Følgebrev - Søknad om ett trinns tillatelse - ny tomannsbolig - Svarthølsvegen 12A (pdf, 317KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231809_1_A!d-2020255499!0krljb?pid=29"
+      },
+      {
+        "tekst": "Q Vedleggsopplysninger (pdf, 176KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231831_1_A!d-2020255499!xxNgbm?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Referat fra intervju",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/646",
+    "dokumenttype": "Internt notat (X)",
+    "avsender_mottaker": "",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019732!WFJ1P7/d-6965376f__8677__47ea__a757__23e14c179149-2020255433!Kx7Dt3",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "63/257 Søknad om dispensasjon - bod - Tangane 70 - Arild Larsen",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/754",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Arild Larsen",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019753!SMjgYv/d-6965376f__8677__47ea__a757__23e14c179149-2020255541!ohYx93",
+    "filer": [
+      {
+        "tekst": "63/257 Søknad om dispensasjon - bod - Tangane 70 - Arild Larsen (pdf, 1,4MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231919_1_A!d-2020255541!1IUkCQ?pid=29"
+      },
+      {
+        "tekst": "C Nabovarsel (pdf, 1,1MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231920_1_A!d-2020255541!M4Xlc3?pid=29"
+      },
+      {
+        "tekst": "C Svar på nabovarsel - ingen merknad (pdf, 689KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231921_1_A!d-2020255541!sIf9eG?pid=29"
+      },
+      {
+        "tekst": "D Situasjonsplan (pdf, 2,3MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231922_1_A!d-2020255541!CKTH3H?pid=29"
+      },
+      {
+        "tekst": "F Situasjonskart (pdf, 1MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231923_1_A!d-2020255541!v76T2f?pid=29"
+      },
+      {
+        "tekst": "F Kart (pdf, 1,7MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231924_1_A!d-2020255541!Y0gV7w?pid=29"
+      },
+      {
+        "tekst": "E Tegninger - fasade (pdf, 1,1MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231925_1_A!d-2020255541!21uo6M?pid=29"
+      },
+      {
+        "tekst": "Q Vedlegg til søknad (pdf, 707KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231927_1_A!d-2020255541!b6xhsZ?pid=29"
+      },
+      {
+        "tekst": "Q Foto - mål (pdf, 1MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231926_1_A!d-2020255541!sd0Xhr?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Avtaleutkast - Rammeavtale for leie av maskiner og utstyr",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/647",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Strand Maskinutleie As",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019072!meMmoY/d-6965376f__8677__47ea__a757__23e14c179149-2020255434!gaiNQ1",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "43/358 Ettersending av svar på spørsmål vedrørende faglig uttalelse av Barkvedkrossen",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/727",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Rogaland Fylkeskommune Samferdselsavdelingen",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016052!8nEw4J/d-6965376f__8677__47ea__a757__23e14c179149-2020255514!NWRYJu",
+    "filer": [
+      {
+        "tekst": "43/358 Ettersending av svar på spørsmål vedrørende faglig uttalelse av Barkvedkrossen (pdf, 332KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231880_1_A!d-2020255514!Z670et?pid=29"
+      },
+      {
+        "tekst": "Notat_Utvidelse av Barkvedstubben (pdf, 1,1MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231881_1_A!d-2020255514!Pq0kcv?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Søknad om barnehageplass",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/810",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Renate Wersland",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019666!JTvk2e/d-6965376f__8677__47ea__a757__23e14c179149-2020255597!NpS8Ft",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "11/38 Egenerklæring om konsesjonsfrihet",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/796",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Flere avsendere",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019755!Sz1AHs/d-6965376f__8677__47ea__a757__23e14c179149-2020255583!GY4Jsc",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Søknad om barnehageplass",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/773",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Camilla Jansen",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019666!JTvk2e/d-6965376f__8677__47ea__a757__23e14c179149-2020255560!NcBtEH",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "7/5Søknad om konsesjon på erverv av fast eiendom - Fiskåvegen 1010 - Fiskå Industriområde AS",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/721",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Rsm Advokatfirma As",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019749!kFowy7/d-6965376f__8677__47ea__a757__23e14c179149-2020255508!cmMgS2",
+    "filer": [
+      {
+        "tekst": "7/5Søknad om konsesjon på erverv av fast eiendom - Fiskåvegen 1010 - Fiskå Industriområde AS (pdf, 638KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231847_1_A!d-2020255508!ypzt1s?pid=29"
+      },
+      {
+        "tekst": "Epost - Spørsmål ved. egenerklæring om konsesjonsfrihet [RSM-DMS.33415 (pdf, 174KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231848_1_A!d-2020255508!9spCf6?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Søknad - virksomhetsleder - Kultur og næring",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/689",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019232!8zzTpn/d-6965376f__8677__47ea__a757__23e14c179149-2020255476!pNnfA1",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Taushetserklæring",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/788",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Mathea Kvame",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2013000672!XjkSdY/d-6965376f__8677__47ea__a757__23e14c179149-2020255575!t3Yssr",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Avslag på søknad om startlån og tilskudd",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/670",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019640!bys4X5/d-6965376f__8677__47ea__a757__23e14c179149-2020255457!ebSVil",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Taushetserklæring",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/789",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Ingrid Hatteland",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2013000672!XjkSdY/d-6965376f__8677__47ea__a757__23e14c179149-2020255576!2K08i1",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "16/479 Ønsker byggesaksdokmenter for IVAR gjenvinningsstasjon Nordmarka - Fiskåvegen 265",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/801",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Q Rådgivning As",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019695!uKgPEV/d-6965376f__8677__47ea__a757__23e14c179149-2020255588!DqEcNK",
+    "filer": [
+      {
+        "tekst": "16/479 Ønsker byggesaksdokmenter for IVAR gjenvinningsstasjon Nordmarka - Fiskåvegen 265 (pdf, 60KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1232021_1_A!d-2020255588!fac8fJ?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "9/73 9/79 Svar på forhåndsvarsel om pålegg om opphør av bruk av naust til annet enn lagerformål",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/744",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Jan Vervik",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019157!FOZ61I/d-6965376f__8677__47ea__a757__23e14c179149-2020255531!62sTh2",
+    "filer": [
+      {
+        "tekst": "9/73 9/79 Svar på forhåndsvarsel om pålegg om opphør av bruk av naust til annet enn lagerformål (pdf, 112KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231907_1_A!d-2020255531!GYeVhY?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "3/2, 23 Tilsynsrapport - molo samt øvrige tiltak på land ved nabogrense - Sørskårvegen 77",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/315",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Jærconsult AS",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017743!GSp2gC/d-6965376f__8677__47ea__a757__23e14c179149-2020255102!bmmAy2",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Tilbakemelding på forespørsel om innsyn i utbyggingsavtaler som involverer Steinar Skjervik - Strand kommune",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/502",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Stavanger Aftenblad As",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016263!XdDDvB/d-6965376f__8677__47ea__a757__23e14c179149-2020255289!fmIpaX",
+    "filer": [
+      {
+        "tekst": "Tilbakemelding på forespørsel om innsyn i utbyggingsavtaler som involverer Steinar Skjervik - Strand kommune (pdf, 113KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231232_1_A!d-2020255289!hmMQu2?pid=29"
+      },
+      {
+        "tekst": "Stavanger Aftenblad ber om innsyn i utbyggingsavtaler som involverer Steinar Skjervik - 15.12.2025 (pdf, 48KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231233_1_A!d-2020255289!m7QsR8?pid=29"
+      },
+      {
+        "tekst": "Aftenbladet purrer på innsynsforespørsel 05.01.2026 (pdf, 114KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231234_1_A!d-2020255289!BlDyhp?pid=29"
+      },
+      {
+        "tekst": "Kommunens foreløpige svar datert 07.01.2026 (pdf, 116KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231235_1_A!d-2020255289!Zv7itJ?pid=29"
+      },
+      {
+        "tekst": "Oversendelse av utbyggingsavtale i kommunens brev datert 28.01.2025 (pdf, 194KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231329_1_A!d-2020255289!1V0pni?pid=29"
+      },
+      {
+        "tekst": "Signert utbyggingsavtale for utbygging i Moen 1A og 1B (pdf, 913KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231330_1_A!d-2020255289!wbc9wW?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "NVEs uttalelse - Mindre endring av plan - Detaljregulering - Moen - Arealplanid. 1130_85-1",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/640",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Norges Vassdrags- Og Energidirektorat (nve)",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019470!MKbKho/d-6965376f__8677__47ea__a757__23e14c179149-2020255427!jiT6jP",
+    "filer": [
+      {
+        "tekst": "NVEs uttalelse - Mindre endring av plan - Detaljregulering - Moen - Arealplanid. 1130_85-1 (pdf, 66KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231627_1_A!d-2020255427!QeG50A?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Orientering om endringer i krisesenterloven og nytt rundskriv 20-2026",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/708",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Statsforvaltaren I Rogaland",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020001315!Paw45t/d-6965376f__8677__47ea__a757__23e14c179149-2020255495!hKwZv5",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Tilbud om barnehageplass i Jørpeland barnehage",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/719",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Stine Rosså Larsen",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019666!JTvk2e/d-6965376f__8677__47ea__a757__23e14c179149-2020255506!YWPhwh",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "53/7 Signert kontrollerklæring for matrikkelføring grensejustering kommunal veggrunn",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/732",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Rycon As",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019166!aYqHYs/d-6965376f__8677__47ea__a757__23e14c179149-2020255519!udVBIh",
+    "filer": [
+      {
+        "tekst": "53/7 Signert kontrollerklæring for matrikkelføring grensejustering kommunal veggrunn (pdf, 105KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231886_1_A!d-2020255519!tcwKvD?pid=29"
+      },
+      {
+        "tekst": "Sidemannskontroll av matrikkelføring 456-25 (pdf, 648KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231887_1_A!d-2020255519!e8sBzA?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Søknad - sommervikar heldøgnstjenesten - omsorg",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/693",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019618!EFWNlq/d-6965376f__8677__47ea__a757__23e14c179149-2020255480!C5bGji",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Søknad - virksomhetsleder - Kultur og næring",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/738",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Emil Andreas Bremnes Tanem",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019232!8zzTpn/d-6965376f__8677__47ea__a757__23e14c179149-2020255525!fMwlWy",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Taushetserklæring",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/792",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Alina Streshna",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2013000672!XjkSdY/d-6965376f__8677__47ea__a757__23e14c179149-2020255579!tVzPbR",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Tilbud om barnehageplass i Jørpeland barnehage",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/722",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Katia Madyar",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019666!JTvk2e/d-6965376f__8677__47ea__a757__23e14c179149-2020255509!nOiteb",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Svar på oversendelse av oppdatert planforslag - PlanID 202303 - detaljregulering for Kvednanesvegen 58",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/285",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Multiconsult Norge As",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020011952!evSz4W/d-6965376f__8677__47ea__a757__23e14c179149-2020255072!AS8L9X",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Manglende dokumentasjon",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/558",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016271!S9eKey/d-6965376f__8677__47ea__a757__23e14c179149-2020255345!3axy3n",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "43/358 Faglig vurdering av Barkvedkrossen",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/725",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Rogaland Fylkeskommune Samferdselsavdelingen",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016052!8nEw4J/d-6965376f__8677__47ea__a757__23e14c179149-2020255512!126nqP",
+    "filer": [
+      {
+        "tekst": "43/358 Faglig vurdering av Barkvedkrossen (pdf, 6MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231875_1_A!d-2020255512!Gcowzo?pid=29"
+      },
+      {
+        "tekst": "Vedrørende avkjøringstillatelse i Barkvedkrossen - gnr. 43 bnr. 109 (pdf, 441KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231877_1_A!d-2020255512!j3CEuy?pid=29"
+      },
+      {
+        "tekst": "E-post - 43/358 korrespondanse (pdf, 325KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231876_1_A!d-2020255512!fhmlkj?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Søknad om barnehageplass",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/779",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Deborah Theuerkauf",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019666!JTvk2e/d-6965376f__8677__47ea__a757__23e14c179149-2020255566!k7vOAM",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Bekreftelse på mottatt søknad - lærer - hovedutlysning",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/694",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019709!FYqTAK/d-6965376f__8677__47ea__a757__23e14c179149-2020255481!e2PSmq",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Søknad - lærer - hovedutlysning",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/697",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019709!FYqTAK/d-6965376f__8677__47ea__a757__23e14c179149-2020255484!9adLp2",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Bekreftelse på mottatt søknad - lærer - hovedutlysning",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/695",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019709!FYqTAK/d-6965376f__8677__47ea__a757__23e14c179149-2020255482!cljdby",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Søknad om barnehageplass",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/762",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Najah Mazen Chhimeh",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019666!JTvk2e/d-6965376f__8677__47ea__a757__23e14c179149-2020255549!RKOula",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Bekreftelse på mottatt søknad - virksomhetsleder - Kultur og næring",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/690",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019232!8zzTpn/d-6965376f__8677__47ea__a757__23e14c179149-2020255477!urpcZ8",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Hedret ildsjeler, unge talenter og Årets Strandbu 2025 - revisjon: 1 - Endret: 09.01.2026",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/824",
+    "dokumenttype": "Internt notat (X)",
+    "avsender_mottaker": "",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019688!CHZlGZ/d-6965376f__8677__47ea__a757__23e14c179149-2020255611!w0qHdW",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Referat fra intervju",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/632",
+    "dokumenttype": "Internt notat (X)",
+    "avsender_mottaker": "",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019732!WFJ1P7/d-6965376f__8677__47ea__a757__23e14c179149-2020255419!302Ciy",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "44/90 Avvist sak - vannmåler ferdigmelding",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/617",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Dnf As",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016868!OkfYSj/d-6965376f__8677__47ea__a757__23e14c179149-2020255404!G10nqD",
+    "filer": [
+      {
+        "tekst": "44/90 Avvist sak - vannmåler ferdigmelding (pdf, 233KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231541_1_A!d-2020255404!pcelmb?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Melding til leverandør - opsjon",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/621",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Gk Norge As",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020007053!GoxNAu/d-6965376f__8677__47ea__a757__23e14c179149-2020255408!0VP2bK",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Formell klage på legevaktens håndtering",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/742",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019752!JaXpdT/d-6965376f__8677__47ea__a757__23e14c179149-2020255529!On66YU",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Søknad - sommervikar heldøgnstjenesten - omsorg",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/819",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019618!EFWNlq/d-6965376f__8677__47ea__a757__23e14c179149-2020255606!eNHTLN",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Bekreftelse på mottatt søknad - sommervikar heldøgnstjenesten - omsorg",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/692",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019618!EFWNlq/d-6965376f__8677__47ea__a757__23e14c179149-2020255479!nH5OOi",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "PlanID 202502 Komplett planforslag til førstegangsbehandling - Tau Datasenter",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/724",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Vial As",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017457!kRodoa/d-6965376f__8677__47ea__a757__23e14c179149-2020255511!FfSNAO",
+    "filer": [
+      {
+        "tekst": "PlanID 202502 Komplett planforslag til førstegangsbehandling - Tau Datasenter (pdf, 129KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231852_1_A!d-2020255511!vAFB8p?pid=29"
+      },
+      {
+        "tekst": "_202502_Planbeskrivelse_08.01.2026 (pdf, 21,2MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231854_1_A!d-2020255511!hHwMPa?pid=29"
+      },
+      {
+        "tekst": "_202502_Planbeskrivelse_08.01.2026 (pdf, 5,6MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231855_1_A!d-2020255511!93uuGS?pid=29"
+      },
+      {
+        "tekst": "Vedlegg 1_Referat fra oppstartsmøte 20.06.25 (pdf, 423KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231856_1_A!d-2020255511!mjsvFa?pid=29"
+      },
+      {
+        "tekst": "Vedlegg 2_Vedtatt planprogram_Tau Nordmarka_24.10.2025 (pdf, 2,4MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231864_1_A!d-2020255511!19mM3R?pid=29"
+      },
+      {
+        "tekst": "Vedlegg 3_Merknadsbehandling_Varsel om planoppstart (pdf, 542KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231865_1_A!d-2020255511!DK8TXB?pid=29"
+      },
+      {
+        "tekst": "Vedlegg 4_Plankart_07.01.2026 (pdf, 1,3MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231866_1_A!d-2020255511!nAJq74?pid=29"
+      },
+      {
+        "tekst": "Vedlegg 4_Plankart_07.01.2026 (sos, 180KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231867_1_A!d-2020255511!R3iaEn?pid=29"
+      },
+      {
+        "tekst": "Vedlegg 4_Plankart_07.01.2026 (pdf, 136KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231868_1_A!d-2020255511!JjbYhy?pid=29"
+      },
+      {
+        "tekst": "Vedlegg 5_Bestemmelser_08.01.2026 (pdf, 103KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231869_1_A!d-2020255511!Em4Akd?pid=29"
+      },
+      {
+        "tekst": "Vedlegg 5_Bestemmelser_08.01.2026_sporing (pdf, 150KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231870_1_A!d-2020255511!LYtH1t?pid=29"
+      },
+      {
+        "tekst": "Vedlegg 6_Illustrasjonsplaner_08.01.2026 (pdf, 2,7MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231871_1_A!d-2020255511!6djAew?pid=29"
+      },
+      {
+        "tekst": "Vedlegg 7_Risiko- og sårbarhetsanalyse_06-01-26 (pdf, 2,1MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231872_1_A!d-2020255511!LZrXq7?pid=29"
+      },
+      {
+        "tekst": "Vedlegg 8_VA_Rammeplan_08.01.2026 (pdf, 18,5MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231873_1_A!d-2020255511!SYx65E?pid=29"
+      },
+      {
+        "tekst": "Vedlegg 9_Mobilitetsplan med vedlegg_08.01.2026 (pdf, 3,1MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231874_1_A!d-2020255511!nK8Asf?pid=29"
+      },
+      {
+        "tekst": "Vedlegg 10_Fagrapport Landskapsbildet_08.01.2026 (pdf, 9,2MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231857_1_A!d-2020255511!P7XgUj?pid=29"
+      },
+      {
+        "tekst": "Vedlegg 11_Fagrapport Friluftsliv_08.01.2026 (pdf, 6,9MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231858_1_A!d-2020255511!Mlcbxi?pid=29"
+      },
+      {
+        "tekst": "Vedlegg 12_Fagrapport_Luftforurensning_22-12-2025 (pdf, 4MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231859_1_A!d-2020255511!DjuYiz?pid=29"
+      },
+      {
+        "tekst": "Vedlegg 13_Fagrapport Klimagassutslipp_08-01-26 (pdf, 2,9MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231860_1_A!d-2020255511!JgLufj?pid=29"
+      },
+      {
+        "tekst": "Vedlegg 14_Samlokalisering med hydrogenanlegg_06.01.2026 (pdf, 2MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231861_1_A!d-2020255511!fsn22A?pid=29"
+      },
+      {
+        "tekst": "Vedlegg 15_Fagrapport Naturmiljø_Nordmarka_08.01.2026 (pdf, 3,1MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231862_1_A!d-2020255511!ZCR9RN?pid=29"
+      },
+      {
+        "tekst": "Vedlegg 16 - Fagrapport Støy_08.01.2026 (pdf, 9,2MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231906_1_A!d-2020255511!vVb13d?pid=29"
+      },
+      {
+        "tekst": "Vedlegg 17_Fagrapport Energibruk og energiløsninger_08.01.2026 (pdf, 1,6MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231863_1_A!d-2020255511!YvEaCg?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Svar - Sand i strøkasser - Kvartsvegen",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/622",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Aud Margaret Hausken",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016226!UPLGte/d-6965376f__8677__47ea__a757__23e14c179149-2020255409!GICcqe",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Spørsmål om nye aktører i Grahamshuset",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/685",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Sonja Marie Hargaut",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2018000857!gPmxWr/d-6965376f__8677__47ea__a757__23e14c179149-2020255472!Yej9bl",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Referat fra intervju",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/662",
+    "dokumenttype": "Internt notat (X)",
+    "avsender_mottaker": "",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019732!WFJ1P7/d-6965376f__8677__47ea__a757__23e14c179149-2020255449!6TAK5f",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Sykefraværsoppfølging 4. kvartal 2025",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/559",
+    "dokumenttype": "Internt notat (X)",
+    "avsender_mottaker": "",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016209!3igW4f/d-6965376f__8677__47ea__a757__23e14c179149-2020255346!aHx2Yd",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Svar - Strøing på Jonsokberget",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/644",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Tove Cecilie Håvardsen",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016226!UPLGte/d-6965376f__8677__47ea__a757__23e14c179149-2020255431!6MElKJ",
+    "filer": [
+      {
+        "tekst": "Svar - Strøing på Jonsokberget (pdf, 109KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231640_1_A!d-2020255431!D1AOXc?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Utbetalingsvedtak av 07.01.2026",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/718",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Helfo",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019675!DWAmzY/d-6965376f__8677__47ea__a757__23e14c179149-2020255505!xIOL0W",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "7/5 Egenerklæring om konsesjonsfrihet",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/802",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Fiskå Industriområde As",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019755!Sz1AHs/d-6965376f__8677__47ea__a757__23e14c179149-2020255589!bRdknR",
+    "filer": [
+      {
+        "tekst": "7/5 Egenerklæring om konsesjonsfrihet (pdf, 4,5MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1232022_1_A!d-2020255589!rJ17ZQ?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "44/90 Godkjenning av melding om utført arbeid på vannmåler - Fjelltunvegen 51",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/638",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Dnf As",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019739!UXhXMa/d-6965376f__8677__47ea__a757__23e14c179149-2020255425!2dHalL",
+    "filer": [
+      {
+        "tekst": "44/90 Godkjenning av melding om utført arbeid på vannmåler - Fjelltunvegen 51 (pdf, 158KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231626_1_A!d-2020255425!5FQAWt?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "(MV-ID:176830) Varsel om endring av underdatabehandlere for Vitec MV",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/681",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Gerny Berge Vestbøstad",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020008990!2XUtK7/d-6965376f__8677__47ea__a757__23e14c179149-2020255468!QaQ3WF",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Søknad om barnehageplass",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/811",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Rebecca Vermedal Norgren",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019666!JTvk2e/d-6965376f__8677__47ea__a757__23e14c179149-2020255598!1bcJRB",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "43/16 Purring på mail sendt 19.12.2025",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/740",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Miranda Austrheim Næss",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019623!ZgABwR/d-6965376f__8677__47ea__a757__23e14c179149-2020255527!8A0N8E",
+    "filer": [
+      {
+        "tekst": "43/16 Purring på mail sendt 19.12.2025 (pdf, 65KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231900_1_A!d-2020255527!6jHRg0?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Ønsker å jobbe som veterinær",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/794",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Oleg Plysko",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019664!0euFvs/d-6965376f__8677__47ea__a757__23e14c179149-2020255581!VlUzWa",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Foreløpig svar - 31/44 - naust Håbakk",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/683",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Rycon As",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020018616!jRoIPH/d-6965376f__8677__47ea__a757__23e14c179149-2020255470!NSFGro",
+    "filer": [
+      {
+        "tekst": "Foreløpig svar - 31/44 - naust Håbakk (pdf, 84KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231752_1_A!d-2020255470!yqPHKm?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Befaring fysisk sikkerhet 08.12.2025 - Nav Strand",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/769",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Nav Rogaland",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2013004296!adoc11/d-6965376f__8677__47ea__a757__23e14c179149-2020255556!6yjpnZ",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Elevene skal beskyttes mot skadelig innhold på nett",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/793",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Kunnskapsdepartementet",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016685!TKFYUo/d-6965376f__8677__47ea__a757__23e14c179149-2020255580!iWEpd8",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Taushetserklæring",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/790",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Thimon Kvame Ravndal",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2013000672!XjkSdY/d-6965376f__8677__47ea__a757__23e14c179149-2020255577!eVKFXL",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Tilbud om barnehageplass i Jørpeland barnehage",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/720",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Miziat Mohamad Dadako",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019666!JTvk2e/d-6965376f__8677__47ea__a757__23e14c179149-2020255507!CodPKN",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Svar vedrørende lukking av avvik nr. 2 og avvik nr. 4 - Torghuset",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/760",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Rogaland Brann Og Redning Iks",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2013002455!Uq4TSr/d-6965376f__8677__47ea__a757__23e14c179149-2020255547!KtVitF",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "63/9 Tillatelse til tiltak - driftsbygning - Idsevegen 346B",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2025/42303",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Reinert Idsø",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020018776!MVSUEt/d-6965376f__8677__47ea__a757__23e14c179149-2020254569!v9ImGT",
+    "filer": [
+      {
+        "tekst": "63/9 Tillatelse til tiltak - driftsbygning - Idsevegen 346B (pdf, 117KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1229507_1_A!d-2020254569!wytzFH?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Melding om dødsbo med landbrukseiendom",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/795",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Sør-Rogaland Tingrett",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020004793!iQTYRc/d-6965376f__8677__47ea__a757__23e14c179149-2020255582!4Tnm3R",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "31/1/85 Tilbakemelding om mangler - bruksendring/fasadeendring/tilbygg/riving- Einerhaugvegen 15 - Snorre Kristian Walde",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/433",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Job Arkitekter As",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020018794!3wtCHX/d-6965376f__8677__47ea__a757__23e14c179149-2020255220!FsZ7th",
+    "filer": [
+      {
+        "tekst": "31/1/85 Tilbakemelding om mangler - bruksendring/fasadeendring/tilbygg/riving- Einerhaugvegen 15 - Snorre Kristian Walde (pdf, 116KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231100_1_A!d-2020255220!GmdqII?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Bekreftelse på mottatt søknad - virksomhetsleder - Kultur og næring",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/691",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019232!8zzTpn/d-6965376f__8677__47ea__a757__23e14c179149-2020255478!oXXJke",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Melding fra leverandør - Besvarelse på markedsundersøkelse - Forvaltningssystem (FDV) for bygg og eiendom",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/682",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: LAFT Software AS",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019099!7NByyM/d-6965376f__8677__47ea__a757__23e14c179149-2020255469!p1y8us",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Byggemøtereferat nr. 9 - 07.01.2026",
+    "dato": "09.01.2026",
+    "dato_iso": "2026-01-09",
+    "dokumentID": "2026/726",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Novaform As",
+    "side": 1,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020008577!l3LAg0/d-6965376f__8677__47ea__a757__23e14c179149-2020255513!Cw3L06",
+    "filer": [
+      {
+        "tekst": "Byggemøtereferat nr. 9 - 07.01.2026 (pdf, 318KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231879_1_A!d-2020255513!Y9prQl?pid=29"
+      },
+      {
+        "tekst": "E-post - Taumarka delfelt B1 - opparbeidelse offentlig VVA - referat fra byggemøte nr. 9 (pdf, 105KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231878_1_A!d-2020255513!9qUZ5J?pid=29"
       }
     ],
     "status": "Publisert"
@@ -47,10 +1544,15 @@
     "dokumentID": "2026/64",
     "dokumenttype": "Utgående dokument",
     "avsender_mottaker": "Mottaker: Håkon Strand",
-    "side": 1,
+    "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020018774!e2xKso/d-6965376f__8677__47ea__a757__23e14c179149-2020254851!YaSgUr",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "Veiledning - Sak ang hest, telt, og oppgrusing på Solbakk (pdf, 177KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1230236_1_A!d-2020254851!lgpXxx?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Bekreftelse på mottatt søknad - sommervikar hjemmetjenesten - omsorg",
@@ -59,7 +1561,7 @@
     "dokumentID": "2026/529",
     "dokumenttype": "Utgående dokument",
     "avsender_mottaker": "",
-    "side": 1,
+    "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019619!MWql5q/d-6965376f__8677__47ea__a757__23e14c179149-2020255316!daW7ST",
     "filer": [],
     "status": "Må bes om innsyn"
@@ -71,7 +1573,7 @@
     "dokumentID": "2026/539",
     "dokumenttype": "Inngående dokument",
     "avsender_mottaker": "",
-    "side": 1,
+    "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019709!FYqTAK/d-6965376f__8677__47ea__a757__23e14c179149-2020255326!sphntl",
     "filer": [],
     "status": "Må bes om innsyn"
@@ -83,10 +1585,15 @@
     "dokumentID": "2026/545",
     "dokumenttype": "Internt notat (X)",
     "avsender_mottaker": "",
-    "side": 1,
+    "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020018504!aod7X7/d-6965376f__8677__47ea__a757__23e14c179149-2020255332!amBPi7",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "107/7 Status i sak (pdf, 124KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231318_1_A!d-2020255332!QhStAQ?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Foreløpig svar etter spørsmål om innsyn i utbyggingsavtaler som involverer Steinar Skjervik",
@@ -107,7 +1614,7 @@
     "dokumentID": "2026/520",
     "dokumenttype": "Inngående dokument",
     "avsender_mottaker": "",
-    "side": 1,
+    "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017976!aaT7Q2/d-6965376f__8677__47ea__a757__23e14c179149-2020255307!LFb1Sv",
     "filer": [],
     "status": "Må bes om innsyn"
@@ -119,7 +1626,7 @@
     "dokumentID": "2026/522",
     "dokumenttype": "Inngående dokument",
     "avsender_mottaker": "",
-    "side": 1,
+    "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019232!8zzTpn/d-6965376f__8677__47ea__a757__23e14c179149-2020255309!PaINS2",
     "filer": [],
     "status": "Må bes om innsyn"
@@ -131,7 +1638,7 @@
     "dokumentID": "2026/425",
     "dokumenttype": "Internt notat (X)",
     "avsender_mottaker": "",
-    "side": 1,
+    "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016209!3igW4f/d-6965376f__8677__47ea__a757__23e14c179149-2020255212!RH3Nt8",
     "filer": [],
     "status": "Må bes om innsyn"
@@ -143,10 +1650,15 @@
     "dokumentID": "2026/497",
     "dokumenttype": "Inngående dokument",
     "avsender_mottaker": "Avsender: Lasse Sørskår Negård",
-    "side": 1,
+    "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020014903!VwdYWg/d-6965376f__8677__47ea__a757__23e14c179149-2020255284!zRoUoN",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "31/357 Søknad om ferdigattest - Løbrekklia 27 - Vilde Ottesen Sørheim (pdf, 464KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231222_1_A!d-2020255284!pZhFZC?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Eiendomsskattegrunnlag for kraftselskap - inntektsår 2018 - eiendomsskatteår 2020",
@@ -155,7 +1667,7 @@
     "dokumentID": "2026/583",
     "dokumenttype": "Inngående dokument",
     "avsender_mottaker": "",
-    "side": 1,
+    "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019707!kgQC9c/d-6965376f__8677__47ea__a757__23e14c179149-2020255370!cnf491",
     "filer": [],
     "status": "Må bes om innsyn"
@@ -191,7 +1703,7 @@
     "dokumentID": "2026/536",
     "dokumenttype": "Utgående dokument",
     "avsender_mottaker": "",
-    "side": 1,
+    "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019709!FYqTAK/d-6965376f__8677__47ea__a757__23e14c179149-2020255323!2PgGSd",
     "filer": [],
     "status": "Må bes om innsyn"
@@ -203,7 +1715,7 @@
     "dokumentID": "2026/535",
     "dokumenttype": "Utgående dokument",
     "avsender_mottaker": "",
-    "side": 1,
+    "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019709!FYqTAK/d-6965376f__8677__47ea__a757__23e14c179149-2020255322!8hC8ZS",
     "filer": [],
     "status": "Må bes om innsyn"
@@ -227,10 +1739,15 @@
     "dokumentID": "2026/463",
     "dokumenttype": "Utgående dokument",
     "avsender_mottaker": "Mottaker: Lnett As",
-    "side": 1,
+    "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019720!y7hMGa/d-6965376f__8677__47ea__a757__23e14c179149-2020255250!Ob0vvT",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "Svar på forespørsel om VA-data for Sørskårvegen 461 (pdf, 108KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231170_1_A!d-2020255250!gUJ75C?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Fellingsrapport for rådyr 2025",
@@ -239,10 +1756,15 @@
     "dokumentID": "2026/643",
     "dokumenttype": "Inngående dokument",
     "avsender_mottaker": "Avsender: Alf Sigve Høllesli",
-    "side": 1,
+    "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019690!WZpoKL/d-6965376f__8677__47ea__a757__23e14c179149-2020255430!P4P3yX",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "Fellingsrapport for rådyr 2025 (pdf, 895KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231639_1_A!d-2020255430!naXFxn?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Eiendomsskattegrunnlag for kraftselskap - inntektsår 2021 - eiendomsskatteår 2023",
@@ -251,7 +1773,7 @@
     "dokumentID": "2026/586",
     "dokumenttype": "Inngående dokument",
     "avsender_mottaker": "",
-    "side": 1,
+    "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019707!kgQC9c/d-6965376f__8677__47ea__a757__23e14c179149-2020255373!uYCSDy",
     "filer": [],
     "status": "Må bes om innsyn"
@@ -263,7 +1785,7 @@
     "dokumentID": "2026/528",
     "dokumenttype": "Inngående dokument",
     "avsender_mottaker": "",
-    "side": 1,
+    "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019619!MWql5q/d-6965376f__8677__47ea__a757__23e14c179149-2020255315!VRkb83",
     "filer": [],
     "status": "Må bes om innsyn"
@@ -287,10 +1809,47 @@
     "dokumentID": "2026/546",
     "dokumenttype": "Inngående dokument",
     "avsender_mottaker": "Avsender: Rycon As",
-    "side": 1,
+    "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019166!aYqHYs/d-6965376f__8677__47ea__a757__23e14c179149-2020255333!hHWiA7",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "53/7 Protokoll og dokumentasjon - oppmålingsforretning grensejustering kommunal veggrunn (pdf, 89KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231319_1_A!d-2020255333!twEVb9?pid=29"
+      },
+      {
+        "tekst": "Justering 53 7 441 (sos, 3KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231320_1_A!d-2020255333!FtNHJF?pid=29"
+      },
+      {
+        "tekst": "mailkorrespondanse Strand kommune (pdf, 4,3MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231321_1_A!d-2020255333!WCnWHM?pid=29"
+      },
+      {
+        "tekst": "mailkorrespondanse Tungland (pdf, 669KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231322_1_A!d-2020255333!X2rtYR?pid=29"
+      },
+      {
+        "tekst": "Protokoll 53 7 441 (pdf, 1,7MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231323_1_A!d-2020255333!GYkrcD?pid=29"
+      },
+      {
+        "tekst": "Vedlegg 1 - Partsliste (pdf, 406KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231324_1_A!d-2020255333!vRkWFG?pid=29"
+      },
+      {
+        "tekst": "Vedlegg 2 - Punktdokumentasjon (pdf, 184KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231325_1_A!d-2020255333!zJsDpB?pid=29"
+      },
+      {
+        "tekst": "Vedlegg 3 - Avtale om grensejustering (pdf, 241KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231326_1_A!d-2020255333!NOYG7m?pid=29"
+      },
+      {
+        "tekst": "Vedlegg 4 - Egenerklæring om eierskap til offentlig vei (pdf, 988KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231327_1_A!d-2020255333!7cUJHo?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Tilbudsfasen - forhandlinger - revidert tilbud 22.10.2025",
@@ -311,7 +1870,7 @@
     "dokumentID": "2026/436",
     "dokumenttype": "Internt notat (X)",
     "avsender_mottaker": "",
-    "side": 1,
+    "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016209!3igW4f/d-6965376f__8677__47ea__a757__23e14c179149-2020255223!aAntG1",
     "filer": [],
     "status": "Må bes om innsyn"
@@ -323,10 +1882,15 @@
     "dokumentID": "2026/678",
     "dokumenttype": "Inngående dokument",
     "avsender_mottaker": "Avsender: Statsforvaltaren I Rogaland",
-    "side": 1,
+    "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020012783!XIvR4o/d-6965376f__8677__47ea__a757__23e14c179149-2020255465!0vENSN",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "E-postkorrespondanse angående innsigelse til stiene til Preikestolen (pdf, 166KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231740_1_A!d-2020255465!4MLvzQ?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Invitasjon til konferanse for kommunale eldreråd - oppdatert program - 10.03.2026",
@@ -335,7 +1899,7 @@
     "dokumentID": "2026/616",
     "dokumenttype": "Inngående dokument",
     "avsender_mottaker": "Avsender: Rogaland Fylkeskommune",
-    "side": 1,
+    "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020009739!3xozPN/d-6965376f__8677__47ea__a757__23e14c179149-2020255403!OE6L2F",
     "filer": [],
     "status": "Må bes om innsyn"
@@ -359,10 +1923,27 @@
     "dokumentID": "2026/495",
     "dokumenttype": "Inngående dokument",
     "avsender_mottaker": "Avsender: Faber Bygg As",
-    "side": 1,
+    "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019722!p9yeQo/d-6965376f__8677__47ea__a757__23e14c179149-2020255282!XNoonk",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "53/334 Søknad om ferdigattest - Steinhagen 3 - Faber Bygg (pdf, 98KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231217_1_A!d-2020255282!PjjPO0?pid=29"
+      },
+      {
+        "tekst": "Q Kontrollerklæring (pdf, 174KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231219_1_A!d-2020255282!n4kU7m?pid=29"
+      },
+      {
+        "tekst": "Q Ferdigmelding - søknad om midlertidig brukstillatelse (pdf, 1,6MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231220_1_A!d-2020255282!Gk9FTV?pid=29"
+      },
+      {
+        "tekst": "Q E-post - ferdigattest Steinhagen 3, 4100 Jørpeland - GårdsBruks nr 53334 (pdf, 122KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231218_1_A!d-2020255282!Xewl3y?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Bekreftelse på mottatt søknad - virksomhetsleder - Kultur og næring",
@@ -371,7 +1952,7 @@
     "dokumentID": "2026/523",
     "dokumenttype": "Utgående dokument",
     "avsender_mottaker": "",
-    "side": 1,
+    "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019232!8zzTpn/d-6965376f__8677__47ea__a757__23e14c179149-2020255310!m3CUU9",
     "filer": [],
     "status": "Må bes om innsyn"
@@ -383,7 +1964,7 @@
     "dokumentID": "2026/584",
     "dokumenttype": "Inngående dokument",
     "avsender_mottaker": "",
-    "side": 1,
+    "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019707!kgQC9c/d-6965376f__8677__47ea__a757__23e14c179149-2020255371!ToU5V7",
     "filer": [],
     "status": "Må bes om innsyn"
@@ -395,7 +1976,7 @@
     "dokumentID": "2026/396",
     "dokumenttype": "Utgående dokument",
     "avsender_mottaker": "Mottaker: Camilla Sagård",
-    "side": 1,
+    "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017210!MRAzZz/d-6965376f__8677__47ea__a757__23e14c179149-2020255183!LnJNyX",
     "filer": [],
     "status": "Må bes om innsyn"
@@ -407,10 +1988,15 @@
     "dokumentID": "2026/626",
     "dokumenttype": "Inngående dokument",
     "avsender_mottaker": "Avsender: Siv Tone Kvia Rosnes",
-    "side": 1,
+    "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020018332!VYx9ua/d-6965376f__8677__47ea__a757__23e14c179149-2020255413!sBIqMK",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "63/13/19 Trekking av søknad om dispensasjon - tilbygg - tokkavig 38 - Siv Tone Kvia Rosnes (pdf, 162KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231599_1_A!d-2020255413!lgItAr?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Eiendomsskattegrunnlag for kraftselskap - inntektsår 2023 - eiendomsskatteår 2025",
@@ -419,7 +2005,7 @@
     "dokumentID": "2026/588",
     "dokumenttype": "Inngående dokument",
     "avsender_mottaker": "",
-    "side": 1,
+    "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019707!kgQC9c/d-6965376f__8677__47ea__a757__23e14c179149-2020255375!rBjo0O",
     "filer": [],
     "status": "Må bes om innsyn"
@@ -431,7 +2017,7 @@
     "dokumentID": "2026/448",
     "dokumenttype": "Inngående dokument",
     "avsender_mottaker": "Avsender: Strand Videregående Skole",
-    "side": 1,
+    "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019716!6Rka8S/d-6965376f__8677__47ea__a757__23e14c179149-2020255235!w4YV3A",
     "filer": [],
     "status": "Må bes om innsyn"
@@ -443,10 +2029,19 @@
     "dokumentID": "2026/398",
     "dokumenttype": "Utgående dokument",
     "avsender_mottaker": "Mottaker: Kartverket Tinglysing",
-    "side": 1,
+    "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019685!XQMlGv/d-6965376f__8677__47ea__a757__23e14c179149-2020255185!m0Sae6",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "16/86 Melding til tinglysing - sletting av seksjonering (pdf, 97KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231012_1_A!d-2020255185!Haj8E2?pid=29"
+      },
+      {
+        "tekst": "16/86 Begjæring om sletting av seksjonering (pdf, 23,7MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231014_1_A!d-2020255185!mM7hDL?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Søknad - sommervikar - Psykiatritjenesten",
@@ -469,8 +2064,25 @@
     "avsender_mottaker": "Avsender: As Ryfylke Trelast",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019083!gNe6Ab/d-6965376f__8677__47ea__a757__23e14c179149-2020255339!9g9X9a",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "31/517 Vedrørende mottatt merknad for omsøkt tiltak - oppføring av carport m/bod og ny avkjørsel - Kongsteinsvegen 32 B - Bente Næss (pdf, 81KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231337_1_A!d-2020255339!38qqb8?pid=29"
+      },
+      {
+        "tekst": "C Nabomerknad fra 31/451 (pdf, 102KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231338_1_A!d-2020255339!4EadXG?pid=29"
+      },
+      {
+        "tekst": "C Nabomerknad fra 31/451 (pdf, 102KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231339_1_A!d-2020255339!1WI34T?pid=29"
+      },
+      {
+        "tekst": "C Svar på nabomerknad fra 31/451 (pdf, 533KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231340_1_A!d-2020255339!ZMwgCV?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Jonsokberget bo og aktivitetssenter og Tautunet bo og aktivitetssenter - Rapport etter tilsyn",
@@ -479,7 +2091,7 @@
     "dokumentID": "2026/270",
     "dokumenttype": "Utgående dokument",
     "avsender_mottaker": "Mottaker: Strand Kommune",
-    "side": 1,
+    "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019696!2W3nh7/d-6965376f__8677__47ea__a757__23e14c179149-2020255057!GvtKiA",
     "filer": [],
     "status": "Må bes om innsyn"
@@ -491,10 +2103,27 @@
     "dokumentID": "2026/416",
     "dokumenttype": "Utgående dokument",
     "avsender_mottaker": "Mottaker: Kartverket Tinglysing",
-    "side": 1,
+    "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020018295!caOCpE/d-6965376f__8677__47ea__a757__23e14c179149-2020255203!XD6Dck",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "16207 Melding til tinglysing arealoverføring (pdf, 106KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231056_1_A!d-2020255203!9UDNDQ?pid=29"
+      },
+      {
+        "tekst": "16/207 Ny erklæring om arealoverføring (pdf, 1,8MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231059_1_A!d-2020255203!QQlsJu?pid=29"
+      },
+      {
+        "tekst": "16/207 16/232 Dokumentene har mangler og kan ikke tinglyses (pdf, 1,2MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231060_1_A!d-2020255203!Ceamy4?pid=29"
+      },
+      {
+        "tekst": "16207 Fritak for egenerklæring (pdf, 92KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231062_1_A!d-2020255203!RcfB6G?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "53/295 Søknad om hogst og rydding på kommunal grunn",
@@ -503,10 +2132,15 @@
     "dokumentID": "2026/562",
     "dokumenttype": "Inngående dokument",
     "avsender_mottaker": "Avsender: Jostein Tveiten",
-    "side": 1,
+    "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2019002064!9wOfpk/d-6965376f__8677__47ea__a757__23e14c179149-2020255349!MDayBK",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "53/295 Søknad om hogst og rydding på kommunal grunn (pdf, 600KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231355_1_A!d-2020255349!4U3dWI?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Bekreftelse på mottatt søknad - lærer - hovedutlysning",
@@ -515,7 +2149,7 @@
     "dokumentID": "2026/537",
     "dokumenttype": "Utgående dokument",
     "avsender_mottaker": "",
-    "side": 1,
+    "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019709!FYqTAK/d-6965376f__8677__47ea__a757__23e14c179149-2020255324!TAKUFy",
     "filer": [],
     "status": "Må bes om innsyn"
@@ -527,7 +2161,7 @@
     "dokumentID": "2026/499",
     "dokumenttype": "Inngående dokument",
     "avsender_mottaker": "",
-    "side": 1,
+    "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019729!SVU3v4/d-6965376f__8677__47ea__a757__23e14c179149-2020255286!cLx0ic",
     "filer": [],
     "status": "Må bes om innsyn"
@@ -539,10 +2173,27 @@
     "dokumentID": "2026/649",
     "dokumenttype": "Inngående dokument",
     "avsender_mottaker": "Avsender: Thomas Dalen",
-    "side": 1,
+    "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016802!u7QxZF/d-6965376f__8677__47ea__a757__23e14c179149-2020255436!xBU5s8",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "49/649 Ferdigmelding for utslippstillatelse - Dalavegen 440 (pdf, 101KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231653_1_A!d-2020255436!Y0Iih8?pid=29"
+      },
+      {
+        "tekst": "Kartskisse - 49/649 Dalavegen 440 (pdf, 36KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231654_1_A!d-2020255436!Zg9Ay0?pid=29"
+      },
+      {
+        "tekst": "Kartskisse med tegnforklaring - 49/649 Dalavegen 440 (pdf, 76KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231655_1_A!d-2020255436!fa7lU3?pid=29"
+      },
+      {
+        "tekst": "AS-BUILT VA, 49 649, Dalen.pdf tone (pdf, 644KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231656_1_A!d-2020255436!IDOE86?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Søknad om barnehageplass",
@@ -551,7 +2202,7 @@
     "dokumentID": "2026/609",
     "dokumenttype": "Inngående dokument",
     "avsender_mottaker": "Avsender: May Rasmussen Gotrik",
-    "side": 1,
+    "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019666!JTvk2e/d-6965376f__8677__47ea__a757__23e14c179149-2020255396!q6aq9J",
     "filer": [],
     "status": "Må bes om innsyn"
@@ -563,7 +2214,7 @@
     "dokumentID": "2026/659",
     "dokumenttype": "Inngående dokument",
     "avsender_mottaker": "Avsender: Klp Kommunekreditt As",
-    "side": 1,
+    "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019742!9QkoUn/d-6965376f__8677__47ea__a757__23e14c179149-2020255446!8oNpoQ",
     "filer": [],
     "status": "Må bes om innsyn"
@@ -575,7 +2226,7 @@
     "dokumentID": "2026/607",
     "dokumenttype": "Inngående dokument",
     "avsender_mottaker": "",
-    "side": 1,
+    "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020018559!5ZwtwG/d-6965376f__8677__47ea__a757__23e14c179149-2020255394!mRDfZ1",
     "filer": [],
     "status": "Må bes om innsyn"
@@ -599,7 +2250,7 @@
     "dokumentID": "2026/589",
     "dokumenttype": "Inngående dokument",
     "avsender_mottaker": "",
-    "side": 1,
+    "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019707!kgQC9c/d-6965376f__8677__47ea__a757__23e14c179149-2020255376!GPP2Ng",
     "filer": [],
     "status": "Må bes om innsyn"
@@ -611,7 +2262,7 @@
     "dokumentID": "2026/166",
     "dokumenttype": "Inngående dokument",
     "avsender_mottaker": "Avsender: Sør-Rogaland Tingrett Stavanger",
-    "side": 1,
+    "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020013798!NP6Pv6/d-6965376f__8677__47ea__a757__23e14c179149-2020254953!Ht9cf3",
     "filer": [
       {
@@ -628,7 +2279,7 @@
     "dokumentID": "2026/648",
     "dokumenttype": "Inngående dokument",
     "avsender_mottaker": "Avsender: Kommunalteknikk Anlegg Strand Kommune",
-    "side": 1,
+    "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2013000407!sV8X5K/d-6965376f__8677__47ea__a757__23e14c179149-2020255435!meC1r9",
     "filer": [
       {
@@ -657,7 +2308,7 @@
     "dokumentID": "2026/525",
     "dokumenttype": "Inngående dokument",
     "avsender_mottaker": "",
-    "side": 1,
+    "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019232!8zzTpn/d-6965376f__8677__47ea__a757__23e14c179149-2020255312!JpHpt7",
     "filer": [],
     "status": "Må bes om innsyn"
@@ -669,7 +2320,7 @@
     "dokumentID": "2026/541",
     "dokumenttype": "Inngående dokument",
     "avsender_mottaker": "",
-    "side": 1,
+    "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019709!FYqTAK/d-6965376f__8677__47ea__a757__23e14c179149-2020255328!HY9RAx",
     "filer": [],
     "status": "Må bes om innsyn"
@@ -693,7 +2344,7 @@
     "dokumentID": "2026/394",
     "dokumenttype": "Utgående dokument",
     "avsender_mottaker": "Mottaker: Flere mottakere",
-    "side": 1,
+    "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020009083!0Xmyzg/d-6965376f__8677__47ea__a757__23e14c179149-2020255181!pqJan0",
     "filer": [],
     "status": "Må bes om innsyn"
@@ -705,10 +2356,23 @@
     "dokumentID": "2026/641",
     "dokumenttype": "Inngående dokument",
     "avsender_mottaker": "Avsender: As Ryfylke Trelast",
-    "side": 1,
+    "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020014277!n0ESjM/d-6965376f__8677__47ea__a757__23e14c179149-2020255428!bSKIx0",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "31/66 Søknad om igangsettingstillatelse - leilighetsbygg - byggetrinn 2 - Gullbekkparken - Baax Bolig As (pdf, 198KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231630_1_A!d-2020255428!QB33Eo?pid=29"
+      },
+      {
+        "tekst": "G Gjennomføringsplan (pdf, 228KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231634_1_A!d-2020255428!BhmK5W?pid=29"
+      },
+      {
+        "tekst": "Q Vedleggsopplysninger (pdf, 142KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231635_1_A!d-2020255428!bKMhih?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Søknad - sommervikar heldøgnstjenesten - omsorg",
@@ -717,7 +2381,7 @@
     "dokumentID": "2026/526",
     "dokumenttype": "Inngående dokument",
     "avsender_mottaker": "",
-    "side": 1,
+    "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019618!EFWNlq/d-6965376f__8677__47ea__a757__23e14c179149-2020255313!JvcgXJ",
     "filer": [],
     "status": "Må bes om innsyn"
@@ -729,7 +2393,7 @@
     "dokumentID": "2026/532",
     "dokumenttype": "Inngående dokument",
     "avsender_mottaker": "",
-    "side": 1,
+    "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019709!FYqTAK/d-6965376f__8677__47ea__a757__23e14c179149-2020255319!Cl6LIO",
     "filer": [],
     "status": "Må bes om innsyn"
@@ -741,10 +2405,39 @@
     "dokumentID": "2026/604",
     "dokumenttype": "Inngående dokument",
     "avsender_mottaker": "Avsender: Thomas Dalen",
-    "side": 1,
+    "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020013854!oHsdAb/d-6965376f__8677__47ea__a757__23e14c179149-2020255391!fIiX7v",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "31/576 Ferdigmelding for vann- og avløpsarbeid - Austlivegen 3 (pdf, 212KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231488_1_A!d-2020255391!hQ5k8o?pid=29"
+      },
+      {
+        "tekst": "AS-BUILT VA, 48 146 og 19, Moen (2) (sos, 2KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231489_1_A!d-2020255391!XLLJs4?pid=29"
+      },
+      {
+        "tekst": "AS-BUILT VA, 48 146 og 19, Moen (pdf, 846KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231490_1_A!d-2020255391!V7Savj?pid=29"
+      },
+      {
+        "tekst": "AS-BUILT VA, 48 146 og 19, Moen (pdf, 846KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231491_1_A!d-2020255391!EQycxe?pid=29"
+      },
+      {
+        "tekst": "Kartskisse - 31/576 Austlivegen 3 (pdf, 67KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231492_1_A!d-2020255391!T3rSxu?pid=29"
+      },
+      {
+        "tekst": "Sluttdokumentasjon - 31/576 Austlivegen 3 (sos, 2KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231493_1_A!d-2020255391!jX0Ys5?pid=29"
+      },
+      {
+        "tekst": "Kartskisse med tegnforklaring - 31/576 Austlivegen 3 (pdf, 131KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231494_1_A!d-2020255391!JyPgTS?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "48/270 Søknad om rammetillatelse - veksthus, utekjøkken og rekreasjonsrom - Bjørnevegen 11 - Sveinung Gulestøl",
@@ -765,7 +2458,7 @@
     "dokumentID": "2026/582",
     "dokumenttype": "Inngående dokument",
     "avsender_mottaker": "",
-    "side": 1,
+    "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019707!kgQC9c/d-6965376f__8677__47ea__a757__23e14c179149-2020255369!52VCvL",
     "filer": [],
     "status": "Må bes om innsyn"
@@ -777,10 +2470,43 @@
     "dokumentID": "2026/620",
     "dokumenttype": "Inngående dokument",
     "avsender_mottaker": "Avsender: Monica Kvaleberg",
-    "side": 1,
+    "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019740!UUCeZO/d-6965376f__8677__47ea__a757__23e14c179149-2020255407!RvQq8Q",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "110/5 Søknad om dispensasjon - riving av bod og ny bod/utestue - Hamn 9 - Monica Kvaleberg (pdf, 1,1MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231579_1_A!d-2020255407!faqWn3?pid=29"
+      },
+      {
+        "tekst": "C Nabovarsel (pdf, 157KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231580_1_A!d-2020255407!sSu8Ew?pid=29"
+      },
+      {
+        "tekst": "C Kvittering for nabovarsel (pdf, 88KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231581_1_A!d-2020255407!SKhgrU?pid=29"
+      },
+      {
+        "tekst": "D Situasjonsplan (pdf, 2,3MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231582_1_A!d-2020255407!ksOLiL?pid=29"
+      },
+      {
+        "tekst": "E Tegninger - snitt (pdf, 178KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231583_1_A!d-2020255407!K4Nzz8?pid=29"
+      },
+      {
+        "tekst": "F Redgjørelse - Områdeanalyse (pdf, 1,6MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231584_1_A!d-2020255407!yO9acl?pid=29"
+      },
+      {
+        "tekst": "Q Bilde - Bilder fra dagens situasjon (pdf, 1,4MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231585_1_A!d-2020255407!G1AkVG?pid=29"
+      },
+      {
+        "tekst": "Q Vedleggsopplysninger (pdf, 160KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231586_1_A!d-2020255407!Yteg1t?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Melding fra leverandør - Status",
@@ -789,7 +2515,7 @@
     "dokumentID": "2026/630",
     "dokumenttype": "Inngående dokument",
     "avsender_mottaker": "Avsender: Prima Assistanse As",
-    "side": 1,
+    "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020018874!NYQYU9/d-6965376f__8677__47ea__a757__23e14c179149-2020255417!LloInL",
     "filer": [],
     "status": "Må bes om innsyn"
@@ -801,7 +2527,7 @@
     "dokumentID": "2026/524",
     "dokumenttype": "Utgående dokument",
     "avsender_mottaker": "",
-    "side": 1,
+    "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019232!8zzTpn/d-6965376f__8677__47ea__a757__23e14c179149-2020255311!UlfJ10",
     "filer": [],
     "status": "Må bes om innsyn"
@@ -813,7 +2539,7 @@
     "dokumentID": "2026/424",
     "dokumenttype": "Internt notat (X)",
     "avsender_mottaker": "",
-    "side": 1,
+    "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016209!3igW4f/d-6965376f__8677__47ea__a757__23e14c179149-2020255211!CjDjT1",
     "filer": [],
     "status": "Må bes om innsyn"
@@ -825,7 +2551,7 @@
     "dokumentID": "2026/667",
     "dokumenttype": "Inngående dokument",
     "avsender_mottaker": "Avsender: Husbanken",
-    "side": 1,
+    "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019742!9QkoUn/d-6965376f__8677__47ea__a757__23e14c179149-2020255454!Vg0fRm",
     "filer": [],
     "status": "Må bes om innsyn"
@@ -849,10 +2575,23 @@
     "dokumentID": "2026/631",
     "dokumenttype": "Inngående dokument",
     "avsender_mottaker": "Avsender: As Ryfylke Trelast",
-    "side": 1,
+    "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020010391!SOszKE/d-6965376f__8677__47ea__a757__23e14c179149-2020255418!xIEPki",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "31/283 Søknad om ferdigattest - påbygg hagestue - Soltunvegen 5A - Finn Ravndal (pdf, 100KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231604_1_A!d-2020255418!S6Cfmv?pid=29"
+      },
+      {
+        "tekst": "G Gjennomføringsplan (pdf, 165KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231608_1_A!d-2020255418!unFOVY?pid=29"
+      },
+      {
+        "tekst": "Q Vedleggsopplysninger (pdf, 141KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231609_1_A!d-2020255418!Ujbz5y?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Eiendomsskattegrunnlag for kraftselskap - inntektsår 2020 - eiendomsskatteår 2022",
@@ -861,7 +2600,7 @@
     "dokumentID": "2026/585",
     "dokumenttype": "Inngående dokument",
     "avsender_mottaker": "",
-    "side": 1,
+    "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019707!kgQC9c/d-6965376f__8677__47ea__a757__23e14c179149-2020255372!IPF5BD",
     "filer": [],
     "status": "Må bes om innsyn"
@@ -873,10 +2612,47 @@
     "dokumentID": "2026/595",
     "dokumenttype": "Inngående dokument",
     "avsender_mottaker": "Avsender: Opplev Ryfylke As",
-    "side": 1,
+    "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020018705!RHLGeA/d-6965376f__8677__47ea__a757__23e14c179149-2020255382!YWe8Gz",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "49/37 Søknad om tillatelse til tiltak uten ansvarsrett - flåtefartøy til badstue - Vågen Jørpeland - Opplev Ryfylke As (pdf, 571KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231420_1_A!d-2020255382!dJOb21?pid=29"
+      },
+      {
+        "tekst": "B Dispensasjonssøknad (pdf, 517KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231424_1_A!d-2020255382!cVANo3?pid=29"
+      },
+      {
+        "tekst": "C Kvittering for nabovarsel (pdf, 102KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231425_1_A!d-2020255382!9WPJ5G?pid=29"
+      },
+      {
+        "tekst": "C Svar på nabovarsel - merknad (pdf, 102KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231426_1_A!d-2020255382!iTdN6k?pid=29"
+      },
+      {
+        "tekst": "C Gjenpart nabovarsel (pdf, 578KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231431_1_A!d-2020255382!sf23gL?pid=29"
+      },
+      {
+        "tekst": "D Situasjonsplan (pdf, 398KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231421_1_A!d-2020255382!ql0Gp0?pid=29"
+      },
+      {
+        "tekst": "E Tegninger - fasade (pdf, 913KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231422_1_A!d-2020255382!5YXLnX?pid=29"
+      },
+      {
+        "tekst": "Q Følgebrev - Søknad om tiltak (pdf, 238KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231423_1_A!d-2020255382!8NG5lr?pid=29"
+      },
+      {
+        "tekst": "Q Vedleggsopplysninger (pdf, 160KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231432_1_A!d-2020255382!1ji7mM?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Fellingsrapport for hjort 2025",
@@ -885,10 +2661,15 @@
     "dokumentID": "2026/642",
     "dokumenttype": "Inngående dokument",
     "avsender_mottaker": "Avsender: Alf Sigve Høllesli",
-    "side": 1,
+    "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019690!WZpoKL/d-6965376f__8677__47ea__a757__23e14c179149-2020255429!nV7SS6",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "Fellingsrapport for hjort 2025 (pdf, 1MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231638_1_A!d-2020255429!pmovBy?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Søknad om barnehageplass",
@@ -897,7 +2678,7 @@
     "dokumentID": "2026/593",
     "dokumenttype": "Inngående dokument",
     "avsender_mottaker": "Avsender: Berit Elen Ur Strømnæss",
-    "side": 1,
+    "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019666!JTvk2e/d-6965376f__8677__47ea__a757__23e14c179149-2020255380!XRE1Hx",
     "filer": [],
     "status": "Må bes om innsyn"
@@ -909,10 +2690,35 @@
     "dokumentID": "2026/608",
     "dokumenttype": "Inngående dokument",
     "avsender_mottaker": "Avsender: Dnf As",
-    "side": 1,
+    "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019739!UXhXMa/d-6965376f__8677__47ea__a757__23e14c179149-2020255395!SF3lJK",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "44/90 Melding om utført arbeid på vannmåler - Fjelltunvegen 51 (pdf, 74KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231497_1_A!d-2020255395!YbD405?pid=29"
+      },
+      {
+        "tekst": "IMG_5282 (pdf, 100KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231498_1_A!d-2020255395!FxmTcI?pid=29"
+      },
+      {
+        "tekst": "IMG_5284 (pdf, 99KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231499_1_A!d-2020255395!qBWJUp?pid=29"
+      },
+      {
+        "tekst": "IMG_5282 (pdf, 100KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231500_1_A!d-2020255395!o6YTom?pid=29"
+      },
+      {
+        "tekst": "IMG_5284 (pdf, 99KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231501_1_A!d-2020255395!Shmat5?pid=29"
+      },
+      {
+        "tekst": "IMG_5285 (pdf, 92KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231502_1_A!d-2020255395!DCnRdD?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Ny veileder om tolketjenester i helse- og omsorgstjenesten",
@@ -921,7 +2727,7 @@
     "dokumentID": "2026/596",
     "dokumenttype": "Inngående dokument",
     "avsender_mottaker": "Avsender: Helsedirektoratet",
-    "side": 1,
+    "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2019000503!iQDgd2/d-6965376f__8677__47ea__a757__23e14c179149-2020255383!oGJlHW",
     "filer": [],
     "status": "Må bes om innsyn"
@@ -933,7 +2739,7 @@
     "dokumentID": "2026/533",
     "dokumenttype": "Inngående dokument",
     "avsender_mottaker": "",
-    "side": 1,
+    "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019709!FYqTAK/d-6965376f__8677__47ea__a757__23e14c179149-2020255320!e5oQ83",
     "filer": [],
     "status": "Må bes om innsyn"
@@ -945,7 +2751,7 @@
     "dokumentID": "2026/665",
     "dokumenttype": "Inngående dokument",
     "avsender_mottaker": "",
-    "side": 1,
+    "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019744!5b6NqX/d-6965376f__8677__47ea__a757__23e14c179149-2020255452!lOxbrL",
     "filer": [],
     "status": "Må bes om innsyn"
@@ -957,7 +2763,7 @@
     "dokumentID": "2026/542",
     "dokumenttype": "Internt notat (X)",
     "avsender_mottaker": "",
-    "side": 1,
+    "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019732!WFJ1P7/d-6965376f__8677__47ea__a757__23e14c179149-2020255329!BgeNHP",
     "filer": [],
     "status": "Må bes om innsyn"
@@ -969,10 +2775,35 @@
     "dokumentID": "2026/654",
     "dokumenttype": "Inngående dokument",
     "avsender_mottaker": "Avsender: THOMAS DALEN",
-    "side": 1,
+    "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020018747!hkBa2h/d-6965376f__8677__47ea__a757__23e14c179149-2020255441!l54oco",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "14/42 Ferdigmelding for ny tilknytning til offentlig vann- /avløpsanlegg - Seldalsvegen 30 (pdf, 188KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231661_1_A!d-2020255441!6qi2mH?pid=29"
+      },
+      {
+        "tekst": "AS-BUILT VA, 14 42, Seldalsvegen (pdf, 772KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231662_1_A!d-2020255441!fGAqDA?pid=29"
+      },
+      {
+        "tekst": "AS-BUILT VA, 14 42, Seldalsvegen (pdf, 772KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231663_1_A!d-2020255441!lIZMp6?pid=29"
+      },
+      {
+        "tekst": "Kartskisse - 14/42 Seldalsvegen 30 (pdf, 55KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231664_1_A!d-2020255441!TRIfLE?pid=29"
+      },
+      {
+        "tekst": "Sluttdokumentasjon - 14/42 Seldalsvegen 30 (sos, 2KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231665_1_A!d-2020255441!9yMreu?pid=29"
+      },
+      {
+        "tekst": "Kartskisse med tegnforklaring - 14/42 Seldalsvegen 30 (pdf, 102KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231666_1_A!d-2020255441!fCwDBu?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "47/151 Svar på forspørsel om status i sak",
@@ -981,10 +2812,15 @@
     "dokumentID": "2026/658",
     "dokumenttype": "Inngående dokument",
     "avsender_mottaker": "Avsender: Thomas Dalen",
-    "side": 1,
+    "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020013058!jfN2Jg/d-6965376f__8677__47ea__a757__23e14c179149-2020255445!7vs2qh",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "47/151 Svar på forspørsel om status i sak (pdf, 32KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231671_1_A!d-2020255445!a4SovR?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "16/348 Godkjenning av søknad om vannmåler - Breivikvegen 29",
@@ -993,10 +2829,15 @@
     "dokumentID": "2026/405",
     "dokumenttype": "Utgående dokument",
     "avsender_mottaker": "Mottaker: Strand Rør As",
-    "side": 1,
+    "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019710!vBpyLu/d-6965376f__8677__47ea__a757__23e14c179149-2020255192!rSghq2",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "16/348 Godkjenning av søknad om vannmåler - Breivikvegen 29 (pdf, 172KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231022_1_A!d-2020255192!K6aJ6c?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Bekreftelse på mottatt søknad - Prosjektutvikler masterplan omsorg - Bygg og eiendom",
@@ -1029,7 +2870,7 @@
     "dokumentID": "2026/656",
     "dokumenttype": "Inngående dokument",
     "avsender_mottaker": "",
-    "side": 1,
+    "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2013001441!pDVCYM/d-6965376f__8677__47ea__a757__23e14c179149-2020255443!A6kD3m",
     "filer": [],
     "status": "Må bes om innsyn"
@@ -1041,7 +2882,7 @@
     "dokumentID": "2026/560",
     "dokumenttype": "Inngående dokument",
     "avsender_mottaker": "Avsender: Jonny Krucow Heng",
-    "side": 1,
+    "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019734!sFGttl/d-6965376f__8677__47ea__a757__23e14c179149-2020255347!5Av8lm",
     "filer": [],
     "status": "Må bes om innsyn"
@@ -1082,10 +2923,15 @@
     "dokumentID": "2026/465",
     "dokumenttype": "Utgående dokument",
     "avsender_mottaker": "Mottaker: Lnett As",
-    "side": 1,
+    "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019720!y7hMGa/d-6965376f__8677__47ea__a757__23e14c179149-2020255252!8PkJSh",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "Svar på forespørsel om VA-data for Idsevegen gnr. 63 bnr. 9 (pdf, 109KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231173_1_A!d-2020255252!yInjJ9?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Informasjon til kausjonist",
@@ -1094,7 +2940,7 @@
     "dokumentID": "2026/661",
     "dokumenttype": "Inngående dokument",
     "avsender_mottaker": "Avsender: Klp Kommunekreditt As",
-    "side": 1,
+    "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019742!9QkoUn/d-6965376f__8677__47ea__a757__23e14c179149-2020255448!BiOtGu",
     "filer": [],
     "status": "Må bes om innsyn"
@@ -1106,10 +2952,15 @@
     "dokumentID": "2026/383",
     "dokumenttype": "Utgående dokument",
     "avsender_mottaker": "Mottaker: Flere mottakere",
-    "side": 1,
+    "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019613!8kJnce/d-6965376f__8677__47ea__a757__23e14c179149-2020255170!r74nE1",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "32/51 Tillatelse til tiltak - pipe og ildsted - Strandastøvegen (pdf, 113KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1230990_1_A!d-2020255170!nD5Rd0?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "44/175 Ferdigmelding for vann- og avløpsarbeid - Fjelltunvegen 21",
@@ -1118,10 +2969,35 @@
     "dokumentID": "2026/597",
     "dokumenttype": "Inngående dokument",
     "avsender_mottaker": "Avsender: Thomas Dalen",
-    "side": 1,
+    "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020018596!GVfr4y/d-6965376f__8677__47ea__a757__23e14c179149-2020255384!EoGww5",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "44/175 Ferdigmelding for vann- og avløpsarbeid - Fjelltunvegen 21 (pdf, 193KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231437_1_A!d-2020255384!7qwYzX?pid=29"
+      },
+      {
+        "tekst": "AS-BUILT VA, 44 175, Fjelltunvegen revidert 101125.pdf 1 (pdf, 1,7MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231438_1_A!d-2020255384!0BmfU8?pid=29"
+      },
+      {
+        "tekst": "AS-BUILT VA, 44 175, Fjelltunvegen revidert 101125.pdf 1 (pdf, 1,7MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231439_1_A!d-2020255384!NJ0EEm?pid=29"
+      },
+      {
+        "tekst": "Kartskisse - 44/175 Fjelltunvegen 21 (pdf, 61KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231440_1_A!d-2020255384!VJRc2Q?pid=29"
+      },
+      {
+        "tekst": "Sluttdokumentasjon - 44/175 Fjelltunvegen 21 (sos, 2KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231441_1_A!d-2020255384!zgXqky?pid=29"
+      },
+      {
+        "tekst": "Kartskisse med tegnforklaring - 44/175 Fjelltunvegen 21 (pdf, 116KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231442_1_A!d-2020255384!cQZmBD?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Søknad - lærer - hovedutlysning",
@@ -1251,7 +3127,7 @@
     "dokumentID": "2026/538",
     "dokumenttype": "Utgående dokument",
     "avsender_mottaker": "",
-    "side": 2,
+    "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019709!FYqTAK/d-6965376f__8677__47ea__a757__23e14c179149-2020255325!3u5tiK",
     "filer": [],
     "status": "Må bes om innsyn"
@@ -1507,7 +3383,7 @@
     "dokumentID": "2026/466",
     "dokumenttype": "Inngående dokument",
     "avsender_mottaker": "Avsender: Ole Petter Grødem",
-    "side": 2,
+    "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016356!PmaX2P/d-6965376f__8677__47ea__a757__23e14c179149-2020255253!AKAK46",
     "filer": [
       {
@@ -1656,8 +3532,13 @@
     "avsender_mottaker": "Avsender: Rogaland Fylkeskommune",
     "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020012783!XIvR4o/d-6965376f__8677__47ea__a757__23e14c179149-2020255466!fh8PCL",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "Tilbakemelding angående bestemmelse § 3.1 bokstav a - lokalisering av handel (pdf, 149KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231741_1_A!d-2020255466!8agynW?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Informasjon til kausjonist",
@@ -1714,69 +3595,8 @@
     "avsender_mottaker": "Avsender: As Ryfylke Trelast",
     "side": 2,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020014300!gKRUzk/d-6965376f__8677__47ea__a757__23e14c179149-2020255462!97eFwZ",
-    "filer": [
-      {
-        "tekst": "31/14 Søknad om endring av gitt tillatelse eller godkjenning - enebolig carport - Kvernvegen 28 - Vegard Aasheim Bjørnsen (pdf, 144KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231719_1_A!d-2020255462!OwNIjh?pid=29"
-      },
-      {
-        "tekst": "C Nabovarsel (pdf, 157KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231729_1_A!d-2020255462!82iNrP?pid=29"
-      },
-      {
-        "tekst": "C Nabovarsel (pdf, 156KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231723_1_A!d-2020255462!f1dZhp?pid=29"
-      },
-      {
-        "tekst": "C Kvittering for nabovarsel (pdf, 363KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231724_1_A!d-2020255462!f1hPkx?pid=29"
-      },
-      {
-        "tekst": "C Kvittering for nabovarsel (pdf, 87KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231726_1_A!d-2020255462!Lv1XJQ?pid=29"
-      },
-      {
-        "tekst": "C Kvittering for nabovarsel (pdf, 90KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231725_1_A!d-2020255462!NQdzRz?pid=29"
-      },
-      {
-        "tekst": "D Situasjonsplan (pdf, 2,9MB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231730_1_A!d-2020255462!VjPOIU?pid=29"
-      },
-      {
-        "tekst": "E Tegninger - snitt (pdf, 1,7MB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231727_1_A!d-2020255462!NQeOiR?pid=29"
-      },
-      {
-        "tekst": "E Tegninger - plan (pdf, 2,7MB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231728_1_A!d-2020255462!zA8XVj?pid=29"
-      },
-      {
-        "tekst": "E Tegninger - fasade (pdf, 3,5MB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231731_1_A!d-2020255462!PN538B?pid=29"
-      },
-      {
-        "tekst": "F Underlag for beregning av utnytting (pdf, 203KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231720_1_A!d-2020255462!E8RBAa?pid=29"
-      },
-      {
-        "tekst": "G Gjennomføringsplan (pdf, 213KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231735_1_A!d-2020255462!0pisiS?pid=29"
-      },
-      {
-        "tekst": "G Erklæring om ansvarsrett - AS Ryfylke Trelast (pdf, 332KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231722_1_A!d-2020255462!6alS7z?pid=29"
-      },
-      {
-        "tekst": "Q Om nabovarsel når mottaker er død og dødsboet eller boets adresse ikke fremgår av matrikkelen (pdf, 474KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231721_1_A!d-2020255462!S5GJdD?pid=29"
-      },
-      {
-        "tekst": "Q Vedleggsopplysninger (pdf, 169KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231736_1_A!d-2020255462!1AKnz5?pid=29"
-      }
-    ],
-    "status": "Publisert"
+    "filer": [],
+    "status": "Må bes om innsyn"
   },
   {
     "tittel": "Styringsrapport til skattekreditor for periode 12/2025",
