@@ -111198,5 +111198,501 @@
         "ny": 2
       }
     }
+  },
+  {
+    "tidspunkt": "2026-01-14 06:49:50",
+    "type": "UPDATE",
+    "dokumentID": "2026/945",
+    "tittel": "Referatsaker",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-14 06:49:50",
+    "type": "UPDATE",
+    "dokumentID": "2026/64",
+    "tittel": "Veiledning - Sak ang hest, telt, og oppgrusing på Solbakk",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-14 06:49:50",
+    "type": "UPDATE",
+    "dokumentID": "2026/545",
+    "tittel": "107/7 Status i sak",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-14 06:49:50",
+    "type": "UPDATE",
+    "dokumentID": "2026/382",
+    "tittel": "Foreløpig svar etter spørsmål om innsyn i utbyggingsavtaler som involverer Steinar Skjervik",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 3,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-14 06:49:50",
+    "type": "UPDATE",
+    "dokumentID": "2026/497",
+    "tittel": "31/357 Søknad om ferdigattest - Løbrekklia 27 - Vilde Ottesen Sørheim",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-14 06:49:50",
+    "type": "UPDATE",
+    "dokumentID": "2026/463",
+    "tittel": "Svar på forespørsel om VA-data for Sørskårvegen 461",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-14 06:49:50",
+    "type": "UPDATE",
+    "dokumentID": "2026/643",
+    "tittel": "Fellingsrapport for rådyr 2025",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-14 06:49:50",
+    "type": "UPDATE",
+    "dokumentID": "2026/546",
+    "tittel": "53/7 Protokoll og dokumentasjon - oppmålingsforretning grensejustering kommunal veggrunn",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 9,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-14 06:49:50",
+    "type": "UPDATE",
+    "dokumentID": "2026/495",
+    "tittel": "53/334 Søknad om ferdigattest - Steinhagen 3 - Faber Bygg",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 4,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-14 06:49:50",
+    "type": "UPDATE",
+    "dokumentID": "2026/626",
+    "tittel": "63/13/19 Trekking av søknad om dispensasjon - tilbygg - tokkavig 38 - Siv Tone Kvia Rosnes",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-14 06:49:50",
+    "type": "UPDATE",
+    "dokumentID": "2026/398",
+    "tittel": "16/86 Melding til tinglysing - sletting av seksjonering",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 2,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-14 06:49:50",
+    "type": "UPDATE",
+    "dokumentID": "2026/552",
+    "tittel": "31/517 Vedrørende mottatt merknad for omsøkt tiltak - oppføring av carport m/bod og ny avkjørsel - Kongsteinsvegen 32 B - Bente Næss",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 4,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-14 06:49:50",
+    "type": "UPDATE",
+    "dokumentID": "2026/416",
+    "tittel": "16/207 Melding til tinglysing arealoverføring",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 4,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-14 06:49:50",
+    "type": "UPDATE",
+    "dokumentID": "2026/562",
+    "tittel": "53/295 Søknad om hogst og rydding på kommunal grunn",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-14 06:49:50",
+    "type": "UPDATE",
+    "dokumentID": "2026/649",
+    "tittel": "49/649 Ferdigmelding for utslippstillatelse - Dalavegen 440",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 4,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-14 06:49:50",
+    "type": "UPDATE",
+    "dokumentID": "2026/650",
+    "tittel": "31/57 Svar på forspørsel som status i sak",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-14 06:49:50",
+    "type": "UPDATE",
+    "dokumentID": "2026/672",
+    "tittel": "42/24 Klage på avvisningsvedtak - Tveitavikvegen 1 - Yellow Invest As",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 2,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-14 06:49:50",
+    "type": "UPDATE",
+    "dokumentID": "2026/641",
+    "tittel": "31/66 Søknad om igangsettingstillatelse - leilighetsbygg - byggetrinn 2 - Gullbekkparken - Baax Bolig As",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 3,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-14 06:49:50",
+    "type": "UPDATE",
+    "dokumentID": "2026/604",
+    "tittel": "31/576 Ferdigmelding for vann- og avløpsarbeid - Austlivegen 3",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 7,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-14 06:49:50",
+    "type": "UPDATE",
+    "dokumentID": "2026/601",
+    "tittel": "48/270 Søknad om rammetillatelse - veksthus, utekjøkken og rekreasjonsrom - Bjørnevegen 11 - Sveinung Gulestøl",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 18,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-14 06:49:50",
+    "type": "UPDATE",
+    "dokumentID": "2026/620",
+    "tittel": "110/5 Søknad om dispensasjon - riving av bod og ny bod/utestue - Hamn 9 - Monica Kvaleberg",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 8,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-14 06:49:50",
+    "type": "UPDATE",
+    "dokumentID": "2026/631",
+    "tittel": "31/283 Søknad om ferdigattest - påbygg hagestue - Soltunvegen 5A - Finn Ravndal",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 3,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-14 06:49:50",
+    "type": "UPDATE",
+    "dokumentID": "2026/595",
+    "tittel": "49/37 Søknad om tillatelse til tiltak uten ansvarsrett - flåtefartøy til badstue - Vågen Jørpeland - Opplev Ryfylke As",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 9,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-14 06:49:50",
+    "type": "UPDATE",
+    "dokumentID": "2026/642",
+    "tittel": "Fellingsrapport for hjort 2025",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-14 06:49:50",
+    "type": "UPDATE",
+    "dokumentID": "2026/608",
+    "tittel": "44/90 Melding om utført arbeid på vannmåler - Fjelltunvegen 51",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 6,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-14 06:49:50",
+    "type": "UPDATE",
+    "dokumentID": "2026/654",
+    "tittel": "14/42 Ferdigmelding for ny tilknytning til offentlig vann- /avløpsanlegg - Seldalsvegen 30",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 6,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-14 06:49:50",
+    "type": "UPDATE",
+    "dokumentID": "2026/658",
+    "tittel": "47/151 Svar på forspørsel om status i sak",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-14 06:49:50",
+    "type": "UPDATE",
+    "dokumentID": "2026/405",
+    "tittel": "16/348 Godkjenning av søknad om vannmåler - Breivikvegen 29",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-14 06:49:50",
+    "type": "UPDATE",
+    "dokumentID": "2026/465",
+    "tittel": "Svar på forespørsel om VA-data for Idsevegen gnr. 63 bnr. 9",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-14 06:49:50",
+    "type": "UPDATE",
+    "dokumentID": "2026/383",
+    "tittel": "32/51 Tillatelse til tiltak - pipe og ildsted - Strandastøvegen",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-14 06:49:50",
+    "type": "UPDATE",
+    "dokumentID": "2026/597",
+    "tittel": "44/175 Ferdigmelding for vann- og avløpsarbeid - Fjelltunvegen 21",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 6,
+        "ny": 0
+      }
+    }
   }
 ]
