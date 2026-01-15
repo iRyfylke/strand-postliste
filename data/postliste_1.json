@@ -1214,8 +1214,13 @@
     "avsender_mottaker": "Mottaker: Aud Margaret Hausken",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016226!UPLGte/d-6965376f__8677__47ea__a757__23e14c179149-2020255409!GICcqe",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "Svar - Sand i strøkasser - Kvartsvegen (pdf, 108KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231592_1_A!d-2020255409!rPGQqN?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Spørsmål om nye aktører i Grahamshuset",
@@ -1443,8 +1448,13 @@
     "avsender_mottaker": "Avsender: Rogaland Brann Og Redning Iks",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2013002455!Uq4TSr/d-6965376f__8677__47ea__a757__23e14c179149-2020255547!KtVitF",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "Svar vedrørende lukking av avvik nr. 2 og avvik nr. 4 - Torghuset (pdf, 1MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231936_1_A!d-2020255547!eB0suP?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "63/9 Tillatelse til tiltak - driftsbygning - Idsevegen 346B",

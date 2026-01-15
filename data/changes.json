@@ -115614,5 +115614,37 @@
         "ny": 4
       }
     }
+  },
+  {
+    "tidspunkt": "2026-01-15 06:49:36",
+    "type": "UPDATE",
+    "dokumentID": "2026/622",
+    "tittel": "Svar - Sand i strøkasser - Kvartsvegen",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-15 06:49:36",
+    "type": "UPDATE",
+    "dokumentID": "2026/760",
+    "tittel": "Svar vedrørende lukking av avvik nr. 2 og avvik nr. 4 - Torghuset",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
   }
 ]
