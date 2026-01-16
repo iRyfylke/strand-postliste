@@ -1133,8 +1133,13 @@
     "avsender_mottaker": "Mottaker: Brødrene Helland As",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020006396!71WSoF/d-6965376f__8677__47ea__a757__23e14c179149-2020255558!eHeitA",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "43/117 Avslutt sak (pdf, 148KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231949_1_A!d-2020255558!v6rBg9?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Oppdatering av barnehagesøknad",
