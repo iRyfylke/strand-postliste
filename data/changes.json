@@ -123670,5 +123670,181 @@
         "ny": 0
       }
     }
+  },
+  {
+    "tidspunkt": "2026-01-17 13:34:46",
+    "type": "UPDATE",
+    "dokumentID": "2026/880",
+    "tittel": "53/96 Søknad om tillatelse til tiltak uten ansvarsrett - carport - Nedre Vollgate 7C - Kim Andre Fiskå",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 10,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-17 13:34:46",
+    "type": "UPDATE",
+    "dokumentID": "2026/908",
+    "tittel": "31/313 Svar på forespørsel om kjøp av tomt",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-17 13:34:46",
+    "type": "UPDATE",
+    "dokumentID": "2026/605",
+    "tittel": "104/30 Tilbakemelding om mangler - verksted/lager - Meling 19",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-17 13:34:46",
+    "type": "UPDATE",
+    "dokumentID": "2026/713",
+    "tittel": "16/79 Referat fra forhåndskonferanse - hybelhus - Ryfylkevegen 1952",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-17 13:34:46",
+    "type": "UPDATE",
+    "dokumentID": "2026/851",
+    "tittel": "50/1 Dokumentsjekk - ikke behov for mangelbrev",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-17 13:34:46",
+    "type": "UPDATE",
+    "dokumentID": "2026/854",
+    "tittel": "48/212 Ferdigattest - lager/vognskur - Esperantovegen 14",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-17 13:34:46",
+    "type": "UPDATE",
+    "dokumentID": "2026/848",
+    "tittel": "31/357 Dokumentsjekk - ikke behov for mangelbrev",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-17 13:34:46",
+    "type": "UPDATE",
+    "dokumentID": "2026/849",
+    "tittel": "31/357 Ferdigattest - fasadeendring - Løbrekklia 27",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-17 13:34:46",
+    "type": "UPDATE",
+    "dokumentID": "2026/857",
+    "tittel": "Forespørsel om VA-data for Kolabygdvegen",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-17 13:34:46",
+    "type": "UPDATE",
+    "dokumentID": "2026/945",
+    "tittel": "Referatsaker",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-17 13:34:46",
+    "type": "UPDATE",
+    "dokumentID": "2026/764",
+    "tittel": "26/3 Dokumentsjekk - ikke behov for mangelbrev",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
   }
 ]
