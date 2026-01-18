@@ -2514,8 +2514,13 @@
     "avsender_mottaker": "Mottaker: Lars Olaf Husebø",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019622!qDXda9/d-6965376f__8677__47ea__a757__23e14c179149-2020255524!DYkfQs",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "14/36 Svar på henvendelse - Seldalsvegen 49 (pdf, 376KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1231896_1_A!d-2020255524!bDw0oK?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "41/1 Avslutt sak",
