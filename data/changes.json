@@ -128790,5 +128790,485 @@
         "ny": 0
       }
     }
+  },
+  {
+    "tidspunkt": "2026-01-20 06:53:24",
+    "type": "UPDATE",
+    "dokumentID": "2026/1132",
+    "tittel": "42/34 Protokoll og dokumentasjon oppmålingsforretning grensejustering",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 6,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-20 06:53:24",
+    "type": "UPDATE",
+    "dokumentID": "2026/1012",
+    "tittel": "43/67 Supplering av søknad - tilbygg og fasadeendring - Nedre Barkvedvegen 100 - Espen Andersen",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 8,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-20 06:53:24",
+    "type": "UPDATE",
+    "dokumentID": "2026/1046",
+    "tittel": "11/139 Søknad om tillatelse i ett trinn - bruksendring - Kjølevikvegen 52 - Trond Veland",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 10,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-20 06:53:24",
+    "type": "UPDATE",
+    "dokumentID": "2026/1058",
+    "tittel": "66/2 og 66/38 Fakturagrunnlag arealoverføring",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-20 06:53:24",
+    "type": "UPDATE",
+    "dokumentID": "2026/1018",
+    "tittel": "Anleggsarbeid Tuånå",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-20 06:53:24",
+    "type": "UPDATE",
+    "dokumentID": "2026/1062",
+    "tittel": "12/1 Dokumentsjekk - ikke behov for mangelbrev",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-20 06:53:24",
+    "type": "UPDATE",
+    "dokumentID": "2026/1010",
+    "tittel": "48/212 Ferdigattest - lager/vognskur - Esperantovegen 14",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-20 06:53:24",
+    "type": "UPDATE",
+    "dokumentID": "2026/1038",
+    "tittel": "66/38 Tinglyst melding og matrikkelbrev arealoverføring",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-20 06:53:24",
+    "type": "UPDATE",
+    "dokumentID": "2026/1048",
+    "tittel": "53/303 Nabovarsel - Tungland",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 4,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-20 06:53:24",
+    "type": "UPDATE",
+    "dokumentID": "2026/1165",
+    "tittel": "44/916 Søknad om dispensasjon - ny utslippskum og utslippsledning - Nedre Barkvedvegen 14 - Ivar Iks",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 12,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-20 06:53:24",
+    "type": "UPDATE",
+    "dokumentID": "2026/1017",
+    "tittel": "Tuånå-Fjellsvegen, tegninger og beskrivelse",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 5,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-20 06:53:24",
+    "type": "UPDATE",
+    "dokumentID": "2026/1211",
+    "tittel": "42/94 Matrikkelbrev",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-20 06:53:24",
+    "type": "UPDATE",
+    "dokumentID": "2026/1149",
+    "tittel": "Oppdatering av vassforvaltningsplanen for Vestland 2028 - 2033 - oppgåver i 2026",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 2,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-20 06:53:24",
+    "type": "UPDATE",
+    "dokumentID": "2026/1229",
+    "tittel": "43/198 og 43/200 Spørsmål til byggesøknad - mikrohus - Øvre Barkvedveg",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-20 06:53:24",
+    "type": "UPDATE",
+    "dokumentID": "2026/1160",
+    "tittel": "44/916 Søknad om tillatelse i ett trinn - ny utslippskum og utslippsledning - Nedre Barkvedvegen 14 - Ivar Iks",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 21,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-20 06:53:24",
+    "type": "UPDATE",
+    "dokumentID": "2026/1034",
+    "tittel": "29/7 Svar på henvendelse - spørsmål til bygging av klatreløype på Vaulali",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-20 06:53:24",
+    "type": "UPDATE",
+    "dokumentID": "2026/1031",
+    "tittel": "31/283 Ferdigattest - påbyggg - Soltunvegen 5 A - Finn Ravndal",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 4,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-20 06:53:24",
+    "type": "UPDATE",
+    "dokumentID": "2026/1191",
+    "tittel": "16/86 Dokumentet har mangler og kan ikke tinglyses",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-20 06:53:24",
+    "type": "UPDATE",
+    "dokumentID": "2026/1142",
+    "tittel": "Søknad om rentemidler - arrangering av skogdag på Strand",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 2,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-20 06:53:24",
+    "type": "UPDATE",
+    "dokumentID": "2026/1148",
+    "tittel": "Vedtak om tilskudd til kommunal veterinærvakt 2026",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 2,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-20 06:53:24",
+    "type": "UPDATE",
+    "dokumentID": "2026/1090",
+    "tittel": "62/1/1 Oppfølging av byggesak - tilbygg - Idsalvegen 20",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 3,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-20 06:53:24",
+    "type": "UPDATE",
+    "dokumentID": "2026/1039",
+    "tittel": "44/9 Søknad om dispensasjon - brygge - Nedre Barkvedvegen 26 - Lars Ivar Hovland",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-20 06:53:24",
+    "type": "UPDATE",
+    "dokumentID": "2026/1194",
+    "tittel": "5/50 Søknad om ferdigattest - garasje - Seldalsvegen 259 - Bjørnar Mangelrød",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-20 06:53:24",
+    "type": "UPDATE",
+    "dokumentID": "2026/1088",
+    "tittel": "45/145 Svar på henvendelse - endre overbygg til en bod - Loen 18c",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 2,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-20 06:53:24",
+    "type": "UPDATE",
+    "dokumentID": "2026/1133",
+    "tittel": "107/10 Melding om avsluttet jordskiftesak",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 2,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-20 06:53:24",
+    "type": "UPDATE",
+    "dokumentID": "2026/1158",
+    "tittel": "49/599 Avklaringer søknad - bruksendring - Åvegen 5A",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 2,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-20 06:53:24",
+    "type": "UPDATE",
+    "dokumentID": "2026/1141",
+    "tittel": "Høring av forslag til mindre endringer i byggevareforskriften - EU-kommisjonens gjennomføringsbeslutning (EU)",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 5,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-20 06:53:24",
+    "type": "UPDATE",
+    "dokumentID": "2026/1032",
+    "tittel": "Uttak av vatn frå Nordvatnet",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-20 06:53:24",
+    "type": "UPDATE",
+    "dokumentID": "2026/1137",
+    "tittel": "48/250 Merknader til varsel om oppstart av planarbeid Moen 1130_85-1",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 3,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-20 06:53:24",
+    "type": "UPDATE",
+    "dokumentID": "2026/1174",
+    "tittel": "Botne - kulturminneplan - udatert eldre dokument",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
   }
 ]
