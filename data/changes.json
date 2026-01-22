@@ -142778,5 +142778,629 @@
         "ny": 1
       }
     }
+  },
+  {
+    "tidspunkt": "2026-01-22 06:49:58",
+    "type": "UPDATE",
+    "dokumentID": "2026/1329",
+    "tittel": "Melding om vedtak - 47/488 Dispensasjon og rammetillatelse - tilbygg - Marmorsvingen 6A - Alf Christian Hansen",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 2,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-22 06:49:58",
+    "type": "UPDATE",
+    "dokumentID": "2026/1358",
+    "tittel": "16/86 Melding til tinglysing sletting av seksjonering",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 3,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-22 06:49:58",
+    "type": "UPDATE",
+    "dokumentID": "2026/1554",
+    "tittel": "23/2 Søknad produksjons- og avløsertilskudd 2025",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-22 06:49:58",
+    "type": "UPDATE",
+    "dokumentID": "2026/1524",
+    "tittel": "49/222 Tilbakemelding - bruksendring - Øvre Brauta 1",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 3,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-22 06:49:58",
+    "type": "UPDATE",
+    "dokumentID": "2026/1574",
+    "tittel": "64/3 Søknad deling/justering av grunneiendom - fritidsbolig 4 - Heng - Terje Ur",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 2,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-22 06:49:58",
+    "type": "UPDATE",
+    "dokumentID": "2026/1457",
+    "tittel": "41/60 Tilsynsrapport - teltkonstruksjon (stall) samt innhegning hest - Nagavegen",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 2,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-22 06:49:58",
+    "type": "UPDATE",
+    "dokumentID": "2026/1632",
+    "tittel": "65/3 Søknad produksjons- og avløsertilskudd 2025",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-22 06:49:58",
+    "type": "UPDATE",
+    "dokumentID": "2026/1532",
+    "tittel": "106/1 Søknad produksjons- og avløsertilskudd 2025",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-22 06:49:58",
+    "type": "UPDATE",
+    "dokumentID": "2026/1498",
+    "tittel": "7/9 Søknad produksjons- og avløsertilskudd 2025",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-22 06:49:58",
+    "type": "UPDATE",
+    "dokumentID": "2026/1596",
+    "tittel": "Svarbrev - tilsyn 2025 - industri - pukkverk - Dalen Sandtak AS",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 2,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-22 06:49:58",
+    "type": "UPDATE",
+    "dokumentID": "2026/1552",
+    "tittel": "Rapport etter tilsyn 10.12.2025 Nordic Roads AS",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-22 06:49:58",
+    "type": "UPDATE",
+    "dokumentID": "2026/1559",
+    "tittel": "30/3 Søknad produksjons- og avløsertilskudd 2025",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-22 06:49:58",
+    "type": "UPDATE",
+    "dokumentID": "2026/1629",
+    "tittel": "36/3 Søknad produksjons- og avløsertilskudd 2025",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-22 06:49:58",
+    "type": "UPDATE",
+    "dokumentID": "2026/1520",
+    "tittel": "62/1 Søknad produksjons- og avløsertilskudd 2025",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-22 06:49:58",
+    "type": "UPDATE",
+    "dokumentID": "2026/1504",
+    "tittel": "65/7 Søknad produksjons- og avløsertilskudd 2025",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-22 06:49:58",
+    "type": "UPDATE",
+    "dokumentID": "2026/1436",
+    "tittel": "64/3 Søknad deling/justering av grunneiendom - fritidsbolig 1 - Heng - Terje Ur",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 2,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-22 06:49:58",
+    "type": "UPDATE",
+    "dokumentID": "2026/1709",
+    "tittel": "47/387 Nabovarsel for Røslyngvegen 3",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 13,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-22 06:49:58",
+    "type": "UPDATE",
+    "dokumentID": "2026/736",
+    "tittel": "16/515 Fakturagrunnlag - anleggsbidrag - enebolig m/sokkelleilighet - Ugelivegen 31",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 2,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-22 06:49:58",
+    "type": "UPDATE",
+    "dokumentID": "2026/1558",
+    "tittel": "30/3 Søknad produksjons- og avløsertilskudd 2025",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-22 06:49:58",
+    "type": "UPDATE",
+    "dokumentID": "2026/1540",
+    "tittel": "65/3 Søknad produksjons- og avløsertilskudd 2025",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-22 06:49:58",
+    "type": "UPDATE",
+    "dokumentID": "2026/1451",
+    "tittel": "64/3 Dokumentsjekk - ikke behov for mangelbrev",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-22 06:49:58",
+    "type": "UPDATE",
+    "dokumentID": "2026/603",
+    "tittel": "63/9 Fakturagrunnlag - driftsbygning - Idsevegen 346B",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 2,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-22 06:49:58",
+    "type": "UPDATE",
+    "dokumentID": "2026/1477",
+    "tittel": "Svar på forespørsel om VA-data i Nesvegen",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 6,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-22 06:49:58",
+    "type": "UPDATE",
+    "dokumentID": "2026/1045",
+    "tittel": "53/474 Endringsvedtak - midlertidig bruksendring - Jøssangvegen 131 - Peru Eiendom AS",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-22 06:49:58",
+    "type": "UPDATE",
+    "dokumentID": "2026/1637",
+    "tittel": "14/15 Søknad produksjons- og avløsertilskudd 2025",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-22 06:49:58",
+    "type": "UPDATE",
+    "dokumentID": "2026/1561",
+    "tittel": "13/3 Søknad produksjons- og avløsertilskudd 2025",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-22 06:49:58",
+    "type": "UPDATE",
+    "dokumentID": "2026/1624",
+    "tittel": "106/3 Søknad produksjons- og avløsertilskudd 2025",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-22 06:49:58",
+    "type": "UPDATE",
+    "dokumentID": "2026/1519",
+    "tittel": "36/2 Søknad produksjons- og avløsertilskudd 2025",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-22 06:49:58",
+    "type": "UPDATE",
+    "dokumentID": "2026/1555",
+    "tittel": "29/1 Søknad produksjons- og avløsertilskudd 2025",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-22 06:49:58",
+    "type": "UPDATE",
+    "dokumentID": "2026/1535",
+    "tittel": "63/21 Søknad produksjons- og avløsertilskudd 2025",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-22 06:49:58",
+    "type": "UPDATE",
+    "dokumentID": "2026/106",
+    "tittel": "49/147 Fakturagrunnlag - Riving av eneboliger - Stålverksvegen 5",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 2,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-22 06:49:58",
+    "type": "UPDATE",
+    "dokumentID": "2026/1521",
+    "tittel": "65/7 Søknad produksjons- og avløsertilskudd 2025",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-22 06:49:58",
+    "type": "UPDATE",
+    "dokumentID": "2026/1448",
+    "tittel": "64/3 Dokumentsjekk - ikke behov for mangelbrev",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-22 06:49:58",
+    "type": "UPDATE",
+    "dokumentID": "2026/1486",
+    "tittel": "44/323 Søknad om tillatelse i ett trinn - bruksendring i kjeller - Bevervegen 7 - Ole Jørgensen",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 6,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-22 06:49:58",
+    "type": "UPDATE",
+    "dokumentID": "2026/1638",
+    "tittel": "24/14 Søknad produksjons- og avløsertilskudd 2025",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-22 06:49:58",
+    "type": "UPDATE",
+    "dokumentID": "2026/1625",
+    "tittel": "106/3 Søknad produksjons- og avløsertilskudd 2025",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-22 06:49:58",
+    "type": "UPDATE",
+    "dokumentID": "2026/1503",
+    "tittel": "41/2 Søknad produksjons- og avløsertilskudd 2025",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-22 06:49:58",
+    "type": "UPDATE",
+    "dokumentID": "2026/1544",
+    "tittel": "27/1 Søknad produksjons- og avløsertilskudd 2025",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-22 06:49:58",
+    "type": "UPDATE",
+    "dokumentID": "2026/1539",
+    "tittel": "2/1 Søknad produksjons- og avløsertilskudd 2025",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
   }
 ]
