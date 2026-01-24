@@ -1033,25 +1033,8 @@
     "avsender_mottaker": "Avsender: Gs-Drift As",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020006395!rc5r2W/d-6965376f__8677__47ea__a757__23e14c179149-2020256779!cRkTuV",
-    "filer": [
-      {
-        "tekst": "43/87 Søknad om vann- og avløpsarbeid - Øvre Barkvedvegen 20 (pdf, 228KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1234825_1_A!d-2020256779!1mKXTL?pid=29"
-      },
-      {
-        "tekst": "Kartskisse med tegnforklaring - 43/87 ØVRE BARKVEDVEGEN 20 (pdf, 151KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1234828_1_A!d-2020256779!Cg8CVx?pid=29"
-      },
-      {
-        "tekst": "43_87 Pålegg - Separering spill-_overvann - ØVRE BARKVEDVEGEN 20 (pdf, 196KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1234829_1_A!d-2020256779!I1eStt?pid=29"
-      },
-      {
-        "tekst": "Kartskisse - 43/87 ØVRE BARKVEDVEGEN 20 (pdf, 82KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1234830_1_A!d-2020256779!nZs9w8?pid=29"
-      }
-    ],
-    "status": "Publisert"
+    "filer": [],
+    "status": "Må bes om innsyn"
   },
   {
     "tittel": "Søknad - lærer - hovedutlysning - hovedutlysning",
@@ -2707,8 +2690,45 @@
     "avsender_mottaker": "Mottaker: Flere mottakere",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019026!WhZYIh/d-6965376f__8677__47ea__a757__23e14c179149-2020256508!h06RRW",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "5389 Oppdatert nabovarsling - dispensasjon og rammetillatelse til to eneboliger - Tunglandsvegen 21 B (pdf, 126KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1234122_1_A!d-2020256508!T9Arja?pid=29"
+      },
+      {
+        "tekst": "Kommunen innvilger dispensasjon og rammetillatelse med vilkår i brev den 06.11.2025 (pdf, 176KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1234123_1_A!d-2020256508!zvdylB?pid=29"
+      },
+      {
+        "tekst": "Norgeshus Ryfylke påklager kommunens vedtak i brev datert 26.11.2025 (pdf, 218KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1234124_1_A!d-2020256508!UPMfV5?pid=29"
+      },
+      {
+        "tekst": "Ytterligere merknad fra Helge Heggland i epost den 22.12.2025 (pdf, 25KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1234125_1_A!d-2020256508!eMBkjw?pid=29"
+      },
+      {
+        "tekst": "D Situasjonsplan og terrengsnitt - revidert (pdf, 5,4MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1234126_1_A!d-2020256508!OaJnni?pid=29"
+      },
+      {
+        "tekst": "E Tegninger (pdf, 6,7MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1234127_1_A!d-2020256508!8INGTe?pid=29"
+      },
+      {
+        "tekst": "E Tegninger (pdf, 6,8MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1234128_1_A!d-2020256508!tthosb?pid=29"
+      },
+      {
+        "tekst": "E Tegninger - snitt - fasade (pdf, 1,6MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1234129_1_A!d-2020256508!awxHh8?pid=29"
+      },
+      {
+        "tekst": "E Tegninger - snitt (pdf, 1,9MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1234130_1_A!d-2020256508!KseRxv?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "31/66 Dokumentsjekk - ikke behov for mangelbrev",

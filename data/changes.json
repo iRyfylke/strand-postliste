@@ -153626,5 +153626,37 @@
         "ny": 9
       }
     }
+  },
+  {
+    "tidspunkt": "2026-01-24 13:37:32",
+    "type": "UPDATE",
+    "dokumentID": "2026/1992",
+    "tittel": "43/87 Søknad om vann- og avløpsarbeid - Øvre Barkvedvegen 20",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 4,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-24 13:37:32",
+    "type": "UPDATE",
+    "dokumentID": "2026/1721",
+    "tittel": "53/89 Oppdatert nabovarsling - dispensasjon og rammetillatelse til to eneboliger - Tunglandsvegen 21 B",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 9
+      }
+    }
   }
 ]
