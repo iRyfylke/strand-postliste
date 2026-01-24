@@ -1,0 +1,46 @@
+name: Build shards from archive
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "data/archive/**"
+
+permissions:
+  contents: write
+
+jobs:
+  build-shards:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+
+      - name: Build shards from archive
+        run: |
+          python tools/build_chunks_from_archive.py
+
+      - name: Commit and push updated shards
+        run: |
+          git config --global user.name "${{ github.actor }}"
+          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
+
+          git add data/postliste_*.json
+          git add data/postliste_index.json
+
+          git commit -m "Rebuild shards from archive" || echo "No changes to commit"
+
+          git pull --rebase origin main || true
+          git push origin main || true
