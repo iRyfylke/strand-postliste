@@ -153658,5 +153658,21 @@
         "ny": 9
       }
     }
+  },
+  {
+    "tidspunkt": "2026-01-25 06:46:05",
+    "type": "UPDATE",
+    "dokumentID": "2026/1992",
+    "tittel": "43/87 Søknad om vann- og avløpsarbeid - Øvre Barkvedvegen 20",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 4
+      }
+    }
   }
 ]

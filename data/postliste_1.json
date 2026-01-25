@@ -1033,8 +1033,25 @@
     "avsender_mottaker": "Avsender: Gs-Drift As",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020006395!rc5r2W/d-6965376f__8677__47ea__a757__23e14c179149-2020256779!cRkTuV",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "43/87 Søknad om vann- og avløpsarbeid - Øvre Barkvedvegen 20 (pdf, 228KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1234825_1_A!d-2020256779!1mKXTL?pid=29"
+      },
+      {
+        "tekst": "Kartskisse med tegnforklaring - 43/87 ØVRE BARKVEDVEGEN 20 (pdf, 151KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1234828_1_A!d-2020256779!Cg8CVx?pid=29"
+      },
+      {
+        "tekst": "43_87 Pålegg - Separering spill-_overvann - ØVRE BARKVEDVEGEN 20 (pdf, 196KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1234829_1_A!d-2020256779!I1eStt?pid=29"
+      },
+      {
+        "tekst": "Kartskisse - 43/87 ØVRE BARKVEDVEGEN 20 (pdf, 82KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1234830_1_A!d-2020256779!nZs9w8?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Søknad - lærer - hovedutlysning - hovedutlysning",
