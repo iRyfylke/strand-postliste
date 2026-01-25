@@ -18,20 +18,23 @@ export async function loadChanges() {
 export async function loadPostliste() {
     // 1. Last indexfilen
     const indexRes = await fetch("../data/postliste_index.json");
-    const shardFiles = await indexRes.json();
+    const index = await indexRes.json();
 
-    // 2. Last alle shards parallelt
+    // 2. Hent liste over shard-filer
+    const shardFiles = index.shards.map(s => s.file);
+
+    // 3. Last alle shards parallelt
     const shardPromises = shardFiles.map(async (filename) => {
-        const res = await fetch(`../data/${filename}`);
-        return res.json();
+        const res = await fetch(`../data/shards/${filename}`);
+        return res.json(); // hver shard er en ren liste
     });
 
     const shardData = await Promise.all(shardPromises);
 
-    // 3. Slå sammen alle entries til én liste
+    // 4. Slå sammen alle entries til én liste
     const allEntries = shardData.flat();
 
-    // 4. Lag et map: dokumentID → dokument
+    // 5. Lag et map: dokumentID → dokument
     const map = {};
     for (const d of allEntries) {
         map[d.dokumentID] = d;
@@ -39,3 +42,4 @@ export async function loadPostliste() {
 
     return map;
 }
+
