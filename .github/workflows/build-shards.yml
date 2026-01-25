@@ -1,23 +1,20 @@
-name: Build shards from archive
+name: Build shards
 
 on:
   workflow_dispatch:
   push:
     paths:
       - "data/archive/**"
-
-permissions:
-  contents: write
+      - "scripts/build_chunks_from_archive.py"
+      - ".github/workflows/build-shards.yml"
 
 jobs:
   build-shards:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -28,22 +25,36 @@ jobs:
         run: |
           python -m pip install --upgrade pip
 
-      - name: List archive file sizes
-        run: du -h data/archive
-
-      - name: Build shards from archive
+      - name: Clean old shards directory
         run: |
-          python tools/build_chunks_from_archive.py
+          if [ -d data/shards ]; then
+            echo "[INFO] Fjerner gamle shards..."
+            rm -rf data/shards
+          fi
+          mkdir -p data/shards
 
-      - name: Commit and push updated shards
+      - name: Run build-shards script
         run: |
-          git config --global user.name "${{ github.actor }}"
-          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
+          echo "[INFO] Starter build_chunks_from_archive.py"
+          python scripts/build_chunks_from_archive.py
 
-          git add data/postliste_*.json
-          git add data/postliste_index.json
+      - name: Show shard directory summary
+        run: |
+          echo "[INFO] Innhold i data/shards:"
+          ls -lh data/shards
 
-          git commit -m "Rebuild shards from archive" || echo "No changes to commit"
+      - name: Commit and push changes
+        if: github.ref == 'refs/heads/main'
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
 
-          git pull --rebase origin main || true
-          git push origin main || true
+          git add data/shards data/postliste_index.json
+
+          if git diff --cached --quiet; then
+            echo "[INFO] Ingen endringer å committe"
+          else
+            echo "[INFO] Committer endringer..."
+            git commit -m "Oppdatert shards og index"
+            git push
+          fi
