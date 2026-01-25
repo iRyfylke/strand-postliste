@@ -1,173 +1,159 @@
 #!/usr/bin/env python3
 import os
-import glob
 import json
+import hashlib
 from pathlib import Path
-from typing import Dict, Any, List
-from datetime import datetime
 
-# ---------------------------------------------------------
-# PATHS
-# ---------------------------------------------------------
-ROOT = Path(__file__).resolve().parents[1]
-DATA_DIR = ROOT / "data"
+DATA_DIR = Path("data")
 ARCHIVE_DIR = DATA_DIR / "archive"
-
-CHUNK_PREFIX = "postliste_"
-CHUNK_MAX_BYTES = 50 * 1024 * 1024  # 50 MB
+SHARDS_DIR = DATA_DIR / "shards"
+TEMP_STREAM = DATA_DIR / "tmp_stream.jsonl"
 INDEX_FILE = DATA_DIR / "postliste_index.json"
 
-
-# ---------------------------------------------------------
-# Finn alle archive-filer
-# ---------------------------------------------------------
-def iter_archive_files() -> List[Path]:
-    """Ta med postliste_*.json og missing_*.json, ekskluder failed_pages."""
-    files = []
-
-    files.extend(ARCHIVE_DIR.glob("postliste_*.json"))
-    files.extend(ARCHIVE_DIR.glob("missing_*.json"))
-
-    files = [
-        f for f in files
-        if "failed_pages" not in f.name
-    ]
-
-    return sorted(files)
+ENTRIES_PER_SHARD = 10000  # kan flyttes til config.json senere
 
 
-# ---------------------------------------------------------
-# Les og dedupe dokumenter
-# ---------------------------------------------------------
-def load_unique_docs() -> List[Dict[str, Any]]:
-    seen_ids = set()
-    all_docs: List[Dict[str, Any]] = []
+def ensure_dirs():
+    SHARDS_DIR.mkdir(exist_ok=True)
+    if TEMP_STREAM.exists():
+        TEMP_STREAM.unlink()
 
-    files = iter_archive_files()
-    print(f"[INFO] Leser {len(files)} archive-filer…")
 
-    for f in files:
-        print(f"[INFO] Leser {f}")
-        try:
-            with f.open("r", encoding="utf-8") as infile:
-                docs = json.load(infile)
-        except Exception as e:
-            print(f"[WARN] Klarte ikke lese {f}: {e}")
-            continue
+def iter_archive_files():
+    """Returnerer alle filer som skal inngå i merge."""
+    for f in sorted(ARCHIVE_DIR.glob("*.json")):
+        yield f
+    # inkluder gamle postliste_1.json
+    old = DATA_DIR / "postliste_1.json"
+    if old.exists():
+        yield old
 
-        if not isinstance(docs, list):
-            print(f"[WARN] Filen {f} inneholder ikke en liste. Hopper over.")
-            continue
 
-        for d in docs:
-            dokid = d.get("dokumentID")
-            if dokid:
-                if dokid in seen_ids:
+def stream_entries():
+    """Streamer alle entries til en midlertidig fil, deduper via ID."""
+    seen = set()
+    count = 0
+
+    with TEMP_STREAM.open("w", encoding="utf-8") as out:
+        for file in iter_archive_files():
+            print(f"[INFO] Leser {file}")
+            try:
+                with file.open("r", encoding="utf-8") as f:
+                    data = json.load(f)
+            except Exception as e:
+                print(f"[WARN] Klarte ikke lese {file}: {e}")
+                continue
+
+            for entry in data:
+                entry_id = entry.get("id")
+                if not entry_id:
                     continue
-                seen_ids.add(dokid)
+                if entry_id in seen:
+                    continue
+                seen.add(entry_id)
 
-            all_docs.append(d)
+                # skriv som én linje
+                out.write(json.dumps(entry, ensure_ascii=False) + "\n")
+                count += 1
 
-    print(f"[INFO] Totalt {len(all_docs)} unike dokumenter samlet.")
-    return all_docs
+    print(f"[INFO] Streamet {count} unike entries")
+    return count
 
 
-# ---------------------------------------------------------
-# Sorter dokumenter kronologisk
-# ---------------------------------------------------------
-def sort_docs(docs: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
-    def key_fn(d: Dict[str, Any]):
-        if d.get("dato_iso"):
+def extract_metadata():
+    """Leser stream-filen og bygger en liste med (dato, offset)."""
+    metadata = []
+    with TEMP_STREAM.open("r", encoding="utf-8") as f:
+        offset = 0
+        for line in f:
             try:
-                return datetime.fromisoformat(d["dato_iso"])
-            except Exception:
-                pass
-        if d.get("dato"):
-            try:
-                return datetime.strptime(d["dato"], "%d.%m.%Y")
-            except Exception:
-                pass
-        return datetime.min
+                obj = json.loads(line)
+            except:
+                offset += len(line.encode("utf-8"))
+                continue
 
-    docs_sorted = sorted(docs, key=key_fn)
-    print("[INFO] Dokumenter sortert kronologisk.")
-    return docs_sorted
+            dato = obj.get("dato") or obj.get("date") or ""
+            metadata.append((dato, offset))
+            offset += len(line.encode("utf-8"))
+
+    print(f"[INFO] Metadata entries: {len(metadata)}")
+    return metadata
 
 
-# ---------------------------------------------------------
-# Chunking
-# ---------------------------------------------------------
-def chunk_size_bytes(chunk: List[Dict[str, Any]]) -> int:
-    return len(json.dumps(chunk, ensure_ascii=False).encode("utf-8"))
+def sort_metadata(metadata):
+    """Sorter etter dato (strengsortering fungerer siden datoformatet er ISO)."""
+    metadata.sort(key=lambda x: x[0])
+    print("[INFO] Metadata sortert etter dato")
+    return metadata
 
 
-def write_chunks(docs: List[Dict[str, Any]]):
-    DATA_DIR.mkdir(parents=True, exist_ok=True)
+def write_shards(metadata):
+    """Streamer entries ut i sortert rekkefølge og chunker i shards."""
+    total = len(metadata)
+    shard_index = 0
+    written = 0
 
-    chunk_index = 1
-    current_chunk: List[Dict[str, Any]] = []
-    index_entries = []
+    # åpne stream for random access
+    with TEMP_STREAM.open("r", encoding="utf-8") as f:
 
-    def chunk_path(idx: int) -> Path:
-        return DATA_DIR / f"{CHUNK_PREFIX}{idx}.json"
+        def read_entry_at(offset):
+            f.seek(offset)
+            line = f.readline()
+            return json.loads(line)
 
-    for doc in docs:
-        test_chunk = current_chunk + [doc]
-        size = chunk_size_bytes(test_chunk)
+        while written < total:
+            chunk = metadata[written:written + ENTRIES_PER_SHARD]
+            shard_file = SHARDS_DIR / f"postliste_{shard_index}.json"
 
-        if size > CHUNK_MAX_BYTES and current_chunk:
-            out_path = chunk_path(chunk_index)
-            with out_path.open("w", encoding="utf-8") as outfile:
-                json.dump(current_chunk, outfile, ensure_ascii=False, indent=2)
+            entries = []
+            for _, offset in chunk:
+                entries.append(read_entry_at(offset))
 
-            index_entries.append({
-                "file": out_path.name,
-                "count": len(current_chunk),
-                "size_mb": round(chunk_size_bytes(current_chunk) / 1024 / 1024, 2),
-                "first_date": current_chunk[0].get("dato_iso") or current_chunk[0].get("dato"),
-                "last_date": current_chunk[-1].get("dato_iso") or current_chunk[-1].get("dato"),
-            })
+            with shard_file.open("w", encoding="utf-8") as out:
+                json.dump(entries, out, ensure_ascii=False, indent=2)
 
-            print(f"[INFO] Skrev {out_path.name} ({len(current_chunk)} dokumenter)")
+            print(f"[INFO] Skrev {shard_file} ({len(entries)} entries)")
 
-            chunk_index += 1
-            current_chunk = [doc]
-        else:
-            current_chunk.append(doc)
+            written += len(chunk)
+            shard_index += 1
 
-    # Siste chunk
-    if current_chunk:
-        out_path = chunk_path(chunk_index)
-        with out_path.open("w", encoding="utf-8") as outfile:
-            json.dump(current_chunk, outfile, ensure_ascii=False, indent=2)
+    return shard_index, total
 
-        index_entries.append({
-            "file": out_path.name,
-            "count": len(current_chunk),
-            "size_mb": round(chunk_size_bytes(current_chunk) / 1024 / 1024, 2),
-            "first_date": current_chunk[0].get("dato_iso") or current_chunk[0].get("dato"),
-            "last_date": current_chunk[-1].get("dato_iso") or current_chunk[-1].get("dato"),
+
+def write_index(num_shards, total_entries):
+    index = {
+        "total_entries": total_entries,
+        "entries_per_shard": ENTRIES_PER_SHARD,
+        "shards": []
+    }
+
+    start = 0
+    for i in range(num_shards):
+        end = min(start + ENTRIES_PER_SHARD - 1, total_entries - 1)
+        index["shards"].append({
+            "file": f"postliste_{i}.json",
+            "start": start,
+            "end": end
         })
+        start += ENTRIES_PER_SHARD
 
-        print(f"[INFO] Skrev {out_path.name} ({len(current_chunk)} dokumenter)")
-
-    # Skriv index
     with INDEX_FILE.open("w", encoding="utf-8") as f:
-        json.dump(index_entries, f, ensure_ascii=False, indent=2)
+        json.dump(index, f, ensure_ascii=False, indent=2)
 
-    print(f"[INFO] Skrev indexfil: {INDEX_FILE}")
-    print(f"[INFO] Ferdig. Totalt {len(index_entries)} shards generert.")
+    print(f"[INFO] Skrev index til {INDEX_FILE}")
 
 
-# ---------------------------------------------------------
-# MAIN
-# ---------------------------------------------------------
 def main():
-    print("[INFO] Starter bygging av shards fra archive…")
-    docs = load_unique_docs()
-    docs = sort_docs(docs)
-    write_chunks(docs)
-    print("[INFO] Shards ferdig generert.")
+    print("[INFO] Starter build-shards (streaming + sortering etter dato)")
+    ensure_dirs()
+
+    total = stream_entries()
+    metadata = extract_metadata()
+    metadata = sort_metadata(metadata)
+    num_shards, total_entries = write_shards(metadata)
+    write_index(num_shards, total_entries)
+
+    print("[INFO] Ferdig!")
 
 
 if __name__ == "__main__":
