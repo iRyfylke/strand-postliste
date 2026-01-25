@@ -19,35 +19,40 @@ INDEX_FILE = DATA_DIR / "postliste_index.json"
 
 
 # ---------------------------------------------------------
-# Hjelpefunksjoner
+# Finn alle archive-filer
 # ---------------------------------------------------------
 def iter_archive_files() -> List[Path]:
-    """Finn alle archive-filer som inneholder postliste-data."""
-    pattern = str(ARCHIVE_DIR / "postliste_*.json")
-    files = [Path(p) for p in glob.glob(pattern)]
+    """Ta med postliste_*.json og missing_*.json, ekskluder failed_pages."""
+    files = []
+
+    files.extend(ARCHIVE_DIR.glob("postliste_*.json"))
+    files.extend(ARCHIVE_DIR.glob("missing_*.json"))
+
     files = [
         f for f in files
-        if "missing_" not in f.name and "failed_pages" not in f.name
+        if "failed_pages" not in f.name
     ]
-    files.sort()
-    return files
+
+    return sorted(files)
 
 
+# ---------------------------------------------------------
+# Les og dedupe dokumenter
+# ---------------------------------------------------------
 def load_unique_docs() -> List[Dict[str, Any]]:
-    """Les alle archive-filer og dedupe basert på dokumentID."""
     seen_ids = set()
     all_docs: List[Dict[str, Any]] = []
 
     files = iter_archive_files()
-    print(f"[INFO] Fant {len(files)} archive-filer.")
+    print(f"[INFO] Leser {len(files)} archive-filer…")
 
     for f in files:
-        print(f"[INFO] Leser {f} …")
+        print(f"[INFO] Leser {f}")
         try:
             with f.open("r", encoding="utf-8") as infile:
                 docs = json.load(infile)
         except Exception as e:
-            print(f"[WARN] Klarte ikke å lese {f}: {e}")
+            print(f"[WARN] Klarte ikke lese {f}: {e}")
             continue
 
         if not isinstance(docs, list):
@@ -67,9 +72,10 @@ def load_unique_docs() -> List[Dict[str, Any]]:
     return all_docs
 
 
+# ---------------------------------------------------------
+# Sorter dokumenter kronologisk
+# ---------------------------------------------------------
 def sort_docs(docs: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
-    """Sorter dokumenter kronologisk (eldst → nyest)."""
-
     def key_fn(d: Dict[str, Any]):
         if d.get("dato_iso"):
             try:
@@ -88,13 +94,14 @@ def sort_docs(docs: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
     return docs_sorted
 
 
+# ---------------------------------------------------------
+# Chunking
+# ---------------------------------------------------------
 def chunk_size_bytes(chunk: List[Dict[str, Any]]) -> int:
-    """Returner faktisk størrelse i bytes for JSON-serialisert chunk."""
     return len(json.dumps(chunk, ensure_ascii=False).encode("utf-8"))
 
 
 def write_chunks(docs: List[Dict[str, Any]]):
-    """Skriv ut dokumentene i shards + indexfil."""
     DATA_DIR.mkdir(parents=True, exist_ok=True)
 
     chunk_index = 1
@@ -109,12 +116,10 @@ def write_chunks(docs: List[Dict[str, Any]]):
         size = chunk_size_bytes(test_chunk)
 
         if size > CHUNK_MAX_BYTES and current_chunk:
-            # Skriv eksisterende chunk
             out_path = chunk_path(chunk_index)
             with out_path.open("w", encoding="utf-8") as outfile:
                 json.dump(current_chunk, outfile, ensure_ascii=False, indent=2)
 
-            # Metadata
             index_entries.append({
                 "file": out_path.name,
                 "count": len(current_chunk),
@@ -123,11 +128,7 @@ def write_chunks(docs: List[Dict[str, Any]]):
                 "last_date": current_chunk[-1].get("dato_iso") or current_chunk[-1].get("dato"),
             })
 
-            print(
-                f"[INFO] Skrev {out_path.name} "
-                f"({len(current_chunk)} dokumenter, "
-                f"{chunk_size_bytes(current_chunk)/1024/1024:.2f} MB)"
-            )
+            print(f"[INFO] Skrev {out_path.name} ({len(current_chunk)} dokumenter)")
 
             chunk_index += 1
             current_chunk = [doc]
@@ -148,13 +149,9 @@ def write_chunks(docs: List[Dict[str, Any]]):
             "last_date": current_chunk[-1].get("dato_iso") or current_chunk[-1].get("dato"),
         })
 
-        print(
-            f"[INFO] Skrev {out_path.name} "
-            f"({len(current_chunk)} dokumenter, "
-            f"{chunk_size_bytes(current_chunk)/1024/1024:.2f} MB)"
-        )
+        print(f"[INFO] Skrev {out_path.name} ({len(current_chunk)} dokumenter)")
 
-    # Skriv indexfil
+    # Skriv index
     with INDEX_FILE.open("w", encoding="utf-8") as f:
         json.dump(index_entries, f, ensure_ascii=False, indent=2)
 
@@ -166,11 +163,11 @@ def write_chunks(docs: List[Dict[str, Any]]):
 # MAIN
 # ---------------------------------------------------------
 def main():
-    print("[INFO] Starter bygging av postliste-chunks fra data/archive/ …")
+    print("[INFO] Starter bygging av shards fra archive…")
     docs = load_unique_docs()
     docs = sort_docs(docs)
     write_chunks(docs)
-    print("[INFO] Bygging av shards fullført.")
+    print("[INFO] Shards ferdig generert.")
 
 
 if __name__ == "__main__":
