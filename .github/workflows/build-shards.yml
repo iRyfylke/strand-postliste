@@ -15,6 +15,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # viktig for rebase
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -27,10 +29,8 @@ jobs:
 
       - name: Clean old shards directory
         run: |
-          if [ -d data/shards ]; then
-            echo "[INFO] Fjerner gamle shards..."
-            rm -rf data/shards
-          fi
+          echo "[INFO] Rydder gamle shards..."
+          rm -rf data/shards
           mkdir -p data/shards
 
       - name: Run build-shards script
@@ -53,8 +53,14 @@ jobs:
 
           if git diff --cached --quiet; then
             echo "[INFO] Ingen endringer å committe"
-          else
-            echo "[INFO] Committer endringer..."
-            git commit -m "Oppdatert shards og index"
-            git push
+            exit 0
           fi
+
+          echo "[INFO] Committer endringer..."
+          git commit -m "Oppdatert shards og index"
+
+          echo "[INFO] Henter siste endringer fra remote (rebase)..."
+          git pull --rebase --autostash
+
+          echo "[INFO] Pusher endringer..."
+          git push
