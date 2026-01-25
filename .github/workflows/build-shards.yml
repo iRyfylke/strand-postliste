@@ -5,7 +5,7 @@ on:
   push:
     paths:
       - "data/archive/**"
-      - "scripts/build_chunks_from_archive.py"
+      - "tools/build_chunks_from_archive.py"
       - ".github/workflows/build-shards.yml"
 
 jobs:
