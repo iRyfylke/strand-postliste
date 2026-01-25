@@ -1,5 +1,81 @@
 {
-  "total_entries": 0,
+  "total_entries": 140134,
   "entries_per_shard": 10000,
-  "shards": []
+  "shards": [
+    {
+      "file": "postliste_0.json",
+      "start": 0,
+      "end": 9999
+    },
+    {
+      "file": "postliste_1.json",
+      "start": 10000,
+      "end": 19999
+    },
+    {
+      "file": "postliste_2.json",
+      "start": 20000,
+      "end": 29999
+    },
+    {
+      "file": "postliste_3.json",
+      "start": 30000,
+      "end": 39999
+    },
+    {
+      "file": "postliste_4.json",
+      "start": 40000,
+      "end": 49999
+    },
+    {
+      "file": "postliste_5.json",
+      "start": 50000,
+      "end": 59999
+    },
+    {
+      "file": "postliste_6.json",
+      "start": 60000,
+      "end": 69999
+    },
+    {
+      "file": "postliste_7.json",
+      "start": 70000,
+      "end": 79999
+    },
+    {
+      "file": "postliste_8.json",
+      "start": 80000,
+      "end": 89999
+    },
+    {
+      "file": "postliste_9.json",
+      "start": 90000,
+      "end": 99999
+    },
+    {
+      "file": "postliste_10.json",
+      "start": 100000,
+      "end": 109999
+    },
+    {
+      "file": "postliste_11.json",
+      "start": 110000,
+      "end": 119999
+    },
+    {
+      "file": "postliste_12.json",
+      "start": 120000,
+      "end": 129999
+    },
+    {
+      "file": "postliste_13.json",
+      "start": 130000,
+      "end": 139999
+    },
+    {
+      "file": "postliste_14.json",
+      "start": 140000,
+      "end": 140133
+    }
+  ]
 }
