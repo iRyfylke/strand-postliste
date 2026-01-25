@@ -10,7 +10,7 @@ SHARDS_DIR = DATA_DIR / "shards"
 TEMP_STREAM = DATA_DIR / "tmp_stream.jsonl"
 INDEX_FILE = DATA_DIR / "postliste_index.json"
 
-ENTRIES_PER_SHARD = 10000  # kan flyttes til config.json senere
+ENTRIES_PER_SHARD = 10000  # kan flyttes til config senere
 
 
 def ensure_dirs():
@@ -23,36 +23,55 @@ def iter_archive_files():
     """Returnerer alle filer som skal inngå i merge."""
     for f in sorted(ARCHIVE_DIR.glob("*.json")):
         yield f
+
     # inkluder gamle postliste_1.json
     old = DATA_DIR / "postliste_1.json"
     if old.exists():
         yield old
 
 
+def extract_entries_from_file(file):
+    """Henter entries fra en fil som inneholder en ren JSON-liste."""
+    try:
+        with file.open("r", encoding="utf-8") as f:
+            data = json.load(f)
+    except Exception as e:
+        print(f"[WARN] Klarte ikke lese {file}: {e}")
+        return []
+
+    if isinstance(data, list):
+        return data
+
+    print(f"[WARN] Uventet datastruktur i {file}, forventet liste.")
+    return []
+
+
 def stream_entries():
-    """Streamer alle entries til en midlertidig fil, deduper via ID."""
+    """Streamer alle entries til en midlertidig fil, deduper via dokumentID."""
     seen = set()
     count = 0
 
     with TEMP_STREAM.open("w", encoding="utf-8") as out:
         for file in iter_archive_files():
             print(f"[INFO] Leser {file}")
-            try:
-                with file.open("r", encoding="utf-8") as f:
-                    data = json.load(f)
-            except Exception as e:
-                print(f"[WARN] Klarte ikke lese {file}: {e}")
-                continue
+            entries = extract_entries_from_file(file)
 
-            for entry in data:
-                entry_id = entry.get("id")
+            for entry in entries:
+                entry_id = (
+                    entry.get("id")
+                    or entry.get("dokumentID")
+                )
+
                 if not entry_id:
-                    continue
+                    # fallback: generer hash
+                    entry_id = hashlib.sha1(
+                        json.dumps(entry, sort_keys=True).encode("utf-8")
+                    ).hexdigest()
+
                 if entry_id in seen:
                     continue
                 seen.add(entry_id)
 
-                # skriv som én linje
                 out.write(json.dumps(entry, ensure_ascii=False) + "\n")
                 count += 1
 
@@ -61,7 +80,7 @@ def stream_entries():
 
 
 def extract_metadata():
-    """Leser stream-filen og bygger en liste med (dato, offset)."""
+    """Leser stream-filen og bygger en liste med (dato_iso, offset)."""
     metadata = []
     with TEMP_STREAM.open("r", encoding="utf-8") as f:
         offset = 0
@@ -72,7 +91,7 @@ def extract_metadata():
                 offset += len(line.encode("utf-8"))
                 continue
 
-            dato = obj.get("dato") or obj.get("date") or ""
+            dato = obj.get("dato_iso") or obj.get("dato") or ""
             metadata.append((dato, offset))
             offset += len(line.encode("utf-8"))
 
@@ -81,7 +100,7 @@ def extract_metadata():
 
 
 def sort_metadata(metadata):
-    """Sorter etter dato (strengsortering fungerer siden datoformatet er ISO)."""
+    """Sorter etter dato_iso (ISO-format → perfekt sortering)."""
     metadata.sort(key=lambda x: x[0])
     print("[INFO] Metadata sortert etter dato")
     return metadata
@@ -93,7 +112,6 @@ def write_shards(metadata):
     shard_index = 0
     written = 0
 
-    # åpne stream for random access
     with TEMP_STREAM.open("r", encoding="utf-8") as f:
 
         def read_entry_at(offset):
@@ -105,9 +123,7 @@ def write_shards(metadata):
             chunk = metadata[written:written + ENTRIES_PER_SHARD]
             shard_file = SHARDS_DIR / f"postliste_{shard_index}.json"
 
-            entries = []
-            for _, offset in chunk:
-                entries.append(read_entry_at(offset))
+            entries = [read_entry_at(offset) for _, offset in chunk]
 
             with shard_file.open("w", encoding="utf-8") as out:
                 json.dump(entries, out, ensure_ascii=False, indent=2)
