@@ -1,0 +1,71 @@
+name: Validate missing documents in shards
+
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows: ["Build shards from archive"]
+    types: [completed]
+
+jobs:
+  validate-missing:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run validation
+        run: |
+          python - << 'EOF'
+          import json, glob, sys
+          from pathlib import Path
+
+          DATA = Path("data")
+          ARCHIVE = DATA / "archive"
+
+          # --- Load missing docs ---
+          missing_ids = set()
+          for f in ARCHIVE.glob("missing_*.json"):
+              try:
+                  docs = json.loads(f.read_text(encoding="utf-8"))
+                  for d in docs:
+                      did = d.get("dokumentID")
+                      if did:
+                          missing_ids.add(did)
+              except:
+                  pass
+
+          print(f"[INFO] Fant {len(missing_ids)} dokumenter i missing_*.json")
+
+          # --- Load shards ---
+          shard_ids = set()
+          for f in DATA.glob("postliste_*.json"):
+              if f.name == "postliste_index.json":
+                  continue
+              try:
+                  docs = json.loads(f.read_text(encoding="utf-8"))
+                  for d in docs:
+                      did = d.get("dokumentID")
+                      if did:
+                          shard_ids.add(did)
+              except:
+                  pass
+
+          print(f"[INFO] Fant {len(shard_ids)} dokumenter i shards")
+
+          # --- Compare ---
+          missing_not_in_shards = missing_ids - shard_ids
+
+          if missing_not_in_shards:
+              print("[ERROR] Følgende dokumenter fra missing_*.json mangler i shards:")
+              for did in sorted(missing_not_in_shards):
+                  print(" -", did)
+              sys.exit(1)
+
+          print("[SUCCESS] Alle missing-dokumenter finnes i shards.")
+          EOF
