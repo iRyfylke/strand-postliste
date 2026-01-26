@@ -597,8 +597,17 @@
     "avsender_mottaker": "Avsender: Strand Historielag",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016770!mU1hIL/d-6965376f__8677__47ea__a757__23e14c179149-2020256662!LHURO3",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "Innspill til høring - priser og retningslinjer for Strand kulturhus (pdf, 48KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1234532_1_A!d-2020256662!SncAkP?pid=29"
+      },
+      {
+        "tekst": "E-post - Priser og retningslinjer for Strand kulturhus (pdf, 63KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1234533_1_A!d-2020256662!AaKvJN?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "68/21 Tilbakemelding etter uttalelse fra Statsforvalteren - Sørskårvegen 468B",
@@ -816,8 +825,13 @@
     "avsender_mottaker": "Mottaker: Holger Barka",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020018065!N9khJI/d-6965376f__8677__47ea__a757__23e14c179149-2020254626!52XYn7",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "31/728 Dispensasjonsvedtak - hagestue - Breidablikkvegen 2 - Holger Barka (pdf, 106KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1229606_1_A!d-2020254626!vwaeBi?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Søknad om plass i SFO",
@@ -1239,13 +1253,8 @@
     "avsender_mottaker": "Avsender: Barkve Landbruk",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017134!fDkQW7/d-6965376f__8677__47ea__a757__23e14c179149-2020256434!TlbHHm",
-    "filer": [
-      {
-        "tekst": "26/8 Søknad produksjons- og avløsertilskudd 2025 (pdf, 224KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1233938_1_A!d-2020256434!4EVJq9?pid=29"
-      }
-    ],
-    "status": "Publisert"
+    "filer": [],
+    "status": "Må bes om innsyn"
   },
   {
     "tittel": "Nasjonalforeningen for folkehelsens folkehelsepris 2026",

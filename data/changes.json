@@ -339194,5 +339194,53 @@
         "ny": 0
       }
     }
+  },
+  {
+    "tidspunkt": "2026-01-26 06:54:58",
+    "type": "UPDATE",
+    "dokumentID": "2026/1875",
+    "tittel": "Innspill til høring - priser og retningslinjer for Strand kulturhus",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 2
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-26 06:54:58",
+    "type": "UPDATE",
+    "dokumentID": "2025/42360",
+    "tittel": "31/728 Dispensasjonsvedtak - hagestue - Breidablikkvegen 2 - Holger Barka",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-01-26 06:54:58",
+    "type": "UPDATE",
+    "dokumentID": "2026/1647",
+    "tittel": "26/8 Søknad produksjons- og avløsertilskudd 2025",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
   }
 ]
