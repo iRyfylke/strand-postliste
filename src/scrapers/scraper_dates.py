@@ -21,7 +21,7 @@ FILTERED_FILE = "../../data/postliste_filtered.json"
 # LOAD ARCHIVE YEAR (instead of shards)
 # ---------------------------------------------------------
 def load_archive_year(year):
-    archive_files = glob.glob(f"../../data/archive/postliste_{year}_*.json")
+    archive_files = glob.glob(f"../../data/archive_new/postliste_{year}_*.json")
     existing = {}
 
     print(f"[INFO] Leser archive-filer for år {year}…")
@@ -45,7 +45,7 @@ def load_archive_year(year):
 # FAILED PAGES – LOAD & SAVE
 # ---------------------------------------------------------
 def load_failed_pages(year):
-    path = f"../../data/archive/failed_pages_{year}.json"
+    path = f"../../data/archive_new/failed_pages_{year}.json"
     if not os.path.exists(path):
         return []
     try:
@@ -56,7 +56,7 @@ def load_failed_pages(year):
 
 
 def save_failed_pages(year, pages):
-    path = f"../../data/archive/failed_pages_{year}.json"
+    path = f"../../data/archive_new/failed_pages_{year}.json"
     atomic_write(path, sorted(list(set(pages))))
 
 
@@ -229,7 +229,7 @@ async def run_scrape_async(start_date=None, end_date=None, config_path=DEFAULT_C
             if dokid and dokid not in existing_dict:
                 missing_docs.append(d)
 
-        missing_file = f"../../data/archive/missing_{year}.json"
+        missing_file = f"../../data/archive_new/missing_{year}.json"
 
         print(f"[INFO] Fant {len(missing_docs)} manglende dokumenter.")
         atomic_write(missing_file, missing_docs)
