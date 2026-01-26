@@ -72,7 +72,7 @@ jobs:
 
           if [ "$RETRY" = "true" ]; then
             echo "=== RETRY-MODUS AKTIVERT ==="
-            FAILED_FILE="data/archive/failed_pages_${YEAR}.json"
+            FAILED_FILE="data/archive_new/failed_pages_${YEAR}.json"
 
             if [ ! -f "$FAILED_FILE" ]; then
               echo "[ERROR] Ingen failed_pages_${YEAR}.json funnet. Kan ikke kjøre retry."
@@ -132,15 +132,15 @@ jobs:
 
           CHANGES=0
 
-          if [ -f data/archive/missing_${YEAR}.json ]; then
+          if [ -f data/archive_new/missing_${YEAR}.json ]; then
             echo "[INFO] Fant missing_${YEAR}.json"
-            git add data/archive/missing_${YEAR}.json
+            git add data/archive_new/missing_${YEAR}.json
             CHANGES=1
           fi
 
-          if [ -f data/archive/failed_pages_${YEAR}.json ]; then
+          if [ -f data/archive_new/failed_pages_${YEAR}.json ]; then
             echo "[INFO] Fant failed_pages_${YEAR}.json"
-            git add data/archive/failed_pages_${YEAR}.json
+            git add data/archive_new/failed_pages_${YEAR}.json
             CHANGES=1
           fi
 
