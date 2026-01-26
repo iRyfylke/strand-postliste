@@ -105,7 +105,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: failed-pages-${{ needs.setup.outputs.year }}-Q1
-          path: data/archive/failed_pages_${{ needs.setup.outputs.year }}.json
+          path: data/archive_new/failed_pages_${{ needs.setup.outputs.year }}.json
           if-no-files-found: ignore
 
   scrape_Q2:
@@ -149,7 +149,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: failed-pages-${{ needs.setup.outputs.year }}-Q2
-          path: data/archive/failed_pages_${{ needs.setup.outputs.year }}.json
+          path: data/archive_new/failed_pages_${{ needs.setup.outputs.year }}.json
           if-no-files-found: ignore
 
   scrape_Q3:
@@ -193,7 +193,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: failed-pages-${{ needs.setup.outputs.year }}-Q3
-          path: data/archive/failed_pages_${{ needs.setup.outputs.year }}.json
+          path: data/archive_new/failed_pages_${{ needs.setup.outputs.year }}.json
           if-no-files-found: ignore
 
   scrape_Q4:
@@ -237,7 +237,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: failed-pages-${{ needs.setup.outputs.year }}-Q4
-          path: data/archive/failed_pages_${{ needs.setup.outputs.year }}.json
+          path: data/archive_new/failed_pages_${{ needs.setup.outputs.year }}.json
           if-no-files-found: ignore
 
   # -------------------------
@@ -267,7 +267,7 @@ jobs:
       - name: Slå sammen failed_pages til én fil
         run: |
           YEAR="${{ github.event.inputs.year }}"
-          mkdir -p data/archive
+          mkdir -p data/archive_new
 
           # Finn alle failed_pages-filer fra artifacts
           FILES=$(find failed_pages_artifacts -name "failed_pages_${YEAR}.json" -type f || true)
@@ -279,18 +279,18 @@ jobs:
             echo "$FILES"
 
             # Slå sammen og fjern duplikater
-            jq -s 'add | unique | sort' $FILES > data/archive/failed_pages_${YEAR}.json
-            echo "Ferdig generert data/archive/failed_pages_${YEAR}.json"
+            jq -s 'add | unique | sort' $FILES > data/archive_new/failed_pages_${YEAR}.json
+            echo "Ferdig generert data/archive_new/failed_pages_${YEAR}.json"
           fi
 
       - name: Arkiver kvartalsfiler
         run: |
-          mkdir -p data/archive
+          mkdir -p data/archive_new
           YEAR="${{ github.event.inputs.year }}"
-          cp artifacts/fullscrape-Q1/postliste_filtered.json data/archive/postliste_${YEAR}_Q1.json
-          cp artifacts/fullscrape-Q2/postliste_filtered.json data/archive/postliste_${YEAR}_Q2.json
-          cp artifacts/fullscrape-Q3/postliste_filtered.json data/archive/postliste_${YEAR}_Q3.json
-          cp artifacts/fullscrape-Q4/postliste_filtered.json data/archive/postliste_${YEAR}_Q4.json
+          cp artifacts/fullscrape-Q1/postliste_filtered.json data/archive_new/postliste_${YEAR}_Q1.json
+          cp artifacts/fullscrape-Q2/postliste_filtered.json data/archive_new/postliste_${YEAR}_Q2.json
+          cp artifacts/fullscrape-Q3/postliste_filtered.json data/archive_new/postliste_${YEAR}_Q3.json
+          cp artifacts/fullscrape-Q4/postliste_filtered.json data/archive_new/postliste_${YEAR}_Q4.json
 
       - name: Commit og push kvartalsfiler + failed_pages
         run: |
@@ -300,11 +300,11 @@ jobs:
           YEAR="${{ github.event.inputs.year }}"
 
           # Kvartalsfiler
-          git add data/archive/postliste_${YEAR}_Q*.json
+          git add data/archive_new/postliste_${YEAR}_Q*.json
 
           # failed_pages_<år>.json hvis den finnes
-          if [ -f "data/archive/failed_pages_${YEAR}.json" ]; then
-            git add data/archive/failed_pages_${YEAR}.json
+          if [ -f "data/archive_new/failed_pages_${YEAR}.json" ]; then
+            git add data/archive_new/failed_pages_${YEAR}.json
           fi
 
           git commit -m "Fullscrape ${YEAR} (Q1–Q4) + failed_pages" || echo "Ingen endringer"
@@ -330,27 +330,27 @@ jobs:
       - name: Slå sammen kvartaler til én fil
         run: |
           YEAR="${{ github.event.inputs.year }}"
-          mkdir -p data/archive
+          mkdir -p data/archive_new
 
           jq -s 'add' \
             artifacts/fullscrape-Q1/postliste_filtered.json \
             artifacts/fullscrape-Q2/postliste_filtered.json \
             artifacts/fullscrape-Q3/postliste_filtered.json \
             artifacts/fullscrape-Q4/postliste_filtered.json \
-            > data/archive/postliste_${YEAR}_full_unsorted.json
+            > data/archive_new/postliste_${YEAR}_full_unsorted.json
 
           jq 'sort_by(.dato)' \
-            data/archive/postliste_${YEAR}_full_unsorted.json \
-            > data/archive/postliste_${YEAR}_full.json
+            data/archive_new/postliste_${YEAR}_full_unsorted.json \
+            > data/archive_new/postliste_${YEAR}_full.json
 
-          rm data/archive/postliste_${YEAR}_full_unsorted.json
+          rm data/archive_new/postliste_${YEAR}_full_unsorted.json
 
       - name: Commit og push full-årsfil
         run: |
           git config --global user.name "${{ github.actor }}"
           git config --global user.email "${{ github.actor }}@users.noreply.github.com"
 
-          git add data/archive/postliste_${{ github.event.inputs.year }}_full.json
+          git add data/archive_new/postliste_${{ github.event.inputs.year }}_full.json
           git commit -m "Fullscrape ${{ github.event.inputs.year }} – samlet årsfil" || echo "Ingen endringer"
 
           git pull --rebase origin main || true
