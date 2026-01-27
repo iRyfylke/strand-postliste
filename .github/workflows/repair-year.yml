@@ -96,8 +96,8 @@ jobs:
             fi
           fi
 
-          # Skriv config-fil uten heredoc
-          printf '{\n  "start_page": %s,\n  "max_pages": %s,\n  "per_page": 100\n}\n' "$START" "$END" > src/config/config_repair.json
+          printf '{\n  "start_page": %s,\n  "max_pages": %s,\n  "per_page": 100\n}\n' \
+            "$START" "$END" > src/config/config_repair.json
 
           echo "=== INNHOLD I config_repair.json ==="
           cat src/config/config_repair.json
@@ -118,17 +118,25 @@ jobs:
             "31.12.${YEAR}"
 
       # -------------------------------------------------------
+      # RYDD OPP UNTRACKED FILER (kritisk forbedring)
+      # -------------------------------------------------------
+      - name: Rydd opp midlertidige filer
+        run: |
+          echo "=== Rydder opp midlertidige filer ==="
+          rm -f src/config/config_repair.json || true
+          rm -rf src/scrapers/__pycache__/ || true
+
+      # -------------------------------------------------------
       # COMMIT MISSING + FAILED FILES
       # -------------------------------------------------------
       - name: Commit og push missing- og failed-pages-filer
         run: |
           YEAR="${{ github.event.inputs.year }}"
-          mkdir -p data/archive
 
           git config --global user.name "${{ github.actor }}"
           git config --global user.email "${{ github.actor }}@users.noreply.github.com"
 
-          echo "=== Sjekker etter nye filer i archive/ ==="
+          echo "=== Sjekker etter nye filer i archive_new/ ==="
 
           CHANGES=0
 
@@ -145,7 +153,9 @@ jobs:
           fi
 
           if [ "$CHANGES" = "1" ]; then
-            git commit -m "Repair-scrape for år ${YEAR} – oppdaterte missing/failed_pages"
+            echo "=== Committer endringer ==="
+            git commit -m "Repair-scrape for år ${YEAR} – oppdaterte missing/failed_pages" || true
+
             git pull --rebase origin main || true
             git push origin main || true
           else
