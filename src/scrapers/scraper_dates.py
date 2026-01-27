@@ -79,9 +79,15 @@ async def scrape_single_page(context, page_num, per_page, start_date, end_date, 
         finally:
             await page.close()
 
-        if not docs:
-            print(f"[WARN] FEIL: Ingen dokumenter på side {page_num}")
-            return None  # <-- Viktig: None betyr FEIL
+        # Ekte feil: hent_side_async klarte ikke å hente siden
+        if docs is None:
+            print(f"[WARN] FEIL: Klarte ikke hente side {page_num} (docs=None)")
+            return None
+
+        # Gyldig, men tom side
+        if len(docs) == 0:
+            print(f"[INFO] Side {page_num} er tom (0 dokumenter)")
+            return []
 
         filtered = []
         for d in docs:
@@ -195,7 +201,7 @@ async def run_scrape_async(start_date=None, end_date=None, config_path=DEFAULT_C
     print(f"[INFO] Totalt hentet {len(all_docs)} dokumenter innenfor dato-range.")
 
     # ---------------------------------------------------------
-    # FAILED PAGES UPDATE (FIXED LOGIC)
+    # FAILED PAGES UPDATE
     # ---------------------------------------------------------
     new_failed = []
 
@@ -203,14 +209,17 @@ async def run_scrape_async(start_date=None, end_date=None, config_path=DEFAULT_C
         batch = results[idx]
 
         if batch is None:
-            # Side feilet → behold den
+            # Ekte feil → behold siden i failed_pages
             new_failed.append(page_num)
         else:
-            # Side lykkes → fjern den
-            print(f"[INFO] Side {page_num} lykkes → fjernes fra failed_pages")
+            # batch er [] (tom side) eller liste med dokumenter → OK
+            print(f"[INFO] Side {page_num} OK → fjernes fra failed_pages hvis den lå der")
 
-    save_failed_pages(year, new_failed)
-    print(f"[INFO] Oppdatert failed_pages_{year}.json → {new_failed}")
+    if year is not None:
+        save_failed_pages(year, new_failed)
+        print(f"[INFO] Oppdatert failed_pages_{year}.json → {new_failed}")
+    else:
+        print("[WARN] year=None, hopper over lagring av failed_pages")
 
     # ---------------------------------------------------------
     # REPAIR MODE
