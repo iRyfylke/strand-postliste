@@ -80,7 +80,7 @@ async def scrape_single_page(context, page_num, per_page, start_date, end_date, 
             await page.close()
 
         if not docs:
-            print(f"[INFO] Ingen dokumenter (eller feil) på side {page_num}")
+            print(f"[WARN] FEIL: Ingen dokumenter på side {page_num}")
             return None  # <-- Viktig: None betyr FEIL
 
         filtered = []
@@ -195,7 +195,7 @@ async def run_scrape_async(start_date=None, end_date=None, config_path=DEFAULT_C
     print(f"[INFO] Totalt hentet {len(all_docs)} dokumenter innenfor dato-range.")
 
     # ---------------------------------------------------------
-    # FAILED PAGES UPDATE
+    # FAILED PAGES UPDATE (FIXED LOGIC)
     # ---------------------------------------------------------
     new_failed = []
 
@@ -203,14 +203,11 @@ async def run_scrape_async(start_date=None, end_date=None, config_path=DEFAULT_C
         batch = results[idx]
 
         if batch is None:
-            # Side feilet
-            if mode == "repair":
-                # Behold kun sider som feilet igjen
-                if page_num in failed_pages:
-                    new_failed.append(page_num)
-            else:
-                # Fullscrape: registrer nye feilede sider
-                new_failed.append(page_num)
+            # Side feilet → behold den
+            new_failed.append(page_num)
+        else:
+            # Side lykkes → fjern den
+            print(f"[INFO] Side {page_num} lykkes → fjernes fra failed_pages")
 
     save_failed_pages(year, new_failed)
     print(f"[INFO] Oppdatert failed_pages_{year}.json → {new_failed}")
