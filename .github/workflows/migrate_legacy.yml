@@ -28,20 +28,12 @@ jobs:
           pip install playwright beautifulsoup4
 
       # ---------------------------------------------------------
-      # 1. TEST IMPORT AV utils_files (uten heredoc)
+      # 1. TEST IMPORT AV utils_files (nå via egen .py-fil)
       # ---------------------------------------------------------
       - name: Test utils_files import
         run: |
           echo "=== TESTER IMPORT AV UTILS_FILES ==="
-          python -u -c "from pathlib import Path; import sys; \
-root = Path(__file__).resolve().parent; \
-print('Python kjører', flush=True); \
-print(f'ROOT: {root}', flush=True); \
-sys.path.append(str(root / 'src' / 'scrapers')); \
-print('sys.path oppdatert', flush=True); \
-print('Prøver å importere utils_files...', flush=True); \
-import utils_files; \
-print('utils_files import OK', flush=True)"
+          python -u tools/test_import_utils.py
 
       # ---------------------------------------------------------
       # 2. KJØR MIGRERING MED UNBUFFERED OUTPUT
