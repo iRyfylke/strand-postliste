@@ -300,3 +300,188 @@ def save_changes(changes):
         encoding="utf-8"
     )
     print(f"[INFO] Lagret {len(changes)} endringshendelser i {CHANGES_FILE}")
+
+# =========================================================
+#   NYTT SHARD-SYSTEM FOR MORGENSCRAPE (data/shards/)
+# =========================================================
+
+def load_all_postliste_from_shards(folder="data/shards"):
+    """
+    Leser ALLE shards fra gitt mappe (default: data/shards).
+    Returnerer:
+      - dict { dokumentID: dokument }
+      - flat liste
+    """
+    folder = Path(folder)
+    folder.mkdir(parents=True, exist_ok=True)
+
+    index_file = folder / "postliste_index.json"
+
+    if index_file.exists():
+        try:
+            names = json.loads(index_file.read_text(encoding="utf-8"))
+            shard_paths = [folder / name for name in names]
+        except Exception:
+            shard_paths = sorted(folder.glob("postliste_*.json"))
+    else:
+        shard_paths = sorted(folder.glob("postliste_*.json"))
+
+    merged = {}
+    all_list = []
+
+    for path in shard_paths:
+        try:
+            docs = json.loads(path.read_text(encoding="utf-8"))
+            if not isinstance(docs, list):
+                continue
+            for d in docs:
+                did = d.get("dokumentID")
+                if did:
+                    merged[did] = d
+            all_list.extend(docs)
+        except Exception as e:
+            print(f"[WARN] Klarte ikke lese shard {path}: {e}")
+
+    return merged, all_list
+
+
+def merge_and_save_sharded_to_folder(existing_dict, new_docs, folder="data/shards"):
+    """
+    Slår sammen eksisterende dokumenter med nye og skriver shards til gitt mappe.
+    """
+    folder = Path(folder)
+    folder.mkdir(parents=True, exist_ok=True)
+
+    updated = dict(existing_dict)
+    for d in new_docs:
+        updated[d["dokumentID"]] = d
+
+    save_postliste_sharded_to_folder(list(updated.values()), folder)
+
+
+def save_postliste_sharded_to_folder(all_docs, folder):
+    """
+    Skriver shards til gitt mappe (data/shards).
+    """
+    folder = Path(folder)
+    folder.mkdir(parents=True, exist_ok=True)
+
+    def sort_key(x):
+        for key in ("dato_iso", "dato"):
+            v = x.get(key)
+            if not v:
+                continue
+            try:
+                if key == "dato_iso":
+                    return datetime.fromisoformat(v).date()
+                else:
+                    return datetime.strptime(v, "%d.%m.%Y").date()
+            except Exception:
+                continue
+        return date.min
+
+    all_docs_sorted = sorted(all_docs, key=sort_key, reverse=True)
+
+    shards = []
+    current = []
+    current_index = 1
+
+    def shard_path(idx):
+        return folder / f"postliste_{idx}.json"
+
+    for doc in all_docs_sorted:
+        current.append(doc)
+        serialized = json.dumps(current, ensure_ascii=False)
+        if len(serialized.encode("utf-8")) > SHARD_MAX_BYTES:
+            last = current.pop()
+            path = shard_path(current_index)
+            atomic_write(path, current)
+            shards.append(path)
+            current_index += 1
+            current = [last]
+
+    if current:
+        path = shard_path(current_index)
+        atomic_write(path, current)
+        shards.append(path)
+
+    # Skriv index
+    index_file = folder / "postliste_index.json"
+    names = [p.name for p in shards]
+    atomic_write(index_file, names)
+
+    print(f"[INFO] Skrev {len(shards)} shards til {folder}")
+
+
+# =========================================================
+#   NYTT SHARD-SYSTEM FOR CHANGES (data/changes/)
+# =========================================================
+
+def load_changes_sharded(folder="data/changes"):
+    """
+    Leser alle changes_N.json og returnerer en flat liste.
+    """
+    folder = Path(folder)
+    folder.mkdir(parents=True, exist_ok=True)
+
+    index_file = folder / "changes_index.json"
+
+    if index_file.exists():
+        try:
+            names = json.loads(index_file.read_text(encoding="utf-8"))
+            shard_paths = [folder / name for name in names]
+        except Exception:
+            shard_paths = sorted(folder.glob("changes_*.json"))
+    else:
+        shard_paths = sorted(folder.glob("changes_*.json"))
+
+    all_changes = []
+
+    for path in shard_paths:
+        try:
+            data = json.loads(path.read_text(encoding="utf-8"))
+            if isinstance(data, list):
+                all_changes.extend(data)
+        except Exception as e:
+            print(f"[WARN] Klarte ikke lese changes-shard {path}: {e}")
+
+    return all_changes
+
+
+def save_changes_sharded(changes, folder="data/changes"):
+    """
+    Sharder changes-listen til changes_N.json i gitt mappe.
+    """
+    folder = Path(folder)
+    folder.mkdir(parents=True, exist_ok=True)
+
+    shards = []
+    current = []
+    current_index = 1
+
+    def shard_path(idx):
+        return folder / f"changes_{idx}.json"
+
+    for entry in changes:
+        current.append(entry)
+        serialized = json.dumps(current, ensure_ascii=False)
+        if len(serialized.encode("utf-8")) > SHARD_MAX_BYTES:
+            last = current.pop()
+            path = shard_path(current_index)
+            atomic_write(path, current)
+            shards.append(path)
+            current_index += 1
+            current = [last]
+
+    if current:
+        path = shard_path(current_index)
+        atomic_write(path, current)
+        shards.append(path)
+
+    # Skriv index
+    index_file = folder / "changes_index.json"
+    names = [p.name for p in shards]
+    atomic_write(index_file, names)
+
+    print(f"[INFO] Lagret {len(shards)} changes-shards i {folder}")
+
