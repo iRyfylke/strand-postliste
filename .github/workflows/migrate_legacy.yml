@@ -29,10 +29,12 @@ jobs:
 
       - name: Kjør migreringsscript
         run: |
+          echo "=== KJØRER MIGRERING ==="
           python tools/migrate_legacy_to_shards.py
 
-      - name: Slett legacy-filer
+      - name: Slett legacy-filer (etter migrering)
         run: |
+          echo "=== SLETTER LEGACY-FILER ==="
           rm -f data/postliste_1.json || true
           rm -f data/changes.json || true
 
@@ -40,6 +42,9 @@ jobs:
         run: |
           git config --global user.name "${{ github.actor }}"
           git config --global user.email "${{ github.actor }}@users.noreply.github.com"
+
+          echo "=== GIT STATUS ==="
+          git status data/
 
           git add data/shards/postliste_*.json || true
           git add data/shards/postliste_index.json || true
