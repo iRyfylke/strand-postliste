@@ -4,7 +4,8 @@ from datetime import datetime, date
 from pathlib import Path
 
 # Rot for datafiler
-DATA_DIR = Path("../../data")
+ROOT = Path(__file__).resolve().parent.parent.parent
+DATA_DIR = ROOT / "data"
 
 # Endringslogg
 CHANGES_FILE = DATA_DIR / "changes.json"
