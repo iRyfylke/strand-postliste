@@ -27,12 +27,41 @@ jobs:
           python -m pip install --upgrade pip
           pip install playwright beautifulsoup4
 
+      # ---------------------------------------------------------
+      # 1. TEST IMPORT AV utils_files (kritisk for å finne heng)
+      # ---------------------------------------------------------
+      - name: Test utils_files import
+        run: |
+          echo "=== TESTER IMPORT AV UTILS_FILES ==="
+          python -u - << 'EOF'
+from pathlib import Path
+import sys
+
+print("Python kjører", flush=True)
+
+ROOT = Path(__file__).resolve().parent
+print(f"ROOT: {ROOT}", flush=True)
+
+sys.path.append(str(ROOT / "src" / "scrapers"))
+print("sys.path oppdatert", flush=True)
+
+print("Prøver å importere utils_files...", flush=True)
+import utils_files
+print("utils_files import OK", flush=True)
+EOF
+
+      # ---------------------------------------------------------
+      # 2. KJØR MIGRERING MED UNBUFFERED OUTPUT
+      # ---------------------------------------------------------
       - name: Kjør migreringsscript
         id: migrate
         run: |
           echo "=== KJØRER MIGRERING ==="
-          python tools/migrate_legacy_to_shards.py
+          python -u tools/migrate_legacy_to_shards.py
 
+      # ---------------------------------------------------------
+      # 3. SLETT LEGACY-FILER KUN HVIS MIGRERING VAR OK
+      # ---------------------------------------------------------
       - name: Slett legacy-filer (kun hvis migrering OK)
         if: steps.migrate.outcome == 'success'
         run: |
@@ -40,6 +69,9 @@ jobs:
           rm -f data/postliste_1.json || true
           rm -f data/changes.json || true
 
+      # ---------------------------------------------------------
+      # 4. COMMIT OG PUSH KUN HVIS MIGRERING VAR OK
+      # ---------------------------------------------------------
       - name: Commit og push migrering
         if: steps.migrate.outcome == 'success'
         run: |
