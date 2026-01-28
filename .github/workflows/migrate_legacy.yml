@@ -31,7 +31,7 @@ jobs:
         run: |
           echo "=== Starter migrering av legacy-filer ==="
 
-          python - << 'EOF'
+          python - <<EOF
 import json
 from pathlib import Path
 from utils_files import (
@@ -41,7 +41,6 @@ from utils_files import (
     save_changes_sharded,
 )
 
-# --- Paths ---
 postliste_legacy = Path("data/postliste_1.json")
 changes_legacy = Path("data/changes.json")
 
@@ -55,7 +54,6 @@ if postliste_legacy.exists():
 
     print(f"[INFO] Legger til {len(docs)} dokumenter fra legacy postliste_1.json")
     merge_and_save_sharded_to_folder(existing_dict, docs, folder="data/shards")
-
 else:
     print("[INFO] Ingen legacy postliste_1.json funnet.")
 
@@ -63,18 +61,14 @@ else:
 if changes_legacy.exists():
     print("[INFO] Leser legacy changes.json...")
     changes = json.loads(changes_legacy.read_text(encoding="utf-8"))
-
     print(f"[INFO] Legacy changes.json inneholder {len(changes)} endringer")
 
-    # Last eksisterende changes-shards (kan være tomt)
     existing_changes = load_changes_sharded("data/changes")
     print(f"[INFO] Eksisterende changes-shards inneholder {len(existing_changes)} endringer")
 
     merged = existing_changes + changes
-
     print(f"[INFO] Skriver totalt {len(merged)} endringer til changes-shards...")
     save_changes_sharded(merged, folder="data/changes")
-
 else:
     print("[INFO] Ingen legacy changes.json funnet.")
 
@@ -101,5 +95,4 @@ EOF
           git rm data/changes.json || true
 
           git commit -m "Migrert legacy postliste_1.json og changes.json til shards" || echo "Ingen endringer å committe"
-
           git push origin main || true
