@@ -4,10 +4,10 @@ from datetime import datetime, date
 from utils_files import (
     ensure_directories,
     load_config,
-    load_all_postliste,
-    load_changes,
-    save_changes,
-    merge_and_save_sharded,
+    load_all_postliste_from_shards,
+    load_changes_sharded,
+    save_changes_sharded,
+    merge_and_save_sharded_to_folder,
 )
 
 from scraper_core_incremental import hent_side_incremental
@@ -27,10 +27,12 @@ def main():
 
     print(f"[INFO] Modus: {mode}, max_pages: {max_pages}")
 
-    # Last ALLE shards
-    existing_dict, _all_existing_list = load_all_postliste()
+    # Last ALLE shards fra data/shards/
+    existing_dict, _all_existing_list = load_all_postliste_from_shards()
     updated = dict(existing_dict)
-    changes = load_changes()
+
+    # Last changes fra data/changes/
+    changes = load_changes_sharded()
 
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True, args=["--no-sandbox"])
@@ -51,6 +53,7 @@ def main():
                 if is_new:
                     print(f"[NEW] {doc_id} – {d['tittel']}")
                     changes.append(build_change_entry(doc_id, d["tittel"], change_dict, "NEW"))
+
                 elif change_dict:
                     print(f"[UPDATE] {doc_id} – {', '.join(change_dict.keys())}")
                     changes.append(build_change_entry(doc_id, d["tittel"], change_dict, "UPDATE"))
@@ -65,9 +68,11 @@ def main():
 
         browser.close()
 
-    # Lagre til shards
-    merge_and_save_sharded(existing_dict, list(updated.values()))
-    save_changes(changes)
+    # Lagre shards i data/shards/
+    merge_and_save_sharded_to_folder(existing_dict, list(updated.values()), folder="data/shards")
+
+    # Lagre changes i data/changes/
+    save_changes_sharded(changes, folder="data/changes")
 
     print(f"[INFO] Incremental scraper ferdig.")
 
