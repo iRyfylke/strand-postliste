@@ -1,4 +1,3 @@
-import os
 import json
 from datetime import datetime, date
 from pathlib import Path
@@ -14,6 +13,9 @@ def get_root():
 def get_data_dir():
     return get_root() / "data"
 
+def get_archive_dir():
+    return get_data_dir() / "archive"
+
 def get_changes_file():
     return get_data_dir() / "changes.json"
 
@@ -28,27 +30,13 @@ SHARD_MAX_BYTES = 50 * 1024 * 1024  # 50 MB
 #   GENERELLE HJELPERE
 # =========================================================
 
-def ensure_directories():
-    data_dir = get_data_dir()
-    data_dir.mkdir(parents=True, exist_ok=True)
-
-def ensure_file(path, default):
-    path = Path(path)
-    path.parent.mkdir(parents=True, exist_ok=True)
-    if not path.exists():
-        path.write_text(json.dumps(default, ensure_ascii=False, indent=2), encoding="utf-8")
-
-def load_config(path):
-    ensure_file(path, {
-        "start_page": 1,
-        "max_pages": 100,
-        "per_page": 100
-    })
-    return json.loads(Path(path).read_text(encoding="utf-8"))
+def ensure_dir(path: Path):
+    path.mkdir(parents=True, exist_ok=True)
 
 def atomic_write(path, data):
+    """Skriver JSON atomisk for å unngå korrupte filer."""
     path = Path(path)
-    path.parent.mkdir(parents=True, exist_ok=True)
+    ensure_dir(path.parent)
     tmp = path.with_suffix(path.suffix + ".tmp")
     tmp.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
     tmp.replace(path)
@@ -59,7 +47,9 @@ def atomic_write(path, data):
 # =========================================================
 
 def load_archive_year(year):
-    archive_dir = get_data_dir() / "archive"
+    archive_dir = get_archive_dir()
+    ensure_dir(archive_dir)
+
     archive_files = sorted(archive_dir.glob(f"postliste_{year}_*.json"))
     existing = {}
 
@@ -67,13 +57,12 @@ def load_archive_year(year):
 
     for f in archive_files:
         try:
-            with f.open("r", encoding="utf-8") as infile:
-                docs = json.load(infile)
-                for d in docs:
-                    if isinstance(d, dict):
-                        did = d.get("dokumentID")
-                        if did:
-                            existing[did] = d
+            docs = json.loads(f.read_text(encoding="utf-8"))
+            for d in docs:
+                if isinstance(d, dict):
+                    did = d.get("dokumentID")
+                    if did:
+                        existing[did] = d
         except Exception as e:
             print(f"[WARN] Klarte ikke å lese {f}: {e}")
 
@@ -82,55 +71,39 @@ def load_archive_year(year):
 
 
 def find_missing_docs(scraped_docs, archive_dict):
-    missing = []
-    for d in scraped_docs:
-        did = d.get("dokumentID")
-        if did and did not in archive_dict:
-            missing.append(d)
-    return missing
+    return [
+        d for d in scraped_docs
+        if isinstance(d, dict)
+        and d.get("dokumentID")
+        and d["dokumentID"] not in archive_dict
+    ]
 
 
 def append_missing(year, new_docs):
-    if not new_docs:
-        print(f"[INFO] Ingen nye missing-dokumenter å lagre for {year}.")
-        return
-
-    archive_dir = get_data_dir() / "archive"
-    archive_dir.mkdir(parents=True, exist_ok=True)
+    archive_dir = get_archive_dir()
+    ensure_dir(archive_dir)
 
     missing_path = archive_dir / f"missing_{year}.json"
 
-    existing_docs = []
-    if missing_path.exists():
-        try:
-            existing_docs = json.loads(missing_path.read_text(encoding="utf-8"))
-            if not isinstance(existing_docs, list):
-                existing_docs = []
-        except Exception as e:
-            print(f"[WARN] Klarte ikke å lese eksisterende missing-fil {missing_path}: {e}")
+    try:
+        existing_docs = json.loads(missing_path.read_text(encoding="utf-8"))
+        if not isinstance(existing_docs, list):
+            existing_docs = []
+    except Exception:
+        existing_docs = []
 
-    merged_by_id = {}
-
-    for d in existing_docs:
-        if isinstance(d, dict):
-            did = d.get("dokumentID")
-            if did:
-                merged_by_id[did] = d
-
+    merged = {d["dokumentID"]: d for d in existing_docs if isinstance(d, dict) and d.get("dokumentID")}
     for d in new_docs:
-        if isinstance(d, dict):
-            did = d.get("dokumentID")
-            if did:
-                merged_by_id[did] = d
+        if isinstance(d, dict) and d.get("dokumentID"):
+            merged[d["dokumentID"]] = d
 
-    final_list = list(merged_by_id.values())
-    atomic_write(missing_path, final_list)
-    print(f"[INFO] Lagret/oppdatert missing_{year}.json med totalt {len(final_list)} dokumenter.")
+    atomic_write(missing_path, list(merged.values()))
+    print(f"[INFO] Lagret/oppdatert missing_{year}.json med totalt {len(merged)} dokumenter.")
 
 
 def save_failed_pages(year, failed_pages):
-    archive_dir = get_data_dir() / "archive"
-    archive_dir.mkdir(parents=True, exist_ok=True)
+    archive_dir = get_archive_dir()
+    ensure_dir(archive_dir)
 
     failed_path = archive_dir / f"failed_pages_{year}.json"
     atomic_write(failed_path, failed_pages)
@@ -156,30 +129,25 @@ def _list_shard_paths():
 
 
 def _write_shard_index(paths):
-    index_file = get_shard_index_file()
     names = [p.name for p in paths]
-    atomic_write(index_file, names)
+    atomic_write(get_shard_index_file(), names)
     print(f"[INFO] Oppdatert shard-indeks med {len(names)} filer.")
 
 
 def load_all_postliste():
-    ensure_directories()
     shards = _list_shard_paths()
     merged = {}
     all_list = []
 
-    if not shards:
-        return {}, []
-
     for path in shards:
         try:
-            data = json.loads(path.read_text(encoding="utf-8"))
-            if isinstance(data, list):
-                for d in data:
+            docs = json.loads(path.read_text(encoding="utf-8"))
+            if isinstance(docs, list):
+                for d in docs:
                     did = d.get("dokumentID")
                     if did:
                         merged[did] = d
-                all_list.extend(data)
+                all_list.extend(docs)
         except Exception as e:
             print(f"[WARN] Klarte ikke lese shard {path}: {e}")
 
@@ -188,7 +156,7 @@ def load_all_postliste():
 
 def save_postliste_sharded(all_docs):
     data_dir = get_data_dir()
-    ensure_directories()
+    ensure_dir(data_dir)
 
     def sort_key(x):
         for key in ("dato_iso", "dato"):
@@ -196,7 +164,11 @@ def save_postliste_sharded(all_docs):
             if not v:
                 continue
             try:
-                return datetime.fromisoformat(v).date() if key == "dato_iso" else datetime.strptime(v, "%d.%m.%Y").date()
+                return (
+                    datetime.fromisoformat(v).date()
+                    if key == "dato_iso"
+                    else datetime.strptime(v, "%d.%m.%Y").date()
+                )
             except Exception:
                 continue
         return date.min
@@ -205,25 +177,24 @@ def save_postliste_sharded(all_docs):
 
     shards = []
     current = []
-    current_index = 1
+    idx = 1
 
-    def current_path(idx):
-        return data_dir / f"{SHARD_PREFIX}{idx}.json"
+    def shard_path(i):
+        return data_dir / f"{SHARD_PREFIX}{i}.json"
 
     for doc in all_docs_sorted:
         current.append(doc)
-        serialized = json.dumps(current, ensure_ascii=False)
-        if len(serialized.encode("utf-8")) > SHARD_MAX_BYTES:
+        if len(json.dumps(current, ensure_ascii=False).encode("utf-8")) > SHARD_MAX_BYTES:
             last = current.pop()
-            path = current_path(current_index)
+            path = shard_path(idx)
             atomic_write(path, current)
             shards.append(path)
             print(f"[INFO] Skrev shard {path} med {len(current)} dokumenter.")
-            current_index += 1
+            idx += 1
             current = [last]
 
     if current:
-        path = current_path(current_index)
+        path = shard_path(idx)
         atomic_write(path, current)
         shards.append(path)
         print(f"[INFO] Skrev shard {path} med {len(current)} dokumenter.")
@@ -257,8 +228,8 @@ def load_changes():
 
 def save_changes(changes):
     path = get_changes_file()
-    path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(changes, ensure_ascii=False, indent=2), encoding="utf-8")
+    ensure_dir(path.parent)
+    atomic_write(path, changes)
     print(f"[INFO] Lagret {len(changes)} endringshendelser i {path}")
 
 
@@ -268,7 +239,7 @@ def save_changes(changes):
 
 def load_all_postliste_from_shards(folder="data/shards"):
     folder = get_root() / folder
-    folder.mkdir(parents=True, exist_ok=True)
+    ensure_dir(folder)
 
     index_file = folder / "postliste_index.json"
 
@@ -301,7 +272,7 @@ def load_all_postliste_from_shards(folder="data/shards"):
 
 def merge_and_save_sharded_to_folder(existing_dict, new_docs, folder="data/shards"):
     folder = get_root() / folder
-    folder.mkdir(parents=True, exist_ok=True)
+    ensure_dir(folder)
 
     updated = dict(existing_dict)
     for d in new_docs:
@@ -312,7 +283,7 @@ def merge_and_save_sharded_to_folder(existing_dict, new_docs, folder="data/shard
 
 def save_postliste_sharded_to_folder(all_docs, folder):
     folder = get_root() / folder
-    folder.mkdir(parents=True, exist_ok=True)
+    ensure_dir(folder)
 
     def sort_key(x):
         for key in ("dato_iso", "dato"):
@@ -320,7 +291,11 @@ def save_postliste_sharded_to_folder(all_docs, folder):
             if not v:
                 continue
             try:
-                return datetime.fromisoformat(v).date() if key == "dato_iso" else datetime.strptime(v, "%d.%m.%Y").date()
+                return (
+                    datetime.fromisoformat(v).date()
+                    if key == "dato_iso"
+                    else datetime.strptime(v, "%d.%m.%Y").date()
+                )
             except Exception:
                 continue
         return date.min
@@ -329,24 +304,23 @@ def save_postliste_sharded_to_folder(all_docs, folder):
 
     shards = []
     current = []
-    current_index = 1
+    idx = 1
 
-    def shard_path(idx):
-        return folder / f"postliste_{idx}.json"
+    def shard_path(i):
+        return folder / f"postliste_{i}.json"
 
     for doc in all_docs_sorted:
         current.append(doc)
-        serialized = json.dumps(current, ensure_ascii=False)
-        if len(serialized.encode("utf-8")) > SHARD_MAX_BYTES:
+        if len(json.dumps(current, ensure_ascii=False).encode("utf-8")) > SHARD_MAX_BYTES:
             last = current.pop()
-            path = shard_path(current_index)
+            path = shard_path(idx)
             atomic_write(path, current)
             shards.append(path)
-            current_index += 1
+            idx += 1
             current = [last]
 
     if current:
-        path = shard_path(current_index)
+        path = shard_path(idx)
         atomic_write(path, current)
         shards.append(path)
 
@@ -363,7 +337,7 @@ def save_postliste_sharded_to_folder(all_docs, folder):
 
 def load_changes_sharded(folder="data/changes"):
     folder = get_root() / folder
-    folder.mkdir(parents=True, exist_ok=True)
+    ensure_dir(folder)
 
     index_file = folder / "changes_index.json"
 
@@ -391,28 +365,27 @@ def load_changes_sharded(folder="data/changes"):
 
 def save_changes_sharded(changes, folder="data/changes"):
     folder = get_root() / folder
-    folder.mkdir(parents=True, exist_ok=True)
+    ensure_dir(folder)
 
     shards = []
     current = []
-    current_index = 1
+    idx = 1
 
-    def shard_path(idx):
-        return folder / f"changes_{idx}.json"
+    def shard_path(i):
+        return folder / f"changes_{i}.json"
 
     for entry in changes:
         current.append(entry)
-        serialized = json.dumps(current, ensure_ascii=False)
-        if len(serialized.encode("utf-8")) > SHARD_MAX_BYTES:
+        if len(json.dumps(current, ensure_ascii=False).encode("utf-8")) > SHARD_MAX_BYTES:
             last = current.pop()
-            path = shard_path(current_index)
+            path = shard_path(idx)
             atomic_write(path, current)
             shards.append(path)
-            current_index += 1
+            idx += 1
             current = [last]
 
     if current:
-        path = shard_path(current_index)
+        path = shard_path(idx)
         atomic_write(path, current)
         shards.append(path)
 
