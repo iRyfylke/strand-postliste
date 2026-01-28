@@ -2,7 +2,6 @@ name: Morgen-scraping
 
 on:
   schedule:
-    # Kjør hver dag kl 06:00 UTC (≈ 07:00 norsk tid vinter)
     - cron: "0 6 * * *"
   workflow_dispatch:
 
@@ -42,17 +41,9 @@ jobs:
           pip install playwright beautifulsoup4
           playwright install chromium
 
-      # --- AUTOMATISK MIGRERING HVIS LEGACY-FIL FINNES ---
-      - name: Migrer postliste.json til shards (hvis nødvendig)
-        run: |
-          if [ -f data/postliste.json ]; then
-            echo "[INFO] Legacy postliste.json funnet – migrerer til shards..."
-            python tools/migrate_postliste_json_to_shards.py
-          else
-            echo "[INFO] Ingen legacy postliste.json – hopper over migrering."
-          fi
-
-      # --- SKRIV CONFIG FOR INCREMENTAL ---
+      # -------------------------------------------------------
+      # Skriv config for incremental-modus
+      # -------------------------------------------------------
       - name: Skriv config.json for incremental-modus
         run: |
           mkdir -p src/config
@@ -66,22 +57,28 @@ jobs:
           echo "=== INNHOLD I config.json ==="
           cat src/config/config.json
 
-      # --- KJØR SCRAPER ---
+      # -------------------------------------------------------
+      # Kjør scraper (incremental → skriver til data/shards og data/changes)
+      # -------------------------------------------------------
       - name: Kjør scraper (incremental)
         working-directory: src/scrapers
         run: |
           echo "=== STARTER INCREMENTAL-SCRAPER ==="
           python scraper.py
 
-      # --- GIT REMOTE ---
+      # -------------------------------------------------------
+      # Git remote
+      # -------------------------------------------------------
       - name: Sett opp git remote
         run: |
           git remote remove origin || true
           git remote add origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
           git remote -v
 
-      # --- COMMIT & PUSH ---
-      - name: Commit og push oppdateringer (konkurransesikker)
+      # -------------------------------------------------------
+      # Commit & push (kun shards + changes)
+      # -------------------------------------------------------
+      - name: Commit og push oppdateringer
         run: |
           git config --global user.name "${{ github.actor }}"
           git config --global user.email "${{ github.actor }}@users.noreply.github.com"
@@ -89,17 +86,20 @@ jobs:
           echo "=== Endringer i data/ ==="
           git status data/
 
-          # Shard-filer
-          git add data/postliste_*.json || true
-          git add data/postliste_index.json || true
+          # Shards
+          git add data/shards/postliste_*.json || true
+          git add data/shards/postliste_index.json || true
 
-          # Endringslogg
-          git add data/changes.json || true
+          # Changes (sharded)
+          git add data/changes/changes_*.json || true
+          git add data/changes/changes_index.json || true
 
-          # Slett legacy hvis den fortsatt finnes
-          git rm data/postliste.json || true
+          # Legacy filer skal ALDRI eksistere
+          git rm data/postliste_*.json || true
+          git rm data/postliste_index.json || true
+          git rm data/changes.json || true
 
-          git commit -m "Automatisk morgenoppdatering (incremental, sharded)" || echo "Ingen endringer å committe"
+          git commit -m "Automatisk morgenoppdatering (incremental → shards + changes)" || echo "Ingen endringer å committe"
 
           git stash --include-untracked || true
           git pull --rebase --autostash origin main || true
