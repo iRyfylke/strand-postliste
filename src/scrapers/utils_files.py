@@ -3,8 +3,10 @@ import json
 from datetime import datetime, date
 from pathlib import Path
 
-# Rot for datafiler
+# Finn repo-root uansett hvor scriptet kjøres fra
 ROOT = Path(__file__).resolve().parent.parent.parent
+
+# Rot for datafiler
 DATA_DIR = ROOT / "data"
 
 # Endringslogg
@@ -14,6 +16,7 @@ CHANGES_FILE = DATA_DIR / "changes.json"
 SHARD_PREFIX = "postliste_"
 SHARD_INDEX_FILE = DATA_DIR / "postliste_index.json"
 SHARD_MAX_BYTES = 50 * 1024 * 1024  # 50 MB margin mot GitHubs 100 MB-grense
+
 
 
 def ensure_directories():
