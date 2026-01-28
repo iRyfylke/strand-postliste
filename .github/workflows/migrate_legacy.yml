@@ -28,17 +28,20 @@ jobs:
           pip install playwright beautifulsoup4
 
       - name: Kjør migreringsscript
+        id: migrate
         run: |
           echo "=== KJØRER MIGRERING ==="
           python tools/migrate_legacy_to_shards.py
 
-      - name: Slett legacy-filer (etter migrering)
+      - name: Slett legacy-filer (kun hvis migrering OK)
+        if: steps.migrate.outcome == 'success'
         run: |
           echo "=== SLETTER LEGACY-FILER ==="
           rm -f data/postliste_1.json || true
           rm -f data/changes.json || true
 
       - name: Commit og push migrering
+        if: steps.migrate.outcome == 'success'
         run: |
           git config --global user.name "${{ github.actor }}"
           git config --global user.email "${{ github.actor }}@users.noreply.github.com"
