@@ -22,12 +22,14 @@ jobs:
           persist-credentials: true
           fetch-depth: 0
 
-      - name: Sjekk ut commit med legacy-filer
-        uses: actions/checkout@v4
-        with:
-          path: old
-          ref: ${{ github.event.inputs.commit_hash }}
-          fetch-depth: 1
+      - name: Hent commit manuelt
+        run: |
+          mkdir old
+          cd old
+          git init
+          git remote add origin https://github.com/${{ github.repository }}.git
+          git fetch origin ${{ github.event.inputs.commit_hash }}
+          git checkout ${{ github.event.inputs.commit_hash }}
 
       - name: Gjenopprett legacy-filer
         run: |
