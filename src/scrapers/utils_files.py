@@ -3,36 +3,42 @@ import json
 from datetime import datetime, date
 from pathlib import Path
 
-# Finn repo-root uansett hvor scriptet kjøres fra
-ROOT = Path(__file__).resolve().parent.parent.parent
+# =========================================================
+#   PATH-HÅNDTERING (INGEN I/O VED IMPORT)
+# =========================================================
 
-# Rot for datafiler
-DATA_DIR = ROOT / "data"
+def get_root():
+    """Returnerer repo-root uansett hvor scriptet kjøres fra."""
+    return Path(__file__).resolve().parent.parent.parent
 
-# Endringslogg
-CHANGES_FILE = DATA_DIR / "changes.json"
+def get_data_dir():
+    return get_root() / "data"
 
-# Sharding-konfig
+def get_changes_file():
+    return get_data_dir() / "changes.json"
+
+def get_shard_index_file():
+    return get_data_dir() / "postliste_index.json"
+
 SHARD_PREFIX = "postliste_"
-SHARD_INDEX_FILE = DATA_DIR / "postliste_index.json"
-SHARD_MAX_BYTES = 50 * 1024 * 1024  # 50 MB margin mot GitHubs 100 MB-grense
+SHARD_MAX_BYTES = 50 * 1024 * 1024  # 50 MB
 
 
+# =========================================================
+#   GENERELLE HJELPERE
+# =========================================================
 
 def ensure_directories():
-    DATA_DIR.mkdir(parents=True, exist_ok=True)
-
+    data_dir = get_data_dir()
+    data_dir.mkdir(parents=True, exist_ok=True)
 
 def ensure_file(path, default):
-    """Oppretter fil med default-innhold hvis den ikke finnes."""
     path = Path(path)
     path.parent.mkdir(parents=True, exist_ok=True)
     if not path.exists():
         path.write_text(json.dumps(default, ensure_ascii=False, indent=2), encoding="utf-8")
 
-
 def load_config(path):
-    """Laster config-fil, oppretter default hvis mangler."""
     ensure_file(path, {
         "start_page": 1,
         "max_pages": 100,
@@ -40,30 +46,20 @@ def load_config(path):
     })
     return json.loads(Path(path).read_text(encoding="utf-8"))
 
-
 def atomic_write(path, data):
-    """Skriver JSON atomisk for å unngå korrupte filer."""
     path = Path(path)
     path.parent.mkdir(parents=True, exist_ok=True)
-
     tmp = path.with_suffix(path.suffix + ".tmp")
     tmp.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
     tmp.replace(path)
 
 
-# ------------------------------------------------------------------
-#  Archive-hjelpere
-# ------------------------------------------------------------------
+# =========================================================
+#   ARCHIVE-FUNKSJONER
+# =========================================================
 
 def load_archive_year(year):
-    """
-    Leser alle archive-filer for et gitt år:
-      data/archive/postliste_<year>_*.json
-
-    Returnerer:
-      dict { dokumentID: dokument }
-    """
-    archive_dir = DATA_DIR / "archive"
+    archive_dir = get_data_dir() / "archive"
     archive_files = sorted(archive_dir.glob(f"postliste_{year}_*.json"))
     existing = {}
 
@@ -74,22 +70,18 @@ def load_archive_year(year):
             with f.open("r", encoding="utf-8") as infile:
                 docs = json.load(infile)
                 for d in docs:
-                    if not isinstance(d, dict):
-                        continue
-                    dokid = d.get("dokumentID")
-                    if dokid:
-                        existing[dokid] = d
+                    if isinstance(d, dict):
+                        did = d.get("dokumentID")
+                        if did:
+                            existing[did] = d
         except Exception as e:
             print(f"[WARN] Klarte ikke å lese {f}: {e}")
 
     print(f"[INFO] Totalt {len(existing)} dokumenter funnet i archive for {year}")
     return existing
 
+
 def find_missing_docs(scraped_docs, archive_dict):
-    """
-    Returnerer liste over dokumenter som finnes i scraped_docs,
-    men ikke i archive_dict.
-    """
     missing = []
     for d in scraped_docs:
         did = d.get("dokumentID")
@@ -97,20 +89,13 @@ def find_missing_docs(scraped_docs, archive_dict):
             missing.append(d)
     return missing
 
-def append_missing(year, new_docs):
-    """
-    Append'er nye manglende dokumenter til missing_<year>.json
-    og deduper på dokumentID.
 
-    Resultat:
-      data/archive/missing_<year>.json
-      inneholder ALL historisk missing, uten duplikater.
-    """
+def append_missing(year, new_docs):
     if not new_docs:
         print(f"[INFO] Ingen nye missing-dokumenter å lagre for {year}.")
         return
 
-    archive_dir = DATA_DIR / "archive"
+    archive_dir = get_data_dir() / "archive"
     archive_dir.mkdir(parents=True, exist_ok=True)
 
     missing_path = archive_dir / f"missing_{year}.json"
@@ -123,7 +108,6 @@ def append_missing(year, new_docs):
                 existing_docs = []
         except Exception as e:
             print(f"[WARN] Klarte ikke å lese eksisterende missing-fil {missing_path}: {e}")
-            existing_docs = []
 
     merged_by_id = {}
 
@@ -145,15 +129,7 @@ def append_missing(year, new_docs):
 
 
 def save_failed_pages(year, failed_pages):
-    """
-    Overskriver failed_pages_<year>.json med dagens liste
-    over feilede sider.
-
-    Resultat:
-      data/archive/failed_pages_<year>.json
-      gjenspeiler TIL ENHVER TID gjenværende feilede sider.
-    """
-    archive_dir = DATA_DIR / "archive"
+    archive_dir = get_data_dir() / "archive"
     archive_dir.mkdir(parents=True, exist_ok=True)
 
     failed_path = archive_dir / f"failed_pages_{year}.json"
@@ -161,35 +137,32 @@ def save_failed_pages(year, failed_pages):
     print(f"[INFO] Lagret failed_pages_{year}.json med {len(failed_pages)} sider.")
 
 
-# ------------------------------------------------------------------
-#  Sharding: postliste_1.json, postliste_2.json, ...
-# ------------------------------------------------------------------
+# =========================================================
+#   GAMMELT SHARD-SYSTEM (data/)
+# =========================================================
 
 def _list_shard_paths():
-    """Returnerer alle postliste_N.json som Path-objekter, sortert på N."""
-    if SHARD_INDEX_FILE.exists():
+    data_dir = get_data_dir()
+    index_file = get_shard_index_file()
+
+    if index_file.exists():
         try:
-            names = json.loads(SHARD_INDEX_FILE.read_text(encoding="utf-8"))
-            return [DATA_DIR / name for name in names]
+            names = json.loads(index_file.read_text(encoding="utf-8"))
+            return [data_dir / name for name in names]
         except Exception:
             print("[WARN] Klarte ikke lese shard-index, faller tilbake til glob.")
-    shards = sorted(DATA_DIR.glob(f"{SHARD_PREFIX}*.json"))
-    return shards
+
+    return sorted(data_dir.glob(f"{SHARD_PREFIX}*.json"))
 
 
 def _write_shard_index(paths):
-    """Oppdaterer postliste_index.json med liste over shard-filnavn."""
+    index_file = get_shard_index_file()
     names = [p.name for p in paths]
-    atomic_write(SHARD_INDEX_FILE, names)
+    atomic_write(index_file, names)
     print(f"[INFO] Oppdatert shard-indeks med {len(names)} filer.")
 
 
 def load_all_postliste():
-    """
-    Leser ALLE postliste_N.json og returnerer:
-      - dict { dokumentID: oppføring }
-      - og en flat liste
-    """
     ensure_directories()
     shards = _list_shard_paths()
     merged = {}
@@ -201,16 +174,12 @@ def load_all_postliste():
     for path in shards:
         try:
             data = json.loads(path.read_text(encoding="utf-8"))
-            if not isinstance(data, list):
-                continue
-            for d in data:
-                if not isinstance(d, dict):
-                    continue
-                did = d.get("dokumentID")
-                if not did:
-                    continue
-                merged[did] = d
-            all_list.extend(data)
+            if isinstance(data, list):
+                for d in data:
+                    did = d.get("dokumentID")
+                    if did:
+                        merged[did] = d
+                all_list.extend(data)
         except Exception as e:
             print(f"[WARN] Klarte ikke lese shard {path}: {e}")
 
@@ -218,10 +187,7 @@ def load_all_postliste():
 
 
 def save_postliste_sharded(all_docs):
-    """
-    Tar en liste med dokumenter (allerede sortert nyest først)
-    og skriver dem ut til postliste_N.json-filer under DATA_DIR.
-    """
+    data_dir = get_data_dir()
     ensure_directories()
 
     def sort_key(x):
@@ -230,10 +196,7 @@ def save_postliste_sharded(all_docs):
             if not v:
                 continue
             try:
-                if key == "dato_iso":
-                    return datetime.fromisoformat(v).date()
-                else:
-                    return datetime.strptime(v, "%d.%m.%Y").date()
+                return datetime.fromisoformat(v).date() if key == "dato_iso" else datetime.strptime(v, "%d.%m.%Y").date()
             except Exception:
                 continue
         return date.min
@@ -245,7 +208,7 @@ def save_postliste_sharded(all_docs):
     current_index = 1
 
     def current_path(idx):
-        return DATA_DIR / f"{SHARD_PREFIX}{idx}.json"
+        return data_dir / f"{SHARD_PREFIX}{idx}.json"
 
     for doc in all_docs_sorted:
         current.append(doc)
@@ -266,26 +229,24 @@ def save_postliste_sharded(all_docs):
         print(f"[INFO] Skrev shard {path} med {len(current)} dokumenter.")
 
     _write_shard_index(shards)
+
     total = sum(len(json.loads(p.read_text(encoding="utf-8"))) for p in shards)
     print(f"[INFO] Totalt {total} dokumenter fordelt på {len(shards)} shards.")
 
 
 def merge_and_save_sharded(existing_dict, new_docs):
-    """Slår sammen eksisterende dokumenter (dict) med nye dokumenter (liste)."""
     updated = dict(existing_dict)
     for d in new_docs:
         updated[d["dokumentID"]] = d
-
     save_postliste_sharded(list(updated.values()))
 
 
-# ---------------------------------------------------------
-#   Endringslogg-funksjoner for incremental scraper
-# ---------------------------------------------------------
+# =========================================================
+#   CHANGES (GAMMELT SYSTEM)
+# =========================================================
 
 def load_changes():
-    """Laster tidligere endringslogg fra changes.json."""
-    path = CHANGES_FILE
+    path = get_changes_file()
     if not path.exists():
         return []
     try:
@@ -295,28 +256,18 @@ def load_changes():
 
 
 def save_changes(changes):
-    """Lagrer endringslogg til changes.json."""
-    path = CHANGES_FILE
+    path = get_changes_file()
     path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(changes, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"[INFO] Lagret {len(changes)} endringshendelser i {path}")
 
-    path.write_text(
-        json.dumps(changes, ensure_ascii=False, indent=2),
-        encoding="utf-8"
-    )
-    print(f"[INFO] Lagret {len(changes)} endringshendelser i {CHANGES_FILE}")
 
 # =========================================================
 #   NYTT SHARD-SYSTEM FOR MORGENSCRAPE (data/shards/)
 # =========================================================
 
 def load_all_postliste_from_shards(folder="data/shards"):
-    """
-    Leser ALLE shards fra gitt mappe (default: data/shards).
-    Returnerer:
-      - dict { dokumentID: dokument }
-      - flat liste
-    """
-    folder = Path(folder)
+    folder = get_root() / folder
     folder.mkdir(parents=True, exist_ok=True)
 
     index_file = folder / "postliste_index.json"
@@ -336,13 +287,12 @@ def load_all_postliste_from_shards(folder="data/shards"):
     for path in shard_paths:
         try:
             docs = json.loads(path.read_text(encoding="utf-8"))
-            if not isinstance(docs, list):
-                continue
-            for d in docs:
-                did = d.get("dokumentID")
-                if did:
-                    merged[did] = d
-            all_list.extend(docs)
+            if isinstance(docs, list):
+                for d in docs:
+                    did = d.get("dokumentID")
+                    if did:
+                        merged[did] = d
+                all_list.extend(docs)
         except Exception as e:
             print(f"[WARN] Klarte ikke lese shard {path}: {e}")
 
@@ -350,10 +300,7 @@ def load_all_postliste_from_shards(folder="data/shards"):
 
 
 def merge_and_save_sharded_to_folder(existing_dict, new_docs, folder="data/shards"):
-    """
-    Slår sammen eksisterende dokumenter med nye og skriver shards til gitt mappe.
-    """
-    folder = Path(folder)
+    folder = get_root() / folder
     folder.mkdir(parents=True, exist_ok=True)
 
     updated = dict(existing_dict)
@@ -364,10 +311,7 @@ def merge_and_save_sharded_to_folder(existing_dict, new_docs, folder="data/shard
 
 
 def save_postliste_sharded_to_folder(all_docs, folder):
-    """
-    Skriver shards til gitt mappe (data/shards).
-    """
-    folder = Path(folder)
+    folder = get_root() / folder
     folder.mkdir(parents=True, exist_ok=True)
 
     def sort_key(x):
@@ -376,10 +320,7 @@ def save_postliste_sharded_to_folder(all_docs, folder):
             if not v:
                 continue
             try:
-                if key == "dato_iso":
-                    return datetime.fromisoformat(v).date()
-                else:
-                    return datetime.strptime(v, "%d.%m.%Y").date()
+                return datetime.fromisoformat(v).date() if key == "dato_iso" else datetime.strptime(v, "%d.%m.%Y").date()
             except Exception:
                 continue
         return date.min
@@ -409,7 +350,6 @@ def save_postliste_sharded_to_folder(all_docs, folder):
         atomic_write(path, current)
         shards.append(path)
 
-    # Skriv index
     index_file = folder / "postliste_index.json"
     names = [p.name for p in shards]
     atomic_write(index_file, names)
@@ -422,10 +362,7 @@ def save_postliste_sharded_to_folder(all_docs, folder):
 # =========================================================
 
 def load_changes_sharded(folder="data/changes"):
-    """
-    Leser alle changes_N.json og returnerer en flat liste.
-    """
-    folder = Path(folder)
+    folder = get_root() / folder
     folder.mkdir(parents=True, exist_ok=True)
 
     index_file = folder / "changes_index.json"
@@ -453,10 +390,7 @@ def load_changes_sharded(folder="data/changes"):
 
 
 def save_changes_sharded(changes, folder="data/changes"):
-    """
-    Sharder changes-listen til changes_N.json i gitt mappe.
-    """
-    folder = Path(folder)
+    folder = get_root() / folder
     folder.mkdir(parents=True, exist_ok=True)
 
     shards = []
@@ -482,10 +416,8 @@ def save_changes_sharded(changes, folder="data/changes"):
         atomic_write(path, current)
         shards.append(path)
 
-    # Skriv index
     index_file = folder / "changes_index.json"
     names = [p.name for p in shards]
     atomic_write(index_file, names)
 
     print(f"[INFO] Lagret {len(shards)} changes-shards i {folder}")
-
