@@ -380,7 +380,10 @@ def save_postliste_sharded_to_folder(all_docs, folder):
                 continue
         return date.min
 
+    # Sortering
     all_docs_sorted = sorted(all_docs, key=sort_key, reverse=True)
+    print(f"[DEBUG] Totalt {len(all_docs_sorted)} dokumenter skal sharde-skrives…")
+    print("[DEBUG] Starter sharding-loop…")
 
     shards = []
     current = []
@@ -389,14 +392,19 @@ def save_postliste_sharded_to_folder(all_docs, folder):
     def shard_path(idx):
         return folder / f"postliste_{idx}.json"
 
-    for doc in all_docs_sorted:
+    for i, doc in enumerate(all_docs_sorted, start=1):
+        if i % 5000 == 0:
+            print(f"[DEBUG] Prosessert {i} dokumenter…")
+
         current.append(doc)
         serialized = json.dumps(current, ensure_ascii=False)
+
         if len(serialized.encode("utf-8")) > SHARD_MAX_BYTES:
             last = current.pop()
             path = shard_path(current_index)
             atomic_write(path, current)
             shards.append(path)
+            print(f"[DEBUG] Skrev shard {path} med {len(current)} dokumenter.")
             current_index += 1
             current = [last]
 
@@ -404,8 +412,10 @@ def save_postliste_sharded_to_folder(all_docs, folder):
         path = shard_path(current_index)
         atomic_write(path, current)
         shards.append(path)
+        print(f"[DEBUG] Skrev shard {path} med {len(current)} dokumenter.")
 
     # Skriv index
+    print("[DEBUG] Skriver index-fil…")
     index_file = folder / "postliste_index.json"
     names = [p.name for p in shards]
     atomic_write(index_file, names)
