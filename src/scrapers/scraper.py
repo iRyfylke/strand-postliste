@@ -2,7 +2,6 @@ from playwright.sync_api import sync_playwright
 from datetime import datetime, date
 
 from utils_files import (
-    ensure_directories,
     load_config,
     load_all_postliste_from_shards,
     load_changes_sharded,
