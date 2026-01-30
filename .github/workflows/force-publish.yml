@@ -43,6 +43,30 @@ jobs:
           git remote add origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
           git remote -v
 
+      # ---------------------------------------------------------
+      # LØSNING C: LOGG INNHOLD I DATA-MAPPEN FØR COMMIT
+      # ---------------------------------------------------------
+      - name: Logg innhold i data/-mappen
+        run: |
+          echo "=== INNHOLD I data/ FØR COMMIT ==="
+          ls -R data/ || true
+
+      # ---------------------------------------------------------
+      # LØSNING B: SANITY-CHECK – STOPP HVIS DATA MANGLER
+      # ---------------------------------------------------------
+      - name: Sjekk at nødvendige datafiler finnes
+        run: |
+          echo "=== SANITY CHECK ==="
+          if [ ! -f data/postliste_index.json ]; then
+            echo "FEIL: postliste_index.json mangler. Avbryter publish."
+            exit 1
+          fi
+          if [ ! -f data/changes.json ]; then
+            echo "FEIL: changes.json mangler. Avbryter publish."
+            exit 1
+          fi
+          echo "Sanity check OK – nødvendige datafiler finnes."
+
       - name: Commit og push oppdateringer (konkurransesikker)
         run: |
           git config --global user.name "${{ github.actor }}"
@@ -55,7 +79,7 @@ jobs:
           # Legg til endringer i frontend
           git add web/postliste.html web/script.js web/style.css web/postliste_template.html || true
 
-          # Legg til endringer i shards (frontend kan ha regenerert basert på dem)
+          # Legg til endringer i shards
           git add data/postliste_*.json || true
           git add data/postliste_index.json || true
           git add data/changes.json || true
@@ -65,12 +89,17 @@ jobs:
 
           git commit -m "Force publish med oppdatert frontend (sharded)" || echo "Ingen endringer å committe"
 
-          git stash --include-untracked || true
-          git pull --rebase --autostash origin main || true
-          git stash pop || true
+          # ---------------------------------------------------------
+          # LØSNING A: ERSTATT STASH/REBASE MED REN PULL
+          # ---------------------------------------------------------
+          echo "=== HENTER SISTE ENDINGER FRA main ==="
+          git pull origin main || true
 
+          # ---------------------------------------------------------
+          # PUSH MED RETRY
+          # ---------------------------------------------------------
           for i in {1..5}; do
             git push origin main && break
             echo "Push feilet, prøver igjen ($i/5)..."
-            git pull --rebase --autostash origin main || true
+            git pull origin main || true
           done
