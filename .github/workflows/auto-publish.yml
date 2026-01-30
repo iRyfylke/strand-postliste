@@ -16,6 +16,7 @@ concurrency:
 
 jobs:
   publish:
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
 
     steps:
@@ -56,15 +57,11 @@ jobs:
           git status web/
           git status data/
 
-          # Legg til endringer i frontend
           git add web/postliste.html web/script.js web/style.css web/postliste_template.html || true
-
-          # Legg til endringer i shards
           git add data/postliste_*.json || true
           git add data/postliste_index.json || true
           git add data/changes.json || true
 
-          # Slett legacy hvis den finnes
           git rm data/postliste.json || true
 
           git commit -m "Automatisk publish etter scraping (sharded)" || echo "Ingen endringer å committe"
