@@ -51,14 +51,17 @@ jobs:
         if: steps.migrate.outcome == 'success'
         run: |
           echo "=== SANITY CHECK ==="
+
           if [ ! -f data/postliste_index.json ]; then
             echo "FEIL: postliste_index.json mangler etter migrering!"
             exit 1
           fi
+
           if [ ! -d data/shards ]; then
             echo "FEIL: data/shards mangler etter migrering!"
             exit 1
           fi
+
           echo "Sanity check OK."
 
       # ---------------------------------------------------------
@@ -71,7 +74,40 @@ jobs:
           ls -R data/
 
       # ---------------------------------------------------------
-      # 5. SLETT LEGACY-FILER
+      # 5. EKSTRA STATUS: TELL ANTALL SHARDS OG ANTALL DOKUMENTER
+      # ---------------------------------------------------------
+      - name: Verifiser antall shards og dokumenter
+        if: steps.migrate.outcome == 'success'
+        run: |
+          echo "=== VERIFISERER SHARDS ==="
+
+          SHARD_COUNT=$(ls data/shards/postliste_*.json | wc -l)
+          echo "Antall shards: $SHARD_COUNT"
+
+          TOTAL_DOCS=$(python3 - << 'EOF'
+import json, glob
+total = 0
+for f in glob.glob("data/shards/postliste_*.json"):
+    total += len(json.load(open(f)))
+print(total)
+EOF
+)
+          echo "Totalt antall dokumenter i shards: $TOTAL_DOCS"
+
+          if [ "$SHARD_COUNT" -lt 15 ]; then
+            echo "FEIL: For få shards generert. Forventet minst 15."
+            exit 1
+          fi
+
+          if [ "$TOTAL_DOCS" -lt 140000 ]; then
+            echo "FEIL: For få dokumenter i shards etter migrering."
+            exit 1
+          fi
+
+          echo "Sharding OK."
+
+      # ---------------------------------------------------------
+      # 6. SLETT LEGACY-FILER
       # ---------------------------------------------------------
       - name: Slett legacy-filer (kun hvis migrering OK)
         if: steps.migrate.outcome == 'success'
@@ -81,7 +117,7 @@ jobs:
           rm -f data/changes.json || true
 
       # ---------------------------------------------------------
-      # 6. COMMIT OG PUSH
+      # 7. COMMIT OG PUSH
       # ---------------------------------------------------------
       - name: Commit og push migrering
         if: steps.migrate.outcome == 'success'
@@ -92,13 +128,15 @@ jobs:
           echo "=== GIT STATUS ==="
           git status data/
 
-          # Shards
+          # Postliste-shards
           git add data/shards/postliste_*.json || true
-          git add data/shards/changes_*.json || true
 
-          # RIKTIG INDEX-FIL
-          git add data/postliste_index.json || true
+          # Changes-shards (RIKTIG PATH)
+          git add data/changes/changes_*.json || true
           git add data/changes/changes_index.json || true
+
+          # Index
+          git add data/postliste_index.json || true
 
           # Fjern legacy
           git rm data/postliste_1.json || true
