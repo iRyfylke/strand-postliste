@@ -44,7 +44,7 @@ jobs:
           git remote -v
 
       # ---------------------------------------------------------
-      # LØSNING C: LOGG INNHOLD I DATA-MAPPEN FØR COMMIT
+      # LØSNING C: LOGG INNHOLD I DATA-MAPPEN
       # ---------------------------------------------------------
       - name: Logg innhold i data/-mappen
         run: |
@@ -52,7 +52,7 @@ jobs:
           ls -R data/ || true
 
       # ---------------------------------------------------------
-      # LØSNING B: SANITY-CHECK – STOPP HVIS DATA MANGLER
+      # LØSNING B: SANITY CHECK
       # ---------------------------------------------------------
       - name: Sjekk at nødvendige datafiler finnes
         run: |
@@ -61,8 +61,8 @@ jobs:
             echo "FEIL: postliste_index.json mangler. Avbryter publish."
             exit 1
           fi
-          if [ ! -f data/changes.json ]; then
-            echo "FEIL: changes.json mangler. Avbryter publish."
+          if [ ! -d data/shards ]; then
+            echo "FEIL: data/shards mangler. Avbryter publish."
             exit 1
           fi
           echo "Sanity check OK – nødvendige datafiler finnes."
@@ -76,28 +76,23 @@ jobs:
           git status web/
           git status data/
 
-          # Legg til endringer i frontend
+          # Frontend
           git add web/postliste.html web/script.js web/style.css web/postliste_template.html || true
 
-          # Legg til endringer i shards
-          git add data/postliste_*.json || true
+          # Shards
+          git add data/shards/postliste_*.json || true
+          git add data/shards/changes_*.json || true
           git add data/postliste_index.json || true
-          git add data/changes.json || true
-
-          # Slett legacy hvis den finnes
-          git rm data/postliste.json || true
 
           git commit -m "Force publish med oppdatert frontend (sharded)" || echo "Ingen endringer å committe"
 
           # ---------------------------------------------------------
-          # LØSNING A: ERSTATT STASH/REBASE MED REN PULL
+          # LØSNING A: REN PULL (ingen stash/rebase)
           # ---------------------------------------------------------
           echo "=== HENTER SISTE ENDINGER FRA main ==="
           git pull origin main || true
 
-          # ---------------------------------------------------------
-          # PUSH MED RETRY
-          # ---------------------------------------------------------
+          # Push med retry
           for i in {1..5}; do
             git push origin main && break
             echo "Push feilet, prøver igjen ($i/5)..."
