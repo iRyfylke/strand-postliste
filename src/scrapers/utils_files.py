@@ -362,11 +362,14 @@ def merge_and_save_sharded_to_folder(existing_dict, new_docs, folder="data/shard
 
 def save_postliste_sharded_to_folder(all_docs, folder):
     """
-    Skriver shards til gitt mappe (data/shards).
+    Skriver shards til gitt mappe (data/shards) med MAKS 10 000 entries per fil.
+    Dette matcher build_chunks_from_archive.py og sikrer rask og stabil sharding.
     """
-    folder = DATA_DIR / Path(folder)
+
+    folder = Path(folder)
     folder.mkdir(parents=True, exist_ok=True)
 
+    # Sorter nyeste først
     def sort_key(x):
         for key in ("dato_iso", "dato"):
             v = x.get(key)
@@ -381,43 +384,31 @@ def save_postliste_sharded_to_folder(all_docs, folder):
                 continue
         return date.min
 
-    # Sortering
     all_docs_sorted = sorted(all_docs, key=sort_key, reverse=True)
-    print(f"[DEBUG] Totalt {len(all_docs_sorted)} dokumenter skal sharde-skrives…")
-    print("[DEBUG] Starter sharding-loop…")
 
     shards = []
-    current = []
-    current_index = 1
+    chunk = []
+    index = 0
+    MAX_PER_SHARD = 10000
 
-    def shard_path(idx):
-        return folder / f"postliste_{idx}.json"
+    for doc in all_docs_sorted:
+        chunk.append(doc)
 
-    for i, doc in enumerate(all_docs_sorted, start=1):
-        if i % 5000 == 0:
-            print(f"[DEBUG] Prosessert {i} dokumenter…")
+        if len(chunk) >= MAX_PER_SHARD:
+            shard_path = folder / f"postliste_{index}.json"
+            atomic_write(shard_path, chunk)
+            shards.append(shard_path)
+            chunk = []
+            index += 1
 
-        current.append(doc)
-        serialized = json.dumps(current, ensure_ascii=False)
-
-        if len(serialized.encode("utf-8")) > SHARD_MAX_BYTES:
-            last = current.pop()
-            path = shard_path(current_index)
-            atomic_write(path, current)
-            shards.append(path)
-            print(f"[DEBUG] Skrev shard {path} med {len(current)} dokumenter.")
-            current_index += 1
-            current = [last]
-
-    if current:
-        path = shard_path(current_index)
-        atomic_write(path, current)
-        shards.append(path)
-        print(f"[DEBUG] Skrev shard {path} med {len(current)} dokumenter.")
+    # Siste shard
+    if chunk:
+        shard_path = folder / f"postliste_{index}.json"
+        atomic_write(shard_path, chunk)
+        shards.append(shard_path)
 
     # Skriv index
-    print("[DEBUG] Skriver index-fil…")
-    index_file = folder / "postliste_index.json"
+    index_file = folder.parent / "postliste_index.json"
     names = [p.name for p in shards]
     atomic_write(index_file, names)
 
