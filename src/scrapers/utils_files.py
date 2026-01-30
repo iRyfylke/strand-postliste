@@ -313,7 +313,7 @@ def load_all_postliste_from_shards(folder="data/shards"):
       - dict { dokumentID: dokument }
       - flat liste
     """
-    folder = DATA_DIR / Path(folder)
+    folder = Path(folder)
     folder.mkdir(parents=True, exist_ok=True)
 
     index_file = folder / "postliste_index.json"
@@ -350,7 +350,7 @@ def merge_and_save_sharded_to_folder(existing_dict, new_docs, folder="data/shard
     """
     Slår sammen eksisterende dokumenter med nye og skriver shards til gitt mappe.
     """
-    folder = DATA_DIR / Path(folder)
+    folder = Path(folder)
     folder.mkdir(parents=True, exist_ok=True)
 
     updated = dict(existing_dict)
@@ -423,7 +423,7 @@ def load_changes_sharded(folder="data/changes"):
     """
     Leser alle changes_N.json og returnerer en flat liste.
     """
-    folder = DATA_DIR / Path(folder)
+    folder = Path(folder)
     folder.mkdir(parents=True, exist_ok=True)
 
     index_file = folder / "changes_index.json"
@@ -454,7 +454,7 @@ def save_changes_sharded(changes, folder="data/changes"):
     """
     Sharder changes-listen til changes_N.json i gitt mappe.
     """
-    folder = DATA_DIR / Path(folder)
+    folder = Path(folder)
     folder.mkdir(parents=True, exist_ok=True)
 
     shards = []
