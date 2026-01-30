@@ -4,7 +4,8 @@ from datetime import datetime, date
 from pathlib import Path
 
 # Rot for datafiler
-DATA_DIR = Path("../../data")
+ROOT = Path(__file__).resolve().parent.parent.parent
+DATA_DIR = ROOT / "data"
 
 # Endringslogg
 CHANGES_FILE = DATA_DIR / "changes.json"
@@ -312,7 +313,7 @@ def load_all_postliste_from_shards(folder="data/shards"):
       - dict { dokumentID: dokument }
       - flat liste
     """
-    folder = Path(folder)
+    folder = DATA_DIR / Path(folder)
     folder.mkdir(parents=True, exist_ok=True)
 
     index_file = folder / "postliste_index.json"
@@ -349,7 +350,7 @@ def merge_and_save_sharded_to_folder(existing_dict, new_docs, folder="data/shard
     """
     Slår sammen eksisterende dokumenter med nye og skriver shards til gitt mappe.
     """
-    folder = Path(folder)
+    folder = DATA_DIR / Path(folder)
     folder.mkdir(parents=True, exist_ok=True)
 
     updated = dict(existing_dict)
@@ -363,7 +364,7 @@ def save_postliste_sharded_to_folder(all_docs, folder):
     """
     Skriver shards til gitt mappe (data/shards).
     """
-    folder = Path(folder)
+    folder = DATA_DIR / Path(folder)
     folder.mkdir(parents=True, exist_ok=True)
 
     def sort_key(x):
@@ -431,7 +432,7 @@ def load_changes_sharded(folder="data/changes"):
     """
     Leser alle changes_N.json og returnerer en flat liste.
     """
-    folder = Path(folder)
+    folder = DATA_DIR / Path(folder)
     folder.mkdir(parents=True, exist_ok=True)
 
     index_file = folder / "changes_index.json"
@@ -462,7 +463,7 @@ def save_changes_sharded(changes, folder="data/changes"):
     """
     Sharder changes-listen til changes_N.json i gitt mappe.
     """
-    folder = Path(folder)
+    folder = DATA_DIR / Path(folder)
     folder.mkdir(parents=True, exist_ok=True)
 
     shards = []
