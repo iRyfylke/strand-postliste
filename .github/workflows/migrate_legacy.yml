@@ -28,7 +28,7 @@ jobs:
           pip install playwright beautifulsoup4
 
       # ---------------------------------------------------------
-      # 1. TEST IMPORT AV utils_files (nå via egen .py-fil)
+      # 1. TEST IMPORT AV utils_files
       # ---------------------------------------------------------
       - name: Test utils_files import
         run: |
@@ -36,7 +36,7 @@ jobs:
           python -u tools/test_import_utils.py
 
       # ---------------------------------------------------------
-      # 2. KJØR MIGRERING MED UNBUFFERED OUTPUT
+      # 2. KJØR MIGRERING
       # ---------------------------------------------------------
       - name: Kjør migreringsscript
         id: migrate
@@ -45,7 +45,33 @@ jobs:
           python -u tools/migrate_legacy_to_shards.py
 
       # ---------------------------------------------------------
-      # 3. SLETT LEGACY-FILER KUN HVIS MIGRERING VAR OK
+      # 3. SANITY CHECK – SIKRE AT INDEX OG SHARDS BLE LAGET
+      # ---------------------------------------------------------
+      - name: Sanity check etter migrering
+        if: steps.migrate.outcome == 'success'
+        run: |
+          echo "=== SANITY CHECK ==="
+          if [ ! -f data/postliste_index.json ]; then
+            echo "FEIL: postliste_index.json mangler etter migrering!"
+            exit 1
+          fi
+          if [ ! -d data/shards ]; then
+            echo "FEIL: data/shards mangler etter migrering!"
+            exit 1
+          fi
+          echo "Sanity check OK."
+
+      # ---------------------------------------------------------
+      # 4. LOGG INNHOLD I DATA-MAPPEN
+      # ---------------------------------------------------------
+      - name: Logg innhold i data/
+        if: steps.migrate.outcome == 'success'
+        run: |
+          echo "=== INNHOLD I data/ ==="
+          ls -R data/
+
+      # ---------------------------------------------------------
+      # 5. SLETT LEGACY-FILER
       # ---------------------------------------------------------
       - name: Slett legacy-filer (kun hvis migrering OK)
         if: steps.migrate.outcome == 'success'
@@ -55,7 +81,7 @@ jobs:
           rm -f data/changes.json || true
 
       # ---------------------------------------------------------
-      # 4. COMMIT OG PUSH KUN HVIS MIGRERING VAR OK
+      # 6. COMMIT OG PUSH
       # ---------------------------------------------------------
       - name: Commit og push migrering
         if: steps.migrate.outcome == 'success'
@@ -66,12 +92,15 @@ jobs:
           echo "=== GIT STATUS ==="
           git status data/
 
+          # Shards
           git add data/shards/postliste_*.json || true
-          git add data/shards/postliste_index.json || true
+          git add data/shards/changes_*.json || true
 
-          git add data/changes/changes_*.json || true
+          # RIKTIG INDEX-FIL
+          git add data/postliste_index.json || true
           git add data/changes/changes_index.json || true
 
+          # Fjern legacy
           git rm data/postliste_1.json || true
           git rm data/changes.json || true
 
