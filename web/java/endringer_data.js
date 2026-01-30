@@ -21,7 +21,7 @@ export async function loadPostliste() {
     const index = await indexRes.json();
 
     // 2. Hent liste over shard-filer
-    const shardFiles = index.shards.map(s => s.file);
+    const shardFiles = index; // index er en liste med filnavn
 
     // 3. Last alle shards parallelt
     const shardPromises = shardFiles.map(async (filename) => {
