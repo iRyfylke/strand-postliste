@@ -2,8 +2,8 @@
 //  Endringsdashboard – hovedfil
 // ===============================
 
-// Importer moduler
-import { loadChanges, loadPostliste } from "./endringer_data.js";
+// Importer moduler (cache-busting med ?v=2)
+import { loadChanges, loadPostliste } from "./endringer_data.js?v=2";
 import { renderKPIs } from "./endringer_kpi.js";
 import { renderGraphs } from "./endringer_graphs.js";
 import { renderTables } from "./endringer_tables.js";
