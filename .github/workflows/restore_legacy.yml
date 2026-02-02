@@ -37,11 +37,11 @@ jobs:
 
           mkdir -p data
 
-          if [ -f old/data/postliste_1.json ]; then
-            cp old/data/postliste_1.json data/
-            echo "Gjenopprettet postliste_1.json"
+          if [ -f old/data/postliste_index.json ]; then
+            cp old/data/postliste_index.json data/
+            echo "Gjenopprettet postliste_index.json"
           else
-            echo "Fant ikke postliste_1.json i commit"
+            echo "Fant ikke postliste_index.json i commit"
           fi
 
           if [ -f old/data/changes.json ]; then
@@ -56,7 +56,7 @@ jobs:
           git config --global user.name "${{ github.actor }}"
           git config --global user.email "${{ github.actor }}@users.noreply.github.com"
 
-          git add data/postliste_1.json || true
+          git add data/postliste_index.json || true
           git add data/changes.json || true
 
           git commit -m "Gjenopprettet legacy-filer fra commit ${{ github.event.inputs.commit_hash }}" || echo "Ingen endringer å committe"
