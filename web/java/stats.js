@@ -2,7 +2,7 @@
 import { parseDDMMYYYY } from './render.js';
 
 // Chart-instansene (slik at vi kan destroy() ved oppdatering)
-let weeklyChart = null;
+let monthlyChart = null;
 let typesChart = null;
 let statusChart = null;
 let yearChart = null;
@@ -18,53 +18,49 @@ export function initStats(data) {
 
 function buildCharts(data) {
   // ============================
-  // 1) Dokumenter per måned
+  // Forhåndsallokerte datastrukturer
   // ============================
   const perMonth = {};
-  data.forEach(d => {
-    const dt = parseDDMMYYYY(d.dato);
-    if (!dt) return;
-    const key = `${dt.getFullYear()}-${String(dt.getMonth() + 1).padStart(2, "0")}`;
-    perMonth[key] = (perMonth[key] || 0) + 1;
-  });
+  const perType = {};
+  const perStatus = { "Publisert": 0, "Må bes om innsyn": 0 };
+  const perYear = {};
 
+  // ============================
+  // Én gjennomgang av alle dokumenter
+  // ============================
+  for (const d of data) {
+    // Dokumenttype
+    const type = d.dokumenttype || "Ukjent";
+    perType[type] = (perType[type] || 0) + 1;
+
+    // Status
+    if (d.status === "Publisert") perStatus["Publisert"]++;
+    else perStatus["Må bes om innsyn"]++;
+
+    // Dato (må være gyldig)
+    const dt = parseDDMMYYYY(d.dato);
+    if (!dt) continue;
+
+    // Per måned
+    const monthKey = `${dt.getFullYear()}-${String(dt.getMonth() + 1).padStart(2, "0")}`;
+    perMonth[monthKey] = (perMonth[monthKey] || 0) + 1;
+
+    // Per år
+    const year = dt.getFullYear();
+    perYear[year] = (perYear[year] || 0) + 1;
+  }
+
+  // ============================
+  // Konverter til arrays for Chart.js
+  // ============================
   const monthLabels = Object.keys(perMonth).sort();
   const monthData = monthLabels.map(k => perMonth[k]);
 
-  // ============================
-  // 2) Dokumenter per type
-  // ============================
-  const types = {};
-  data.forEach(d => {
-    const t = d.dokumenttype || "Ukjent";
-    types[t] = (types[t] || 0) + 1;
-  });
+  const typeLabels = Object.keys(perType).sort();
+  const typeData = typeLabels.map(k => perType[k]);
 
-  const typeLabels = Object.keys(types).sort();
-  const typeData = typeLabels.map(k => types[k]);
-
-  // ============================
-  // 3) Publisert vs. Innsyn
-  // ============================
-  const status = { "Publisert": 0, "Må bes om innsyn": 0 };
-  data.forEach(d => {
-    if (d.status === "Publisert") status["Publisert"]++;
-    else status["Må bes om innsyn"]++;
-  });
-
-  const statusLabels = Object.keys(status);
-  const statusData = statusLabels.map(k => status[k]);
-
-  // ============================
-  // 4) Dokumenter per år
-  // ============================
-  const perYear = {};
-  data.forEach(d => {
-    const dt = parseDDMMYYYY(d.dato);
-    if (!dt) return;
-    const year = dt.getFullYear();
-    perYear[year] = (perYear[year] || 0) + 1;
-  });
+  const statusLabels = Object.keys(perStatus);
+  const statusData = statusLabels.map(k => perStatus[k]);
 
   const yearLabels = Object.keys(perYear).sort();
   const yearData = yearLabels.map(k => perYear[k]);
@@ -82,16 +78,18 @@ function buildCharts(data) {
     return;
   }
 
-  // Destroy gamle grafer hvis de finnes
-  if (weeklyChart) weeklyChart.destroy();
-  if (typesChart) typesChart.destroy();
-  if (statusChart) statusChart.destroy();
-  if (yearChart) yearChart.destroy();
+  // ============================
+  // Destroy gamle grafer
+  // ============================
+  monthlyChart?.destroy();
+  typesChart?.destroy();
+  statusChart?.destroy();
+  yearChart?.destroy();
 
   // ============================
   // 📈 Dokumenter per måned
   // ============================
-  weeklyChart = new Chart(cMonth, {
+  monthlyChart = new Chart(cMonth, {
     type: 'line',
     data: {
       labels: monthLabels,
@@ -105,9 +103,7 @@ function buildCharts(data) {
     },
     options: {
       responsive: true,
-      scales: {
-        y: { beginAtZero: true }
-      }
+      scales: { y: { beginAtZero: true } }
     }
   });
 
@@ -127,9 +123,7 @@ function buildCharts(data) {
     options: {
       responsive: true,
       plugins: { legend: { display: false } },
-      scales: {
-        y: { beginAtZero: true }
-      }
+      scales: { y: { beginAtZero: true } }
     }
   });
 
@@ -167,9 +161,7 @@ function buildCharts(data) {
     options: {
       responsive: true,
       plugins: { legend: { display: false } },
-      scales: {
-        y: { beginAtZero: true }
-      }
+      scales: { y: { beginAtZero: true } }
     }
   });
 }
