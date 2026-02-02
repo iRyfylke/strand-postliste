@@ -4,11 +4,25 @@
 // ===============================
 
 export async function loadChanges() {
-    const res = await fetch("../data/changes.json");
-    const data = await res.json();
+    // 1. Last indexfilen
+    const indexRes = await fetch("../data/changes/changes_index.json");
+    const index = await indexRes.json(); // liste med filnavn
 
-    // Sorter nyeste først
-    return data.sort((a, b) => new Date(b.tidspunkt) - new Date(a.tidspunkt));
+    // 2. Last alle shards parallelt
+    const shardPromises = index.map(async (filename) => {
+        const res = await fetch(`../data/changes/${filename}`);
+        return res.json(); // hver shard er en liste
+    });
+
+    const shardData = await Promise.all(shardPromises);
+
+    // 3. Slå sammen alle entries
+    const allChanges = shardData.flat();
+
+    // 4. Sorter nyeste først
+    allChanges.sort((a, b) => new Date(b.tidspunkt) - new Date(a.tidspunkt));
+
+    return allChanges;
 }
 
 // ===============================
@@ -42,4 +56,3 @@ export async function loadPostliste() {
 
     return map;
 }
-
