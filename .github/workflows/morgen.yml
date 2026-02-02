@@ -86,17 +86,19 @@ jobs:
           echo "=== Endringer i data/ ==="
           git status data/
 
-          # Shards (postliste)
+          # Postliste-shards + index
           git add data/shards/postliste_*.json || true
           git add data/postliste_index.json || true
 
-          # Changes (sharded)
+          # Changes-shards + index
           git add data/changes/changes_*.json || true
           git add data/changes/changes_index.json || true
 
-          # Legacy filer skal ALDRI eksistere
-          git rm data/postliste_*.json || true
-          git rm data/changes.json || true
+          # -------------------------------------------------------
+          # VIKTIG:
+          # Ikke slett gamle filer lenger.
+          # Shard-systemet håndterer alt, og workflows skal ALDRI slette data automatisk.
+          # -------------------------------------------------------
 
           git commit -m "Automatisk morgenoppdatering (incremental → shards + changes)" || echo "Ingen endringer å committe"
 
