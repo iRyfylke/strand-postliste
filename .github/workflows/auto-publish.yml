@@ -49,7 +49,7 @@ jobs:
           git remote -v
 
       # ---------------------------------------------------------
-      # LØSNING C: LOGG INNHOLD I DATA-MAPPEN
+      # LOGG INNHOLD I DATA-MAPPEN
       # ---------------------------------------------------------
       - name: Logg innhold i data/-mappen
         run: |
@@ -57,7 +57,7 @@ jobs:
           ls -R data/ || true
 
       # ---------------------------------------------------------
-      # LØSNING B: SANITY CHECK
+      # SANITY CHECK
       # ---------------------------------------------------------
       - name: Sjekk at nødvendige datafiler finnes
         run: |
@@ -72,6 +72,9 @@ jobs:
           fi
           echo "Sanity check OK – nødvendige datafiler finnes."
 
+      # ---------------------------------------------------------
+      # COMMIT & PUSH
+      # ---------------------------------------------------------
       - name: Commit og push frontend (konkurransesikker)
         run: |
           git config --global user.name "${{ github.actor }}"
@@ -84,15 +87,18 @@ jobs:
           # Frontend
           git add web/postliste.html web/script.js web/style.css web/postliste_template.html || true
 
-          # Shards
+          # Postliste-shards
           git add data/shards/postliste_*.json || true
-          git add data/shards/changes_*.json || true
           git add data/postliste_index.json || true
+
+          # Changes-shards
+          git add data/changes/changes_*.json || true
+          git add data/changes/changes_index.json || true
 
           git commit -m "Automatisk publish etter scraping (sharded)" || echo "Ingen endringer å committe"
 
           # ---------------------------------------------------------
-          # LØSNING A: REN PULL (ingen stash/rebase)
+          # REN PULL (ingen stash/rebase)
           # ---------------------------------------------------------
           echo "=== HENTER SISTE ENDINGER FRA main ==="
           git pull origin main || true
