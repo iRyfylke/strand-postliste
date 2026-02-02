@@ -86,27 +86,28 @@ jobs:
           echo "=== Endringer i data/ ==="
           git status data/
 
-          # Shards
+          # Postliste-shards
           git add data/shards/postliste_*.json || true
-          git add data/shards/postliste_index.json || true
+          git add data/postliste_index.json || true
 
-          # Changes (sharded)
+          # Changes-shards
           git add data/changes/changes_*.json || true
           git add data/changes/changes_index.json || true
 
-          # Legacy filer skal ALDRI eksistere
+          # Legacy filer som ALDRI skal eksistere
           git rm data/postliste_*.json || true
-          git rm data/postliste_index.json || true
           git rm data/changes.json || true
 
           git commit -m "Automatisk oppdatering av eksisterende oppføringer (update → shards + changes)" || echo "Ingen endringer å committe"
 
-          git stash --include-untracked || true
-          git pull --rebase --autostash origin main || true
-          git stash pop || true
+          # -------------------------------------------------------
+          # REN PULL (ingen stash/rebase)
+          # -------------------------------------------------------
+          git pull origin main || true
 
+          # Push med retry
           for i in {1..5}; do
             git push origin main && break
             echo "Push feilet, prøver igjen ($i/5)..."
-            git pull --rebase --autostash origin main || true
+            git pull origin main || true
           done
