@@ -131,17 +131,21 @@ jobs:
 
       # -------------------------
       # COMMIT & PUSH (kun archive/)
+      # Viktig: Fullscrape skal ALDRI påvirke shards eller index-filer.
       # -------------------------
       - name: Commit og push begge filer
         run: |
           git config --global user.name "${{ github.actor }}"
           git config --global user.email "${{ github.actor }}@users.noreply.github.com"
 
-          git add data/archive/postliste_${{ github.event.inputs.year }}_H1.json
-          git add data/archive/postliste_${{ github.event.inputs.year }}_H2.json
-          git add src/config/config_fullscrape.json
+          echo "=== Endringer i data/archive/ ==="
+          git status data/archive/
+
+          git add data/archive/postliste_${{ github.event.inputs.year }}_H1.json || true
+          git add data/archive/postliste_${{ github.event.inputs.year }}_H2.json || true
+          git add src/config/config_fullscrape.json || true
 
           git commit -m "Fullscrape ${{ github.event.inputs.year }} (H1 + H2)" || echo "Ingen endringer å committe"
 
-          git pull --rebase origin main || true
+          git pull origin main || true
           git push origin main || true
