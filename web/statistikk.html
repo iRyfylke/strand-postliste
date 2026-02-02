@@ -54,7 +54,7 @@
 
   <!-- Modulscript som importerer initStats -->
   <script type="module">
-    import { initStats } from "./java/stats.js";
+    import { initStats } from "./java/stats.js?v=2";   <!-- cache-busting -->
 
     async function loadData() {
       try {
@@ -62,9 +62,9 @@
         const indexRes = await fetch("../data/postliste_index.json");
         const shardFiles = await indexRes.json();
 
-        // 2. Last alle shards parallelt
+        // 2. Last alle shards parallelt (riktig path!)
         const shardPromises = shardFiles.map(async (filename) => {
-          const res = await fetch(`../data/${filename}`);
+          const res = await fetch(`../data/shards/${filename}`);
           return res.json();
         });
 
