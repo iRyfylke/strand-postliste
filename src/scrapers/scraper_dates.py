@@ -3,36 +3,41 @@ import asyncio
 import os
 import glob
 import json
+from pathlib import Path
 from playwright.async_api import async_playwright
+
 from utils_dates import parse_date_from_page, within_range, parse_cli_date
 from utils_files import (
     ensure_directories,
     load_config,
     atomic_write,
 )
+
 from scraper_core_async import hent_side_async
 
-DEFAULT_CONFIG_FILE = "../config/config.json"
-FILTERED_FILE = "../../data/postliste_filtered.json"
+# Absolutte paths
+ROOT = Path(__file__).resolve().parent.parent.parent
+DEFAULT_CONFIG_FILE = ROOT / "src/config/config.json"
+FILTERED_FILE = ROOT / "data/postliste_filtered.json"
 
 
 # ---------------------------------------------------------
-# LOAD ARCHIVE YEAR (instead of shards)
+# LOAD ARCHIVE YEAR
 # ---------------------------------------------------------
 def load_archive_year(year):
-    archive_files = glob.glob(f"../../data/archive_new/postliste_{year}_*.json")
+    archive_dir = ROOT / "data/archive_new"
+    archive_files = sorted(archive_dir.glob(f"postliste_{year}_*.json"))
     existing = {}
 
     print(f"[INFO] Leser archive-filer for år {year}…")
 
     for f in archive_files:
         try:
-            with open(f, "r", encoding="utf-8") as infile:
-                docs = json.load(infile)
-                for d in docs:
-                    dokid = d.get("dokumentID")
-                    if dokid:
-                        existing[dokid] = d
+            docs = json.loads(f.read_text(encoding="utf-8"))
+            for d in docs:
+                dokid = d.get("dokumentID")
+                if dokid:
+                    existing[dokid] = d
         except Exception as e:
             print(f"[WARN] Klarte ikke å lese {f}: {e}")
 
@@ -41,21 +46,20 @@ def load_archive_year(year):
 
 
 # ---------------------------------------------------------
-# FAILED PAGES – LOAD & SAVE
+# FAILED PAGES
 # ---------------------------------------------------------
 def load_failed_pages(year):
-    path = f"../../data/archive_new/failed_pages_{year}.json"
-    if not os.path.exists(path):
+    path = ROOT / f"data/archive_new/failed_pages_{year}.json"
+    if not path.exists():
         return []
     try:
-        with open(path, "r", encoding="utf-8") as f:
-            return json.load(f)
+        return json.loads(path.read_text(encoding="utf-8"))
     except Exception:
         return []
 
 
 def save_failed_pages(year, pages):
-    path = f"../../data/archive_new/failed_pages_{year}.json"
+    path = ROOT / f"data/archive_new/failed_pages_{year}.json"
     atomic_write(path, sorted(list(set(pages))))
 
 
@@ -78,12 +82,10 @@ async def scrape_single_page(context, page_num, per_page, start_date, end_date, 
         finally:
             await page.close()
 
-        # Ekte feil: hent_side_async klarte ikke å hente siden
         if docs is None:
             print(f"[WARN] FEIL: Klarte ikke hente side {page_num} (docs=None)")
             return None
 
-        # Gyldig, men tom side
         if len(docs) == 0:
             print(f"[INFO] Side {page_num} er tom (0 dokumenter)")
             return []
@@ -125,9 +127,7 @@ async def run_scrape_async(start_date=None, end_date=None, config_path=DEFAULT_C
 
     all_docs = []
 
-    # ---------------------------------------------------------
     # FAILED PAGES INIT
-    # ---------------------------------------------------------
     year = start_date.year if start_date else None
     failed_pages = []
 
@@ -165,9 +165,6 @@ async def run_scrape_async(start_date=None, end_date=None, config_path=DEFAULT_C
 
         semaphore = asyncio.Semaphore(CONCURRENCY)
 
-        # ---------------------------------------------------------
-        # PAGE LIST (fullscrape vs repair)
-        # ---------------------------------------------------------
         if mode == "repair":
             page_list = failed_pages
         else:
@@ -199,30 +196,19 @@ async def run_scrape_async(start_date=None, end_date=None, config_path=DEFAULT_C
 
     print(f"[INFO] Totalt hentet {len(all_docs)} dokumenter innenfor dato-range.")
 
-    # ---------------------------------------------------------
     # FAILED PAGES UPDATE
-    # ---------------------------------------------------------
     new_failed = []
 
     for idx, page_num in enumerate(page_list):
         batch = results[idx]
-
         if batch is None:
-            # Ekte feil → behold siden i failed_pages
             new_failed.append(page_num)
-        else:
-            # batch er [] (tom side) eller liste med dokumenter → OK
-            print(f"[INFO] Side {page_num} OK → fjernes fra failed_pages hvis den lå der")
 
     if year is not None:
         save_failed_pages(year, new_failed)
         print(f"[INFO] Oppdatert failed_pages_{year}.json → {new_failed}")
-    else:
-        print("[WARN] year=None, hopper over lagring av failed_pages")
 
-    # ---------------------------------------------------------
     # REPAIR MODE
-    # ---------------------------------------------------------
     if mode == "repair":
         print("[INFO] Repair-modus aktivert. Leser archive…")
 
@@ -234,26 +220,16 @@ async def run_scrape_async(start_date=None, end_date=None, config_path=DEFAULT_C
             if dokid and dokid not in existing_dict:
                 missing_docs.append(d)
 
-        missing_file = f"../../data/archive_new/missing_{year}.json"
-
-        print(f"[INFO] Fant {len(missing_docs)} manglende dokumenter.")
+        missing_file = ROOT / f"data/archive_new/missing_{year}.json"
         atomic_write(missing_file, missing_docs)
 
         print("[INFO] Repair fullført.")
         return
 
-    # ---------------------------------------------------------
     # NORMAL MODES
-    # ---------------------------------------------------------
     atomic_write(FILTERED_FILE, all_docs)
 
-    if mode == "publish":
-        from utils_files import load_all_postliste
-        existing_dict, _ = load_all_postliste()
-        merge_and_save_sharded(existing_dict, all_docs)
-        print("[INFO] Oppdatert shard-basert hoveddatasett.")
-    else:
-        print("[INFO] FULL-modus: Oppdaterer ikke hoveddatasettet")
+    print("[INFO] FULL-modus: Oppdaterer ikke hoveddatasettet")
 
 
 def main():
