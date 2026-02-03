@@ -370430,5 +370430,21 @@
         "ny": 1
       }
     }
+  },
+  {
+    "tidspunkt": "2026-02-03 14:10:18",
+    "type": "UPDATE",
+    "dokumentID": "2026/3487",
+    "tittel": "Henvendelse ang. kommuneplan/arealplan Stålverket",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
   }
 ]
