@@ -69,7 +69,11 @@ def main():
         browser.close()
 
     # Lagre shards i data/shards/
-    merge_and_save_sharded_to_folder(existing_dict, list(updated.values()), folder="data/shards")
+    merge_and_save_sharded_to_folder(
+    list(existing_dict.values()),
+    list(updated.values()),
+    folder="data/shards"
+    )
 
     # Lagre changes i data/changes/
     save_changes_sharded(changes, folder="data/changes")
