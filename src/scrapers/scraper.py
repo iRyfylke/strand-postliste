@@ -1,5 +1,6 @@
 from playwright.sync_api import sync_playwright
 from datetime import datetime, date
+from pathlib import Path
 
 from utils_files import (
     ensure_directories,
@@ -13,7 +14,8 @@ from utils_files import (
 from scraper_core_incremental import hent_side_incremental
 from scraper_changes import detect_changes, build_change_entry
 
-CONFIG_FILE = "../config/config.json"
+# Absolutt path til config
+CONFIG_FILE = Path(__file__).resolve().parent.parent / "config" / "config.json"
 
 
 def main():
@@ -28,7 +30,7 @@ def main():
     print(f"[INFO] Modus: {mode}, max_pages: {max_pages}")
 
     # Last ALLE shards fra data/shards/
-    existing_dict, _all_existing_list = load_all_postliste_from_shards()
+    existing_dict, existing_list = load_all_postliste_from_shards()
     updated = dict(existing_dict)
 
     # Last changes fra data/changes/
@@ -70,9 +72,9 @@ def main():
 
     # Lagre shards i data/shards/
     merge_and_save_sharded_to_folder(
-    list(existing_dict.values()),
-    list(updated.values()),
-    folder="data/shards"
+        existing_dict,
+        list(updated.values()),
+        folder="data/shards"
     )
 
     # Lagre changes i data/changes/
