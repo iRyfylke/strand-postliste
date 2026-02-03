@@ -8,16 +8,6 @@ on:
         required: true
         type: string
 
-      start_page:
-        description: "Start page (eldste side for året)"
-        required: true
-        type: string
-
-      max_pages:
-        description: "Max page (nyeste side for året)"
-        required: true
-        type: string
-
 permissions:
   contents: write
 
@@ -34,8 +24,6 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       year: ${{ github.event.inputs.year }}
-      start_page: ${{ github.event.inputs.start_page }}
-      max_pages: ${{ github.event.inputs.max_pages }}
 
     steps:
       - uses: actions/checkout@v4
@@ -77,20 +65,11 @@ jobs:
           pip install playwright beautifulsoup4 jq
           playwright install chromium
 
-      - name: Skriv config_fullscrape.json
-        run: |
-          mkdir -p src/config
-          printf '{\n  "start_page": %s,\n  "max_pages": %s,\n  "per_page": 100\n}\n' \
-            "${{ needs.setup.outputs.start_page }}" \
-            "${{ needs.setup.outputs.max_pages }}" \
-            > src/config/config_fullscrape.json
-
       - name: Kjør Q1-scrape
         working-directory: src/scrapers
         run: |
           python scraper_dates.py \
             --mode full \
-            --config ../config/config_fullscrape.json \
             "01.01.${{ needs.setup.outputs.year }}" \
             "31.03.${{ needs.setup.outputs.year }}"
 
@@ -121,20 +100,11 @@ jobs:
           pip install playwright beautifulsoup4 jq
           playwright install chromium
 
-      - name: Skriv config_fullscrape.json
-        run: |
-          mkdir -p src/config
-          printf '{\n  "start_page": %s,\n  "max_pages": %s,\n  "per_page": 100\n}\n' \
-            "${{ needs.setup.outputs.start_page }}" \
-            "${{ needs.setup.outputs.max_pages }}" \
-            > src/config/config_fullscrape.json
-
       - name: Kjør Q2-scrape
         working-directory: src/scrapers
         run: |
           python scraper_dates.py \
             --mode full \
-            --config ../config/config_fullscrape.json \
             "01.04.${{ needs.setup.outputs.year }}" \
             "30.06.${{ needs.setup.outputs.year }}"
 
@@ -165,20 +135,11 @@ jobs:
           pip install playwright beautifulsoup4 jq
           playwright install chromium
 
-      - name: Skriv config_fullscrape.json
-        run: |
-          mkdir -p src/config
-          printf '{\n  "start_page": %s,\n  "max_pages": %s,\n  "per_page": 100\n}\n' \
-            "${{ needs.setup.outputs.start_page }}" \
-            "${{ needs.setup.outputs.max_pages }}" \
-            > src/config/config_fullscrape.json
-
       - name: Kjør Q3-scrape
         working-directory: src/scrapers
         run: |
           python scraper_dates.py \
             --mode full \
-            --config ../config/config_fullscrape.json \
             "01.07.${{ needs.setup.outputs.year }}" \
             "30.09.${{ needs.setup.outputs.year }}"
 
@@ -209,20 +170,11 @@ jobs:
           pip install playwright beautifulsoup4 jq
           playwright install chromium
 
-      - name: Skriv config_fullscrape.json
-        run: |
-          mkdir -p src/config
-          printf '{\n  "start_page": %s,\n  "max_pages": %s,\n  "per_page": 100\n}\n' \
-            "${{ needs.setup.outputs.start_page }}" \
-            "${{ needs.setup.outputs.max_pages }}" \
-            > src/config/config_fullscrape.json
-
       - name: Kjør Q4-scrape
         working-directory: src/scrapers
         run: |
           python scraper_dates.py \
             --mode full \
-            --config ../config/config_fullscrape.json \
             "01.10.${{ needs.setup.outputs.year }}" \
             "31.12.${{ needs.setup.outputs.year }}"
 
@@ -269,7 +221,6 @@ jobs:
           YEAR="${{ github.event.inputs.year }}"
           mkdir -p data/archive_new
 
-          # Finn alle failed_pages-filer fra artifacts
           FILES=$(find failed_pages_artifacts -name "failed_pages_${YEAR}.json" -type f || true)
 
           if [ -z "$FILES" ]; then
@@ -278,7 +229,6 @@ jobs:
             echo "Slår sammen failed_pages-filer for ${YEAR}:"
             echo "$FILES"
 
-            # Slå sammen og fjern duplikater
             jq -s 'add | unique | sort' $FILES > data/archive_new/failed_pages_${YEAR}.json
             echo "Ferdig generert data/archive_new/failed_pages_${YEAR}.json"
           fi
@@ -299,10 +249,8 @@ jobs:
 
           YEAR="${{ github.event.inputs.year }}"
 
-          # Kvartalsfiler
           git add data/archive_new/postliste_${YEAR}_Q*.json
 
-          # failed_pages_<år>.json hvis den finnes
           if [ -f "data/archive_new/failed_pages_${YEAR}.json" ]; then
             git add data/archive_new/failed_pages_${YEAR}.json
           fi
