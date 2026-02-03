@@ -1,7 +1,6 @@
 import argparse
 import asyncio
 import os
-import glob
 import json
 from pathlib import Path
 from playwright.async_api import async_playwright
@@ -9,7 +8,6 @@ from playwright.async_api import async_playwright
 from utils_dates import parse_date_from_page, within_range, parse_cli_date
 from utils_files import (
     ensure_directories,
-    load_config,
     atomic_write,
 )
 
@@ -17,7 +15,6 @@ from scraper_core_async import hent_side_async
 
 # Absolutte paths
 ROOT = Path(__file__).resolve().parent.parent.parent
-DEFAULT_CONFIG_FILE = ROOT / "src/config/config.json"
 FILTERED_FILE = ROOT / "data/postliste_filtered.json"
 
 
@@ -66,68 +63,53 @@ def save_failed_pages(year, pages):
 # ---------------------------------------------------------
 # SCRAPE SINGLE PAGE
 # ---------------------------------------------------------
-async def scrape_single_page(context, page_num, per_page, start_date, end_date, semaphore, index, total_pages):
-    print(f"[INFO] Scraper side {index} av {total_pages} (page_num={page_num})")
+async def scrape_single_page(context, page_num, per_page, start_date, end_date):
+    print(f"[INFO] Scraper side {page_num}")
 
-    async with semaphore:
-        page = await context.new_page()
-        try:
-            docs = await hent_side_async(
-                page_num=page_num,
-                page=page,
-                per_page=per_page,
-                timeout=20_000,
-                retries=5,
-            )
-        finally:
-            await page.close()
+    page = await context.new_page()
+    try:
+        docs = await hent_side_async(
+            page_num=page_num,
+            page=page,
+            per_page=per_page,
+            timeout=20_000,
+            retries=5,
+        )
+    finally:
+        await page.close()
 
-        if docs is None:
-            print(f"[WARN] FEIL: Klarte ikke hente side {page_num} (docs=None)")
-            return None
+    if docs is None:
+        print(f"[WARN] FEIL: Klarte ikke hente side {page_num} (docs=None)")
+        return None
 
-        if len(docs) == 0:
-            print(f"[INFO] Side {page_num} er tom (0 dokumenter)")
-            return []
+    if len(docs) == 0:
+        print(f"[INFO] Side {page_num} er tom (0 dokumenter)")
+        return []
 
-        filtered = []
-        for d in docs:
-            parsed_date = parse_date_from_page(d.get("dato"))
-            if within_range(parsed_date, start_date, end_date):
-                filtered.append(d)
+    filtered = []
+    for d in docs:
+        parsed_date = parse_date_from_page(d.get("dato"))
+        if within_range(parsed_date, start_date, end_date):
+            filtered.append(d)
 
-        print(f"[INFO] Side {page_num}: {len(filtered)} dokumenter innenfor dato-range")
-        return filtered
+    print(f"[INFO] Side {page_num}: {len(filtered)} dokumenter innenfor dato-range")
+    return filtered
 
 
 # ---------------------------------------------------------
 # MAIN SCRAPER
 # ---------------------------------------------------------
-async def run_scrape_async(start_date=None, end_date=None, config_path=DEFAULT_CONFIG_FILE, mode="publish"):
-    print(f"[INFO] Starter ASYNC PARALLELL scraper_dates i modus='{mode}'…")
+async def run_scrape_async(start_date=None, end_date=None, mode="publish"):
+    print(f"[INFO] Starter ASYNC scraper_dates i modus='{mode}'…")
 
     ensure_directories()
-    cfg = load_config(config_path)
-
-    start_page = int(cfg.get("start_page", 1))
-    max_pages = int(cfg.get("max_pages", 100))
-    per_page = int(cfg.get("per_page", 100))
-    step = 1 if max_pages > start_page else -1
-
-    total_pages = abs(max_pages - start_page) + 1
 
     print("[INFO] Konfigurasjon:")
-    print(f"       start_page  = {start_page}")
-    print(f"       max_pages   = {max_pages}")
-    print(f"       step        = {step}")
-    print(f"       total_pages = {total_pages}")
-    print(f"       per_page    = {per_page}")
     print(f"       start_date  = {start_date}")
     print(f"       end_date    = {end_date}")
 
     all_docs = []
 
-    # FAILED PAGES INIT
     year = start_date.year if start_date else None
     failed_pages = []
 
@@ -136,9 +118,8 @@ async def run_scrape_async(start_date=None, end_date=None, config_path=DEFAULT_C
         print(f"[INFO] Repair-modus: Leser failed_pages_{year}.json → {failed_pages}")
 
     cpu_count = os.cpu_count() or 2
-    CONCURRENCY = min(6, max(2, cpu_count - 1))
-
-    print(f"[INFO] CPU-kjerner: {cpu_count}, bruker CONCURRENCY={CONCURRENCY}")
+    CONCURRENCY = min(6, max(2, cpu_count - 1))  # beholdt for ev. videre bruk
+    print(f"[INFO] CPU-kjerner: {cpu_count}, (CONCURRENCY={CONCURRENCY}, men kjører sekvensielt for fullscrape)")
 
     async with async_playwright() as p:
         browser = await p.chromium.launch(
@@ -163,33 +144,52 @@ async def run_scrape_async(start_date=None, end_date=None, config_path=DEFAULT_C
 
         await context.route("**/*", block_resources)
 
-        semaphore = asyncio.Semaphore(CONCURRENCY)
+        per_page = 100
+        new_failed = []
 
         if mode == "repair":
-            page_list = failed_pages
-        else:
-            page_list = list(range(start_page, max_pages + step, step))
-
-        tasks = []
-        for idx, page_num in enumerate(page_list, start=1):
-            tasks.append(
-                scrape_single_page(
+            # Kjør kun på sidene som tidligere feilet
+            for page_num in failed_pages:
+                batch = await scrape_single_page(
                     context=context,
                     page_num=page_num,
                     per_page=per_page,
                     start_date=start_date,
                     end_date=end_date,
-                    semaphore=semaphore,
-                    index=idx,
-                    total_pages=len(page_list),
                 )
-            )
+                if batch is None:
+                    new_failed.append(page_num)
+                else:
+                    all_docs.extend(batch)
+        else:
+            # FULLSCRAPE: start på side 1, stopp når vi har 2 tomme sider på rad (etter datofilter)
+            page_num = 1
+            empty_streak = 0
 
-        results = await asyncio.gather(*tasks)
+            while True:
+                batch = await scrape_single_page(
+                    context=context,
+                    page_num=page_num,
+                    per_page=per_page,
+                    start_date=start_date,
+                    end_date=end_date,
+                )
 
-        for batch in results:
-            if batch:
-                all_docs.extend(batch)
+                if batch is None:
+                    # ekte feil → logg som failed page
+                    new_failed.append(page_num)
+                elif len(batch) == 0:
+                    empty_streak += 1
+                    print(f"[INFO] Tom side etter filtrering (streak={empty_streak})")
+                else:
+                    empty_streak = 0
+                    all_docs.extend(batch)
+
+                if empty_streak >= 2:
+                    print("[INFO] To tomme sider på rad. Stopper fullscrape.")
+                    break
+
+                page_num += 1
 
         await context.close()
         await browser.close()
@@ -197,16 +197,11 @@ async def run_scrape_async(start_date=None, end_date=None, config_path=DEFAULT_C
     print(f"[INFO] Totalt hentet {len(all_docs)} dokumenter innenfor dato-range.")
 
     # FAILED PAGES UPDATE
-    new_failed = []
-
-    for idx, page_num in enumerate(page_list):
-        batch = results[idx]
-        if batch is None:
-            new_failed.append(page_num)
-
     if year is not None:
         save_failed_pages(year, new_failed)
         print(f"[INFO] Oppdatert failed_pages_{year}.json → {new_failed}")
+    else:
+        print("[WARN] year=None, hopper over lagring av failed_pages")
 
     # REPAIR MODE
     if mode == "repair":
@@ -226,15 +221,13 @@ async def run_scrape_async(start_date=None, end_date=None, config_path=DEFAULT_C
         print("[INFO] Repair fullført.")
         return
 
-    # NORMAL MODES
+    # NORMAL MODES (FULL)
     atomic_write(FILTERED_FILE, all_docs)
-
     print("[INFO] FULL-modus: Oppdaterer ikke hoveddatasettet")
 
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--config", default=DEFAULT_CONFIG_FILE)
     parser.add_argument("--mode", default="publish", choices=["full", "publish", "repair"])
     parser.add_argument("start_date", nargs="?")
     parser.add_argument("end_date", nargs="?")
@@ -248,7 +241,6 @@ def main():
         run_scrape_async(
             start_date=start_date,
             end_date=end_date,
-            config_path=args.config,
             mode=args.mode,
         )
     )
