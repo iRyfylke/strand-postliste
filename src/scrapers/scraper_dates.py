@@ -8,7 +8,6 @@ from utils_dates import parse_date_from_page, within_range, parse_cli_date
 from utils_files import (
     ensure_directories,
     load_config,
-    merge_and_save_sharded,
     atomic_write,
 )
 from scraper_core_async import hent_side_async
