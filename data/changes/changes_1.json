@@ -370446,5 +370446,53 @@
         "ny": 0
       }
     }
+  },
+  {
+    "tidspunkt": "2026-02-04 07:06:57",
+    "type": "UPDATE",
+    "dokumentID": "2026/3292",
+    "tittel": "Svar på spørsmål om midler til lan for ungdommer",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-04 07:06:57",
+    "type": "UPDATE",
+    "dokumentID": "2026/3512",
+    "tittel": "Spørsmål angående kommuneplan",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-04 07:06:57",
+    "type": "UPDATE",
+    "dokumentID": "2026/3440",
+    "tittel": "Innspill 16/48 Ugeli - krav om innsyn i alle dokumenter knyttet til saken",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
   }
 ]
