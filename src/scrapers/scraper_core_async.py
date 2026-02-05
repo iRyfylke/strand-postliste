@@ -17,8 +17,9 @@ BASE_URL = (
 # INTERNAL HELPERS
 # ---------------------------------------------------------
 async def _wait_for_content(page, page_num, timeout: int) -> bool:
-    """Sørger for at innholdet er lastet nok til å hente artikler."""
+    """Sørger for at innholdet er lastet nok til å hente ALLE artikler."""
     try:
+        # Vent på initial load
         try:
             await page.wait_for_load_state("networkidle", timeout=timeout)
         except Exception as e:
@@ -26,12 +27,17 @@ async def _wait_for_content(page, page_num, timeout: int) -> bool:
 
         await page.wait_for_timeout(300)
 
-        try:
-            await page.evaluate("window.scrollBy(0, 200)")
-            await page.wait_for_timeout(200)
-        except Exception as e:
-            print(f"[WARN] Side {page_num}: scroll feilet: {e}")
+        # ---------------------------------------------------------
+        # NY SCROLL-LOGIKK: scroll dypt flere ganger for å trigge lazy-loading
+        # ---------------------------------------------------------
+        for i in range(6):
+            try:
+                await page.evaluate("window.scrollBy(0, 2000)")
+                await page.wait_for_timeout(250)
+            except Exception as e:
+                print(f"[WARN] Side {page_num}: scroll {i} feilet: {e}")
 
+        # Sjekk om artikler er lastet
         try:
             await page.wait_for_selector(
                 "article.bc-content-teaser--item",
@@ -40,7 +46,7 @@ async def _wait_for_content(page, page_num, timeout: int) -> bool:
             )
             return True
         except Exception:
-            print(f"[WARN] Side {page_num}: ingen artikler funnet (selector-timeout)")
+            print(f"[WARN] Side {page_num}: ingen artikler funnet etter scroll")
             return False
 
     except Exception as e:
@@ -141,7 +147,7 @@ async def hent_side_async(page_num, page, per_page, retries=5, timeout=10_000):
                 if detalj_link and not detalj_link.startswith("http"):
                     detalj_link = "https://www.strand.kommune.no" + detalj_link
 
-                # Hent filer i egen page (unngå å ødelegge listevisningen)
+                # Hent filer i egen page
                 filer = []
                 if detalj_link:
                     dp = await page.context.new_page()
