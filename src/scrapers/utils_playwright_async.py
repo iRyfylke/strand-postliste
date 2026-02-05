@@ -3,9 +3,8 @@
 async def safe_text(element, selector):
     """
     Robust async-versjon av safe_text:
-    - håndterer None-elementer
-    - håndterer None-selectors
-    - bruker try/except rundt alle await-kall
+    - håndterer None-elementer og None-selectors
+    - try/except rundt alle await-kall
     - returnerer alltid en ren string
     """
     if element is None or not selector:
@@ -25,12 +24,11 @@ async def safe_text(element, selector):
         return ""
 
 
-async def safe_goto(page, url, retries=3, timeout=10000):
+async def safe_goto(page, url, retries=3, timeout=10_000):
     """
-    Robust async-versjon av safe_goto:
+    Robust async-versjon av goto:
     - retry ved feil
     - kort ventetid mellom forsøk
-    - eksplisitt logging
     - returnerer False hvis alle forsøk feiler
     """
     if not url:
@@ -43,9 +41,8 @@ async def safe_goto(page, url, retries=3, timeout=10000):
             return True
 
         except Exception as e:
-            print(f"[WARN] safe_goto feilet (forsøk {attempt}/{retries}) mot {url}: {e}")
+            print(f"[WARN] safe_goto feilet ({attempt}/{retries}) mot {url}: {e}")
 
-            # Kort pause før nytt forsøk
             try:
                 await page.wait_for_timeout(200 + attempt * 100)
             except Exception:
