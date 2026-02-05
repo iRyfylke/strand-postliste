@@ -8,6 +8,16 @@ on:
         required: true
         type: string
 
+      start_page:
+        description: "Start page (eldste side for året)"
+        required: true
+        type: string
+
+      max_pages:
+        description: "Max page (nyeste side for året)"
+        required: true
+        type: string
+
 permissions:
   contents: write
 
@@ -17,20 +27,23 @@ concurrency:
 
 jobs:
 
-  # -------------------------
+  # ---------------------------------------------------------
   # SETUP (felles for alle kvartaler)
-  # -------------------------
+  # ---------------------------------------------------------
   setup:
     runs-on: ubuntu-latest
     outputs:
       year: ${{ github.event.inputs.year }}
+      start_page: ${{ github.event.inputs.start_page }}
+      max_pages: ${{ github.event.inputs.max_pages }}
 
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Sett opp Python
+      - &setup_python
+        name: Sett opp Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
@@ -42,15 +55,17 @@ jobs:
           path: ~/.cache/ms-playwright
           key: playwright-${{ runner.os }}-v1
 
-      - name: Installer Playwright + dependencies
+      - &install_playwright
+        name: Installer Playwright + dependencies
         run: |
           python -m pip install --upgrade pip
           pip install playwright beautifulsoup4 jq
           playwright install chromium
 
-  # -------------------------
+
+  # ---------------------------------------------------------
   # KVARTALSMAL (Q1–Q4)
-  # -------------------------
+  # ---------------------------------------------------------
 
   scrape_Q1:
     runs-on: ubuntu-latest
@@ -59,17 +74,24 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Installer Playwright + dependencies (cache brukes)
+      - *setup_python
+      - *install_playwright
+
+      - &write_config
+        name: Skriv config_fullscrape.json
         run: |
-          python -m pip install --upgrade pip
-          pip install playwright beautifulsoup4 jq
-          playwright install chromium
+          mkdir -p src/config
+          printf '{\n  "start_page": %s,\n  "max_pages": %s,\n  "per_page": 100\n}\n' \
+            "${{ needs.setup.outputs.start_page }}" \
+            "${{ needs.setup.outputs.max_pages }}" \
+            > src/config/config_fullscrape.json
 
       - name: Kjør Q1-scrape
         working-directory: src/scrapers
         run: |
           python scraper_dates.py \
             --mode full \
+            --config ../config/config_fullscrape.json \
             "01.01.${{ needs.setup.outputs.year }}" \
             "31.03.${{ needs.setup.outputs.year }}"
 
@@ -87,24 +109,23 @@ jobs:
           path: data/archive_new/failed_pages_${{ needs.setup.outputs.year }}.json
           if-no-files-found: ignore
 
+
   scrape_Q2:
     runs-on: ubuntu-latest
     needs: setup
 
     steps:
       - uses: actions/checkout@v4
-
-      - name: Installer Playwright + dependencies (cache brukes)
-        run: |
-          python -m pip install --upgrade pip
-          pip install playwright beautifulsoup4 jq
-          playwright install chromium
+      - *setup_python
+      - *install_playwright
+      - *write_config
 
       - name: Kjør Q2-scrape
         working-directory: src/scrapers
         run: |
           python scraper_dates.py \
             --mode full \
+            --config ../config/config_fullscrape.json \
             "01.04.${{ needs.setup.outputs.year }}" \
             "30.06.${{ needs.setup.outputs.year }}"
 
@@ -122,24 +143,23 @@ jobs:
           path: data/archive_new/failed_pages_${{ needs.setup.outputs.year }}.json
           if-no-files-found: ignore
 
+
   scrape_Q3:
     runs-on: ubuntu-latest
     needs: setup
 
     steps:
       - uses: actions/checkout@v4
-
-      - name: Installer Playwright + dependencies (cache brukes)
-        run: |
-          python -m pip install --upgrade pip
-          pip install playwright beautifulsoup4 jq
-          playwright install chromium
+      - *setup_python
+      - *install_playwright
+      - *write_config
 
       - name: Kjør Q3-scrape
         working-directory: src/scrapers
         run: |
           python scraper_dates.py \
             --mode full \
+            --config ../config/config_fullscrape.json \
             "01.07.${{ needs.setup.outputs.year }}" \
             "30.09.${{ needs.setup.outputs.year }}"
 
@@ -157,24 +177,23 @@ jobs:
           path: data/archive_new/failed_pages_${{ needs.setup.outputs.year }}.json
           if-no-files-found: ignore
 
+
   scrape_Q4:
     runs-on: ubuntu-latest
     needs: setup
 
     steps:
       - uses: actions/checkout@v4
-
-      - name: Installer Playwright + dependencies (cache brukes)
-        run: |
-          python -m pip install --upgrade pip
-          pip install playwright beautifulsoup4 jq
-          playwright install chromium
+      - *setup_python
+      - *install_playwright
+      - *write_config
 
       - name: Kjør Q4-scrape
         working-directory: src/scrapers
         run: |
           python scraper_dates.py \
             --mode full \
+            --config ../config/config_fullscrape.json \
             "01.10.${{ needs.setup.outputs.year }}" \
             "31.12.${{ needs.setup.outputs.year }}"
 
@@ -192,9 +211,10 @@ jobs:
           path: data/archive_new/failed_pages_${{ needs.setup.outputs.year }}.json
           if-no-files-found: ignore
 
-  # -------------------------
+
+  # ---------------------------------------------------------
   # MERGE & COMMIT (kun archive/)
-  # -------------------------
+  # ---------------------------------------------------------
   merge_and_commit:
     runs-on: ubuntu-latest
     needs: [scrape_Q1, scrape_Q2, scrape_Q3, scrape_Q4]
@@ -226,17 +246,14 @@ jobs:
           if [ -z "$FILES" ]; then
             echo "Ingen failed_pages-filer funnet for ${YEAR}. Hopper over merge."
           else
-            echo "Slår sammen failed_pages-filer for ${YEAR}:"
-            echo "$FILES"
-
             jq -s 'add | unique | sort' $FILES > data/archive_new/failed_pages_${YEAR}.json
-            echo "Ferdig generert data/archive_new/failed_pages_${YEAR}.json"
           fi
 
       - name: Arkiver kvartalsfiler
         run: |
-          mkdir -p data/archive_new
           YEAR="${{ github.event.inputs.year }}"
+          mkdir -p data/archive_new
+
           cp artifacts/fullscrape-Q1/postliste_filtered.json data/archive_new/postliste_${YEAR}_Q1.json
           cp artifacts/fullscrape-Q2/postliste_filtered.json data/archive_new/postliste_${YEAR}_Q2.json
           cp artifacts/fullscrape-Q3/postliste_filtered.json data/archive_new/postliste_${YEAR}_Q3.json
@@ -260,9 +277,10 @@ jobs:
           git pull --rebase origin main || true
           git push origin main || true
 
-  # -------------------------
+
+  # ---------------------------------------------------------
   # LAG FULL ÅRSFIL
-  # -------------------------
+  # ---------------------------------------------------------
   merge_full_year:
     runs-on: ubuntu-latest
     needs: merge_and_commit
