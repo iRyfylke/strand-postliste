@@ -10,7 +10,7 @@ from utils_dates import parse_date_from_page, within_range, parse_cli_date
 from utils_files import (
     ensure_directories,
     load_config,
-    merge_and_save_sharded,
+    merge_and_save_sharded_to_folder,
     atomic_write,
 )
 from scraper_core_async import hent_side_async
@@ -235,7 +235,7 @@ async def run_scrape_async(start_date=None, end_date=None, config_path=DEFAULT_C
     if mode == "publish":
         from utils_files import load_all_postliste
         existing_dict, _ = load_all_postliste()
-        merge_and_save_sharded(existing_dict, all_docs)
+        merge_and_save_sharded_to_folder(existing_dict, all_docs)
         print("[INFO] Oppdatert shard-basert hoveddatasett.")
     else:
         print("[INFO] FULL-modus: Oppdaterer ikke hoveddatasettet")
