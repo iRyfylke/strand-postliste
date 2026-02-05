@@ -1,14 +1,19 @@
 from playwright.async_api import async_playwright
 
+
 async def create_playwright_context(block_resources=False):
     """
-    Oppretter Playwright browser + context med stealth-mode og ekte fingerprint.
+    Oppretter Playwright browser + context med:
+      - ekte user-agent
+      - norsk språk og tidssone
+      - stealth-patches (anti-bot)
+      - valgfri ressursblokkering
+
     Returnerer (p, browser, context).
     """
 
     p = await async_playwright().start()
 
-    # Ekte Chrome user-agent (Windows 10, norsk)
     USER_AGENT = (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
         "AppleWebKit/537.36 (KHTML, like Gecko) "
@@ -53,27 +58,18 @@ async def create_playwright_context(block_resources=False):
     # STEALTH PATCHES (anti-bot)
     # ---------------------------------------------------------
     await context.add_init_script("""
-        // Skjul webdriver-flagget
-        Object.defineProperty(navigator, 'webdriver', {
-            get: () => false,
-        });
+        Object.defineProperty(navigator, 'webdriver', { get: () => false });
 
-        // Fake plugins
         Object.defineProperty(navigator, 'plugins', {
             get: () => [1, 2, 3],
         });
 
-        // Fake languages
         Object.defineProperty(navigator, 'languages', {
             get: () => ['nb-NO', 'nb', 'en'],
         });
 
-        // Fake Chrome runtime
-        window.chrome = {
-            runtime: {},
-        };
+        window.chrome = { runtime: {} };
 
-        // Fake permissions
         const originalQuery = window.navigator.permissions.query;
         window.navigator.permissions.query = (parameters) => (
             parameters.name === 'notifications'
@@ -81,15 +77,13 @@ async def create_playwright_context(block_resources=False):
                 : originalQuery(parameters)
         );
 
-        // Fake user activation
         Object.defineProperty(navigator, 'userActivation', {
             get: () => ({ hasBeenActive: true, isActive: true }),
         });
     """)
 
     # ---------------------------------------------------------
-    # IKKE blokker bilder i stealth-mode
-    # Kommunens bot-filter reagerer på manglende ressurser
+    # RESSURS-BLOKKERING (valgfritt)
     # ---------------------------------------------------------
     if block_resources:
         async def _block(route):
