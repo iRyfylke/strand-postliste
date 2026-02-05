@@ -3,9 +3,12 @@ import random
 from utils_playwright_async import safe_text, safe_goto
 from utils_dates import parse_date_from_page, format_date
 
+# ---------------------------------------------------------
+# KORRIGERT URL (kritisk!)
+# ---------------------------------------------------------
 BASE_URL = (
     "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/"
-    "postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/"
+    "postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/"
     "?page={page}&pageSize={page_size}"
 )
 
@@ -14,18 +17,18 @@ BASE_URL = (
 # INTERNAL HELPERS
 # ---------------------------------------------------------
 async def _wait_for_content(page, page_num, timeout: int) -> bool:
-    """Ensure SPA content is loaded enough to extract articles."""
+    """Sørger for at innholdet er lastet nok til å hente artikler."""
     try:
         try:
             await page.wait_for_load_state("networkidle", timeout=timeout)
         except Exception as e:
             print(f"[WARN] Side {page_num}: networkidle feilet: {e}")
 
-        await page.wait_for_timeout(400)
+        await page.wait_for_timeout(300)
 
         try:
             await page.evaluate("window.scrollBy(0, 200)")
-            await page.wait_for_timeout(300)
+            await page.wait_for_timeout(200)
         except Exception as e:
             print(f"[WARN] Side {page_num}: scroll feilet: {e}")
 
@@ -35,11 +38,10 @@ async def _wait_for_content(page, page_num, timeout: int) -> bool:
                 timeout=timeout,
                 state="attached",
             )
+            return True
         except Exception:
             print(f"[WARN] Side {page_num}: ingen artikler funnet (selector-timeout)")
             return False
-
-        return True
 
     except Exception as e:
         print(f"[WARN] Side {page_num}: _wait_for_content feilet: {e}")
@@ -47,12 +49,8 @@ async def _wait_for_content(page, page_num, timeout: int) -> bool:
 
 
 async def _is_truly_empty_page(page, page_num) -> bool:
-    """Determine whether a page is genuinely empty (no documents)."""
+    """Avgjør om siden faktisk er tom."""
     try:
-        container = await page.query_selector("main, .bc-content, body")
-        if not container:
-            return False
-
         html = (await page.content() or "").lower()
 
         empty_markers = [
@@ -148,7 +146,7 @@ async def hent_side_async(page_num, page, per_page, retries=5, timeout=10_000):
                 if detalj_link:
                     try:
                         if await safe_goto(page, detalj_link, retries=1, timeout=timeout):
-                            await page.wait_for_timeout(150)
+                            await page.wait_for_timeout(120)
 
                             for fl in await page.query_selector_all("a"):
                                 href = await fl.get_attribute("href")
@@ -166,7 +164,7 @@ async def hent_side_async(page_num, page, per_page, retries=5, timeout=10_000):
 
                     finally:
                         await safe_goto(page, url, retries=1, timeout=timeout)
-                        await page.wait_for_timeout(80)
+                        await page.wait_for_timeout(60)
 
                 status = "Publisert" if filer else "Må bes om innsyn"
 
