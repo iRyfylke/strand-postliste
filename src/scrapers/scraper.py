@@ -1,5 +1,4 @@
 from playwright.sync_api import sync_playwright
-from datetime import datetime, date
 from pathlib import Path
 
 from utils_files import (
@@ -14,7 +13,7 @@ from utils_files import (
 from scraper_core_incremental import hent_side_incremental
 from scraper_changes import detect_changes, build_change_entry
 
-# Absolutt path til config
+
 CONFIG_FILE = Path(__file__).resolve().parent.parent / "config" / "config.json"
 
 
@@ -29,11 +28,11 @@ def main():
 
     print(f"[INFO] Modus: {mode}, max_pages: {max_pages}")
 
-    # Last ALLE shards fra data/shards/
-    existing_dict, existing_list = load_all_postliste_from_shards()
+    # Last eksisterende data
+    existing_dict, _ = load_all_postliste_from_shards()
     updated = dict(existing_dict)
 
-    # Last changes fra data/changes/
+    # Last changes
     changes = load_changes_sharded()
 
     with sync_playwright() as p:
@@ -62,7 +61,7 @@ def main():
 
                 updated[doc_id] = d
 
-            # Incremental stop condition
+            # Stopper når hele siden er kjent
             known = sum(1 for d in docs if d["dokumentID"] in existing_dict)
             if known == len(docs):
                 print("[INFO] Incremental: alle dokumenter på denne siden er kjente. Stopper.")
@@ -70,17 +69,17 @@ def main():
 
         browser.close()
 
-    # Lagre shards i data/shards/
+    # Lagre shards
     merge_and_save_sharded_to_folder(
         existing_dict,
         list(updated.values()),
         folder="data/shards"
     )
 
-    # Lagre changes i data/changes/
+    # Lagre changes
     save_changes_sharded(changes, folder="data/changes")
 
-    print(f"[INFO] Incremental scraper ferdig.")
+    print("[INFO] Incremental scraper ferdig.")
 
 
 if __name__ == "__main__":
