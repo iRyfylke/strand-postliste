@@ -1,21 +1,26 @@
-import os
 import json
 from datetime import datetime, date
 from pathlib import Path
 
-# Rot for datafiler (repo root)
+# ---------------------------------------------------------
+# PATHS
+# ---------------------------------------------------------
 ROOT = Path(__file__).resolve().parent.parent.parent
 DATA_DIR = ROOT / "data"
+ARCHIVE_DIR = DATA_DIR / "archive_new"
+SHARDS_DIR = DATA_DIR / "shards"
+CHANGES_DIR = DATA_DIR / "changes"
 
-# Endringslogg
-CHANGES_FILE = DATA_DIR / "changes.json"
-
-# Sharding-konfig
-SHARD_PREFIX = "postliste_"
 SHARD_INDEX_FILE = DATA_DIR / "postliste_index.json"
-SHARD_MAX_BYTES = 50 * 1024 * 1024  # 50 MB margin mot GitHubs 100 MB-grense
+CHANGES_INDEX_FILE = CHANGES_DIR / "changes_index.json"
+
+SHARD_PREFIX = "postliste_"
+SHARD_MAX_BYTES = 50 * 1024 * 1024  # 50 MB margin mot GitHub 100 MB-grense
 
 
+# ---------------------------------------------------------
+# GENERELLE HJELPERE
+# ---------------------------------------------------------
 def ensure_directories():
     DATA_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -45,10 +50,9 @@ def atomic_write(path, data):
     tmp.replace(path)
 
 
-# =========================================================
-#   SHARD-LESING (data/shards/)
-# =========================================================
-
+# ---------------------------------------------------------
+# SHARD-LESING
+# ---------------------------------------------------------
 def load_all_postliste_from_shards(folder="data/shards"):
     folder = (ROOT / folder).resolve()
     folder.mkdir(parents=True, exist_ok=True)
@@ -82,10 +86,9 @@ def load_all_postliste_from_shards(folder="data/shards"):
     return merged, all_list
 
 
-# =========================================================
-#   SHARD-SKRIVING (data/shards/)
-# =========================================================
-
+# ---------------------------------------------------------
+# SHARD-SKRIVING
+# ---------------------------------------------------------
 def merge_and_save_sharded_to_folder(existing_dict, new_docs, folder="data/shards"):
     folder = (ROOT / folder).resolve()
     folder.mkdir(parents=True, exist_ok=True)
@@ -109,8 +112,7 @@ def save_postliste_sharded_to_folder(all_docs, folder):
             try:
                 if key == "dato_iso":
                     return datetime.fromisoformat(v).date()
-                else:
-                    return datetime.strptime(v, "%d.%m.%Y").date()
+                return datetime.strptime(v, "%d.%m.%Y").date()
             except Exception:
                 continue
         return date.min
@@ -143,10 +145,9 @@ def save_postliste_sharded_to_folder(all_docs, folder):
     print(f"[INFO] Skrev {len(shards)} shards til {folder}")
 
 
-# =========================================================
-#   CHANGES (data/changes/)
-# =========================================================
-
+# ---------------------------------------------------------
+# CHANGES (sharded)
+# ---------------------------------------------------------
 def load_changes_sharded(folder="data/changes"):
     folder = (ROOT / folder).resolve()
     folder.mkdir(parents=True, exist_ok=True)
