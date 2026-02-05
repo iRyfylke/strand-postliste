@@ -374406,5 +374406,101 @@
         "ny": 1
       }
     }
+  },
+  {
+    "tidspunkt": "2026-02-05 07:13:24",
+    "type": "UPDATE",
+    "dokumentID": "2026/4061",
+    "tittel": "Møteprotokoll - Eldrerådet - 29.01.2026",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 07:13:24",
+    "type": "UPDATE",
+    "dokumentID": "2026/3640",
+    "tittel": "18/44 Ber om utsettelse på frist - næringsbygg - Kvammavegen 1 - Agera Eiendom AS",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 07:13:24",
+    "type": "UPDATE",
+    "dokumentID": "2026/3583",
+    "tittel": "11/26 Søknad om endring av gitt tillatelse - naust - Kjølevikvegen 31 og 33 - Lars Ragnvald Svendsen",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 12
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 07:13:24",
+    "type": "UPDATE",
+    "dokumentID": "2026/3628",
+    "tittel": "Innkalling - Kommunestyret - 11.02.2026",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 07:13:24",
+    "type": "UPDATE",
+    "dokumentID": "2026/3472",
+    "tittel": "43/385 Dokumentsjekk - ikke behov for mangelbrev",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 07:13:24",
+    "type": "UPDATE",
+    "dokumentID": "2026/3893",
+    "tittel": "Møteprotokoll - Rådet for mennesker med nedsatt funksjonsevne - 28.01.2026",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
   }
 ]
