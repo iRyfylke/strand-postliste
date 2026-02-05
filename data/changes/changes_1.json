@@ -374502,5 +374502,5813 @@
         "ny": 1
       }
     }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/4547",
+    "tittel": "Møteprotokoll - Levekårsutvalget - 04.02.2026",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Møteprotokoll - Levekårsutvalget - 04.02.2026"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Møteprotokoll"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019703!Ce3hAb/d-6965376f__8677__47ea__a757__23e14c179149-2020259334!jVnTcD"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "04.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-04"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/4537",
+    "tittel": "Møteprotokoll - Forvaltningsutvalget - 04.02.2026",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Møteprotokoll - Forvaltningsutvalget - 04.02.2026"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Møteprotokoll"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019807!xlpCk3/d-6965376f__8677__47ea__a757__23e14c179149-2020259324!km8ic1"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "04.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-04"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/4538",
+    "tittel": "Møtebok - Forvaltningsutvalget - 04.02.2026",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Møtebok - Forvaltningsutvalget - 04.02.2026"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Møtebok"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019807!xlpCk3/d-6965376f__8677__47ea__a757__23e14c179149-2020259325!Funu8P"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "04.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-04"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/4548",
+    "tittel": "Møtebok - Levekårsutvalget - 04.02.2026",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Møtebok - Levekårsutvalget - 04.02.2026"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Møtebok"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019703!Ce3hAb/d-6965376f__8677__47ea__a757__23e14c179149-2020259335!Dh209q"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "04.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-04"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/4039",
+    "tittel": "49/736 Spørsmål vedrørende søknadsarbeid - Vågabakken 26",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "49/736 Spørsmål vedrørende søknadsarbeid - Vågabakken 26"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Avsender: Rycon As"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019926!w2yHxB/d-6965376f__8677__47ea__a757__23e14c179149-2020258826!YUd9at"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3954",
+    "tittel": "Bekreftelse på mottatt søknad - Sommervikar heldøgnstjenesten - omsorg",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Bekreftelse på mottatt søknad - Sommervikar heldøgnstjenesten - omsorg"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019618!EFWNlq/d-6965376f__8677__47ea__a757__23e14c179149-2020258741!9E2hgj"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3471",
+    "tittel": "Svar på innsynsbegjæring",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Svar på innsynsbegjæring"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Mottaker: Thomas Espevik"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019694!KgcO8a/d-6965376f__8677__47ea__a757__23e14c179149-2020258258!WBYERm"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3979",
+    "tittel": "Søknad - avdelingsleder - Jørpeland ungdomsskole",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Søknad - avdelingsleder - Jørpeland ungdomsskole"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019779!PPIgQ1/d-6965376f__8677__47ea__a757__23e14c179149-2020258766!YfvKtQ"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3974",
+    "tittel": "Søknad - sommervikar miljøtjenesten - omsorg",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Søknad - sommervikar miljøtjenesten - omsorg"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019620!lUOIew/d-6965376f__8677__47ea__a757__23e14c179149-2020258761!MBSGNK"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/4033",
+    "tittel": "Kommentarer til mottatt brev",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Kommentarer til mottatt brev"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020007521!sKB3BZ/d-6965376f__8677__47ea__a757__23e14c179149-2020258820!izE7PJ"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/4136",
+    "tittel": "Søknad om barnehageplass",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Søknad om barnehageplass"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Avsender: Fridrik Hilmar Zimsen Fridriksson"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019666!JTvk2e/d-6965376f__8677__47ea__a757__23e14c179149-2020258923!d6StoF"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3514",
+    "tittel": "Purring på manglende søknad - endring av frisbeegolfbane ved Refsvatnet",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Purring på manglende søknad - endring av frisbeegolfbane ved Refsvatnet"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Mottaker: Norwegian Experience As"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020002408!TQSw7X/d-6965376f__8677__47ea__a757__23e14c179149-2020258301!zkSYTh"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 18
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/4133",
+    "tittel": "Oppsigelse av plass i SFO",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Oppsigelse av plass i SFO"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Avsender: Bente Røer-Tungland"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019671!kbTEbr/d-6965376f__8677__47ea__a757__23e14c179149-2020258920!OLfvMN"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3967",
+    "tittel": "Bekreftelse på mottatt søknad - sommervikar hjemmetjenesten - omsorg",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Bekreftelse på mottatt søknad - sommervikar hjemmetjenesten - omsorg"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019619!MWql5q/d-6965376f__8677__47ea__a757__23e14c179149-2020258754!7l5Rp5"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3926",
+    "tittel": "Bekreftelse på mottatt søknad - sommervikar hjemmetjenesten - omsorg",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Bekreftelse på mottatt søknad - sommervikar hjemmetjenesten - omsorg"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019619!MWql5q/d-6965376f__8677__47ea__a757__23e14c179149-2020258713!vtAubV"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3505",
+    "tittel": "Svar på henvendelse angående endring av frisbeegolfbane ved Refsvatnet",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Svar på henvendelse angående endring av frisbeegolfbane ved Refsvatnet"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Mottaker: Marianne Sandvik Tveitnes og Dag Tveitnes"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020002408!TQSw7X/d-6965376f__8677__47ea__a757__23e14c179149-2020258292!lCdxTa"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3914",
+    "tittel": "Bekreftelse på mottatt søknad - Sommervikar heldøgnstjenesten - omsorg",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Bekreftelse på mottatt søknad - Sommervikar heldøgnstjenesten - omsorg"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019618!EFWNlq/d-6965376f__8677__47ea__a757__23e14c179149-2020258701!zUn5dR"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3581",
+    "tittel": "Referat fra drøftingsmøte nedbemanning Ryfylke læringssenter",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Referat fra drøftingsmøte nedbemanning Ryfylke læringssenter"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019766!IrJ3pD/d-6965376f__8677__47ea__a757__23e14c179149-2020258368!OKnjeT"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3975",
+    "tittel": "Søknad - sommervikar miljøtjenesten - omsorg",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Søknad - sommervikar miljøtjenesten - omsorg"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019620!lUOIew/d-6965376f__8677__47ea__a757__23e14c179149-2020258762!C1k9pt"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3769",
+    "tittel": "29/7 Dokumentsjekk - ikke behov for mangelbrev",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "29/7 Dokumentsjekk - ikke behov for mangelbrev"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Internt notat (X)"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019907!MFKdYo/d-6965376f__8677__47ea__a757__23e14c179149-2020258556!fmGBzc"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3920",
+    "tittel": "Søknad - sommervikar hjemmetjenesten - omsorg",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Søknad - sommervikar hjemmetjenesten - omsorg"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019619!MWql5q/d-6965376f__8677__47ea__a757__23e14c179149-2020258707!eoikGA"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3150",
+    "tittel": "Oppdragsavtale støttekontakt",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Oppdragsavtale støttekontakt"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019059!S8Rwes/d-6965376f__8677__47ea__a757__23e14c179149-2020257937!u6ZpTc"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/4003",
+    "tittel": "Melding fra leverandør - tildeling teleskopamfi til Strand kulturhus",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Melding fra leverandør - tildeling teleskopamfi til Strand kulturhus"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Avsender: Adept Collection AB"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017463!NgtJb9/d-6965376f__8677__47ea__a757__23e14c179149-2020258790!HNd1Wj"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3498",
+    "tittel": "56/11 Tilbakemelding - overnattingshytter - Preikestolvegen 511",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "56/11 Tilbakemelding - overnattingshytter - Preikestolvegen 511"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Mottaker: Elo+Sødergren Arkkitehdit Oy"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019633!MYGVbt/d-6965376f__8677__47ea__a757__23e14c179149-2020258285!mH8kxa"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3968",
+    "tittel": "Bekreftelse på mottatt søknad - sommervikar hjemmetjenesten - omsorg",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Bekreftelse på mottatt søknad - sommervikar hjemmetjenesten - omsorg"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019619!MWql5q/d-6965376f__8677__47ea__a757__23e14c179149-2020258755!ubv2CC"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3594",
+    "tittel": "107/87 Kommunen opprettholder genyrfastsettelse etter avslag for påbygg til fritidsbolig - Auklendsberget 37",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "107/87 Kommunen opprettholder genyrfastsettelse etter avslag for påbygg til fritidsbolig - Auklendsberget 37"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Mottaker: Lars-Jørgen Ruså Solvi"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020018762!fyLqt4/d-6965376f__8677__47ea__a757__23e14c179149-2020258381!5lBDBS"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 5
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3422",
+    "tittel": "9/27 Ny oppdatering status i klagesak knytt til arealoverføring fra gnr. /bnr. 9/9 til 9/54",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "9/27 Ny oppdatering status i klagesak knytt til arealoverføring fra gnr. /bnr. 9/9 til 9/54"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Mottaker: Flere mottakere"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020018722!oaky4r/d-6965376f__8677__47ea__a757__23e14c179149-2020258209!7xDD1s"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3935",
+    "tittel": "Bekreftelse på mottatt søknad - Biblioteksjef - Ryfylkebiblioteket Strand",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Bekreftelse på mottatt søknad - Biblioteksjef - Ryfylkebiblioteket Strand"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019924!5QYASA/d-6965376f__8677__47ea__a757__23e14c179149-2020258722!LBsH0B"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3907",
+    "tittel": "Bekreftelse på mottatt søknad - Vernepleier/miljøterapeut - Bøkestien omsorgsboliger",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Bekreftelse på mottatt søknad - Vernepleier/miljøterapeut - Bøkestien omsorgsboliger"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020018653!dhHb7y/d-6965376f__8677__47ea__a757__23e14c179149-2020258694!MHp36u"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3635",
+    "tittel": "Handlingsplan og budsjett 2026 partnerskapsmidler for folkehelse",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Handlingsplan og budsjett 2026 partnerskapsmidler for folkehelse"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Internt notat (X)"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020009070!cBpsIU/d-6965376f__8677__47ea__a757__23e14c179149-2020258422!LNrzMP"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3579",
+    "tittel": "31/84 Kommunens svar på henvendelser om hundepark - oppdatering",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "31/84 Kommunens svar på henvendelser om hundepark - oppdatering"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Mottaker: Ellen Hagen"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020010237!eSWF5R/d-6965376f__8677__47ea__a757__23e14c179149-2020258366!dwwgj7"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 5
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3986",
+    "tittel": "Søknad - byggeleder - Bygg og eiendom",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Søknad - byggeleder - Bygg og eiendom"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019923!KOwtGh/d-6965376f__8677__47ea__a757__23e14c179149-2020258773!s86RVo"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "UPDATE",
+    "dokumentID": "2026/4061",
+    "tittel": "Møteprotokoll - Eldrerådet - 29.01.2026",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3598",
+    "tittel": "63/1/27 Tilbakemelding om mangler - kjøring med bil til eiendom - Fiskevig 16",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "63/1/27 Tilbakemelding om mangler - kjøring med bil til eiendom - Fiskevig 16"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019654!n3cEg0/d-6965376f__8677__47ea__a757__23e14c179149-2020258385!lkHwg9"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3977",
+    "tittel": "Bekreftelse på mottatt søknad - avdelingsleder - Jørpeland ungdomsskole",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Bekreftelse på mottatt søknad - avdelingsleder - Jørpeland ungdomsskole"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019779!PPIgQ1/d-6965376f__8677__47ea__a757__23e14c179149-2020258764!nle3yM"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/4023",
+    "tittel": "Søknad om barnehageplass",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Søknad om barnehageplass"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Avsender: Ine Sørskår"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019666!JTvk2e/d-6965376f__8677__47ea__a757__23e14c179149-2020258810!HZKcMD"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3972",
+    "tittel": "Bekreftelse på mottatt søknad - sommervikar miljøtjenesten - omsorg",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Bekreftelse på mottatt søknad - sommervikar miljøtjenesten - omsorg"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019620!lUOIew/d-6965376f__8677__47ea__a757__23e14c179149-2020258759!irkZaz"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3946",
+    "tittel": "Svar på referat etter befaring - tillatelse til tiltak - bolig - Ryfylkevegen 2654 - Magne Hjorteland",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Svar på referat etter befaring - tillatelse til tiltak - bolig - Ryfylkevegen 2654 - Magne Hjorteland"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Mottaker: Din Byggtjeneste As"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2019001756!t7C28J/d-6965376f__8677__47ea__a757__23e14c179149-2020258733!4DDbnU"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3989",
+    "tittel": "Bekreftelse på mottatt søknad - Biblioteksjef - Ryfylkebiblioteket Strand",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Bekreftelse på mottatt søknad - Biblioteksjef - Ryfylkebiblioteket Strand"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019924!5QYASA/d-6965376f__8677__47ea__a757__23e14c179149-2020258776!aWbObP"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3961",
+    "tittel": "Søknad - sommervikar hjemmetjenesten - omsorg",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Søknad - sommervikar hjemmetjenesten - omsorg"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019619!MWql5q/d-6965376f__8677__47ea__a757__23e14c179149-2020258748!HWLOpO"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3906",
+    "tittel": "Søknad - Vernepleier/miljøterapeut - Bøkestien omsorgsboliger",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Søknad - Vernepleier/miljøterapeut - Bøkestien omsorgsboliger"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020018653!dhHb7y/d-6965376f__8677__47ea__a757__23e14c179149-2020258693!xrlliG"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3898",
+    "tittel": "Nytt kulturhus - lyd og akutstikk",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Nytt kulturhus - lyd og akutstikk"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Mottaker: Hørselforbundet Strand"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020010444!dl6YGO/d-6965376f__8677__47ea__a757__23e14c179149-2020258685!70e2uk"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3956",
+    "tittel": "Bekreftelse på mottatt søknad - Sommervikar heldøgnstjenesten - omsorg",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Bekreftelse på mottatt søknad - Sommervikar heldøgnstjenesten - omsorg"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019618!EFWNlq/d-6965376f__8677__47ea__a757__23e14c179149-2020258743!IednfT"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3959",
+    "tittel": "Søknad - sommervikar hjemmetjenesten - omsorg",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Søknad - sommervikar hjemmetjenesten - omsorg"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019619!MWql5q/d-6965376f__8677__47ea__a757__23e14c179149-2020258746!bZhO0x"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3973",
+    "tittel": "Bekreftelse på mottatt søknad - sommervikar miljøtjenesten - omsorg",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Bekreftelse på mottatt søknad - sommervikar miljøtjenesten - omsorg"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019620!lUOIew/d-6965376f__8677__47ea__a757__23e14c179149-2020258760!a1ugcm"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/4132",
+    "tittel": "Søknad om barnehageplass",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Søknad om barnehageplass"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Avsender: Malin Byberg"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019666!JTvk2e/d-6965376f__8677__47ea__a757__23e14c179149-2020258919!WIBItx"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3932",
+    "tittel": "Bekreftelse på mottatt søknad - sommervikar miljøtjenesten - omsorg",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Bekreftelse på mottatt søknad - sommervikar miljøtjenesten - omsorg"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019620!lUOIew/d-6965376f__8677__47ea__a757__23e14c179149-2020258719!D2aAey"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3904",
+    "tittel": "Søknad - Vernepleier/sykepleier - Langelandsmoen omsorgsboliger",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Søknad - Vernepleier/sykepleier - Langelandsmoen omsorgsboliger"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020018528!2kBybP/d-6965376f__8677__47ea__a757__23e14c179149-2020258691!NoGQmE"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3942",
+    "tittel": "Plan 1130201711 Trekking av innsigelse",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Plan 1130201711 Trekking av innsigelse"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Avsender: Statsforvaltaren i Rogaland"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2017002188!bOO8xl/d-6965376f__8677__47ea__a757__23e14c179149-2020258729!r8z5ai"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3960",
+    "tittel": "Søknad - sommervikar hjemmetjenesten - omsorg",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Søknad - sommervikar hjemmetjenesten - omsorg"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019619!MWql5q/d-6965376f__8677__47ea__a757__23e14c179149-2020258747!wewB3N"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3896",
+    "tittel": "Innkjøp av teleskopamfi 2. gangs utlysning",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Innkjøp av teleskopamfi 2. gangs utlysning"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017463!NgtJb9/d-6965376f__8677__47ea__a757__23e14c179149-2020258683!EWtpuS"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3923",
+    "tittel": "Bekreftelse på mottatt søknad - sommervikar hjemmetjenesten - omsorg",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Bekreftelse på mottatt søknad - sommervikar hjemmetjenesten - omsorg"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019619!MWql5q/d-6965376f__8677__47ea__a757__23e14c179149-2020258710!eA4A4e"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3965",
+    "tittel": "Bekreftelse på mottatt søknad - sommervikar hjemmetjenesten - omsorg",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Bekreftelse på mottatt søknad - sommervikar hjemmetjenesten - omsorg"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019619!MWql5q/d-6965376f__8677__47ea__a757__23e14c179149-2020258752!jDHn1Q"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3945",
+    "tittel": "Kort referat etter befaring - tillatelse til tiltak - bolig - Ryfylkevegen 2654 - Magne Hjorteland",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Kort referat etter befaring - tillatelse til tiltak - bolig - Ryfylkevegen 2654 - Magne Hjorteland"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Avsender: Din Byggtjeneste As"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2019001756!t7C28J/d-6965376f__8677__47ea__a757__23e14c179149-2020258732!o5DiGA"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 2
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3924",
+    "tittel": "Bekreftelse på mottatt søknad - sommervikar hjemmetjenesten - omsorg",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Bekreftelse på mottatt søknad - sommervikar hjemmetjenesten - omsorg"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019619!MWql5q/d-6965376f__8677__47ea__a757__23e14c179149-2020258711!qkR4iv"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3917",
+    "tittel": "Søknad - Sommervikar heldøgnstjenesten - omsorg",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Søknad - Sommervikar heldøgnstjenesten - omsorg"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019618!EFWNlq/d-6965376f__8677__47ea__a757__23e14c179149-2020258704!52wmUK"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/4077",
+    "tittel": "Søknad om barnehageplass",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Søknad om barnehageplass"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Avsender: Sanne Aske Fredriksen"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019666!JTvk2e/d-6965376f__8677__47ea__a757__23e14c179149-2020258864!WLPuR3"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/4027",
+    "tittel": "Saksdokumentasjon til representantskapsmøte 05.02.2026",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Saksdokumentasjon til representantskapsmøte 05.02.2026"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Avsender: Ryfylke It-Samarbeid Kommunalt Oppgavefellesskap"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020014643!3JVPms/d-6965376f__8677__47ea__a757__23e14c179149-2020258814!AP25Vy"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3955",
+    "tittel": "Bekreftelse på mottatt søknad - Sommervikar heldøgnstjenesten - omsorg",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Bekreftelse på mottatt søknad - Sommervikar heldøgnstjenesten - omsorg"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019618!EFWNlq/d-6965376f__8677__47ea__a757__23e14c179149-2020258742!FDGoqL"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3913",
+    "tittel": "Bekreftelse på mottatt søknad - Sommervikar heldøgnstjenesten - omsorg",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Bekreftelse på mottatt søknad - Sommervikar heldøgnstjenesten - omsorg"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019618!EFWNlq/d-6965376f__8677__47ea__a757__23e14c179149-2020258700!NgxpE4"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3962",
+    "tittel": "Søknad - sommervikar hjemmetjenesten - omsorg",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Søknad - sommervikar hjemmetjenesten - omsorg"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019619!MWql5q/d-6965376f__8677__47ea__a757__23e14c179149-2020258749!eiPBew"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3933",
+    "tittel": "Bekreftelse på mottatt søknad - sommervikar miljøtjenesten - omsorg",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Bekreftelse på mottatt søknad - sommervikar miljøtjenesten - omsorg"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019620!lUOIew/d-6965376f__8677__47ea__a757__23e14c179149-2020258720!IkbcM1"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3983",
+    "tittel": "Søknad - logoped - PPT",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Søknad - logoped - PPT"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019920!YIHMVN/d-6965376f__8677__47ea__a757__23e14c179149-2020258770!pWfy6k"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3620",
+    "tittel": "Høringssvar fra Strand eldreråd - priser og retningslinjer Strand kulturhus",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Høringssvar fra Strand eldreråd - priser og retningslinjer Strand kulturhus"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Internt notat (N)"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016770!mU1hIL/d-6965376f__8677__47ea__a757__23e14c179149-2020258407!2JmU72"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3293",
+    "tittel": "Tilbakemelding vedrørende henvendelse om videre prosess og premisser for arbeidet med områdeplan",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Tilbakemelding vedrørende henvendelse om videre prosess og premisser for arbeidet med områdeplan"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Mottaker: Preikestolen Fjellstue Eiendom As"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017311!xs9UuC/d-6965376f__8677__47ea__a757__23e14c179149-2020258080!lwHvfl"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3929",
+    "tittel": "Søknad - sommervikar miljøtjenesten - omsorg",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Søknad - sommervikar miljøtjenesten - omsorg"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019620!lUOIew/d-6965376f__8677__47ea__a757__23e14c179149-2020258716!jJjWRk"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3931",
+    "tittel": "Bekreftelse på mottatt søknad - sommervikar miljøtjenesten - omsorg",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Bekreftelse på mottatt søknad - sommervikar miljøtjenesten - omsorg"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019620!lUOIew/d-6965376f__8677__47ea__a757__23e14c179149-2020258718!5KtX9C"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3949",
+    "tittel": "Søknad - Sommervikar heldøgnstjenesten - omsorg",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Søknad - Sommervikar heldøgnstjenesten - omsorg"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019618!EFWNlq/d-6965376f__8677__47ea__a757__23e14c179149-2020258736!vktu3b"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3990",
+    "tittel": "Søknad om barnehageplass",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Søknad om barnehageplass"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Avsender: Agnieszka Elwira Antas"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019666!JTvk2e/d-6965376f__8677__47ea__a757__23e14c179149-2020258777!GMUPyq"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3991",
+    "tittel": "31/581 Reviderte tegninger - Prestetjørnvegen 4",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "31/581 Reviderte tegninger - Prestetjørnvegen 4"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Avsender: Agde Arkitektur As"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017056!NwKZrO/d-6965376f__8677__47ea__a757__23e14c179149-2020258778!ztqTtA"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 7
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3958",
+    "tittel": "Bekreftelse på mottatt søknad - Sommervikar heldøgnstjenesten - omsorg",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Bekreftelse på mottatt søknad - Sommervikar heldøgnstjenesten - omsorg"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019618!EFWNlq/d-6965376f__8677__47ea__a757__23e14c179149-2020258745!TMQjzo"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3963",
+    "tittel": "Søknad - sommervikar hjemmetjenesten - omsorg",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Søknad - sommervikar hjemmetjenesten - omsorg"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019619!MWql5q/d-6965376f__8677__47ea__a757__23e14c179149-2020258750!BhB6R9"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3948",
+    "tittel": "Søknad - Sommervikar heldøgnstjenesten - omsorg",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Søknad - Sommervikar heldøgnstjenesten - omsorg"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019618!EFWNlq/d-6965376f__8677__47ea__a757__23e14c179149-2020258735!uN4p1F"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3951",
+    "tittel": "Søknad - Sommervikar heldøgnstjenesten - omsorg",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Søknad - Sommervikar heldøgnstjenesten - omsorg"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019618!EFWNlq/d-6965376f__8677__47ea__a757__23e14c179149-2020258738!jkesNk"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3934",
+    "tittel": "Søknad - Biblioteksjef - Ryfylkebiblioteket Strand",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Søknad - Biblioteksjef - Ryfylkebiblioteket Strand"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019924!5QYASA/d-6965376f__8677__47ea__a757__23e14c179149-2020258721!G5MFLz"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3964",
+    "tittel": "Bekreftelse på mottatt søknad - sommervikar hjemmetjenesten - omsorg",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Bekreftelse på mottatt søknad - sommervikar hjemmetjenesten - omsorg"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019619!MWql5q/d-6965376f__8677__47ea__a757__23e14c179149-2020258751!Sc07NX"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/4149",
+    "tittel": "Vil du bli den nye biblioteksjefen i vårt nye bibliotek? - revisjon: 1 - Endret: 02.02.2026",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Vil du bli den nye biblioteksjefen i vårt nye bibliotek? - revisjon: 1 - Endret: 02.02.2026"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Internt notat (X)"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019688!CHZlGZ/d-6965376f__8677__47ea__a757__23e14c179149-2020258936!wpTHtx"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3947",
+    "tittel": "Søknad - Sommervikar heldøgnstjenesten - omsorg",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Søknad - Sommervikar heldøgnstjenesten - omsorg"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019618!EFWNlq/d-6965376f__8677__47ea__a757__23e14c179149-2020258734!423rrw"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3928",
+    "tittel": "Søknad - sommervikar miljøtjenesten - omsorg",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Søknad - sommervikar miljøtjenesten - omsorg"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019620!lUOIew/d-6965376f__8677__47ea__a757__23e14c179149-2020258715!ZyRwZ0"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3953",
+    "tittel": "Bekreftelse på mottatt søknad - Sommervikar heldøgnstjenesten - omsorg",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Bekreftelse på mottatt søknad - Sommervikar heldøgnstjenesten - omsorg"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019618!EFWNlq/d-6965376f__8677__47ea__a757__23e14c179149-2020258740!EHMe2X"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3966",
+    "tittel": "Bekreftelse på mottatt søknad - sommervikar hjemmetjenesten - omsorg",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Bekreftelse på mottatt søknad - sommervikar hjemmetjenesten - omsorg"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019619!MWql5q/d-6965376f__8677__47ea__a757__23e14c179149-2020258753!r05cDo"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3998",
+    "tittel": "Melding fra leverandør - Tildeling teleskopamfi til Strand kulturhus.",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Melding fra leverandør - Tildeling teleskopamfi til Strand kulturhus."
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Avsender: Adept Collection AB"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017463!NgtJb9/d-6965376f__8677__47ea__a757__23e14c179149-2020258785!pfgKAR"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2025/42179",
+    "tittel": "61/15 Tilbakemelding om mangler - riving og oppføring av ny bolig - Kvalvågvegen 907",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "61/15 Tilbakemelding om mangler - riving og oppføring av ny bolig - Kvalvågvegen 907"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Mottaker: Omega 365 Protek As"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019058!Q7UCfY/d-6965376f__8677__47ea__a757__23e14c179149-2020254445!3nJ5tZ"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/4081",
+    "tittel": "47/362 Oppfølging av byggesak - Bruksendring av kjeller - Bergflettevegen 21B - Stein Magne Bjørheim",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "47/362 Oppfølging av byggesak - Bruksendring av kjeller - Bergflettevegen 21B - Stein Magne Bjørheim"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Mottaker: Trebygg Strand As"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2015001162!1d52yi/d-6965376f__8677__47ea__a757__23e14c179149-2020258868!Q2qSRD"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 3
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3613",
+    "tittel": "Invitasjon til oppstartsmøte - Kjørebergvegen 24 - bestilling av oppstartsmøte",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Invitasjon til oppstartsmøte - Kjørebergvegen 24 - bestilling av oppstartsmøte"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Mottaker: Bark Arkitekter As"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019644!Sz6MPE/d-6965376f__8677__47ea__a757__23e14c179149-2020258400!6YEkYg"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3971",
+    "tittel": "Bekreftelse på mottatt søknad - sommervikar miljøtjenesten - omsorg",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Bekreftelse på mottatt søknad - sommervikar miljøtjenesten - omsorg"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019620!lUOIew/d-6965376f__8677__47ea__a757__23e14c179149-2020258758!yWQGgh"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3582",
+    "tittel": "Oppsigelse av plass i SFO",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Oppsigelse av plass i SFO"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019671!kbTEbr/d-6965376f__8677__47ea__a757__23e14c179149-2020258369!xR2TYz"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3922",
+    "tittel": "Søknad - sommervikar hjemmetjenesten - omsorg",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Søknad - sommervikar hjemmetjenesten - omsorg"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019619!MWql5q/d-6965376f__8677__47ea__a757__23e14c179149-2020258709!XN4ThP"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/4004",
+    "tittel": "Melding til leverandør - Tildeling teleskopamfi til Strand kulturhus",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Melding til leverandør - Tildeling teleskopamfi til Strand kulturhus"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Mottaker: Adept Collection AB"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017463!NgtJb9/d-6965376f__8677__47ea__a757__23e14c179149-2020258791!D2w4lD"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3892",
+    "tittel": "49/609 Dokumentsjekk - ikke behov for mangelbrev",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "49/609 Dokumentsjekk - ikke behov for mangelbrev"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Internt notat (X)"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019644!Sz6MPE/d-6965376f__8677__47ea__a757__23e14c179149-2020258679!kOzqL8"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3957",
+    "tittel": "Bekreftelse på mottatt søknad - Sommervikar heldøgnstjenesten - omsorg",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Bekreftelse på mottatt søknad - Sommervikar heldøgnstjenesten - omsorg"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019618!EFWNlq/d-6965376f__8677__47ea__a757__23e14c179149-2020258744!pNx4Mi"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3641",
+    "tittel": "Innsynskrav - utgifter til innleid helsepersonell 2025",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Innsynskrav - utgifter til innleid helsepersonell 2025"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Mottaker: Eccera Care As"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019694!KgcO8a/d-6965376f__8677__47ea__a757__23e14c179149-2020258428!qdaPIc"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3919",
+    "tittel": "Søknad - Sommervikar heldøgnstjenesten - omsorg",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Søknad - Sommervikar heldøgnstjenesten - omsorg"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019618!EFWNlq/d-6965376f__8677__47ea__a757__23e14c179149-2020258706!65jbNj"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3978",
+    "tittel": "Bekreftelse på mottatt søknad - avdelingsleder - Jørpeland ungdomsskole",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Bekreftelse på mottatt søknad - avdelingsleder - Jørpeland ungdomsskole"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019779!PPIgQ1/d-6965376f__8677__47ea__a757__23e14c179149-2020258765!W8QYBq"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3927",
+    "tittel": "Søknad - sommervikar hjemmetjenesten - omsorg",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Søknad - sommervikar hjemmetjenesten - omsorg"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019619!MWql5q/d-6965376f__8677__47ea__a757__23e14c179149-2020258714!fo0BVh"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3897",
+    "tittel": "Midlertidig anskaffelsesprotokoll - Innkjøp av teleskopamfi 2. gangs utlysning",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Midlertidig anskaffelsesprotokoll - Innkjøp av teleskopamfi 2. gangs utlysning"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Internt notat (X)"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017463!NgtJb9/d-6965376f__8677__47ea__a757__23e14c179149-2020258684!zUJUcU"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/4135",
+    "tittel": "Søknad om barnehageplass",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Søknad om barnehageplass"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Avsender: Fridrik Hilmar Zimsen Fridriksson"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019666!JTvk2e/d-6965376f__8677__47ea__a757__23e14c179149-2020258922!sehXUs"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:12:03",
+    "type": "NEW",
+    "dokumentID": "2026/3287",
+    "tittel": "44/26 Tillatelse til tiltak - bruksendring og fasadeendring - Austbøvegen 14",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "44/26 Tillatelse til tiltak - bruksendring og fasadeendring - Austbøvegen 14"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Mottaker: Fjogstad-Hus As"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019834!DAv3Ry/d-6965376f__8677__47ea__a757__23e14c179149-2020258074!PXasrP"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:18:36",
+    "type": "NEW",
+    "dokumentID": "2026/3574",
+    "tittel": "27/10 Vedtak - Nydyrking av innmarksbeite - Bjørheimsbygd",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "27/10 Vedtak - Nydyrking av innmarksbeite - Bjørheimsbygd"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Mottaker: Torstein Melhus Barkve"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020018558!UeAzLX/d-6965376f__8677__47ea__a757__23e14c179149-2020258361!x73YRD"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:18:36",
+    "type": "NEW",
+    "dokumentID": "2026/3970",
+    "tittel": "Bekreftelse på mottatt søknad - sommervikar miljøtjenesten - omsorg",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Bekreftelse på mottatt søknad - sommervikar miljøtjenesten - omsorg"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019620!lUOIew/d-6965376f__8677__47ea__a757__23e14c179149-2020258757!GqbjYY"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:18:36",
+    "type": "NEW",
+    "dokumentID": "2026/4131",
+    "tittel": "Søknad om endring av barnehageplass",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Søknad om endring av barnehageplass"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Avsender: Elisabeth Skappel Zülow"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019667!Y4XxOQ/d-6965376f__8677__47ea__a757__23e14c179149-2020258918!nYqMhC"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:18:36",
+    "type": "NEW",
+    "dokumentID": "2026/4043",
+    "tittel": "CV",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "CV"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Avsender: Linda Jårvik"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019664!0euFvs/d-6965376f__8677__47ea__a757__23e14c179149-2020258830!3aVcjs"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:18:36",
+    "type": "NEW",
+    "dokumentID": "2026/3980",
+    "tittel": "Søknad - lærling",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Søknad - lærling"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019904!rBtDdA/d-6965376f__8677__47ea__a757__23e14c179149-2020258767!aVliOL"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:18:36",
+    "type": "NEW",
+    "dokumentID": "2026/3930",
+    "tittel": "Søknad - sommervikar miljøtjenesten - omsorg",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Søknad - sommervikar miljøtjenesten - omsorg"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019620!lUOIew/d-6965376f__8677__47ea__a757__23e14c179149-2020258717!wt1O1k"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:18:36",
+    "type": "NEW",
+    "dokumentID": "2026/3286",
+    "tittel": "Svar på purring - ber om referater",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Svar på purring - ber om referater"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020007521!sKB3BZ/d-6965376f__8677__47ea__a757__23e14c179149-2020258073!nHLF2h"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:18:36",
+    "type": "NEW",
+    "dokumentID": "2026/3905",
+    "tittel": "Bekreftelse på mottatt søknad - Vernepleier/sykepleier - Langelandsmoen omsorgsboliger",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Bekreftelse på mottatt søknad - Vernepleier/sykepleier - Langelandsmoen omsorgsboliger"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020018528!2kBybP/d-6965376f__8677__47ea__a757__23e14c179149-2020258692!24OHwq"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:18:36",
+    "type": "NEW",
+    "dokumentID": "2024/29761",
+    "tittel": "Plan 1130201908 Faktura",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Plan 1130201908 Faktura"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Internt notat (X)"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2019001196!8LBD5y/d-6965376f__8677__47ea__a757__23e14c179149-2020200259!1U8AbA"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:18:36",
+    "type": "NEW",
+    "dokumentID": "2026/3911",
+    "tittel": "Bekreftelse på mottatt søknad - Sommervikar heldøgnstjenesten - omsorg",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Bekreftelse på mottatt søknad - Sommervikar heldøgnstjenesten - omsorg"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019618!EFWNlq/d-6965376f__8677__47ea__a757__23e14c179149-2020258698!RgE1Du"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:18:36",
+    "type": "NEW",
+    "dokumentID": "2026/3603",
+    "tittel": "Kommentarer til mottatt utskrift",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Kommentarer til mottatt utskrift"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020007521!sKB3BZ/d-6965376f__8677__47ea__a757__23e14c179149-2020258390!fiULpb"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:18:36",
+    "type": "NEW",
+    "dokumentID": "2026/4012",
+    "tittel": "48/184 Søknad om tillatelse til tiltak uten ansvarsrett - tilbygg - Skogstjernevegen 10 - Sindre Aase Hølleslid",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "48/184 Søknad om tillatelse til tiltak uten ansvarsrett - tilbygg - Skogstjernevegen 10 - Sindre Aase Hølleslid"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Avsender: Sindre Aase Hølleslid"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019958!S5l8PR/d-6965376f__8677__47ea__a757__23e14c179149-2020258799!mtUz7v"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 10
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:18:36",
+    "type": "NEW",
+    "dokumentID": "2026/3885",
+    "tittel": "Signert vigselbok",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Signert vigselbok"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020018549!G9RY1Y/d-6965376f__8677__47ea__a757__23e14c179149-2020258672!QoY6Yh"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:18:36",
+    "type": "NEW",
+    "dokumentID": "2026/3616",
+    "tittel": "Søknad om tilskudd utvikling av de sosiale tjenestene i Nav kontoret",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Søknad om tilskudd utvikling av de sosiale tjenestene i Nav kontoret"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Mottaker: Statsforvaltaren i Rogaland"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020009137!lHIgL5/d-6965376f__8677__47ea__a757__23e14c179149-2020258403!RcUCnx"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:18:36",
+    "type": "NEW",
+    "dokumentID": "2026/3908",
+    "tittel": "Bekreftelse på mottatt søknad - Vernepleier/miljøterapeut - Bøkestien omsorgsboliger",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Bekreftelse på mottatt søknad - Vernepleier/miljøterapeut - Bøkestien omsorgsboliger"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020018653!dhHb7y/d-6965376f__8677__47ea__a757__23e14c179149-2020258695!RRW33k"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:18:36",
+    "type": "NEW",
+    "dokumentID": "2026/3918",
+    "tittel": "Søknad - Sommervikar heldøgnstjenesten - omsorg",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Søknad - Sommervikar heldøgnstjenesten - omsorg"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019618!EFWNlq/d-6965376f__8677__47ea__a757__23e14c179149-2020258705!XZUxOK"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:18:36",
+    "type": "NEW",
+    "dokumentID": "2026/3985",
+    "tittel": "Bekreftelse på mottatt søknad - byggeleder - Bygg og eiendom",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Bekreftelse på mottatt søknad - byggeleder - Bygg og eiendom"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019923!KOwtGh/d-6965376f__8677__47ea__a757__23e14c179149-2020258772!rIDyNu"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:18:36",
+    "type": "NEW",
+    "dokumentID": "2026/3646",
+    "tittel": "16/391 Dokumentsjekk - ikke behov for mangelbrev",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "16/391 Dokumentsjekk - ikke behov for mangelbrev"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Internt notat (X)"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019858!4wCHuN/d-6965376f__8677__47ea__a757__23e14c179149-2020258433!JIptLM"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:18:36",
+    "type": "NEW",
+    "dokumentID": "2026/3952",
+    "tittel": "Søknad - Sommervikar heldøgnstjenesten - omsorg",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Søknad - Sommervikar heldøgnstjenesten - omsorg"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019618!EFWNlq/d-6965376f__8677__47ea__a757__23e14c179149-2020258739!xCktI3"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:18:36",
+    "type": "NEW",
+    "dokumentID": "2026/4577",
+    "tittel": "Vil du bli den nye biblioteksjefen i vårt nye bibliotek? - revisjon: 5 - Endret: 04.02.2026",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Vil du bli den nye biblioteksjefen i vårt nye bibliotek? - revisjon: 5 - Endret: 04.02.2026"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Internt notat (X)"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019688!CHZlGZ/d-6965376f__8677__47ea__a757__23e14c179149-2020259364!HCSvaQ"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:18:36",
+    "type": "NEW",
+    "dokumentID": "2026/2340",
+    "tittel": "53/203 Tilbakemelding om mangler - carport - Runnane 11",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "53/203 Tilbakemelding om mangler - carport - Runnane 11"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Mottaker: Arnt Ole Angelsen"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019070!2bGjUk/d-6965376f__8677__47ea__a757__23e14c179149-2020257127!auV6rl"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:18:36",
+    "type": "NEW",
+    "dokumentID": "2026/3981",
+    "tittel": "Bekreftelse på mottatt søknad - lærling",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Bekreftelse på mottatt søknad - lærling"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019904!rBtDdA/d-6965376f__8677__47ea__a757__23e14c179149-2020258768!X6bnIq"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:18:36",
+    "type": "NEW",
+    "dokumentID": "2026/4028",
+    "tittel": "Utbetalingsvedtak av 29.01.2026",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Utbetalingsvedtak av 29.01.2026"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Avsender: Helfo"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019675!DWAmzY/d-6965376f__8677__47ea__a757__23e14c179149-2020258815!rtZZSQ"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:18:36",
+    "type": "NEW",
+    "dokumentID": "2026/3916",
+    "tittel": "Søknad - Sommervikar heldøgnstjenesten - omsorg",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Søknad - Sommervikar heldøgnstjenesten - omsorg"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019618!EFWNlq/d-6965376f__8677__47ea__a757__23e14c179149-2020258703!H6yN8f"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:18:36",
+    "type": "NEW",
+    "dokumentID": "2026/3969",
+    "tittel": "Søknad - sommervikar miljøtjenesten - omsorg",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Søknad - sommervikar miljøtjenesten - omsorg"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019620!lUOIew/d-6965376f__8677__47ea__a757__23e14c179149-2020258756!ibMHot"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:18:36",
+    "type": "NEW",
+    "dokumentID": "2026/3604",
+    "tittel": "Møte vedrørende særavtale langvakter sfs 2310 møte med hovedtillitsvalgte 27.01.2026",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Møte vedrørende særavtale langvakter sfs 2310 møte med hovedtillitsvalgte 27.01.2026"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Mottaker: Flere mottakere"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019944!UYPcjl/d-6965376f__8677__47ea__a757__23e14c179149-2020258391!mFHhcj"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:18:36",
+    "type": "NEW",
+    "dokumentID": "2026/4035",
+    "tittel": "Slitt vei og oppmerking overgang ved Jørpeland Bedehus",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Slitt vei og oppmerking overgang ved Jørpeland Bedehus"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Avsender: Bjarte"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016354!NFI4jr/d-6965376f__8677__47ea__a757__23e14c179149-2020258822!nWmG0i"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 4
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:18:36",
+    "type": "NEW",
+    "dokumentID": "2026/3909",
+    "tittel": "Søknad - Vernepleier/miljøterapeut - Bøkestien omsorgsboliger",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Søknad - Vernepleier/miljøterapeut - Bøkestien omsorgsboliger"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020018653!dhHb7y/d-6965376f__8677__47ea__a757__23e14c179149-2020258696!ycDdWG"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:18:36",
+    "type": "NEW",
+    "dokumentID": "2026/3634",
+    "tittel": "Rapportering partnerskapsmidler for folkehelse 2025",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Rapportering partnerskapsmidler for folkehelse 2025"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Internt notat (X)"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020009070!cBpsIU/d-6965376f__8677__47ea__a757__23e14c179149-2020258421!sgKM9y"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:18:36",
+    "type": "NEW",
+    "dokumentID": "2026/3950",
+    "tittel": "Søknad - Sommervikar heldøgnstjenesten - omsorg",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Søknad - Sommervikar heldøgnstjenesten - omsorg"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019618!EFWNlq/d-6965376f__8677__47ea__a757__23e14c179149-2020258737!LiPPaj"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:18:36",
+    "type": "NEW",
+    "dokumentID": "2026/4352",
+    "tittel": "Vil du bli den nye biblioteksjefen i vårt nye bibliotek? - revisjon: 5 - Endret: 03.02.2026",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Vil du bli den nye biblioteksjefen i vårt nye bibliotek? - revisjon: 5 - Endret: 03.02.2026"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Internt notat (X)"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019688!CHZlGZ/d-6965376f__8677__47ea__a757__23e14c179149-2020259139!y8j9Gs"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:18:36",
+    "type": "NEW",
+    "dokumentID": "2026/3171",
+    "tittel": "Referat fra møte i SU 06.01.2026 - Jørpeland ungdomsskole",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Referat fra møte i SU 06.01.2026 - Jørpeland ungdomsskole"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Mottaker: Flere mottakere"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2013000419!VkBOFE/d-6965376f__8677__47ea__a757__23e14c179149-2020257958!Q8fCK1"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:18:36",
+    "type": "NEW",
+    "dokumentID": "2026/3988",
+    "tittel": "Søknad - Biblioteksjef - Ryfylkebiblioteket Strand",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Søknad - Biblioteksjef - Ryfylkebiblioteket Strand"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019924!5QYASA/d-6965376f__8677__47ea__a757__23e14c179149-2020258775!UhA9DR"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:18:36",
+    "type": "NEW",
+    "dokumentID": "2026/3895",
+    "tittel": "Tildelingsvedtak - innkjøp av teleskopamfi 2. gangs utlysning",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Tildelingsvedtak - innkjøp av teleskopamfi 2. gangs utlysning"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017463!NgtJb9/d-6965376f__8677__47ea__a757__23e14c179149-2020258682!b1NvnG"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:18:36",
+    "type": "NEW",
+    "dokumentID": "2026/3587",
+    "tittel": "Signert avtale - Lekolar AS (Hovedenhet) signing",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Signert avtale - Lekolar AS (Hovedenhet) signing"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Mottaker: Lekolar As"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020011508!x0mR0j/d-6965376f__8677__47ea__a757__23e14c179149-2020258374!8ivVbu"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:18:36",
+    "type": "NEW",
+    "dokumentID": "2026/3627",
+    "tittel": "Ettersendte opplysninger til søknad",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Ettersendte opplysninger til søknad"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016846!KAUsNV/d-6965376f__8677__47ea__a757__23e14c179149-2020258414!FeBlKG"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:18:36",
+    "type": "NEW",
+    "dokumentID": "2026/3912",
+    "tittel": "Bekreftelse på mottatt søknad - Sommervikar heldøgnstjenesten - omsorg",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Bekreftelse på mottatt søknad - Sommervikar heldøgnstjenesten - omsorg"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019618!EFWNlq/d-6965376f__8677__47ea__a757__23e14c179149-2020258699!M1gUWw"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:18:36",
+    "type": "NEW",
+    "dokumentID": "2026/3987",
+    "tittel": "Søknad - byggeleder - Bygg og eiendom",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Søknad - byggeleder - Bygg og eiendom"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019923!KOwtGh/d-6965376f__8677__47ea__a757__23e14c179149-2020258774!8E0v7O"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:18:36",
+    "type": "NEW",
+    "dokumentID": "2026/3984",
+    "tittel": "Bekreftelse på mottatt søknad - byggeleder - Bygg og eiendom",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Bekreftelse på mottatt søknad - byggeleder - Bygg og eiendom"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019923!KOwtGh/d-6965376f__8677__47ea__a757__23e14c179149-2020258771!ruoryi"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:18:36",
+    "type": "NEW",
+    "dokumentID": "2026/4032",
+    "tittel": "Kommentarer til kommunens svar - spørsmål om hundepark på Jørpeland",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Kommentarer til kommunens svar - spørsmål om hundepark på Jørpeland"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Avsender: Ellen Hagen"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020010237!eSWF5R/d-6965376f__8677__47ea__a757__23e14c179149-2020258819!Bb5Zyj"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:18:36",
+    "type": "NEW",
+    "dokumentID": "2026/3976",
+    "tittel": "Søknad - avdelingsleder - Jørpeland ungdomsskole",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Søknad - avdelingsleder - Jørpeland ungdomsskole"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019779!PPIgQ1/d-6965376f__8677__47ea__a757__23e14c179149-2020258763!uJnxt9"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:18:36",
+    "type": "NEW",
+    "dokumentID": "2026/3921",
+    "tittel": "Søknad - sommervikar hjemmetjenesten - omsorg",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Søknad - sommervikar hjemmetjenesten - omsorg"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019619!MWql5q/d-6965376f__8677__47ea__a757__23e14c179149-2020258708!heAyZG"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:18:36",
+    "type": "NEW",
+    "dokumentID": "2026/3982",
+    "tittel": "Bekreftelse på mottatt søknad - logoped - PPT",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Bekreftelse på mottatt søknad - logoped - PPT"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019920!YIHMVN/d-6965376f__8677__47ea__a757__23e14c179149-2020258769!GWkLv2"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:18:36",
+    "type": "NEW",
+    "dokumentID": "2026/3915",
+    "tittel": "Søknad - Sommervikar heldøgnstjenesten - omsorg",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Søknad - Sommervikar heldøgnstjenesten - omsorg"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019618!EFWNlq/d-6965376f__8677__47ea__a757__23e14c179149-2020258702!zHCVoX"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:18:36",
+    "type": "NEW",
+    "dokumentID": "2026/3925",
+    "tittel": "Bekreftelse på mottatt søknad - sommervikar hjemmetjenesten - omsorg",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Bekreftelse på mottatt søknad - sommervikar hjemmetjenesten - omsorg"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019619!MWql5q/d-6965376f__8677__47ea__a757__23e14c179149-2020258712!fQb9wH"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:18:36",
+    "type": "NEW",
+    "dokumentID": "2026/3577",
+    "tittel": "18/13 Korrespondanse mellom kommunen og tiltakshaver om møte",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "18/13 Korrespondanse mellom kommunen og tiltakshaver om møte"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Mottaker: Daniel Jerzy Jakubow"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020015886!lWHPaE/d-6965376f__8677__47ea__a757__23e14c179149-2020258364!MuWTx8"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:18:36",
+    "type": "NEW",
+    "dokumentID": "2026/4002",
+    "tittel": "Søknad om barnehageplass",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Søknad om barnehageplass"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Avsender: Elin Norland Eie"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019666!JTvk2e/d-6965376f__8677__47ea__a757__23e14c179149-2020258789!UHkWT2"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "02.02.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-02-02"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:18:36",
+    "type": "UPDATE",
+    "dokumentID": "2026/3441",
+    "tittel": "Tilbakemelding vedrørende innspill 16/48 Ugeli - krav om innsyn i alle dokumenter knyttet til saken",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-05 14:24:58",
+    "type": "UPDATE",
+    "dokumentID": "2026/3472",
+    "tittel": "43/385 Dokumentsjekk - ikke behov for mangelbrev",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
   }
 ]
