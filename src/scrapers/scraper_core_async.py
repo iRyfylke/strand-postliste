@@ -83,7 +83,7 @@ async def hent_side_async(page_num, page, per_page, retries=5, timeout=10_000):
     """
     DOM-basert scraper:
       - Leser listevisning
-      - Går inn på detaljside
+      - Går inn på detaljside (egen page)
       - Henter filer
     """
 
@@ -141,14 +141,15 @@ async def hent_side_async(page_num, page, per_page, retries=5, timeout=10_000):
                 if detalj_link and not detalj_link.startswith("http"):
                     detalj_link = "https://www.strand.kommune.no" + detalj_link
 
-                # Hent filer
+                # Hent filer i egen page (unngå å ødelegge listevisningen)
                 filer = []
                 if detalj_link:
+                    dp = await page.context.new_page()
                     try:
-                        if await safe_goto(page, detalj_link, retries=1, timeout=timeout):
-                            await page.wait_for_timeout(120)
+                        if await safe_goto(dp, detalj_link, retries=1, timeout=timeout):
+                            await dp.wait_for_timeout(120)
 
-                            for fl in await page.query_selector_all("a"):
+                            for fl in await dp.query_selector_all("a"):
                                 href = await fl.get_attribute("href")
                                 tekst = await fl.inner_text()
 
@@ -158,13 +159,10 @@ async def hent_side_async(page_num, page, per_page, retries=5, timeout=10_000):
                                         "tekst": (tekst or "").strip(),
                                         "url": abs_url,
                                     })
-
                     except Exception as e:
                         print(f"[WARN] Klarte ikke hente filer for {dokid}: {e}")
-
                     finally:
-                        await safe_goto(page, url, retries=1, timeout=timeout)
-                        await page.wait_for_timeout(60)
+                        await dp.close()
 
                 status = "Publisert" if filer else "Må bes om innsyn"
 
