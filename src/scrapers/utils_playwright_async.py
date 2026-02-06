@@ -1,12 +1,6 @@
 # utils_playwright_async.py
 
 async def safe_text(element, selector):
-    """
-    Robust async-versjon av safe_text:
-    - håndterer None-elementer og None-selectors
-    - try/except rundt alle await-kall
-    - returnerer alltid en ren string
-    """
     if element is None or not selector:
         return ""
 
@@ -26,10 +20,10 @@ async def safe_text(element, selector):
 
 async def safe_goto(page, url, retries=3, timeout=10_000):
     """
-    Robust async-versjon av goto:
+    Forbedret versjon:
+    - bruker wait_until="networkidle" for å sikre at SPA-hydrering er ferdig
     - retry ved feil
     - kort ventetid mellom forsøk
-    - returnerer False hvis alle forsøk feiler
     """
     if not url:
         print("[ERROR] safe_goto: URL mangler")
@@ -37,7 +31,7 @@ async def safe_goto(page, url, retries=3, timeout=10_000):
 
     for attempt in range(1, retries + 1):
         try:
-            await page.goto(url, timeout=timeout, wait_until="domcontentloaded")
+            await page.goto(url, timeout=timeout, wait_until="networkidle")
             return True
 
         except Exception as e:
