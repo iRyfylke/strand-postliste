@@ -4,11 +4,11 @@ from utils_playwright_async import safe_text, safe_goto
 from utils_dates import parse_date_from_page, format_date
 
 # ---------------------------------------------------------
-# KORRIGERT URL (kritisk!)
+# LEGACY-URL (KRITISK FOR FULL DOM / 100 PR SIDE)
 # ---------------------------------------------------------
 BASE_URL = (
     "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/"
-    "postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/"
+    "postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/"
     "?page={page}&pageSize={page_size}"
 )
 
@@ -16,15 +16,15 @@ BASE_URL = (
 # ---------------------------------------------------------
 # INTERNAL HELPERS
 # ---------------------------------------------------------
-async def _wait_for_initial_content(page, page_num, timeout: int) -> bool:
-    """Sørger for at første batch med innhold er lastet."""
+async def _wait_for_content(page, page_num, timeout: int) -> bool:
+    """Sørger for at innholdet er lastet nok til å hente artikler."""
     try:
         try:
             await page.wait_for_load_state("networkidle", timeout=timeout)
         except Exception as e:
             print(f"[WARN] Side {page_num}: networkidle feilet: {e}")
 
-        # Liten ekstra pause for SPA-hydrering
+        # Liten ekstra pause for å være sikker på at alt er rendret
         await page.wait_for_timeout(300)
 
         try:
@@ -39,7 +39,7 @@ async def _wait_for_initial_content(page, page_num, timeout: int) -> bool:
             return False
 
     except Exception as e:
-        print(f"[WARN] Side {page_num}: _wait_for_initial_content feilet: {e}")
+        print(f"[WARN] Side {page_num}: _wait_for_content feilet: {e}")
         return False
 
 
@@ -69,106 +69,6 @@ async def _is_truly_empty_page(page, page_num) -> bool:
     except Exception as e:
         print(f"[WARN] Side {page_num}: _is_truly_empty_page feilet: {e}")
         return False
-
-
-async def _scroll_and_collect_list_docs(page, page_num, per_page, timeout: int):
-    """
-    Håndterer virtualisert liste:
-    - scroller gjennom siden
-    - leser artikler ved hver scroll
-    - lagrer dokumenter keyed på dokumentID (for å unngå duplikater)
-    """
-    seen_ids = set()
-    docs = []
-
-    max_scrolls = 30
-    last_seen_count = 0
-
-    for i in range(max_scrolls):
-        # Liten pause for å la DOM oppdatere seg
-        await page.wait_for_timeout(200)
-
-        artikler = await page.query_selector_all("article.bc-content-teaser--item")
-
-        if i == 0 and not artikler:
-            # Første forsøk, ingen artikler – la caller håndtere tom side
-            break
-
-        for art in artikler:
-            dokid = await safe_text(art, ".bc-content-teaser-meta-property--dokumentID dd")
-            if not dokid or dokid in seen_ids:
-                continue
-
-            seen_ids.add(dokid)
-
-            tittel = await safe_text(art, ".bc-content-teaser-title-text")
-            dato_raw = await safe_text(art, ".bc-content-teaser-meta-property--dato dd")
-            parsed = parse_date_from_page(dato_raw)
-
-            doktype = await safe_text(art, ".SakListItem_sakListItemTypeText__16759c")
-            avsender = await safe_text(art, ".bc-content-teaser-meta-property--avsender dd")
-            mottaker = await safe_text(art, ".bc-content-teaser-meta-property--mottaker dd")
-
-            am = (
-                f"Avsender: {avsender}"
-                if avsender else (f"Mottaker: {mottaker}" if mottaker else "")
-            )
-
-            detalj_link = ""
-            try:
-                link_elem = await art.evaluate_handle("node => node.closest('a')")
-                if link_elem:
-                    detalj_link = await link_elem.get_attribute("href")
-            except Exception:
-                pass
-
-            if detalj_link and not detalj_link.startswith("http"):
-                detalj_link = "https://www.strand.kommune.no" + detalj_link
-
-            docs.append({
-                "tittel": tittel,
-                "dato": format_date(parsed),
-                "dato_iso": parsed.isoformat() if parsed else None,
-                "dokumentID": dokid,
-                "dokumenttype": doktype,
-                "avsender_mottaker": am,
-                "journal_link": detalj_link,
-                # filer/status fylles inn senere
-            })
-
-        # Hvis vi har nådd per_page (typisk 100), er vi ferdige
-        if len(seen_ids) >= per_page:
-            break
-
-        # Hvis ingen nye dokumenter siden forrige runde, anta at vi er ferdige
-        if len(seen_ids) == last_seen_count:
-            # En ekstra scroll helt til bunn for sikkerhets skyld
-            try:
-                await page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
-                await page.wait_for_timeout(300)
-            except Exception as e:
-                print(f"[WARN] Side {page_num}: scrollTo bottom feilet: {e}")
-            # Sjekk én gang til
-            artikler = await page.query_selector_all("article.bc-content-teaser--item")
-            new_ids = set()
-            for art in artikler:
-                dokid = await safe_text(art, ".bc-content-teaser-meta-property--dokumentID dd")
-                if dokid and dokid not in seen_ids:
-                    new_ids.add(dokid)
-            if not new_ids:
-                break
-
-        last_seen_count = len(seen_ids)
-
-        # Scroll videre nedover
-        try:
-            await page.evaluate("window.scrollBy(0, window.innerHeight * 0.9)")
-        except Exception as e:
-            print(f"[WARN] Side {page_num}: scrollBy feilet: {e}")
-            break
-
-    print(f"[INFO] Side {page_num}: samlet {len(docs)} dokumenter fra listevisning")
-    return docs
 
 
 async def _fetch_files_for_doc(context, detalj_link, dokid, timeout: int):
@@ -213,9 +113,8 @@ async def _fetch_files_for_doc(context, detalj_link, dokid, timeout: int):
 # ---------------------------------------------------------
 async def hent_side_async(page_num, page, per_page, retries=5, timeout=10_000):
     """
-    DOM-basert async-scraper:
-      - Leser listevisning (virtualisert)
-      - Scroller og samler ALLE dokumenter (via dokumentID)
+    DOM-basert async-scraper (legacy-visning):
+      - Leser listevisning (100 artikler per side)
       - Går inn på detaljside i egen page
       - Henter filer
     """
@@ -229,33 +128,52 @@ async def hent_side_async(page_num, page, per_page, retries=5, timeout=10_000):
             if not await safe_goto(page, url, retries=1, timeout=timeout):
                 raise RuntimeError("safe_goto feilet")
 
-            if not await _wait_for_initial_content(page, page_num, timeout):
+            if not await _wait_for_content(page, page_num, timeout):
                 if await _is_truly_empty_page(page, page_num):
                     print(f"[INFO] Side {page_num} er tom. Returnerer [].")
                     return []
                 raise RuntimeError("Innhold ikke lastet")
 
-            # Samle alle dokumenter fra listevisning (virtualisert)
-            docs = await _scroll_and_collect_list_docs(
-                page=page,
-                page_num=page_num,
-                per_page=per_page,
-                timeout=timeout,
-            )
-
-            if not docs:
+            artikler = await page.query_selector_all("article.bc-content-teaser--item")
+            if not artikler:
                 if await _is_truly_empty_page(page, page_num):
                     print(f"[INFO] Side {page_num} er tom. Returnerer [].")
                     return []
-                raise RuntimeError("0 dokumenter funnet uten tom-side-indikasjon")
+                raise RuntimeError("0 artikler funnet uten tom-side-indikasjon")
 
-            # Hent filer fra detaljsider i egen page
+            print(f"[INFO] Side {page_num}: fant {len(artikler)} artikler i listevisning")
+
+            docs = []
             context = page.context
-            enriched_docs = []
 
-            for d in docs:
-                dokid = d.get("dokumentID")
-                detalj_link = d.get("journal_link")
+            for art in artikler:
+                dokid = await safe_text(art, ".bc-content-teaser-meta-property--dokumentID dd")
+                if not dokid:
+                    continue
+
+                tittel = await safe_text(art, ".bc-content-teaser-title-text")
+                dato_raw = await safe_text(art, ".bc-content-teaser-meta-property--dato dd")
+                parsed = parse_date_from_page(dato_raw)
+
+                doktype = await safe_text(art, ".SakListItem_sakListItemTypeText__16759c")
+                avsender = await safe_text(art, ".bc-content-teaser-meta-property--avsender dd")
+                mottaker = await safe_text(art, ".bc-content-teaser-meta-property--mottaker dd")
+
+                am = (
+                    f"Avsender: {avsender}"
+                    if avsender else (f"Mottaker: {mottaker}" if mottaker else "")
+                )
+
+                detalj_link = ""
+                try:
+                    link_elem = await art.evaluate_handle("node => node.closest('a')")
+                    if link_elem:
+                        detalj_link = await link_elem.get_attribute("href")
+                except Exception:
+                    pass
+
+                if detalj_link and not detalj_link.startswith("http"):
+                    detalj_link = "https://www.strand.kommune.no" + detalj_link
 
                 filer = await _fetch_files_for_doc(
                     context=context,
@@ -266,13 +184,20 @@ async def hent_side_async(page_num, page, per_page, retries=5, timeout=10_000):
 
                 status = "Publisert" if filer else "Må bes om innsyn"
 
-                d["filer"] = filer
-                d["status"] = status
+                docs.append({
+                    "tittel": tittel,
+                    "dato": format_date(parsed),
+                    "dato_iso": parsed.isoformat() if parsed else None,
+                    "dokumentID": dokid,
+                    "dokumenttype": doktype,
+                    "avsender_mottaker": am,
+                    "journal_link": detalj_link,
+                    "filer": filer,
+                    "status": status,
+                })
 
-                enriched_docs.append(d)
-
-            print(f"[INFO] Fant {len(enriched_docs)} dokumenter på side {page_num}")
-            return enriched_docs
+            print(f"[INFO] Fant {len(docs)} dokumenter på side {page_num}")
+            return docs
 
         except Exception as e:
             print(f"[WARN] Feil ved lasting/parsing av side {page_num} (forsøk {attempt}/{retries}): {e}")
