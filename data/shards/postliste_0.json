@@ -8,8 +8,13 @@
     "avsender_mottaker": "",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019703!Ce3hAb/d-6965376f__8677__47ea__a757__23e14c179149-2020259334!jVnTcD",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "Møteprotokoll - Levekårsutvalget - 04.02.2026 (pdf, 204KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1240402_1_P!d-2020259334!bs3wTo?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Møteprotokoll - Forvaltningsutvalget - 04.02.2026",
@@ -100,8 +105,17 @@
     "avsender_mottaker": "Avsender: Rycon As",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019926!w2yHxB/d-6965376f__8677__47ea__a757__23e14c179149-2020258826!YUd9at",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "49/736 Spørsmål vedrørende søknadsarbeid - Vågabakken 26 (pdf, 117KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1239172_1_A!d-2020258826!OSzlNZ?pid=29"
+      },
+      {
+        "tekst": "49736 Møtereferat - avklaring av søknadsplikt for bruksendring (1) (pdf, 97KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1239173_1_A!d-2020258826!0PZub6?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Bekreftelse på mottatt søknad - Sommervikar heldøgnstjenesten - omsorg",
