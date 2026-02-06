@@ -4,9 +4,10 @@ import os
 import glob
 import json
 from pathlib import Path
+from datetime import datetime
 from playwright.async_api import async_playwright
 
-from utils_dates import parse_date_from_page, within_range, parse_cli_date
+from utils_dates import within_range, parse_cli_date
 from utils_files import (
     ensure_directories,
     load_config,
@@ -106,7 +107,14 @@ async def scrape_single_page(
 
         filtered = []
         for d in docs:
-            parsed_date = parse_date_from_page(d.get("dato"))
+            iso = d.get("dato_iso")
+            parsed_date = None
+            if iso:
+                try:
+                    parsed_date = datetime.fromisoformat(iso).date()
+                except Exception:
+                    parsed_date = None
+
             if within_range(parsed_date, start_date, end_date):
                 filtered.append(d)
 
