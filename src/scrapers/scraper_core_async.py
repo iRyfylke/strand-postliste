@@ -4,7 +4,7 @@ from utils_playwright_async import safe_text, safe_goto
 from utils_dates import parse_date_from_page, format_date
 
 # ---------------------------------------------------------
-# KORRIGERT URL (kritisk!)
+# KORRIGERT URL
 # ---------------------------------------------------------
 BASE_URL = (
     "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/"
@@ -16,44 +16,6 @@ BASE_URL = (
 # ---------------------------------------------------------
 # INTERNAL HELPERS
 # ---------------------------------------------------------
-async def _wait_for_content(page, page_num, timeout: int) -> bool:
-    """Sørger for at innholdet er lastet nok til å hente ALLE artikler."""
-    try:
-        # Vent på initial load
-        try:
-            await page.wait_for_load_state("networkidle", timeout=timeout)
-        except Exception as e:
-            print(f"[WARN] Side {page_num}: networkidle feilet: {e}")
-
-        await page.wait_for_timeout(300)
-
-        # ---------------------------------------------------------
-        # NY SCROLL-LOGIKK: scroll dypt flere ganger for å trigge lazy-loading
-        # ---------------------------------------------------------
-        for i in range(6):
-            try:
-                await page.evaluate("window.scrollBy(0, 2000)")
-                await page.wait_for_timeout(250)
-            except Exception as e:
-                print(f"[WARN] Side {page_num}: scroll {i} feilet: {e}")
-
-        # Sjekk om artikler er lastet
-        try:
-            await page.wait_for_selector(
-                "article.bc-content-teaser--item",
-                timeout=timeout,
-                state="attached",
-            )
-            return True
-        except Exception:
-            print(f"[WARN] Side {page_num}: ingen artikler funnet etter scroll")
-            return False
-
-    except Exception as e:
-        print(f"[WARN] Side {page_num}: _wait_for_content feilet: {e}")
-        return False
-
-
 async def _is_truly_empty_page(page, page_num) -> bool:
     """Avgjør om siden faktisk er tom."""
     try:
@@ -82,15 +44,106 @@ async def _is_truly_empty_page(page, page_num) -> bool:
         return False
 
 
+async def _collect_all_list_items(page, page_num, timeout: int):
+    """
+    Kritisk: kommunen bruker virtualisert liste.
+    Vi må scrolle gjennom siden og samle artikler ved hver posisjon.
+    """
+    seen = {}  # dokid -> (art-element, snapshot-data)
+
+    try:
+        try:
+            await page.wait_for_load_state("networkidle", timeout=timeout)
+        except Exception as e:
+            print(f"[WARN] Side {page_num}: networkidle feilet: {e}")
+
+        await page.wait_for_timeout(300)
+
+        stagnant_rounds = 0
+        last_seen_count = 0
+
+        for i in range(25):
+            try:
+                artikler = await page.query_selector_all("article.bc-content-teaser--item")
+                for art in artikler:
+                    dokid = await safe_text(art, ".bc-content-teaser-meta-property--dokumentID dd")
+                    if not dokid or dokid in seen:
+                        continue
+
+                    tittel = await safe_text(art, ".bc-content-teaser-title-text")
+                    dato_raw = await safe_text(art, ".bc-content-teaser-meta-property--dato dd")
+                    parsed = parse_date_from_page(dato_raw)
+
+                    doktype = await safe_text(art, ".SakListItem_sakListItemTypeText__16759c")
+                    avsender = await safe_text(art, ".bc-content-teaser-meta-property--avsender dd")
+                    mottaker = await safe_text(art, ".bc-content-teaser-meta-property--mottaker dd")
+
+                    am = (
+                        f"Avsender: {avsender}"
+                        if avsender else (f"Mottaker: {mottaker}" if mottaker else "")
+                    )
+
+                    detalj_link = ""
+                    try:
+                        link_elem = await art.evaluate_handle("node => node.closest('a')")
+                        if link_elem:
+                            detalj_link = await link_elem.get_attribute("href")
+                    except Exception:
+                        pass
+
+                    if detalj_link and not detalj_link.startswith("http"):
+                        detalj_link = "https://www.strand.kommune.no" + detalj_link
+
+                    seen[dokid] = {
+                        "tittel": tittel,
+                        "dato_parsed": parsed,
+                        "doktype": doktype,
+                        "avsender_mottaker": am,
+                        "journal_link": detalj_link,
+                    }
+
+                if len(seen) > last_seen_count:
+                    last_seen_count = len(seen)
+                    stagnant_rounds = 0
+                else:
+                    stagnant_rounds += 1
+
+                # Heuristikk: hvis vi har stått stille noen runder, anta at vi har alt
+                if stagnant_rounds >= 5:
+                    break
+
+                # Scroll videre
+                try:
+                    await page.evaluate("window.scrollBy(0, 600)")
+                    await page.wait_for_timeout(250)
+                except Exception as e:
+                    print(f"[WARN] Side {page_num}: scroll {i} feilet: {e}")
+                    break
+
+            except Exception as e:
+                print(f"[WARN] Side {page_num}: _collect_all_list_items runde {i} feilet: {e}")
+                break
+
+        if not seen:
+            print(f"[WARN] Side {page_num}: ingen artikler samlet etter scroll.")
+        else:
+            print(f"[INFO] Side {page_num}: samlet {len(seen)} unike dokid fra listevisning.")
+
+        return seen
+
+    except Exception as e:
+        print(f"[WARN] Side {page_num}: _collect_all_list_items feilet: {e}")
+        return {}
+
+
 # ---------------------------------------------------------
 # PUBLIC SCRAPER FUNCTION
 # ---------------------------------------------------------
 async def hent_side_async(page_num, page, per_page, retries=5, timeout=10_000):
     """
     DOM-basert scraper:
-      - Leser listevisning
-      - Går inn på detaljside (egen page)
-      - Henter filer
+      - Leser listevisning (virtualisert) og samler ALLE dokid via scroll
+      - Går inn på detaljside (egen page) for å hente filer
     """
 
     url = BASE_URL.format(page=page_num, page_size=per_page)
@@ -102,52 +155,20 @@ async def hent_side_async(page_num, page, per_page, retries=5, timeout=10_000):
             if not await safe_goto(page, url, retries=1, timeout=timeout):
                 raise RuntimeError("safe_goto feilet")
 
-            if not await _wait_for_content(page, page_num, timeout):
-                if await _is_truly_empty_page(page, page_num):
-                    print(f"[INFO] Side {page_num} er tom. Returnerer [].")
-                    return []
-                raise RuntimeError("Innhold ikke lastet")
+            collected = await _collect_all_list_items(page, page_num, timeout)
 
-            artikler = await page.query_selector_all("article.bc-content-teaser--item")
-            if not artikler:
+            if not collected:
                 if await _is_truly_empty_page(page, page_num):
                     print(f"[INFO] Side {page_num} er tom. Returnerer [].")
                     return []
-                raise RuntimeError("0 artikler funnet uten tom-side-indikasjon")
+                raise RuntimeError("Ingen artikler samlet fra listevisning")
 
             docs = []
 
-            for art in artikler:
-                dokid = await safe_text(art, ".bc-content-teaser-meta-property--dokumentID dd")
-                if not dokid:
-                    continue
+            for dokid, meta in collected.items():
+                detalj_link = meta["journal_link"]
 
-                tittel = await safe_text(art, ".bc-content-teaser-title-text")
-                dato_raw = await safe_text(art, ".bc-content-teaser-meta-property--dato dd")
-                parsed = parse_date_from_page(dato_raw)
-
-                doktype = await safe_text(art, ".SakListItem_sakListItemTypeText__16759c")
-                avsender = await safe_text(art, ".bc-content-teaser-meta-property--avsender dd")
-                mottaker = await safe_text(art, ".bc-content-teaser-meta-property--mottaker dd")
-
-                am = (
-                    f"Avsender: {avsender}"
-                    if avsender else (f"Mottaker: {mottaker}" if mottaker else "")
-                )
-
-                # Detaljlenke
-                detalj_link = ""
-                try:
-                    link_elem = await art.evaluate_handle("node => node.closest('a')")
-                    if link_elem:
-                        detalj_link = await link_elem.get_attribute("href")
-                except Exception:
-                    pass
-
-                if detalj_link and not detalj_link.startswith("http"):
-                    detalj_link = "https://www.strand.kommune.no" + detalj_link
-
-                # Hent filer i egen page
+                # Hent filer i egen page (unngå å ødelegge listevisningen)
                 filer = []
                 if detalj_link:
                     dp = await page.context.new_page()
@@ -170,15 +191,16 @@ async def hent_side_async(page_num, page, per_page, retries=5, timeout=10_000):
                     finally:
                         await dp.close()
 
+                parsed = meta["dato_parsed"]
                 status = "Publisert" if filer else "Må bes om innsyn"
 
                 docs.append({
-                    "tittel": tittel,
+                    "tittel": meta["tittel"],
                     "dato": format_date(parsed),
                     "dato_iso": parsed.isoformat() if parsed else None,
                     "dokumentID": dokid,
-                    "dokumenttype": doktype,
-                    "avsender_mottaker": am,
+                    "dokumenttype": meta["doktype"],
+                    "avsender_mottaker": meta["avsender_mottaker"],
                     "journal_link": detalj_link,
                     "filer": filer,
                     "status": status,
