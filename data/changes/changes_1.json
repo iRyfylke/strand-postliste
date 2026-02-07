@@ -384118,5 +384118,37 @@
         "ny": 1
       }
     }
+  },
+  {
+    "tidspunkt": "2026-02-07 06:58:32",
+    "type": "UPDATE",
+    "dokumentID": "2026/4537",
+    "tittel": "Møteprotokoll - Forvaltningsutvalget - 04.02.2026",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-07 06:58:32",
+    "type": "UPDATE",
+    "dokumentID": "2026/4022",
+    "tittel": "111/3 Merknadsbehandling - reetablering av Hengjane kai - Lysefjorden Utvikling As",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 3
+      }
+    }
   }
 ]

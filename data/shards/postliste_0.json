@@ -54,8 +54,13 @@
     "avsender_mottaker": "",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019807!xlpCk3/d-6965376f__8677__47ea__a757__23e14c179149-2020259324!km8ic1",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "Møteprotokoll - Forvaltningsutvalget - 04.02.2026 (pdf, 387KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1240390_1_O!d-2020259324!JlxNJS?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Møtebok - Forvaltningsutvalget - 04.02.2026",
@@ -1368,8 +1373,21 @@
     "avsender_mottaker": "Avsender: Rycon As",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020018667!KWOF0R/d-6965376f__8677__47ea__a757__23e14c179149-2020258809!k72HtR",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "111/3 Merknadsbehandling - reetablering av Hengjane kai - Lysefjorden Utvikling As (pdf, 201KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1239129_1_A!d-2020258809!GSBaki?pid=29"
+      },
+      {
+        "tekst": "Q Besøksutvikling Hengjane gard - notat januar 2026 (pdf, 277KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1239131_1_A!d-2020258809!fpqD3Z?pid=29"
+      },
+      {
+        "tekst": "Q E-post - Spørsmål om merknad i forbindelse med søknad om dispensasjon - reetablering av kai - Hengjane - Lysefjorden Utvikling As (pdf, 116KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1239130_1_A!d-2020258809!XZy8aT?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Bekreftelse på mottatt søknad - Sommervikar heldøgnstjenesten - omsorg",
