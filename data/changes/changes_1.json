@@ -384150,5 +384150,21 @@
         "ny": 3
       }
     }
+  },
+  {
+    "tidspunkt": "2026-02-08 13:49:21",
+    "type": "UPDATE",
+    "dokumentID": "2026/4134",
+    "tittel": "49/254 Søknad om utslippstillatelse - Øvre Brauta 3",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 10,
+        "ny": 0
+      }
+    }
   }
 ]
