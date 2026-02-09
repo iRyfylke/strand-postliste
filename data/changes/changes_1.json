@@ -384166,5 +384166,37 @@
         "ny": 0
       }
     }
+  },
+  {
+    "tidspunkt": "2026-02-09 07:21:12",
+    "type": "UPDATE",
+    "dokumentID": "2026/4295",
+    "tittel": "Tilskudd til kulturmiljøkompetanse i kommunene (KIK) for 2026 - utlysning",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 2,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-09 07:21:12",
+    "type": "UPDATE",
+    "dokumentID": "2026/4134",
+    "tittel": "49/254 Søknad om utslippstillatelse - Øvre Brauta 3",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 10
+      }
+    }
   }
 ]
