@@ -396314,5 +396314,117 @@
         "ny": 1
       }
     }
+  },
+  {
+    "tidspunkt": "2026-02-11 07:17:51",
+    "type": "UPDATE",
+    "dokumentID": "2026/4469",
+    "tittel": "Svar på henvendelse fra Strand kommune",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-11 07:17:51",
+    "type": "UPDATE",
+    "dokumentID": "2026/4677",
+    "tittel": "49/599 Søknad om fasade- og bruksendring - Åvegen 5A - Mikkel Jones Rygh",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 3
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-11 07:17:51",
+    "type": "UPDATE",
+    "dokumentID": "2026/4261",
+    "tittel": "49/222 Kort oppsummering etter møte",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-11 07:17:51",
+    "type": "UPDATE",
+    "dokumentID": "2026/4664",
+    "tittel": "56/11 Reviderte tegninger - skriftlig redegjørelse reduksjon sengeplasser",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 6
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-11 07:17:51",
+    "type": "UPDATE",
+    "dokumentID": "2026/4197",
+    "tittel": "44/275 Utbetaling av erstatning",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-11 07:17:51",
+    "type": "UPDATE",
+    "dokumentID": "2026/4313",
+    "tittel": "Spørretime - Behandling av kommuneplanens arealdel",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-11 07:17:51",
+    "type": "UPDATE",
+    "dokumentID": "2026/4445",
+    "tittel": "Kommunal overtakelse av grunn og infrastruktur for Kvednanesvegen 75 - Kvednanesvegen 75 AS - signert",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 2,
+        "ny": 0
+      }
+    }
   }
 ]
