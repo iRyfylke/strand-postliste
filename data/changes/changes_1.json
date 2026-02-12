@@ -399442,5 +399442,37 @@
         "ny": 1
       }
     }
+  },
+  {
+    "tidspunkt": "2026-02-12 07:17:48",
+    "type": "UPDATE",
+    "dokumentID": "2026/4319",
+    "tittel": "Spørsmål fra Høyre angående kommuneplanens arealdel - til spørretimen 02.02.2026",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 3,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-12 07:17:48",
+    "type": "UPDATE",
+    "dokumentID": "2026/4315",
+    "tittel": "Spørsmål fra INP vedrørende kommuneplanens arealdel - til spørretimen 02.02.2026",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
   }
 ]
