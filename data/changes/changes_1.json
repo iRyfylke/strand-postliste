@@ -404770,5 +404770,85 @@
         "ny": "Avsender: Rogaland Revisjon Iks"
       }
     }
+  },
+  {
+    "tidspunkt": "2026-02-13 07:13:19",
+    "type": "UPDATE",
+    "dokumentID": "2026/5287",
+    "tittel": "Møtebok - Kommunestyret - 11.02.2026",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-13 07:13:19",
+    "type": "UPDATE",
+    "dokumentID": "2026/4766",
+    "tittel": "Foreløpig svar om tilskudd til kultur - ungdomsklubb",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-13 07:13:19",
+    "type": "UPDATE",
+    "dokumentID": "2026/4928",
+    "tittel": "47/706 Søknad om igangsettingstillatelse - bolig - Fullshammarsvingen 8 - Suko Eiendom As",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 2,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-13 07:13:19",
+    "type": "UPDATE",
+    "dokumentID": "2026/4729",
+    "tittel": "53/318 Ferdigattest - Fasadeendring naust - Tungland",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-13 07:13:19",
+    "type": "UPDATE",
+    "dokumentID": "2026/4969",
+    "tittel": "31/581 Søknad om tiltak på eksisterende sanitæranlegg - Prestetjørnvegen 4",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 3,
+        "ny": 0
+      }
+    }
   }
 ]
