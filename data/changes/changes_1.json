@@ -407658,5 +407658,53 @@
         "ny": 3
       }
     }
+  },
+  {
+    "tidspunkt": "2026-02-14 13:49:29",
+    "type": "UPDATE",
+    "dokumentID": "2026/5287",
+    "tittel": "Møtebok - Kommunestyret - 11.02.2026",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-14 13:49:29",
+    "type": "UPDATE",
+    "dokumentID": "2026/4805",
+    "tittel": "Svar på søknad om tilskudd til kultur - kurs i lyd og lydutstyr - barn/ungdom",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-14 13:49:29",
+    "type": "UPDATE",
+    "dokumentID": "2026/4941",
+    "tittel": "16/79 Nabovarsel for Ryfylkevegen 1954",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 9
+      }
+    }
   }
 ]
