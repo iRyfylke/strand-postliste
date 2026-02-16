@@ -407706,5 +407706,37 @@
         "ny": 9
       }
     }
+  },
+  {
+    "tidspunkt": "2026-02-16 07:20:06",
+    "type": "UPDATE",
+    "dokumentID": "2026/5287",
+    "tittel": "Møtebok - Kommunestyret - 11.02.2026",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-16 07:20:06",
+    "type": "UPDATE",
+    "dokumentID": "2026/4805",
+    "tittel": "Svar på søknad om tilskudd til kultur - kurs i lyd og lydutstyr - barn/ungdom",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
   }
 ]
