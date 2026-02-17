@@ -411146,5 +411146,37 @@
         "ny": 0
       }
     }
+  },
+  {
+    "tidspunkt": "2026-02-17 14:13:42",
+    "type": "UPDATE",
+    "dokumentID": "2026/5119",
+    "tittel": "Klage på gjentatt nektet innsyn etter Statsforvalters oppheving av Strand kommunes tidligere avslag - ref. 2025/17498",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 2,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-17 14:13:42",
+    "type": "UPDATE",
+    "dokumentID": "2026/5188",
+    "tittel": "Årsrapport for typegodkjente minirenseanlegg 2025 - Kingspan",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 2,
+        "ny": 0
+      }
+    }
   }
 ]
