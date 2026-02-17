@@ -411130,5 +411130,21 @@
         "ny": 1
       }
     }
+  },
+  {
+    "tidspunkt": "2026-02-17 07:13:34",
+    "type": "UPDATE",
+    "dokumentID": "2026/5287",
+    "tittel": "Møtebok - Kommunestyret - 11.02.2026",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
   }
 ]
