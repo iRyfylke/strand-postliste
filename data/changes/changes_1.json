@@ -422774,5 +422774,21 @@
         "ny": "Svar - henvendelse angående felling av trær på kommunen sin eiendom - Tau"
       }
     }
+  },
+  {
+    "tidspunkt": "2026-02-20 07:11:11",
+    "type": "UPDATE",
+    "dokumentID": "2026/5618",
+    "tittel": "63/257 Dokumentsjekk - ikke behov for mangelbrev",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
   }
 ]
