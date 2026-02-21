@@ -428162,5 +428162,21 @@
         "ny": "Melding fra leverandør - karenstid - purring på innsendt innsynbegjæring og avklaringer"
       }
     }
+  },
+  {
+    "tidspunkt": "2026-02-21 13:48:48",
+    "type": "UPDATE",
+    "dokumentID": "2026/5702",
+    "tittel": "55/97 Oppfølging av byggesak - tilbygg - Mosli 88",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 3,
+        "ny": 0
+      }
+    }
   }
 ]
