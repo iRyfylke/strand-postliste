@@ -428178,5 +428178,21 @@
         "ny": 0
       }
     }
+  },
+  {
+    "tidspunkt": "2026-02-22 07:02:44",
+    "type": "UPDATE",
+    "dokumentID": "2026/5702",
+    "tittel": "55/97 Oppfølging av byggesak - tilbygg - Mosli 88",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 3
+      }
+    }
   }
 ]
