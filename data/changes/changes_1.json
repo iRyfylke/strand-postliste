@@ -428194,5 +428194,21 @@
         "ny": 3
       }
     }
+  },
+  {
+    "tidspunkt": "2026-02-23 07:20:53",
+    "type": "UPDATE",
+    "dokumentID": "2026/5344",
+    "tittel": "47/705 Igangsettingstillatelse - bolig - Fullshammarsvingen 8",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
   }
 ]
