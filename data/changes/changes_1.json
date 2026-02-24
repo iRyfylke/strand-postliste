@@ -431866,5 +431866,21 @@
         "ny": "Melding til leverandør - referat statusmøte 13.02.2026"
       }
     }
+  },
+  {
+    "tidspunkt": "2026-02-24 07:14:54",
+    "type": "UPDATE",
+    "dokumentID": "2026/6040",
+    "tittel": "107/89 Søknad om ferdigattest - fasadeendring - Auklendsberget 39 - Ann-Kristin Strømme",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 3,
+        "ny": 0
+      }
+    }
   }
 ]
