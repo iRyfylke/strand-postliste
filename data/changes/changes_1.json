@@ -438646,5 +438646,37 @@
         "ny": "Informasjon - kartlegging vann og avløp - Åvegen"
       }
     }
+  },
+  {
+    "tidspunkt": "2026-02-26 07:15:28",
+    "type": "UPDATE",
+    "dokumentID": "2026/6253",
+    "tittel": "27/11 Søknad om dispensasjon - bruksendring - dagsenter - Tjøstheimsvegen 614 - Strand Kommune",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 25,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-02-26 07:15:28",
+    "type": "UPDATE",
+    "dokumentID": "2026/6335",
+    "tittel": "41/10 Notat produksjons- og avløsertilskudd 2025",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
   }
 ]
