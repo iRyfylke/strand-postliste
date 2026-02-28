@@ -1016,8 +1016,17 @@
     "avsender_mottaker": "Avsender: Olaf Isemann",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2013003414!hptUJp/d-6965376f__8677__47ea__a757__23e14c179149-2020261425!jOAept",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "61/22 Søknad om ferdigattest - anneks - Kvalvåg 8 - Gunnar Isemann (pdf, 1,5MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1246352_1_A!d-2020261425!8dYtNw?pid=29"
+      },
+      {
+        "tekst": "Vedlegg (pdf, 1,4MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1246353_1_A!d-2020261425!D5wlkT?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Svar på oppsigelse av plass i SFO",
@@ -1558,8 +1567,21 @@
     "avsender_mottaker": "Mottaker: Fjogstad-Hus As",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020157!8tWlpz/d-6965376f__8677__47ea__a757__23e14c179149-2020261231!ASnSBN",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "11/114 Oppfølging av byggesak - tilbygg og påbygg - Fiskåvegen 682 (pdf, 115KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1245749_1_A!d-2020261231!1mHATv?pid=29"
+      },
+      {
+        "tekst": "1110 TILLATELSE TIL TILTAK - TILBYGG OG PÅBYGG(1340206) (pdf, 311KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1245752_1_A!d-2020261231!kZv08r?pid=29"
+      },
+      {
+        "tekst": "5167-soknad-om-ferdigattest-2020 (pdf, 109KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1245753_1_A!d-2020261231!lFOQeA?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Plan 85-1-M1 Planendring for Moen - svar på henvendelse - vurdering - bruk av busslomme til henting av avfall",
