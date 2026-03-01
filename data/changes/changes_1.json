@@ -447974,5 +447974,21 @@
         "ny": 1
       }
     }
+  },
+  {
+    "tidspunkt": "2026-03-01 13:45:39",
+    "type": "UPDATE",
+    "dokumentID": "2026/6533",
+    "tittel": "63/157 og 63/205 Angående oppmålingsforretning klarlegging av eksisterende grenser",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 3,
+        "ny": 0
+      }
+    }
   }
 ]
