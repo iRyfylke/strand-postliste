@@ -447926,5 +447926,53 @@
         "ny": 0
       }
     }
+  },
+  {
+    "tidspunkt": "2026-03-01 07:01:25",
+    "type": "UPDATE",
+    "dokumentID": "2026/6639",
+    "tittel": "44/532 Søknad om ferdigattest - garasje - Granittvegen 16 - Sten Gøran Heng",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-03-01 07:01:25",
+    "type": "UPDATE",
+    "dokumentID": "2026/6605",
+    "tittel": "53/474 Søknad om utsatt frist for søknad om ferdigattest - nausthytter - Skjersvika",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-03-01 07:01:25",
+    "type": "UPDATE",
+    "dokumentID": "2026/6688",
+    "tittel": "31/102 Spørsmål om status - dispensasjonssøknad - riving og oppføring av ny bolig m/utslippsanlegg - Tjøstheimvegen 120 - Sigve Høie Håland",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
   }
 ]
