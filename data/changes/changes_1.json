@@ -455946,5 +455946,21 @@
         "ny": 0
       }
     }
+  },
+  {
+    "tidspunkt": "2026-03-04 07:03:19",
+    "type": "UPDATE",
+    "dokumentID": "2026/6850",
+    "tittel": "32/84 Ber om tilbakemelding - tilbygg til eksisterende bolig - Kyrkjebakken 21 - Svein Henning Sølversen",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
   }
 ]
