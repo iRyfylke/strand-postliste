@@ -462610,5 +462610,37 @@
         "ny": 0
       }
     }
+  },
+  {
+    "tidspunkt": "2026-03-06 07:07:09",
+    "type": "UPDATE",
+    "dokumentID": "2026/7003",
+    "tittel": "18/25 Status i sak - påbygg - Ryfylkevegen 2096",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-03-06 07:07:09",
+    "type": "UPDATE",
+    "dokumentID": "2026/6977",
+    "tittel": "31/44 Vedrørende avslag på ferdigattest - småbåtanlegg med naust - Håbakk - oppdatering status i klagebehandling",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
   }
 ]

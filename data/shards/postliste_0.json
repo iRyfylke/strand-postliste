@@ -219,8 +219,13 @@
     "avsender_mottaker": "Mottaker: Brit Hansen Lende",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020009351!iPwGUY/d-6965376f__8677__47ea__a757__23e14c179149-2020261790!SlxCVq",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "18/25 Status i sak - påbygg - Ryfylkevegen 2096 (pdf, 68KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1247335_1_A!d-2020261790!YZholZ?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "48/108 Supplering av søknad - firemannsbolig - Marmorvegen 19A - Trebygg Strand As",
@@ -575,8 +580,13 @@
     "avsender_mottaker": "Mottaker: Rycon As",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020059!OS7mqa/d-6965376f__8677__47ea__a757__23e14c179149-2020261764!9vzXlH",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "31/44 Vedrørende avslag på ferdigattest - småbåtanlegg med naust - Håbakk - oppdatering status i klagebehandling (pdf, 111KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1247295_1_A!d-2020261764!kljC3v?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Søknad - saksbehandler - Hverdagsrehabilitering",
