@@ -467566,5 +467566,21 @@
         "ny": 1
       }
     }
+  },
+  {
+    "tidspunkt": "2026-03-07 13:44:49",
+    "type": "UPDATE",
+    "dokumentID": "2026/7319",
+    "tittel": "Spørsmål fra Høyre vedrørende KPA - til temamøte 04.03.2026",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
   }
 ]
