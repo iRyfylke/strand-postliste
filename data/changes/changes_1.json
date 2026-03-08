@@ -467582,5 +467582,21 @@
         "ny": 0
       }
     }
+  },
+  {
+    "tidspunkt": "2026-03-08 06:59:57",
+    "type": "UPDATE",
+    "dokumentID": "2026/4602",
+    "tittel": "16/234 Fakturagrunnlag - vann og avløpsanlegg - Ryfylkevegen",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 2,
+        "ny": 0
+      }
+    }
   }
 ]
