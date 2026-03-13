@@ -1,5 +1,1417 @@
 [
   {
+    "tittel": "47/647 KLAGE PÅ DISPENSASJON OG RAMMETILLATELSE - RIVE EKSISTERENDE BYGNINGER OG BYGGE 12 NYE BOLIGER - BAKKAVEGEN 4 - FJOGSTADHUS",
+    "dato": "12.04.2012",
+    "dato_iso": "2012-04-12",
+    "dokumentID": "2012/7532",
+    "dokumenttype": "Saksframlegg",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2011000230!rbe73S/d-6965376f__8677__47ea__a757__23e14c179149-2012007532!WssF0X",
+    "filer": [
+      {
+        "tekst": "47/647 KLAGE PÅ DISPENSASJON OG RAMMETILLATELSE - RIVE EKSISTERENDE BYGNINGER OG BYGGE 12 NYE BOLIGER - BAKKAVEGEN 4 - FJOGSTADHUS (pdf, 147KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-189752_3_A!d-2012007532!raqQDp?pid=29"
+      },
+      {
+        "tekst": "Oversiktskart.pdf (pdf, 365KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-189756_1_A!d-2012007532!cQ0B2o?pid=29"
+      },
+      {
+        "tekst": "Klage på vedtak.pdf (pdf, 114KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-189755_1_A!d-2012007532!ZxslFZ?pid=29"
+      },
+      {
+        "tekst": "Kart klager.pdf (pdf, 199KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-189754_1_A!d-2012007532!rnFbEH?pid=29"
+      },
+      {
+        "tekst": "47/647 BAKKAVEGEN SVAR PÅ KLAGE (pdf, 274KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-185111_1_A!d-2012007532!fLJDip?pid=29"
+      },
+      {
+        "tekst": "DISPENSASJON FRA REGULERINGSPLAN OG TILLATELSE TIL TILTAK - RAMMETILLATELSE - RIVE EKSISTENRENDE BYGNINGER OG BYGGE 12 NYE BOLIGER - BAKKAVEGEN - FJOGSTADHUS (pdf, 520KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-179510_1_A!d-2012007532!WElAnS?pid=29"
+      },
+      {
+        "tekst": "8365314_Situasjonskart.pdf (pdf, 4,5MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-168756_1_A!d-2012007532!TCfbqO?pid=29"
+      },
+      {
+        "tekst": "8365314_Annet.pdf (pdf, 695KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-168746_1_A!d-2012007532!5mKg8Z?pid=29"
+      },
+      {
+        "tekst": "Illustrasjon.pdf (pdf, 155KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-189753_1_A!d-2012007532!ydcLfK?pid=29"
+      },
+      {
+        "tekst": "Søknad om dispensasjon.pdf (pdf, 54KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-189759_1_A!d-2012007532!edDN0z?pid=29"
+      },
+      {
+        "tekst": "47/647 SØKNAD OM RAMMETILLATELSE (pdf, 100KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-168742_1_A!d-2012007532!ofS88d?pid=29"
+      },
+      {
+        "tekst": "8365314_Uttalelse_fra_offentlig_myndighet.pdf (pdf, 1,4MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-168755_1_A!d-2012007532!ErO3gV?pid=29"
+      },
+      {
+        "tekst": "8365314_Kommentarer_til_nabomerknader.pdf (pdf, 809KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-168754_1_A!d-2012007532!1fRxDT?pid=29"
+      },
+      {
+        "tekst": "8365314_Nabomerknader2.pdf (pdf, 384KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-168753_1_A!d-2012007532!yw1Coi?pid=29"
+      },
+      {
+        "tekst": "8365314_Annet4.pdf (pdf, 75KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-168751_1_A!d-2012007532!KNHGYU?pid=29"
+      },
+      {
+        "tekst": "8365314_Nabomerknader.pdf (pdf, 65KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-168752_1_A!d-2012007532!7MJgOI?pid=29"
+      },
+      {
+        "tekst": "Reguleringsbestemmelser.pdf (pdf, 102KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-189757_1_A!d-2012007532!XOkHC2?pid=29"
+      },
+      {
+        "tekst": "Reguleringskart.pdf (pdf, 195KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-189758_1_A!d-2012007532!6ocYZk?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "11/4 SØKNAD OM DISPENSASJON - RIVE GAMMEL BOLIG OG NAUST / OPPFØRING AV NY BOLIG OG NAUST - KJØLEVIK - LEIF STÅLE FUNDINGSLAND",
+    "dato": "12.04.2012",
+    "dato_iso": "2012-04-12",
+    "dokumentID": "2012/7615",
+    "dokumenttype": "Saksframlegg",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2011001294!Oq7ewg/d-6965376f__8677__47ea__a757__23e14c179149-2012007615!Ij2VmB",
+    "filer": [
+      {
+        "tekst": "11/4 SØKNAD OM DISPENSSAJON - RIVE GAMMEL BOLIG OG NAUST / OPPFØRING AV NY BOLIG OG NAUST - KJØLEVIK - LEIF STÅLE FUNDINGSLAND (pdf, 163KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-189864_2_A!d-2012007615!8rxeBJ?pid=29"
+      },
+      {
+        "tekst": "Oversiktskart.pdf (pdf, 259KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-189918_1_A!d-2012007615!LpibzA?pid=29"
+      },
+      {
+        "tekst": "11/4 SØKNAD OM DISPENSASJON FRA KOMMUNEPLANEN (pdf, 890KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-172335_1_A!d-2012007615!IDAakb?pid=29"
+      },
+      {
+        "tekst": "Situasjonskart_11-4.pdf (pdf, 680KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-172336_1_A!d-2012007615!FbXkyp?pid=29"
+      },
+      {
+        "tekst": "Tegninger+Naust_11-4.pdf (pdf, 197KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-172338_1_A!d-2012007615!PbQ1Ng?pid=29"
+      },
+      {
+        "tekst": "Tegninger+Bolig_11-4.pdf (pdf, 660KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-172337_1_A!d-2012007615!BSHO9w?pid=29"
+      },
+      {
+        "tekst": "Bilder+av+eksisterende+bebyggelse_11-4.pdf (pdf, 3,3MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-172339_1_A!d-2012007615!VChOBV?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "31/698 KLAGE PÅ DISPENSASJON FRA GJELDENE REGULERINGSPLAN OG TILLATELSE TIL TILTAK - RAMMETILLATELSE TIL 2 BOLIGER MED CARPORT / BOD - FURURINGEN - JADARHUS RYFYLKE",
+    "dato": "12.04.2012",
+    "dato_iso": "2012-04-12",
+    "dokumentID": "2012/7541",
+    "dokumenttype": "Saksframlegg",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2011000536!ZI87hI/d-6965376f__8677__47ea__a757__23e14c179149-2012007541!5fcD4u",
+    "filer": [
+      {
+        "tekst": "31/698 KLAGE PÅ DISPENSASJON FRA GJELDENE REGULERINGSPLAN OG TILLATELSE TIL TILTAK - RAMMETILLATELSE TIL 2 BOLIGER MED CARPORT / BOD - FURURINGEN - JADARHUS RYFYLKE (pdf, 359KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-189770_2_A!d-2012007541!9y0W1P?pid=29"
+      },
+      {
+        "tekst": "F Kart (pdf, 931KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-171007_1_A!d-2012007541!BXI42L?pid=29"
+      },
+      {
+        "tekst": "31/698 DISPENSASJON FRA GJELDENE REGULERINGSPLAN OG TILLATELSE TIL TILTAK - RAMMETILLATELSE TIL 2 BOLIGER MED CARPORT / BOD - FURURINGEN (pdf, 766KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-179512_1_A!d-2012007541!fBq3qd?pid=29"
+      },
+      {
+        "tekst": "31/698 KLAGE PÅ VEDTAK - 1/698 DISPENSASJON FRA GJELDENDE REGULERINGSPLAN OG TILLATELSE TIL TILTAK (pdf, 294KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-182218_1_A!d-2012007541!nyqIxT?pid=29"
+      },
+      {
+        "tekst": "3535_001.pdf (pdf, 294KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-185181_1_A!d-2012007541!gTuNX1?pid=29"
+      },
+      {
+        "tekst": "31/698 SØKNAD OM TILLATELSE TIL TILTAK - RAMMTILLATELSE (pdf, 951KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-171002_1_A!d-2012007541!p2guZ1?pid=29"
+      },
+      {
+        "tekst": "Q Opplysninger om tiltaket (pdf, 177KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-171011_1_A!d-2012007541!ciiSOQ?pid=29"
+      },
+      {
+        "tekst": "31/698 SITUASJONSKART (pdf, 283KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-171085_1_A!d-2012007541!IOQqTl?pid=29"
+      },
+      {
+        "tekst": "E Tegninger Bolig 2 (pdf, 1,7MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-171006_1_A!d-2012007541!oyOWRL?pid=29"
+      },
+      {
+        "tekst": "E Tegninger Bolig 1 (pdf, 1,8MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-171005_1_A!d-2012007541!UuRVzY?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "2/5 KLAGE PÅ VEDTAK OM Å GJE DISPENSASJON FRÅ KOMMUNEPLANEN FOR FRÅDLEING AV TOMT TIL BUSTADFØREMÅL PÅ GNR 2 BNR 5, GRØDEM",
+    "dato": "12.04.2012",
+    "dato_iso": "2012-04-12",
+    "dokumentID": "2012/5943",
+    "dokumenttype": "Saksframlegg",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2011000825!iPwUTp/d-6965376f__8677__47ea__a757__23e14c179149-2012005943!RGsDgg",
+    "filer": [
+      {
+        "tekst": "2/5 KLAGE PÅ VEDTAK OM Å GJE DISPENSASJON FRÅ KOMMUNEPLANEN FOR FRÅDLEING AV TOMT TIL BUSTADFØREMÅL PÅ GNR 2 BNR 5, GRØDEM (pdf, 127KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-186785_3_A!d-2012005943!PgCyjO?pid=29"
+      },
+      {
+        "tekst": "2/5 KLAGE PÅ VEDTAK I SAK 011/12 I FORVALTNINGSUTVALGET 02.02.2012 (pdf, 1MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-185440_1_A!d-2012005943!UkeYat?pid=29"
+      },
+      {
+        "tekst": "2/5 MELDING OM VEDTAK VEDKOMANDE SØKNAD OM DISPENSASJON FRÅ KOMMUNEPLANEN FOR FRÅDELING AV TOMT TIL BUSTADBYGGING (pdf, 195KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-182866_2_A!d-2012005943!F67v2s?pid=29"
+      },
+      {
+        "tekst": "MAIL (pdf, 143KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-181535_1_A!d-2012005943!AHu7Wf?pid=29"
+      },
+      {
+        "tekst": "Grødem gnr. 2 bnr. 5.doc (pdf, 139KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-181536_1_A!d-2012005943!5bnRSA?pid=29"
+      },
+      {
+        "tekst": "2/5 FRÅSEGN - SØKNAD OM DISPENSASJON FRÅ KOMMUNEPLANEN FOR FRÅDELING AV TOMT TIL BUSTADBYGGING PÅ GNR 2 BNR 5, GRØDEM (pdf, 143KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-179048_3_A!d-2012005943!PiEoHN?pid=29"
+      },
+      {
+        "tekst": "2/5 SØKNAD OM DISPENSASJON FRÅ KOMMUNEPLANEN FOR FRÅDELING AV EKSISTERANDE BUSTADTOMT, GRØDEM (pdf, 140KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-163275_2_A!d-2012005943!iHnVJo?pid=29"
+      },
+      {
+        "tekst": "KART VEDLEGG II.PDF (pdf, 163KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-163278_1_A!d-2012005943!66uXqG?pid=29"
+      },
+      {
+        "tekst": "2/5 SØKNAD OM DISPENSASJON, DELING AV EIENDOM FOR BYGGING AV BOLIG (pdf, 2,4MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-162334_1_A!d-2012005943!6FVgwC?pid=29"
+      },
+      {
+        "tekst": "KART VEDLEGG I.PDF (pdf, 155KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-163363_1_A!d-2012005943!wMLH8R?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "31/107 DISPENSASJON OG TILLATELSE TIL TILTAK I ETT TRINN - TILBYGG GARASJE OG HOBBYVERKSTED, GULLBEKKVEGEN 5 - MORTEN HØYLAND",
+    "dato": "10.04.2012",
+    "dato_iso": "2012-04-10",
+    "dokumentID": "2012/7510",
+    "dokumenttype": "Saksframlegg",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2012000148!KZUIn3/d-6965376f__8677__47ea__a757__23e14c179149-2012007510!Wizote",
+    "filer": [
+      {
+        "tekst": "31/107 DISPENSASJON OG TILLATELSE TIL TILTAK I ETT TRINN - TILBYGG GARASJE OG HOBBYVERKSTED, GULLBEKKVEGEN 5 - MORTEN HØYLAND (pdf, 304KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-189712_1_A!d-2012007510!UH1g92?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "47/667 DISPENSASJON OG TILLATELSE TIL TILTAK UTEN ANSVARSRETT - FASADEENDRING GARASJE OG PAVILJONG, BREGNEVEIEN 22A - KJETIL BIRKELAND",
+    "dato": "10.04.2012",
+    "dato_iso": "2012-04-10",
+    "dokumentID": "2012/7466",
+    "dokumenttype": "Saksframlegg",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2012000419!lyNeKP/d-6965376f__8677__47ea__a757__23e14c179149-2012007466!AgNkID",
+    "filer": [
+      {
+        "tekst": "47/667 DISPENSASJON OG TILLATELSE TIL TILTAK UTEN ANSVARSRETT - FASADEENDRING GARASJE OG PAVILJONG, BREGNEVEIEN 22A - KJETIL BIRKELAND (pdf, 284KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-189660_1_A!d-2012007466!gM04sH?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "63/12 TILLATELSE TIL TILTAK - RIVING BOLIG - NY BOLIG IDSEVEGEN 284 - INGVE KJENES",
+    "dato": "10.04.2012",
+    "dato_iso": "2012-04-10",
+    "dokumentID": "2012/5274",
+    "dokumenttype": "Saksframlegg",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2012000041!rqj9b5/d-6965376f__8677__47ea__a757__23e14c179149-2012005274!qJjuFY",
+    "filer": [
+      {
+        "tekst": "63/12 TILLATELSE TIL TILTAK - RIVING BOLIG - NY BOLIG IDSEVEGEN 284 - INGVE KJENES (pdf, 124KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-185835_1_A!d-2012005274!EIp7Nj?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "44/687 ENDRING AV ANSVARSRETT - BOLIG, KVITEMYRVEGEN 26",
+    "dato": "10.04.2012",
+    "dato_iso": "2012-04-10",
+    "dokumentID": "2012/7444",
+    "dokumenttype": "Saksframlegg",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2009000869!kT573a/d-6965376f__8677__47ea__a757__23e14c179149-2012007444!yYQney",
+    "filer": [
+      {
+        "tekst": "44/687 ENDRING AV ANSVARSRETT - BOLIG, KVITEMYRVEGEN 26 (pdf, 98KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-189630_1_A!d-2012007444!Wq0dFr?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "44/686 ENDRING AV ANSVARSRETT - BOLIG, KVITEMYRVEGEN 28",
+    "dato": "10.04.2012",
+    "dato_iso": "2012-04-10",
+    "dokumentID": "2012/7450",
+    "dokumenttype": "Saksframlegg",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2009000778!JIhu1m/d-6965376f__8677__47ea__a757__23e14c179149-2012007450!BOGWOt",
+    "filer": [
+      {
+        "tekst": "44/686 ENDRING AV ANSVARSRETT - BOLIG, KVITEMYRVEGEN 28 (pdf, 98KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-189636_1_A!d-2012007450!z6EU2f?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Møtebok Kommunestyret KOM 28.03.2012",
+    "dato": "10.04.2012",
+    "dato_iso": "2012-04-10",
+    "dokumentID": "2012/7500",
+    "dokumenttype": "Møtebok",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2011001538!nrH6VV/d-6965376f__8677__47ea__a757__23e14c179149-2012007500!aZIBvp",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "31/35 SØKNAD OM FRÅDLEING - GULLBEKKSTRAEN DELFELT B1",
+    "dato": "04.04.2012",
+    "dato_iso": "2012-04-04",
+    "dokumentID": "2012/7390",
+    "dokumenttype": "Saksframlegg",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2012000487!AmsLd5/d-6965376f__8677__47ea__a757__23e14c179149-2012007390!cYmhxi",
+    "filer": [
+      {
+        "tekst": "31/35 SØKNAD OM FRÅDLEING - GULLBEKKSTRAEN DELFELT B1 (pdf, 97KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-189544_1_A!d-2012007390!JrH1zA?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "49/652 DISPENSASJON OG RAMMETILLATELSE - BRUKSENDRING FRA INDUSTRI TIL FORRETNING - SKALLSTØPERIET - STRAND EIENDOMSUTVIKLING",
+    "dato": "02.04.2012",
+    "dato_iso": "2012-04-02",
+    "dokumentID": "2012/7342",
+    "dokumenttype": "Saksframlegg",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2012000417!Cx07ZT/d-6965376f__8677__47ea__a757__23e14c179149-2012007342!fe2kj4",
+    "filer": [
+      {
+        "tekst": "49/652 DISPENSASJON OG RAMMETILLATELSE - BRUKSENDRING FRA INDUSTRI TIL FORRETNING - SKALLSTØPERIET - STRAND EIENDOMSUTVIKLING (pdf, 128KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-189481_1_A!d-2012007342!ZyZFM2?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "9/12 TILLATELSE TIL TILTAK - SMÅBÅTANLEGG / FLYTEBRYGGE VERVIK - KJERSTI HELEN H. UR",
+    "dato": "02.04.2012",
+    "dato_iso": "2012-04-02",
+    "dokumentID": "2012/7338",
+    "dokumenttype": "Saksframlegg",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2012000296!ESJhcb/d-6965376f__8677__47ea__a757__23e14c179149-2012007338!E9Jsmr",
+    "filer": [
+      {
+        "tekst": "9/12 TILLATELSE TIL TILTAK - SMÅBÅTANLEGG / FLYTEBRYGGE VERVIK - KJERSTI HELEN H. UR (pdf, 107KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-189477_1_A!d-2012007338!gt06ZR?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "PLAN 96-5, FJORDTUN. SØKNAD OM REGULERINGSENDRING",
+    "dato": "02.04.2012",
+    "dato_iso": "2012-04-02",
+    "dokumentID": "2012/6428",
+    "dokumenttype": "Saksframlegg",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2011000010!5kmiUn/d-6965376f__8677__47ea__a757__23e14c179149-2012006428!ukZYgH",
+    "filer": [
+      {
+        "tekst": "PLAN 96-5, FJORDTUN. SØKNAD OM REGULERINGSENDRING (pdf, 106KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-187530_3_A!d-2012006428!04JGbG?pid=29"
+      },
+      {
+        "tekst": "Søknad.pdf (pdf, 365KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-187599_1_A!d-2012006428!3Ig6Uf?pid=29"
+      },
+      {
+        "tekst": "Reguleringsplan med oversiktskart og foto.pdf (pdf, 843KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-187601_1_A!d-2012006428!eT0zpI?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "48/84 TILTAK UTEN ANSVARSRETT - NYTT INNGANGSPARTI M.M ESPERANTOVEGEN 10 - FRODE HELLAND",
+    "dato": "29.03.2012",
+    "dato_iso": "2012-03-29",
+    "dokumentID": "2012/7151",
+    "dokumenttype": "Saksframlegg",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2012000283!Q1fsJX/d-6965376f__8677__47ea__a757__23e14c179149-2012007151!8imO1L",
+    "filer": [
+      {
+        "tekst": "48/84 TILTAK UTEN ANSVARSRETT - NYTT INNGANGSPARTI M.M ESPERANTOVEGEN 10 - FRODE HELLAND (pdf, 356KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-189135_1_A!d-2012007151!nO9H94?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "MØTEPROTOKOLL KOMMUNESTYRET KOM 28.03.2012",
+    "dato": "29.03.2012",
+    "dato_iso": "2012-03-29",
+    "dokumentID": "2012/7105",
+    "dokumenttype": "Møteprotokoll",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2011001538!nrH6VV/d-6965376f__8677__47ea__a757__23e14c179149-2012007105!VVtsxN",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "42/10 SØKNAD OM FRÅDELING AV REGULERT NAUST, BARKA",
+    "dato": "29.03.2012",
+    "dato_iso": "2012-03-29",
+    "dokumentID": "2012/6608",
+    "dokumenttype": "Saksframlegg",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2012000260!FyLYgd/d-6965376f__8677__47ea__a757__23e14c179149-2012006608!ZDaBoH",
+    "filer": [
+      {
+        "tekst": "42/10 SØKNAD OM FRÅDELING AV REGULERT NAUST, BARKA (pdf, 101KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-187839_1_A!d-2012006608!p0RtGf?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "44/436 TILTAK UTEN ANSVARSRETT - CARPORT FJELLSVEGEN 3 - REIDAR KARSTEN OLSEN",
+    "dato": "29.03.2012",
+    "dato_iso": "2012-03-29",
+    "dokumentID": "2012/7148",
+    "dokumenttype": "Saksframlegg",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2012000452!spyPr4/d-6965376f__8677__47ea__a757__23e14c179149-2012007148!XY8gzb",
+    "filer": [
+      {
+        "tekst": "44/436 TILTAK UTEN ANSVARSRETT - CARPORT FJELLSVEGEN 3 - REIDAR KARSTEN OLSEN (pdf, 283KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-189132_1_A!d-2012007148!FfNNoT?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "47/665 TILTAK UTEN ANSVARSRETT - BOD MARMORSVINGEN 9A - OLAV FUNDINGSLAND BERGE",
+    "dato": "29.03.2012",
+    "dato_iso": "2012-03-29",
+    "dokumentID": "2012/7084",
+    "dokumenttype": "Saksframlegg",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2012000464!kYL0Q9/d-6965376f__8677__47ea__a757__23e14c179149-2012007084!AOApa3",
+    "filer": [
+      {
+        "tekst": "47/665 TILTAK UTEN ANSVARSRETT - BOD MARMORSVINGEN 9A - OLAV FUNDINGSLAND BERGE (pdf, 357KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-188947_1_A!d-2012007084!qDMja3?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "22/2 FORPAKTNINGSKONTRAKT",
+    "dato": "27.03.2012",
+    "dato_iso": "2012-03-27",
+    "dokumentID": "2012/6821",
+    "dokumenttype": "Saksframlegg",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2012000342!bKE4G3/d-6965376f__8677__47ea__a757__23e14c179149-2012006821!iTH0vi",
+    "filer": [
+      {
+        "tekst": "22/2 FORPAKTNINGSKONTRAKT (pdf, 138KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-188587_1_A!d-2012006821!z31ETh?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "48/123 DISPENSASJON FRA BYGGEGRENSE. TILLATELSE TIL TILTAK UTEN ANSVARSRETT - GARASJE MONABAKKEN 4 - ARNE SOLMUNDE",
+    "dato": "27.03.2012",
+    "dato_iso": "2012-03-27",
+    "dokumentID": "2012/6892",
+    "dokumenttype": "Saksframlegg",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2012000295!MX9wts/d-6965376f__8677__47ea__a757__23e14c179149-2012006892!VxcmTw",
+    "filer": [
+      {
+        "tekst": "48/123 TILLATELSE TIL TILTAK UTEN ANSVARSRETT - GARASJE MONABAKKEN 4 - ARNE SOLMUNDE (pdf, 301KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-188680_1_A!d-2012006892!y4GK8X?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "16/62 DISPENSASJON FRA ENERGIKRAVENE. TILLATELSE TIL TILTAK - PÅBYGG BOLIG KVEDNANESVEGEN 89 - JOAR KVAME",
+    "dato": "27.03.2012",
+    "dato_iso": "2012-03-27",
+    "dokumentID": "2012/6901",
+    "dokumenttype": "Saksframlegg",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2012000427!QwTYvF/d-6965376f__8677__47ea__a757__23e14c179149-2012006901!naItbZ",
+    "filer": [
+      {
+        "tekst": "16/62 TILLATELSE TIL TILTAK - PÅBYGG BOLIG KVEDNANESVEGEN 89 - JOAR KVAME (pdf, 107KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-188694_1_A!d-2012006901!XKr996?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "MØTEPROTOKOLL UNGDOMSRÅDET SUR 22.03.2012",
+    "dato": "26.03.2012",
+    "dato_iso": "2012-03-26",
+    "dokumentID": "2012/6354",
+    "dokumenttype": "Møteprotokoll",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2011001496!ws9fxU/d-6965376f__8677__47ea__a757__23e14c179149-2012006354!aOYrBk",
+    "filer": [
+      {
+        "tekst": "Møteprotokoll Ungdomsrådet SUR 22.03.2012 (pdf, 138KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-187427_1_A!d-2012006354!Mqdisw?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "MØTEBOK UNGDOMSRÅDET SUR 22.03.2012",
+    "dato": "26.03.2012",
+    "dato_iso": "2012-03-26",
+    "dokumentID": "2012/6550",
+    "dokumenttype": "Møtebok",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2011001496!ws9fxU/d-6965376f__8677__47ea__a757__23e14c179149-2012006550!ucVvYB",
+    "filer": [
+      {
+        "tekst": "Møtebok Ungdomsrådet SUR 22.03.2012 (pdf, 233KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-187779_1_A!d-2012006550!esKX62?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "49/9 SØKNAD OM FRÅDELING AV NAUSTTOMT, LIARVATNET",
+    "dato": "26.03.2012",
+    "dato_iso": "2012-03-26",
+    "dokumentID": "2012/6600",
+    "dokumenttype": "Saksframlegg",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2012000431!T16rFZ/d-6965376f__8677__47ea__a757__23e14c179149-2012006600!SDvntE",
+    "filer": [
+      {
+        "tekst": "49/9 SØKNAD OM FRÅDELING AV NAUSTTOMT, LIARVATNET (pdf, 99KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-187800_1_A!d-2012006600!BBFkYf?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "MØTEPROTOKOLL RÅDET FOR MENNESKER MED NEDSATT FUNKSJONSEVNE RFU 20.03.2012",
+    "dato": "23.03.2012",
+    "dato_iso": "2012-03-23",
+    "dokumentID": "2012/6063",
+    "dokumenttype": "Møteprotokoll",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2011001518!utvUju/d-6965376f__8677__47ea__a757__23e14c179149-2012006063!BOMvdc",
+    "filer": [
+      {
+        "tekst": "Møteprotokoll Rådet for mennesker med nedsatt funksjonsevne RFU 20.03.2012 (pdf, 163KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-186932_1_A!d-2012006063!znlafz?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "43/16 ENDRING AV RAMMETILLATELSE OG IGAGNSETTINGSTILLATELSE - 2 STK. 4-MANNSBOLIG - MELTVEIT EIENDOMSUTVIKLING - SAMSLÅTTÅ",
+    "dato": "23.03.2012",
+    "dato_iso": "2012-03-23",
+    "dokumentID": "2012/6497",
+    "dokumenttype": "Saksframlegg",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2008000740!B2sE77/d-6965376f__8677__47ea__a757__23e14c179149-2012006497!rkPeaa",
+    "filer": [
+      {
+        "tekst": "43/16 ENDRING AV RAMMETILLATELSE OG IGAGNSETTINGSTILLATELSE - 2 STK. 4-MANNSBOLIG - MELTVEIT EIENDOMSUTVIKLING - SAMSLÅTTÅ (pdf, 344KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-187671_1_A!d-2012006497!wUr2Uq?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Møtebok Rådet for mennesker med nedsatt funksjonsevne RFU 20.03.2012",
+    "dato": "23.03.2012",
+    "dato_iso": "2012-03-23",
+    "dokumentID": "2012/6516",
+    "dokumenttype": "Møtebok",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2011001518!utvUju/d-6965376f__8677__47ea__a757__23e14c179149-2012006516!PJTOaI",
+    "filer": [
+      {
+        "tekst": "Møtebok Rådet for mennesker med nedsatt funksjonsevne RFU 20.03.2012 (pdf, 229KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-187723_1_A!d-2012006516!qGpGd7?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "16/319 IGANGSETTINGSTILLATELSE - LAGERHALL BREIVIKVEGEN 47 - UR EIENDOM AS",
+    "dato": "23.03.2012",
+    "dato_iso": "2012-03-23",
+    "dokumentID": "2012/6498",
+    "dokumenttype": "Saksframlegg",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2012000073!d47IbS/d-6965376f__8677__47ea__a757__23e14c179149-2012006498!TUELEv",
+    "filer": [
+      {
+        "tekst": "16/319 IGANGSETTINGSTILLATELSE - LAGERHALL BREIVIKVEGEN 47 - UR EIENDOM AS (pdf, 117KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-187672_1_A!d-2012006498!Wwbx2a?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "53/375 ENDRING AV TILLATELSE TIL TILTAK - JUSTERT PLASSERING, PLANTEGNING OG",
+    "dato": "22.03.2012",
+    "dato_iso": "2012-03-22",
+    "dokumentID": "2012/6410",
+    "dokumenttype": "Saksframlegg",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2011000785!tbkqjM/d-6965376f__8677__47ea__a757__23e14c179149-2012006410!jAMW7n",
+    "filer": [
+      {
+        "tekst": "53/375 ENDRING AV TILLATELSE TIL TILTAK - JUSTERT PLASSERING, PLANTEGNING OG (pdf, 258KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-187502_1_A!d-2012006410!z8AHUe?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "49/661 TILLATELSE TIL TILTAK I ETT TRINN – RIVE FRITIDSBOLIG – NY FRITIDSBOLIG, LIARVATNET - BØRGE OANES",
+    "dato": "22.03.2012",
+    "dato_iso": "2012-03-22",
+    "dokumentID": "2012/6342",
+    "dokumenttype": "Saksframlegg",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2012000381!wlX6rE/d-6965376f__8677__47ea__a757__23e14c179149-2012006342!s6elDV",
+    "filer": [
+      {
+        "tekst": "49/661 TILLATELSE TIL TILTAK I ETT TRINN - FRITIDSBOLIG LIARVATNET - BØRGE OANES (pdf, 284KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-187421_1_A!d-2012006342!pzvcG6?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "7/1 ENDRING AV TILLATELSE TIL TILTAK - TERRENGARBEIDER / UTVIDELSE AV INDUSTRIOMRÅDE - FISKÅ MØLLE",
+    "dato": "22.03.2012",
+    "dato_iso": "2012-03-22",
+    "dokumentID": "2012/6412",
+    "dokumenttype": "Saksframlegg",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2011001328!3F6AcL/d-6965376f__8677__47ea__a757__23e14c179149-2012006412!mwHNkS",
+    "filer": [
+      {
+        "tekst": "7/1 ENDRING AV TILLATELSE TIL TILTAK - EN TERRENGARBEIDER / UTVIDELSE AV INDUSTRIOMRÅDE - FISKÅ MØLLE (pdf, 98KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-187504_1_A!d-2012006412!PPjIQ7?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "63/1/18 TILLATELSE TIL TILTAK - FRITIDSBOLIG",
+    "dato": "22.03.2012",
+    "dato_iso": "2012-03-22",
+    "dokumentID": "2012/6392",
+    "dokumenttype": "Saksframlegg",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2011000939!RsP3UJ/d-6965376f__8677__47ea__a757__23e14c179149-2012006392!obGQ08",
+    "filer": [
+      {
+        "tekst": "63/1/18 TILLATELSE TIL TILTAK - FRITIDSBOLIG (pdf, 319KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-187474_1_A!d-2012006392!qPsc71?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "SAKSKART KOMMUNESTYRET KOM 28.03.2012",
+    "dato": "20.03.2012",
+    "dato_iso": "2012-03-20",
+    "dokumentID": "2012/6095",
+    "dokumenttype": "Sakskart",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2011001538!nrH6VV/d-6965376f__8677__47ea__a757__23e14c179149-2012006095!dkIhHt",
+    "filer": [
+      {
+        "tekst": "Sakskart Kommunestyret KOM 28.03.2012 (pdf, 1MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-186979_1_A!d-2012006095!yC9xei?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "31/237 SØKNAD OM SEKSJONERING, RAUNEVEGEN - TAU",
+    "dato": "19.03.2012",
+    "dato_iso": "2012-03-19",
+    "dokumentID": "2012/5967",
+    "dokumenttype": "Saksframlegg",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2012000387!7xP1b0/d-6965376f__8677__47ea__a757__23e14c179149-2012005967!cDsZsI",
+    "filer": [
+      {
+        "tekst": "31/237 SØKNAD OM SEKSJONERING, RAUNEVEGEN - TAU (pdf, 97KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-186814_1_A!d-2012005967!GnfDIb?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "MØTEBOK SENIORRÅDET ELD 14.03.2012",
+    "dato": "19.03.2012",
+    "dato_iso": "2012-03-19",
+    "dokumentID": "2012/6062",
+    "dokumenttype": "Møtebok",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2011001511!EtWu1Q/d-6965376f__8677__47ea__a757__23e14c179149-2012006062!XOe5kV",
+    "filer": [
+      {
+        "tekst": "Møtebok Seniorrådet ELD 14.03.2012 (pdf, 237KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-186919_1_A!d-2012006062!vqDHcA?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "16/140 OG 410 ENDRING AV ANSVARSRETT - BOLIGER, RYFYLKEVEGEN 1974",
+    "dato": "19.03.2012",
+    "dato_iso": "2012-03-19",
+    "dokumentID": "2012/6053",
+    "dokumenttype": "Saksframlegg",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2009001073!fFozuF/d-6965376f__8677__47ea__a757__23e14c179149-2012006053!uh9I7P",
+    "filer": [
+      {
+        "tekst": "16/140 OG 410 ENDRING AV TILLATELSE - BYTTE AV ANSVARSRETTER - BOLIGER, RYFYLKEVEGEN 1974 (pdf, 264KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-186909_1_A!d-2012006053!w0xgtX?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "31/32 SØKNAD OM FRÅDELING - GRENSEJUSTERING, TAU",
+    "dato": "19.03.2012",
+    "dato_iso": "2012-03-19",
+    "dokumentID": "2012/6035",
+    "dokumenttype": "Saksframlegg",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2012000420!FnZwoG/d-6965376f__8677__47ea__a757__23e14c179149-2012006035!m9hKIw",
+    "filer": [
+      {
+        "tekst": "31/32 SØKNAD OM FRÅDELING - GRENSEJUSTERING, TAU (pdf, 270KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-186899_1_A!d-2012006035!GBotuy?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "MØTEPROTOKOLL ADMINISTRASJONSUTVALGET ADM 14.03.2012",
+    "dato": "19.03.2012",
+    "dato_iso": "2012-03-19",
+    "dokumentID": "2012/5756",
+    "dokumenttype": "Møteprotokoll",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2011001557!baU8Ku/d-6965376f__8677__47ea__a757__23e14c179149-2012005756!wTLxeP",
+    "filer": [
+      {
+        "tekst": "Møteprotokoll Administrasjonsutvalget ADM 14.03.2012 (pdf, 180KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-186549_1_A!d-2012005756!2IhKqD?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Møtebok Administrasjonsutvalget ADM 14.03.2012",
+    "dato": "16.03.2012",
+    "dato_iso": "2012-03-16",
+    "dokumentID": "2012/5950",
+    "dokumenttype": "Møtebok",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2011001557!baU8Ku/d-6965376f__8677__47ea__a757__23e14c179149-2012005950!6Hiqgs",
+    "filer": [
+      {
+        "tekst": "Møtebok Administrasjonsutvalget ADM 14.03.2012 (pdf, 396KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-186805_1_A!d-2012005950!coA5U8?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "MØTEBOK LEVEKÅRSUTVALGET LEV 13.03.2012",
+    "dato": "16.03.2012",
+    "dato_iso": "2012-03-16",
+    "dokumentID": "2012/5983",
+    "dokumenttype": "Møtebok",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2011001504!IlEGFY/d-6965376f__8677__47ea__a757__23e14c179149-2012005983!cjbECl",
+    "filer": [
+      {
+        "tekst": "Møtebok Levekårsutvalget LEV 13.03.2012 (pdf, 342KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-186840_1_A!d-2012005983!R0OSNT?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Møtebok Formannskapet FOR 14.03.2012",
+    "dato": "16.03.2012",
+    "dato_iso": "2012-03-16",
+    "dokumentID": "2012/5926",
+    "dokumenttype": "Møtebok",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2011001544!89ewFJ/d-6965376f__8677__47ea__a757__23e14c179149-2012005926!xOaXEP",
+    "filer": [
+      {
+        "tekst": "Møtebok Formannskapet FOR 14.03.2012 (pdf, 517KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-186771_1_A!d-2012005926!CJEECW?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "45/6 SØKNAD OM FRADELING AV BOLIGTOMT, ØVRE FJELDE",
+    "dato": "16.03.2012",
+    "dato_iso": "2012-03-16",
+    "dokumentID": "2012/5116",
+    "dokumenttype": "Saksframlegg",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2012000290!gHyILC/d-6965376f__8677__47ea__a757__23e14c179149-2012005116!aGiEaL",
+    "filer": [
+      {
+        "tekst": "45/6 SØKNAD OM FRÅDELING AV BUSTADTOMT, ØVRE FJELDE (pdf, 246KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-185574_1_A!d-2012005116!mfvwAN?pid=29"
+      },
+      {
+        "tekst": "F KART (pdf, 355KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-183915_1_A!d-2012005116!s57C3h?pid=29"
+      },
+      {
+        "tekst": "45/6 SØKNAD OM FRADELING - ETT-TRINNS SØKNADSBEHANDLING (pdf, 520KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-183912_1_A!d-2012005116!x1BJGi?pid=29"
+      },
+      {
+        "tekst": "J REKVISISJON AV OPPMÅLINGSFORRETNING (pdf, 343KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-183913_1_A!d-2012005116!DH0UPk?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "31/706 SØKNAD OM FRÅDELING",
+    "dato": "16.03.2012",
+    "dato_iso": "2012-03-16",
+    "dokumentID": "2012/5970",
+    "dokumenttype": "Saksframlegg",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2012000371!ySrZBN/d-6965376f__8677__47ea__a757__23e14c179149-2012005970!rZqTXB",
+    "filer": [
+      {
+        "tekst": "31/706 SØKNAD OM FRÅDELING (pdf, 255KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-186816_1_A!d-2012005970!47nWvG?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Møtebok Forvaltningsutvalget FVA 15.03.2012",
+    "dato": "16.03.2012",
+    "dato_iso": "2012-03-16",
+    "dokumentID": "2012/5978",
+    "dokumenttype": "Møtebok",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2011001551!kKxR4J/d-6965376f__8677__47ea__a757__23e14c179149-2012005978!oZTU1j",
+    "filer": [
+      {
+        "tekst": "Møtebok Forvaltningsutvalget FVA 15.03.2012 (pdf, 476KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-186827_1_A!d-2012005978!P3XTWb?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "44/803 DISPENSASJON OG TILLATELSE TIL TILTAK - BOLIG MED CARPORT, NYGÅRDSBAKKEN 8 - MARIT NORHEIM",
+    "dato": "15.03.2012",
+    "dato_iso": "2012-03-15",
+    "dokumentID": "2012/5903",
+    "dokumenttype": "Saksframlegg",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2012000228!rhm8Jw/d-6965376f__8677__47ea__a757__23e14c179149-2012005903!u3YaxE",
+    "filer": [
+      {
+        "tekst": "44/803 DISPENSASJON OG TILLATELSE TIL TILTAK - BOLIG NYGÅRDSBAKKEN 8 - MARIT NORHEIM (pdf, 320KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-186728_1_A!d-2012005903!OKvufK?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "47/599 TILLATELSE TIL TILTAK UTEN ANSVARSRETT - TILBYGG KLOVSTEINSVEGEN 3A - TROND HELGELAND",
+    "dato": "15.03.2012",
+    "dato_iso": "2012-03-15",
+    "dokumentID": "2012/5372",
+    "dokumenttype": "Saksframlegg",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2012000142!FmZDEk/d-6965376f__8677__47ea__a757__23e14c179149-2012005372!VD4Rab",
+    "filer": [
+      {
+        "tekst": "47/599 TILLATELSE TIL TILTAK UTEN ANSVARSRETT - TILBYGG KLOVSTEINSVEGEN 3A - TROND HELGELAND (pdf, 301KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-185961_2_A!d-2012005372!7TM6wE?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "47/299 TILLATELSE TIL TILTAK -TILBYGG SYRINRINGEN 21B - PETTER KNUDSEN",
+    "dato": "15.03.2012",
+    "dato_iso": "2012-03-15",
+    "dokumentID": "2012/5852",
+    "dokumenttype": "Saksframlegg",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2012000334!lO9jO5/d-6965376f__8677__47ea__a757__23e14c179149-2012005852!MK3ymR",
+    "filer": [
+      {
+        "tekst": "47/299 TILLATELSE TIL TILTAK -TILBYGG SYRINRINGEN 21B - PETTER KNUDSEN (pdf, 102KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-186681_1_A!d-2012005852!85vkQn?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "MØTEPROTOKOLL LEVEKÅRSUTVALGET LEV 13.03.2012",
+    "dato": "15.03.2012",
+    "dato_iso": "2012-03-15",
+    "dokumentID": "2012/5612",
+    "dokumenttype": "Møteprotokoll",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2011001504!IlEGFY/d-6965376f__8677__47ea__a757__23e14c179149-2012005612!gqlfz6",
+    "filer": [
+      {
+        "tekst": "Møteprotokoll Levekårsutvalget LEV 13.03.2012 (pdf, 150KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-186285_1_A!d-2012005612!ve7kHB?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Møteprotokoll Forvaltningsutvalget FVA 15.03.2012",
+    "dato": "15.03.2012",
+    "dato_iso": "2012-03-15",
+    "dokumentID": "2012/5893",
+    "dokumenttype": "Møteprotokoll",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2011001551!kKxR4J/d-6965376f__8677__47ea__a757__23e14c179149-2012005893!QM8IGO",
+    "filer": [
+      {
+        "tekst": "Møteprotokoll Forvaltningsutvalget FVA 15.03.2012 (pdf, 193KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-186726_1_A!d-2012005893!FjyI9W?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Møteprotokoll Formannskapet FOR 14.03.2012",
+    "dato": "14.03.2012",
+    "dato_iso": "2012-03-14",
+    "dokumentID": "2012/5771",
+    "dokumenttype": "Møteprotokoll",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2011001544!89ewFJ/d-6965376f__8677__47ea__a757__23e14c179149-2012005771!3F1edN",
+    "filer": [
+      {
+        "tekst": "Møteprotokoll Formannskapet FOR 14.03.2012 (pdf, 176KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-186568_2_A!d-2012005771!7xLfR1?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "16/6 TILLATELSE TIL TILTAK ETT-TRINNS SØKNADSBEHANDLING- CARPORT/ BODER DELFELT B10, B11, B12 TOMT 10-22 TAUMARKA- JADARHUS",
+    "dato": "14.03.2012",
+    "dato_iso": "2012-03-14",
+    "dokumentID": "2012/5796",
+    "dokumenttype": "Saksframlegg",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2012000271!V0vblB/d-6965376f__8677__47ea__a757__23e14c179149-2012005796!r2HnpJ",
+    "filer": [
+      {
+        "tekst": "16/6 TILLATELSE TIL TILTAK ETT-TRINNS SØKNADSBEHANDLING- CARPORT/ BODER DELFELT B10, B11, B12 TOMT 10-22 TAUMARKA- JADARHUS (pdf, 289KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-186601_1_A!d-2012005796!midtU0?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "31/1/55 ENDRING ANSVARLIG SØKER OG IGANGSETTING HELE TILTAKET",
+    "dato": "14.03.2012",
+    "dato_iso": "2012-03-14",
+    "dokumentID": "2012/5776",
+    "dokumenttype": "Saksframlegg",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2010001391!BAiD6Y/d-6965376f__8677__47ea__a757__23e14c179149-2012005776!aRepop",
+    "filer": [
+      {
+        "tekst": "31/1/55 ENDRING ANSVARLIG SØKER OG IGANGSETTING HELE TILTAKET (pdf, 174KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-186579_1_A!d-2012005776!OPtJti?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "53/169 TILTAK UTEN ANSVARSRETT - TILBYGG/OMBYGGING AV NAUST",
+    "dato": "14.03.2012",
+    "dato_iso": "2012-03-14",
+    "dokumentID": "2012/5816",
+    "dokumenttype": "Saksframlegg",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2011000363!Wu0k4Z/d-6965376f__8677__47ea__a757__23e14c179149-2012005816!Zp3sQ8",
+    "filer": [
+      {
+        "tekst": "53/169 TILTAK UTEN ANSVARSRETT - TILBYGG/OMBYGGING AV NAUST (pdf, 139KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-186633_1_A!d-2012005816!giavVJ?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "MØTEPROTOKOLL SENIORRÅDET ELD 14.03.2012",
+    "dato": "13.03.2012",
+    "dato_iso": "2012-03-13",
+    "dokumentID": "2012/5745",
+    "dokumenttype": "Møteprotokoll",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2011001511!EtWu1Q/d-6965376f__8677__47ea__a757__23e14c179149-2012005745!G8s4bY",
+    "filer": [
+      {
+        "tekst": "Møteprotokoll Seniorrådet ELD 14.03.2012 (pdf, 149KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-186530_1_A!d-2012005745!Le0ihb?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "47/613 DISPENSASJON OG TILLATELSE TIL TILTAK I ETT TRINN - ERSTATNINGSHYTTE BJØRHEIMSHEIA - ODD ARNE RAVNÅS",
+    "dato": "12.03.2012",
+    "dato_iso": "2012-03-12",
+    "dokumentID": "2012/5531",
+    "dokumenttype": "Saksframlegg",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2012000202!QhYkXm/d-6965376f__8677__47ea__a757__23e14c179149-2012005531!9yHuvF",
+    "filer": [
+      {
+        "tekst": "47/613 DISPENSASJON OG TILLATELSE TIL TILTAK I ETT TRINN - ERSTATNINGSHYTTE - ODD ARNE RAVNÅS (pdf, 280KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-186132_1_A!d-2012005531!dAOX8m?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "REFERATSAKER",
+    "dato": "12.03.2012",
+    "dato_iso": "2012-03-12",
+    "dokumentID": "2012/5564",
+    "dokumenttype": "Saksframlegg",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2012000414!BQ6wsi/d-6965376f__8677__47ea__a757__23e14c179149-2012005564!1my9BT",
+    "filer": [
+      {
+        "tekst": "REFERATSAKER (pdf, 395KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-186198_2_A!d-2012005564!5mRYLZ?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "SAKSKART RÅDET FOR MENNESKER MED NEDSATT FUNKSJONSEVNE RFU 20.03.2012",
+    "dato": "12.03.2012",
+    "dato_iso": "2012-03-12",
+    "dokumentID": "2012/5565",
+    "dokumenttype": "Sakskart",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2011001518!utvUju/d-6965376f__8677__47ea__a757__23e14c179149-2012005565!SbvGpw",
+    "filer": [
+      {
+        "tekst": "Sakskart Rådet for mennesker med nedsatt funksjonsevne RFU 20.03.2012 (pdf, 171KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-186201_1_A!d-2012005565!GEG1Hq?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "SAKSKART UNGDOMSRÅDET SUR 22.03.2012",
+    "dato": "12.03.2012",
+    "dato_iso": "2012-03-12",
+    "dokumentID": "2012/5593",
+    "dokumenttype": "Sakskart",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2011001496!ws9fxU/d-6965376f__8677__47ea__a757__23e14c179149-2012005593!qU5uzI",
+    "filer": [
+      {
+        "tekst": "Sakskart Ungdomsrådet SUR 22.03.2012 (pdf, 222KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-186259_1_A!d-2012005593!BRSHlE?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "63/129 SØKNAD OM FRÅDELING AV TOMT TIL FRITIDSFØREMÅL, TANGANE",
+    "dato": "12.03.2012",
+    "dato_iso": "2012-03-12",
+    "dokumentID": "2011/25010",
+    "dokumenttype": "Saksframlegg",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2011001465!Rr1Cp4/d-6965376f__8677__47ea__a757__23e14c179149-2011025010!9zve3N",
+    "filer": [
+      {
+        "tekst": "63/129 SØKNAD OM FRÅDELING AV TOMT TIL FRITIDSFØREMÅL, TANGANE (pdf, 468KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-177405_1_A!d-2011025010!e74c4z?pid=29"
+      },
+      {
+        "tekst": "63/129 REKVISISJON AV OPPMÅLINGSFORRETNING (pdf, 390KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-176390_1_A!d-2011025010!KelV7y?pid=29"
+      },
+      {
+        "tekst": "KART VEDLEGG I.PDF (pdf, 98KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-177491_1_A!d-2011025010!Fg3QuP?pid=29"
+      },
+      {
+        "tekst": "KART VEDLEGG II.PDF (pdf, 153KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-177490_1_A!d-2011025010!pfrY3d?pid=29"
+      },
+      {
+        "tekst": "KART VEDLEGG III.PDF (pdf, 95KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-177489_1_A!d-2011025010!vD18AA?pid=29"
+      },
+      {
+        "tekst": "63/129 UTTALE VEDKOMANDE SØKNAD OM DISPENSASJON FRÅ REGULERINGSPLAN FOR FRÅDELING AV TOMT TIL FRITIDSFØREMÅL PÅ TANGANE, IDSE (pdf, 261KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-177495_1_A!d-2011025010!Ms1hwd?pid=29"
+      },
+      {
+        "tekst": "63/129 FRÅSEGN TIL DISPENSASJON FOR FRÅDELING TIL FRITIDSFØREMÅL, TANGANE, IDSE (pdf, 302KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-185506_1_A!d-2011025010!PDnSEL?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "31/37 SEKSJON 06 TILTAK UTEN ANSVARSRETT - TILBYGG GULLBEKKVEGEN 40C - GUNN G. FLAGE",
+    "dato": "09.03.2012",
+    "dato_iso": "2012-03-09",
+    "dokumentID": "2012/5475",
+    "dokumenttype": "Saksframlegg",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2012000282!IRzmbR/d-6965376f__8677__47ea__a757__23e14c179149-2012005475!dUP993",
+    "filer": [
+      {
+        "tekst": "31/37 SEKSJON 06 TILTAK UTEN ANSVARSRETT - TILBYGG GULLBEKKVEGEN 40C - GUNN G. FLAGE (pdf, 301KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-186079_1_A!d-2012005475!KsawjQ?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "30/71 TILTAK UTEN ANSVARSRETT - GARASJE",
+    "dato": "09.03.2012",
+    "dato_iso": "2012-03-09",
+    "dokumentID": "2012/5469",
+    "dokumenttype": "Saksframlegg",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2011000756!naimYN/d-6965376f__8677__47ea__a757__23e14c179149-2012005469!db4Q31",
+    "filer": [
+      {
+        "tekst": "30/71 TILTAK UTEN ANSVARSRETT - GARASJE (pdf, 281KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-186031_1_A!d-2012005469!sOVsal?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "49/86 TILLATELSE TIL TILTAK - BRUKSENDRING",
+    "dato": "08.03.2012",
+    "dato_iso": "2012-03-08",
+    "dokumentID": "2012/5276",
+    "dokumenttype": "Saksframlegg",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2011001121!zGEEK6/d-6965376f__8677__47ea__a757__23e14c179149-2012005276!ubkVGU",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "31/7 KONSESJON VED ERVERV AV FAST EIENDOM",
+    "dato": "07.03.2012",
+    "dato_iso": "2012-03-07",
+    "dokumentID": "2012/5068",
+    "dokumenttype": "Saksframlegg",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2012000143!uOgMuS/d-6965376f__8677__47ea__a757__23e14c179149-2012005068!ddMtBr",
+    "filer": [
+      {
+        "tekst": "31/7 KONSESJON VED ERVERV AV FAST EIENDOM (pdf, 158KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-185466_2_A!d-2012005068!ksOq4n?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "42/61 SØKNAD OM SEKSJONERING ,BARKA",
+    "dato": "07.03.2012",
+    "dato_iso": "2012-03-07",
+    "dokumentID": "2012/5117",
+    "dokumenttype": "Saksframlegg",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2012000323!q87uN2/d-6965376f__8677__47ea__a757__23e14c179149-2012005117!2V1Irt",
+    "filer": [
+      {
+        "tekst": "42/61 SØKNAD OM SEKSJONERING ,BARKA (pdf, 99KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-185575_1_A!d-2012005117!Qd2PQp?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "SAKSKART ADMINISTRASJONSUTVALGET ADM 14.03.2012",
+    "dato": "06.03.2012",
+    "dato_iso": "2012-03-06",
+    "dokumentID": "2012/4996",
+    "dokumenttype": "Sakskart",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2011001557!baU8Ku/d-6965376f__8677__47ea__a757__23e14c179149-2012004996!Xp4oS9",
+    "filer": [
+      {
+        "tekst": "Sakskart Administrasjonsutvalget ADM 14.03.2012 (pdf, 362KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-185408_1_A!d-2012004996!4PnP0E?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "40/7 KLAGE PÅ DISPENASJON OG TILLATELSE TIL TILTAK - BOLIG - GØYSAVIK FORSAND KOMMUNE - JOHN EREVIK",
+    "dato": "06.03.2012",
+    "dato_iso": "2012-03-06",
+    "dokumentID": "2012/5119",
+    "dokumenttype": "Saksframlegg",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2012000120!F6i5MO/d-6965376f__8677__47ea__a757__23e14c179149-2012005119!nPpOiG",
+    "filer": [
+      {
+        "tekst": "40/7 KLAGE PÅ DISPENASJON OG TILLATELSE TIL TILTAK - BOLIG - GØYSAVIK FORSAND KOMMUNE - JOHN EREVIK (pdf, 141KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-185577_1_A!d-2012005119!6A0qxK?pid=29"
+      },
+      {
+        "tekst": "Dispensasjon og tillatelse.pdf (pdf, 269KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-185578_1_A!d-2012005119!Bn8sba?pid=29"
+      },
+      {
+        "tekst": "Søknad om dispensasjon.pdf (pdf, 52KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-185589_1_A!d-2012005119!dacaIh?pid=29"
+      },
+      {
+        "tekst": "Søknad om tillatelse til tiltak.pdf (pdf, 235KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-185588_1_A!d-2012005119!qGWkph?pid=29"
+      },
+      {
+        "tekst": "Fasade og snitt tegninger.pdf (pdf, 419KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-185579_1_A!d-2012005119!gKSRfE?pid=29"
+      },
+      {
+        "tekst": "SITUASJONSKART.PDF (pdf, 462KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-185585_1_A!d-2012005119!gkoUSV?pid=29"
+      },
+      {
+        "tekst": "Nabosamtykke.pdf (pdf, 79KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-185583_1_A!d-2012005119!cdnMbE?pid=29"
+      },
+      {
+        "tekst": "Naboprotest.pdf (pdf, 76KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-185582_1_A!d-2012005119!GAsjAW?pid=29"
+      },
+      {
+        "tekst": "Klage på vedtak.pdf (pdf, 186KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-185580_1_A!d-2012005119!2JtDP6?pid=29"
+      },
+      {
+        "tekst": "Merknad til klage.pdf (pdf, 177KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-185581_1_A!d-2012005119!5RKk96?pid=29"
+      },
+      {
+        "tekst": "Reguleringsplan og bestemmelser.pdf (pdf, 204KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-185584_1_A!d-2012005119!744hXh?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "SAKSKART SENIORRÅDET ELD 14.03.2012",
+    "dato": "06.03.2012",
+    "dato_iso": "2012-03-06",
+    "dokumentID": "2012/5062",
+    "dokumenttype": "Sakskart",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2011001511!EtWu1Q/d-6965376f__8677__47ea__a757__23e14c179149-2012005062!xsUjV1",
+    "filer": [
+      {
+        "tekst": "Sakskart Seniorrådet ELD 14.03.2012 (pdf, 194KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-185460_1_A!d-2012005062!VdH4Cm?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "5/4 DISPENSASJON OG TILLATELSE TIL TILTAK I ETT TRINN - PÅBYGG VOSTERVEGEN 49 - KOLBEIN VOSTER",
+    "dato": "05.03.2012",
+    "dato_iso": "2012-03-05",
+    "dokumentID": "2012/4939",
+    "dokumenttype": "Saksframlegg",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2012000262!5YAXPH/d-6965376f__8677__47ea__a757__23e14c179149-2012004939!okwcpv",
+    "filer": [
+      {
+        "tekst": "5/4 DISPENSASJON OG TILLATELSE TIL TILTAK - PÅBYGG VOSTERVEGEN 49 - KOLBEIN VOSTER (pdf, 276KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-185308_1_A!d-2012004939!khU5BY?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "SAKSKART LEVEKÅRSUTVALGET LEV 13.03.2012",
+    "dato": "05.03.2012",
+    "dato_iso": "2012-03-05",
+    "dokumentID": "2012/4963",
+    "dokumenttype": "Sakskart",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2011001504!IlEGFY/d-6965376f__8677__47ea__a757__23e14c179149-2012004963!dQ9F5O",
+    "filer": [
+      {
+        "tekst": "Sakskart Levekårsutvalget LEV 13.03.2012 (pdf, 338KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-185353_1_A!d-2012004963!dsFvT6?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "REFERATSAKER",
+    "dato": "05.03.2012",
+    "dato_iso": "2012-03-05",
+    "dokumentID": "2012/4962",
+    "dokumenttype": "Saksframlegg",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2012000366!v0ttso/d-6965376f__8677__47ea__a757__23e14c179149-2012004962!8OBFyQ",
+    "filer": [
+      {
+        "tekst": "REFERATSAKER (pdf, 414KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-185352_2_A!d-2012004962!Y9eosQ?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "SAKSKART FORVALTNINGSUTVALGET FVA 15.03.2012",
+    "dato": "05.03.2012",
+    "dato_iso": "2012-03-05",
+    "dokumentID": "2012/4931",
+    "dokumenttype": "Sakskart",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2011001551!kKxR4J/d-6965376f__8677__47ea__a757__23e14c179149-2012004931!Xx1Mgi",
+    "filer": [
+      {
+        "tekst": "Sakskart Forvaltningsutvalget FVA 15.03.2012 (pdf, 422KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-185303_1_A!d-2012004931!xVUtfz?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "SAKSKART FORMANNSKAPET FOR 14.03.2012",
+    "dato": "05.03.2012",
+    "dato_iso": "2012-03-05",
+    "dokumentID": "2012/4993",
+    "dokumenttype": "Sakskart",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2011001544!89ewFJ/d-6965376f__8677__47ea__a757__23e14c179149-2012004993!TwFJSA",
+    "filer": [
+      {
+        "tekst": "Sakskart Formannskapet FOR 14.03.2012 (pdf, 498KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-185405_1_A!d-2012004993!h1Fh2c?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "64/4 KLAGE PÅ VEDTAK VEDKOMANDE SØKNAD OM DISPENSASJON FRÅ KOMMUNEPLANEN FOR FRÅDELING AV GARDSHUS PÅ HENG",
+    "dato": "02.03.2012",
+    "dato_iso": "2012-03-02",
+    "dokumentID": "2011/22167",
+    "dokumenttype": "Saksframlegg",
+    "avsender_mottaker": "",
+    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2008001884!DmrWo6/d-6965376f__8677__47ea__a757__23e14c179149-2011022167!d3WFwg",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
     "tittel": "NY 2. GANGS BEHANDLING REGULERINGSPLAN COMROD INDUSTRIOMRÅDE",
     "dato": "02.03.2012",
     "dato_iso": "2012-03-02",
