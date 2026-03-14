@@ -501894,5 +501894,69 @@
         "ny": 0
       }
     }
+  },
+  {
+    "tidspunkt": "2026-03-14 13:51:29",
+    "type": "UPDATE",
+    "dokumentID": "2026/8305",
+    "tittel": "50/18 Oppfølging av byggesak - stålpipe",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 3
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-03-14 13:51:29",
+    "type": "UPDATE",
+    "dokumentID": "2026/8295",
+    "tittel": "48/478 Oppfølging av byggesak - enebolig med sokkelleilighet",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 3
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-03-14 13:51:29",
+    "type": "UPDATE",
+    "dokumentID": "2026/8355",
+    "tittel": "Park og grønt - klage hundeparken - biler står med lys på mot bebyggelsen - 19.02.2026",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-03-14 13:51:29",
+    "type": "UPDATE",
+    "dokumentID": "2026/8253",
+    "tittel": "44/916 Dispensasjon - ny utslippskum og utslippsledning - Nedre Barkvedvegen 14 - uttalelse",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 2,
+        "ny": 0
+      }
+    }
   }
 ]
