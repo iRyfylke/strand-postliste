@@ -1019,8 +1019,17 @@
     "avsender_mottaker": "Avsender: Trebygg Strand As",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2016000500!gd0I3b/d-6965376f__8677__47ea__a757__23e14c179149-2020263225!wru50L",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "48/478 Vedrørende oppfølging av byggesak - enebolig med sokkelleilighet - Mellarhaugstien 10B - Ole Grammeltvedt (pdf, 105KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1250871_1_A!d-2020263225!84zmEG?pid=29"
+      },
+      {
+        "tekst": "48478 Oppfølging av byggesak - Enebolig med sokkelleilighet (pdf, 90KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1250872_1_A!d-2020263225!tZsSFW?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "48/184 Tillatelse til tiltak - tilbygg - Skogstjernevegen 10",
@@ -1653,8 +1662,21 @@
     "avsender_mottaker": "Avsender: Strand Kristelige Juniorkorps",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019035!Dcv9G3/d-6965376f__8677__47ea__a757__23e14c179149-2020263052!gZ5h2J",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "Søknad om kommunalt driftstilskudd (pdf, 600KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1250325_1_A!d-2020263052!A98Vqb?pid=29"
+      },
+      {
+        "tekst": "Regnskap og budsjett 2025 (pdf, 44KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1250326_1_A!d-2020263052!q2lBMT?pid=29"
+      },
+      {
+        "tekst": "Årsmelding 2025 (pdf, 145KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1250327_1_A!d-2020263052!ciibjj?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Bekreftelse på mottatt søknad - aktivitetsleder sommeraktiviteter - Kulturavdelingen",
@@ -2054,8 +2076,17 @@
     "avsender_mottaker": "Avsender: Rogaland fylkeskommune",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019784!ahhM54/d-6965376f__8677__47ea__a757__23e14c179149-2020263040!XiIY1T",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "44/916 Dispensasjon - ny utslippskum og utslippsledning - Nedre Barkvedvegen 14 - uttalelse (pdf, 101KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1250296_1_A!d-2020263040!xyFif0?pid=29"
+      },
+      {
+        "tekst": "Q Strand kommune - gnr 44 bnr 916 - dispensasjon - ny utslippskum og utslippsledning - Nedre Barkvedvegen 14 - uttalelse-f0ac01a1-6eaa-45cf-999d-7e4436d5c601.pdf (pdf, 820KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1250297_1_A!d-2020263040!IM79JU?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Endring i oppdragsavtale støttekontakt - frist utløpt",
