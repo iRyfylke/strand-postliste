@@ -501958,5 +501958,53 @@
         "ny": 0
       }
     }
+  },
+  {
+    "tidspunkt": "2026-03-15 07:13:24",
+    "type": "UPDATE",
+    "dokumentID": "2026/8355",
+    "tittel": "Park og grønt - klage hundeparken - biler står med lys på mot bebyggelsen - 19.02.2026",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-03-15 07:13:24",
+    "type": "UPDATE",
+    "dokumentID": "2026/8438",
+    "tittel": "48/478 Vedrørende oppfølging av byggesak - enebolig med sokkelleilighet - Mellarhaugstien 10B - Ole Grammeltvedt",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 2,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-03-15 07:13:24",
+    "type": "UPDATE",
+    "dokumentID": "2026/8265",
+    "tittel": "Søknad om kommunalt driftstilskudd",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 3,
+        "ny": 0
+      }
+    }
   }
 ]
