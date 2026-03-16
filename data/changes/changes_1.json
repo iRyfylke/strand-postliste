@@ -502054,5 +502054,37 @@
         "ny": 2
       }
     }
+  },
+  {
+    "tidspunkt": "2026-03-16 07:35:13",
+    "type": "UPDATE",
+    "dokumentID": "2026/8197",
+    "tittel": "Foreløpig svar på søknad om tilskudd til forebyggende arbeid hos eldre",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-03-16 07:35:13",
+    "type": "UPDATE",
+    "dokumentID": "2026/8230",
+    "tittel": "Prioritering av søknader om spillemidler for idrett og friluftsliv for tildeling i 2026",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
   }
 ]
