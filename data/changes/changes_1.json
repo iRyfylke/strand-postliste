@@ -529754,5 +529754,53 @@
         "ny": 0
       }
     }
+  },
+  {
+    "tidspunkt": "2026-03-22 07:06:13",
+    "type": "UPDATE",
+    "dokumentID": "2026/9269",
+    "tittel": "48/249 Søknad om tillatelse i ett trinn - to eneboliger - Moen 1A og 1B - Bygg Invest As",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 48,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-03-22 07:06:13",
+    "type": "UPDATE",
+    "dokumentID": "2026/9215",
+    "tittel": "20/1 Melding om vedtak- tilbygg/generasjonsbolig - Heggheimsvegen 88 - Kåre Nordbø",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 2
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-03-22 07:06:13",
+    "type": "UPDATE",
+    "dokumentID": "2026/9295",
+    "tittel": "49/652 Kommentar til krav om omgjering - byggesak - etablere forretning - Europris",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
   }
 ]
