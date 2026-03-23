@@ -533082,5 +533082,21 @@
         "ny": "Hjelmeland kommune - maling, tapet, gulvbelegg med tilhørende tjenester"
       }
     }
+  },
+  {
+    "tidspunkt": "2026-03-23 14:23:38",
+    "type": "UPDATE",
+    "dokumentID": "2026/9280",
+    "tittel": "43/379 Ferdigattest - enebolig - Barkvedstraen 28",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 4,
+        "ny": 0
+      }
+    }
   }
 ]
