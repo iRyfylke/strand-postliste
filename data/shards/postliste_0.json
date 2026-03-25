@@ -341,8 +341,69 @@
     "avsender_mottaker": "Avsender: Norgeshus Ryfylke As",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020041!KEcrSe/d-6965376f__8677__47ea__a757__23e14c179149-2020264432!577ngC",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "43/409 Søknad om rammetillatelse - enebolig - Nedre Barkvedvegen - Norgeshus Ryfylke As (pdf, 213KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1254317_1_A!d-2020264432!TaHmPx?pid=29"
+      },
+      {
+        "tekst": "B Dispensasjonssøknad - Søknad om dispensasjon midlertidig anleggsområde (pdf, 814KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1254321_1_A!d-2020264432!AYgdci?pid=29"
+      },
+      {
+        "tekst": "B Dispensasjonssøknad - Søknad om dispensasjon fra byggelinje2 (pdf, 811KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1254320_1_A!d-2020264432!BTqMMI?pid=29"
+      },
+      {
+        "tekst": "C Nabovarsel (pdf, 154KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1254329_1_A!d-2020264432!qGLnyK?pid=29"
+      },
+      {
+        "tekst": "C Kvittering for nabovarsel (pdf, 89KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1254324_1_A!d-2020264432!aXO6KW?pid=29"
+      },
+      {
+        "tekst": "D Situasjonsplan (pdf, 9,9MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1254318_1_A!d-2020264432!jICbxU?pid=29"
+      },
+      {
+        "tekst": "E Tegninger - ny fasade (pdf, 4,1MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1254319_1_A!d-2020264432!GVEDUL?pid=29"
+      },
+      {
+        "tekst": "F Redegjørelse - grunnforhold (pdf, 206KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1254323_1_A!d-2020264432!EI95sp?pid=29"
+      },
+      {
+        "tekst": "F Redegjørelse - veitrafikkstøy (pdf, 4,9MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1254322_1_A!d-2020264432!E3PJuN?pid=29"
+      },
+      {
+        "tekst": "G Gjennomføringsplan (pdf, 218KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1254333_1_A!d-2020264432!VuxIBu?pid=29"
+      },
+      {
+        "tekst": "G Erklæring om ansvarsrett - Norgeshus AS (pdf, 331KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1254325_1_A!d-2020264432!HCtTuL?pid=29"
+      },
+      {
+        "tekst": "G Erklæring om ansvarsrett - Norgeshus Ryfylke AS (pdf, 332KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1254326_1_A!d-2020264432!GcRqj8?pid=29"
+      },
+      {
+        "tekst": "G Erklæring om ansvarsrett - Norgeshus Ryfylke AS (pdf, 332KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1254327_1_A!d-2020264432!Y6QKmM?pid=29"
+      },
+      {
+        "tekst": "G Erklæring om ansvarsrett - Norgeshus Ryfylke AS (pdf, 332KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1254328_1_A!d-2020264432!vLBBlg?pid=29"
+      },
+      {
+        "tekst": "Q Vedleggsopplysninger (pdf, 172KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1254334_1_A!d-2020264432!rFssuz?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Henvendelse vedrørende sokkelleilighet",
@@ -931,8 +992,21 @@
     "avsender_mottaker": "Avsender: Anne Grete Ravnaas",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020226!0o6pZq/d-6965376f__8677__47ea__a757__23e14c179149-2020264248!eMzlmP",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "63/8/2 Søknad om tillatelse til tiltak uten ansvarsrett - gjenoppretting av brygge - Tangane 62 - Anne Grete Ravnaas (pdf, 2,2MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1253586_1_A!d-2020264248!9vVAOy?pid=29"
+      },
+      {
+        "tekst": "D Situasjonsplan (pdf, 982KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1253587_1_A!d-2020264248!IcVOWs?pid=29"
+      },
+      {
+        "tekst": "Q Følgebrev (pdf, 784KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1253588_1_A!d-2020264248!KoRNIE?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "44/675 Søknad om ferdigattest - hagestue på eksisterende terrasse - Kvitemyrkroken 3",
@@ -1296,8 +1370,13 @@
     "avsender_mottaker": "Avsender: Strand Videregående Skole",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019786!T7ZlgY/d-6965376f__8677__47ea__a757__23e14c179149-2020264279!S6mm7O",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "Søknad om tilskudd til forebyggende arbeid hos eldre (pdf, 601KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1253981_1_A!d-2020264279!CTNZtz?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Årlig innrapportering av vannverksdata for 2025 er fullført",
@@ -1350,25 +1429,8 @@
     "avsender_mottaker": "Avsender: Johnny Idsø",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020348!T8Igyh/d-6965376f__8677__47ea__a757__23e14c179149-2020264234!u4DBGX",
-    "filer": [
-      {
-        "tekst": "49/110 Søknad om tillatelse til tiltak - bruksendring garasjeloft - Direktør Poulsonsgate 23 - Johnny Idsø (pdf, 2MB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1253564_1_A!d-2020264234!jNmfim?pid=29"
-      },
-      {
-        "tekst": "E Tegninger (pdf, 1MB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1253565_1_A!d-2020264234!224k1Q?pid=29"
-      },
-      {
-        "tekst": "E Tegninger - plan (pdf, 323KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1253566_1_A!d-2020264234!yNxie1?pid=29"
-      },
-      {
-        "tekst": "E Tegninger - plan (pdf, 1MB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1253567_1_A!d-2020264234!CNkwb5?pid=29"
-      }
-    ],
-    "status": "Publisert"
+    "filer": [],
+    "status": "Må bes om innsyn"
   },
   {
     "tittel": "Avtaleutkast - Innkjøp av SLLB (Scene Lyd Lys Bilde)",

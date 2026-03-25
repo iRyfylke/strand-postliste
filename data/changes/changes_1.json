@@ -539846,5 +539846,69 @@
         "ny": 4
       }
     }
+  },
+  {
+    "tidspunkt": "2026-03-25 07:18:43",
+    "type": "UPDATE",
+    "dokumentID": "2026/9645",
+    "tittel": "43/409 Søknad om rammetillatelse - enebolig - Nedre Barkvedvegen - Norgeshus Ryfylke As",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 15
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-03-25 07:18:43",
+    "type": "UPDATE",
+    "dokumentID": "2026/9461",
+    "tittel": "63/8/2 Søknad om tillatelse til tiltak uten ansvarsrett - gjenoppretting av brygge - Tangane 62 - Anne Grete Ravnaas",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 3
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-03-25 07:18:43",
+    "type": "UPDATE",
+    "dokumentID": "2026/9492",
+    "tittel": "Søknad om tilskudd til forebyggende arbeid hos eldre",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-03-25 07:18:43",
+    "type": "UPDATE",
+    "dokumentID": "2026/9447",
+    "tittel": "49/110 Søknad om tillatelse til tiltak - bruksendring garasjeloft - Direktør Poulsonsgate 23 - Johnny Idsø",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 4,
+        "ny": 0
+      }
+    }
   }
 ]
