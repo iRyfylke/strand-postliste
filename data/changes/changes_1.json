@@ -545034,5 +545034,85 @@
         "ny": "53/305 Varsel oppmålingsforretning - nymerking"
       }
     }
+  },
+  {
+    "tidspunkt": "2026-03-26 07:26:35",
+    "type": "UPDATE",
+    "dokumentID": "2026/9773",
+    "tittel": "43/408, 43/409, 43/410, 43/341, 43/342, 43/331 Oppdatert uttalelse ved Barkvedkrossen - utkjørsel fylkesveg",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-03-26 07:26:35",
+    "type": "UPDATE",
+    "dokumentID": "2026/9741",
+    "tittel": "Spørsmål om dokumentasjon og praktisering av naustbestemmelsene",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 4,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-03-26 07:26:35",
+    "type": "UPDATE",
+    "dokumentID": "2026/9701",
+    "tittel": "38/20 Ferdigattest - rehabilitering av pipe - Heia 115",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-03-26 07:26:35",
+    "type": "UPDATE",
+    "dokumentID": "2026/9718",
+    "tittel": "48/108 Brannkonsept - firemannsbolig - Marmorvegen 17 - Trebygg Strand As - Tilsyn",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 3,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-03-26 07:26:35",
+    "type": "UPDATE",
+    "dokumentID": "2026/9555",
+    "tittel": "Foreløpig svar om driftstilskudd - ettersending av dokument",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
   }
 ]
