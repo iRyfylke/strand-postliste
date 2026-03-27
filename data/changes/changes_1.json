@@ -550398,5 +550398,37 @@
         "ny": "Signere egenerklæring om konsesjonsfrihet - frist utløpt"
       }
     }
+  },
+  {
+    "tidspunkt": "2026-03-27 07:23:37",
+    "type": "UPDATE",
+    "dokumentID": "2026/10043",
+    "tittel": "41/72 Søknad om ferdigattest - garasje - Nagavegen 156 - Gro Karin Wersland Nag",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-03-27 07:23:37",
+    "type": "UPDATE",
+    "dokumentID": "2026/9959",
+    "tittel": "110/3/34 110/3/3 Spørsmål vedrørende søknad om ferdigattest - Hamn 107 A og 107 B",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
   }
 ]

@@ -802,8 +802,13 @@
     "avsender_mottaker": "Avsender: Gro og Kåre Nag",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2018002524!qR8e0F/d-6965376f__8677__47ea__a757__23e14c179149-2020264830!PZ7jet",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "41/72 Søknad om ferdigattest - garasje - Nagavegen 156 - Gro Karin Wersland Nag (pdf, 1,3MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1255476_1_A!d-2020264830!FnvAas?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "63/136 Oppfølging av byggesak - rehabilitering skorstein",
@@ -1613,13 +1618,8 @@
     "avsender_mottaker": "Avsender: Bjerkreim Trelast As",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020004565!wgZOOy/d-6965376f__8677__47ea__a757__23e14c179149-2020264746!jwv94W",
-    "filer": [
-      {
-        "tekst": "110/3/34 110/3/3 Spørsmål vedrørende søknad om ferdigattest - Hamn 107 A og 107 B (pdf, 65KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1255301_1_A!d-2020264746!r1Ynps?pid=29"
-      }
-    ],
-    "status": "Publisert"
+    "filer": [],
+    "status": "Må bes om innsyn"
   },
   {
     "tittel": "Utbetalingsvedtak av 19.03.2026",
