@@ -555810,5 +555810,37 @@
         "ny": 3
       }
     }
+  },
+  {
+    "tidspunkt": "2026-03-28 13:56:56",
+    "type": "UPDATE",
+    "dokumentID": "2026/9972",
+    "tittel": "32/246 Oppfølging av byggesak - støttemur",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 3,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-03-28 13:56:56",
+    "type": "UPDATE",
+    "dokumentID": "2026/9975",
+    "tittel": "44/779 Oppfølging av byggesak - anneks",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 3,
+        "ny": 0
+      }
+    }
   }
 ]
