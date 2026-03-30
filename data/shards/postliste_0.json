@@ -8,8 +8,13 @@
     "avsender_mottaker": "",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020321!37lFgb/d-6965376f__8677__47ea__a757__23e14c179149-2020265297!PsD0qS",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "Møtebok - Kommunestyret - 25.03.2026 (pdf, 2,6MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1256621_1_P!d-2020265297!ttYcsx?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Møteprotokoll - Kommunestyret - 25.03.2026",
@@ -598,8 +603,33 @@
     "avsender_mottaker": "Avsender: Trebygg Strand As",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2019000160!xGm6en/d-6965376f__8677__47ea__a757__23e14c179149-2020265131!JZirbE",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "38/21 Supplering av søknad - tilbygg - Hellandsheivegen 221 - Olav Helland Stenersen (pdf, 402KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1256094_1_A!d-2020265131!u5q9IR?pid=29"
+      },
+      {
+        "tekst": "G Gjennomføringsplan (pdf, 183KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1256100_1_A!d-2020265131!p3rO4g?pid=29"
+      },
+      {
+        "tekst": "G Erklæring om ansvarsrett - AS Ryfylke Trelast (pdf, 330KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1256095_1_A!d-2020265131!R9g7T9?pid=29"
+      },
+      {
+        "tekst": "G Erklæring om ansvarsrett - Trebygg Strand AS (pdf, 411KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1256096_1_A!d-2020265131!7gUA73?pid=29"
+      },
+      {
+        "tekst": "G Erklæring om ansvarsrett - selvbygger Olav Helland Stenersen (pdf, 368KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1256097_1_A!d-2020265131!mfUNuN?pid=29"
+      },
+      {
+        "tekst": "Q Vedleggsopplysninger (pdf, 162KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1256101_1_A!d-2020265131!nNbwwk?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "47/322 Oppfølging av byggesak - Bergflettevegen 7 - pipe",
@@ -1359,8 +1389,21 @@
     "avsender_mottaker": "Avsender: Trebygg Strand As",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2017002531!UljMBe/d-6965376f__8677__47ea__a757__23e14c179149-2020265171!FMslqV",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "45/20 Tilbaketrekking av ansvarsretter - påbygg over eksisterende garasje - Tuånå 20 - Vidar Jones (pdf, 80KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1256344_1_A!d-2020265171!rcn3Vx?pid=29"
+      },
+      {
+        "tekst": "4520 Oppfølging av byggesak - påbygg over eksisterende garasje (pdf, 88KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1256345_1_A!d-2020265171!aNcCfm?pid=29"
+      },
+      {
+        "tekst": "Tilbaketrekking ansvarsrett Tuånå 20 (pdf, 112KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1256346_1_A!d-2020265171!9XHQKZ?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Utbetalingsvedtak av 23.03.2026",
