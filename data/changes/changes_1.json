@@ -566982,5 +566982,197 @@
         "ny": 1
       }
     }
+  },
+  {
+    "tidspunkt": "2026-03-31 14:31:36",
+    "type": "UPDATE",
+    "dokumentID": "2026/11044",
+    "tittel": "Innkalling - Kommunestyret - 16.04.2026",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-03-31 14:31:36",
+    "type": "UPDATE",
+    "dokumentID": "2026/10464",
+    "tittel": "104/3 Vedtak produksjons- og avløsertilskudd 2025",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-03-31 14:31:36",
+    "type": "UPDATE",
+    "dokumentID": "2026/10461",
+    "tittel": "27/1 Vedtak produksjons- og avløsertilskudd 2025",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-03-31 14:31:36",
+    "type": "UPDATE",
+    "dokumentID": "2026/10469",
+    "tittel": "34/4 Vedtak produksjons- og avløsertilskudd 2025",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-03-31 14:31:36",
+    "type": "UPDATE",
+    "dokumentID": "2026/10420",
+    "tittel": "63/9 Vedtak produksjons- og avløsertilskudd 2025",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-03-31 14:31:36",
+    "type": "UPDATE",
+    "dokumentID": "2026/10455",
+    "tittel": "7/10 Vedtak produksjons- og avløsertilskudd 2025",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-03-31 14:31:36",
+    "type": "UPDATE",
+    "dokumentID": "2026/10421",
+    "tittel": "45/3 Vedtak produksjons- og avløsertilskudd 2025",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-03-31 14:31:36",
+    "type": "UPDATE",
+    "dokumentID": "2026/10604",
+    "tittel": "110/3/34 110/3/35 Grensemerker bestilt",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-03-31 14:31:36",
+    "type": "UPDATE",
+    "dokumentID": "2026/10083",
+    "tittel": "49/629 Dokumentsjekk - ikke behov for mangelbrev",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-03-31 14:31:36",
+    "type": "UPDATE",
+    "dokumentID": "2026/10470",
+    "tittel": "26/7 Vedtak produksjons- og avløsertilskudd 2025",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-03-31 14:31:36",
+    "type": "UPDATE",
+    "dokumentID": "2026/10429",
+    "tittel": "20/1 Vedtak produksjons- og avløsertilskudd 2025",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-03-31 14:31:36",
+    "type": "UPDATE",
+    "dokumentID": "2026/10463",
+    "tittel": "38/17 Vedtak produksjons- og avløsertilskudd 2025",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
   }
 ]
