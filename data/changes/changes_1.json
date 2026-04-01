@@ -574878,5 +574878,21 @@
         "ny": 0
       }
     }
+  },
+  {
+    "tidspunkt": "2026-04-01 14:34:14",
+    "type": "UPDATE",
+    "dokumentID": "2026/10581",
+    "tittel": "43/385 Ansvarlig søker - kommentarer til nabomerknad - enebolig og forstøtningsmur - Nedre Barkvedvegen 141",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 8,
+        "ny": 0
+      }
+    }
   }
 ]
