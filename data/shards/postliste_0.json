@@ -1744,8 +1744,41 @@
     "avsender_mottaker": "Avsender: Fjogstad-Hus As",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020011527!WcOBCd/d-6965376f__8677__47ea__a757__23e14c179149-2020265368!I6tfiR",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "43/385 Ansvarlig søker - kommentarer til nabomerknad - enebolig og forstøtningsmur - Nedre Barkvedvegen 141 (pdf, 185KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1256786_1_A!d-2020265368!RRQ85J?pid=29"
+      },
+      {
+        "tekst": "C Nabomerknad - forelegges søker - enebolig og forstøtningsmur - Nedre Barkvedvegen 141 (pdf, 91KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1256787_1_A!d-2020265368!DECufo?pid=29"
+      },
+      {
+        "tekst": "E Tegninger - plan - 1. etasje (pdf, 843KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1256788_1_A!d-2020265368!erxIPP?pid=29"
+      },
+      {
+        "tekst": "E Tegninger - plan - 2. etasje og snitt (pdf, 779KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1256789_1_A!d-2020265368!J3LIia?pid=29"
+      },
+      {
+        "tekst": "E Tegninger - fasade - sør vest (pdf, 834KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1256790_1_A!d-2020265368!ZkQI7P?pid=29"
+      },
+      {
+        "tekst": "E Tegninger - fasade - nord øst (pdf, 832KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1256791_1_A!d-2020265368!4EvBNl?pid=29"
+      },
+      {
+        "tekst": "E Tegninger - fasader (pdf, 800KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1256792_1_A!d-2020265368!iOEPsV?pid=29"
+      },
+      {
+        "tekst": "F Situasjonskart (pdf, 745KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1256793_1_A!d-2020265368!HVAykm?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Startlån ettersendt vedlegg - klage på vedtak om avslag på søknad om startlån",
