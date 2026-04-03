@@ -574910,5 +574910,37 @@
         "ny": 8
       }
     }
+  },
+  {
+    "tidspunkt": "2026-04-03 07:24:43",
+    "type": "UPDATE",
+    "dokumentID": "2026/10492",
+    "tittel": "Oppfølgingsspørsmål KPA og kommunedirektørens svar",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-03 07:24:43",
+    "type": "UPDATE",
+    "dokumentID": "2026/10614",
+    "tittel": "Foreløpig svar om tilskudd til trivselstiltak for eldre",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
   }
 ]
