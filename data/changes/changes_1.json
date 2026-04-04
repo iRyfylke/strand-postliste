@@ -574974,5 +574974,37 @@
         "ny": 1
       }
     }
+  },
+  {
+    "tidspunkt": "2026-04-04 13:58:53",
+    "type": "UPDATE",
+    "dokumentID": "2026/10387",
+    "tittel": "110/3/34 110/3/35 Påvist grenselinjer og nye grensemerker",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 2,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-04 13:58:53",
+    "type": "UPDATE",
+    "dokumentID": "2026/10668",
+    "tittel": "9/26 Oppfølging av byggesak - Vervikhagen 17 - tak over terrasse",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 3,
+        "ny": 0
+      }
+    }
   }
 ]
