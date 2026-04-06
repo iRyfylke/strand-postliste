@@ -575038,5 +575038,21 @@
         "ny": 3
       }
     }
+  },
+  {
+    "tidspunkt": "2026-04-06 14:16:00",
+    "type": "UPDATE",
+    "dokumentID": "2026/10492",
+    "tittel": "Oppfølgingsspørsmål KPA og kommunedirektørens svar",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
   }
 ]

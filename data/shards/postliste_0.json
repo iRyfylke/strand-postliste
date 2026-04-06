@@ -1703,8 +1703,13 @@
     "avsender_mottaker": "",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020012783!XIvR4o/d-6965376f__8677__47ea__a757__23e14c179149-2020265279!05DepF",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "Oppfølgingsspørsmål KPA og kommunedirektørens svar (pdf, 1,8MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1256592_1_A!d-2020265279!M2u4I1?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Foreløpig svar om tilskudd til trivselstiltak for eldre",
