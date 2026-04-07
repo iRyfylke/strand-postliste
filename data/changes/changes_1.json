@@ -575054,5 +575054,37 @@
         "ny": 1
       }
     }
+  },
+  {
+    "tidspunkt": "2026-04-07 07:49:02",
+    "type": "UPDATE",
+    "dokumentID": "2026/10677",
+    "tittel": "Foreløpig svar på henvendelse",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-07 07:49:02",
+    "type": "UPDATE",
+    "dokumentID": "2026/10492",
+    "tittel": "Oppfølgingsspørsmål KPA og kommunedirektørens svar",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
   }
 ]
