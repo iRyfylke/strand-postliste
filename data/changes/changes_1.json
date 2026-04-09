@@ -592326,5 +592326,37 @@
         "ny": 1
       }
     }
+  },
+  {
+    "tidspunkt": "2026-04-09 14:59:59",
+    "type": "UPDATE",
+    "dokumentID": "2026/11170",
+    "tittel": "37/6 Om bruk og drift av Heia skule",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-09 14:59:59",
+    "type": "UPDATE",
+    "dokumentID": "2026/11189",
+    "tittel": "65/36 Søknad om ferdigattest - uthus - Sør-Hidle 61 - Ivar Strand",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
   }
 ]
