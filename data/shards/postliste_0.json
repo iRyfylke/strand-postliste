@@ -870,8 +870,29 @@
     "avsender_mottaker": "Avsender: Vidar Hetlelid",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019718!8XjIy1/d-6965376f__8677__47ea__a757__23e14c179149-2020266217!FJwt4p",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "47/478 Nabovarsel for Leitevegen 14A (pdf, 157KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1258731_1_A!d-2020266217!hWjOZm?pid=29"
+      },
+      {
+        "tekst": "Situasjonskart (pdf, 1,7MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1258733_1_A!d-2020266217!8H5Do6?pid=29"
+      },
+      {
+        "tekst": "Hagestue (pdf, 178KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1258734_1_A!d-2020266217!uOI66J?pid=29"
+      },
+      {
+        "tekst": "Takoverbygg terrasse (pdf, 803KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1258735_1_A!d-2020266217!oY7IRQ?pid=29"
+      },
+      {
+        "tekst": "E-post - Nabovarsel for Leitevegen 14A, Strand til Strand Kommune (964978751) (pdf, 97KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1258732_1_A!d-2020266217!tX9Gch?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Foreløpige tilbakemeldinger fra IVAR ang. VA-rammeplan, møte 19.03.2026",
@@ -1344,8 +1365,21 @@
     "avsender_mottaker": "Avsender: Sami Jabbar Najm",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2017000784!Z54YO9/d-6965376f__8677__47ea__a757__23e14c179149-2020266274!HYY8FG",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "48/50 Søknad om ferdigattest - tilbygg/fasadeendring - Bekkevegen 2 - Sami Jabbar Najm (pdf, 2MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1258819_1_A!d-2020266274!tugi6j?pid=29"
+      },
+      {
+        "tekst": "Q 48/50 Tillatelse til tiltak (pdf, 1,4MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1258820_1_A!d-2020266274!6TBatj?pid=29"
+      },
+      {
+        "tekst": "Q 48/50 Oppfølging av byggesak - tilbygg/fasadeendring (pdf, 785KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1258821_1_A!d-2020266274!vMsIxp?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Bekreftelse på mottatt søknad - Barne- og ungdomsarbeider - skole/SFO",
