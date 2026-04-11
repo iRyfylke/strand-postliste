@@ -598370,5 +598370,37 @@
         "ny": 1
       }
     }
+  },
+  {
+    "tidspunkt": "2026-04-11 07:14:46",
+    "type": "UPDATE",
+    "dokumentID": "2026/11430",
+    "tittel": "47/478 Nabovarsel for Leitevegen 14A",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 5,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-11 07:14:46",
+    "type": "UPDATE",
+    "dokumentID": "2026/11487",
+    "tittel": "48/50 Søknad om ferdigattest - tilbygg/fasadeendring - Bekkevegen 2 - Sami Jabbar Najm",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 3,
+        "ny": 0
+      }
+    }
   }
 ]
