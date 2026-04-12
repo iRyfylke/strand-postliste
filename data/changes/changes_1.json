@@ -598434,5 +598434,21 @@
         "ny": 3
       }
     }
+  },
+  {
+    "tidspunkt": "2026-04-12 07:29:10",
+    "type": "UPDATE",
+    "dokumentID": "2026/11347",
+    "tittel": "44/831 Dokumentsjekk - ikke behov for mangelbrev",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
   }
 ]
