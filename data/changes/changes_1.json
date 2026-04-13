@@ -603530,5 +603530,37 @@
         "ny": "Utkast"
       }
     }
+  },
+  {
+    "tidspunkt": "2026-04-13 14:53:16",
+    "type": "UPDATE",
+    "dokumentID": "2026/11910",
+    "tittel": "Tilleggsinnkalling - Ungdomsrådet - 14.04.2026",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 14:53:16",
+    "type": "UPDATE",
+    "dokumentID": "2026/11351",
+    "tittel": "31/102 Tillatelse til tiltak - riving og ny bolig - Tjøstheimvegen 120 - Sigve Høie Håland",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
   }
 ]
