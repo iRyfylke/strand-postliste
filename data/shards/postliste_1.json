@@ -1,5 +1,2144 @@
 [
   {
+    "tittel": "Notat - Status i saken",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35380",
+    "dokumenttype": "Internt notat (X)",
+    "avsender_mottaker": "",
+    "side": 39,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020006071!vypFQd/d-6965376f__8677__47ea__a757__23e14c179149-2020247646!2sNyyz",
+    "filer": [
+      {
+        "tekst": "Notat - Status i saken (pdf, 127KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214429_1_A!d-2020247646!0ofIAt?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Kvittering - søknad om regionalt miljøtilskot i Rogaland 2025",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35494",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Børge Næss",
+    "side": 39,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019041!HzU6CX/d-6965376f__8677__47ea__a757__23e14c179149-2020247760!bNYSEk",
+    "filer": [
+      {
+        "tekst": "Kvittering - søknad om regionalt miljøtilskot i Rogaland 2025 (pdf, 230KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214691_1_A!d-2020247760!EhJoYY?pid=29"
+      },
+      {
+        "tekst": "Soeknad_om_regionalt_miljoetilskudd_Rogaland_202516433307465712718473.pdf (pdf, 230KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214692_1_A!d-2020247760!cA3oSj?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Kvittering - søknad om regionalt miljøtilskot i Rogaland 2025",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35448",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Per Åge Tytlandsvik",
+    "side": 39,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019041!HzU6CX/d-6965376f__8677__47ea__a757__23e14c179149-2020247714!gnAe2m",
+    "filer": [
+      {
+        "tekst": "Kvittering - søknad om regionalt miljøtilskot i Rogaland 2025 (pdf, 221KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214598_1_A!d-2020247714!eSiecx?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Kvittering - søknad om regionalt miljøtilskot i Rogaland 2025",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35452",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Dyrdal Sau",
+    "side": 39,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019041!HzU6CX/d-6965376f__8677__47ea__a757__23e14c179149-2020247718!URJv97",
+    "filer": [
+      {
+        "tekst": "Kvittering - søknad om regionalt miljøtilskot i Rogaland 2025 (pdf, 223KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214607_1_A!d-2020247718!9SqeDm?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "49/472 Pålegg - Separering spill-/overvann - Øvre Brauta 11",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35309",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Bjørn Birkeland",
+    "side": 39,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017100!3HArdV/d-6965376f__8677__47ea__a757__23e14c179149-2020247575!9DctYZ",
+    "filer": [
+      {
+        "tekst": "49/472 Pålegg - Separering spill-/overvann - Øvre Brauta 11 (pdf, 196KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214255_1_A!d-2020247575!BRLN4F?pid=29"
+      },
+      {
+        "tekst": "Oversikt-om-rett-til-å-klage-på-forvaltningsvedtak-mv (pdf, 384KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214257_1_A!d-2020247575!fWGbo7?pid=29"
+      },
+      {
+        "tekst": "Regler for tilskudd til separering og tilknytning av private stikkledninger (pdf, 419KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214258_1_A!d-2020247575!GwszHw?pid=29"
+      },
+      {
+        "tekst": "Separering brosjyre (pdf, 226KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214259_1_A!d-2020247575!8hGLX1?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Utbetalingsvedtak av 18.11.2025",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35358",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Helfo",
+    "side": 39,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016179!wKgx5b/d-6965376f__8677__47ea__a757__23e14c179149-2020247624!dDPLjM",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Kvittering - søknad om regionalt miljøtilskot i Rogaland 2025",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35458",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Arnfinn Warland",
+    "side": 39,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019041!HzU6CX/d-6965376f__8677__47ea__a757__23e14c179149-2020247724!mELrqL",
+    "filer": [
+      {
+        "tekst": "Kvittering - søknad om regionalt miljøtilskot i Rogaland 2025 (pdf, 432KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214619_1_A!d-2020247724!h1Sj4V?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "16/475 Tilsyn - nytt bygg - brannkonsept med tilhørende tegninger",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35424",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Masiv Bygg As",
+    "side": 39,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020018850!M8uNVY/d-6965376f__8677__47ea__a757__23e14c179149-2020247690!BriMES",
+    "filer": [
+      {
+        "tekst": "16/475 Tilsyn - nytt bygg - brannkonsept med tilhørende tegninger (pdf, 147KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214550_1_A!d-2020247690!EqD9ER?pid=29"
+      },
+      {
+        "tekst": "Brannrapport Tau Handelspark (pdf, 678KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214551_1_A!d-2020247690!7yz8Nz?pid=29"
+      },
+      {
+        "tekst": "Branntegning 1. etasje (pdf, 649KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214552_1_A!d-2020247690!02SH83?pid=29"
+      },
+      {
+        "tekst": "Branntegning 2. etasje (pdf, 719KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214553_1_A!d-2020247690!PuvqQS?pid=29"
+      },
+      {
+        "tekst": "Branntegning 3. etasje (pdf, 631KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214555_1_A!d-2020247690!jQx998?pid=29"
+      },
+      {
+        "tekst": "Branntegning messanin (pdf, 612KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214554_1_A!d-2020247690!NKOeFQ?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "63/42 Søknad om tillatelse i ett trinn - rive eksisterende bolig - oppføring av ny - Idsevegen 254 - Trond Erling Berge",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35376",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: As Ryfylke Trelast",
+    "side": 39,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019039!BD2jy4/d-6965376f__8677__47ea__a757__23e14c179149-2020247642!TdiF1t",
+    "filer": [
+      {
+        "tekst": "63/42 Søknad om tillatelse i ett trinn - rive eksisterende bolig - oppføring av ny - Idsevegen 254 - Trond Erling Berge (pdf, 219KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214393_1_A!d-2020247642!EsGIc6?pid=29"
+      },
+      {
+        "tekst": "B Dispensasjonssøknad (pdf, 176KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214405_1_A!d-2020247642!a9KGgW?pid=29"
+      },
+      {
+        "tekst": "C Nabovarsel (pdf, 155KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214411_1_A!d-2020247642!z1g0M7?pid=29"
+      },
+      {
+        "tekst": "C Kvittering for nabovarsel (pdf, 91KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214407_1_A!d-2020247642!eAXO8N?pid=29"
+      },
+      {
+        "tekst": "D Situasjonsplan (pdf, 856KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214409_1_A!d-2020247642!BSbwuR?pid=29"
+      },
+      {
+        "tekst": "E Tegninger - plan - 1 etasje (pdf, 280KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214406_1_A!d-2020247642!iCjMXQ?pid=29"
+      },
+      {
+        "tekst": "E Tegninger - fasade (pdf, 361KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214408_1_A!d-2020247642!K2yusF?pid=29"
+      },
+      {
+        "tekst": "E Tegninger - snitt (pdf, 517KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214412_1_A!d-2020247642!H4YYrD?pid=29"
+      },
+      {
+        "tekst": "F Redegjørelse - grunnforhold (pdf, 836KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214415_1_A!d-2020247642!DF9M5m?pid=29"
+      },
+      {
+        "tekst": "G Gjennomføringsplan (pdf, 219KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214421_1_A!d-2020247642!Oflzne?pid=29"
+      },
+      {
+        "tekst": "G Erklæring om ansvarsrett - Rycon AS (pdf, 307KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214396_1_A!d-2020247642!4usAGn?pid=29"
+      },
+      {
+        "tekst": "G Erklæring om ansvarsrett - AS Ryfylke Trelast (pdf, 308KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214397_1_A!d-2020247642!NoSXvF?pid=29"
+      },
+      {
+        "tekst": "G Erklæring om ansvarsrett - Strand Rør AS (pdf, 309KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214399_1_A!d-2020247642!l6IGTr?pid=29"
+      },
+      {
+        "tekst": "G Erklæring om ansvarsrett - GJ Gulv AS (pdf, 307KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214400_1_A!d-2020247642!LJHNBx?pid=29"
+      },
+      {
+        "tekst": "G Erklæring om ansvarsrett - Reianes Mur & Flis AS (pdf, 309KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214401_1_A!d-2020247642!XtcPyB?pid=29"
+      },
+      {
+        "tekst": "G Erklæring om ansvarsrett - Rygja Takst As (tidligere Kron Takst AS) (pdf, 307KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214402_1_A!d-2020247642!F9JMZI?pid=29"
+      },
+      {
+        "tekst": "G Erklæring om ansvarsrett - Kvalvåg Service AS (pdf, 308KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214403_1_A!d-2020247642!FEIjUz?pid=29"
+      },
+      {
+        "tekst": "G Erklæring om ansvarsrett - Tor Einar Håheller AS (pdf, 309KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214404_1_A!d-2020247642!Nge6a5?pid=29"
+      },
+      {
+        "tekst": "G Erklæring om ansvarsrett - Grunnteknikk AS (pdf, 307KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214410_1_A!d-2020247642!vwN95H?pid=29"
+      },
+      {
+        "tekst": "G Erklæring om ansvarsrett - Tor Einar Håheller AS (pdf, 306KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214413_1_A!d-2020247642!e1tEVP?pid=29"
+      },
+      {
+        "tekst": "G Erklæring om ansvarsrett - Jansen Betong AS (pdf, 307KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214414_1_A!d-2020247642!YLYyAk?pid=29"
+      },
+      {
+        "tekst": "G Erklæring om ansvarsrett - AS Ryfylke Trelast (pdf, 309KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214416_1_A!d-2020247642!YX87e0?pid=29"
+      },
+      {
+        "tekst": "K Miljøsaneringsplan - Miljørapport - Idsevegen (pdf, 1,7MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214398_1_A!d-2020247642!SDXsyD?pid=29"
+      },
+      {
+        "tekst": "Q Følgebrev - referat fra forhåndskonferanse - Erstatningsbustad (pdf, 83KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214395_1_A!d-2020247642!U3qVx1?pid=29"
+      },
+      {
+        "tekst": "Q Følgebrev - godkjenning av søknad sanitær (pdf, 166KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214394_1_A!d-2020247642!BY7tqV?pid=29"
+      },
+      {
+        "tekst": "Q Følgebrev - Tiltakshavers samtykke til byggeplaner (pdf, 108KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214417_1_A!d-2020247642!9oMZyR?pid=29"
+      },
+      {
+        "tekst": "Q Vedleggsopplysninger (pdf, 178KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214422_1_A!d-2020247642!VU3G2A?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Innvilget søknad om parkeringstillatelse for forflytningshemmede",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35266",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "",
+    "side": 39,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016271!S9eKey/d-6965376f__8677__47ea__a757__23e14c179149-2020247532!GTrAsP",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Kvittering - søknad om regionalt miljøtilskot i Rogaland 2025",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35453",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Odd Egil Tjøstheim",
+    "side": 39,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019041!HzU6CX/d-6965376f__8677__47ea__a757__23e14c179149-2020247719!m2mIp7",
+    "filer": [
+      {
+        "tekst": "Kvittering - søknad om regionalt miljøtilskot i Rogaland 2025 (pdf, 450KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214609_1_A!d-2020247719!J3nIuX?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Kvittering - søknad om regionalt miljøtilskot i Rogaland 2025",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35468",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Trond Kjetil Sørskår",
+    "side": 39,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019041!HzU6CX/d-6965376f__8677__47ea__a757__23e14c179149-2020247734!dM6jeM",
+    "filer": [
+      {
+        "tekst": "Kvittering - søknad om regionalt miljøtilskot i Rogaland 2025 (pdf, 224KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214639_1_A!d-2020247734!GDUmtR?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Kvittering - søknad om regionalt miljøtilskot i Rogaland 2025",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35495",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Eirik Mihle Strand",
+    "side": 39,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019041!HzU6CX/d-6965376f__8677__47ea__a757__23e14c179149-2020247761!2RNQrl",
+    "filer": [
+      {
+        "tekst": "Kvittering - søknad om regionalt miljøtilskot i Rogaland 2025 (pdf, 430KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214694_1_A!d-2020247761!eZyggD?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Kvittering - søknad om regionalt miljøtilskot i Rogaland 2025",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35456",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Egil Byberg",
+    "side": 39,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019041!HzU6CX/d-6965376f__8677__47ea__a757__23e14c179149-2020247722!wS4rv7",
+    "filer": [
+      {
+        "tekst": "Kvittering - søknad om regionalt miljøtilskot i Rogaland 2025 (pdf, 258KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214615_1_A!d-2020247722!b9iAWI?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Varsel om tilsyn - graving/etablering av p-plass på kommunalt område - info",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35388",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "",
+    "side": 39,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016850!85HR9i/d-6965376f__8677__47ea__a757__23e14c179149-2020247654!ed0g5c",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Kvittering - søknad om regionalt miljøtilskot i Rogaland 2025",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35489",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Fjelde Jan Børge",
+    "side": 39,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019041!HzU6CX/d-6965376f__8677__47ea__a757__23e14c179149-2020247755!YW7Dhr",
+    "filer": [
+      {
+        "tekst": "Kvittering - søknad om regionalt miljøtilskot i Rogaland 2025 (pdf, 220KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214681_1_A!d-2020247755!5M5bOJ?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Faktura klimarådgivning - vedlegg til søknad om regionalt miljøtilskot i Rogaland 2025",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35499",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: John Alsvik",
+    "side": 39,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019041!HzU6CX/d-6965376f__8677__47ea__a757__23e14c179149-2020247765!EXUK5L",
+    "filer": [
+      {
+        "tekst": "Faktura klimarådgivning - vedlegg til søknad om regionalt miljøtilskot i Rogaland 2025 (pdf, 300KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214702_1_A!d-2020247765!IDjTrz?pid=29"
+      },
+      {
+        "tekst": "Klimahandlingsplan_John_R_Alsvik_2025.pdf (pdf, 910KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214703_1_A!d-2020247765!3a6uHI?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Kvittering - søknad om regionalt miljøtilskot i Rogaland 2025",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35442",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Trond Olav Strand",
+    "side": 39,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019041!HzU6CX/d-6965376f__8677__47ea__a757__23e14c179149-2020247708!8B2HYy",
+    "filer": [
+      {
+        "tekst": "Kvittering - søknad om regionalt miljøtilskot i Rogaland 2025 (pdf, 216KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214586_1_A!d-2020247708!KziGgi?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Ber om uttalelse - klage på støy fra varelevering om natten - Kiwi Tau",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35322",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Boligsameiet Kiwi Tau v/Butikksjef Marius Fjermestad Larsen",
+    "side": 39,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019034!NwRp7R/d-6965376f__8677__47ea__a757__23e14c179149-2020247588!aY4MtP",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Kvittering - søknad om regionalt miljøtilskot i Rogaland 2025",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35481",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Magne Alsvik",
+    "side": 39,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019041!HzU6CX/d-6965376f__8677__47ea__a757__23e14c179149-2020247747!ktNJvL",
+    "filer": [
+      {
+        "tekst": "Kvittering - søknad om regionalt miljøtilskot i Rogaland 2025 (pdf, 423KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214665_1_A!d-2020247747!l3JXU2?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "16/475 Handelsparken Tau byggetrinn 2 - gjennomgåtte punkter befaring",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35422",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Masiv Bygg As",
+    "side": 39,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020018850!M8uNVY/d-6965376f__8677__47ea__a757__23e14c179149-2020247688!xnmYrN",
+    "filer": [
+      {
+        "tekst": "16/475 Handelsparken Tau byggetrinn 2 - gjennomgåtte punkter befaring (pdf, 111KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214546_1_A!d-2020247688!Vlcu8Q?pid=29"
+      },
+      {
+        "tekst": "Handelsparken Tau btr2, Befaring med Strand Kommune (pdf, 1,5MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214547_1_A!d-2020247688!Os43zM?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Kvittering - søknad om regionalt miljøtilskot i Rogaland 2025",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35488",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: May Iren Sagård O'Hare",
+    "side": 39,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019041!HzU6CX/d-6965376f__8677__47ea__a757__23e14c179149-2020247754!TxPNWO",
+    "filer": [
+      {
+        "tekst": "Kvittering - søknad om regionalt miljøtilskot i Rogaland 2025 (pdf, 442KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214679_1_A!d-2020247754!xDqKgE?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Utbetalingsvedtak av 18.11.2025",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35356",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Helfo",
+    "side": 39,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016179!wKgx5b/d-6965376f__8677__47ea__a757__23e14c179149-2020247622!Zy9cmj",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "55/7 55/8 55/9 Krav om sammenslåing av tinglyste matrikkelenheter - sammenføyning Jøssang",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35337",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Bernt Jøssang",
+    "side": 39,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019037!Q8bXg4/d-6965376f__8677__47ea__a757__23e14c179149-2020247603!aC4InP",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "49/116 Søknad om ferdigattest - bygg for nødstrømscontainer - Jonsokberget 2 mfl.",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35147",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Q Rådgivning As",
+    "side": 39,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017632!wf07er/d-6965376f__8677__47ea__a757__23e14c179149-2020247413!B3bCBz",
+    "filer": [
+      {
+        "tekst": "49/116 Søknad om ferdigattest - bygg for nødstrømscontainer - Jonsokberget 2 mfl. (pdf, 84KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1213949_1_A!d-2020247413!4UGroj?pid=29"
+      },
+      {
+        "tekst": "Søknad om ferdigattest_sign (pdf, 794KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1213950_1_A!d-2020247413!FM3Sd6?pid=29"
+      },
+      {
+        "tekst": "G1- Gjennomføringsplan.Rev.01 (pdf, 635KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1213951_1_A!d-2020247413!BftoIB?pid=29"
+      },
+      {
+        "tekst": "Samsvarserklæring - UTF - Hovland AS Jonsok (pdf, 680KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1213952_1_A!d-2020247413!9gna4J?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Innkalling til arbeidsmøte om Håhammer gbnr 53/34 m.fl. - ønske om endring av plan",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35312",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Flere mottakere",
+    "side": 39,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020015912!qFWk9j/d-6965376f__8677__47ea__a757__23e14c179149-2020247578!FTcurf",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Kvittering - søknad om regionalt miljøtilskot i Rogaland 2025",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35463",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Henrik Varland",
+    "side": 39,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019041!HzU6CX/d-6965376f__8677__47ea__a757__23e14c179149-2020247729!urYmRM",
+    "filer": [
+      {
+        "tekst": "Kvittering - søknad om regionalt miljøtilskot i Rogaland 2025 (pdf, 428KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214629_1_A!d-2020247729!sHgRfX?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "32/138 Vedrørende reguleringsendring for bryggeanlegg innenfor plan 09-2 - veiledning om videre prosess",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35240",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Kjetil Holgersen",
+    "side": 39,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020013488!aH3xOA/d-6965376f__8677__47ea__a757__23e14c179149-2020247506!L9CImJ",
+    "filer": [
+      {
+        "tekst": "32/138 Vedrørende reguleringsendring for bryggeanlegg innenfor plan 09-2 - veiledning om videre prosess (pdf, 117KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214108_1_A!d-2020247506!Ctr4mt?pid=29"
+      },
+      {
+        "tekst": "Epost fra Kjetil Holgersen sendt 13.11.2025 (pdf, 62KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214147_1_A!d-2020247506!jelSfV?pid=29"
+      },
+      {
+        "tekst": "Kommunens foreløpige svar sendt 17.11.2025 (pdf, 40KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214148_1_A!d-2020247506!0Owcib?pid=29"
+      },
+      {
+        "tekst": "Søknadsskjema tiltak i sjø (pdf, 414KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214165_1_A!d-2020247506!RIi6WV?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "48/32 Endringsvedtak - garasje - Mellarhaugstien 12",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35134",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Anders Thomassen Sunde",
+    "side": 39,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016093!47hWGg/d-6965376f__8677__47ea__a757__23e14c179149-2020247400!mFild8",
+    "filer": [
+      {
+        "tekst": "48/32 Endringsvedtak - garasje - Mellarhaugstien 12 (pdf, 108KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1213924_1_A!d-2020247400!Bir70U?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Revisjon Heiplanen - invitasjon til deltaking i arbeidet",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35484",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Agder Fylkeskommune",
+    "side": 39,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019042!om5XM0/d-6965376f__8677__47ea__a757__23e14c179149-2020247750!YEhhQl",
+    "filer": [
+      {
+        "tekst": "Revisjon Heiplanen - invitasjon til deltaking i arbeidet (pdf, 136KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214671_1_A!d-2020247750!PEb2XH?pid=29"
+      },
+      {
+        "tekst": "Regional plan for Setesdal Vesthei, Ryfylkeheiane og Setesdal Austhei (Heiplanen) - Oppstart av arbeid med revisjon.PDF (pdf, 1,2MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214672_1_A!d-2020247750!9ZOHfW?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Handelsbekreftelse - rentebytteavtale",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35369",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: SB1 Markets AS",
+    "side": 39,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020012861!9PAk9r/d-6965376f__8677__47ea__a757__23e14c179149-2020247635!v6fDGY",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "106/2 Den del av tilsynssak som gjelder ulovlig beboelse på hytte avsluttes - veiledning om oppfølging av øvrige byggetiltak ved hytta",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35196",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Flere mottakere",
+    "side": 39,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016288!MxlPOQ/d-6965376f__8677__47ea__a757__23e14c179149-2020247462!QtCy6F",
+    "filer": [
+      {
+        "tekst": "106/2 Den del av tilsynssak som gjelder ulovlig beboelse på hytte avsluttes - veiledning om oppfølging av øvrige byggetiltak ved hytta (pdf, 836KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214024_1_A!d-2020247462!mOGNHt?pid=29"
+      },
+      {
+        "tekst": "106_2 Hytte (L)(2212071) (pdf, 15MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214039_1_A!d-2020247462!nAVA1y?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Kvittering - søknad om regionalt miljøtilskot i Rogaland 2025",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35516",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Sander Voster",
+    "side": 39,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019041!HzU6CX/d-6965376f__8677__47ea__a757__23e14c179149-2020247782!azXEaV",
+    "filer": [
+      {
+        "tekst": "Kvittering - søknad om regionalt miljøtilskot i Rogaland 2025 (pdf, 212KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214730_1_A!d-2020247782!EvQ8Wh?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "53/89 Foreløpig svar - mottatt klage på vedtak - to eneboliger - Tunglandsvegen 21B",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35228",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Rycon As",
+    "side": 39,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019026!WhZYIh/d-6965376f__8677__47ea__a757__23e14c179149-2020247494!KVZwjL",
+    "filer": [
+      {
+        "tekst": "53/89 Foreløpig svar - mottatt klage på vedtak - to eneboliger - Tunglandsvegen 21B (pdf, 117KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214090_1_A!d-2020247494!qsAzXr?pid=29"
+      },
+      {
+        "tekst": "Varsel om klage på vedtak - dispensasjon og rammetillatelse - to eneboliger - Tunglandsvegen 21B (pdf, 109KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214101_1_A!d-2020247494!geNTUQ?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Varsel om tilsyn - graving/etablering av p-plass på kommunalt område - frist for tilbakeføring",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35392",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "",
+    "side": 39,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016850!85HR9i/d-6965376f__8677__47ea__a757__23e14c179149-2020247658!vG7MHf",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "16/475 Tilsyn - nytt bygg - brannkonsept - fraviksrapport",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35423",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Masiv Bygg As",
+    "side": 39,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020018850!M8uNVY/d-6965376f__8677__47ea__a757__23e14c179149-2020247689!RQBOtN",
+    "filer": [
+      {
+        "tekst": "16/475 Tilsyn - nytt bygg - brannkonsept - fraviksrapport (pdf, 179KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214548_1_A!d-2020247689!PhvWIf?pid=29"
+      },
+      {
+        "tekst": "241090 Fraviksrapport (pdf, 639KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214549_1_A!d-2020247689!wxfPBt?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Plan 202504 NVEs innspill - Varsel om oppstart - Detaljregulering - Selemorkvegen - 53/67",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35435",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Norges Vassdrags- Og Energidirektorat (nve)",
+    "side": 39,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020018167!AeoRf8/d-6965376f__8677__47ea__a757__23e14c179149-2020247701!2l6eN1",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Kvittering - søknad om regionalt miljøtilskot i Rogaland 2025",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35446",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Frode Barkved",
+    "side": 39,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019041!HzU6CX/d-6965376f__8677__47ea__a757__23e14c179149-2020247712!vrIZwG",
+    "filer": [
+      {
+        "tekst": "Kvittering - søknad om regionalt miljøtilskot i Rogaland 2025 (pdf, 222KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214594_1_A!d-2020247712!HgUoD0?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "14/6 Vann som blir ledet ulovlig",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35504",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Ragnhild Johnsen",
+    "side": 39,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016828!6UUTbY/d-6965376f__8677__47ea__a757__23e14c179149-2020247770!yutjpZ",
+    "filer": [
+      {
+        "tekst": "14/6 Vann som blir ledet ulovlig (pdf, 32KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214711_1_A!d-2020247770!9yRmKQ?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Kvittering - søknad om regionalt miljøtilskot i Rogaland 2025",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35478",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Torbjørn Norland",
+    "side": 39,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019041!HzU6CX/d-6965376f__8677__47ea__a757__23e14c179149-2020247744!a8u1wq",
+    "filer": [
+      {
+        "tekst": "Kvittering - søknad om regionalt miljøtilskot i Rogaland 2025 (pdf, 458KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214659_1_A!d-2020247744!6QD6YV?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "104/3 Uttalelse - dispensasjon - Kolabygdvegen - Meling - avløpsledning fra minirenseanlegg",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35440",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Statsforvaltaren I Rogaland",
+    "side": 39,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020018553!i1aNzP/d-6965376f__8677__47ea__a757__23e14c179149-2020247706!1g00XA",
+    "filer": [
+      {
+        "tekst": "104/3 Uttalelse - dispensasjon - Kolabygdvegen - Meling - avløpsledning fra minirenseanlegg (pdf, 66KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214582_1_A!d-2020247706!qm6zEr?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Registreringsskjema for privat avlaster",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35334",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "",
+    "side": 39,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019036!WIgWGU/d-6965376f__8677__47ea__a757__23e14c179149-2020247600!Ze7Vxf",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Kvittering - søknad om regionalt miljøtilskot i Rogaland 2025",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35490",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Tone Våge Melberg",
+    "side": 39,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019041!HzU6CX/d-6965376f__8677__47ea__a757__23e14c179149-2020247756!X7V5CQ",
+    "filer": [
+      {
+        "tekst": "Kvittering - søknad om regionalt miljøtilskot i Rogaland 2025 (pdf, 221KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214683_1_A!d-2020247756!onGB13?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Svar på søknad om tilskudd til medlemskontigenter og turer- og utstyr for barn og unge",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35308",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Jørpeland Skytterlag",
+    "side": 39,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016245!d1Ypsh/d-6965376f__8677__47ea__a757__23e14c179149-2020247574!ahC97C",
+    "filer": [
+      {
+        "tekst": "Svar på søknad om tilskudd til medlemskontigenter og turer- og utstyr for barn og unge (pdf, 112KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214254_1_A!d-2020247574!u4ZxF0?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Kvittering - søknad om regionalt miljøtilskot i Rogaland 2025",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35461",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Tom Dalen",
+    "side": 39,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019041!HzU6CX/d-6965376f__8677__47ea__a757__23e14c179149-2020247727!USTjOt",
+    "filer": [
+      {
+        "tekst": "Kvittering - søknad om regionalt miljøtilskot i Rogaland 2025 (pdf, 463KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214625_1_A!d-2020247727!79wdG5?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "11/4 Vedrørende varsel om tilsyn naust",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35386",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Leif Ståle Fundingsland",
+    "side": 39,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020018614!5BrxNA/d-6965376f__8677__47ea__a757__23e14c179149-2020247652!Jbm4q1",
+    "filer": [
+      {
+        "tekst": "11/4 Vedrørende varsel om tilsyn naust (pdf, 68KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214437_1_A!d-2020247652!igMBOe?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Referat partssamarbeid 10.11.2025",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/34101",
+    "dokumenttype": "Internt notat (X)",
+    "avsender_mottaker": "",
+    "side": 39,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020013746!Skepsj/d-6965376f__8677__47ea__a757__23e14c179149-2020246367!92b8bc",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "16/1 Videresender svar fra Mibau Stema - vannuttak og pumpehus ved Nordvatnet",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35330",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Paul Roar Ursin",
+    "side": 39,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017931!8C9pL8/d-6965376f__8677__47ea__a757__23e14c179149-2020247596!tRj0Gt",
+    "filer": [
+      {
+        "tekst": "16/1 Videresender svar fra Mibau Stema - vannuttak og pumpehus ved Nordvatnet (pdf, 111KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214296_1_A!d-2020247596!7tiBxQ?pid=29"
+      },
+      {
+        "tekst": "16/1 Svar på henvendelse fra Strand kommune angående pumpehus og vannuttak fra Nordvatnet (pdf, 194KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214300_1_A!d-2020247596!qXmz8o?pid=29"
+      },
+      {
+        "tekst": "Godkjent byggetillatelse pumpehus Strand kommune 1.4.1998 (pdf, 1,1MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214301_1_A!d-2020247596!YnlBD8?pid=29"
+      },
+      {
+        "tekst": "Søkandsdokument byggetillatelse Strand Kommune 21.05.1997 (pdf, 1,9MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214302_1_A!d-2020247596!bOzHjJ?pid=29"
+      },
+      {
+        "tekst": "Kart Nordvatnet - pumpehus-rørtrase Vedlegg (pdf, 1,7MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214303_1_A!d-2020247596!uhgvE1?pid=29"
+      },
+      {
+        "tekst": "E-post - 161 Henvendelse fra Strand kommune angående punpehus og vannuttak fra Nordvatnet (pdf, 97KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214304_1_A!d-2020247596!bKPz57?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Søknad om dispensasjon for bruk av motorkjøretøy til tilsyn - drift og vedlikehold av vassdragsanlegg",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35509",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Hydro Energi As",
+    "side": 39,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019087!SkkFq4/d-6965376f__8677__47ea__a757__23e14c179149-2020247775!Lv2nAL",
+    "filer": [
+      {
+        "tekst": "Søknad om dispensasjon for bruk av motorkjøretøy til tilsyn - drift og vedlikehold av vassdragsanlegg (pdf, 413KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214719_1_A!d-2020247775!NmvCqt?pid=29"
+      },
+      {
+        "tekst": "E-post - 2025-11-20 - Søknad om dispensasjon motorkjøretøy - Strand Kommune (pdf, 114KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214720_1_A!d-2020247775!EbtvnJ?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Kvittering - søknad om regionalt miljøtilskot i Rogaland 2025",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35491",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Bjørheim Marit Elin",
+    "side": 39,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019041!HzU6CX/d-6965376f__8677__47ea__a757__23e14c179149-2020247757!5Kg8Qn",
+    "filer": [
+      {
+        "tekst": "Kvittering - søknad om regionalt miljøtilskot i Rogaland 2025 (pdf, 433KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214685_1_A!d-2020247757!180WQw?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Startlån ettersendt vedlegg - egenerklæringsskjema - budjournal og tilstandsrapport",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35363",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "",
+    "side": 39,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020018415!vh08bC/d-6965376f__8677__47ea__a757__23e14c179149-2020247629!v6fOEd",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "39/1 39/2 39/3 Søknad om konsesjon på erverv av fast eiendom - Dan Olav Kjelsnes",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35416",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Eiendomsmegler Norge As",
+    "side": 39,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019040!g4dGg8/d-6965376f__8677__47ea__a757__23e14c179149-2020247682!qXv90e",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "16/232 16/223 Teknisk plan Strand flerbrukshall - justering vannkum 8085 akseptert",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35306",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Stangeland Maskin As",
+    "side": 40,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020018215!UgDmto/d-6965376f__8677__47ea__a757__23e14c179149-2020247572!UurB43",
+    "filer": [
+      {
+        "tekst": "16/232 16/223 Teknisk plan Strand flerbrukshall - justering vannkum 8085 akseptert (pdf, 218KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214253_1_A!d-2020247572!IzqypO?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "27/28 Nytt forhåndsvarsel om mulig pålegg om retting av tilbygg - tilbakeføring til lovlig bruk som driftsbygning - Leitevegen 622",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/34168",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Flere mottakere",
+    "side": 40,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020013737!tinGnK/d-6965376f__8677__47ea__a757__23e14c179149-2020246434!X0OWPf",
+    "filer": [
+      {
+        "tekst": "2728 Nytt forhåndsvarsel om mulig pålegg om retting av tilbygg - tilbakeføring til lovlig bruk som driftsbygning - Leitevegen 622 (pdf, 2,9MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1211898_1_A!d-2020246434!P2W1t4?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Kvittering - søknad om regionalt miljøtilskot i Rogaland 2025",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35525",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Maiken Austrheim Næss",
+    "side": 40,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019041!HzU6CX/d-6965376f__8677__47ea__a757__23e14c179149-2020247791!iw5il2",
+    "filer": [
+      {
+        "tekst": "Kvittering - søknad om regionalt miljøtilskot i Rogaland 2025 (pdf, 217KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214745_1_A!d-2020247791!3EYmfB?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Kvittering - søknad om regionalt miljøtilskot i Rogaland 2025",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35483",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Kari Marie Fiskå",
+    "side": 40,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019041!HzU6CX/d-6965376f__8677__47ea__a757__23e14c179149-2020247749!BDQU7B",
+    "filer": [
+      {
+        "tekst": "Kvittering - søknad om regionalt miljøtilskot i Rogaland 2025 (pdf, 215KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214669_1_A!d-2020247749!511Ceg?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Kvittering - søknad om regionalt miljøtilskot i Rogaland 2025",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35473",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Åge Holta",
+    "side": 40,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019041!HzU6CX/d-6965376f__8677__47ea__a757__23e14c179149-2020247739!BjMFM3",
+    "filer": [
+      {
+        "tekst": "Kvittering - søknad om regionalt miljøtilskot i Rogaland 2025 (pdf, 278KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214649_1_A!d-2020247739!NvoglM?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Kvittering - søknad om regionalt miljøtilskot i Rogaland 2025",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35466",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Sandvik Geir",
+    "side": 40,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019041!HzU6CX/d-6965376f__8677__47ea__a757__23e14c179149-2020247732!Mp9xfc",
+    "filer": [
+      {
+        "tekst": "Kvittering - søknad om regionalt miljøtilskot i Rogaland 2025 (pdf, 428KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214635_1_A!d-2020247732!VLrNub?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Kvittering - søknad om regionalt miljøtilskot i Rogaland 2025",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35462",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Gunnstein Østerhus",
+    "side": 40,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019041!HzU6CX/d-6965376f__8677__47ea__a757__23e14c179149-2020247728!ZwZq6x",
+    "filer": [
+      {
+        "tekst": "Kvittering - søknad om regionalt miljøtilskot i Rogaland 2025 (pdf, 473KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214627_1_A!d-2020247728!0YV1IN?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Kvittering - søknad om regionalt miljøtilskot i Rogaland 2025",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35443",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Øystein Jøssang",
+    "side": 40,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019041!HzU6CX/d-6965376f__8677__47ea__a757__23e14c179149-2020247709!uEX3Sh",
+    "filer": [
+      {
+        "tekst": "Kvittering - søknad om regionalt miljøtilskot i Rogaland 2025 (pdf, 424KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214588_1_A!d-2020247709!Wx7nyu?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Kvittering - søknad om regionalt miljøtilskot i Rogaland 2025",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35451",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Inger Marie Fosse",
+    "side": 40,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019041!HzU6CX/d-6965376f__8677__47ea__a757__23e14c179149-2020247717!dAoeDg",
+    "filer": [
+      {
+        "tekst": "Kvittering - søknad om regionalt miljøtilskot i Rogaland 2025 (pdf, 435KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214605_1_A!d-2020247717!YNS0RJ?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Plan 1130201509 Oversendelse av sosifil - 32/46 - boligområde Tau vest - Knut Steinar Kvindesland",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35368",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: As Ryfylke Trelast",
+    "side": 40,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017522!cbXqPn/d-6965376f__8677__47ea__a757__23e14c179149-2020247634!kGgdr2",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Vedrørende søknad på stilling som avdelingsleder ved Tau skole",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35311",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Flere mottakere",
+    "side": 40,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020018527!cLmDqt/d-6965376f__8677__47ea__a757__23e14c179149-2020247577!vIKkB3",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Notat - Status i sak",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35381",
+    "dokumenttype": "Internt notat (X)",
+    "avsender_mottaker": "",
+    "side": 40,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020006717!IrUaJ4/d-6965376f__8677__47ea__a757__23e14c179149-2020247647!zCZGIM",
+    "filer": [
+      {
+        "tekst": "Notat - Status i sak (pdf, 124KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214430_1_A!d-2020247647!1hxMUh?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Notat - Status i saken",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35378",
+    "dokumenttype": "Internt notat (X)",
+    "avsender_mottaker": "",
+    "side": 40,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020010501!HNXScc/d-6965376f__8677__47ea__a757__23e14c179149-2020247644!Tm94dj",
+    "filer": [
+      {
+        "tekst": "Notat - Status i saken (pdf, 125KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214427_1_A!d-2020247644!mVbtWj?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Utbetalingsvedtak av 18.11.2025",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35357",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Helfo",
+    "side": 40,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016179!wKgx5b/d-6965376f__8677__47ea__a757__23e14c179149-2020247623!ihOFOe",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Signert avtale SpareBank 1 Sør-Norge",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35327",
+    "dokumenttype": "Internt notat (X)",
+    "avsender_mottaker": "",
+    "side": 40,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020012861!9PAk9r/d-6965376f__8677__47ea__a757__23e14c179149-2020247593!OQMWtA",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Innvilget søknad om parkeringstillatelse for forflytningshemmede",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35285",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "",
+    "side": 40,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016271!S9eKey/d-6965376f__8677__47ea__a757__23e14c179149-2020247551!aHWEs3",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Protokoll- forhandlinger etter HTA kap 5.2- annen lønnsregulering - Signert",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35361",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "",
+    "side": 40,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016207!ZIJtsR/d-6965376f__8677__47ea__a757__23e14c179149-2020247627!s13D0Q",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Søknad om ambulerende skjenkebevilling 22.11.2025",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35354",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Skjeggebust As",
+    "side": 40,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016276!701wmh/d-6965376f__8677__47ea__a757__23e14c179149-2020247620!ki3cnQ",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Protokoll- forhandlinger etter HTA kap 5.2- annen lønnsregulering",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35320",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "",
+    "side": 40,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016207!ZIJtsR/d-6965376f__8677__47ea__a757__23e14c179149-2020247586!cq0AbV",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Planid 1130_01-17 Endring av plan for Barkved strandsone",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35297",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Flere mottakere",
+    "side": 40,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020015811!wciDMT/d-6965376f__8677__47ea__a757__23e14c179149-2020247563!1oazA9",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "63/42 Søknad om dispensasjon - rive eksisterende bolig - oppføring av ny - Idsevegen 254 - Trond Erling Berge",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35418",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: As Ryfylke Trelast",
+    "side": 40,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019039!BD2jy4/d-6965376f__8677__47ea__a757__23e14c179149-2020247684!4avLUT",
+    "filer": [
+      {
+        "tekst": "63/42 Søknad om dispensasjon - rive eksisterende bolig - oppføring av ny - Idsevegen 254 - Trond Erling Berge (pdf, 176KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214509_1_A!d-2020247684!Eqqb73?pid=29"
+      },
+      {
+        "tekst": "63/42 Tillatelse til tiltak - rive eksisterende bolig - oppføring av ny - Idsevegen 254 - Trond Erling Berge (pdf, 219KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214508_1_A!d-2020247684!iMYWKm?pid=29"
+      },
+      {
+        "tekst": "C Nabovarsel (pdf, 155KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214510_1_A!d-2020247684!BD37mO?pid=29"
+      },
+      {
+        "tekst": "C Kvittering for nabovarsel (pdf, 91KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214511_1_A!d-2020247684!2BIBps?pid=29"
+      },
+      {
+        "tekst": "D Situasjonsplan (pdf, 856KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214512_1_A!d-2020247684!Yv2akG?pid=29"
+      },
+      {
+        "tekst": "E Tegninger - plan sokkel og 1. etasje (pdf, 280KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214513_1_A!d-2020247684!Fn8qFe?pid=29"
+      },
+      {
+        "tekst": "E Tegninger - fasade (pdf, 361KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214514_1_A!d-2020247684!wExINQ?pid=29"
+      },
+      {
+        "tekst": "E Tegninger - snitt (pdf, 517KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214515_1_A!d-2020247684!6jvrMn?pid=29"
+      },
+      {
+        "tekst": "F Redegjørelse - grunnforhold (pdf, 836KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214516_1_A!d-2020247684!zpUyjQ?pid=29"
+      },
+      {
+        "tekst": "K Miljøsaneringsplan - Miljørapport - Idsevegen (pdf, 1,7MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214530_1_A!d-2020247684!huDuEi?pid=29"
+      },
+      {
+        "tekst": "Q Følgebrev - referat fra forhåndskonferanse - Erstatningsbustad (pdf, 83KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214531_1_A!d-2020247684!29sKKw?pid=29"
+      },
+      {
+        "tekst": "Q Følgebrev - godkjenning av søknad sanitær (pdf, 166KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214532_1_A!d-2020247684!dyodpy?pid=29"
+      },
+      {
+        "tekst": "Q Følgebrev - Tiltakshavers samtykke til byggeplaner (pdf, 108KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214533_1_A!d-2020247684!DvSmvJ?pid=29"
+      },
+      {
+        "tekst": "Q Vedleggsopplysninger (pdf, 178KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214534_1_A!d-2020247684!iwnYhB?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "29/5 Godkjenning av ferdigmelding for utslippstillatelse - Tjøstheimsvegen 504",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35310",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Langvik Maskin As",
+    "side": 40,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020013804!AFVmXh/d-6965376f__8677__47ea__a757__23e14c179149-2020247576!PXfaZo",
+    "filer": [
+      {
+        "tekst": "29/5 Godkjenning av ferdigmelding for utslippstillatelse - Tjøstheimsvegen 504 (pdf, 184KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214256_1_A!d-2020247576!gvObGJ?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Kvittering - søknad om regionalt miljøtilskot i Rogaland 2025",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35465",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Hilde Nordbø",
+    "side": 40,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019041!HzU6CX/d-6965376f__8677__47ea__a757__23e14c179149-2020247731!VQ9iZx",
+    "filer": [
+      {
+        "tekst": "Kvittering - søknad om regionalt miljøtilskot i Rogaland 2025 (pdf, 430KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214633_1_A!d-2020247731!1W2eJ4?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Utbetalingsvedtak av 18.11.2025",
+    "dato": "20.11.2025",
+    "dato_iso": "2025-11-20",
+    "dokumentID": "2025/35359",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Helfo",
+    "side": 40,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016179!wKgx5b/d-6965376f__8677__47ea__a757__23e14c179149-2020247625!FSDRtA",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Plan 202403 Detaljregulering felt S11 - Jørpeland sentrum - vedrørende andre punkt i vedtaket",
+    "dato": "19.11.2025",
+    "dato_iso": "2025-11-19",
+    "dokumentID": "2025/35326",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Arkitektfirma Helen & Hard As",
+    "side": 40,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020014608!NuCrDo/d-6965376f__8677__47ea__a757__23e14c179149-2020247592!mes9QW",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Helsetjenester til flyktninger - referat fra møte 16.12.2024",
+    "dato": "19.11.2025",
+    "dato_iso": "2025-11-19",
+    "dokumentID": "2025/9985",
+    "dokumenttype": "Internt notat (X)",
+    "avsender_mottaker": "",
+    "side": 40,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020015768!l2rgKy/d-6965376f__8677__47ea__a757__23e14c179149-2020222251!9u0QAY",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Møtebok - Ungdomsrådet - 18.11.2025",
+    "dato": "19.11.2025",
+    "dato_iso": "2025-11-19",
+    "dokumentID": "2025/35277",
+    "dokumenttype": "Møtebok",
+    "avsender_mottaker": "",
+    "side": 40,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020018725!79F4fC/d-6965376f__8677__47ea__a757__23e14c179149-2020247543!tHlqVp",
+    "filer": [
+      {
+        "tekst": "Møtebok - Ungdomsrådet - 18.11.2025 (pdf, 114KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214178_1_A!d-2020247543!DMPcUb?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Tilleggsinnkalling - Levekårsutvalget - 26.11.2025",
+    "dato": "19.11.2025",
+    "dato_iso": "2025-11-19",
+    "dokumentID": "2025/35294",
+    "dokumenttype": "Sakskart",
+    "avsender_mottaker": "",
+    "side": 40,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020018787!2NJq57/d-6965376f__8677__47ea__a757__23e14c179149-2020247560!ZhleL1",
+    "filer": [
+      {
+        "tekst": "Tilleggsinnkalling - Levekårsutvalget - 26.11.2025 (pdf, 85KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214233_1_A!d-2020247560!P75pbl?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Svar på søknad om arrangement under Strandagene 2026 - Jørpelandsholmen",
+    "dato": "19.11.2025",
+    "dato_iso": "2025-11-19",
+    "dokumentID": "2025/35126",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Adriatic Bar Og Catering As",
+    "side": 40,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2018002687!H1yHtb/d-6965376f__8677__47ea__a757__23e14c179149-2020247392!IIuAXb",
+    "filer": [
+      {
+        "tekst": "Svar på søknad om arrangement under Strandagene 2026 - Jørpelandsholmen (pdf, 1MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1213905_1_A!d-2020247392!h1OflX?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Referat fra intervju",
+    "dato": "19.11.2025",
+    "dato_iso": "2025-11-19",
+    "dokumentID": "2025/35179",
+    "dokumenttype": "Internt notat (X)",
+    "avsender_mottaker": "",
+    "side": 40,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020018655!aqNUra/d-6965376f__8677__47ea__a757__23e14c179149-2020247445!x9BRHF",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Søknad om barnehageplass",
+    "dato": "19.11.2025",
+    "dato_iso": "2025-11-19",
+    "dokumentID": "2025/35348",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Louise Bjørnsen",
+    "side": 40,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016170!b4U9W7/d-6965376f__8677__47ea__a757__23e14c179149-2020247614!6H0rFI",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Referat fra møte 22.10.2025 - ny avtale for å sikre helsepersonell i kommunene",
+    "dato": "19.11.2025",
+    "dato_iso": "2025-11-19",
+    "dokumentID": "2025/34457",
+    "dokumenttype": "Internt notat (X)",
+    "avsender_mottaker": "",
+    "side": 40,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017002!m0UWWv/d-6965376f__8677__47ea__a757__23e14c179149-2020246723!SHlezO",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "49/31/0/10,11 Dokumentsjekk - ikke behov for mangelbrev",
+    "dato": "19.11.2025",
+    "dato_iso": "2025-11-19",
+    "dokumentID": "2025/35143",
+    "dokumenttype": "Internt notat (X)",
+    "avsender_mottaker": "",
+    "side": 40,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016863!AnVF6f/d-6965376f__8677__47ea__a757__23e14c179149-2020247409!Mc37SM",
+    "filer": [
+      {
+        "tekst": "49/31/0/10,11 Dokumentsjekk - ikke behov for mangelbrev (pdf, 84KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1213943_1_A!d-2020247409!I6WfVF?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Krav Meik AS",
+    "dato": "19.11.2025",
+    "dato_iso": "2025-11-19",
+    "dokumentID": "2025/35176",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Advokat Kjersti Lunde",
+    "side": 40,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020006350!tICH8k/d-6965376f__8677__47ea__a757__23e14c179149-2020247442!rXS2gr",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Referat fra ressursgruppemøte 18.11.2025 - Tau ungdomsskole",
+    "dato": "19.11.2025",
+    "dato_iso": "2025-11-19",
+    "dokumentID": "2025/35164",
+    "dokumenttype": "Internt notat (X)",
+    "avsender_mottaker": "",
+    "side": 40,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020003641!QjWUZH/d-6965376f__8677__47ea__a757__23e14c179149-2020247430!oRGOKg",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Oppdragsavtale privat avlaster",
+    "dato": "19.11.2025",
+    "dato_iso": "2025-11-19",
+    "dokumentID": "2025/35180",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "",
+    "side": 40,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019027!6BCsrk/d-6965376f__8677__47ea__a757__23e14c179149-2020247446!joKwhf",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Møteprotokoll - Rådet for mennesker med nedsatt funksjonsevne - 19.11.2025",
+    "dato": "19.11.2025",
+    "dato_iso": "2025-11-19",
+    "dokumentID": "2025/35345",
+    "dokumenttype": "Møteprotokoll",
+    "avsender_mottaker": "",
+    "side": 40,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020018727!Mw1dCb/d-6965376f__8677__47ea__a757__23e14c179149-2020247611!zG9toE",
+    "filer": [
+      {
+        "tekst": "Møteprotokoll - Rådet for mennesker med nedsatt funksjonsevne - 19.11.2025 (pdf, 101KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214317_1_A!d-2020247611!cSIdMV?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Søknad om årlig støtte til MK Fremad II",
+    "dato": "19.11.2025",
+    "dato_iso": "2025-11-19",
+    "dokumentID": "2025/35299",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Venneforeininga Til Fremad II",
+    "side": 40,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016245!d1Ypsh/d-6965376f__8677__47ea__a757__23e14c179149-2020247565!KEP0AA",
+    "filer": [
+      {
+        "tekst": "Søknad om årlig støtte til MK Fremad II (pdf, 155KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214243_1_A!d-2020247565!KAaG71?pid=29"
+      },
+      {
+        "tekst": "E-post - Søknad om årlig støtte til MK Fremad II (pdf, 67KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214244_1_A!d-2020247565!sx4pfo?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Svar på innsynsbegjæring",
+    "dato": "19.11.2025",
+    "dato_iso": "2025-11-19",
+    "dokumentID": "2025/35129",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Strandbuen As v/Thomas Espevik",
+    "side": 40,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016220!G80rGC/d-6965376f__8677__47ea__a757__23e14c179149-2020247395!iVsg9a",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Signert avtale - Maske AS (Hovedenhet) signing",
+    "dato": "19.11.2025",
+    "dato_iso": "2025-11-19",
+    "dokumentID": "2025/35115",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Maske AS (Hovedenhet)",
+    "side": 40,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020018771!6AtfLA/d-6965376f__8677__47ea__a757__23e14c179149-2020247381!pScwfR",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Svar på søknad om endring av plass i SFO",
+    "dato": "19.11.2025",
+    "dato_iso": "2025-11-19",
+    "dokumentID": "2025/35256",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Martine Skåden Svendsen",
+    "side": 40,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016174!atIAv1/d-6965376f__8677__47ea__a757__23e14c179149-2020247522!fKqGqZ",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Svar på innsynsbegjæring",
+    "dato": "19.11.2025",
+    "dato_iso": "2025-11-19",
+    "dokumentID": "2025/35063",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Strandbuen As v/ Thomas Espevik",
+    "side": 40,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016220!G80rGC/d-6965376f__8677__47ea__a757__23e14c179149-2020247329!acHWhM",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "56/11 Søknad om rammetillatelse - parkeringsplass - Preikestolvegen 521 - Preikestolen Fjellstue Drift As",
+    "dato": "19.11.2025",
+    "dato_iso": "2025-11-19",
+    "dokumentID": "2025/35263",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Arkitektfirma Årreberg As",
+    "side": 40,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019032!RMO9BT/d-6965376f__8677__47ea__a757__23e14c179149-2020247529!jCPPOC",
+    "filer": [
+      {
+        "tekst": "56/11 Søknad om rammetillatelse - parkeringsplass - Preikestolvegen 521 - Preikestolen Fjellstue Drift As (pdf, 1MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214150_1_A!d-2020247529!lG9G3M?pid=29"
+      },
+      {
+        "tekst": "A Opplysninger om tiltakets ytre rammer og bygningsspesifikasjon (pdf, 461KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214152_1_A!d-2020247529!PstK18?pid=29"
+      },
+      {
+        "tekst": "C Kvittering for nabovarsel (pdf, 385KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214153_1_A!d-2020247529!hkxdwE?pid=29"
+      },
+      {
+        "tekst": "C Nabomerknad (pdf, 264KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214154_1_A!d-2020247529!BNZi20?pid=29"
+      },
+      {
+        "tekst": "D Situasjonsplan (pdf, 388KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214155_1_A!d-2020247529!bpf70g?pid=29"
+      },
+      {
+        "tekst": "E Tegninger - snitt (pdf, 841KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214156_1_A!d-2020247529!eQT2mV?pid=29"
+      },
+      {
+        "tekst": "E Tegninger - parkering og gjesteankomst (pdf, 151KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214157_1_A!d-2020247529!pGQQws?pid=29"
+      },
+      {
+        "tekst": "G Gjennomføringsplan (pdf, 158KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214160_1_A!d-2020247529!75e11R?pid=29"
+      },
+      {
+        "tekst": "G Erklæring om ansvarsrett - Terje Ur AS (pdf, 784KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214158_1_A!d-2020247529!eDptDS?pid=29"
+      },
+      {
+        "tekst": "G Erklæring om ansvarsrett - Arkitektfirma Årreberg AS (pdf, 257KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214159_1_A!d-2020247529!xBbUct?pid=29"
+      },
+      {
+        "tekst": "Q Følgebrev til søknad om ny parkeringsplass (pdf, 75KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214161_1_A!d-2020247529!w49zDG?pid=29"
+      },
+      {
+        "tekst": "Q E-post - søknad om rammetillatelse til ny parkeringsplass -Preikestolen Fjellstue (pdf, 82KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214151_1_A!d-2020247529!ycpOLE?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "16/203 Tilbakemelding på punkter 5a og 5b (park og grønt) - teknisk plan Strand videregående skole",
+    "dato": "19.11.2025",
+    "dato_iso": "2025-11-19",
+    "dokumentID": "2025/34736",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Sweco",
+    "side": 40,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017661!8BR2uW/d-6965376f__8677__47ea__a757__23e14c179149-2020247002!QIyj7v",
+    "filer": [
+      {
+        "tekst": "16/203 Tilbakemelding på punkter 5a og 5b (park og grønt) - teknisk plan Strand videregående skole (pdf, 1,8MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1213837_1_A!d-2020247002!rttRch?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Tilleggsinformasjon - forslag til radiatorer / tegning av varmesløyfer",
+    "dato": "19.11.2025",
+    "dato_iso": "2025-11-19",
+    "dokumentID": "2025/35112",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Mercell Norge AS",
+    "side": 40,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017463!NgtJb9/d-6965376f__8677__47ea__a757__23e14c179149-2020247378!NeXO3M",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Vedtak om utvidelse av eksisterende skjenkebevilling for enkeltanledning 25.12.2025",
+    "dato": "19.11.2025",
+    "dato_iso": "2025-11-19",
+    "dokumentID": "2025/34818",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Adriatic Bar Og Catering As",
+    "side": 40,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016276!701wmh/d-6965376f__8677__47ea__a757__23e14c179149-2020247084!e5nHqT",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Svar - spørsmål om tomtegrense og vedlikeholdsansvar - Kornblomstvegen 5A Jørpeland",
+    "dato": "19.11.2025",
+    "dato_iso": "2025-11-19",
+    "dokumentID": "2025/35117",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Olav Lothe Tungland",
+    "side": 40,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020004013!cVQhZt/d-6965376f__8677__47ea__a757__23e14c179149-2020247383!wmm2r1",
+    "filer": [
+      {
+        "tekst": "Svar - spørsmål om tomtegrense og vedlikeholdsansvar - Kornblomstvegen 5A Jørpeland (pdf, 111KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1213838_1_A!d-2020247383!aFurdw?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "44/769 Varsel om befaring i forvaltningssak - mur, levegg, bod og fasadeendring - Kvitemyrvegen 8",
+    "dato": "19.11.2025",
+    "dato_iso": "2025-11-19",
+    "dokumentID": "2025/35103",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Flere mottakere",
+    "side": 40,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017934!leCB8l/d-6965376f__8677__47ea__a757__23e14c179149-2020247369!KCpEDH",
+    "filer": [
+      {
+        "tekst": "44/769 Varsel om befaring i forvaltningssak - mur, levegg, bod og fasadeendring - Kvitemyrvegen 8 (pdf, 112KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1213795_1_A!d-2020247369!yZZ5NC?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Utbetalingsvedtak av 17.11.2025",
+    "dato": "19.11.2025",
+    "dato_iso": "2025-11-19",
+    "dokumentID": "2025/35232",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Helfo",
+    "side": 40,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016179!wKgx5b/d-6965376f__8677__47ea__a757__23e14c179149-2020247498!Ye7tmQ",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Søknad om plass i SFO",
+    "dato": "19.11.2025",
+    "dato_iso": "2025-11-19",
+    "dokumentID": "2025/35254",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Linn Angelina Aarstad Mathisen",
+    "side": 40,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016173!lptDzJ/d-6965376f__8677__47ea__a757__23e14c179149-2020247520!YpsTFj",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Flomsikring - Fjeldebakken",
+    "dato": "19.11.2025",
+    "dato_iso": "2025-11-19",
+    "dokumentID": "2025/35328",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Øystein Woxvoll Larssen",
+    "side": 40,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2018000557!pZosIl/d-6965376f__8677__47ea__a757__23e14c179149-2020247594!F5sOaD",
+    "filer": [
+      {
+        "tekst": "Flomsikring - Fjeldebakken (pdf, 836KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214286_1_A!d-2020247594!6gy5Cm?pid=29"
+      },
+      {
+        "tekst": "Kart (pdf, 1,4MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214287_1_A!d-2020247594!FTV8eV?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Møtebok - Rådet for mennesker med nedsatt funksjonsevne - 19.11.2025",
+    "dato": "19.11.2025",
+    "dato_iso": "2025-11-19",
+    "dokumentID": "2025/35346",
+    "dokumenttype": "Møtebok",
+    "avsender_mottaker": "",
+    "side": 40,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020018727!Mw1dCb/d-6965376f__8677__47ea__a757__23e14c179149-2020247612!vQlCM0",
+    "filer": [
+      {
+        "tekst": "Møtebok - Rådet for mennesker med nedsatt funksjonsevne - 19.11.2025 (pdf, 125KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214318_1_A!d-2020247612!dp8WcT?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Søknad om tilskudd til avløsning ved sykdom og fødsel",
+    "dato": "19.11.2025",
+    "dato_iso": "2025-11-19",
+    "dokumentID": "2025/35219",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "",
+    "side": 40,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019030!VOIj9B/d-6965376f__8677__47ea__a757__23e14c179149-2020247485!XEcvBM",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Utbetalingsvedtak av 17.11.2025",
+    "dato": "19.11.2025",
+    "dato_iso": "2025-11-19",
+    "dokumentID": "2025/35233",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Helfo",
+    "side": 40,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016179!wKgx5b/d-6965376f__8677__47ea__a757__23e14c179149-2020247499!FZqpAs",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "110/37 Svar på status og endring av plan 112906R01 - naust - Hamn Høllesli",
+    "dato": "19.11.2025",
+    "dato_iso": "2025-11-19",
+    "dokumentID": "2025/35131",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Prosjektil As",
+    "side": 40,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020013048!8xwj7u/d-6965376f__8677__47ea__a757__23e14c179149-2020247397!frhVcX",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Søknad om endring av plass i SFO",
+    "dato": "19.11.2025",
+    "dato_iso": "2025-11-19",
+    "dokumentID": "2025/35347",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Kine Marie Krogh Eie",
+    "side": 40,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016174!atIAv1/d-6965376f__8677__47ea__a757__23e14c179149-2020247613!UQcdiR",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "16/240 Korrespondanse - støy - KIWI Tau - Ryfylkevegen 1990",
+    "dato": "19.11.2025",
+    "dato_iso": "2025-11-19",
+    "dokumentID": "2025/35040",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Rogaland Brann Og Redning Iks",
+    "side": 40,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017962!FUDJoT/d-6965376f__8677__47ea__a757__23e14c179149-2020247306!g92dv9",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Agenda drøftingsmøte KPA 18.11.2025 - Statsforvalteren og Rogaland fylkeskommune",
+    "dato": "19.11.2025",
+    "dato_iso": "2025-11-19",
+    "dokumentID": "2025/35202",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Statsforvaltaren I Rogaland",
+    "side": 40,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020012783!XIvR4o/d-6965376f__8677__47ea__a757__23e14c179149-2020247468!nwft2E",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Vedtatt endring av plan for Reguleringsendring Comrod næringsområde - planid 202404",
+    "dato": "19.11.2025",
+    "dato_iso": "2025-11-19",
+    "dokumentID": "2025/35059",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Job Arkitekter As",
+    "side": 40,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020018688!q3cvMW/d-6965376f__8677__47ea__a757__23e14c179149-2020247325!sZY5Pm",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Referat fra intervju",
+    "dato": "19.11.2025",
+    "dato_iso": "2025-11-19",
+    "dokumentID": "2025/35137",
+    "dokumenttype": "Internt notat (X)",
+    "avsender_mottaker": "",
+    "side": 40,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020018655!aqNUra/d-6965376f__8677__47ea__a757__23e14c179149-2020247403!rkroyf",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "44/579 Egenerklæring om konsesjonsfrihet",
+    "dato": "19.11.2025",
+    "dato_iso": "2025-11-19",
+    "dokumentID": "2025/35304",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Daniel Heggland",
+    "side": 40,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016198!kPG3R0/d-6965376f__8677__47ea__a757__23e14c179149-2020247570!agT2R2",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "49/703 Signert kontrollerklæring for matrikkelføring fradeling industritomt samt grensejusteringer",
+    "dato": "19.11.2025",
+    "dato_iso": "2025-11-19",
+    "dokumentID": "2025/35296",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Rycon As",
+    "side": 40,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016435!Rtke5D/d-6965376f__8677__47ea__a757__23e14c179149-2020247562!3wqyTK",
+    "filer": [
+      {
+        "tekst": "49/703 Signert kontrollerklæring for matrikkelføring fradeling industritomt samt grensejusteringer (pdf, 113KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214236_1_A!d-2020247562!kOl8G6?pid=29"
+      },
+      {
+        "tekst": "Sidemannskontroll av matrikkelføring 116-25 (pdf, 647KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214237_1_A!d-2020247562!wuACIX?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Referat fra intervju",
+    "dato": "19.11.2025",
+    "dato_iso": "2025-11-19",
+    "dokumentID": "2025/35125",
+    "dokumenttype": "Internt notat (X)",
+    "avsender_mottaker": "",
+    "side": 40,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020018655!aqNUra/d-6965376f__8677__47ea__a757__23e14c179149-2020247391!SMouN0",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Utbetalingsvedtak av 17.11.2025",
+    "dato": "19.11.2025",
+    "dato_iso": "2025-11-19",
+    "dokumentID": "2025/35234",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Helfo",
+    "side": 40,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016179!wKgx5b/d-6965376f__8677__47ea__a757__23e14c179149-2020247500!BgEAxC",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Referat fra intervju",
+    "dato": "19.11.2025",
+    "dato_iso": "2025-11-19",
+    "dokumentID": "2025/35155",
+    "dokumenttype": "Internt notat (X)",
+    "avsender_mottaker": "",
+    "side": 40,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020018655!aqNUra/d-6965376f__8677__47ea__a757__23e14c179149-2020247421!SDS9Yg",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Melding om vedtak - planendring for Reguleringsendring Comrod næringsområde",
+    "dato": "19.11.2025",
+    "dato_iso": "2025-11-19",
+    "dokumentID": "2025/35204",
+    "dokumenttype": "Utgående dokument",
+    "avsender_mottaker": "Mottaker: Statsforvaltaren i Rogaland",
+    "side": 40,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020018688!q3cvMW/d-6965376f__8677__47ea__a757__23e14c179149-2020247470!cU6WZi",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "53/134 Klagevedtak - stadfester avvisning - byggesak - Selemorkvegen 35 - mur",
+    "dato": "19.11.2025",
+    "dato_iso": "2025-11-19",
+    "dokumentID": "2025/35300",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Statsforvaltaren I Rogaland",
+    "side": 40,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016904!HXjnkK/d-6965376f__8677__47ea__a757__23e14c179149-2020247566!IOpdCb",
+    "filer": [
+      {
+        "tekst": "53/134 Klagevedtak - stadfester avvisning - byggesak - Selemorkvegen 35 - mur (pdf, 87KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214245_1_A!d-2020247566!HbvrGi?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "62/2 Innmåling av privat avløpsanlegg Idsalvegen 53",
+    "dato": "19.11.2025",
+    "dato_iso": "2025-11-19",
+    "dokumentID": "2025/35317",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Kleppa As",
+    "side": 40,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020018460!RuaAz7/d-6965376f__8677__47ea__a757__23e14c179149-2020247583!e3axj6",
+    "filer": [
+      {
+        "tekst": "62/2 Innmåling av privat avløpsanlegg Idsalvegen 53 (pdf, 113KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214269_1_A!d-2020247583!iyIlR1?pid=29"
+      },
+      {
+        "tekst": "AS-BUILT nytt renseanlegg, 62 2, Idsal (pdf, 686KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214270_1_A!d-2020247583!urDVv7?pid=29"
+      },
+      {
+        "tekst": "AS-BUILT nytt renseanlegg, 62 2, Idsal (gmi, 5KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1214271_1_A!d-2020247583!l4Jmed?pid=29"
+      }
+    ],
+    "status": "Publisert"
+  },
+  {
+    "tittel": "Melding fra leverandør - svar på spørsmål",
+    "dato": "19.11.2025",
+    "dato_iso": "2025-11-19",
+    "dokumentID": "2025/35289",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Fair Deal As",
+    "side": 40,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017463!NgtJb9/d-6965376f__8677__47ea__a757__23e14c179149-2020247555!gBTSYz",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "25/60/4 Egenerklæring om konsesjonsfrihet",
+    "dato": "19.11.2025",
+    "dato_iso": "2025-11-19",
+    "dokumentID": "2025/35303",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Flere avsendere",
+    "side": 40,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016198!kPG3R0/d-6965376f__8677__47ea__a757__23e14c179149-2020247569!8ymjFR",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
+    "tittel": "Varsel",
+    "dato": "19.11.2025",
+    "dato_iso": "2025-11-19",
+    "dokumentID": "2025/35195",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "",
+    "side": 40,
+    "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017797!Ra1Kw8/d-6965376f__8677__47ea__a757__23e14c179149-2020247461!i5xLCc",
+    "filer": [],
+    "status": "Må bes om innsyn"
+  },
+  {
     "tittel": "50/1 Søknad om tillatelse i ett trinn - foring av pipe - Dalavegen 463 - Ragnar Oftedal",
     "dato": "19.11.2025",
     "dato_iso": "2025-11-19",
@@ -113831,1359 +115970,6 @@
     "dokumenttype": "Utgående dokument",
     "avsender_mottaker": "Mottaker: Læringsverkstedet Fjeldebakkane Barnehage As",
     "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020015479!GrjvAF/d-6965376f__8677__47ea__a757__23e14c179149-2020229225!X6ZPpt",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Eiendomsskattegrunnlag for kraftselskap - inntektsår 2019 - eiendomsskatteår 2021",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16503",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020015332!qwTe0W/d-6965376f__8677__47ea__a757__23e14c179149-2020228769!TSNVQc",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "340922 Tegninger - sprang himling og vegghengt toalett - ombygging Jonsokberget dagsenter",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/2546",
-    "dokumenttype": "Internt notat (X)",
-    "avsender_mottaker": "",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016434!06XiIL/d-6965376f__8677__47ea__a757__23e14c179149-2020214812!JSbgvt",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Tilbud om plass i skolefritidsordningen (SFO)",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16460",
-    "dokumenttype": "Utgående dokument",
-    "avsender_mottaker": "Mottaker: Jan Martin Fagerland",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016173!lptDzJ/d-6965376f__8677__47ea__a757__23e14c179149-2020228726!tMXIRG",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Søknad - Pedagogiske ledere - barnehager",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16416",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017332!85Sp8D/d-6965376f__8677__47ea__a757__23e14c179149-2020228682!sCNWyv",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "110/25 Søknad om endring av gitt rammetillatelse",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16395",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "Avsender: Bygg-Kon As",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020010100!Ahl9wl/d-6965376f__8677__47ea__a757__23e14c179149-2020228661!FGQaPD",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Søknad - Miljøveileder/fagarbeider - skole",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16408",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017331!M0elsa/d-6965376f__8677__47ea__a757__23e14c179149-2020228674!1WuBkq",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Melding til leverandør - Møte - bistand til lederutvikling",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16945",
-    "dokumenttype": "Utgående dokument",
-    "avsender_mottaker": "Mottaker: KS-Konsulent AS",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017198!wWNnKT/d-6965376f__8677__47ea__a757__23e14c179149-2020229211!jOGbCp",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Utflytting",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16389",
-    "dokumenttype": "Internt notat (X)",
-    "avsender_mottaker": "",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017445!RWwCtB/d-6965376f__8677__47ea__a757__23e14c179149-2020228655!TUhTRl",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Fra KS - beregnet økonomisk ramme for HTA kap 3 og 5",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/15925",
-    "dokumenttype": "Internt notat (X)",
-    "avsender_mottaker": "",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016208!FlNGt0/d-6965376f__8677__47ea__a757__23e14c179149-2020228191!xxPNg8",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "13/27 Vedtak - klage - avslag naust og brygge - Buene 10",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16350",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "Avsender: Statsforvaltaren I Vestland",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020014353!LKIsR7/d-6965376f__8677__47ea__a757__23e14c179149-2020228616!dpx6WJ",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "53/95 FV 523 Dispensasjon byggegrense for erstatningsmur - forhåndsuttalelse - Nedre Vollgate 2",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16328",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "Avsender: Rogaland fylkeskommune",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017542!h5zOnl/d-6965376f__8677__47ea__a757__23e14c179149-2020228594!xax90T",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "501602 Referat fra oppstartsmøte 31.01.2025 - TUS-løkka - Oppgradering banedekke ballbinger",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16493",
-    "dokumenttype": "Utgående dokument",
-    "avsender_mottaker": "Mottaker: Stangeland Maskin As",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017450!myCnN0/d-6965376f__8677__47ea__a757__23e14c179149-2020228759!uzivZD",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "44/317 Søknad om tillatelse i ett trinn - basestasjon Jørpeland flerbrukshall - Fjelltunvegen 29 - Lyse Tele As",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16372",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "Avsender: Lyse Tele As",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017441!bhow9h/d-6965376f__8677__47ea__a757__23e14c179149-2020228638!DXrFr9",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Rapportering av standpunkt og eksamenskarakterer for grunnskolen 2024/2025",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16331",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "Avsender: Rogaland fylkeskommune",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2013000444!zLHJex/d-6965376f__8677__47ea__a757__23e14c179149-2020228597!CHAmwE",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Avregning vedrørende OTC-rente kontrakt nr. 1533749/2102212",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16836",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "Avsender: Nordea Bank Abp",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020012861!9PAk9r/d-6965376f__8677__47ea__a757__23e14c179149-2020229102!AcTCqm",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "49/736 Godkjenning av melding om utført tiltak på eksisterende innvendig sanitæranlegg - Vågabakken 26",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16294",
-    "dokumenttype": "Utgående dokument",
-    "avsender_mottaker": "Mottaker: Sig Halvorsen As",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017433!7Cbgxs/d-6965376f__8677__47ea__a757__23e14c179149-2020228560!y4kchp",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "16/203 Supplering av søknad - tilbygg - Ryfylkevegen 1914 - Rogaland Fylkeskommune",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16335",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "Avsender: Hent As",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016128!zz0RjC/d-6965376f__8677__47ea__a757__23e14c179149-2020228601!qCDV74",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Utbetalingsvedtak av 27.05.2025",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16476",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "Avsender: Helfo",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016179!wKgx5b/d-6965376f__8677__47ea__a757__23e14c179149-2020228742!l7WILC",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Takker ja til plass i Fjelltun SFO",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16563",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "Avsender: Rebekka Fjelde",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016173!lptDzJ/d-6965376f__8677__47ea__a757__23e14c179149-2020228829!bIw1vv",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Request for Access to Public Documents - Green Mountain Data Centre - Jørpeland",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16480",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "Avsender: DC Byte",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016263!XdDDvB/d-6965376f__8677__47ea__a757__23e14c179149-2020228746!UnN7Os",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Tilbud om plass i skolefritidsordningen (SFO)",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16461",
-    "dokumenttype": "Utgående dokument",
-    "avsender_mottaker": "Mottaker: Asha Karunga Elombe",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016173!lptDzJ/d-6965376f__8677__47ea__a757__23e14c179149-2020228727!WIMm67",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "340922 Tegninger og fargepalett - ombygging Jonsokberget dagsenter",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/2544",
-    "dokumenttype": "Internt notat (X)",
-    "avsender_mottaker": "",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016434!06XiIL/d-6965376f__8677__47ea__a757__23e14c179149-2020214810!RZikd6",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Informasjon om utlysning av tilskuddsordning Nasjonal ALIS og veiledning - 2025",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16552",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "Avsender: Helsedirektoratet",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020005277!hzHVqL/d-6965376f__8677__47ea__a757__23e14c179149-2020228818!feCYeq",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Tilskuddsbrev 2025 - Tilskudd til skolebibliotek",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16332",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "Avsender: Utdanningsdirektoratet",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016278!2WplZP/d-6965376f__8677__47ea__a757__23e14c179149-2020228598!ir2fG8",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "43/372 Svar på spørsmål om overvannsproblemer ved hus - Barkvedbakken 27A",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16308",
-    "dokumenttype": "Utgående dokument",
-    "avsender_mottaker": "Mottaker: Halvar Moen",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016821!OwdV6H/d-6965376f__8677__47ea__a757__23e14c179149-2020228574!LTEvoc",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "11/41 Søknad om tillatelse til tiltak uten ansvarsrett - støttemur - Kjølevikvegen 32 - Siri Sagård og Harald Langeland",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16597",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "Avsender: Harald Langeland",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017460!rP5OUu/d-6965376f__8677__47ea__a757__23e14c179149-2020228863!gVRexf",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Tilbud om plass i skolefritidsordningen (SFO)",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16462",
-    "dokumenttype": "Utgående dokument",
-    "avsender_mottaker": "Mottaker: Marie Ur",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016173!lptDzJ/d-6965376f__8677__47ea__a757__23e14c179149-2020228728!dqStZp",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Søknad - Pedagogiske ledere - barnehager",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16413",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017332!85Sp8D/d-6965376f__8677__47ea__a757__23e14c179149-2020228679!LOhwJa",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Eiendomsskattegrunnlag for kraftselskap - inntektsår 2017 - eiendomsskatteår 2019",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16501",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020015332!qwTe0W/d-6965376f__8677__47ea__a757__23e14c179149-2020228767!dSZG4J",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Tilbud om plass i skolefritidsordningen (SFO)",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16452",
-    "dokumenttype": "Utgående dokument",
-    "avsender_mottaker": "Mottaker: Aamer Jamil Alawad",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016173!lptDzJ/d-6965376f__8677__47ea__a757__23e14c179149-2020228718!twgR61",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Forespørsel om VA-data - Jørpeland",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16550",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "Avsender: Lnett As",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016357!f0QLi1/d-6965376f__8677__47ea__a757__23e14c179149-2020228816!CqcbrO",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Vedrørende serveringsbevilling - Tako Sushi",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16582",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "Avsender: Indra Jegoroviene",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020004336!N1yBw0/d-6965376f__8677__47ea__a757__23e14c179149-2020228848!yNccNu",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Bekreftelse på mottatt søknad - Miljøveileder/fagarbeider - skole",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16410",
-    "dokumenttype": "Utgående dokument",
-    "avsender_mottaker": "",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017331!M0elsa/d-6965376f__8677__47ea__a757__23e14c179149-2020228676!0Dz8Jr",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "48/249 Revidert søknad om vann- og avløpsarbeid - Moen 1a",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16526",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "Avsender: Stavanger Vvs As",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016463!sJvVBp/d-6965376f__8677__47ea__a757__23e14c179149-2020228792!1B17V9",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Bekreftelse på mottatt søknad - Miljøveileder/fagarbeider - skole",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16412",
-    "dokumenttype": "Utgående dokument",
-    "avsender_mottaker": "",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017331!M0elsa/d-6965376f__8677__47ea__a757__23e14c179149-2020228678!H6PS2X",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "501602 Forhåndsmelding av arbeidsplass - TUS-løkka - Oppgradering banedekke ballbinger",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16438",
-    "dokumenttype": "Utgående dokument",
-    "avsender_mottaker": "Mottaker: Arbeidstilsynet",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017450!myCnN0/d-6965376f__8677__47ea__a757__23e14c179149-2020228704!d9eKht",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Startlån ettersendt vedlegg - avslag boliglån",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16382",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017220!UxkYm2/d-6965376f__8677__47ea__a757__23e14c179149-2020228648!wT1FXW",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Søknad - Barne- og ungdomsarbeider - barnehage",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16427",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017333!VqaGpD/d-6965376f__8677__47ea__a757__23e14c179149-2020228693!tE0T7E",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "22/2 Søknad - nydyrking",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16373",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "Avsender: Gunnstein Østerhus",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017442!ZgrM8W/d-6965376f__8677__47ea__a757__23e14c179149-2020228639!AL2P7E",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Protokoll - forhandlinger etter HTA kap 4.2.4 - kompetanse - Signert",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16370",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016207!ZIJtsR/d-6965376f__8677__47ea__a757__23e14c179149-2020228636!ah7QPH",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "340922 Brannotat - ombygging Dagsenter Jonsokberget",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/12741",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "Avsender: Q Rådgivning As",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016434!06XiIL/d-6965376f__8677__47ea__a757__23e14c179149-2020225007!L3sZFm",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "25/8 27/4 Varsel om frist for å gjennomføre og rapportere fra prosjekt restaurering av steingard",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/12342",
-    "dokumenttype": "Utgående dokument",
-    "avsender_mottaker": "Mottaker: Odd Bjørn Voster",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020000319!iWeLMS/d-6965376f__8677__47ea__a757__23e14c179149-2020224608!JIw74J",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Møteprotokoll - Rådet for mennesker med nedsatt funksjonsevne - 02.06.2025",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16969",
-    "dokumenttype": "Møteprotokoll",
-    "avsender_mottaker": "",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017254!vuYexs/d-6965376f__8677__47ea__a757__23e14c179149-2020229235!vYW8DA",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Tilbud om plass i skolefritidsordningen (SFO)",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16453",
-    "dokumenttype": "Utgående dokument",
-    "avsender_mottaker": "Mottaker: Pål Nyberg",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016173!lptDzJ/d-6965376f__8677__47ea__a757__23e14c179149-2020228719!0DGXsf",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Mitt nabolag - Inviter naboen på kaffe og is! - revisjon: 20 - Endret: 25.08.2025",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/26016",
-    "dokumenttype": "Internt notat (X)",
-    "avsender_mottaker": "",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020011381!sgNphk/d-6965376f__8677__47ea__a757__23e14c179149-2020238282!SZtHT7",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "9/104 Nabovarsel for Vervikhagen 13",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16473",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "Avsender: Trebygg Strand As",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016190!Lg3YDg/d-6965376f__8677__47ea__a757__23e14c179149-2020228739!rQosal",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Mitt nabolag - Inviter naboen på kaffe og is! - revisjon: 1 - Endret: 02.06.2025",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/17168",
-    "dokumenttype": "Internt notat (X)",
-    "avsender_mottaker": "",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020011381!sgNphk/d-6965376f__8677__47ea__a757__23e14c179149-2020229434!3xLLoE",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Bekreftelse på mottatt søknad - Pedagogiske ledere - barnehager",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16415",
-    "dokumenttype": "Utgående dokument",
-    "avsender_mottaker": "",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017332!85Sp8D/d-6965376f__8677__47ea__a757__23e14c179149-2020228681!5iaPLI",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Informasjon om ny digital tjeneste for tilskuddsforvaltning i regi av KS Digital",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16337",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "Avsender: Ks-Kommunesektorens Organisasjon",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017440!TSBglC/d-6965376f__8677__47ea__a757__23e14c179149-2020228603!ODWfiU",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Søknad om barnehageplass",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16545",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "Avsender: Tesfahiwet Bereketab Gebreslasie",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016170!b4U9W7/d-6965376f__8677__47ea__a757__23e14c179149-2020228811!Mqp7bK",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Tilbud om plass i skolefritidsordningen (SFO)",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16456",
-    "dokumenttype": "Utgående dokument",
-    "avsender_mottaker": "Mottaker: Najlaa Thajeel Munshid Al Rammahi",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016173!lptDzJ/d-6965376f__8677__47ea__a757__23e14c179149-2020228722!lSEeEZ",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Oppsigelse av leiekontrakt",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16571",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016296!EQivj4/d-6965376f__8677__47ea__a757__23e14c179149-2020228837!LEl1GI",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Søknad om plass i SFO",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16577",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "Avsender: Hanna Sande Dalatun",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016173!lptDzJ/d-6965376f__8677__47ea__a757__23e14c179149-2020228843!r4Zb6H",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Tilleggsinnkalling - Levekårsutvalget - 04.06.2025",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16553",
-    "dokumenttype": "Sakskart",
-    "avsender_mottaker": "",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017370!s0h9r8/d-6965376f__8677__47ea__a757__23e14c179149-2020228819!i8eFGj",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Tilbud om plass i skolefritidsordningen (SFO)",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16459",
-    "dokumenttype": "Utgående dokument",
-    "avsender_mottaker": "Mottaker: Abdurahman Adem Mohammedali",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016173!lptDzJ/d-6965376f__8677__47ea__a757__23e14c179149-2020228725!2MLKFN",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Bekreftelse på mottatt søknad - Barne- og ungdomsarbeider - barnehage",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16428",
-    "dokumenttype": "Utgående dokument",
-    "avsender_mottaker": "",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017333!VqaGpD/d-6965376f__8677__47ea__a757__23e14c179149-2020228694!bFyYLW",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Søknad om å bli valgmedarbeider 08.09.2025",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16338",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "Avsender: Leicester Rajaratnam Egenes",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020013335!sAHgpy/d-6965376f__8677__47ea__a757__23e14c179149-2020228604!6ESnnV",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "16/203 Søknad om igangsettingstillatelse - riving eksisterende bygg - Ryfylkevegen 1914 - Rogaland Fylkeskommune",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16353",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "Avsender: Hent As",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016128!zz0RjC/d-6965376f__8677__47ea__a757__23e14c179149-2020228619!BHF8mv",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Tilbud om plass i skolefritidsordningen (SFO)",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16451",
-    "dokumenttype": "Utgående dokument",
-    "avsender_mottaker": "Mottaker: Leul Weldemichael Negasi",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016173!lptDzJ/d-6965376f__8677__47ea__a757__23e14c179149-2020228717!FGlSGr",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Melding til leverandør - Møte - Bistand til lederutvikling",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16573",
-    "dokumenttype": "Utgående dokument",
-    "avsender_mottaker": "Mottaker: Human AS",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017198!wWNnKT/d-6965376f__8677__47ea__a757__23e14c179149-2020228839!8aIVxX",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "53/479 Revidert innkjørsel - enebolig med garasje - Svarthølsvegen 16",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16527",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "Avsender: Arkitekt Morten Barstad",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016896!7gb8dl/d-6965376f__8677__47ea__a757__23e14c179149-2020228793!jnzCnD",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "63/20 Søknad om deling/justering av grunneiendom - Stokkavig - Tormod Lunde Idsø",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16576",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "Avsender: Rycon As",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017458!n7n7nP/d-6965376f__8677__47ea__a757__23e14c179149-2020228842!qqlBf0",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Melding fra leverandør - Møte - bistand til lederutvikling",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16944",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "Avsender: KS-Konsulent AS",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017198!wWNnKT/d-6965376f__8677__47ea__a757__23e14c179149-2020229210!85OQWz",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Søknad - Barne- og ungdomsarbeider - barnehage",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16417",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017333!VqaGpD/d-6965376f__8677__47ea__a757__23e14c179149-2020228683!v0yTLd",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Eiendomsskattegrunnlag for kraftselskap - inntektsår 2020 - eiendomsskatteår 2022",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16504",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020015332!qwTe0W/d-6965376f__8677__47ea__a757__23e14c179149-2020228770!zJRvG0",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "31/237/0/5 Nabovarsel for Raunevegen 5D",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16474",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "Avsender: Fjogstad-Hus As",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016190!Lg3YDg/d-6965376f__8677__47ea__a757__23e14c179149-2020228740!wRH1D6",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "25/8 27/4 Sluttrapport - spesielle miljøtiltak i jordbruket (SMIL) - restaurering steingard - Bjørheimsbygd",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16580",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "Avsender: Odd Bjørn Voster",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020000319!iWeLMS/d-6965376f__8677__47ea__a757__23e14c179149-2020228846!4W27Am",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Avtale mellom kommunene og Helse Stavanger om tilgang til helseopplysninger til pasienter som omfattes av interkommunalt ambulant rehabiliteringsteam ved digital hjemmeoppfølging",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16376",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "Avsender: Helse Stavanger Hf",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020009995!Z17HC0/d-6965376f__8677__47ea__a757__23e14c179149-2020228642!36v3L6",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "44/885 Dispensasjon - oppføring av hagestue - søknad til uttalelse - Gaupevegen 36 - Susanne Østrem",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16964",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "Avsender: Rogaland fylkeskommune",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016848!OEmW5c/d-6965376f__8677__47ea__a757__23e14c179149-2020229230!Wd5AZI",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Tilbud om plass i skolefritidsordningen (SFO)",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16463",
-    "dokumenttype": "Utgående dokument",
-    "avsender_mottaker": "Mottaker: Stine Ramsland Arnesen",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016173!lptDzJ/d-6965376f__8677__47ea__a757__23e14c179149-2020228729!mAjQFS",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Tilbud om plass i skolefritidsordningen (SFO)",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16455",
-    "dokumenttype": "Utgående dokument",
-    "avsender_mottaker": "Mottaker: Najah Mazen Chhimeh",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016173!lptDzJ/d-6965376f__8677__47ea__a757__23e14c179149-2020228721!jUR9mO",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "45/3 Vedkomande konsesjonssak Fjelde",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16471",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "Avsender: Aktiv As",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017343!eVCv3F/d-6965376f__8677__47ea__a757__23e14c179149-2020228737!OgrMqH",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Tilbud om plass i skolefritidsordningen (SFO)",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16448",
-    "dokumenttype": "Utgående dokument",
-    "avsender_mottaker": "Mottaker: Tuba Koca",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016173!lptDzJ/d-6965376f__8677__47ea__a757__23e14c179149-2020228714!rP8yvo",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Tilbud om plass i skolefritidsordningen (SFO)",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16454",
-    "dokumenttype": "Utgående dokument",
-    "avsender_mottaker": "Mottaker: Dajana Akaratovic",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016173!lptDzJ/d-6965376f__8677__47ea__a757__23e14c179149-2020228720!zlufpU",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Eiendomsskattegrunnlag for kraftselskap - inntektsår 2018 - eiendomsskatteår 2020",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16502",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020015332!qwTe0W/d-6965376f__8677__47ea__a757__23e14c179149-2020228768!wbp92p",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Utbetalingsvedtak av 29.05.2025",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16478",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "Avsender: Helfo",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016179!wKgx5b/d-6965376f__8677__47ea__a757__23e14c179149-2020228744!hglYC3",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Prisforespørsel for kjøp av konsulenttjeneste - vannforskriften § 12 - KPA Strand kommune",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16318",
-    "dokumenttype": "Utgående dokument",
-    "avsender_mottaker": "Mottaker: Biota As",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020012783!XIvR4o/d-6965376f__8677__47ea__a757__23e14c179149-2020228584!9kote4",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Kontroll av tildelte midler høsten 2024 - Ettårig øremerket tilskudd til innkjøp av trykte læremidler i grunnskolen",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16336",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "Avsender: Utdanningsdirektoratet",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020005745!9TZ1JU/d-6965376f__8677__47ea__a757__23e14c179149-2020228602!iPQG8h",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Høyring - forslag til endringar i regelverket for sjukepengar og stønad ved barns sjukdom - folketrygdlova kapittel 8 og 9",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16390",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "Avsender: Arbeids- Og Inkluderingsdepartementet",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017446!V0Iuta/d-6965376f__8677__47ea__a757__23e14c179149-2020228656!CBNeU9",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Søknad om å bli valgmedarbeider 08.09.2025",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16339",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "Avsender: Wenche Krogevoll",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020013335!sAHgpy/d-6965376f__8677__47ea__a757__23e14c179149-2020228605!HXjPgD",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "49/4 Spørsmål om fradeling av tomt - Almalia",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16555",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "Avsender: Henrik Storm Veland Mikkelsen",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016235!lTDKeJ/d-6965376f__8677__47ea__a757__23e14c179149-2020228821!PydXz8",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Refusjonskrav for barn folkeregistrert i Strand kommune med barnehageplass i privat barnehage - våren 2025",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16538",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017635!ThpO2p/d-6965376f__8677__47ea__a757__23e14c179149-2020228804!u0zPqy",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Takker ja til plass i Fjelltun SFO",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16536",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "Avsender: Najah Mazen Chhimeh",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016173!lptDzJ/d-6965376f__8677__47ea__a757__23e14c179149-2020228802!uZ1mCi",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Søknad - Rådgiver opplæring - Opplæringssektoren",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16422",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017360!vPiPkh/d-6965376f__8677__47ea__a757__23e14c179149-2020228688!z8KlyU",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Kommunal bolig - befaring med Rogaland brann og redning",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/8507",
-    "dokumenttype": "Internt notat (X)",
-    "avsender_mottaker": "",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016906!7ilaPT/d-6965376f__8677__47ea__a757__23e14c179149-2020220773!8adl7Z",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Prisforespørsel for kjøp av konsulenttjeneste - vannforskriften § 12 - KPA Strand kommune",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16317",
-    "dokumenttype": "Utgående dokument",
-    "avsender_mottaker": "Mottaker: Rådgivende Biologer As",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020012783!XIvR4o/d-6965376f__8677__47ea__a757__23e14c179149-2020228583!CR8AIs",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "501602 Overtakelsesprotokoll - TUS-løkka - Oppgradering banedekke ballbinger",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16437",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "Avsender: Stangeland Maskin As",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017450!myCnN0/d-6965376f__8677__47ea__a757__23e14c179149-2020228703!AiFl0e",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Tilbud om plass i skolefritidsordningen (SFO)",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16458",
-    "dokumenttype": "Utgående dokument",
-    "avsender_mottaker": "Mottaker: Kristine Erfjord",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016173!lptDzJ/d-6965376f__8677__47ea__a757__23e14c179149-2020228724!qHbJ7v",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Søknad - Miljøveileder/fagarbeider - skole",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16407",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017331!M0elsa/d-6965376f__8677__47ea__a757__23e14c179149-2020228673!q3S92T",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Tilbud om plass i skolefritidsordningen (SFO)",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16457",
-    "dokumenttype": "Utgående dokument",
-    "avsender_mottaker": "Mottaker: Ellen Finnebråten",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016173!lptDzJ/d-6965376f__8677__47ea__a757__23e14c179149-2020228723!o5N9bT",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Svar på søknad om endring av plass i SFO",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16551",
-    "dokumenttype": "Utgående dokument",
-    "avsender_mottaker": "Mottaker: Jone Voster",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016174!atIAv1/d-6965376f__8677__47ea__a757__23e14c179149-2020228817!NhGx1Z",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Eiendomsskattegrunnlag for kraftselskap - inntektsår 2023 - eiendomsskatteår 2025",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16507",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020015332!qwTe0W/d-6965376f__8677__47ea__a757__23e14c179149-2020228773!PA5lxL",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Eiendomsskattegrunnlag for kraftselskap - inntektsår 2022 - eiendomsskatteår 2024",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16506",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020015332!qwTe0W/d-6965376f__8677__47ea__a757__23e14c179149-2020228772!88WbVO",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Bekreftelse på mottatt søknad - Barne- og ungdomsarbeider - barnehage",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16418",
-    "dokumenttype": "Utgående dokument",
-    "avsender_mottaker": "",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017333!VqaGpD/d-6965376f__8677__47ea__a757__23e14c179149-2020228684!QkKo29",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Melding til leverandør - Møte - bistand til lederutvikling",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16596",
-    "dokumenttype": "Utgående dokument",
-    "avsender_mottaker": "Mottaker: KS-Konsulent AS",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017198!wWNnKT/d-6965376f__8677__47ea__a757__23e14c179149-2020228862!0OSWwR",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "49/222 Forespørsel om oversendelse av alle eierseksjoneringsdokumenter i forbindelse med reseksjoneringen - Øvre Brauta 1",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16309",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "Avsender: Magnus Grøsfjeld Advokatfirma As",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2014002333!0Pok7y/d-6965376f__8677__47ea__a757__23e14c179149-2020228575!lQJG5Y",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Takker ja til plass i Fjelltun SFO",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16535",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "Avsender: Marie Ur",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016173!lptDzJ/d-6965376f__8677__47ea__a757__23e14c179149-2020228801!nvNnNg",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Møtebok - Rådet for mennesker med nedsatt funksjonsevne - 02.06.2025",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16970",
-    "dokumenttype": "Møtebok",
-    "avsender_mottaker": "",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017254!vuYexs/d-6965376f__8677__47ea__a757__23e14c179149-2020229236!L4lhlM",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Melding fra leverandør - Møte - bistand til lederutvikling",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16593",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "Avsender: KS-Konsulent AS",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017198!wWNnKT/d-6965376f__8677__47ea__a757__23e14c179149-2020228859!comWYL",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Tilbud om plass i skolefritidsordningen (SFO)",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16447",
-    "dokumenttype": "Utgående dokument",
-    "avsender_mottaker": "Mottaker: Malin Vatland Lundmann",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016173!lptDzJ/d-6965376f__8677__47ea__a757__23e14c179149-2020228713!xHCfWf",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "53/134 Grov saksbehandlingsfeil sak 53/134 ettergodkjenning av mur - Selemorkvegen 35",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16488",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "Avsender: Slant As",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016904!HXjnkK/d-6965376f__8677__47ea__a757__23e14c179149-2020228754!zsyk4p",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "53/500 Oppdatert svarbrev - Selemorkvegen - anleggsbidrag",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16304",
-    "dokumenttype": "Internt notat (X)",
-    "avsender_mottaker": "",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020010694!2GYSMf/d-6965376f__8677__47ea__a757__23e14c179149-2020228570!jtMBvh",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Tilbud om plass i skolefritidsordningen (SFO)",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16450",
-    "dokumenttype": "Utgående dokument",
-    "avsender_mottaker": "Mottaker: Lisbeth Jøssang Skeie",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016173!lptDzJ/d-6965376f__8677__47ea__a757__23e14c179149-2020228716!BOWqIt",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Søknad om utvidet skjenkebevilling",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16374",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "Avsender: Flor & Fjære As",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020001279!iGfdVI/d-6965376f__8677__47ea__a757__23e14c179149-2020228640!lW7GBn",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Henvendelse vedrørende feil informasjon om allemannsretten på kommunale skilt i Holtaheia og Bjørheimsheia mm.",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16519",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "Avsender: Else Gjerstad",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020012790!TljWL8/d-6965376f__8677__47ea__a757__23e14c179149-2020228785!QjLyyw",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Melding fra leverandør - Møte - bistand til lederutvikling",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16583",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "Avsender: KS-Konsulent AS",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017198!wWNnKT/d-6965376f__8677__47ea__a757__23e14c179149-2020228849!07o6Sk",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Fullmakt",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16491",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020005653!8vPv7h/d-6965376f__8677__47ea__a757__23e14c179149-2020228757!GGipmQ",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "6/2 Søknad om tillatelse i ett trinn - påbygg - Fiskåvegen 1010 - Fiskå Mølle As",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16384",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "Avsender: Arkipartner AS",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017444!ZPbggn/d-6965376f__8677__47ea__a757__23e14c179149-2020228650!W0hz6f",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Utbetalingsbrev for videreutdanning for barnehagelærere våren 2025 - tilretteleggingsmidler",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16329",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "Avsender: Utdanningsdirektoratet",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2016000494!NxFXct/d-6965376f__8677__47ea__a757__23e14c179149-2020228595!FkTZvg",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Søknad om redusert betaling i Bikubå barnehage",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16377",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016437!geLEli/d-6965376f__8677__47ea__a757__23e14c179149-2020228643!fthZlZ",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Tilbud om plass i skolefritidsordningen (SFO)",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16449",
-    "dokumenttype": "Utgående dokument",
-    "avsender_mottaker": "Mottaker: Rebekka Fjelde",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016173!lptDzJ/d-6965376f__8677__47ea__a757__23e14c179149-2020228715!JGgjk8",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Tildeling av kompetansemidler til skoleeiere, ledere og lærere i modulstrukturert opplæring for voksne og opplæring i norsk og samfunnsfag for voksne innvandrere",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16326",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "Avsender: Statsforvaltaren I Rogaland",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020000290!eHADr5/d-6965376f__8677__47ea__a757__23e14c179149-2020228592!yrA3Io",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Bekreftelse på mottatt søknad - Barne- og ungdomsarbeider - barnehage",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16419",
-    "dokumenttype": "Utgående dokument",
-    "avsender_mottaker": "",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017333!VqaGpD/d-6965376f__8677__47ea__a757__23e14c179149-2020228685!5zJJ8b",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "340922 Dokumentasjon - Handikapforbundet",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/2551",
-    "dokumenttype": "Internt notat (X)",
-    "avsender_mottaker": "",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016434!06XiIL/d-6965376f__8677__47ea__a757__23e14c179149-2020214817!jfwrQT",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Melding til leverandør - Møte - bistand til lederutvikling",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16572",
-    "dokumenttype": "Utgående dokument",
-    "avsender_mottaker": "Mottaker: KS-Konsulent AS",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017198!wWNnKT/d-6965376f__8677__47ea__a757__23e14c179149-2020228838!jlFnqh",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "501602 RUH - TUS-løkka - Oppgradering banedekke ballbinger",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16495",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "Avsender: Stangeland Maskin As",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017450!myCnN0/d-6965376f__8677__47ea__a757__23e14c179149-2020228761!FZ7EB3",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Spørsmål om serveringsbevilling - Tako Sushi",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16581",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "Avsender: Indra Jegoroviene",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020004336!N1yBw0/d-6965376f__8677__47ea__a757__23e14c179149-2020228847!BoW5pU",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "9/104 Nabovarsel for Vervikhagen 13",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16472",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "Avsender: Trebygg Strand As",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016190!Lg3YDg/d-6965376f__8677__47ea__a757__23e14c179149-2020228738!ypbY7G",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Takker ja til plass i Fjelltun SFO",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16537",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "Avsender: Kristine Erfjord",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016173!lptDzJ/d-6965376f__8677__47ea__a757__23e14c179149-2020228803!fhSzqZ",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "501602 Anbudsprosess - TUS-løkka - Oppgradering banedekke ballbinger",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16435",
-    "dokumenttype": "Internt notat (X)",
-    "avsender_mottaker": "",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017450!myCnN0/d-6965376f__8677__47ea__a757__23e14c179149-2020228701!u6oRzP",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Bekreftelse på mottatt søknad - Rådgiver - Opplæringssektoren",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16421",
-    "dokumenttype": "Utgående dokument",
-    "avsender_mottaker": "",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017360!vPiPkh/d-6965376f__8677__47ea__a757__23e14c179149-2020228687!j007lt",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Bekreftelse på mottatt søknad - Miljøveileder/fagarbeider - skole",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16411",
-    "dokumenttype": "Utgående dokument",
-    "avsender_mottaker": "",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017331!M0elsa/d-6965376f__8677__47ea__a757__23e14c179149-2020228677!szsoK1",
-    "filer": [],
-    "status": "Må bes om innsyn"
-  },
-  {
-    "tittel": "Melding fra leverandør - Møte - Bistand til lederutvikling",
-    "dato": "02.06.2025",
-    "dato_iso": "2025-06-02",
-    "dokumentID": "2025/16952",
-    "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "Avsender: Human AS",
-    "journal_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017198!wWNnKT/d-6965376f__8677__47ea__a757__23e14c179149-2020229218!9Mawpv",
     "filer": [],
     "status": "Må bes om innsyn"
   }

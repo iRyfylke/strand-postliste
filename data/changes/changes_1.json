@@ -598482,5 +598482,5053 @@
         "ny": 0
       }
     }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11991",
+    "tittel": "Innkalling - Forvaltningsutvalget - 22.04.2026",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Innkalling - Forvaltningsutvalget - 22.04.2026"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Sakskart"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020490!EdY0nj/d-6965376f__8677__47ea__a757__23e14c179149-2020266778!0J2X51"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "10.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-10"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11994",
+    "tittel": "Innkalling - Levekårsutvalget - 22.04.2026",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Innkalling - Levekårsutvalget - 22.04.2026"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Sakskart"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020242!XIDlYI/d-6965376f__8677__47ea__a757__23e14c179149-2020266781!8RwULG"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "10.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-10"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "UPDATE",
+    "dokumentID": "2026/11910",
+    "tittel": "Tilleggsinnkalling - Ungdomsrådet - 14.04.2026",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11762",
+    "tittel": "Referatsaker",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Referatsaker"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Saksframlegg"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020490!EdY0nj/d-6965376f__8677__47ea__a757__23e14c179149-2020266549!ED1ctf"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "09.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-09"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 3
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11763",
+    "tittel": "Delegasjonssaker",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Delegasjonssaker"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Saksframlegg"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020490!EdY0nj/d-6965376f__8677__47ea__a757__23e14c179149-2020266550!vRn3qW"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "09.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-09"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11761",
+    "tittel": "Godkjenning av protokoll fra forrige møte",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Godkjenning av protokoll fra forrige møte"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Saksframlegg"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020490!EdY0nj/d-6965376f__8677__47ea__a757__23e14c179149-2020266548!0HOpfU"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "09.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-09"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 2
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11532",
+    "tittel": "Vedtak om skjenkebevilling for enkeltanledning 10.04.2026",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Vedtak om skjenkebevilling for enkeltanledning 10.04.2026"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Mottaker: Jonny Krucow Heng"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019734!sFGttl/d-6965376f__8677__47ea__a757__23e14c179149-2020266319!9DXUEg"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11432",
+    "tittel": "59/2 Korrespondanse vedrørende driftsbygning/vedbod - dispensasjon og gebyrer",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "59/2 Korrespondanse vedrørende driftsbygning/vedbod - dispensasjon og gebyrer"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Mottaker: Rycon As"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020473!lOgXPP/d-6965376f__8677__47ea__a757__23e14c179149-2020266219!qD7F2a"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11484",
+    "tittel": "Vedtak om tilskot til avløysing ved sjukdom",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Vedtak om tilskot til avløysing ved sjukdom"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020456!pEuueB/d-6965376f__8677__47ea__a757__23e14c179149-2020266271!FGgtyI"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11377",
+    "tittel": "Avslag på søknad om endring av plass i SFO",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Avslag på søknad om endring av plass i SFO"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019670!1NV9J8/d-6965376f__8677__47ea__a757__23e14c179149-2020266164!Ky5kKf"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/9641",
+    "tittel": "Leiekontrakt",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Leiekontrakt"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020000!QlMcPl/d-6965376f__8677__47ea__a757__23e14c179149-2020264428!EGZCIN"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11592",
+    "tittel": "Svar på søknad om endring av plass i SFO",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Svar på søknad om endring av plass i SFO"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Mottaker: Peder Andreas Ringsby"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019670!1NV9J8/d-6965376f__8677__47ea__a757__23e14c179149-2020266379!3gJ96f"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11446",
+    "tittel": "Foreløpig svar om tilskudd til kultur - sommerkonsert 06.09.2026",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Foreløpig svar om tilskudd til kultur - sommerkonsert 06.09.2026"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Mottaker: Stavanger Kunst Og Musikkfestival"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019035!Dcv9G3/d-6965376f__8677__47ea__a757__23e14c179149-2020266233!MltGpI"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11501",
+    "tittel": "Oppfølgende spørsmål til planendring - sak 064/26 - delegert vedtak - Moen 85-1-M1- Moen 1 A og B",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Oppfølgende spørsmål til planendring - sak 064/26 - delegert vedtak - Moen 85-1-M1- Moen 1 A og B"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Mottaker: Pro-Plan As"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020036!JxkC1k/d-6965376f__8677__47ea__a757__23e14c179149-2020266288!nhICwu"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11449",
+    "tittel": "Foreløpig svar om tilskudd til kultur - utbedring av parkeringsplass",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Foreløpig svar om tilskudd til kultur - utbedring av parkeringsplass"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Mottaker: Søndre Stølsmark Vellag"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019035!Dcv9G3/d-6965376f__8677__47ea__a757__23e14c179149-2020266236!j8JWiB"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11491",
+    "tittel": "11/139 Tilbakemelding om mangler - bruksendring - Kjølevikvegen 52",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "11/139 Tilbakemelding om mangler - bruksendring - Kjølevikvegen 52"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Mottaker: Rycon As v/Karl Tjøstheim Larsen"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019775!K165NN/d-6965376f__8677__47ea__a757__23e14c179149-2020266278!hj7EKt"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/10117",
+    "tittel": "16/179 Utbyggingsavtale - produksjonsanlegg - Breivikvegen 6 - Mibau Stema AS",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "16/179 Utbyggingsavtale - produksjonsanlegg - Breivikvegen 6 - Mibau Stema AS"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Mottaker: Mibau Stema Norge As Avd Tau v/Henrik Carolin Skogland"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020006619!n0j6Ky/d-6965376f__8677__47ea__a757__23e14c179149-2020264904!rXICqc"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 2
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11451",
+    "tittel": "53/98 Oppfølging av byggesak - Nedre Vollgate 3 - bruksendring",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "53/98 Oppfølging av byggesak - Nedre Vollgate 3 - bruksendring"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Mottaker: Ivar Petter Tungland"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2019000879!jSXnxh/d-6965376f__8677__47ea__a757__23e14c179149-2020266238!mna7kJ"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 3
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11584",
+    "tittel": "44/275 Søknad om ferdigattest - tilbygg - Tuånå 5 - Rune Falkeid Asbjørnsen",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "44/275 Søknad om ferdigattest - tilbygg - Tuånå 5 - Rune Falkeid Asbjørnsen"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Avsender: Rune Falkeid Asbjørnsen"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2019000139!id0OUq/d-6965376f__8677__47ea__a757__23e14c179149-2020266371!WWIuCM"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 2
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11410",
+    "tittel": "31/233 Ferdigattest - bruksendring - Askevegen 8",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "31/233 Ferdigattest - bruksendring - Askevegen 8"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Mottaker: Arvid Tjøstheim"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020253!EsfuRt/d-6965376f__8677__47ea__a757__23e14c179149-2020266197!bUGxxb"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 2
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11443",
+    "tittel": "44/840 Oppfølging av byggesak - Austhagen 23 - tilbygg",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "44/840 Oppfølging av byggesak - Austhagen 23 - tilbygg"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Mottaker: Bøcon AS"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2019000744!yqPTvG/d-6965376f__8677__47ea__a757__23e14c179149-2020266230!q90xMe"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 3
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11570",
+    "tittel": "16/390 Søknad om ferdigattest - fasadeendring - Midtlevegen 20 - Kjetil Kvål",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "16/390 Søknad om ferdigattest - fasadeendring - Midtlevegen 20 - Kjetil Kvål"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Avsender: Kjetil Kvål"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2019000955!lQpc8u/d-6965376f__8677__47ea__a757__23e14c179149-2020266357!umU7D1"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 4
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11413",
+    "tittel": "25/54 Oppfølging av byggesak - Ryfylkevegen 2689 - rehabilitering skorstein",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "25/54 Oppfølging av byggesak - Ryfylkevegen 2689 - rehabilitering skorstein"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Mottaker: Tor Jonassen"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2019000516!RcSXU8/d-6965376f__8677__47ea__a757__23e14c179149-2020266200!2s3aBO"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 3
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11540",
+    "tittel": "Søknad - barne- og ungdomsarbeider - barnehage",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Søknad - barne- og ungdomsarbeider - barnehage"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020398!cEzCiT/d-6965376f__8677__47ea__a757__23e14c179149-2020266327!3LurmY"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11408",
+    "tittel": "31/636 Oppfølging av byggesak - Kongsteinsvegen 34B - påbygg",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "31/636 Oppfølging av byggesak - Kongsteinsvegen 34B - påbygg"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Mottaker: Trebygg Strand AS"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2019000514!NzUxHA/d-6965376f__8677__47ea__a757__23e14c179149-2020266195!0yuQbV"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 3
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11542",
+    "tittel": "Bekreftelse på mottatt søknad - barne- og ungdomsarbeider - barnehage",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Bekreftelse på mottatt søknad - barne- og ungdomsarbeider - barnehage"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020398!cEzCiT/d-6965376f__8677__47ea__a757__23e14c179149-2020266329!k27NFc"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11588",
+    "tittel": "Søknad om plass i SFO",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Søknad om plass i SFO"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Avsender: Maria Bjørheim Steinskog"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019669!dhe2vX/d-6965376f__8677__47ea__a757__23e14c179149-2020266375!1ADXpA"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11344",
+    "tittel": "16/203 Dokumentsjekk - ikke behov for mangelbrev",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "16/203 Dokumentsjekk - ikke behov for mangelbrev"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Internt notat (X)"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016128!zz0RjC/d-6965376f__8677__47ea__a757__23e14c179149-2020266131!JayD77"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11510",
+    "tittel": "32/47 Dokumentsjekk - ikke behov for mangelbrev",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "32/47 Dokumentsjekk - ikke behov for mangelbrev"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Internt notat (X)"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020010071!PkkMmY/d-6965376f__8677__47ea__a757__23e14c179149-2020266297!hhie87"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11611",
+    "tittel": "Søknad om ledsagerbevis",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Søknad om ledsagerbevis"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019763!axSUPc/d-6965376f__8677__47ea__a757__23e14c179149-2020266398!AwCO4d"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11727",
+    "tittel": "Søknad om plass i SFO",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Søknad om plass i SFO"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Avsender: Maren Veland Voll"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019669!dhe2vX/d-6965376f__8677__47ea__a757__23e14c179149-2020266514!q5HiuA"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11394",
+    "tittel": "82-2-M5 Endring av reguleringsplan for Førland-Brautane for gnr. 47, bnr. 6",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "82-2-M5 Endring av reguleringsplan for Førland-Brautane for gnr. 47, bnr. 6"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Mottaker: Flere mottakere"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019842!y6en1G/d-6965376f__8677__47ea__a757__23e14c179149-2020266181!tPvxRl"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11562",
+    "tittel": "63/42 Svar - utstikkingsrapport ny bolig - Idsevegen 254 - Berge/Eggesbø",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "63/42 Svar - utstikkingsrapport ny bolig - Idsevegen 254 - Berge/Eggesbø"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Avsender: John Øivind Eggesbø"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019039!BD2jy4/d-6965376f__8677__47ea__a757__23e14c179149-2020266349!s7l0Gj"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11535",
+    "tittel": "Søknad - barne- og ungdomsarbeider - skole/SFO",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Søknad - barne- og ungdomsarbeider - skole/SFO"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020397!7LV8Pg/d-6965376f__8677__47ea__a757__23e14c179149-2020266322!523kBs"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11645",
+    "tittel": "Spørsmål om bolig er godkjent for utleie",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Spørsmål om bolig er godkjent for utleie"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020486!MqaBks/d-6965376f__8677__47ea__a757__23e14c179149-2020266432!m6pF6W"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11374",
+    "tittel": "29/11 Purring - mangler tillatelse etter vannressursloven § 11 - søknad om dispensasjon - etablering av plattinger/telt - Tjøstheimsvegen 579",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "29/11 Purring - mangler tillatelse etter vannressursloven § 11 - søknad om dispensasjon - etablering av plattinger/telt - Tjøstheimsvegen 579"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Mottaker: Flere mottakere"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020009918!5Nwgm4/d-6965376f__8677__47ea__a757__23e14c179149-2020266161!A49eAb"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11513",
+    "tittel": "48/108 Informasjon om montering av røykvarsler - Marmorvegen 17",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "48/108 Informasjon om montering av røykvarsler - Marmorvegen 17"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Avsender: Trebygg Strand As"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020256!zXrVLy/d-6965376f__8677__47ea__a757__23e14c179149-2020266300!VI5k1g"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 2
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11516",
+    "tittel": "Tilbakemelding vedrørende presisering av tilleggsopplysninger - 44/613 - Klungholmen",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Tilbakemelding vedrørende presisering av tilleggsopplysninger - 44/613 - Klungholmen"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Mottaker: Stian Heimlund Skjæveland"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020012783!XIvR4o/d-6965376f__8677__47ea__a757__23e14c179149-2020266303!qRoBGq"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11346",
+    "tittel": "Tilbakemelding på planforslag - planendring for Endring av reguleringsplan ved Tungland for gnr. 53 bnr. 369",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Tilbakemelding på planforslag - planendring for Endring av reguleringsplan ved Tungland for gnr. 53 bnr. 369"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Mottaker: Rycon AS"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020193!JCg5CY/d-6965376f__8677__47ea__a757__23e14c179149-2020266133!nsc9wz"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11545",
+    "tittel": "Søknad - barne- og ungdomsarbeider - barnehage",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Søknad - barne- og ungdomsarbeider - barnehage"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020398!cEzCiT/d-6965376f__8677__47ea__a757__23e14c179149-2020266332!MYWVeA"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11392",
+    "tittel": "63/9 Vedtak om tilskudd til spesielle miljøtiltak i jordbruket (SMIL) - restaurering av naust",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "63/9 Vedtak om tilskudd til spesielle miljøtiltak i jordbruket (SMIL) - restaurering av naust"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Mottaker: Reinert Idsø"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020018491!K1ck0h/d-6965376f__8677__47ea__a757__23e14c179149-2020266179!Tq1q1b"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11349",
+    "tittel": "63/441 Tilbakemelding om mangler - fritidsbolig - Stokkavik - Idse",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "63/441 Tilbakemelding om mangler - fritidsbolig - Stokkavik - Idse"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Mottaker: Blinkhus Bt Stavanger A S"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020349!oxnxWa/d-6965376f__8677__47ea__a757__23e14c179149-2020266136!X9ct3a"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11450",
+    "tittel": "Foreløpig svar angående søknad om tilskudd",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Foreløpig svar angående søknad om tilskudd"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Mottaker: Jørpeland Dansestudio Andrea Hjelmen Asbjørnsen"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019035!Dcv9G3/d-6965376f__8677__47ea__a757__23e14c179149-2020266237!xvE8JS"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11538",
+    "tittel": "Bekreftelse på mottatt søknad - barne- og ungdomsarbeider - skole/SFO",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Bekreftelse på mottatt søknad - barne- og ungdomsarbeider - skole/SFO"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020397!7LV8Pg/d-6965376f__8677__47ea__a757__23e14c179149-2020266325!lkBY4L"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11088",
+    "tittel": "Søknad - utstyr og læringsarenaer 1.-10. trinn 2026",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Søknad - utstyr og læringsarenaer 1.-10. trinn 2026"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Mottaker: Utdanningsdirektoratet"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016278!2WplZP/d-6965376f__8677__47ea__a757__23e14c179149-2020265875!RpQiLz"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11494",
+    "tittel": "31/419 Dokumentsjekk - ikke behov for mangelbrev",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "31/419 Dokumentsjekk - ikke behov for mangelbrev"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Internt notat (X)"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020008863!i8N2z9/d-6965376f__8677__47ea__a757__23e14c179149-2020266281!SYeWD0"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11575",
+    "tittel": "55/66 Søknad om ferdigattest - hagestue - Jøssangvegen 267A - Atle Watland",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "55/66 Søknad om ferdigattest - hagestue - Jøssangvegen 267A - Atle Watland"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Avsender: Atle Watland"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2018001281!nX4Bob/d-6965376f__8677__47ea__a757__23e14c179149-2020266362!jjWyFe"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 2
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11352",
+    "tittel": "Tryggheim Strand - rapport etter tilsyn",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Tryggheim Strand - rapport etter tilsyn"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Mottaker: Tryggheim Strand As"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017273!MDUjrG/d-6965376f__8677__47ea__a757__23e14c179149-2020266139!lUWib9"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11706",
+    "tittel": "Oppsigelse av plass i Barnas kulturhage",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Oppsigelse av plass i Barnas kulturhage"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Avsender: Rojana Sarika"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019668!X6EgcR/d-6965376f__8677__47ea__a757__23e14c179149-2020266493!JqX6D4"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11369",
+    "tittel": "16/203 Igangsettingstillatelse (IG6) - utomhus - Ryfylkevegen 1914",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "16/203 Igangsettingstillatelse (IG6) - utomhus - Ryfylkevegen 1914"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Mottaker: Flere mottakere"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016128!zz0RjC/d-6965376f__8677__47ea__a757__23e14c179149-2020266156!GAUVih"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11453",
+    "tittel": "16/390 Oppfølging av byggesak - Midtlevegen 20 - fasadeendring",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "16/390 Oppfølging av byggesak - Midtlevegen 20 - fasadeendring"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Mottaker: Kjetil Kvål"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2019000955!lQpc8u/d-6965376f__8677__47ea__a757__23e14c179149-2020266240!gXbFBP"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 3
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/10092",
+    "tittel": "53/126 Tilbakemelding om mangler - søknad om ferdigattest - riving av bolig - Jøssangvegen 134",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "53/126 Tilbakemelding om mangler - søknad om ferdigattest - riving av bolig - Jøssangvegen 134"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Mottaker: Norgeshus Ryfylke As"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2013001684!FvBtZv/d-6965376f__8677__47ea__a757__23e14c179149-2020264879!dDnDMb"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11541",
+    "tittel": "Bekreftelse på mottatt søknad - barne- og ungdomsarbeider - barnehage",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Bekreftelse på mottatt søknad - barne- og ungdomsarbeider - barnehage"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020398!cEzCiT/d-6965376f__8677__47ea__a757__23e14c179149-2020266328!TlmJa8"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11464",
+    "tittel": "44/40 47/3 Signert leieavtale - leie av nodestasjoner og rettigheter til framføring av fiberkabler",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "44/40 47/3 Signert leieavtale - leie av nodestasjoner og rettigheter til framføring av fiberkabler"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Avsender: Flere avsendere"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020015984!DUgRFw/d-6965376f__8677__47ea__a757__23e14c179149-2020266251!HZ98CZ"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11424",
+    "tittel": "32/104 Oppfølging av byggesak - Håbakkvegen 11 - garasje",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "32/104 Oppfølging av byggesak - Håbakkvegen 11 - garasje"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Mottaker: Reimund Fiskå"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2019000064!wqFBxe/d-6965376f__8677__47ea__a757__23e14c179149-2020266211!WpHaJe"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 3
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11351",
+    "tittel": "31/102 Tillatelse til tiltak - riving og ny bolig - Tjøstheimvegen 120 - Sigve Høie Håland",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "31/102 Tillatelse til tiltak - riving og ny bolig - Tjøstheimvegen 120 - Sigve Høie Håland"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Mottaker: Be-Con AS"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020018329!7wrfhF/d-6965376f__8677__47ea__a757__23e14c179149-2020266138!o3aMNr"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11407",
+    "tittel": "31/233 Dokumentsjekk - ikke behov for mangelbrev",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "31/233 Dokumentsjekk - ikke behov for mangelbrev"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Internt notat (X)"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020253!EsfuRt/d-6965376f__8677__47ea__a757__23e14c179149-2020266194!q38iyT"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11433",
+    "tittel": "Foreløpig svar om tilskudd til kultur - sommerskole",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Foreløpig svar om tilskudd til kultur - sommerskole"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Mottaker: Ytre Ryfylke Kystlag"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019035!Dcv9G3/d-6965376f__8677__47ea__a757__23e14c179149-2020266220!1HlupU"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11507",
+    "tittel": "47/633 Dokumentsjekk - ikke behov for mangelbrev",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "47/633 Dokumentsjekk - ikke behov for mangelbrev"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Internt notat (X)"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020010109!LLi2hP/d-6965376f__8677__47ea__a757__23e14c179149-2020266294!p9n01j"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11658",
+    "tittel": "Melding fra søker - gi bud",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Melding fra søker - gi bud"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019137!k0HSLZ/d-6965376f__8677__47ea__a757__23e14c179149-2020266445!YPyn6D"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11729",
+    "tittel": "Oppsigelse av plass i Barnas kulturhage",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Oppsigelse av plass i Barnas kulturhage"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Avsender: Kebron Habtom Kidane"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019668!X6EgcR/d-6965376f__8677__47ea__a757__23e14c179149-2020266516!4btMse"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11543",
+    "tittel": "Bekreftelse på mottatt søknad - barne- og ungdomsarbeider - barnehage",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Bekreftelse på mottatt søknad - barne- og ungdomsarbeider - barnehage"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020398!cEzCiT/d-6965376f__8677__47ea__a757__23e14c179149-2020266330!EgwXPJ"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11555",
+    "tittel": "Svar på oppsigelse av plass i Eikehaugen barnehage",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Svar på oppsigelse av plass i Eikehaugen barnehage"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Mottaker: Elisabeth Bjørheim Tytlandsvik"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019668!X6EgcR/d-6965376f__8677__47ea__a757__23e14c179149-2020266342!1ydkrv"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/8811",
+    "tittel": "Leiekontrakt",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Leiekontrakt"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020000!QlMcPl/d-6965376f__8677__47ea__a757__23e14c179149-2020263598!Ahuyg1"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/10347",
+    "tittel": "47/709 Referat fra forhåndskonferanse - rekkehus - Fullhammersvingen",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "47/709 Referat fra forhåndskonferanse - rekkehus - Fullhammersvingen"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Mottaker: Flere mottakere"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020225!m5mCwA/d-6965376f__8677__47ea__a757__23e14c179149-2020265134!XG7Ryy"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11504",
+    "tittel": "48/352 Dokumentsjekk - ikke behov for mangelbrev",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "48/352 Dokumentsjekk - ikke behov for mangelbrev"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Internt notat (X)"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020008415!6mg5Wx/d-6965376f__8677__47ea__a757__23e14c179149-2020266291!ckqaZ6"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11568",
+    "tittel": "44/875 Byggesak - avklaring - Skolebakken 14B",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "44/875 Byggesak - avklaring - Skolebakken 14B"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Avsender: Rycon As"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020483!rKtQOX/d-6965376f__8677__47ea__a757__23e14c179149-2020266355!R0Q8IW"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 3
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11378",
+    "tittel": "44/923 Dokumentsjekk - ikke behov for mangelbrev",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "44/923 Dokumentsjekk - ikke behov for mangelbrev"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Internt notat (X)"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020015029!08tEVi/d-6965376f__8677__47ea__a757__23e14c179149-2020266165!Q9liKk"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11375",
+    "tittel": "48/108 Forhåndsvarsel om uavhengig kontroll - prosjektering og utførelse av plassering av røykvarslere i firemannsbolig",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "48/108 Forhåndsvarsel om uavhengig kontroll - prosjektering og utførelse av plassering av røykvarslere i firemannsbolig"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Mottaker: Trebygg Strand AS"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020256!zXrVLy/d-6965376f__8677__47ea__a757__23e14c179149-2020266162!m2b8S5"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11679",
+    "tittel": "Søknad om plass i SFO",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Søknad om plass i SFO"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Avsender: Anne Marthe Segadal Kolnes"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019669!dhe2vX/d-6965376f__8677__47ea__a757__23e14c179149-2020266466!zARpE4"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11402",
+    "tittel": "31/233 Fakturagrunnlag - bruksendring - Askevegen 8",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "31/233 Fakturagrunnlag - bruksendring - Askevegen 8"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Internt notat (X)"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020253!EsfuRt/d-6965376f__8677__47ea__a757__23e14c179149-2020266189!ytwGvl"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11558",
+    "tittel": "69/2 Ber om forhåndskonferanse vedrørende erstatningsbolig - Sørskårvegen 458",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "69/2 Ber om forhåndskonferanse vedrørende erstatningsbolig - Sørskårvegen 458"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Avsender: Fjogstad-Hus As"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020482!bk0IHU/d-6965376f__8677__47ea__a757__23e14c179149-2020266345!FGEFk3"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 6
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11330",
+    "tittel": "65/66 Tillatelse til tiltak uten ansvar - toalett - Sør-Hidle - Flor og Fjære As",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "65/66 Tillatelse til tiltak uten ansvar - toalett - Sør-Hidle - Flor og Fjære As"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Mottaker: Flor & Fjære As"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020298!bGzu2D/d-6965376f__8677__47ea__a757__23e14c179149-2020266117!LklIZ8"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11657",
+    "tittel": "Høringsbrev - offentlig høring av NOU 2026:4 Kjernekraft i Norge",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Høringsbrev - offentlig høring av NOU 2026:4 Kjernekraft i Norge"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Avsender: Energidepartementet"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2014000772!vQz5d7/d-6965376f__8677__47ea__a757__23e14c179149-2020266444!HELSMW"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 4
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11578",
+    "tittel": "Oppsigelse av plass i Jørpeland barnehage",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Oppsigelse av plass i Jørpeland barnehage"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Avsender: Erna Monisit Næss"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019668!X6EgcR/d-6965376f__8677__47ea__a757__23e14c179149-2020266365!SSvPPx"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11670",
+    "tittel": "Uttalelse fra oppretter - endringer i vedtekter - Tveit Vidaregåande Skule STI",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Uttalelse fra oppretter - endringer i vedtekter - Tveit Vidaregåande Skule STI"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Avsender: Bokn Kommune"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020005930!4I4Ual/d-6965376f__8677__47ea__a757__23e14c179149-2020266457!2ki5fZ"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11518",
+    "tittel": "Spørsmål og svar angående privatrettslig avtale",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Spørsmål og svar angående privatrettslig avtale"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Internt notat (X)"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020006460!pfCh3i/d-6965376f__8677__47ea__a757__23e14c179149-2020266305!kRDvsV"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11571",
+    "tittel": "43/380 Vedrørende ønske om endring av innkjørsel/fortauskanter - Barkvedstraen 30",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "43/380 Vedrørende ønske om endring av innkjørsel/fortauskanter - Barkvedstraen 30"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Avsender: Roger Granlund"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020010!c0hA8b/d-6965376f__8677__47ea__a757__23e14c179149-2020266358!IQRhdf"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11420",
+    "tittel": "16/234 Oppfølging av byggesak - Tau sentrum - sanering av VA-anlegg",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "16/234 Oppfølging av byggesak - Tau sentrum - sanering av VA-anlegg"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Mottaker: Ivar Iks"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2019000063!dhEOdV/d-6965376f__8677__47ea__a757__23e14c179149-2020266207!fepV1M"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 3
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11567",
+    "tittel": "Innsyn i kostnader knyttet til vikartjenetser i kommunale helsetjenester i 2025",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Innsyn i kostnader knyttet til vikartjenetser i kommunale helsetjenester i 2025"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Avsender: Zynk As"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019694!KgcO8a/d-6965376f__8677__47ea__a757__23e14c179149-2020266354!wmkOdk"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11702",
+    "tittel": "Oppsigelse av plass i Førland barnehage",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Oppsigelse av plass i Førland barnehage"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Avsender: Ester Krogevoll Pettersen"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019668!X6EgcR/d-6965376f__8677__47ea__a757__23e14c179149-2020266489!w6nMPl"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11544",
+    "tittel": "Søknad - barne- og ungdomsarbeider - barnehage",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Søknad - barne- og ungdomsarbeider - barnehage"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020398!cEzCiT/d-6965376f__8677__47ea__a757__23e14c179149-2020266331!sYNtbo"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11539",
+    "tittel": "Bekreftelse på mottatt søknad - barne- og ungdomsarbeider - skole/SFO",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Bekreftelse på mottatt søknad - barne- og ungdomsarbeider - skole/SFO"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020397!7LV8Pg/d-6965376f__8677__47ea__a757__23e14c179149-2020266326!BuS3zY"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11458",
+    "tittel": "44/896 Dokumentsjekk - ikke behov for mangelbrev",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "44/896 Dokumentsjekk - ikke behov for mangelbrev"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Internt notat (X)"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020341!K43uEA/d-6965376f__8677__47ea__a757__23e14c179149-2020266245!RtZArq"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11573",
+    "tittel": "63/82 Vedrørende oversvømmelse - Idsevegen 267",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "63/82 Vedrørende oversvømmelse - Idsevegen 267"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Avsender: Nina Karin Amdal"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019215!U3tYaN/d-6965376f__8677__47ea__a757__23e14c179149-2020266360!5JahnS"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 2
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11603",
+    "tittel": "Søknad på stilling - renholder - Bygg og eiendom",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Søknad på stilling - renholder - Bygg og eiendom"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Avsender: Oksana Hlibkovych"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020375!7fglXs/d-6965376f__8677__47ea__a757__23e14c179149-2020266390!W9fZEM"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11348",
+    "tittel": "44/831 Ferdigattest - vinterhage - Austhagen 17 - Trond Thorsen",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "44/831 Ferdigattest - vinterhage - Austhagen 17 - Trond Thorsen"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Mottaker: Trond Thorsen"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2018002182!Q1Byv4/d-6965376f__8677__47ea__a757__23e14c179149-2020266135!NIp5bq"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11536",
+    "tittel": "Søknad - barne- og ungdomsarbeider - skole/SFO",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Søknad - barne- og ungdomsarbeider - skole/SFO"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020397!7LV8Pg/d-6965376f__8677__47ea__a757__23e14c179149-2020266323!dUhUf3"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11497",
+    "tittel": "7/5 Tilbakemelding om mangler - ferdigattest - rubbhall/lagerhall - Fiskåvegen 1010",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "7/5 Tilbakemelding om mangler - ferdigattest - rubbhall/lagerhall - Fiskåvegen 1010"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Mottaker: Bygg-Kon As"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020009743!003LWG/d-6965376f__8677__47ea__a757__23e14c179149-2020266284!ulVSFO"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11556",
+    "tittel": "Svar på oppsigelse av plass i Eikehaugen barnehage",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Svar på oppsigelse av plass i Eikehaugen barnehage"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Mottaker: Siv Astri Lekvam"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019668!X6EgcR/d-6965376f__8677__47ea__a757__23e14c179149-2020266343!ydm8I9"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11569",
+    "tittel": "Utbetalingsvedtak av 01.04.2026",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Utbetalingsvedtak av 01.04.2026"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Avsender: Helfo"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019675!DWAmzY/d-6965376f__8677__47ea__a757__23e14c179149-2020266356!LDdLfA"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:18:50",
+    "type": "NEW",
+    "dokumentID": "2026/11566",
+    "tittel": "Plan 82-2-M5 Planendring - Førland Brautane - ber om tilbakemelding",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Plan 82-2-M5 Planendring - Førland Brautane - ber om tilbakemelding"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Avsender: Rycon As"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019842!y6en1G/d-6965376f__8677__47ea__a757__23e14c179149-2020266353!v3jkVP"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:24:24",
+    "type": "NEW",
+    "dokumentID": "2026/11411",
+    "tittel": "110/5/18 Purring - mangler i søknad om dispensasjon - byggtekniske installasjoner - Hamn 3",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "110/5/18 Purring - mangler i søknad om dispensasjon - byggtekniske installasjoner - Hamn 3"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Mottaker: Flere mottakere"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020007584!NzgwbJ/d-6965376f__8677__47ea__a757__23e14c179149-2020266198!DroBm4"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 3
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:24:24",
+    "type": "NEW",
+    "dokumentID": "2026/11019",
+    "tittel": "Avklaring material rør O9-O1",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Avklaring material rør O9-O1"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Mottaker: Brødrene Helland As"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020006807!0nqRzu/d-6965376f__8677__47ea__a757__23e14c179149-2020265806!ySbecE"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:24:24",
+    "type": "NEW",
+    "dokumentID": "2026/11292",
+    "tittel": "44/282 Tilbakemelding på mottatt søknad - bruksendring - Ryfylkevegen 1017 - Ahmed Said Ceway",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "44/282 Tilbakemelding på mottatt søknad - bruksendring - Ryfylkevegen 1017 - Ahmed Said Ceway"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Mottaker: Ahmed Said Ceway"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020407!M4SMQ3/d-6965376f__8677__47ea__a757__23e14c179149-2020266079!pSbWhC"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:24:24",
+    "type": "NEW",
+    "dokumentID": "2026/11601",
+    "tittel": "53/218 Protokoll og dokumentasjon oppmålingsforretning fradeling boligtomt",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "53/218 Protokoll og dokumentasjon oppmålingsforretning fradeling boligtomt"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Avsender: Rycon AS"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020009239!wfIo51/d-6965376f__8677__47ea__a757__23e14c179149-2020266388!vNNz26"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 4
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:24:24",
+    "type": "NEW",
+    "dokumentID": "2026/11371",
+    "tittel": "Avslag på søknad om parkeringstillatelse for forflytningshemmede",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Avslag på søknad om parkeringstillatelse for forflytningshemmede"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019729!SVU3v4/d-6965376f__8677__47ea__a757__23e14c179149-2020266158!FH9G35"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:24:24",
+    "type": "NEW",
+    "dokumentID": "2026/11380",
+    "tittel": "44/923 Ferdigattest - enebolig med sokkelleilighet - Heimlund 7",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "44/923 Ferdigattest - enebolig med sokkelleilighet - Heimlund 7"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Mottaker: Flere mottakere"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020015029!08tEVi/d-6965376f__8677__47ea__a757__23e14c179149-2020266167!ZhzbU4"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 3
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:24:24",
+    "type": "NEW",
+    "dokumentID": "2026/11109",
+    "tittel": "16/498 Tilbakemelding om mangler - påbygg over eksisterende terasse og fasadeendring - Tauramarkstien 20",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "16/498 Tilbakemelding om mangler - påbygg over eksisterende terasse og fasadeendring - Tauramarkstien 20"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Mottaker: Trebygg Strand As"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020363!Yoehl0/d-6965376f__8677__47ea__a757__23e14c179149-2020265896!raRbx4"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:24:24",
+    "type": "NEW",
+    "dokumentID": "2026/11547",
+    "tittel": "59/2 Tilbakemelding mottatt - driftsbygning/vedbod",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "59/2 Tilbakemelding mottatt - driftsbygning/vedbod"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Avsender: Rycon AS"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020473!lOgXPP/d-6965376f__8677__47ea__a757__23e14c179149-2020266334!WgEH8f"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:24:24",
+    "type": "NEW",
+    "dokumentID": "2026/11337",
+    "tittel": "Manglende dokumentasjon i søknad om ledsagerbevis",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Manglende dokumentasjon i søknad om ledsagerbevis"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019763!axSUPc/d-6965376f__8677__47ea__a757__23e14c179149-2020266124!5UfRr6"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:24:24",
+    "type": "NEW",
+    "dokumentID": "2026/11534",
+    "tittel": "Søknad - barne- og ungdomsarbeider - skole/SFO",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Søknad - barne- og ungdomsarbeider - skole/SFO"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020397!7LV8Pg/d-6965376f__8677__47ea__a757__23e14c179149-2020266321!KKqoCb"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:24:24",
+    "type": "NEW",
+    "dokumentID": "2026/11593",
+    "tittel": "Svar på søknad om endring av plass i SFO",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Svar på søknad om endring av plass i SFO"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Mottaker: Peder Andreas Ringsby"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019670!1NV9J8/d-6965376f__8677__47ea__a757__23e14c179149-2020266380!QvYmeW"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:24:24",
+    "type": "NEW",
+    "dokumentID": "2026/8837",
+    "tittel": "Leiekontrakt",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Leiekontrakt"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020000!QlMcPl/d-6965376f__8677__47ea__a757__23e14c179149-2020263624!D0nnga"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:24:24",
+    "type": "NEW",
+    "dokumentID": "2026/11553",
+    "tittel": "Bekreftelse på mottatt politiattest",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Bekreftelse på mottatt politiattest"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Internt notat (X)"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020434!L7UqOa/d-6965376f__8677__47ea__a757__23e14c179149-2020266340!Do3Yva"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:24:24",
+    "type": "NEW",
+    "dokumentID": "2026/11652",
+    "tittel": "Søknad om redusert betaling i barnehage",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Søknad om redusert betaling i barnehage"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019838!vIlYQ3/d-6965376f__8677__47ea__a757__23e14c179149-2020266439!gecYzq"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:24:24",
+    "type": "NEW",
+    "dokumentID": "2026/11669",
+    "tittel": "Søknad om plass i SFO",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Søknad om plass i SFO"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Avsender: Nataliia Khrunyk"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019669!dhe2vX/d-6965376f__8677__47ea__a757__23e14c179149-2020266456!gFcALg"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:24:24",
+    "type": "NEW",
+    "dokumentID": "2026/11608",
+    "tittel": "53/218 Signert kontrollerklæring for matrikkelføring fradeling boligtomt",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "53/218 Signert kontrollerklæring for matrikkelføring fradeling boligtomt"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Avsender: Rycon AS"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020009239!wfIo51/d-6965376f__8677__47ea__a757__23e14c179149-2020266395!ZS7WFU"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 2
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:24:24",
+    "type": "NEW",
+    "dokumentID": "2026/11500",
+    "tittel": "44/282 Vedrørende byggesak - bruksendring kjeller - Ryfylkevegen 1017",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "44/282 Vedrørende byggesak - bruksendring kjeller - Ryfylkevegen 1017"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Mottaker: Trebygg Strand AS"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020105!fC70IV/d-6965376f__8677__47ea__a757__23e14c179149-2020266287!ZC3xNd"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 2
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:24:24",
+    "type": "NEW",
+    "dokumentID": "2026/11600",
+    "tittel": "Søknad på stilling - renholder - Bygg og eiendom",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Søknad på stilling - renholder - Bygg og eiendom"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Avsender: Ann Therese Heggland"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020375!7fglXs/d-6965376f__8677__47ea__a757__23e14c179149-2020266387!XP9ApJ"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:24:24",
+    "type": "NEW",
+    "dokumentID": "2026/11587",
+    "tittel": "Tilskudd til kommunalt forebyggings­program for barn og unge - søknadsfrist 22.04.2026",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Tilskudd til kommunalt forebyggings­program for barn og unge - søknadsfrist 22.04.2026"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Avsender: Utdanningsdirektoratet"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020008769!OgyG82/d-6965376f__8677__47ea__a757__23e14c179149-2020266374!nWCmet"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:24:24",
+    "type": "NEW",
+    "dokumentID": "2026/11435",
+    "tittel": "Foreløpig svar angående driftstilskudd verksted 3,16",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Foreløpig svar angående driftstilskudd verksted 3,16"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Mottaker: Verksted 3 16"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019035!Dcv9G3/d-6965376f__8677__47ea__a757__23e14c179149-2020266222!6unMD1"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:24:24",
+    "type": "NEW",
+    "dokumentID": "2026/11524",
+    "tittel": "43/327 Vedrørende klage fra Statsforvalteren på kommunens dispensasjonsvedtak - naust - Ole Th Barkvedsveg - oppdatering status",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "43/327 Vedrørende klage fra Statsforvalteren på kommunens dispensasjonsvedtak - naust - Ole Th Barkvedsveg - oppdatering status"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Mottaker: Flere mottakere"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020018642!TrWvbD/d-6965376f__8677__47ea__a757__23e14c179149-2020266311!5wpHCA"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:24:24",
+    "type": "NEW",
+    "dokumentID": "2026/6556",
+    "tittel": "Invitasjon til samarbeidsmøte 14.04.2026",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Invitasjon til samarbeidsmøte 14.04.2026"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Mottaker: Flere mottakere"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019645!XoDy5X/d-6965376f__8677__47ea__a757__23e14c179149-2020261343!hcOZE4"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:24:24",
+    "type": "NEW",
+    "dokumentID": "2026/11403",
+    "tittel": "42/67 Oppfølging av byggesak - fasadeendring",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "42/67 Oppfølging av byggesak - fasadeendring"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Mottaker: Trebygg Strand AS"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2019000346!qJdkuE/d-6965376f__8677__47ea__a757__23e14c179149-2020266190!20oRLi"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 3
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:24:24",
+    "type": "NEW",
+    "dokumentID": "2026/11493",
+    "tittel": "47/17 Melding om frittliggende bygning eller tilbygg som er unntatt søknadsplikt - garasje eller uthus til bolig - Myrullvegen 13 - Sergej Jegorov",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "47/17 Melding om frittliggende bygning eller tilbygg som er unntatt søknadsplikt - garasje eller uthus til bolig - Myrullvegen 13 - Sergej Jegorov"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Avsender: Sergej Jegorov"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020479!dTpqJB/d-6965376f__8677__47ea__a757__23e14c179149-2020266280!ZTpiYx"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 2
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:24:24",
+    "type": "NEW",
+    "dokumentID": "2026/11537",
+    "tittel": "Bekreftelse på mottatt søknad - barne- og ungdomsarbeider - skole/SFO",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Bekreftelse på mottatt søknad - barne- og ungdomsarbeider - skole/SFO"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020397!7LV8Pg/d-6965376f__8677__47ea__a757__23e14c179149-2020266324!QuaG4c"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:24:24",
+    "type": "NEW",
+    "dokumentID": "2026/11447",
+    "tittel": "25/77 Oppfølging av byggesak - Ryfylkevegen 2668 - tilbygg",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Må bes om innsyn"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "25/77 Oppfølging av byggesak - Ryfylkevegen 2668 - tilbygg"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Mottaker: Norgeshus Ryfylke As"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2019000746!EBCYlu/d-6965376f__8677__47ea__a757__23e14c179149-2020266234!0lQGth"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:24:24",
+    "type": "NEW",
+    "dokumentID": "2026/11633",
+    "tittel": "Vedr. presisering av tilleggsopplysninger - 44/613 - Klungholmen",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Vedr. presisering av tilleggsopplysninger - 44/613 - Klungholmen"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Avsender: Stian Heimlund Skjæveland"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020012783!XIvR4o/d-6965376f__8677__47ea__a757__23e14c179149-2020266420!GAgdqQ"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:24:24",
+    "type": "NEW",
+    "dokumentID": "2026/11563",
+    "tittel": "Ny støtteordning for kommuner som vil etablere fritidsklubb",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "Ny støtteordning for kommuner som vil etablere fritidsklubb"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Avsender: Ungdom Og Fritid - Landsforeningen For Fritidsklubber Og Ungdomshus"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020000159!KpqqD3/d-6965376f__8677__47ea__a757__23e14c179149-2020266350!LMTHWe"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 3
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:24:24",
+    "type": "NEW",
+    "dokumentID": "2026/11404",
+    "tittel": "43/350 Purring - manglende dokumentasjon - søknad om dispensasjon - vinterstue - Barkvedbakken 17",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "43/350 Purring - manglende dokumentasjon - søknad om dispensasjon - vinterstue - Barkvedbakken 17"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Utgående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Mottaker: Mariko Ramona Bjørheim Tungland"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020008546!busJ3G/d-6965376f__8677__47ea__a757__23e14c179149-2020266191!rJyuZX"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:24:24",
+    "type": "NEW",
+    "dokumentID": "2026/11619",
+    "tittel": "53/3 Søknad om ferdigattest - brygge - Tungland",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "53/3 Søknad om ferdigattest - brygge - Tungland"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Avsender: Gaute Tungland"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2018002352!kO2FtR/d-6965376f__8677__47ea__a757__23e14c179149-2020266406!Kp78L8"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:24:24",
+    "type": "NEW",
+    "dokumentID": "2026/11666",
+    "tittel": "31/635 Søknad om deling/justering av grunneiendom - Ryfylkevegen 1852 - Torbjørn Erland og Kristin Thorsnes",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "31/635 Søknad om deling/justering av grunneiendom - Ryfylkevegen 1852 - Torbjørn Erland og Kristin Thorsnes"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": "Avsender: Torbjørn Erland"
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020488!UHP84c/d-6965376f__8677__47ea__a757__23e14c179149-2020266453!d2zpNH"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "08.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-08"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 6
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:24:24",
+    "type": "UPDATE",
+    "dokumentID": "2026/11452",
+    "tittel": "Justert skisse - Førland",
+    "endringer": {
+      "tittel": {
+        "gammel": "Førland, justert skisse",
+        "ny": "Justert skisse - Førland"
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:24:24",
+    "type": "UPDATE",
+    "dokumentID": "2026/11487",
+    "tittel": "48/50 Søknad om ferdigattest - tilbygg/fasadeendring - Bekkevegen 2 - Sami Jabbar Najm",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 3,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:24:24",
+    "type": "UPDATE",
+    "dokumentID": "2026/11386",
+    "tittel": "58/9 Viser til deres søknad - dispensasjon fra byggegrense - rive fritidsbolig og oppføre ny - vedtak",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:24:24",
+    "type": "UPDATE",
+    "dokumentID": "2026/11384",
+    "tittel": "16/79 Revidert forslag - tilbygg og fasadeendring - Ryfylkevegen 1954",
+    "endringer": {
+      "avsender_mottaker": {
+        "gammel": "Avsender: Tom Arve Ås",
+        "ny": "Avsender: Agde Arkitektur As"
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:24:24",
+    "type": "UPDATE",
+    "dokumentID": "2026/11340",
+    "tittel": "Plan 76-4-M4 Presentasjon - mulighetsstudie Tungland - 53/473 - komprimert",
+    "endringer": {
+      "tittel": {
+        "gammel": "Presentasjon - Tungeland komprimert",
+        "ny": "Plan 76-4-M4 Presentasjon - mulighetsstudie Tungland - 53/473 - komprimert"
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:24:24",
+    "type": "NEW",
+    "dokumentID": "2026/11319",
+    "tittel": "13/27 Behandling av klage - avslag brygge - Buene 10",
+    "endringer": {
+      "status": {
+        "gammel": null,
+        "ny": "Publisert"
+      },
+      "tittel": {
+        "gammel": null,
+        "ny": "13/27 Behandling av klage - avslag brygge - Buene 10"
+      },
+      "dokumenttype": {
+        "gammel": null,
+        "ny": "Saksframlegg"
+      },
+      "avsender_mottaker": {
+        "gammel": null,
+        "ny": ""
+      },
+      "detalj_link": {
+        "gammel": null,
+        "ny": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020461!ADqvIn/d-6965376f__8677__47ea__a757__23e14c179149-2020266106!aN3r0Y"
+      },
+      "dato": {
+        "gammel": null,
+        "ny": "07.04.2026"
+      },
+      "dato_iso": {
+        "gammel": null,
+        "ny": "2026-04-07"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 14
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:29:40",
+    "type": "UPDATE",
+    "dokumentID": "2026/11430",
+    "tittel": "47/478 Nabovarsel for Leitevegen 14A",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 5
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:29:40",
+    "type": "UPDATE",
+    "dokumentID": "2026/11332",
+    "tittel": "Vedrørende presisering av tilleggsopplysninger - 44/613 - Klungholmen",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-13 08:29:40",
+    "type": "UPDATE",
+    "dokumentID": "2026/10666",
+    "tittel": "Utkast",
+    "endringer": {
+      "tittel": {
+        "gammel": "Utkast -",
+        "ny": "Utkast"
+      }
+    }
   }
 ]
