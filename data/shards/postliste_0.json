@@ -951,8 +951,13 @@
     "avsender_mottaker": "Mottaker: Flere mottakere",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020383!tLIWT9/d-6965376f__8677__47ea__a757__23e14c179149-2020266175!J6U2Nw",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "5611 Klagebehandling etter tillatelse til 5 utleiehytter - Preikestolvegen 511 - oppdatering videre prosess (pdf, 111KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1258643_1_A!d-2020266175!H03Dbr?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Svar på oppsigelse av plass i Barnas kulturhage",
@@ -1124,8 +1129,13 @@
     "avsender_mottaker": "Avsender: Rogaland Brann Og Redning Iks",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020307!JRh9FE/d-6965376f__8677__47ea__a757__23e14c179149-2020266459!7F3RpD",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "19/11 Fjerner ildsted og pipe - Ryfylkevegen 2437 (pdf, 330KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1259212_1_A!d-2020266459!eUCSeY?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Svar på innsynsbegjæring",
@@ -1295,8 +1305,13 @@
     "avsender_mottaker": "Avsender: André Hatleskog",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019720!y7hMGa/d-6965376f__8677__47ea__a757__23e14c179149-2020266635!CR0X60",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "Spørsmål til graving - Kvartsvegen 28 (pdf, 120KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1259623_1_A!d-2020266635!ceob08?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "31/44 - Avslag på ferdigattest naust - oppfølgingsspørsmål på vegne av søker",
