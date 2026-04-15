@@ -610798,5 +610798,53 @@
         "ny": 1
       }
     }
+  },
+  {
+    "tidspunkt": "2026-04-15 08:05:33",
+    "type": "UPDATE",
+    "dokumentID": "2026/11994",
+    "tittel": "Innkalling - Levekårsutvalget - 22.04.2026",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-15 08:05:33",
+    "type": "UPDATE",
+    "dokumentID": "2026/11803",
+    "tittel": "53/334 Tilbakemelding - dispensasjonssøknad om deling/justering av grunneiendom - grensejustering - Steinhagen 3 - Ben Kjetil Pollard",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 11,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-15 08:05:33",
+    "type": "UPDATE",
+    "dokumentID": "2026/11388",
+    "tittel": "56/11 Klagebehandling etter tillatelse til 5 utleiehytter - Preikestolvegen 511 - oppdatering videre prosess",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
   }
 ]
