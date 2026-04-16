@@ -621402,5 +621402,21 @@
         "ny": 0
       }
     }
+  },
+  {
+    "tidspunkt": "2026-04-16 15:01:10",
+    "type": "UPDATE",
+    "dokumentID": "2026/12161",
+    "tittel": "107/1 Oversendingsbrev med frist",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
   }
 ]

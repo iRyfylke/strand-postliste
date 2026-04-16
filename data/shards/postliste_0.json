@@ -1088,8 +1088,13 @@
     "avsender_mottaker": "Avsender: Haver Advokatfirma As",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020013798!NP6Pv6/d-6965376f__8677__47ea__a757__23e14c179149-2020266948!4jyZ93",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "107/1 Oversendingsbrev med frist (pdf, 399KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1260363_1_A!d-2020266948!e5LUv2?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "44/613 Kommunen krever oppfølging av rivningspålegg - tilbygg gapahuk - Klungholmen",
