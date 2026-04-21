@@ -638970,5 +638970,21 @@
         "ny": 0
       }
     }
+  },
+  {
+    "tidspunkt": "2026-04-21 14:52:04",
+    "type": "UPDATE",
+    "dokumentID": "2026/12646",
+    "tittel": "9/102 Ferdigmelding for ny tilknytning til offentlig vann- /avløpsanlegg - Vervikhagen 15b",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 3,
+        "ny": 0
+      }
+    }
   }
 ]
