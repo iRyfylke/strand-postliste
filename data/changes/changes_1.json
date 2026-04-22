@@ -639066,5 +639066,69 @@
         "ny": 3
       }
     }
+  },
+  {
+    "tidspunkt": "2026-04-22 14:52:23",
+    "type": "UPDATE",
+    "dokumentID": "2026/13001",
+    "tittel": "Møtebok - Rådet for mennesker med nedsatt funksjonsevne - 15.04.2026",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-22 14:52:23",
+    "type": "UPDATE",
+    "dokumentID": "2026/12577",
+    "tittel": "Befaringsdato - driftsbygning - Leitevegen 622",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-22 14:52:23",
+    "type": "UPDATE",
+    "dokumentID": "2026/12635",
+    "tittel": "32/161 32/181Søknad om tillatelse i ett trinn - brygge/molo - Hans Petter Sandanger",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 15
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-22 14:52:23",
+    "type": "UPDATE",
+    "dokumentID": "2026/12578",
+    "tittel": "61/10 Info om kvalifikasjoner",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 2
+      }
+    }
   }
 ]
