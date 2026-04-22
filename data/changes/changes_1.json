@@ -638986,5 +638986,85 @@
         "ny": 0
       }
     }
+  },
+  {
+    "tidspunkt": "2026-04-22 08:06:20",
+    "type": "UPDATE",
+    "dokumentID": "2026/13001",
+    "tittel": "Møtebok - Rådet for mennesker med nedsatt funksjonsevne - 15.04.2026",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-22 08:06:20",
+    "type": "UPDATE",
+    "dokumentID": "2026/12577",
+    "tittel": "Befaringsdato - driftsbygning - Leitevegen 622",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-22 08:06:20",
+    "type": "UPDATE",
+    "dokumentID": "2026/12635",
+    "tittel": "32/161 32/181Søknad om tillatelse i ett trinn - brygge/molo - Hans Petter Sandanger",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 15,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-22 08:06:20",
+    "type": "UPDATE",
+    "dokumentID": "2026/12578",
+    "tittel": "61/10 Info om kvalifikasjoner",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 2,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-22 08:06:20",
+    "type": "UPDATE",
+    "dokumentID": "2026/12646",
+    "tittel": "9/102 Ferdigmelding for ny tilknytning til offentlig vann- /avløpsanlegg - Vervikhagen 15b",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 3
+      }
+    }
   }
 ]
