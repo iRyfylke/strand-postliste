@@ -650250,5 +650250,69 @@
         "ny": 2
       }
     }
+  },
+  {
+    "tidspunkt": "2026-04-23 15:18:40",
+    "type": "UPDATE",
+    "dokumentID": "2026/13487",
+    "tittel": "Møtebok - Forvaltningsutvalget - 22.04.2026",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-23 15:18:40",
+    "type": "UPDATE",
+    "dokumentID": "2026/13161",
+    "tittel": "30/3 Søknad om ferdigattest - redskapsbod - Tjøstheimvegen 180",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 2
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-23 15:18:40",
+    "type": "UPDATE",
+    "dokumentID": "2026/12990",
+    "tittel": "17/32 Dokumentsjekk - ikke behov for mangelbrev",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-23 15:18:40",
+    "type": "UPDATE",
+    "dokumentID": "2026/13089",
+    "tittel": "Ang. turveg ved eik",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 2
+      }
+    }
   }
 ]
