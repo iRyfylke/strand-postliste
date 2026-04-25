@@ -654706,5 +654706,21 @@
         "ny": 1
       }
     }
+  },
+  {
+    "tidspunkt": "2026-04-25 14:09:36",
+    "type": "UPDATE",
+    "dokumentID": "2026/12834",
+    "tittel": "13/74 Søknad produksjons- og avløsertilskudd 2026",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
   }
 ]
