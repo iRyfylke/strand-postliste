@@ -654722,5 +654722,37 @@
         "ny": 0
       }
     }
+  },
+  {
+    "tidspunkt": "2026-04-26 07:54:47",
+    "type": "UPDATE",
+    "dokumentID": "2026/12839",
+    "tittel": "14/15 Søknad produksjons- og avløsertilskudd 2026",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-04-26 07:54:47",
+    "type": "UPDATE",
+    "dokumentID": "2026/12834",
+    "tittel": "13/74 Søknad produksjons- og avløsertilskudd 2026",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
   }
 ]
