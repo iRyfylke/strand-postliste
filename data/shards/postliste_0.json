@@ -920,8 +920,13 @@
     "avsender_mottaker": "Avsender: Østebø Gård Ans",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020547!jOHYhf/d-6965376f__8677__47ea__a757__23e14c179149-2020267626!yWXn5K",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "14/15 Søknad produksjons- og avløsertilskudd 2026 (pdf, 216KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1261894_1_A!d-2020267626!YuANo6?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Oppsigelse av plass i SFO",

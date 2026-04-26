@@ -654754,5 +654754,21 @@
         "ny": 1
       }
     }
+  },
+  {
+    "tidspunkt": "2026-04-26 14:11:13",
+    "type": "UPDATE",
+    "dokumentID": "2026/12839",
+    "tittel": "14/15 Søknad produksjons- og avløsertilskudd 2026",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
   }
 ]
