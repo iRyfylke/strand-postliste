@@ -1372,13 +1372,8 @@
     "avsender_mottaker": "Avsender: Barkve Landbruk",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020547!jOHYhf/d-6965376f__8677__47ea__a757__23e14c179149-2020267635!NPIccz",
-    "filer": [
-      {
-        "tekst": "26/8 Søknad produksjons- og avløsertilskudd 2026 (pdf, 217KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1261912_1_A!d-2020267635!lHzh2N?pid=29"
-      }
-    ],
-    "status": "Publisert"
+    "filer": [],
+    "status": "Må bes om innsyn"
   },
   {
     "tittel": "21/11 Søknad produksjons- og avløsertilskudd 2026",
@@ -1840,8 +1835,17 @@
     "avsender_mottaker": "Mottaker: Anne Kathrine Jensen",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020544!kI81bu/d-6965376f__8677__47ea__a757__23e14c179149-2020267984!M4928E",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "Varsel oppmålingsforretning - Klarlegging av grenser 57/46 i Strand (pdf, 194KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1262736_1_A!d-2020267984!txNhBx?pid=29"
+      },
+      {
+        "tekst": "Kart (pdf, 931KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1262741_1_A!d-2020267984!l7tb0d?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "36/11 Søknad om ferdigattest - garasje - Heia 8 - Torvald Melberg",
@@ -2150,8 +2154,21 @@
     "avsender_mottaker": "Avsender: Forsand Byggservice AS",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020514!1708Iy/d-6965376f__8677__47ea__a757__23e14c179149-2020268101!HxL9Vi",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "106/3/7 Informasjon vedr. nabovarsling (pdf, 99KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1263058_1_A!d-2020268101!4uBmRI?pid=29"
+      },
+      {
+        "tekst": "D Situasjonsplan - oppdatert etter sendt nabovarsel (pdf, 3,2MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1263059_1_A!d-2020268101!gwsQXK?pid=29"
+      },
+      {
+        "tekst": "D Situasjonsplan - sendt ved nabovarsel (pdf, 3,5MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1263060_1_A!d-2020268101!MGfraa?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "69/4 Søknad produksjons- og avløsertilskudd 2026",
