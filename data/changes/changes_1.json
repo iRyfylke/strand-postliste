@@ -673626,5 +673626,21 @@
         "ny": 0
       }
     }
+  },
+  {
+    "tidspunkt": "2026-05-03 14:17:26",
+    "type": "UPDATE",
+    "dokumentID": "2026/13890",
+    "tittel": "Spørsmål om ferdselsrett",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
   }
 ]
