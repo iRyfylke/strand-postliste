@@ -673610,5 +673610,21 @@
         "ny": "Melding fra leverandør - møte om status og videre håndtering av avtale"
       }
     }
+  },
+  {
+    "tidspunkt": "2026-05-03 08:15:44",
+    "type": "UPDATE",
+    "dokumentID": "2026/13890",
+    "tittel": "Spørsmål om ferdselsrett",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
   }
 ]
