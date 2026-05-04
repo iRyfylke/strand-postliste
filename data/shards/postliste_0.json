@@ -1635,8 +1635,21 @@
     "avsender_mottaker": "Avsender: Leicester Rajaratnam Egenes",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020013737!tinGnK/d-6965376f__8677__47ea__a757__23e14c179149-2020268911!q33VCy",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "27/28 Plantegnigner fra megler (pdf, 80KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1264809_1_A!d-2020268911!gWF2ok?pid=29"
+      },
+      {
+        "tekst": "objpict_386590006554747_0 (pdf, 60KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1264810_1_A!d-2020268911!3Kwws1?pid=29"
+      },
+      {
+        "tekst": "objpict_386590006554746_0 (pdf, 54KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1264811_1_A!d-2020268911!cRJCTc?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "14/35 Revidert søknad om ny tilknytning til offentlig vann- /avløpsanlegg - Vassbotn 30",
