@@ -687914,5 +687914,69 @@
         "ny": 0
       }
     }
+  },
+  {
+    "tidspunkt": "2026-05-06 15:33:05",
+    "type": "UPDATE",
+    "dokumentID": "2026/14270",
+    "tittel": "17. mai for Staal",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-05-06 15:33:05",
+    "type": "UPDATE",
+    "dokumentID": "2026/13955",
+    "tittel": "Plan 82-1 og 84-6 Forslag til mindre planendring Furulia",
+    "endringer": {
+      "tittel": {
+        "gammel": "Forslag til mindre planendring Furulia",
+        "ny": "Plan 82-1 og 84-6 Forslag til mindre planendring Furulia"
+      },
+      "dokumenttype": {
+        "gammel": "Internt notat (X)",
+        "ny": "Inngående dokument"
+      },
+      "avsender_mottaker": {
+        "gammel": "",
+        "ny": "Avsender: Strand kommune Bygg og eiendom"
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-05-06 15:33:05",
+    "type": "UPDATE",
+    "dokumentID": "2026/14109",
+    "tittel": "7/2 Oppfølging av byggesak - trykkøkningsstasjon - Fiskåvegen 992",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 3,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-05-06 15:33:05",
+    "type": "UPDATE",
+    "dokumentID": "2026/14281",
+    "tittel": "59/2 As built bygning og molo",
+    "endringer": {
+      "avsender_mottaker": {
+        "gammel": "Avsender: Ørjan Høllesli",
+        "ny": "Avsender: Rycon As"
+      }
+    }
   }
 ]

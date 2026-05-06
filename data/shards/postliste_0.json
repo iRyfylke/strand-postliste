@@ -69,7 +69,7 @@
     "dokumentID": "2026/14395",
     "dokumenttype": "Møtebok",
     "avsender_mottaker": "",
-    "side": 2,
+    "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020528!E4mtQU/d-6965376f__8677__47ea__a757__23e14c179149-2020269182!tymX9U",
     "filer": [
       {
@@ -116,12 +116,12 @@
     "status": "Må bes om innsyn"
   },
   {
-    "tittel": "Forslag til mindre planendring Furulia",
+    "tittel": "Plan 82-1 og 84-6 Forslag til mindre planendring Furulia",
     "dato": "30.04.2026",
     "dato_iso": "2026-04-30",
     "dokumentID": "2026/13955",
-    "dokumenttype": "Internt notat (X)",
-    "avsender_mottaker": "",
+    "dokumenttype": "Inngående dokument",
+    "avsender_mottaker": "Avsender: Strand kommune Bygg og eiendom",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020611!e250kS/d-6965376f__8677__47ea__a757__23e14c179149-2020268742!0XeWib",
     "filer": [],
@@ -877,7 +877,7 @@
     "dato_iso": "2026-04-30",
     "dokumentID": "2026/14281",
     "dokumenttype": "Inngående dokument",
-    "avsender_mottaker": "Avsender: Ørjan Høllesli",
+    "avsender_mottaker": "Avsender: Rycon As",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020003337!uMGBrK/d-6965376f__8677__47ea__a757__23e14c179149-2020269068!2hKyeX",
     "filer": [
@@ -1120,21 +1120,8 @@
     "avsender_mottaker": "Mottaker: Norconsult AS",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020003176!Rx7yDK/d-6965376f__8677__47ea__a757__23e14c179149-2020268896!xCt6Za",
-    "filer": [
-      {
-        "tekst": "7/2 Oppfølging av byggesak - trykkøkningsstasjon - Fiskåvegen 992 (pdf, 114KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1264783_1_A!d-2020268896!fQoMtT?pid=29"
-      },
-      {
-        "tekst": "7/5/0/0 Tillatelse til tiltak - trykkøkningsstasjon og teknisk bygg - Fiskåvegen 992 (pdf, 334KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1264784_1_A!d-2020268896!VLYNDT?pid=29"
-      },
-      {
-        "tekst": "5167-soknad-om-ferdigattest-2020 (pdf, 109KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1264785_1_A!d-2020268896!iRtja0?pid=29"
-      }
-    ],
-    "status": "Publisert"
+    "filer": [],
+    "status": "Må bes om innsyn"
   },
   {
     "tittel": "Anleggsbidrag - Kvednanesveien 75 AS - Strand Bygg AS",
@@ -1875,7 +1862,7 @@
     "dokumentID": "2026/14158",
     "dokumenttype": "Utgående dokument",
     "avsender_mottaker": "Mottaker: Flere mottakere",
-    "side": 2,
+    "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2013001087!VXYARN/d-6965376f__8677__47ea__a757__23e14c179149-2020268945!R2uoCv",
     "filer": [],
     "status": "Må bes om innsyn"
@@ -1887,7 +1874,7 @@
     "dokumentID": "2026/12055",
     "dokumenttype": "Utgående dokument",
     "avsender_mottaker": "Mottaker: Agde Arkitektur As",
-    "side": 2,
+    "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020236!Pkmlds/d-6965376f__8677__47ea__a757__23e14c179149-2020266842!BMAbnN",
     "filer": [],
     "status": "Må bes om innsyn"
@@ -1899,7 +1886,7 @@
     "dokumentID": "2026/14198",
     "dokumenttype": "Internt notat (X)",
     "avsender_mottaker": "",
-    "side": 2,
+    "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020543!lKjVZA/d-6965376f__8677__47ea__a757__23e14c179149-2020268985!PsHIYo",
     "filer": [],
     "status": "Må bes om innsyn"
@@ -1911,7 +1898,7 @@
     "dokumentID": "2026/14365",
     "dokumenttype": "Inngående dokument",
     "avsender_mottaker": "",
-    "side": 2,
+    "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019707!kgQC9c/d-6965376f__8677__47ea__a757__23e14c179149-2020269152!lAOC73",
     "filer": [],
     "status": "Må bes om innsyn"
@@ -1923,7 +1910,7 @@
     "dokumentID": "2026/14125",
     "dokumenttype": "Utgående dokument",
     "avsender_mottaker": "Mottaker: Jeanette Litlatun Fossmark",
-    "side": 2,
+    "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020011355!Vu6oXy/d-6965376f__8677__47ea__a757__23e14c179149-2020268912!tfZTza",
     "filer": [],
     "status": "Må bes om innsyn"
@@ -1947,7 +1934,7 @@
     "dokumentID": "2026/14210",
     "dokumenttype": "Inngående dokument",
     "avsender_mottaker": "",
-    "side": 2,
+    "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020526!adv6Py/d-6965376f__8677__47ea__a757__23e14c179149-2020268997!iH9sMf",
     "filer": [],
     "status": "Må bes om innsyn"
@@ -1959,7 +1946,7 @@
     "dokumentID": "2026/14035",
     "dokumenttype": "Internt notat (X)",
     "avsender_mottaker": "",
-    "side": 2,
+    "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020543!lKjVZA/d-6965376f__8677__47ea__a757__23e14c179149-2020268822!V2So1u",
     "filer": [],
     "status": "Må bes om innsyn"
@@ -1983,7 +1970,7 @@
     "dokumentID": "2026/14156",
     "dokumenttype": "Utgående dokument",
     "avsender_mottaker": "Mottaker: Jeanette Litlatun Fossmark",
-    "side": 2,
+    "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020011355!Vu6oXy/d-6965376f__8677__47ea__a757__23e14c179149-2020268943!WZaQE3",
     "filer": [],
     "status": "Må bes om innsyn"
@@ -2012,7 +1999,7 @@
     "dokumentID": "2026/14178",
     "dokumenttype": "Internt notat (X)",
     "avsender_mottaker": "",
-    "side": 2,
+    "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020543!lKjVZA/d-6965376f__8677__47ea__a757__23e14c179149-2020268965!2Ix3fR",
     "filer": [],
     "status": "Må bes om innsyn"
@@ -2024,7 +2011,7 @@
     "dokumentID": "2026/14083",
     "dokumenttype": "Utgående dokument",
     "avsender_mottaker": "",
-    "side": 2,
+    "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020567!y6bhNC/d-6965376f__8677__47ea__a757__23e14c179149-2020268870!NC2BNr",
     "filer": [],
     "status": "Må bes om innsyn"
@@ -2036,10 +2023,15 @@
     "dokumentID": "2026/14270",
     "dokumenttype": "Inngående dokument",
     "avsender_mottaker": "Avsender: Staal Jørpeland Il",
-    "side": 2,
+    "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020002172!G8gEkc/d-6965376f__8677__47ea__a757__23e14c179149-2020269057!bt2ir9",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "17. mai for Staal (pdf, 117KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1265265_1_A!d-2020269057!eHXvDj?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Svar om tilskudd til forebyggende arbeid hos eldre",
@@ -2048,7 +2040,7 @@
     "dokumentID": "2026/14099",
     "dokumenttype": "Utgående dokument",
     "avsender_mottaker": "Mottaker: Tirsdagsturgjengen Strand",
-    "side": 2,
+    "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019786!T7ZlgY/d-6965376f__8677__47ea__a757__23e14c179149-2020268886!yVLG4t",
     "filer": [
       {
@@ -2077,7 +2069,7 @@
     "dokumentID": "2026/13880",
     "dokumenttype": "Utgående dokument",
     "avsender_mottaker": "Mottaker: Norsk Rikskringkasting As",
-    "side": 2,
+    "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019694!KgcO8a/d-6965376f__8677__47ea__a757__23e14c179149-2020268667!lEWSmu",
     "filer": [],
     "status": "Må bes om innsyn"
@@ -2089,7 +2081,7 @@
     "dokumentID": "2026/14220",
     "dokumenttype": "Utgående dokument",
     "avsender_mottaker": "",
-    "side": 2,
+    "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020526!adv6Py/d-6965376f__8677__47ea__a757__23e14c179149-2020269007!8cbG5i",
     "filer": [],
     "status": "Må bes om innsyn"
@@ -2101,7 +2093,7 @@
     "dokumentID": "2026/14041",
     "dokumenttype": "Internt notat (X)",
     "avsender_mottaker": "",
-    "side": 2,
+    "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019904!rBtDdA/d-6965376f__8677__47ea__a757__23e14c179149-2020268828!GRMhe9",
     "filer": [],
     "status": "Må bes om innsyn"
@@ -2113,7 +2105,7 @@
     "dokumentID": "2026/14222",
     "dokumenttype": "Inngående dokument",
     "avsender_mottaker": "",
-    "side": 2,
+    "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020526!adv6Py/d-6965376f__8677__47ea__a757__23e14c179149-2020269009!bBgC9R",
     "filer": [],
     "status": "Må bes om innsyn"
@@ -2125,7 +2117,7 @@
     "dokumentID": "2026/14103",
     "dokumenttype": "Utgående dokument",
     "avsender_mottaker": "Mottaker: Flere mottakere",
-    "side": 2,
+    "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2013003764!DiHnHf/d-6965376f__8677__47ea__a757__23e14c179149-2020268890!XvUsBR",
     "filer": [],
     "status": "Må bes om innsyn"
@@ -2161,7 +2153,7 @@
     "dokumentID": "2026/14212",
     "dokumenttype": "Inngående dokument",
     "avsender_mottaker": "",
-    "side": 2,
+    "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020526!adv6Py/d-6965376f__8677__47ea__a757__23e14c179149-2020268999!7eA9zP",
     "filer": [],
     "status": "Må bes om innsyn"
@@ -2202,7 +2194,7 @@
     "dokumentID": "2026/14357",
     "dokumenttype": "Inngående dokument",
     "avsender_mottaker": "Avsender: Signe Ranestad Rafos",
-    "side": 2,
+    "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019671!kbTEbr/d-6965376f__8677__47ea__a757__23e14c179149-2020269144!3ATxcA",
     "filer": [],
     "status": "Må bes om innsyn"
@@ -2214,7 +2206,7 @@
     "dokumentID": "2026/14154",
     "dokumenttype": "Utgående dokument",
     "avsender_mottaker": "Mottaker: Olaug Irene Gjerde Næss",
-    "side": 2,
+    "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020003212!x3b2rZ/d-6965376f__8677__47ea__a757__23e14c179149-2020268941!Dn1fq5",
     "filer": [
       {
@@ -2251,7 +2243,7 @@
     "dokumentID": "2026/14090",
     "dokumenttype": "Utgående dokument",
     "avsender_mottaker": "Mottaker: Flere mottakere",
-    "side": 2,
+    "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019991!nycQlP/d-6965376f__8677__47ea__a757__23e14c179149-2020268877!7nT0k2",
     "filer": [
       {
@@ -2280,7 +2272,7 @@
     "dokumentID": "2026/14261",
     "dokumenttype": "Inngående dokument",
     "avsender_mottaker": "Avsender: Flere avsendere",
-    "side": 2,
+    "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020206!YMOoNu/d-6965376f__8677__47ea__a757__23e14c179149-2020269048!BKBtDb",
     "filer": [
       {
@@ -2318,7 +2310,7 @@
     "dokumentID": "2026/14096",
     "dokumenttype": "Utgående dokument",
     "avsender_mottaker": "",
-    "side": 2,
+    "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020018671!ed4IKP/d-6965376f__8677__47ea__a757__23e14c179149-2020268883!21GG28",
     "filer": [],
     "status": "Må bes om innsyn"
@@ -2330,7 +2322,7 @@
     "dokumentID": "2026/14092",
     "dokumenttype": "Utgående dokument",
     "avsender_mottaker": "Mottaker: Flere mottakere",
-    "side": 2,
+    "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020013737!tinGnK/d-6965376f__8677__47ea__a757__23e14c179149-2020268879!tpWDyf",
     "filer": [
       {
@@ -2351,7 +2343,7 @@
     "dokumentID": "2026/14189",
     "dokumenttype": "Utgående dokument",
     "avsender_mottaker": "",
-    "side": 2,
+    "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020094!iahfwz/d-6965376f__8677__47ea__a757__23e14c179149-2020268976!hSL63N",
     "filer": [],
     "status": "Må bes om innsyn"
@@ -2422,7 +2414,7 @@
     "dokumentID": "2026/14184",
     "dokumenttype": "Utgående dokument",
     "avsender_mottaker": "",
-    "side": 2,
+    "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020094!iahfwz/d-6965376f__8677__47ea__a757__23e14c179149-2020268971!1n3BlX",
     "filer": [],
     "status": "Må bes om innsyn"
@@ -2434,7 +2426,7 @@
     "dokumentID": "2026/14359",
     "dokumenttype": "Inngående dokument",
     "avsender_mottaker": "",
-    "side": 2,
+    "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019707!kgQC9c/d-6965376f__8677__47ea__a757__23e14c179149-2020269146!NN8MMn",
     "filer": [],
     "status": "Må bes om innsyn"
