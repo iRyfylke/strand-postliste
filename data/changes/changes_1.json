@@ -692570,5 +692570,69 @@
         "ny": 3
       }
     }
+  },
+  {
+    "tidspunkt": "2026-05-07 15:33:02",
+    "type": "UPDATE",
+    "dokumentID": "2026/14568",
+    "tittel": "43/57 Søknad om tillatelse til tiltak uten ansvarsrett - terrasse og soverom - Barkvedbakken 26 - Ingrid Tytlandsvik",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 7
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-05-07 15:33:02",
+    "type": "UPDATE",
+    "dokumentID": "2026/14547",
+    "tittel": "49/37 Spørsmål om status - videreføring sauna Jørpelandsvågen",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-05-07 15:33:02",
+    "type": "UPDATE",
+    "dokumentID": "2026/14446",
+    "tittel": "Til uttale - frivillig vern av skog i Rogaland - Djupalia - Riskadalsvatnet - verneprosess 2026",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 13,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-05-07 15:33:02",
+    "type": "UPDATE",
+    "dokumentID": "2026/14466",
+    "tittel": "5/40 Søknad om ferdigattest - renseanlegg - Vostervegen 55 - Odd Jan Andersen",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 2,
+        "ny": 0
+      }
+    }
   }
 ]
