@@ -1558,8 +1558,61 @@
     "avsender_mottaker": "Avsender: Statsforvaltaren I Rogaland",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020012979!VBNaFC/d-6965376f__8677__47ea__a757__23e14c179149-2020269233!9UyzRZ",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "Til uttale - frivillig vern av skog i Rogaland - Djupalia - Riskadalsvatnet - verneprosess 2026 (pdf, 256KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1265705_1_A!d-2020269233!KPtoNu?pid=29"
+      },
+      {
+        "tekst": "Høyring - frivillig vern av to skogområde i Rogaland - Djupalia og Riskadalsvatnet naturreservat (pdf, 4,4MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1265706_1_A!d-2020269233!1sWaG6?pid=29"
+      },
+      {
+        "tekst": "Adresseliste (pdf, 173KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1265707_1_A!d-2020269233!XKq1L6?pid=29"
+      },
+      {
+        "tekst": "Høyringskart Djupalia (pdf, 10,3MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1265708_1_A!d-2020269233!tEryrx?pid=29"
+      },
+      {
+        "tekst": "Høyringskart Riskadalsvatnet (pdf, 12,5MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1265709_1_A!d-2020269233!88yt0S?pid=29"
+      },
+      {
+        "tekst": "Forskrift Djupalia 20.04.2026 (pdf, 156KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1265710_1_A!d-2020269233!jUHybs?pid=29"
+      },
+      {
+        "tekst": "Forskrift Riskadalsvatnet 20.04.2026 (pdf, 155KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1265711_1_A!d-2020269233!BJr6bE?pid=29"
+      },
+      {
+        "tekst": "Skogvernrapport Djupalia - utval (pdf, 3,1MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1265712_1_A!d-2020269233!XjGTnJ?pid=29"
+      },
+      {
+        "tekst": "Skogvernrapport Djupalia - 2024 (pdf, 3,4MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1265713_1_A!d-2020269233!ohWjJn?pid=29"
+      },
+      {
+        "tekst": "Avveging skogvern vs. skogbruk - Djupalia (pdf, 493KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1265714_1_A!d-2020269233!7V54nK?pid=29"
+      },
+      {
+        "tekst": "Avveging skogvern vs. skogbruk - Riskadalsvatnet (pdf, 523KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1265715_1_A!d-2020269233!XAnBTr?pid=29"
+      },
+      {
+        "tekst": "Innspel - Djupalia - alfabetisk (pdf, 764KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1265716_1_A!d-2020269233!L1k8tB?pid=29"
+      },
+      {
+        "tekst": "Innspel - Riskadalsvatnet - alfabetisk (pdf, 866KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1265717_1_A!d-2020269233!yjBYoq?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "5/40 Søknad om ferdigattest - renseanlegg - Vostervegen 55 - Odd Jan Andersen",
@@ -1570,8 +1623,17 @@
     "avsender_mottaker": "Avsender: Rycon As",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016094!SfUPkf/d-6965376f__8677__47ea__a757__23e14c179149-2020269253!7z8vlG",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "5/40 Søknad om ferdigattest - renseanlegg - Vostervegen 55 - Odd Jan Andersen (pdf, 672KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1265776_1_A!d-2020269253!pnZDE9?pid=29"
+      },
+      {
+        "tekst": "G Gjennomføringsplan (pdf, 887KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1265780_1_A!d-2020269253!A0cyA3?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "53/334 Vedrørende søknad om dispensasjon og grensejustering - Steinhagen 3",

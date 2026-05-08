@@ -692634,5 +692634,37 @@
         "ny": 0
       }
     }
+  },
+  {
+    "tidspunkt": "2026-05-08 07:55:58",
+    "type": "UPDATE",
+    "dokumentID": "2026/14446",
+    "tittel": "Til uttale - frivillig vern av skog i Rogaland - Djupalia - Riskadalsvatnet - verneprosess 2026",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 13
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-05-08 07:55:58",
+    "type": "UPDATE",
+    "dokumentID": "2026/14466",
+    "tittel": "5/40 Søknad om ferdigattest - renseanlegg - Vostervegen 55 - Odd Jan Andersen",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 2
+      }
+    }
   }
 ]
