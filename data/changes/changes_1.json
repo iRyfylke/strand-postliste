@@ -692666,5 +692666,21 @@
         "ny": 2
       }
     }
+  },
+  {
+    "tidspunkt": "2026-05-08 14:56:47",
+    "type": "UPDATE",
+    "dokumentID": "2026/14446",
+    "tittel": "Til uttale - frivillig vern av skog i Rogaland - Djupalia - Riskadalsvatnet - verneprosess 2026",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 13,
+        "ny": 0
+      }
+    }
   }
 ]
