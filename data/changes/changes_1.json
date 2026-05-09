@@ -692730,5 +692730,69 @@
         "ny": 13
       }
     }
+  },
+  {
+    "tidspunkt": "2026-05-09 14:23:13",
+    "type": "UPDATE",
+    "dokumentID": "2026/14428",
+    "tittel": "Støtte til 17. mai-program Fiskå",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-05-09 14:23:13",
+    "type": "UPDATE",
+    "dokumentID": "2026/14588",
+    "tittel": "16/551 Vedrørende tilbakemelding om mangler - midlertidig brukstillatelse - industribygg - Fiskåvegen 1 - Comrod Jerol",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 15,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-05-09 14:23:13",
+    "type": "UPDATE",
+    "dokumentID": "2026/14568",
+    "tittel": "43/57 Søknad om tillatelse til tiltak uten ansvarsrett - terrasse og soverom - Barkvedbakken 26 - Ingrid Tytlandsvik",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 7,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-05-09 14:23:13",
+    "type": "UPDATE",
+    "dokumentID": "2026/14547",
+    "tittel": "49/37 Spørsmål om status - videreføring sauna Jørpelandsvågen",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
   }
 ]

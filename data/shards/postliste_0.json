@@ -364,8 +364,13 @@
     "avsender_mottaker": "Avsender: Fiskå Idrettsforening",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020002172!G8gEkc/d-6965376f__8677__47ea__a757__23e14c179149-2020269215!5U4BKh",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "Støtte til 17. mai-program Fiskå (pdf, 110KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1265609_1_A!d-2020269215!b9nPXF?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Innsynsbegjæring",
@@ -584,69 +589,8 @@
     "avsender_mottaker": "Avsender: Masiv Bygg As",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016927!bi2yqH/d-6965376f__8677__47ea__a757__23e14c179149-2020269375!DmHM89",
-    "filer": [
-      {
-        "tekst": "16/551 Vedrørende tilbakemelding om mangler - midlertidig brukstillatelse - industribygg - Fiskåvegen 1 - Comrod Jerol (pdf, 135KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1266082_1_A!d-2020269375!3cpLGq?pid=29"
-      },
-      {
-        "tekst": "Q Hall 7,5mm Høyt tak ISO - V-330-60-001 (pdf, 2,5MB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1266084_1_A!d-2020269375!5cCwoO?pid=29"
-      },
-      {
-        "tekst": "Q Hall 7,5mm u_mesanin ISO - V-330-60-002 (pdf, 2,4MB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1266085_1_A!d-2020269375!qV5WlL?pid=29"
-      },
-      {
-        "tekst": "Q Lager 104 7,5mm ISO - V-330-60-003 (pdf, 508KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1266086_1_A!d-2020269375!7OQUj1?pid=29"
-      },
-      {
-        "tekst": "Q Snekkerverksted 102 OH3 - V-330-60-004 (pdf, 528KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1266087_1_A!d-2020269375!KQECZ0?pid=29"
-      },
-      {
-        "tekst": "Q Flex slanger - V-330-60-005 - TIF VG2 207 OH1 (pdf, 474KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1266088_1_A!d-2020269375!6QMQb3?pid=29"
-      },
-      {
-        "tekst": "Q Brannvannsdekning (pdf, 396KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1266089_1_A!d-2020269375!CGuNgy?pid=29"
-      },
-      {
-        "tekst": "Q Beregningsrapport (pdf, 675KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1266083_1_A!d-2020269375!h20NEc?pid=29"
-      },
-      {
-        "tekst": "Q Foto - Brannkum VK04 (pdf, 773KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1266090_1_A!d-2020269375!HMq8AA?pid=29"
-      },
-      {
-        "tekst": "Q Comrod - Driftsplan - Luktreduksjon - R1 Hisoy Norlab m. driftsplan (pdf, 1,4MB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1266091_1_A!d-2020269375!xqaIYV?pid=29"
-      },
-      {
-        "tekst": "Q Comrod - Driftsplan - Luktreduksjon - R1 Hisoy Norlab (pdf, 1,1MB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1266092_1_A!d-2020269375!PixJqU?pid=29"
-      },
-      {
-        "tekst": "Q Comrod - Lukthåndteringsplan - R1 Hisoy Norlab (pdf, 884KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1266093_1_A!d-2020269375!XhsE2K?pid=29"
-      },
-      {
-        "tekst": "Q Comrod - Luktrisikovurdering - R1 Hisoy Norlab (pdf, 2,8MB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1266094_1_A!d-2020269375!ch89DX?pid=29"
-      },
-      {
-        "tekst": "Q Foto - PXL_20260427_112712965.RAW-01 (pdf, 88KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1266095_1_A!d-2020269375!BXeAXS?pid=29"
-      },
-      {
-        "tekst": "Q Foto - PXL_20260427_112755841.NIGHT.RAW-01 (pdf, 107KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1266096_1_A!d-2020269375!xH0tWH?pid=29"
-      }
-    ],
-    "status": "Publisert"
+    "filer": [],
+    "status": "Må bes om innsyn"
   },
   {
     "tittel": "49/494 Søknad om midlertidig plassering av uteservering - Rådhusgaten 7 - Admi-Senteret As",
@@ -682,37 +626,8 @@
     "avsender_mottaker": "Avsender: Ingrid Tytlandsvik",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020654!b7arlp/d-6965376f__8677__47ea__a757__23e14c179149-2020269355!zjNroT",
-    "filer": [
-      {
-        "tekst": "43/57 Søknad om tillatelse til tiltak uten ansvarsrett - terrasse og soverom - Barkvedbakken 26 - Ingrid Tytlandsvik (pdf, 2,1MB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1266042_1_A!d-2020269355!TX0LwD?pid=29"
-      },
-      {
-        "tekst": "B Søknad om dispensasjon (pdf, 1,2MB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1266043_1_A!d-2020269355!OFYjAT?pid=29"
-      },
-      {
-        "tekst": "C Opplysninger gitt i nabovarsel (pdf, 1,3MB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1266044_1_A!d-2020269355!AeYDYn?pid=29"
-      },
-      {
-        "tekst": "C Kvittering for nabovarsel (pdf, 1,4MB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1266045_1_A!d-2020269355!OW3Ay6?pid=29"
-      },
-      {
-        "tekst": "D Situasjonsplan (pdf, 1MB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1266046_1_A!d-2020269355!IIiKo2?pid=29"
-      },
-      {
-        "tekst": "E Tegninger - plan og snitt (pdf, 1,8MB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1266047_1_A!d-2020269355!RVKMIc?pid=29"
-      },
-      {
-        "tekst": "E Tegninger - fasade (pdf, 1,4MB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1266048_1_A!d-2020269355!HsRVO9?pid=29"
-      }
-    ],
-    "status": "Publisert"
+    "filer": [],
+    "status": "Må bes om innsyn"
   },
   {
     "tittel": "Søknad om startlån",
@@ -735,8 +650,13 @@
     "avsender_mottaker": "Avsender: Rycon As",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020018705!RHLGeA/d-6965376f__8677__47ea__a757__23e14c179149-2020269334!zs05Vx",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "49/37 Spørsmål om status - videreføring sauna Jørpelandsvågen (pdf, 98KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1266013_1_A!d-2020269334!7F2Oiw?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "32/46 Veiledning til spørsmål om oppføring av carport med bod i tilknytning til bolighus - Håbakkvegen 25",
