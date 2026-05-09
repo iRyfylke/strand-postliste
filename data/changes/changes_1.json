@@ -692682,5 +692682,53 @@
         "ny": 0
       }
     }
+  },
+  {
+    "tidspunkt": "2026-05-09 08:09:31",
+    "type": "UPDATE",
+    "dokumentID": "2026/14428",
+    "tittel": "Støtte til 17. mai-program Fiskå",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-05-09 08:09:31",
+    "type": "UPDATE",
+    "dokumentID": "2026/14547",
+    "tittel": "49/37 Spørsmål om status - videreføring sauna Jørpelandsvågen",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-05-09 08:09:31",
+    "type": "UPDATE",
+    "dokumentID": "2026/14446",
+    "tittel": "Til uttale - frivillig vern av skog i Rogaland - Djupalia - Riskadalsvatnet - verneprosess 2026",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 13
+      }
+    }
   }
 ]
