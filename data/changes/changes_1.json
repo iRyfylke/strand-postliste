@@ -692794,5 +692794,37 @@
         "ny": 1
       }
     }
+  },
+  {
+    "tidspunkt": "2026-05-10 08:21:09",
+    "type": "UPDATE",
+    "dokumentID": "2026/14588",
+    "tittel": "16/551 Vedrørende tilbakemelding om mangler - midlertidig brukstillatelse - industribygg - Fiskåvegen 1 - Comrod Jerol",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 15
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-05-10 08:21:09",
+    "type": "UPDATE",
+    "dokumentID": "2026/14568",
+    "tittel": "43/57 Søknad om tillatelse til tiltak uten ansvarsrett - terrasse og soverom - Barkvedbakken 26 - Ingrid Tytlandsvik",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 7
+      }
+    }
   }
 ]
