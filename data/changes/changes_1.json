@@ -700286,5 +700286,69 @@
         "ny": 3
       }
     }
+  },
+  {
+    "tidspunkt": "2026-05-11 16:01:41",
+    "type": "UPDATE",
+    "dokumentID": "2026/14924",
+    "tittel": "Møteprotokoll - Kommunestyret - 06.05.2026",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-05-11 16:01:41",
+    "type": "UPDATE",
+    "dokumentID": "2026/14684",
+    "tittel": "Varsel oppmålingsforretning - Fradeling boligtomt 63/10 i Strand",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-05-11 16:01:41",
+    "type": "UPDATE",
+    "dokumentID": "2026/14625",
+    "tittel": "Ønsker uttale til prosjekt nydyrking på gnr 26/7 i Bjørheimsbygd",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 4
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-05-11 16:01:41",
+    "type": "UPDATE",
+    "dokumentID": "2026/14693",
+    "tittel": "48/24 Oppfølging av byggesak - garasje - Moen 14",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 3,
+        "ny": 0
+      }
+    }
   }
 ]

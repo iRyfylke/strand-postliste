@@ -8,8 +8,13 @@
     "avsender_mottaker": "",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020320!rUNGwR/d-6965376f__8677__47ea__a757__23e14c179149-2020269711!5Khwas",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "Møteprotokoll - Kommunestyret - 06.05.2026 (pdf, 1,6MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1266800_2_P!d-2020269711!NpSwvX?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Møtebok - Kommunestyret - 06.05.2026",
@@ -190,8 +195,13 @@
     "avsender_mottaker": "Mottaker: Marie Kamp Høie",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020023!rbXh1z/d-6965376f__8677__47ea__a757__23e14c179149-2020269471!xLvgs6",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "Varsel oppmålingsforretning - Fradeling boligtomt 63/10 i Strand (pdf, 835KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1266310_1_A!d-2020269471!HuUZcr?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Ønsker uttale til prosjekt nydyrking på gnr 26/7 i Bjørheimsbygd",
@@ -202,8 +212,25 @@
     "avsender_mottaker": "Mottaker: Rogaland Fylkeskommune Kulturavdelingen",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020499!MkyKAy/d-6965376f__8677__47ea__a757__23e14c179149-2020269412!ElzMBV",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "Ønsker uttale til prosjekt nydyrking på gnr 26/7 i Bjørheimsbygd (pdf, 112KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1266176_1_A!d-2020269412!CwauNJ?pid=29"
+      },
+      {
+        "tekst": "26/7 Søknad - nydyrking (pdf, 56KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1266183_1_A!d-2020269412!kUApcj?pid=29"
+      },
+      {
+        "tekst": "26/7 Ettersending - nydyrking (pdf, 4,9MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1266182_1_A!d-2020269412!41mZqu?pid=29"
+      },
+      {
+        "tekst": "Kart - Vassbø (pdf, 3MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1266184_1_A!d-2020269412!RoQm59?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Varsling - Planendring for Myrane og Fururingen 1",
@@ -327,21 +354,8 @@
     "avsender_mottaker": "Mottaker: Norgeshus Ryfylke As",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020003464!1c2stR/d-6965376f__8677__47ea__a757__23e14c179149-2020269480!dBkohA",
-    "filer": [
-      {
-        "tekst": "48/24 Oppfølging av byggesak - garasje - Moen 14 (pdf, 114KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1266321_1_A!d-2020269480!iOcvkx?pid=29"
-      },
-      {
-        "tekst": "48/24 Tillatelse til tiltak - tilbygg og garasje - Moen 14 (pdf, 339KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1266322_1_A!d-2020269480!Et5e0a?pid=29"
-      },
-      {
-        "tekst": "5167-soknad-om-ferdigattest-2020 (pdf, 109KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1266323_1_A!d-2020269480!5IlFrT?pid=29"
-      }
-    ],
-    "status": "Publisert"
+    "filer": [],
+    "status": "Må bes om innsyn"
   },
   {
     "tittel": "106/1 Leigeavtale",
