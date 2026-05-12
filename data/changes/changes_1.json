@@ -700350,5 +700350,21 @@
         "ny": 0
       }
     }
+  },
+  {
+    "tidspunkt": "2026-05-12 08:54:56",
+    "type": "UPDATE",
+    "dokumentID": "2026/14693",
+    "tittel": "48/24 Oppfølging av byggesak - garasje - Moen 14",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 3
+      }
+    }
   }
 ]

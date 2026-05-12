@@ -354,8 +354,21 @@
     "avsender_mottaker": "Mottaker: Norgeshus Ryfylke As",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020003464!1c2stR/d-6965376f__8677__47ea__a757__23e14c179149-2020269480!dBkohA",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "48/24 Oppfølging av byggesak - garasje - Moen 14 (pdf, 114KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1266321_1_A!d-2020269480!iOcvkx?pid=29"
+      },
+      {
+        "tekst": "48/24 Tillatelse til tiltak - tilbygg og garasje - Moen 14 (pdf, 339KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1266322_1_A!d-2020269480!Et5e0a?pid=29"
+      },
+      {
+        "tekst": "5167-soknad-om-ferdigattest-2020 (pdf, 109KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1266323_1_A!d-2020269480!5IlFrT?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "106/1 Leigeavtale",
