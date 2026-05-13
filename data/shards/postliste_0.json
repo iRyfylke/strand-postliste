@@ -32,8 +32,13 @@
     "avsender_mottaker": "Mottaker: Tove Moss Lohne",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019035!Dcv9G3/d-6965376f__8677__47ea__a757__23e14c179149-2020269674!SbJ0If",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "Svar til søknad om tilskudd til kultur - arrangement (pdf, 141KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1266748_1_A!d-2020269674!ascfCs?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Sommerturnus ehab/korttid 2026",
@@ -235,8 +240,13 @@
     "avsender_mottaker": "Avsender: Ryfylke Veterankjøretøyklubb",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020686!BgeBSi/d-6965376f__8677__47ea__a757__23e14c179149-2020269714!kAEuF5",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "27/36 Ønsker møte - avklaringer - Tjøstheimvegen 618 (pdf, 103KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1266803_1_A!d-2020269714!2WB8Xy?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Svar til søknad om tilskudd til kultur - prosjekt Kulturglede i Strand 2026",
@@ -2250,8 +2260,21 @@
     "avsender_mottaker": "Mottaker: Einar Louis Levik",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020003467!UyEkbn/d-6965376f__8677__47ea__a757__23e14c179149-2020269482!0RyoQU",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "49/729 Oppfølging av byggesak - skorstein - Dalavegen 145 (pdf, 114KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1266332_1_A!d-2020269482!yZrzAA?pid=29"
+      },
+      {
+        "tekst": "49/729 Tillatelse til tiltak - skorstein - Dalavegen 145 (pdf, 331KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1266333_1_A!d-2020269482!TvAXIM?pid=29"
+      },
+      {
+        "tekst": "5167-soknad-om-ferdigattest-2020 (pdf, 109KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1266334_1_A!d-2020269482!Gqlmqr?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "16/457 Vedtak om deling - justering av grunneiendom - Torgvegen 6",

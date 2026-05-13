@@ -703942,5 +703942,53 @@
         "ny": 0
       }
     }
+  },
+  {
+    "tidspunkt": "2026-05-13 15:49:35",
+    "type": "UPDATE",
+    "dokumentID": "2026/14887",
+    "tittel": "Svar til søknad om tilskudd til kultur - arrangement",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-05-13 15:49:35",
+    "type": "UPDATE",
+    "dokumentID": "2026/14927",
+    "tittel": "27/36 Ønsker møte - avklaringer - Tjøstheimvegen 618",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-05-13 15:49:35",
+    "type": "UPDATE",
+    "dokumentID": "2026/14695",
+    "tittel": "49/729 Oppfølging av byggesak - skorstein - Dalavegen 145",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 3
+      }
+    }
   }
 ]
