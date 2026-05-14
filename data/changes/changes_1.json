@@ -703990,5 +703990,21 @@
         "ny": 3
       }
     }
+  },
+  {
+    "tidspunkt": "2026-05-14 08:51:24",
+    "type": "UPDATE",
+    "dokumentID": "2026/14999",
+    "tittel": "Møtebok - Kommunestyret - 06.05.2026",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
   }
 ]
