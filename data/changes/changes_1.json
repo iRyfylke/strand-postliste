@@ -704006,5 +704006,37 @@
         "ny": 0
       }
     }
+  },
+  {
+    "tidspunkt": "2026-05-14 15:22:58",
+    "type": "UPDATE",
+    "dokumentID": "2026/14886",
+    "tittel": "Svar til søknad om tilskudd til kultur - prosjekt Kulturglede i Strand 2026",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-05-14 15:22:58",
+    "type": "UPDATE",
+    "dokumentID": "2026/14999",
+    "tittel": "Møtebok - Kommunestyret - 06.05.2026",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
   }
 ]
