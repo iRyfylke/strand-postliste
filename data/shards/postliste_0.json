@@ -1508,8 +1508,13 @@
     "avsender_mottaker": "Avsender: Solland Elektro As",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017284!G3Agu1/d-6965376f__8677__47ea__a757__23e14c179149-2020269669!RHnCjS",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "27/2 Spørsmål vedrørende installasjon av brannalarmanlegg - Tjøstheimsvegen 611 (pdf, 108KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1266741_1_A!d-2020269669!hFF3LU?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "49/494 Leiekontrakt - Admi-senteret",
