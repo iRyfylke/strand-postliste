@@ -25,8 +25,13 @@
     "avsender_mottaker": "Avsender: Rogaland Fylkeskommune",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020554!e5RKCO/d-6965376f__8677__47ea__a757__23e14c179149-2020270247!s953ia",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "22/1 Nydyrking - Varland - uttalelse (pdf, 131KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1268077_1_A!d-2020270247!rqni3i?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Oversendelse av utvidet søkerliste - avdelingsleder - Tau skole",
