@@ -1952,8 +1952,13 @@
     "avsender_mottaker": "Avsender: Bjørn Ove Isaksen",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020006630!J8HMhC/d-6965376f__8677__47ea__a757__23e14c179149-2020270057!xJrD79",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "42/244 Tilbakemelding om at klage opprettholdes - utslippstillatelse - Ytre Barkavika (pdf, 86KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1267585_1_A!d-2020270057!KYKjzD?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Sommerturnus for sykeavdelingen 2026 - Signert",
