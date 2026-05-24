@@ -300,8 +300,13 @@
     "avsender_mottaker": "",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020721!UnS079/d-6965376f__8677__47ea__a757__23e14c179149-2020270639!jMYp2h",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "31/191 Dokumentsjekk - ikke behov for mangelbrev (pdf, 83KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1269350_1_A!d-2020270639!4X3aLb?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Nytt fra FI Utlegg nr 4/2026 - korrigert med ny lenke til møte for kommuner 08.06.2026",
@@ -518,8 +523,29 @@
     "avsender_mottaker": "Mottaker: As Ryfylke Trelast",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016155!ZDOgBo/d-6965376f__8677__47ea__a757__23e14c179149-2020270556!wvzYyQ",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "31/10/0/1 31/10/0/2 Ferdigattest - tilbygg - Kvernvegen 37 D og C - Oddfrid Warland (pdf, 102KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1269140_1_A!d-2020270556!FL6JsV?pid=29"
+      },
+      {
+        "tekst": "D Situasjonsplan (pdf, 1,9MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1269149_1_A!d-2020270556!AFIaBp?pid=29"
+      },
+      {
+        "tekst": "E Tegning - fasade (pdf, 323KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1269150_1_A!d-2020270556!spj9NO?pid=29"
+      },
+      {
+        "tekst": "E Tegninger - plan (pdf, 1,1MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1269151_1_A!d-2020270556!IEW1SU?pid=29"
+      },
+      {
+        "tekst": "E Tegninger - snitt (pdf, 323KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1269152_1_A!d-2020270556!yRPXDM?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Innkalling til styremøte 26.05.2026",
