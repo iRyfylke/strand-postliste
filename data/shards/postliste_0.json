@@ -1019,8 +1019,21 @@
     "avsender_mottaker": "Mottaker: Roy Frode Kristensen",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019898!IKtUGi/d-6965376f__8677__47ea__a757__23e14c179149-2020269504!0yr6Ub",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "47/199 Fortsatt mangler ved søknaden - bruksendring - Anemonevegen 12 (pdf, 115KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1266377_1_A!d-2020269504!f28S9k?pid=29"
+      },
+      {
+        "tekst": "E - Tegninger (pdf, 49KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1267169_1_A!d-2020269504!D2J9bu?pid=29"
+      },
+      {
+        "tekst": "Tegninger (pdf, 1,7MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1267170_1_A!d-2020269504!2WPwoX?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Ombygging av Stålverksvegen 1 – Totalentreprise (NS 8407)",
