@@ -25,8 +25,13 @@
     "avsender_mottaker": "",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020623!6amJCs/d-6965376f__8677__47ea__a757__23e14c179149-2020271281!iPY633",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "Tilleggsinnkalling - Rådet for mennesker med nedsatt funksjonsevne - 27.05.2026 (pdf, 111KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1270927_1_P!d-2020271281!06Xdxn?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Utbetalingsanmodning startlån",
@@ -247,8 +252,21 @@
     "avsender_mottaker": "Avsender: Stangeland Maskin As",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020809!oRgjOZ/d-6965376f__8677__47ea__a757__23e14c179149-2020271258!QXGZbw",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "47/302 Melding om utført tiltak på eksisterende sanitæranlegg - Syrinringen 17 (pdf, 80KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1270885_1_A!d-2020271258!SFP1w8?pid=29"
+      },
+      {
+        "tekst": "Stikkledningsskjema gnr 47 bnr 302, Syrinringen 17, Strand kommune (pdf, 449KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1270887_1_A!d-2020271258!IFODWF?pid=29"
+      },
+      {
+        "tekst": "Stikkledningsskjema gnr 47 bnr 302, Syrinringen 17, Strand kommune (sos, 3KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1270888_1_A!d-2020271258!ZmtoAR?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Startlån ettersendt vedlegg - dokumentasjon lønn",
@@ -312,8 +330,33 @@
     "avsender_mottaker": "Avsender: Trebygg Strand As",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019718!8XjIy1/d-6965376f__8677__47ea__a757__23e14c179149-2020271283!OXca0w",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "Nabovarsel (pdf, 1MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1270931_1_A!d-2020271283!GV2Efc?pid=29"
+      },
+      {
+        "tekst": "Dispensasjonssøknad (pdf, 322KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1270930_1_A!d-2020271283!2DkndG?pid=29"
+      },
+      {
+        "tekst": "Personvernerklæring (pdf, 27KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1270932_1_A!d-2020271283!8tAMjB?pid=29"
+      },
+      {
+        "tekst": "Situasjonsplan (pdf, 1,6MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1270933_1_A!d-2020271283!pDlzrf?pid=29"
+      },
+      {
+        "tekst": "Tegninger - ny fasade (pdf, 294KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1270934_1_A!d-2020271283!BbKBQ7?pid=29"
+      },
+      {
+        "tekst": "31/583 Nabovarsel for Prestetjørnvegen 16 (pdf, 149KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1270929_1_A!d-2020271283!YSR1a5?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Avslag på søknad om startlån og tilskudd",
@@ -522,8 +565,13 @@
     "avsender_mottaker": "Avsender: Piotr Fibakiewicz",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020207!g3ozIN/d-6965376f__8677__47ea__a757__23e14c179149-2020271313!goFpyX",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "47/9 Søknad om dispensasjon - tilbygg - Hortensiavegen 14 (pdf, 1,8MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1271015_1_A!d-2020271313!JtVu6V?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "43/67 Uttalelse - dispensasjon - bolig - Nedre Barkvedvegen 100",
@@ -1276,8 +1324,13 @@
     "avsender_mottaker": "Mottaker: Norconsult Norge As",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020006619!n0j6Ky/d-6965376f__8677__47ea__a757__23e14c179149-2020267955!rUggS5",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "16/179 16/526 Endringsvedtak - nytt produksjonsanlegg - Breivikvegen - Mibau Stema Norge As (pdf, 114KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1262690_1_A!d-2020267955!2ZReS2?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "22/1 Vedtak i sak om nydyrking",
@@ -1288,8 +1341,13 @@
     "avsender_mottaker": "Mottaker: Arnfinn Warland",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020554!e5RKCO/d-6965376f__8677__47ea__a757__23e14c179149-2020271172!FnlaX2",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "22/1 Vedtak i sak om nydyrking (pdf, 48KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1270655_1_A!d-2020271172!ZTWWFJ?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "31/655 Flere bilder - røykvarslere",
@@ -1324,8 +1382,13 @@
     "avsender_mottaker": "",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020720!E8eabo/d-6965376f__8677__47ea__a757__23e14c179149-2020270245!Ct5GIO",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "Referat fra informasjonsmøte angående modulbygg Fjelltun skole og Strand kulturskole (pdf, 113KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1268076_2_A!d-2020270245!JJJ1Hm?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "64/31 Oppfølging av byggesak - tilbygg - Heng 62",
