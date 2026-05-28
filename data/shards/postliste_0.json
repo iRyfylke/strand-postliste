@@ -618,8 +618,13 @@
     "avsender_mottaker": "Avsender: Piotr Fibakiewicz",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020207!g3ozIN/d-6965376f__8677__47ea__a757__23e14c179149-2020271313!goFpyX",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "47/9 Søknad om dispensasjon - tilbygg - Hortensiavegen 14 (pdf, 1,8MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1271015_1_A!d-2020271313!JtVu6V?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "43/67 Uttalelse - dispensasjon - bolig - Nedre Barkvedvegen 100",
@@ -1122,8 +1127,25 @@
     "avsender_mottaker": "Mottaker: Roy Jorgensen",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020711!6gfEik/d-6965376f__8677__47ea__a757__23e14c179149-2020271021!thj1oL",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "57/59 Foreløpig svar - mottatt klage på vedtak - avslag bruksendring - Kvalvågvegen 98 (pdf, 114KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1270325_1_A!d-2020271021!zfehth?pid=29"
+      },
+      {
+        "tekst": "Kommunen avslår dispenasjon fra kommuneplanen i brev datert 29.04.2026 (pdf, 122KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1270336_1_A!d-2020271021!Dqm9GP?pid=29"
+      },
+      {
+        "tekst": "Oversendelse av klage i e-post den 10.05.2026 (pdf, 83KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1270337_1_A!d-2020271021!VipWiR?pid=29"
+      },
+      {
+        "tekst": "Roy Jørgensen påklager avslag på dispensasjon for bruksendring til bolig i brev den 10.05.2026 (pdf, 213KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1270338_1_A!d-2020271021!ubwA8d?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Korrigering av svar på søknad om reduksjon i betaling i Jørpeland barnehage",
