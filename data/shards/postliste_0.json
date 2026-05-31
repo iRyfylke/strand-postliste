@@ -2966,8 +2966,13 @@
     "avsender_mottaker": "Mottaker: Hanne og Arvid Kaspersen",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020364!ZMYMFv/d-6965376f__8677__47ea__a757__23e14c179149-2020270665!M8MDHs",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "63/21/7 Tilbakemelding om mangler - utvidelse av hytte - Kjeksevågen 139 - Hanne og Arvid Kaspersen (pdf, 126KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1270364_1_A!d-2020270665!MDFbsM?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "64/31 Søknad om ferdigattest - tilbygg - Heng 62 - Frank Gunnar Paulsen",
