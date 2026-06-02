@@ -1027,8 +1027,13 @@
     "avsender_mottaker": "Avsender: Flere avsendere",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019984!rwXdXu/d-6965376f__8677__47ea__a757__23e14c179149-2020271790!RFROWy",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "53/111 Utbyggingsavtale - ny enebolig med sokkelleilighet - Tunglandsvegen 31 - signert (pdf, 543KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1272951_1_A!d-2020271790!nk4Mt5?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "19/4 Dispensasjon - erstatningshytte - fråsegn - førehandsuttale",
@@ -1226,8 +1231,17 @@
     "avsender_mottaker": "Mottaker: Pro-Plan As",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020756!yCQFkt/d-6965376f__8677__47ea__a757__23e14c179149-2020271766!gW91c3",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "48/249 Foreløpig svar - kommunen bekrefter å ha mottatt klage (pdf, 66KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1272903_1_A!d-2020271766!3Rmyjv?pid=29"
+      },
+      {
+        "tekst": "Pro Plan påklager gitt byggetillatelse i brev datert 12.05.2026 (pdf, 351KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1272904_1_A!d-2020271766!nuLw5K?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Oppdragsavtale støttekontakt - signert",
@@ -1321,8 +1335,17 @@
     "avsender_mottaker": "Avsender: Lnett As",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2013000407!sV8X5K/d-6965376f__8677__47ea__a757__23e14c179149-2020271876!vZn9Ch",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "Tilsynsrapport - frist angitt i varsel om vedtak nærmer seg (pdf, 108KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1273171_1_A!d-2020271876!27YtQa?pid=29"
+      },
+      {
+        "tekst": "E-post - Påminnelse på forhåndsvarsel (saksnummer 406094) (pdf, 75KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1273172_1_A!d-2020271876!BQtTy3?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "7/5 Ferdigattest - våtrom - Fiskåvegen 994 - Brødrene Nordbø AS",
