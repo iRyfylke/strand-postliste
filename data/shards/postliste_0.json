@@ -534,13 +534,8 @@
     "avsender_mottaker": "Avsender: Nordmarka Sportskytterklubb",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019035!Dcv9G3/d-6965376f__8677__47ea__a757__23e14c179149-2020272348!CjNCbT",
-    "filer": [
-      {
-        "tekst": "Søknad om tilskudd til kultur - åpen dag - økonomisk støtte til ammunisasjon og banemateriell (pdf, 606KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1274114_1_A!d-2020272348!53kPuR?pid=29"
-      }
-    ],
-    "status": "Publisert"
+    "filer": [],
+    "status": "Må bes om innsyn"
   },
   {
     "tittel": "Svar - S11 - siste oppdaterte plandokumenter",
@@ -926,8 +921,13 @@
     "avsender_mottaker": "Mottaker: Tau Turn",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019035!Dcv9G3/d-6965376f__8677__47ea__a757__23e14c179149-2020272246!WlowUU",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "Vedrørende søknad om driftstilskudd (pdf, 116KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1273914_1_A!d-2020272246!ZloCtm?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Innvilget ledsagerbevis",
@@ -1468,41 +1468,8 @@
     "avsender_mottaker": "Avsender: Trebygg Strand As",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019718!8XjIy1/d-6965376f__8677__47ea__a757__23e14c179149-2020272299!T1SvpN",
-    "filer": [
-      {
-        "tekst": "Nabovarsel - Prestetjørnvegen (pdf, 1,1MB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1274020_1_A!d-2020272299!uapE9Z?pid=29"
-      },
-      {
-        "tekst": "Personvernerklæring (pdf, 27KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1274021_1_A!d-2020272299!pgaxsZ?pid=29"
-      },
-      {
-        "tekst": "Situasjonsplan (pdf, 2,1MB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1274022_1_A!d-2020272299!49na1j?pid=29"
-      },
-      {
-        "tekst": "Tegning - ny fasade 1 (pdf, 177KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1274023_1_A!d-2020272299!tOfhiD?pid=29"
-      },
-      {
-        "tekst": "Tegning - ny fasade (pdf, 115KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1274024_1_A!d-2020272299!1O08KD?pid=29"
-      },
-      {
-        "tekst": "31/583 Nabovarsel - Prestetjørnvegen 16 (pdf, 322KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1274018_1_A!d-2020272299!omhOAM?pid=29"
-      },
-      {
-        "tekst": "Nabovarsel - Prestetjørnvegen 16 (pdf, 153KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1274019_1_A!d-2020272299!2iDP4h?pid=29"
-      },
-      {
-        "tekst": "E-post - VS Nabovarsel for tiltakbyggeplaner i Prestetjørnvegen 16, TAU (pdf, 108KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1274025_1_A!d-2020272299!Kr7ZdS?pid=29"
-      }
-    ],
-    "status": "Publisert"
+    "filer": [],
+    "status": "Må bes om innsyn"
   },
   {
     "tittel": "24/1 Supplering av søknad - hus nr. 2 - Holtavegen 251 - Åge Mæhle",
