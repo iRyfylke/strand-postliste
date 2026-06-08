@@ -104,8 +104,25 @@
     "avsender_mottaker": "",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016616!hZzuXq/d-6965376f__8677__47ea__a757__23e14c179149-2020273533!6iL4iL",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "Forvaltningsrevisjon Utfordrende atferd i skolehverdagen (pdf, 95KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1276689_2_P!d-2020273533!h1ijNe?pid=29"
+      },
+      {
+        "tekst": "Protokoll - Forvaltningsrevisjon Utfordrende atferd i skolehverdagen (04.06.2026) (pdf, 267KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1276693_1_A!d-2020273533!qsnKL5?pid=29"
+      },
+      {
+        "tekst": "Saksframlegg - Forvaltningsrevisjon Utfordrende atferd i skolehverdagen (04.06.2026) (pdf, 241KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1276696_1_A!d-2020273533!pl6Yuf?pid=29"
+      },
+      {
+        "tekst": "Forvaltningsrevisjonsrapport (Strand kommune - Utfordrende atferd i skolehverdagen) (pdf, 1,5MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1276697_1_A!d-2020273533!mxZXQ1?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Oppfølging av forvaltningsrevisjon Helse og omsorg",
@@ -116,8 +133,25 @@
     "avsender_mottaker": "",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016616!hZzuXq/d-6965376f__8677__47ea__a757__23e14c179149-2020273566!oi1swG",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "Oppfølging av forvaltningsrevisjon Helse og omsorg (pdf, 96KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1276700_3_P!d-2020273566!477gTh?pid=29"
+      },
+      {
+        "tekst": "Protokoll - Oppfølging av forvaltningsrevisjon Helse og omsorg (pdf, 241KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1276702_1_A!d-2020273566!psYXR5?pid=29"
+      },
+      {
+        "tekst": "Saksframlegg - Oppfølging av forvaltningsrevisjon Helse og omsorg (pdf, 238KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1276704_1_A!d-2020273566!JDaRPk?pid=29"
+      },
+      {
+        "tekst": "Status oppfølging forvaltningsrevisjon Helse og omsorg, Strand kommune 2025 (pdf, 105KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1276705_1_A!d-2020273566!1G2V4r?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Tilleggsinnkalling - Forvaltningsutvalget - 10.06.2026",
@@ -1168,8 +1202,17 @@
     "avsender_mottaker": "Mottaker: Strand Kommune",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020782!NC638D/d-6965376f__8677__47ea__a757__23e14c179149-2020272373!wxxOr1",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "Varsel oppmålingsforretning - Grensejustering kommunal veggrunn 31/71 i Strand (pdf, 204KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1274171_1_A!d-2020272373!KX58n4?pid=29"
+      },
+      {
+        "tekst": "31_71situasjonskart (pdf, 676KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1274203_1_A!d-2020272373!TFeAvv?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Sak avsluttet pga. trukket søknad",
@@ -1240,8 +1283,29 @@
     "avsender_mottaker": "Avsender: Ivar Iks",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019718!8XjIy1/d-6965376f__8677__47ea__a757__23e14c179149-2020272543!BwkVod",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "16/234 Nabovarsel for Hatlevegen (pdf, 1,1MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1274576_1_A!d-2020272543!LwWhzJ?pid=29"
+      },
+      {
+        "tekst": "Situasjonsplan (pdf, 1,3MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1274575_1_A!d-2020272543!Im7QAa?pid=29"
+      },
+      {
+        "tekst": "Tekning -2 Plan og lengdeprofiltegning (pdf, 909KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1274574_1_A!d-2020272543!zV9uoy?pid=29"
+      },
+      {
+        "tekst": "Personvernerklæring for nabovarsel (pdf, 29KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1274573_1_A!d-2020272543!w4W6I4?pid=29"
+      },
+      {
+        "tekst": "Epost - Nabovarsel for Hatlevegen (pdf, 121KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1274556_1_A!d-2020272543!txvkKQ?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Leieavtale - kontaktinformasjon mangler",
@@ -1359,8 +1423,17 @@
     "avsender_mottaker": "Mottaker: Stein Åsland",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020782!NC638D/d-6965376f__8677__47ea__a757__23e14c179149-2020272381!5WsTQH",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "Varsel oppmålingsforretning - Grensejustering kommunal veggrunn 31/71 i Strand (pdf, 203KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1274179_1_A!d-2020272381!kK9U7w?pid=29"
+      },
+      {
+        "tekst": "31_71situasjonskart (pdf, 676KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1274214_1_A!d-2020272381!KNDCLX?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Søknad - byggdrifter - Bygg og eiendom",
