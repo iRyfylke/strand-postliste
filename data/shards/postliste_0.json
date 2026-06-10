@@ -8,13 +8,8 @@
     "avsender_mottaker": "",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020625!XeqFSL/d-6965376f__8677__47ea__a757__23e14c179149-2020273806!mXiIfD",
-    "filer": [
-      {
-        "tekst": "Møtebok - Eldrerådet - 04.06.2026 (pdf, 334KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1277201_1_P!d-2020273806!NbSK6V?pid=29"
-      }
-    ],
-    "status": "Publisert"
+    "filer": [],
+    "status": "Må bes om innsyn"
   },
   {
     "tittel": "Møtebok - Ungdomsrådet - 03.06.2026",
@@ -655,8 +650,21 @@
     "avsender_mottaker": "Avsender: Strand Kunstforening",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019035!Dcv9G3/d-6965376f__8677__47ea__a757__23e14c179149-2020272931!5ln2Xo",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "Rapport - kulturtilskudd (pdf, 67KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1275401_1_A!d-2020272931!8PaJDX?pid=29"
+      },
+      {
+        "tekst": "Tilskuddsrapport-Strand-kommune-2026 (pdf, 190KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1275402_1_A!d-2020272931!yeSUIP?pid=29"
+      },
+      {
+        "tekst": "KVITTERINGER_SK (pdf, 708KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1275403_1_A!d-2020272931!36k9Q8?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Melding fra saksbehandler – Informasjon angående sent svar",
@@ -1094,13 +1102,8 @@
     "avsender_mottaker": "Mottaker: Nordic Crane As",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020899!VLS4wC/d-6965376f__8677__47ea__a757__23e14c179149-2020272855!hpbWK9",
-    "filer": [
-      {
-        "tekst": "Uttalelse - kv. 1047 - spesialtransport Fiskåvegen (pdf, 149KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1275275_1_A!d-2020272855!zrA9AL?pid=29"
-      }
-    ],
-    "status": "Publisert"
+    "filer": [],
+    "status": "Må bes om innsyn"
   },
   {
     "tittel": "Utbetaling registrert på vedtak",
