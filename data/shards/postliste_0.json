@@ -741,8 +741,13 @@
     "avsender_mottaker": "Mottaker: Mariko Ramona Bjørheim Tungland",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020008546!busJ3G/d-6965376f__8677__47ea__a757__23e14c179149-2020273877!wJtSLM",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "43/350 Avviser søknad - søknad om dispensasjon - vinterstue - Barkvedbakken 17 (pdf, 124KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1277369_1_A!d-2020273877!PjsyVJ?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Ny forespørsel om test av vindmølle i Nordmarka - mer informasjon",
@@ -935,17 +940,8 @@
     "avsender_mottaker": "Avsender: Helene Holgersen Hodneland",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020954!Fgswe2/d-6965376f__8677__47ea__a757__23e14c179149-2020274529!LMhv9C",
-    "filer": [
-      {
-        "tekst": "47/699 Søknad om ferdigattest - bruksendring - Fullshammarsvingen 5 - Helene Holgersen Hodneland (pdf, 1,4MB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1279173_1_A!d-2020274529!mVrPzQ?pid=29"
-      },
-      {
-        "tekst": "E Tegninger - plan (pdf, 900KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1279174_1_A!d-2020274529!4Jxd3q?pid=29"
-      }
-    ],
-    "status": "Publisert"
+    "filer": [],
+    "status": "Må bes om innsyn"
   },
   {
     "tittel": "Avvisningsvedtak frist feil/mangel utløpt",
