@@ -1851,8 +1851,13 @@
     "avsender_mottaker": "",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020639!FAtiK2/d-6965376f__8677__47ea__a757__23e14c179149-2020271096!L6mJSO",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "16/105 Dokumentsjekk - ikke behov for mangelbrev (pdf, 82KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1278539_1_A!d-2020271096!sO4BQC?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Signert avtale - Konstali Helsenor AS signing",
