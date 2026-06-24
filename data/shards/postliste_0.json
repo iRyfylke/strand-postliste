@@ -138,8 +138,17 @@
     "avsender_mottaker": "Avsender: Kystverket",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019759!u4iqrA/d-6965376f__8677__47ea__a757__23e14c179149-2020274685!VtrDjx",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "Ny veileder - vurdering av virkninger for sjøtransport og havn - Kystverket (pdf, 447KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1279994_1_A!d-2020274685!jSAasV?pid=29"
+      },
+      {
+        "tekst": "Veileder - vurdering virkninger sjøtransport og havn.pdf (pdf, 3MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1279995_1_A!d-2020274685!pbMASa?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Oppsigelse av plass i SFO",
@@ -2119,8 +2128,13 @@
     "avsender_mottaker": "Mottaker: Komplett Bygg Strand As",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017697!Edqk7x/d-6965376f__8677__47ea__a757__23e14c179149-2020272508!5ZXYKQ",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "58/42 Tillatelse til tiltak - naust og brygge - Kvalvågvegen 221 - Atle Gulliksen (pdf, 117KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1274491_1_A!d-2020272508!PPKNel?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Vedrørende spørsmål om ledig stilling i Strand kommune",
