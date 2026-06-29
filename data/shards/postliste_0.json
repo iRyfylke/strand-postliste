@@ -97,8 +97,17 @@
     "avsender_mottaker": "Avsender: Rycon As",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020014188!YeVEfA/d-6965376f__8677__47ea__a757__23e14c179149-2020277656!IHoC09",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "Innsyn - støttemur ved Vågadalskroken (pdf, 101KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1286288_1_A!d-2020277656!e2cC5O?pid=29"
+      },
+      {
+        "tekst": "16_546_Tillatelse_til_tiltak_bolig_V_gadalskroken_14_Kaibakken_As_1107875_1_A_2369952 (pdf, 161KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1286289_1_A!d-2020277656!lp69I7?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Referat intervju",
@@ -1393,8 +1402,13 @@
     "avsender_mottaker": "Mottaker: Laito Industries As",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020021052!7D2VA3/d-6965376f__8677__47ea__a757__23e14c179149-2020277593!xKMMbZ",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "42/34 Tilbakemelding om mangler - minirenseanlegg - Barkanesvegen 2 (pdf, 124KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1286112_1_A!d-2020277593!2YtGHA?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Protokoll - forhandlinger etter HTA kap 4.2.4 - kompetanse - Signert",
