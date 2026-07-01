@@ -1293,8 +1293,13 @@
     "avsender_mottaker": "",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020222!4dxi7H/d-6965376f__8677__47ea__a757__23e14c179149-2020269913!yFLyH3",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "62/1/25 Fakturagrunnlag - tilbygg - Idsal 33 (pdf, 49KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1267279_1_A!d-2020269913!uxk2JF?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "42/244 Klage på avvisninsgvedtak - utslippstillatelse etter forurensingsregelverket - oppdatering status",
@@ -1856,8 +1861,13 @@
     "avsender_mottaker": "Mottaker: Norwegian Offshore Wind As",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020957!2Gslsm/d-6965376f__8677__47ea__a757__23e14c179149-2020277767!kKgp09",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "Tau Autonomisenter (TAC) - havvind - avklaringer knyttet til søknad (pdf, 260KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1286501_1_A!d-2020277767!NQqhlh?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Referat intervju",
