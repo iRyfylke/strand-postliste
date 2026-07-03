@@ -1517,8 +1517,13 @@
     "avsender_mottaker": "",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020226!0o6pZq/d-6965376f__8677__47ea__a757__23e14c179149-2020271668!B4V2CX",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "63/8/2 Fakturagrunnlag - gjenoppretting av brygge - Tangane 62 (pdf, 47KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1272689_1_A!d-2020271668!yA8IqV?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Tilsagn om spillemidler til anlegg for idrett og fysisk aktivitet 2026 - Resahaugen aktivitetspark - Bordtennis og teqball",
