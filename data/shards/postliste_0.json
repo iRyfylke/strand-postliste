@@ -836,8 +836,13 @@
     "avsender_mottaker": "Mottaker: Hans Kristian Waarum",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020021136!VFVCHC/d-6965376f__8677__47ea__a757__23e14c179149-2020278647!3uK9HL",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "578 Kommunens tilbakemelding på henvendelse om eierforhold til brygge i Botne (pdf, 365KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1288453_1_A!d-2020278647!jTchM3?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Krav om forhandlinger etter HTA kap 4.2.4 kompetanse",
