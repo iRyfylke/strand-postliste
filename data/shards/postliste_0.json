@@ -836,13 +836,8 @@
     "avsender_mottaker": "Mottaker: Hans Kristian Waarum",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020021136!VFVCHC/d-6965376f__8677__47ea__a757__23e14c179149-2020278647!3uK9HL",
-    "filer": [
-      {
-        "tekst": "578 Kommunens tilbakemelding på henvendelse om eierforhold til brygge i Botne (pdf, 365KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1288453_1_A!d-2020278647!jTchM3?pid=29"
-      }
-    ],
-    "status": "Publisert"
+    "filer": [],
+    "status": "Må bes om innsyn"
   },
   {
     "tittel": "Krav om forhandlinger etter HTA kap 4.2.4 kompetanse",
@@ -1148,8 +1143,13 @@
     "avsender_mottaker": "Mottaker: Sverre Undheim",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019035!Dcv9G3/d-6965376f__8677__47ea__a757__23e14c179149-2020278675!PKstPw",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "Svar til søknad om tilskudd til kultur - konsert 11.09.2026 (pdf, 109KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1288496_1_A!d-2020278675!yGCfT5?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Beregning av tjenesteansiennitet",
