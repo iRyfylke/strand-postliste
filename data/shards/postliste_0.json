@@ -503,8 +503,13 @@
     "avsender_mottaker": "",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020021053!pLchsL/d-6965376f__8677__47ea__a757__23e14c179149-2020279323!gpZPZx",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "38/12 Dokumentsjekk - ikke behov for mangelbrev (pdf, 82KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1290017_1_A!d-2020279323!o0dCz0?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Utbetalingsvedtak av 06.07.2026",
@@ -784,8 +789,13 @@
     "avsender_mottaker": "Avsender: Rogaland fylkeskommune",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020021052!7D2VA3/d-6965376f__8677__47ea__a757__23e14c179149-2020279483!3DDlPg",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "42/34 Fv 523 - dispensasjon - minirenseanlegg - Barkanesvegen 2 - uttalelse til søknad (pdf, 118KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1290589_1_A!d-2020279483!vs1sDy?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "47/410 Ferdigattest - garasje - Tulipanvegen 26",
