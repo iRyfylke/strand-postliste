@@ -599,8 +599,13 @@
     "avsender_mottaker": "Mottaker: Rycon As",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020430!lX3iFK/d-6965376f__8677__47ea__a757__23e14c179149-2020271988!TzAf0e",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "9/3 Tilbakemelding om mangler - utfylling/kai, ATV-vei og oppføring av naust - Vervikvegen 11 (pdf, 126KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1273398_1_A!d-2020271988!HSwCKD?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Forslag til drøftingsmøte - gjennomgang av merknadene og utkvittering av innsigelsene",
@@ -702,8 +707,13 @@
     "avsender_mottaker": "Avsender: Backe Prosjekt As",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020021260!mz3c5A/d-6965376f__8677__47ea__a757__23e14c179149-2020279797!oXB78c",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "49/31 Utarbeidelse av justeringsavtale om momsrefusjon - Direktørens Høyde (pdf, 129KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1291386_1_A!d-2020279797!Ce6Xyn?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Plan 1130201706 Gjennomgang av merknader",
@@ -1088,8 +1098,21 @@
     "avsender_mottaker": "Mottaker: Roy Frode Kristensen",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019898!IKtUGi/d-6965376f__8677__47ea__a757__23e14c179149-2020279743!p51jXP",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "47/199 Fortsatt mangler ved søknaden - bruksendring - Anemonevegen 12 (pdf, 126KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1291205_1_A!d-2020279743!vb1iZ6?pid=29"
+      },
+      {
+        "tekst": "Kart (pdf, 1,4MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1291303_1_A!d-2020279743!7kqnXA?pid=29"
+      },
+      {
+        "tekst": "Nabosamtykke (pdf, 123KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1291334_1_A!d-2020279743!Ya5r79?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Invitasjon til møte om Endring av reguleringsplan for del av Tungland - plan 76-4",
