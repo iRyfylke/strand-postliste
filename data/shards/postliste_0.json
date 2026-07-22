@@ -61,8 +61,13 @@
     "avsender_mottaker": "",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020541!rIfz4K/d-6965376f__8677__47ea__a757__23e14c179149-2020279987!bkoVTN",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "49/54 Arbeidet med separering er igang (pdf, 127KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1291797_1_A!d-2020279987!EYOK1z?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Forespørsel om råvannskilde for Krokarheia vannverk",
@@ -73,8 +78,13 @@
     "avsender_mottaker": "Avsender: Oslo Kommune",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019694!KgcO8a/d-6965376f__8677__47ea__a757__23e14c179149-2020280004!NTduZg",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "Forespørsel om råvannskilde for Krokarheia vannverk (pdf, 62KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1291830_1_A!d-2020280004!227kS2?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Stranden i Indre Skeivik",
@@ -1282,25 +1292,8 @@
     "avsender_mottaker": "Avsender: Dag Rune Sameien",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020021269!mnuZQe/d-6965376f__8677__47ea__a757__23e14c179149-2020279916!9l3j9d",
-    "filer": [
-      {
-        "tekst": "47/39 Søknad om tillatelse til tiltak uten ansvarsrett - riving tilbygg - Elgvegen 13B - Dag Rune Sameien (pdf, 93KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1291641_1_A!d-2020279916!0Lxa2j?pid=29"
-      },
-      {
-        "tekst": "B Dispensasjonssøknad (pdf, 427KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1291643_1_A!d-2020279916!yGU0dI?pid=29"
-      },
-      {
-        "tekst": "D Situasjonsplan (pdf, 3,8MB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1291642_1_A!d-2020279916!eFnJIU?pid=29"
-      },
-      {
-        "tekst": "Q Ekstra informasjon for søknad (pdf, 107KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1291644_1_A!d-2020279916!dkVO1m?pid=29"
-      }
-    ],
-    "status": "Publisert"
+    "filer": [],
+    "status": "Må bes om innsyn"
   },
   {
     "tittel": "Oppsigelse av grunntunrus 09.07.2026",
@@ -1364,13 +1357,8 @@
     "avsender_mottaker": "Mottaker: Brødrene Helland As",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020021147!Ua7Nu1/d-6965376f__8677__47ea__a757__23e14c179149-2020279884!7oLBMN",
-    "filer": [
-      {
-        "tekst": "44/907 Godkjenning om tilknytning trekkes tilbake (pdf, 148KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1291562_1_A!d-2020279884!jAtsOZ?pid=29"
-      }
-    ],
-    "status": "Publisert"
+    "filer": [],
+    "status": "Må bes om innsyn"
   },
   {
     "tittel": "Innvilget ledsagerbevis",
