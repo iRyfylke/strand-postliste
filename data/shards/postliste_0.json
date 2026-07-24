@@ -832,8 +832,17 @@
     "avsender_mottaker": "Avsender: Noah - For Dyrs Rettigheter",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019678!n6XZoV/d-6965376f__8677__47ea__a757__23e14c179149-2020279923!noukE2",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "Oppfordring til kommunene om å avvikle skuddpremieordningen (pdf, 360KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1291665_1_A!d-2020279923!gWWHVg?pid=29"
+      },
+      {
+        "tekst": "E-post - Skuddpremieordning (pdf, 88KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1291666_1_A!d-2020279923!ckhuSC?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "16/427 16/135 Dokumentsjekk - ikke behov for mangelbrev",
