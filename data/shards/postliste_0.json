@@ -402,8 +402,21 @@
     "avsender_mottaker": "Mottaker: Espen Andersen",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020021103!HOsmzT/d-6965376f__8677__47ea__a757__23e14c179149-2020280145!DKGz1K",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "43/67 Foreløpig svar - mottatt klage på vedtak - bolig - Nedre Barkvedvegen 100 (pdf, 129KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1292198_1_A!d-2020280145!SI6fcP?pid=29"
+      },
+      {
+        "tekst": "Avslag dispensasjon bolighus - Nedre Barkvedvegen 100 - vedtaksbrev datert 02.06.2026 (pdf, 133KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1292200_1_A!d-2020280145!wLIM9I?pid=29"
+      },
+      {
+        "tekst": "Espen Andersen og Elizabeth Trelvik påklager kommunens vedtak i e-post sendt 24.06.2026 (pdf, 115KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1292201_1_A!d-2020280145!rscaIZ?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Nytt ledsagerbevis",
@@ -585,8 +598,17 @@
     "avsender_mottaker": "Mottaker: Rogaland Fylkeskommune",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019694!KgcO8a/d-6965376f__8677__47ea__a757__23e14c179149-2020280102!QLtpal",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "Svar på forespørsel - Temaplan for kulturminne og kulturmiljø 2018-2022 (pdf, 109KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1292109_1_A!d-2020280102!1mAJGm?pid=29"
+      },
+      {
+        "tekst": "Kulturminneplan_2018-2022_LEV_2 (pdf, 4,9MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1292110_1_A!d-2020280102!SRYpPj?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "16/3/1 Foreløpig svar - mottatt klage på vedtak - dispensasjon - tilbygg anneks - Kvednanesvegen 62",
@@ -714,8 +736,21 @@
     "avsender_mottaker": "Mottaker: Odd Einar Vold",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020021262!mfEIUu/d-6965376f__8677__47ea__a757__23e14c179149-2020280139!FkdFg4",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "96 Tilbakemelding om mangler - naust båtgarasje - Fiskåvegen 732 - Trond Skarpsno (pdf, 115KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1292186_1_A!d-2020280139!0hGwQj?pid=29"
+      },
+      {
+        "tekst": "Soknadsskjema-Soknad-om-tillatelse-til-tiltak (pdf, 1,9MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1292215_1_A!d-2020280139!zp152x?pid=29"
+      },
+      {
+        "tekst": "Soknadsskjema-Opplysninger-om-tiltakets-ytre-rammer (pdf, 1,4MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1292216_1_A!d-2020280139!gdJaIy?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Møtereferat - styringsgruppe Sammen på god vei - 23.04.2026",
