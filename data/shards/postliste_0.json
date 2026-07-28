@@ -1759,8 +1759,21 @@
     "avsender_mottaker": "Mottaker: Terje Sæbø",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2017002043!NUBCGs/d-6965376f__8677__47ea__a757__23e14c179149-2020279991!qL3SYw",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "58/15 Ferdigattest - naust - Ådnanes 11 (pdf, 101KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1291806_1_A!d-2020279991!zLQdtO?pid=29"
+      },
+      {
+        "tekst": "Situasjonskart (pdf, 78KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1291807_1_A!d-2020279991!K3GIA4?pid=29"
+      },
+      {
+        "tekst": "Tegning (pdf, 884KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1291808_1_A!d-2020279991!W45Rg6?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "43/342 Behov for ytterligere informasjon - enebolig - Barkvedstubben - Torbjørn Lauvsnes",
@@ -1958,8 +1971,13 @@
     "avsender_mottaker": "Mottaker: Moll As",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020206!YMOoNu/d-6965376f__8677__47ea__a757__23e14c179149-2020270374!IKJQns",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "43/342 Svar på mail - enebolig - Barkvedstubben - Torbjørn Lauvsnes (pdf, 193KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1268538_1_A!d-2020270374!fy1B35?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "44/881 Oppfølging av byggesak - Nygårdsbakken 12B - tilbygg",
