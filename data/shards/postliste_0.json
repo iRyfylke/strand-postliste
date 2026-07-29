@@ -676,8 +676,13 @@
     "avsender_mottaker": "Avsender: Strand Kristelige Juniorkorps",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020021293!zfvxZ4/d-6965376f__8677__47ea__a757__23e14c179149-2020280100!LOQjno",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "Spørsmål om fakturert beløp - lønn (pdf, 55KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1292106_1_A!d-2020280100!OizA9w?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "49/31 Kommunens svar på henvendelse om justeringsavtale for momsrefusjon - Direktørens Høyde",
@@ -1292,8 +1297,21 @@
     "avsender_mottaker": "Mottaker: Odd Einar Vold",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020021262!mfEIUu/d-6965376f__8677__47ea__a757__23e14c179149-2020280139!FkdFg4",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "96 Tilbakemelding om mangler - naust båtgarasje - Fiskåvegen 732 - Trond Skarpsno (pdf, 115KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1292186_1_A!d-2020280139!0hGwQj?pid=29"
+      },
+      {
+        "tekst": "Soknadsskjema-Soknad-om-tillatelse-til-tiltak (pdf, 1,9MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1292215_1_A!d-2020280139!zp152x?pid=29"
+      },
+      {
+        "tekst": "Soknadsskjema-Opplysninger-om-tiltakets-ytre-rammer (pdf, 1,4MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1292216_1_A!d-2020280139!gdJaIy?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Møtereferat - styringsgruppe Sammen på god vei - 23.04.2026",
