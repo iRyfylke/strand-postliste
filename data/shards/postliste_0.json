@@ -228,8 +228,13 @@
     "avsender_mottaker": "Mottaker: Arild Gjerde",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020021284!HSv3Cl/d-6965376f__8677__47ea__a757__23e14c179149-2020280522!hOJWwi",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "Henvendelse til kommunen - vendingmaskiner/salgsautomater (pdf, 109KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1293092_1_A!d-2020280522!Zw9w2L?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Oppsigelse av plass i Fjeldebakkane barnehage",
