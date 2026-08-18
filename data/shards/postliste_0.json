@@ -8,13 +8,8 @@
     "avsender_mottaker": "",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020021380!S4ddXL/d-6965376f__8677__47ea__a757__23e14c179149-2020281233!Pe5v6t",
-    "filer": [
-      {
-        "tekst": "Innkalling - Forvaltningsutvalget - 26.08.2026 (pdf, 609KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1294824_1_P!d-2020281233!2sJ1ul?pid=29"
-      }
-    ],
-    "status": "Publisert"
+    "filer": [],
+    "status": "Må bes om innsyn"
   },
   {
     "tittel": "Delegasjonssaker",
@@ -1262,8 +1257,13 @@
     "avsender_mottaker": "Avsender: Strandbuen",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019694!KgcO8a/d-6965376f__8677__47ea__a757__23e14c179149-2020281211!zJwkKH",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "Innsyn i lekeplasser (pdf, 66KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1294786_1_A!d-2020281211!FbxmVb?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "9/3 Tilbakemelding angåendende dispensasjon - utfylling/kai i sjø - oppføring av naust og ATV-vei - Vervikvegen 11 - Kjell Vervik",
@@ -1274,8 +1274,17 @@
     "avsender_mottaker": "Avsender: Rycon As",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020430!lX3iFK/d-6965376f__8677__47ea__a757__23e14c179149-2020281217!1uPV8M",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "9/3 Tilbakemelding angåendende dispensasjon - utfylling/kai i sjø - oppføring av naust og ATV-vei - Vervikvegen 11 - Kjell Vervik (pdf, 115KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1294796_1_A!d-2020281217!Tuvp9W?pid=29"
+      },
+      {
+        "tekst": "336-24_Vervikvegen 11 - avklaringer (pdf, 355KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1294797_1_A!d-2020281217!mAmLE2?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Tilsettingsvedtak - ergoterapeut - Fysio- og ergoterapitjenesten",
@@ -1336,8 +1345,17 @@
     "avsender_mottaker": "Avsender: Strand Kunstforening",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019035!Dcv9G3/d-6965376f__8677__47ea__a757__23e14c179149-2020281116!2dDCkv",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "Søknad om tilskudd til kultur (pdf, 610KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1294507_1_A!d-2020281116!4BMk7r?pid=29"
+      },
+      {
+        "tekst": "Strand_kunstforening_virksomhet_og_planer_2027 2.pdf (pdf, 49KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1294508_1_A!d-2020281116!oW4ylB?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Leiekontrakt",
