@@ -1419,8 +1419,13 @@
     "avsender_mottaker": "Mottaker: Flere mottakere",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020742!yr0Ujw/d-6965376f__8677__47ea__a757__23e14c179149-2020281373!49MXc3",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "9/73 og 9/79 E-postsvar - videre behandling av søknaden - oppdeling med fasadeendring og våtrom / bryggeutvidelse - Vervikvegen 22 (pdf, 92KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1295177_1_A!d-2020281373!eM6tuh?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Tilbud om plass i skolefritidsordningen (SFO)",
