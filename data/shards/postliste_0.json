@@ -8,17 +8,8 @@
     "avsender_mottaker": "Avsender: Norgeshus Ryfylke As",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020003921!rJerTI/d-6965376f__8677__47ea__a757__23e14c179149-2020281534!vo7TdG",
-    "filer": [
-      {
-        "tekst": "53/33 Søknad om ferdigattest - garasje - Tunglandsvegen 33B (pdf, 68KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1295573_1_A!d-2020281534!wafjcK?pid=29"
-      },
-      {
-        "tekst": "Gjennomføringsplan (pdf, 81KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1295577_1_A!d-2020281534!oRweJE?pid=29"
-      }
-    ],
-    "status": "Publisert"
+    "filer": [],
+    "status": "Må bes om innsyn"
   },
   {
     "tittel": "Svar på oppsigelse av plass i SFO",
@@ -433,13 +424,8 @@
     "avsender_mottaker": "Avsender: Malin Farrag Bjørnsen",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019695!uKgPEV/d-6965376f__8677__47ea__a757__23e14c179149-2020281533!phvzNo",
-    "filer": [
-      {
-        "tekst": "110/3/35 Forespørsel om innsyn i byggesaksdokumenter - Hamn 107A (pdf, 64KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1295572_1_A!d-2020281533!oJI9vA?pid=29"
-      }
-    ],
-    "status": "Publisert"
+    "filer": [],
+    "status": "Må bes om innsyn"
   },
   {
     "tittel": "42/244 Vedtak - opprettholder vedtak - avløp - Ytre Barkavika - klage på avvisningsvedtak",
@@ -583,8 +569,13 @@
     "avsender_mottaker": "Avsender: Mustafa Faiez Alzabadi",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017524!Tr3H2n/d-6965376f__8677__47ea__a757__23e14c179149-2020281552!TEKPbB",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "Trafikksikkerhet ved Hansabakken 1 (pdf, 67KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1295629_1_A!d-2020281552!0RUd0t?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Tilskudd til drift av ikke-kommunale barnehager - september 2026",
@@ -805,8 +796,13 @@
     "avsender_mottaker": "Mottaker: Atle Selvig",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020021421!YOtqC4/d-6965376f__8677__47ea__a757__23e14c179149-2020281456!tZ44Rw",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "Angående 1106 tomt 19 tinglysing festekontrakt (pdf, 112KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1295369_1_A!d-2020281456!taivzi?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Manglende kantklipp Idse",
@@ -954,8 +950,17 @@
     "avsender_mottaker": "Avsender: Prosjektil As",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020018420!jPDZQF/d-6965376f__8677__47ea__a757__23e14c179149-2020281553!H0eLgT",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "106/18 Spørsmål om søknad i forbindelse med vegutvidelse av Fylkesvei i Kolabygda (pdf, 108KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1295630_1_A!d-2020281553!ncuye6?pid=29"
+      },
+      {
+        "tekst": "10618 Tilbakemelding om mangler - terrengendring - Kolabygdvegen - Rogaland (2254657) (pdf, 125KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1295631_1_A!d-2020281553!HPzJDm?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Protokoll - forhandlinger etter HTA kap. 4.2.4 kompetanse",
@@ -2014,8 +2019,29 @@
     "avsender_mottaker": "Avsender: Statsforvaltaren I Rogaland",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020012979!VBNaFC/d-6965376f__8677__47ea__a757__23e14c179149-2020281485!GddmxP",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "Oppstart av verneplan - Frivillig vern av skog - Hjelmeland 115/3 - Øvre Tysdalsvatnet (pdf, 119KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1295486_1_A!d-2020281485!eoPs6N?pid=29"
+      },
+      {
+        "tekst": "Oppstartskart Øvre Tysdalsvatnet.pdf (pdf, 14,2MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1295487_1_A!d-2020281485!W6koyd?pid=29"
+      },
+      {
+        "tekst": "Faggrunnlag Øvre Tysdalsvatnet.pdf (pdf, 5,2MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1295488_1_A!d-2020281485!9m75Uh?pid=29"
+      },
+      {
+        "tekst": "Avveiing skogvern vs. skogbruk, Øvre Tysdalsvatnet.pdf (pdf, 470KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1295489_1_A!d-2020281485!zKc2LZ?pid=29"
+      },
+      {
+        "tekst": "Adresseliste OPPSTART Øvre Tysdalsvatnet.pdf (pdf, 341KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1295490_1_A!d-2020281485!K1TbPV?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Melding til leverandør - korrigering av tidspunkt",
@@ -2822,21 +2848,8 @@
     "avsender_mottaker": "Mottaker: Thomas Lauvåsvåg",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2018002131!sF8X2c/d-6965376f__8677__47ea__a757__23e14c179149-2020281317!RPfcPi",
-    "filer": [
-      {
-        "tekst": "61/25 Oppfølging av byggesak på brygge - Kvalvåg (pdf, 112KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1294969_1_A!d-2020281317!r3b1RY?pid=29"
-      },
-      {
-        "tekst": "Søknad om ferdigattest (pdf, 499KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1294970_1_A!d-2020281317!BGeGZk?pid=29"
-      },
-      {
-        "tekst": "6125 TILTAK UTEN ANSVARSRETT - FORANDRING AV BRYGGE KVALVÅG (pdf, 285KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1294971_1_A!d-2020281317!OuEGGs?pid=29"
-      }
-    ],
-    "status": "Publisert"
+    "filer": [],
+    "status": "Må bes om innsyn"
   },
   {
     "tittel": "14/51 Søknad om tillatelse i ett trinn - riving bolig og oppføring ny bolig - Amdalsvegen 29 - Knut Amdal",
