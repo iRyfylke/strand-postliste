@@ -136,8 +136,13 @@
     "avsender_mottaker": "Mottaker: Flere mottakere",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020021414!L4cY3V/d-6965376f__8677__47ea__a757__23e14c179149-2020281944!eXMJMb",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "16/426 Tilbakemelding om mangler - fasadeendring bolig - Ryfylkevegen 1972E- Geir Heggland (pdf, 114KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1296457_1_A!d-2020281944!xMx402?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "FRAM - adm. prosjektgruppe - fysisk heldagssamling 27.08.2026 - agenda og dokumenter",
@@ -977,8 +982,13 @@
     "avsender_mottaker": "Mottaker: Ørjan Bråtveit Berge og Mona Tjensvold",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020962!41lma2/d-6965376f__8677__47ea__a757__23e14c179149-2020281784!V7tsNg",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "6110 Oppfølgingsspørsmål etter befaring i forbindelse med klagebehandling - fradeling punktfeste - Idsevegen 45 (pdf, 8,3MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1296158_1_A!d-2020281784!gMwZrb?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Søknad - miljøarbeider og helgestilling - Direktør Poulsonsgate omsorgsboliger",
