@@ -111,8 +111,13 @@
     "avsender_mottaker": "Mottaker: Bente Bruland Gjerde",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019695!uKgPEV/d-6965376f__8677__47ea__a757__23e14c179149-2020283119!EK3hQq",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "5742 Svar på forespørsel om innsyn i historisk arkivmateriale - Kvalvågvegen 99 (pdf, 113KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1299003_1_A!d-2020283119!RI218g?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "47/273 Forespørsel om vurdering og eventuell ettergodkjenning - nye vindusåpninger i enebolig - Blåfjærsvingen 1",
@@ -542,8 +547,21 @@
     "avsender_mottaker": "Mottaker: Flere mottakere",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020965!u27oxG/d-6965376f__8677__47ea__a757__23e14c179149-2020283123!lMzeZJ",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "53/111 Kommunen innvilger dispensasjon ifbm klagebehandling - bolighus - Tunglandsvegen 31 (pdf, 116KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1299010_1_A!d-2020283123!SMbV8k?pid=29"
+      },
+      {
+        "tekst": "Kommunen innvilger dispensasjon - bolig - Tunglandsvegen 31 - saksfremlegg og vedtak (pdf, 128KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1299037_1_A!d-2020283123!kFlEad?pid=29"
+      },
+      {
+        "tekst": "E-post fra Marie Oftedal med innspill på vegne av flere sendt 26.08.2026 (pdf, 156KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1299038_1_A!d-2020283123!NdFZpX?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Bekreftelse på mottatt søknad - Byggdrifter - Bygg og eiendom",
@@ -643,8 +661,17 @@
     "avsender_mottaker": "Mottaker: Thor Finn Fjelde",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020965!u27oxG/d-6965376f__8677__47ea__a757__23e14c179149-2020283132!LzLJG1",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "53111 Melding om forvaltningsvedtak - bolighus - Tunglandsvegen 31 (pdf, 113KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1299039_1_A!d-2020283132!jCC2Sx?pid=29"
+      },
+      {
+        "tekst": "Kommunen innvilger dispensasjon - bolig - Tunglandsvegen 31 - saksfremlegg og vedtak (pdf, 128KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1299043_1_A!d-2020283132!21n3N5?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Marine grunnkart Ryfylke - orientering og veien videre",
@@ -737,8 +764,13 @@
     "avsender_mottaker": "Avsender: Per Egil Rønneberg",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020021537!tyUr2i/d-6965376f__8677__47ea__a757__23e14c179149-2020283342!QiokAH",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "Ønsker møte - plan og forvaltning (pdf, 60KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1299543_1_A!d-2020283342!FVLXhy?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "31/129 Tillatelse til tiltak - fasadeendring og tilbygg - Rognevegen 38 - Mats Oftedal",
