@@ -76,8 +76,13 @@
     "avsender_mottaker": "",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020836!cWJoAd/d-6965376f__8677__47ea__a757__23e14c179149-2020283923!F4ZKnO",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "Innkalling - Levekårsutvalget - 16.09.2026 (pdf, 489KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1301661_1_P!d-2020283923!TQRjoW?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Innkalling - Ungdomsrådet - 10.09.2026",
@@ -146,8 +151,17 @@
     "avsender_mottaker": "Mottaker: Christopher Nygaard Gundersen",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019695!uKgPEV/d-6965376f__8677__47ea__a757__23e14c179149-2020283340!z0r5YN",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "Angående innsynsbegjæring 47/245 (pdf, 88KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1299540_1_A!d-2020283340!yKC6PA?pid=29"
+      },
+      {
+        "tekst": "47_245målebrev (pdf, 1,4MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1299541_1_A!d-2020283340!uxS7jf?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Vedkomande førespurnad om stranda i Indre Skeivik",
@@ -175,8 +189,13 @@
     "avsender_mottaker": "Avsender: Miljødirektoratet",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020013151!FJt0FM/d-6965376f__8677__47ea__a757__23e14c179149-2020283508!iylR2Q",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "Søknad om statlig støtte til sikring av Krossvatnet i Strand kommune - utbetaling jf. tidligere tilsagnsbrev (pdf, 56KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1299958_1_A!d-2020283508!DhlLZC?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Utbetalingsvedtak av 28.08.2026",
@@ -247,8 +266,25 @@
     "avsender_mottaker": "Mottaker: Njord Fornes",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020016288!MxlPOQ/d-6965376f__8677__47ea__a757__23e14c179149-2020283406!vzNxRi",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "106/2 Tilsynsrapport - Kolabygdvegen 392 - Diverse byggetiltak på landbrukseiendom (pdf, 146KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1299801_1_A!d-2020283406!dZPesv?pid=29"
+      },
+      {
+        "tekst": "1062 Tilsynsrapport - Kolabygdvegen 392 - Diverse byggetiltak på landbru(2380504) (pdf, 8,8MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1299802_1_A!d-2020283406!yXPmat?pid=29"
+      },
+      {
+        "tekst": "Eldre byggesak naust 1998(2380505) (pdf, 18,4MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1299803_1_A!d-2020283406!sWZryD?pid=29"
+      },
+      {
+        "tekst": "Eldre byggesak redskapshus 1998(2380506) (pdf, 16,4MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1299804_1_A!d-2020283406!SzSkbm?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Bevaring av spontane minneuttrykk etter kong Harald V",
@@ -1438,8 +1474,21 @@
     "avsender_mottaker": "Avsender: Bygg-Kon As",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020021005!V4xm0l/d-6965376f__8677__47ea__a757__23e14c179149-2020283601!Pm8mSa",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "61/85 Dokumentasjon - fasadeendring/takoverbygg/toalettrom - Kvalvågvegen 921 - Thorbjørn Lauvåsvåg (pdf, 113KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1300126_1_A!d-2020283601!JMIPnW?pid=29"
+      },
+      {
+        "tekst": "F Redegjørelse - grunnforhold (pdf, 769KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1300127_1_A!d-2020283601!XSGoOA?pid=29"
+      },
+      {
+        "tekst": "F Underlag for beregning av utnytting (pdf, 34KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1300128_1_A!d-2020283601!KhTHRk?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Referatsaker",
