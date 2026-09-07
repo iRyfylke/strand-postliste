@@ -25,8 +25,13 @@
     "avsender_mottaker": "",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020021549!UDXGqJ/d-6965376f__8677__47ea__a757__23e14c179149-2020283866!sdICsw",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "Innkalling - Forvaltningsutvalget - 16.09.2026 (pdf, 835KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1301336_1_P!d-2020283866!VirTTj?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Innkalling - Administrasjonsutvalget - 17.09.2026",
@@ -139,8 +144,49 @@
     "avsender_mottaker": "Avsender: Oaland Salg Og Service",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020021237!b9pGFf/d-6965376f__8677__47ea__a757__23e14c179149-2020283377!NcjXTF",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "107/27 Søknad om dispensasjon - tilbygg - Kolabygdvegen 275 - Kirsten Levik (pdf, 430KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1299733_1_A!d-2020283377!8qWHgp?pid=29"
+      },
+      {
+        "tekst": "107/27 Supplering av søknad - tilbygg - Kolabygdvegen 275 - Kirsten Levik (pdf, 81KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1299732_1_A!d-2020283377!FOXRyZ?pid=29"
+      },
+      {
+        "tekst": "C Nabovarsel (pdf, 75KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1299734_1_A!d-2020283377!n0gUdF?pid=29"
+      },
+      {
+        "tekst": "C Kvittering for nabovarsel (pdf, 179KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1299735_1_A!d-2020283377!xQG1Yp?pid=29"
+      },
+      {
+        "tekst": "D Situasjonsplan (pdf, 1,5MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1299736_1_A!d-2020283377!fwKwIU?pid=29"
+      },
+      {
+        "tekst": "E Tegninger - snitt (pdf, 150KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1299737_1_A!d-2020283377!dLeujs?pid=29"
+      },
+      {
+        "tekst": "G Gjennomføringsplan (pdf, 66KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1299738_1_A!d-2020283377!J1sC6B?pid=29"
+      },
+      {
+        "tekst": "G Erklæring om ansvarsrett - Oaland Salg og Service (pdf, 73KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1299739_1_A!d-2020283377!iTgSFB?pid=29"
+      },
+      {
+        "tekst": "Q Reviderte opplysninger om planstatus og areal (pdf, 118KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1299740_1_A!d-2020283377!tc6BwI?pid=29"
+      },
+      {
+        "tekst": "Q Måltabeller og tekniske data - Odin Gråvatn renseanlegg GVR-1.JPG (pdf, 81KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1299741_1_A!d-2020283377!U9wXnj?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "107/27 Supplering av søknad - tilbygg - Kolabygdvegen 275 - Kirsten Levik",
