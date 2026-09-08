@@ -127,8 +127,13 @@
     "avsender_mottaker": "Mottaker: Magne Thomas Lyse Tungland",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020021386!LnJHSN/d-6965376f__8677__47ea__a757__23e14c179149-2020281375!hl90xf",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "Svar angående villsau (pdf, 59KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1295180_1_A!d-2020281375!lAWpre?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Beregning av tjenesteansiennitet og vedtak fra Forhandlingsutvalget - avlønning",
@@ -352,8 +357,21 @@
     "avsender_mottaker": "Mottaker: Ørjan Høllesli",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020021316!VYoKFr/d-6965376f__8677__47ea__a757__23e14c179149-2020283519!EmrHRX",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "47/746 Ferdigattest - bruksendring for deler av loft/hems - Fullshammarvegen 32 (pdf, 100KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1299979_1_A!d-2020283519!6bpycl?pid=29"
+      },
+      {
+        "tekst": "E Tegninger - plan - loft (pdf, 973KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1299980_1_A!d-2020283519!heZ8Kg?pid=29"
+      },
+      {
+        "tekst": "E Tegninger - snitt og fasade (pdf, 1,5MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1299981_1_A!d-2020283519!JuzyH6?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "34/3 Ferdigattest - garasje - Norlandsvegen 29",
@@ -744,17 +762,8 @@
     "avsender_mottaker": "",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020021067!wlCoYM/d-6965376f__8677__47ea__a757__23e14c179149-2020281845!0HwQrT",
-    "filer": [
-      {
-        "tekst": "63/13 Fakturagrunnlag - oppføring av fritidsbolig - Idsevegen 361 (pdf, 48KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1296274_1_A!d-2020281845!GC4MDq?pid=29"
-      },
-      {
-        "tekst": "63_13 kopi av fakturaordre fritidsbolig (pdf, 380KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1299957_1_A!d-2020281845!tlS6HX?pid=29"
-      }
-    ],
-    "status": "Publisert"
+    "filer": [],
+    "status": "Må bes om innsyn"
   },
   {
     "tittel": "Foreløpig svar søknad om tilskudd til kultur - støtte til medlemskontigenter og deltakeravgift",
