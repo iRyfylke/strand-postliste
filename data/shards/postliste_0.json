@@ -61,8 +61,13 @@
     "avsender_mottaker": "",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020021378!NV8scS/d-6965376f__8677__47ea__a757__23e14c179149-2020284005!LsRIG8",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "Faktureres september (pdf, 121KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1301806_1_A!d-2020284005!9aGzpw?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Søknad - fastlege - Jørpeland legesenter og Rådhusgaten legegruppe",
@@ -205,13 +210,8 @@
     "avsender_mottaker": "Avsender: As Ryfylke Trelast",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020021591!wdmFuZ/d-6965376f__8677__47ea__a757__23e14c179149-2020284062!8MPsQZ",
-    "filer": [
-      {
-        "tekst": "44/905 Spørsmål til teknisk plan (pdf, 174KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1301920_1_A!d-2020284062!ioc2wS?pid=29"
-      }
-    ],
-    "status": "Publisert"
+    "filer": [],
+    "status": "Må bes om innsyn"
   },
   {
     "tittel": "53/301 Ferdigattest - tilbygg - Selemorkvegen 23 - Kjetil Bråtveit",
@@ -222,8 +222,21 @@
     "avsender_mottaker": "Mottaker: Trebygg Strand As",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2016001453!fb8oyK/d-6965376f__8677__47ea__a757__23e14c179149-2020283893!2b7Xv8",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "53/301 Ferdigattest - tilbygg - Selemorkvegen 23 - Kjetil Bråtveit (pdf, 100KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1301512_1_A!d-2020283893!k8Sww6?pid=29"
+      },
+      {
+        "tekst": "E Tegning_ny_fasade (pdf, 4,1MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1301518_1_A!d-2020283893!z0HSV6?pid=29"
+      },
+      {
+        "tekst": "Situasjonskart (pdf, 816KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1301519_1_A!d-2020283893!PwGl00?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Avslag på søknad på stilling som spesialpedagog i barnehage ved PPT Midt-Ryfylke",
@@ -944,13 +957,8 @@
     "avsender_mottaker": "Mottaker: Tekniskbureau As",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020575!IAbOg6/d-6965376f__8677__47ea__a757__23e14c179149-2020283703!d6lF2b",
-    "filer": [
-      {
-        "tekst": "16/203 Mangler ferdigmelding (pdf, 152KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1300353_1_A!d-2020283703!uXYYs1?pid=29"
-      }
-    ],
-    "status": "Publisert"
+    "filer": [],
+    "status": "Må bes om innsyn"
   },
   {
     "tittel": "Arbeidsdokument - tidslinje",
@@ -1516,8 +1524,13 @@
     "avsender_mottaker": "Mottaker: Strand formannskap",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020018676!Vgmk1U/d-6965376f__8677__47ea__a757__23e14c179149-2020282556!vfmKZM",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "Statusrapport store byggeprosjekter - august 2026 (pdf, 18,9MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1297807_3_A!d-2020282556!TMTxdl?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "31/66 Melding til tinglysing seksjonering",
