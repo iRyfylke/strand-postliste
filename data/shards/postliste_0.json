@@ -8,8 +8,13 @@
     "avsender_mottaker": "",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020021354!m9iIVv/d-6965376f__8677__47ea__a757__23e14c179149-2020285587!P8vMK0",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "Møtebok - Rådet for mennesker med nedsatt funksjonsevne - 14.09.2026 (pdf, 278KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1305135_1_P!d-2020285587!6vb5o2?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Møteprotokoll - Rådet for mennesker med nedsatt funksjonsevne - 14.09.2026",
@@ -895,8 +900,13 @@
     "avsender_mottaker": "Mottaker: Ivar Iks",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2019000063!dhEOdV/d-6965376f__8677__47ea__a757__23e14c179149-2020284989!hVwW90",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "16/234 Ferdigattest - sanering av VA-anlegg - Tau sentrum (pdf, 100KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1303891_1_A!d-2020284989!kKGTSt?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Vurderer kjøp av eiendom - noen spørsmål",
@@ -1305,13 +1315,8 @@
     "avsender_mottaker": "Mottaker: Kartverket Tinglysing",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019647!uASewa/d-6965376f__8677__47ea__a757__23e14c179149-2020285008!NkU8b1",
-    "filer": [
-      {
-        "tekst": "63446 Melding til tinglysing (pdf, 97KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1303940_1_A!d-2020285008!4Bagnp?pid=29"
-      }
-    ],
-    "status": "Publisert"
+    "filer": [],
+    "status": "Må bes om innsyn"
   },
   {
     "tittel": "Vedrørende åpen søknad om arbeid i Strand kommune",
@@ -1334,8 +1339,17 @@
     "avsender_mottaker": "Mottaker: Hans Egil Eckhoff",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2019001935!Qt9AdI/d-6965376f__8677__47ea__a757__23e14c179149-2020271189!G1b3Wu",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "13/12 Oppfølging av byggesak - utvidelse molo - Alsvik (pdf, 111KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1270718_1_A!d-2020271189!J8wG5p?pid=29"
+      },
+      {
+        "tekst": "Søknad om ferdigattest (pdf, 499KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1303821_1_A!d-2020271189!Bla4ke?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Spørsmål om vigsel",
