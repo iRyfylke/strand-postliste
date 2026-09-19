@@ -25,13 +25,8 @@
     "avsender_mottaker": "",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020021546!hUZFRR/d-6965376f__8677__47ea__a757__23e14c179149-2020285971!52XKrL",
-    "filer": [
-      {
-        "tekst": "Møtebok - Formannskapet - 17.09.2026 (pdf, 607KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1306094_2_P!d-2020285971!Zk8ll6?pid=29"
-      }
-    ],
-    "status": "Publisert"
+    "filer": [],
+    "status": "Må bes om innsyn"
   },
   {
     "tittel": "Møtebok - Administrasjonsutvalget - 17.09.2026",
@@ -342,13 +337,8 @@
     "avsender_mottaker": "Avsender: Arkitekt Morten Barstad",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020021195!cgyvMs/d-6965376f__8677__47ea__a757__23e14c179149-2020285597!6a7Urs",
-    "filer": [
-      {
-        "tekst": "47/714 Supplering av søknad - ni rekkehusenheter - Fullshammarsvingen 26 - Bate Eiendomsutvikling As (pdf, 170KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1305160_1_A!d-2020285597!Q0mK5G?pid=29"
-      }
-    ],
-    "status": "Publisert"
+    "filer": [],
+    "status": "Må bes om innsyn"
   },
   {
     "tittel": "Utlysning - tiltak mot rasisme, diskriminering og hatefulle ytringer",
@@ -483,8 +473,17 @@
     "avsender_mottaker": "Avsender: Transportøkonomisk Institutt Stiftelsen Norsk Senter For Samferdselsforskning",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020018522!sFvEPQ/d-6965376f__8677__47ea__a757__23e14c179149-2020285438!QvSliY",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "Enkel samarbeidsavtale - sikker ferdsel og friluftsliv i norsk natur - TryggNaTur - signert (pdf, 1,5MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1304810_1_A!d-2020285438!V2HXg3?pid=29"
+      },
+      {
+        "tekst": "E-post - TryggNaTur kontraktutkast (pdf, 111KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1304811_1_A!d-2020285438!33MHpl?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "52/3 Farlig avfall - sanering/opprydning - Svortingsvatnet",
@@ -495,8 +494,17 @@
     "avsender_mottaker": "Avsender: Polygon As Avd Sandnes",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020008870!O1rByg/d-6965376f__8677__47ea__a757__23e14c179149-2020285580!mnM5gN",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "52/3 Farlig avfall - sanering/opprydning - Svortingsvatnet (pdf, 67KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1305113_1_A!d-2020285580!y3IZOG?pid=29"
+      },
+      {
+        "tekst": "Kredittfaktura - Polygon (pdf, 183KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1305114_1_A!d-2020285580!2uxZyO?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "42/67 Avslutning av byggesak - søknad ikke komplett - bruksendring - Grønevollbakken 18",
@@ -722,8 +730,21 @@
     "avsender_mottaker": "Mottaker: Odd Kristian Håland",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2017002181!9zrsW1/d-6965376f__8677__47ea__a757__23e14c179149-2020285407!qNSL2X",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "6/74 Oppfølging av byggesak - tilbygg- Fiskåvegen 1018 (pdf, 112KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1304742_1_A!d-2020285407!4yehf5?pid=29"
+      },
+      {
+        "tekst": "6/74 - Tillatelse til tiltak - tilbygg - Fiskåvegen 1018 - Tommy Tandrevold (pdf, 305KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1304743_1_A!d-2020285407!YLTMon?pid=29"
+      },
+      {
+        "tekst": "Søknad om ferdigattest (pdf, 499KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1304744_1_A!d-2020285407!Mo62A0?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "16/515 Avslutter sak",
@@ -1458,13 +1479,8 @@
     "avsender_mottaker": "Mottaker: Sveinung Andre Idsal",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020006037!syVTrb/d-6965376f__8677__47ea__a757__23e14c179149-2020285446!V8CJ9g",
-    "filer": [
-      {
-        "tekst": "47/492 Saken avsluttes - bruksendring - Marmorsvingen 10 (pdf, 80KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1304828_1_A!d-2020285446!G3t2RN?pid=29"
-      }
-    ],
-    "status": "Publisert"
+    "filer": [],
+    "status": "Må bes om innsyn"
   },
   {
     "tittel": "Svar på innsynsbegjæring",
