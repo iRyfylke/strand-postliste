@@ -212,8 +212,13 @@
     "avsender_mottaker": "Avsender: Ur Maskin As",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020021725!FXTA5W/d-6965376f__8677__47ea__a757__23e14c179149-2020285945!n7dlG8",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "67/9 Søknad om ferdigattest - forstøtningsmur - Sørskårvegen 575 (pdf, 640KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1306026_1_A!d-2020285945!emNZa2?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "53/131 53/132 Supplering av søknad - hagestue og støttemur mot hage - Selemorkvegen 19 - Tor Reidar Brekke",
@@ -290,8 +295,13 @@
     "avsender_mottaker": "Mottaker: Mikal Hodneland",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020021651!YAwJrH/d-6965376f__8677__47ea__a757__23e14c179149-2020285704!c2QSEp",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "43/309 Tilbakemelding om mangler - bruksendring - Barkvedstraen 11 - Mikal Hodneland (pdf, 116KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1305412_1_A!d-2020285704!P6Y9B9?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Lokale lønnsforhandlinger - beregning med glidning",
@@ -397,8 +407,21 @@
     "avsender_mottaker": "Mottaker: Fjogstad-Hus AS",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020005607!OgyiQS/d-6965376f__8677__47ea__a757__23e14c179149-2020285751!Xn42mp",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "44/107 Oppfølging av byggesak - endring av enebolig - Tuånå 31 (pdf, 117KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1305504_1_A!d-2020285751!FO1RZl?pid=29"
+      },
+      {
+        "tekst": "44/107 Tillatelse til tiltak - påbygg og fasadeendring - Tuånå 31 (pdf, 335KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1305507_1_A!d-2020285751!qp4aYh?pid=29"
+      },
+      {
+        "tekst": "Søknad om ferdigattest (pdf, 715KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1305508_1_A!d-2020285751!DmNCRM?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Søknad om plass i SFO",
@@ -1000,8 +1023,29 @@
     "avsender_mottaker": "Mottaker: As Ryfylke Trelast",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020014857!89wrqh/d-6965376f__8677__47ea__a757__23e14c179149-2020285744!s0JlKD",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "49/706 Midlertidig brukstillatelse - tilbygg garasje/lager - Stålverksvegen 50 (pdf, 110KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1305488_1_A!d-2020285744!IgPnU4?pid=29"
+      },
+      {
+        "tekst": "D Situasjonsplan (pdf, 1,1MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1305490_1_A!d-2020285744!41efUl?pid=29"
+      },
+      {
+        "tekst": "E Tegninger - fasader (pdf, 2,1MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1305491_1_A!d-2020285744!stF4T1?pid=29"
+      },
+      {
+        "tekst": "E Tegning - snitt (pdf, 706KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1305492_1_A!d-2020285744!1yywM2?pid=29"
+      },
+      {
+        "tekst": "E Tegning - plan (pdf, 639KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1305493_1_A!d-2020285744!rXEr8D?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "63/254 Film - hytte - Kjeksevåg 40",
@@ -1140,8 +1184,29 @@
     "avsender_mottaker": "Avsender: Aros Arkitekter As",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020021407!rjj2nc/d-6965376f__8677__47ea__a757__23e14c179149-2020285855!Pu0HAU",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "49/631 Tilbakemelding tilsyn avvik og resterende arbeider - Strand kulturhus - Kvalshaugvegen 6 - Kvalshaugveien 6 As (pdf, 153KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1305812_1_A!d-2020285855!4AuXMW?pid=29"
+      },
+      {
+        "tekst": "Bilde 1 (pdf, 86KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1305813_1_A!d-2020285855!jfLNmf?pid=29"
+      },
+      {
+        "tekst": "Bilde 2 (pdf, 99KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1305814_1_A!d-2020285855!wgQQxe?pid=29"
+      },
+      {
+        "tekst": "Bilde 3 (pdf, 93KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1305815_1_A!d-2020285855!XUPPiv?pid=29"
+      },
+      {
+        "tekst": "Bilde 4 (pdf, 75KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1305816_1_A!d-2020285855!t4CDMk?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Utbetalingsvedtak av 15.09.2026",
@@ -1176,8 +1241,17 @@
     "avsender_mottaker": "Avsender: Reidar Eie As",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020021714!IQV41I/d-6965376f__8677__47ea__a757__23e14c179149-2020285803!lC79EU",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "9/49 Søknad om ny tilknytning til offentlig vann- /avløpsanlegg - Vervikhagen 6 (pdf, 76KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1305701_1_A!d-2020285803!dfjIsv?pid=29"
+      },
+      {
+        "tekst": "AS-BUILT-VA Vervikhagen (002) (pdf, 612KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1305703_1_A!d-2020285803!Krciql?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Invitasjon til innspillsmøte 08.10.2026 - ny stortingsmelding om villaks, sjøørret og sjørøye",
@@ -1213,8 +1287,13 @@
     "avsender_mottaker": "Mottaker: Norsk Rikskringkasting As",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019695!uKgPEV/d-6965376f__8677__47ea__a757__23e14c179149-2020285679!q7RT7V",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "Svar på forespørsel fra NRK - datasenter (pdf, 111KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1305332_1_A!d-2020285679!K1m8sv?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Tildeling oppfølgingsordningen 2026",
@@ -1237,8 +1316,17 @@
     "avsender_mottaker": "Avsender: Arkpro Barstad",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020021713!z0CECH/d-6965376f__8677__47ea__a757__23e14c179149-2020285791!b33pDJ",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "47/714 Søknad om avkjørsler - ni rekkehusenheter - Fullshammarsvingen 26 - Bate Eiendomsutvikling As (pdf, 810KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1305680_1_A!d-2020285791!0BsbRe?pid=29"
+      },
+      {
+        "tekst": "D Situasjonsplan (pdf, 925KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1305664_1_A!d-2020285791!4Qkc1y?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "16/510 Supplering av søknad - bolig - Ugelivegen 8 - Johannes Barka Stensen",
