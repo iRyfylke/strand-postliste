@@ -1464,8 +1464,169 @@
     "avsender_mottaker": "Avsender: Asplan Viak As Avd Stavanger",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020012783!XIvR4o/d-6965376f__8677__47ea__a757__23e14c179149-2020285998!KJROOU",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "SOSI-filer KPA Strand til 3. gangshøring (pdf, 77KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1306188_1_A!d-2020285998!dc1kuM?pid=29"
+      },
+      {
+        "tekst": "Faresone_høyspent_KPA_Strand_kommune_2025-2037 (pdf, 115KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1306189_1_A!d-2020285998!MFg9nj?pid=29"
+      },
+      {
+        "tekst": "Faresone_høyspent_KPA_Strand_kommune_2025-2037 (sos, 27KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1306190_1_A!d-2020285998!Jl3TwL?pid=29"
+      },
+      {
+        "tekst": "Faresone_jord_flomskred_KPA_Strand_kommune_2025-2037 (pdf, 115KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1306191_1_A!d-2020285998!ISKpVC?pid=29"
+      },
+      {
+        "tekst": "Faresone_jord_flomskred_KPA_Strand_kommune_2025-2037 (sos, 1,7MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1306192_1_A!d-2020285998!sYAOzG?pid=29"
+      },
+      {
+        "tekst": "Faresone_kvikkleire_KPA_Strand_kommune_2025-2037 (pdf, 115KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1306193_1_A!d-2020285998!epg8Bq?pid=29"
+      },
+      {
+        "tekst": "Faresone_kvikkleire_KPA_Strand_kommune_2025-2037 (sos, 2,3MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1306194_1_A!d-2020285998!b4tlQr?pid=29"
+      },
+      {
+        "tekst": "Faresone_Skred_i_bratt_terreng_S3_KPA_Strand_kommune_2025-2037 (pdf, 115KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1306195_1_A!d-2020285998!MQJ14Z?pid=29"
+      },
+      {
+        "tekst": "Faresone_Skred_i_bratt_terreng_S3_KPA_Strand_kommune_2025-2037 (sos, 15KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1306196_1_A!d-2020285998!3EVOrr?pid=29"
+      },
+      {
+        "tekst": "Faresone_snøskred_S3_KPA_Strand_kommune_2025-2037 (pdf, 115KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1306197_1_A!d-2020285998!EKDpcH?pid=29"
+      },
+      {
+        "tekst": "Faresone_snøskred_S3_KPA_Strand_kommune_2025-2037 (sos, 11,8MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1306198_1_A!d-2020285998!LIW0jP?pid=29"
+      },
+      {
+        "tekst": "Faresone_steinsprang_KPA_Strand_kommune_2025-2037 (pdf, 115KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1306199_1_A!d-2020285998!86JlBI?pid=29"
+      },
+      {
+        "tekst": "Faresone_steinsprang_KPA_Strand_kommune_2025-2037 (sos, 2,2MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1306200_1_A!d-2020285998!2Pwt39?pid=29"
+      },
+      {
+        "tekst": "Faresone_stormflo_KPA_Strand_kommune_2025-2037 (pdf, 117KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1306201_1_A!d-2020285998!67YsHP?pid=29"
+      },
+      {
+        "tekst": "Faresone_stormflo_KPA_Strand_kommune_2025-2037 (sos, 3,6MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1306202_1_A!d-2020285998!3lj33z?pid=29"
+      },
+      {
+        "tekst": "Hensynsone_støy_KPA_Strand_kommune_2025-2037 (pdf, 116KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1306203_1_A!d-2020285998!wjzsWR?pid=29"
+      },
+      {
+        "tekst": "Hensynsone_støy_KPA_Strand_kommune_2025-2037 (sos, 1,7MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1306204_1_A!d-2020285998!ag4fa7?pid=29"
+      },
+      {
+        "tekst": "Hensynssone_båndlegging_annet_lovverk_reguleringsmagasin_KPA_Strand_kommune_2025-2037 (sos, 670KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1306205_1_A!d-2020285998!hTVSV3?pid=29"
+      },
+      {
+        "tekst": "Hensynssone_båndlegging_kulturminner_KPA_Strand_kommune_2025-2037 (sos, 410KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1306206_1_A!d-2020285998!LvUghe?pid=29"
+      },
+      {
+        "tekst": "Hensynssone_båndlegging_naturvernloven_KPA_Strand_kommune_2025-2037 (sos, 90KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1306207_1_A!d-2020285998!O20rMd?pid=29"
+      },
+      {
+        "tekst": "Hensynssone_båndlegging_pbl_framtidig_KPA_Strand_kommune_2025-2037 (sos, 6KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1306208_1_A!d-2020285998!C4nEwR?pid=29"
+      },
+      {
+        "tekst": "Hensynssone_friluftsliv_KPA_Strand_kommune_2025-2037 (pdf, 121KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1306209_1_A!d-2020285998!Hwtt9M?pid=29"
+      },
+      {
+        "tekst": "Hensynssone_friluftsliv_KPA_Strand_kommune_2025-2037 (sos, 1009KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1306210_1_A!d-2020285998!Jv8uNm?pid=29"
+      },
+      {
+        "tekst": "Hensynssone_gjennomføringsone_felles_planlegging_KPA_Strand_kommune_2025-2037 (pdf, 114KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1306211_1_A!d-2020285998!QzXDfD?pid=29"
+      },
+      {
+        "tekst": "Hensynssone_gjennomføringsone_felles_planlegging_KPA_Strand_kommune_2025-2037 (sos, 10KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1306212_1_A!d-2020285998!PMaKZA?pid=29"
+      },
+      {
+        "tekst": "Hensynssone_grønnstruktur_KPA_Strand_kommune_2025-2037 (sos, 177KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1306213_1_A!d-2020285998!UGUoDv?pid=29"
+      },
+      {
+        "tekst": "Hensynssone_kulturmiljø_KPA_Strand_kommune_2025-2037 (sos, 68KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1306214_1_A!d-2020285998!Qotqnj?pid=29"
+      },
+      {
+        "tekst": "Hensynssone_landbruk_KPA_Strand_kommune_2025-2037 (sos, 390KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1306215_1_A!d-2020285998!LnV7fN?pid=29"
+      },
+      {
+        "tekst": "Hensynssone_landskap_geologisk_arv_KPA_Strand_kommune_2025-2037 (pdf, 117KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1306216_1_A!d-2020285998!QpYo4V?pid=29"
+      },
+      {
+        "tekst": "Hensynssone_landskap_geologisk_arv_KPA_Strand_kommune_2025-2037 (sos, 7KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1306217_1_A!d-2020285998!5pfY3H?pid=29"
+      },
+      {
+        "tekst": "Hensynssone_naturmiljø_KPA_Strand_kommune_2025-2037 (pdf, 119KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1306218_1_A!d-2020285998!oErNmL?pid=29"
+      },
+      {
+        "tekst": "Hensynssone_naturmiljø_KPA_Strand_kommune_2025-2037 (sos, 2,5MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1306219_1_A!d-2020285998!K8LavL?pid=29"
+      },
+      {
+        "tekst": "Hensynssone_sikring_drikkevann_KPA_Strand_kommune_2025-2037 (sos, 5KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1306220_1_A!d-2020285998!C2KCrJ?pid=29"
+      },
+      {
+        "tekst": "Juridiske_linjer_KPA_Strand_kommune_2025-2037 (sos, 274KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1306221_1_A!d-2020285998!bR1OQt?pid=29"
+      },
+      {
+        "tekst": "KpTekst_KPA_Strand_kommune_2025-2037 (sos, 32KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1306222_1_A!d-2020285998!Y6q9Er?pid=29"
+      },
+      {
+        "tekst": "Arealformål_KPA_Strand_kommune_2025-2037 (pdf, 128KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1306223_1_A!d-2020285998!xXDvKl?pid=29"
+      },
+      {
+        "tekst": "Arealformål_KPA_Strand_kommune_2025-2037 (sos, 9,9MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1306224_1_A!d-2020285998!nvPRuu?pid=29"
+      },
+      {
+        "tekst": "Bestemmelseområde_KPA_Strand_kommune_2025-2037 (pdf, 117KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1306225_1_A!d-2020285998!Yeztf4?pid=29"
+      },
+      {
+        "tekst": "Bestemmelseområde_KPA_Strand_kommune_2025-2037 (sos, 393KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1306226_1_A!d-2020285998!y5cvC2?pid=29"
+      },
+      {
+        "tekst": "Faresone_flom_KPA_Strand_kommune_2025-2037 (sos, 7,3MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1306227_1_A!d-2020285998!PnOAdy?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "55/42 Svar på forespørsel om tilkobling til vann og vannmåler - Mosli 86",
@@ -1939,13 +2100,8 @@
     "avsender_mottaker": "",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019834!DAv3Ry/d-6965376f__8677__47ea__a757__23e14c179149-2020285820!tWCZug",
-    "filer": [
-      {
-        "tekst": "44/26 Dokumentsjekk - ikke behov for mangelbrev (pdf, 82KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1305748_1_A!d-2020285820!t7bxEL?pid=29"
-      }
-    ],
-    "status": "Publisert"
+    "filer": [],
+    "status": "Må bes om innsyn"
   },
   {
     "tittel": "11/17 Ferdigattest - fasadeendring - Fiskåvegen 672 - Vidar Norland",
