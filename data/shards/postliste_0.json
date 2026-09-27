@@ -1993,8 +1993,29 @@
     "avsender_mottaker": "Mottaker: Silje Viken Hustoft",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020006818!G8DMdr/d-6965376f__8677__47ea__a757__23e14c179149-2020285990!EgvPQO",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "48/42 Ferdigattest - bruksendring og tilbygg - Mellarhaugsvingen 11 (pdf, 101KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1306165_1_A!d-2020285990!Qoqitc?pid=29"
+      },
+      {
+        "tekst": "E Tegning fasade (pdf, 490KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1306166_1_A!d-2020285990!bnkGk6?pid=29"
+      },
+      {
+        "tekst": "E Tegning plan (pdf, 231KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1306167_1_A!d-2020285990!1XxNx6?pid=29"
+      },
+      {
+        "tekst": "E Tegning oversiktsbilde (pdf, 912KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1306168_1_A!d-2020285990!h4nsvB?pid=29"
+      },
+      {
+        "tekst": "F Situasjonskart (pdf, 1,5MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1306169_1_A!d-2020285990!VAm9zs?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Referat fra intervju",
