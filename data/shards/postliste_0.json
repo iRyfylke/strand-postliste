@@ -1282,8 +1282,13 @@
     "avsender_mottaker": "Mottaker: Halvard Mikal Aase",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020254!rZl7hs/d-6965376f__8677__47ea__a757__23e14c179149-2020286668!C6BpFM",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "13/60 Status sak - fritidsbolig - Alsvikklubben - Halvard Mikal Aase (pdf, 146KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1307914_1_A!d-2020286668!4nOxXZ?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Søknadsskjema - år 3",
@@ -1646,13 +1651,8 @@
     "avsender_mottaker": "Mottaker: Helge Sel",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2014000389!SmkWSv/d-6965376f__8677__47ea__a757__23e14c179149-2020286617!5Ff30C",
-    "filer": [
-      {
-        "tekst": "43/160 Tilbakemelding på mottatt e-post - naust (pdf, 129KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1307797_1_A!d-2020286617!Qg1ged?pid=29"
-      }
-    ],
-    "status": "Publisert"
+    "filer": [],
+    "status": "Må bes om innsyn"
   },
   {
     "tittel": "53/86 Ferdigattest - fasadeendring - Jøssangvegen 156A",
@@ -1663,13 +1663,8 @@
     "avsender_mottaker": "Mottaker: Komplett Bygg Strand AS",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/sok-i-post-dokumenter-og-saker/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020000689!QodBBH/d-6965376f__8677__47ea__a757__23e14c179149-2020286680!0fGaWJ",
-    "filer": [
-      {
-        "tekst": "53/86 Ferdigattest - fasadeendring - Jøssangvegen 156A (pdf, 99KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1307938_1_A!d-2020286680!Phpi3G?pid=29"
-      }
-    ],
-    "status": "Publisert"
+    "filer": [],
+    "status": "Må bes om innsyn"
   },
   {
     "tittel": "Svar - søknad om legge- og liggetillatelse v/ Førlandsvegen",
