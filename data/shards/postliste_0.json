@@ -46,8 +46,13 @@
     "avsender_mottaker": "Mottaker: Sig Halvorsen As",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/post-og-saksliste-til-og-med-24-9-2026/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017918!QmIzWS/d-6965376f__8677__47ea__a757__23e14c179149-2020286613!G38GVA",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "16/135 Godkjenning av ferdigmelding for midlertidig installasjon - Fiskåvegen 1 (pdf, 157KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1307791_1_A!d-2020286613!h5hSuG?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "111/3 Supplerende redegjørelse - reetablering av Hengjane kai - Lysefjorden Utvikling As",
@@ -822,8 +827,13 @@
     "avsender_mottaker": "Mottaker: Thomassen Bygg & Eiendom As",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/post-og-saksliste-til-og-med-24-9-2026/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020021621!uCxV56/d-6965376f__8677__47ea__a757__23e14c179149-2020285738!fpm0w1",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "27/7 Tilbakemelding om mangler - to arker/kvister på eksisterende tak - Leitevegen 556 - Marius Eriksen (pdf, 124KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1305489_1_A!d-2020285738!16xymM?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Referat møte 26.08.26 Status prosjekt – rekruttering med unntak fra kvalifikasjonsprinsippet i Strand kommune",
@@ -1089,8 +1099,21 @@
     "avsender_mottaker": "Mottaker: Gerd Inger Aarnes",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/post-og-saksliste-til-og-med-24-9-2026/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020018583!3We0ur/d-6965376f__8677__47ea__a757__23e14c179149-2020286561!pwhe8Y",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "Båtvrak ved Østerhusvatnet (pdf, 107KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1307691_1_A!d-2020286561!x8LTdh?pid=29"
+      },
+      {
+        "tekst": "Bekrefter mottatt henvendelse - båtvrak (pdf, 79KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1307692_1_A!d-2020286561!ano3M0?pid=29"
+      },
+      {
+        "tekst": "Båtvrak må fjernes (pdf, 432KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1307693_1_A!d-2020286561!5vAzGN?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "29/11 Dispensasjonsvedtak - etablering av plattinger/telt - Tjøstheimsvegen 579",
