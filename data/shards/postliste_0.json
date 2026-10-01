@@ -827,13 +827,8 @@
     "avsender_mottaker": "Mottaker: Thomassen Bygg & Eiendom As",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/post-og-saksliste-til-og-med-24-9-2026/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020021621!uCxV56/d-6965376f__8677__47ea__a757__23e14c179149-2020285738!fpm0w1",
-    "filer": [
-      {
-        "tekst": "27/7 Tilbakemelding om mangler - to arker/kvister på eksisterende tak - Leitevegen 556 - Marius Eriksen (pdf, 124KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1305489_1_A!d-2020285738!16xymM?pid=29"
-      }
-    ],
-    "status": "Publisert"
+    "filer": [],
+    "status": "Må bes om innsyn"
   },
   {
     "tittel": "Referat møte 26.08.26 Status prosjekt – rekruttering med unntak fra kvalifikasjonsprinsippet i Strand kommune",
@@ -856,8 +851,17 @@
     "avsender_mottaker": "Mottaker: Steinar Nessa",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/post-og-saksliste-til-og-med-24-9-2026/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020021670!72z6FR/d-6965376f__8677__47ea__a757__23e14c179149-2020286587!NalsFB",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "32120 Svar på spørsmål om arealer - bolig i Strandavegen 3 (pdf, 109KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1307757_1_A!d-2020286587!9CvuUC?pid=29"
+      },
+      {
+        "tekst": "32_120 søknad (pdf, 4MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1307759_1_A!d-2020286587!5UtRXO?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "110/5/18 Rammetillatelse - byggtekniske installasjoner - Hamn 3",
