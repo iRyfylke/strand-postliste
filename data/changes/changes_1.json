@@ -1073186,5 +1073186,37 @@
         "ny": 1
       }
     }
+  },
+  {
+    "tidspunkt": "2026-10-12 15:06:59",
+    "type": "UPDATE",
+    "dokumentID": "2026/31808",
+    "tittel": "31/1/330 Godkjenning av ferdigmelding for tiltak på eksisterende sanitæranlegg - Ospevegen 1",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-10-12 15:06:59",
+    "type": "UPDATE",
+    "dokumentID": "2026/23027",
+    "tittel": "44/445 Varsel om tilsyn - bruksendring - Nedre Barkvedvegen 19",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 2,
+        "ny": 0
+      }
+    }
   }
 ]
