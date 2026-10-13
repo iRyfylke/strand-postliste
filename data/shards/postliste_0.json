@@ -634,8 +634,25 @@
     "avsender_mottaker": "Mottaker: Strand Båtsenter As",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/post-og-saksliste-til-og-med-24-9-2026/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020015557!PAsnNi/d-6965376f__8677__47ea__a757__23e14c179149-2020286559!r8uj8Z",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "49/652/0/3 Forurensning - Sak avsluttes (pdf, 113KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1307682_1_A!d-2020286559!ff2B9h?pid=29"
+      },
+      {
+        "tekst": "49/652/0/3 Svar på kommunens forhåndsvarsel om pålegg etter forurensnignsloven (pdf, 592KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1307683_1_A!d-2020286559!HLDniv?pid=29"
+      },
+      {
+        "tekst": "E-post - 24/4189 / 25/23883 / WAAMAR (pdf, 67KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1307684_1_A!d-2020286559!X6Zzpu?pid=29"
+      },
+      {
+        "tekst": "49/652/0/3 Forhåndsvarsel om pålegg etter forurensningsloven (pdf, 143KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1307685_1_A!d-2020286559!ydhyrY?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "43/160 Tilbakemelding på purring på ferdigattest - naust",
