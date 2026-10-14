@@ -1073298,5 +1073298,21 @@
         "ny": 0
       }
     }
+  },
+  {
+    "tidspunkt": "2026-10-14 17:55:30",
+    "type": "UPDATE",
+    "dokumentID": "2026/31776",
+    "tittel": "Utslipp fra pukkverk og sandtak i Dalen",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 2
+      }
+    }
   }
 ]
