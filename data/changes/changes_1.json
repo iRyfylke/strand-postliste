@@ -1073314,5 +1073314,37 @@
         "ny": 2
       }
     }
+  },
+  {
+    "tidspunkt": "2026-10-15 17:43:59",
+    "type": "UPDATE",
+    "dokumentID": "2026/31799",
+    "tittel": "49/187 Ferdigattest - Garasje - Åvegen 10 - Eivind Fosså",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 3,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-10-15 17:43:59",
+    "type": "UPDATE",
+    "dokumentID": "2026/31871",
+    "tittel": "16/457 Angående sak SAK-758660-G2W2J0 CRM:000001440001292",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
   }
 ]
