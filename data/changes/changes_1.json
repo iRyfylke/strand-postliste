@@ -1073378,5 +1073378,53 @@
         "ny": 1
       }
     }
+  },
+  {
+    "tidspunkt": "2026-10-17 10:32:30",
+    "type": "UPDATE",
+    "dokumentID": "2026/31807",
+    "tittel": "44/707 Tillatelse til tiltak - støttemur - Kvitemyrvegen 6",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-10-17 10:32:30",
+    "type": "UPDATE",
+    "dokumentID": "2026/31835",
+    "tittel": "Tilleggsinnkalling - Kommunestyret - 30.09.2026",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-10-17 10:32:30",
+    "type": "UPDATE",
+    "dokumentID": "2026/31864",
+    "tittel": "31/728 Fakturagrunnlag - hagestue - Breidablikkvegen 2",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 2,
+        "ny": 0
+      }
+    }
   }
 ]
