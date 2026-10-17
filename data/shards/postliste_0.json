@@ -20,8 +20,13 @@
     "avsender_mottaker": "",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/post-og-saksliste-til-og-med-24-9-2026/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020021675!FZpt41/d-6965376f__8677__47ea__a757__23e14c179149-2020286622!ymEJu8",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "Tilleggsinnkalling - Kommunestyret - 30.09.2026 (pdf, 85KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1307807_1_A!d-2020286622!Sz6IjP?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "44/445 Varsel om tilsyn - bruksendring - Nedre Barkvedvegen 19",
@@ -1971,8 +1976,13 @@
     "avsender_mottaker": "Mottaker: Rycon As",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/post-og-saksliste-til-og-med-24-9-2026/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020018451!pMhaZl/d-6965376f__8677__47ea__a757__23e14c179149-2020286594!Qml5T1",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "44/707 Tillatelse til tiltak - støttemur - Kvitemyrvegen 6 (pdf, 116KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1307767_1_A!d-2020286594!0zwWPA?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Søknadsskjema ekstratilskudd år 4",
@@ -1995,8 +2005,17 @@
     "avsender_mottaker": "",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/post-og-saksliste-til-og-med-24-9-2026/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020018065!N9khJI/d-6965376f__8677__47ea__a757__23e14c179149-2020286651!GucSu8",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "31/728 Fakturagrunnlag - hagestue - Breidablikkvegen 2 (pdf, 48KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1307878_1_A!d-2020286651!xSUg0L?pid=29"
+      },
+      {
+        "tekst": "31_728 kopi av fakturaordre (pdf, 380KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1307883_1_A!d-2020286651!7qFdSY?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Notat fra drøftingsmøte om ny organisering av Miljøtjenesten",
