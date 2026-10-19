@@ -58,8 +58,13 @@
     "avsender_mottaker": "Mottaker: Sig Halvorsen As",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/post-og-saksliste-til-og-med-24-9-2026/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020017918!QmIzWS/d-6965376f__8677__47ea__a757__23e14c179149-2020286613!G38GVA",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "16/135 Godkjenning av ferdigmelding for midlertidig installasjon - Fiskåvegen 1 (pdf, 157KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1307791_1_A!d-2020286613!h5hSuG?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "111/3 Supplerende redegjørelse - reetablering av Hengjane kai - Lysefjorden Utvikling As",
@@ -1368,13 +1373,8 @@
     "avsender_mottaker": "Mottaker: Lars-Ivar Hovland",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/post-og-saksliste-til-og-med-24-9-2026/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019774!RvE9gM/d-6965376f__8677__47ea__a757__23e14c179149-2020286669!ahMJSd",
-    "filer": [
-      {
-        "tekst": "44/9 Utsettelse av frist for supplering av søknad - flytebrygge - Nedre Barkvedvegen 26 - Lars Ivar Hovland (pdf, 112KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1307917_1_A!d-2020286669!xxz1x7?pid=29"
-      }
-    ],
-    "status": "Publisert"
+    "filer": [],
+    "status": "Må bes om innsyn"
   },
   {
     "tittel": "Dokumentsjekk - ikke behov for mangelbrev",
@@ -1856,8 +1856,13 @@
     "avsender_mottaker": "Mottaker: Terje Ur AS",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/post-og-saksliste-til-og-med-24-9-2026/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020018857!MoEABB/d-6965376f__8677__47ea__a757__23e14c179149-2020286625!5jmEKs",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "56/12 Godkjenning av ferdigmelding for ny tilknytning til offentlig vann- /avløpsanlegg (pdf, 158KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1307818_1_A!d-2020286625!lidGnD?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "44/9 Nabomerknad ang. vannledning - tilbygg - Hortensiaveien 14 og Bekkevegen1",

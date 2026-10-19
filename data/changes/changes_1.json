@@ -1073506,5 +1073506,53 @@
         "ny": 0
       }
     }
+  },
+  {
+    "tidspunkt": "2026-10-19 19:08:01",
+    "type": "UPDATE",
+    "dokumentID": "2026/31826",
+    "tittel": "16/135 Godkjenning av ferdigmelding for midlertidig installasjon - Fiskåvegen 1",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-10-19 19:08:01",
+    "type": "UPDATE",
+    "dokumentID": "2026/31838",
+    "tittel": "56/12 Godkjenning av ferdigmelding for ny tilknytning til offentlig vann- /avløpsanlegg",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-10-19 19:08:01",
+    "type": "UPDATE",
+    "dokumentID": "2026/31882",
+    "tittel": "44/9 Utsettelse av frist for supplering av søknad - flytebrygge - Nedre Barkvedvegen 26 - Lars Ivar Hovland",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
   }
 ]
