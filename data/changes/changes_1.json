@@ -1073474,5 +1073474,37 @@
         "ny": 2
       }
     }
+  },
+  {
+    "tidspunkt": "2026-10-19 12:52:40",
+    "type": "UPDATE",
+    "dokumentID": "2026/31826",
+    "tittel": "16/135 Godkjenning av ferdigmelding for midlertidig installasjon - Fiskåvegen 1",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-10-19 12:52:40",
+    "type": "UPDATE",
+    "dokumentID": "2026/31838",
+    "tittel": "56/12 Godkjenning av ferdigmelding for ny tilknytning til offentlig vann- /avløpsanlegg",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
   }
 ]
