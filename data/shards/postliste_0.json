@@ -1136,8 +1136,13 @@
     "avsender_mottaker": "Mottaker: Normisjon Region Rogaland Vaulali Leirsted",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/post-og-saksliste-til-og-med-24-9-2026/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020009918!5Nwgm4/d-6965376f__8677__47ea__a757__23e14c179149-2020195948!qG7QK2",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "29/11 Dispensasjonsvedtak - etablering av plattinger/telt - Tjøstheimsvegen 579 (pdf, 1MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1096686_1_A!d-2020195948!QjLG08?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "49/729 Tiltak ikke oppført - tilbygg og bruksendring - Dalaveien 145",

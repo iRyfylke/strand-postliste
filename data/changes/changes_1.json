@@ -1073586,5 +1073586,21 @@
         "ny": 1
       }
     }
+  },
+  {
+    "tidspunkt": "2026-10-20 17:54:36",
+    "type": "UPDATE",
+    "dokumentID": "2024/25450",
+    "tittel": "29/11 Dispensasjonsvedtak - etablering av plattinger/telt - Tjøstheimsvegen 579",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
   }
 ]
