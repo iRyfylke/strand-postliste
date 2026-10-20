@@ -1073554,5 +1073554,37 @@
         "ny": 0
       }
     }
+  },
+  {
+    "tidspunkt": "2026-10-20 11:21:56",
+    "type": "UPDATE",
+    "dokumentID": "2024/25450",
+    "tittel": "29/11 Dispensasjonsvedtak - etablering av plattinger/telt - Tjøstheimsvegen 579",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-10-20 11:21:56",
+    "type": "UPDATE",
+    "dokumentID": "2026/31882",
+    "tittel": "44/9 Utsettelse av frist for supplering av søknad - flytebrygge - Nedre Barkvedvegen 26 - Lars Ivar Hovland",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
   }
 ]
