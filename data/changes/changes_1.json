@@ -1073602,5 +1073602,21 @@
         "ny": 1
       }
     }
+  },
+  {
+    "tidspunkt": "2026-10-21 11:38:32",
+    "type": "UPDATE",
+    "dokumentID": "2026/31890",
+    "tittel": "31/72 Dokumentasjon av utført tiltak - tilbygg og hagedam - Gullbekkvegen 35",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
   }
 ]
