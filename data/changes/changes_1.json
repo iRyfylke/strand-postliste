@@ -1073634,5 +1073634,21 @@
         "ny": 1
       }
     }
+  },
+  {
+    "tidspunkt": "2026-10-23 11:27:15",
+    "type": "UPDATE",
+    "dokumentID": "2026/31814",
+    "tittel": "61/4 Oversender søknad til uttalelse - naust - Kvalvågvegen 891",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 11,
+        "ny": 0
+      }
+    }
   }
 ]
