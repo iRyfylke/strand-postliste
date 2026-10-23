@@ -1073650,5 +1073650,53 @@
         "ny": 0
       }
     }
+  },
+  {
+    "tidspunkt": "2026-10-23 17:48:38",
+    "type": "UPDATE",
+    "dokumentID": "2026/31814",
+    "tittel": "61/4 Oversender søknad til uttalelse - naust - Kvalvågvegen 891",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 11
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-10-23 17:48:38",
+    "type": "UPDATE",
+    "dokumentID": "2026/31838",
+    "tittel": "56/12 Godkjenning av ferdigmelding for ny tilknytning til offentlig vann- /avløpsanlegg",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-10-23 17:48:38",
+    "type": "UPDATE",
+    "dokumentID": "2026/31835",
+    "tittel": "Tilleggsinnkalling - Kommunestyret - 30.09.2026",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
   }
 ]
