@@ -1073762,5 +1073762,53 @@
         "ny": 0
       }
     }
+  },
+  {
+    "tidspunkt": "2026-10-24 16:34:17",
+    "type": "UPDATE",
+    "dokumentID": "2026/31776",
+    "tittel": "Utslipp fra pukkverk og sandtak i Dalen",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 2,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-10-24 16:34:17",
+    "type": "UPDATE",
+    "dokumentID": "2026/31871",
+    "tittel": "16/457 Angående sak SAK-758660-G2W2J0 CRM:000001440001292",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-10-24 16:34:17",
+    "type": "UPDATE",
+    "dokumentID": "2026/31880",
+    "tittel": "53/476 Uttalelse fra fylkeskommunen - enebolig - Svarthølsvegen 12C - Jens Kristian Rein",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
   }
 ]

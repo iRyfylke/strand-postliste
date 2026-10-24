@@ -576,8 +576,13 @@
     "avsender_mottaker": "Mottaker: Flere mottakere",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/post-og-saksliste-til-og-med-24-9-2026/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020101!7k7TZI/d-6965376f__8677__47ea__a757__23e14c179149-2020286667!kEA215",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "53/476 Uttalelse fra fylkeskommunen - enebolig - Svarthølsvegen 12C - Jens Kristian Rein (pdf, 817KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1307910_1_A!d-2020286667!cYo6ER?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "58/17 Svar på spørsmål - søknad om sjøledning - minirenseanlegg - Kvalvågvegen 213",
@@ -1011,8 +1016,13 @@
     "avsender_mottaker": "Avsender: Statens kartverk",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/post-og-saksliste-til-og-med-24-9-2026/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020561!CCvo06/d-6965376f__8677__47ea__a757__23e14c179149-2020286658!o3TF4p",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "16/457 Angående sak SAK-758660-G2W2J0 CRM:000001440001292 (pdf, 109KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1307897_1_A!d-2020286658!KGqpL0?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "68/18 Dokumentsjekk - ikke behov for mangelbrev",
@@ -2181,17 +2191,8 @@
     "avsender_mottaker": "Avsender: Naturvernforbundet I Strand",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/post-og-saksliste-til-og-med-24-9-2026/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2018001149!Zy0QA2/d-6965376f__8677__47ea__a757__23e14c179149-2020286563!zg9KlJ",
-    "filer": [
-      {
-        "tekst": "Utslipp fra pukkverk og sandtak i Dalen (pdf, 93KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1307695_1_A!d-2020286563!HmmzR4?pid=29"
-      },
-      {
-        "tekst": "Presentasjon av utslipp fra pukkverk og sandtak i Dalen _ (pdf, 14,9MB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1307696_1_A!d-2020286563!emyppH?pid=29"
-      }
-    ],
-    "status": "Publisert"
+    "filer": [],
+    "status": "Må bes om innsyn"
   },
   {
     "tittel": "Innvilgelse - tilskudd 2 år 2",
