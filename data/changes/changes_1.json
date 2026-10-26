@@ -1073826,5 +1073826,21 @@
         "ny": 2
       }
     }
+  },
+  {
+    "tidspunkt": "2026-10-26 19:08:11",
+    "type": "UPDATE",
+    "dokumentID": "2026/31835",
+    "tittel": "Tilleggsinnkalling - Kommunestyret - 30.09.2026",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
   }
 ]
