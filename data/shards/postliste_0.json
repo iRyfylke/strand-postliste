@@ -20,8 +20,13 @@
     "avsender_mottaker": "",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/post-og-saksliste-til-og-med-24-9-2026/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020021675!FZpt41/d-6965376f__8677__47ea__a757__23e14c179149-2020286622!ymEJu8",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "Tilleggsinnkalling - Kommunestyret - 30.09.2026 (pdf, 85KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1307807_1_A!d-2020286622!Sz6IjP?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "44/445 Varsel om tilsyn - bruksendring - Nedre Barkvedvegen 19",
@@ -439,13 +444,8 @@
     "avsender_mottaker": "Avsender: Landbruksdirektoratet",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/post-og-saksliste-til-og-med-24-9-2026/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020019678!n6XZoV/d-6965376f__8677__47ea__a757__23e14c179149-2020286631!Iz2Bf3",
-    "filer": [
-      {
-        "tekst": "Ny nasjonal hjorteviltstrategi (pdf, 525KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1307833_1_A!d-2020286631!ARHGkH?pid=29"
-      }
-    ],
-    "status": "Publisert"
+    "filer": [],
+    "status": "Må bes om innsyn"
   },
   {
     "tittel": "49/23 Tillatelse til tiltak - midlertidig arrangementstelt - Vågabakken 27",
@@ -571,13 +571,8 @@
     "avsender_mottaker": "Mottaker: Flere mottakere",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/post-og-saksliste-til-og-med-24-9-2026/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020020101!7k7TZI/d-6965376f__8677__47ea__a757__23e14c179149-2020286667!kEA215",
-    "filer": [
-      {
-        "tekst": "53/476 Uttalelse fra fylkeskommunen - enebolig - Svarthølsvegen 12C - Jens Kristian Rein (pdf, 817KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1307910_1_A!d-2020286667!cYo6ER?pid=29"
-      }
-    ],
-    "status": "Publisert"
+    "filer": [],
+    "status": "Må bes om innsyn"
   },
   {
     "tittel": "58/17 Svar på spørsmål - søknad om sjøledning - minirenseanlegg - Kvalvågvegen 213",

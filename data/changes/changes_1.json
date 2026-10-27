@@ -1073842,5 +1073842,53 @@
         "ny": 0
       }
     }
+  },
+  {
+    "tidspunkt": "2026-10-27 12:02:43",
+    "type": "UPDATE",
+    "dokumentID": "2026/31835",
+    "tittel": "Tilleggsinnkalling - Kommunestyret - 30.09.2026",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-10-27 12:02:43",
+    "type": "UPDATE",
+    "dokumentID": "2026/31844",
+    "tittel": "Ny nasjonal hjorteviltstrategi",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-10-27 12:02:43",
+    "type": "UPDATE",
+    "dokumentID": "2026/31880",
+    "tittel": "53/476 Uttalelse fra fylkeskommunen - enebolig - Svarthølsvegen 12C - Jens Kristian Rein",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
   }
 ]
