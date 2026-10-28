@@ -1073922,5 +1073922,21 @@
         "ny": 1
       }
     }
+  },
+  {
+    "tidspunkt": "2026-10-28 12:36:22",
+    "type": "UPDATE",
+    "dokumentID": "2026/31895",
+    "tittel": "58/42 Egenerklæring om konsesjonsfrihet",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
   }
 ]
