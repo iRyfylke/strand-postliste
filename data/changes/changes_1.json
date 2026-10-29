@@ -1073986,5 +1073986,37 @@
         "ny": 0
       }
     }
+  },
+  {
+    "tidspunkt": "2026-10-29 18:54:36",
+    "type": "UPDATE",
+    "dokumentID": "2026/31883",
+    "tittel": "44/9 Nabomerknad ang. vannledning - tilbygg - Hortensiaveien 14 og Bekkevegen1",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-10-29 18:54:36",
+    "type": "UPDATE",
+    "dokumentID": "2026/31810",
+    "tittel": "110/3/26 Søknad om ferdigattest - vinterstue - Hamn 143",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 2
+      }
+    }
   }
 ]
