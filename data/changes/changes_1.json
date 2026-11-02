@@ -1074018,5 +1074018,21 @@
         "ny": 2
       }
     }
+  },
+  {
+    "tidspunkt": "2026-11-02 15:27:38",
+    "type": "UPDATE",
+    "dokumentID": "2026/31819",
+    "tittel": "43/160 Tilbakemelding på purring på ferdigattest - naust",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
   }
 ]
