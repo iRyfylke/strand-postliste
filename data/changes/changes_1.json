@@ -1074098,5 +1074098,37 @@
         "ny": 0
       }
     }
+  },
+  {
+    "tidspunkt": "2026-11-03 20:09:08",
+    "type": "UPDATE",
+    "dokumentID": "2026/31862",
+    "tittel": "29/11 Fakturagrunnlag - etablering av plattinger/telt - Tjøstheimsvegen 579",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 2,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-11-03 20:09:08",
+    "type": "UPDATE",
+    "dokumentID": "2026/31853",
+    "tittel": "111/3 Supplerende redegjørelse - reetablering av Hengjane kai - Lysefjorden Utvikling As",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 7
+      }
+    }
   }
 ]
