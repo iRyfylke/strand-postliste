@@ -284,8 +284,17 @@
     "avsender_mottaker": "",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/post-og-saksliste-til-og-med-24-9-2026/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020009918!5Nwgm4/d-6965376f__8677__47ea__a757__23e14c179149-2020286649!Gw6AUA",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "29/11 Fakturagrunnlag - etablering av plattinger/telt - Tjøstheimsvegen 579 (pdf, 49KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1307875_1_A!d-2020286649!5PBwV0?pid=29"
+      },
+      {
+        "tekst": "ordre_7053_0923_120738 (pdf, 380KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1307876_1_A!d-2020286649!c0aevY?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Oversikt oppdragsgivere - privat avlaster",
@@ -688,17 +697,8 @@
     "avsender_mottaker": "Mottaker: Norgeshus Ryfylke As",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/post-og-saksliste-til-og-med-24-9-2026/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020010151!WjbWSL/d-6965376f__8677__47ea__a757__23e14c179149-2020286679!3ctQ8U",
-    "filer": [
-      {
-        "tekst": "48/343 Purring på søknad om ferdigattest - garasje - Kvartsvegen 4 (pdf, 117KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1307936_1_A!d-2020286679!gxNCCC?pid=29"
-      },
-      {
-        "tekst": "48/343 Tillatelse til tiltak - garasje - Kvartsvegen 4 (pdf, 163KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1307937_1_A!d-2020286679!pXh6Eg?pid=29"
-      }
-    ],
-    "status": "Publisert"
+    "filer": [],
+    "status": "Må bes om innsyn"
   },
   {
     "tittel": "Båtvrak ved Østerhusvatnet",
@@ -880,13 +880,8 @@
     "avsender_mottaker": "Mottaker: Flere mottakere",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/post-og-saksliste-til-og-med-24-9-2026/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020007584!NzgwbJ/d-6965376f__8677__47ea__a757__23e14c179149-2020286517!8Qdqun",
-    "filer": [
-      {
-        "tekst": "110/5/18 Rammetillatelse - byggtekniske installasjoner - Hamn 3 (pdf, 117KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1307567_1_A!d-2020286517!ffo5k1?pid=29"
-      }
-    ],
-    "status": "Publisert"
+    "filer": [],
+    "status": "Må bes om innsyn"
   },
   {
     "tittel": "16/75 Dokumentsjekk - ikke behov for mangelbrev",
@@ -1898,29 +1893,8 @@
     "avsender_mottaker": "Mottaker: Egil Tjensvold",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/post-og-saksliste-til-og-med-24-9-2026/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020005671!CnxLT1/d-6965376f__8677__47ea__a757__23e14c179149-2020286660!VPaRCh",
-    "filer": [
-      {
-        "tekst": "49/739 Ferdigattest - naust - Tibergstrand - Egil Tjensvold (pdf, 101KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1307900_1_A!d-2020286660!f77MNa?pid=29"
-      },
-      {
-        "tekst": "E Tegninger - plan 28m2 (pdf, 271KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1307912_1_A!d-2020286660!pmlqcS?pid=29"
-      },
-      {
-        "tekst": "49/725 Revidert situasjonskart (pdf, 640KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1307913_1_A!d-2020286660!j9PLZO?pid=29"
-      },
-      {
-        "tekst": "E Tegninger - fasader 28m2 (pdf, 475KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1307915_1_A!d-2020286660!MZa4Gg?pid=29"
-      },
-      {
-        "tekst": "E Tegninger - snitt 28m2 (pdf, 278KB)",
-        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1307916_1_A!d-2020286660!lUvqbh?pid=29"
-      }
-    ],
-    "status": "Publisert"
+    "filer": [],
+    "status": "Må bes om innsyn"
   },
   {
     "tittel": "Svar på henvendelse - spørsmål til byggesaksavdelingen",
