@@ -1074194,5 +1074194,53 @@
         "ny": 0
       }
     }
+  },
+  {
+    "tidspunkt": "2026-11-04 20:23:41",
+    "type": "UPDATE",
+    "dokumentID": "2026/31730",
+    "tittel": "110/5/18 Rammetillatelse - byggtekniske installasjoner - Hamn 3",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-11-04 20:23:41",
+    "type": "UPDATE",
+    "dokumentID": "2026/31873",
+    "tittel": "49/739 Ferdigattest - naust - Tibergstrand - Egil Tjensvold",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 5
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-11-04 20:23:41",
+    "type": "UPDATE",
+    "dokumentID": "2026/31892",
+    "tittel": "48/343 Purring på søknad om ferdigattest - garasje - Kvartsvegen 4",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 2
+      }
+    }
   }
 ]
