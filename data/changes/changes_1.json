@@ -1074242,5 +1074242,21 @@
         "ny": 2
       }
     }
+  },
+  {
+    "tidspunkt": "2026-11-05 20:35:12",
+    "type": "UPDATE",
+    "dokumentID": "2026/31797",
+    "tittel": "9/56 Vedr. søknad om rammetillatelse - forstøtningsmur - Vervikvegen 4",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
   }
 ]
