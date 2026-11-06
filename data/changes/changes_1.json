@@ -1074274,5 +1074274,53 @@
         "ny": 1
       }
     }
+  },
+  {
+    "tidspunkt": "2026-11-06 19:57:13",
+    "type": "UPDATE",
+    "dokumentID": "2026/31808",
+    "tittel": "31/1/330 Godkjenning av ferdigmelding for tiltak på eksisterende sanitæranlegg - Ospevegen 1",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-11-06 19:57:13",
+    "type": "UPDATE",
+    "dokumentID": "2026/31819",
+    "tittel": "43/160 Tilbakemelding på purring på ferdigattest - naust",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-11-06 19:57:13",
+    "type": "UPDATE",
+    "dokumentID": "2026/31806",
+    "tittel": "61/4 Angående mangler - Kvalvågvegen 891",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
   }
 ]
