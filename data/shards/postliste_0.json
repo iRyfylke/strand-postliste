@@ -810,8 +810,13 @@
     "avsender_mottaker": "Mottaker: Flere mottakere",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/post-og-saksliste-til-og-med-24-9-2026/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020008106!7T0UOt/d-6965376f__8677__47ea__a757__23e14c179149-2020286584!ncdjz9",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "9/56 Vedr. søknad om rammetillatelse - forstøtningsmur - Vervikvegen 4 (pdf, 113KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1307752_1_A!d-2020286584!4S3kAt?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Ny vurdering - innvilgelse ekstratilskudd år 4",
