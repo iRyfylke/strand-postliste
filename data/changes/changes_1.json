@@ -1074370,5 +1074370,37 @@
         "ny": 1
       }
     }
+  },
+  {
+    "tidspunkt": "2026-11-08 13:11:17",
+    "type": "UPDATE",
+    "dokumentID": "2026/31772",
+    "tittel": "49/652/0/3 Forurensning - Sak avsluttes",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 4,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-11-08 13:11:17",
+    "type": "UPDATE",
+    "dokumentID": "2026/30951",
+    "tittel": "27/7 Tilbakemelding om mangler - to arker/kvister på eksisterende tak - Leitevegen 556 - Marius Eriksen",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
   }
 ]
