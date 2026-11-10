@@ -1074434,5 +1074434,21 @@
         "ny": 1
       }
     }
+  },
+  {
+    "tidspunkt": "2026-11-10 14:47:02",
+    "type": "UPDATE",
+    "dokumentID": "2026/31883",
+    "tittel": "44/9 Nabomerknad ang. vannledning - tilbygg - Hortensiaveien 14 og Bekkevegen1",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
   }
 ]
