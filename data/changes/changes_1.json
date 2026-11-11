@@ -1074466,5 +1074466,21 @@
         "ny": 1
       }
     }
+  },
+  {
+    "tidspunkt": "2026-11-11 14:01:51",
+    "type": "UPDATE",
+    "dokumentID": "2026/31804",
+    "tittel": "49/729 Tiltak ikke oppført - tilbygg og bruksendring - Dalaveien 145",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
   }
 ]
