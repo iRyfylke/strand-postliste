@@ -1074514,5 +1074514,21 @@
         "ny": 0
       }
     }
+  },
+  {
+    "tidspunkt": "2026-11-12 20:44:35",
+    "type": "UPDATE",
+    "dokumentID": "2026/31888",
+    "tittel": "57/6 Forlengelse av frist - minirenseanlegg - Kvalvågvegen 98 - Roy Jørgensen",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
   }
 ]

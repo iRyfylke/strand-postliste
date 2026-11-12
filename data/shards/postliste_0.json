@@ -2174,8 +2174,13 @@
     "avsender_mottaker": "Mottaker: Sandnes Maskin As",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/post-og-saksliste-til-og-med-24-9-2026/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020006041!irSmrx/d-6965376f__8677__47ea__a757__23e14c179149-2020286675!mEpIZk",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "57/6 Forlengelse av frist - minirenseanlegg - Kvalvågvegen 98 - Roy Jørgensen (pdf, 75KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1307925_1_A!d-2020286675!l4GVfg?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Utslipp fra pukkverk og sandtak i Dalen",
