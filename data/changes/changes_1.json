@@ -1074530,5 +1074530,37 @@
         "ny": 1
       }
     }
+  },
+  {
+    "tidspunkt": "2026-11-13 14:28:30",
+    "type": "UPDATE",
+    "dokumentID": "2026/31799",
+    "tittel": "49/187 Ferdigattest - Garasje - Åvegen 10 - Eivind Fosså",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 3,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-11-13 14:28:30",
+    "type": "UPDATE",
+    "dokumentID": "2026/23027",
+    "tittel": "44/445 Varsel om tilsyn - bruksendring - Nedre Barkvedvegen 19",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 2,
+        "ny": 0
+      }
+    }
   }
 ]
