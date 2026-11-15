@@ -1074690,5 +1074690,53 @@
         "ny": 0
       }
     }
+  },
+  {
+    "tidspunkt": "2026-11-15 19:20:29",
+    "type": "UPDATE",
+    "dokumentID": "2026/31807",
+    "tittel": "44/707 Tillatelse til tiltak - støttemur - Kvitemyrvegen 6",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-11-15 19:20:29",
+    "type": "UPDATE",
+    "dokumentID": "2026/31844",
+    "tittel": "Ny nasjonal hjorteviltstrategi",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-11-15 19:20:29",
+    "type": "UPDATE",
+    "dokumentID": "2026/31892",
+    "tittel": "48/343 Purring på søknad om ferdigattest - garasje - Kvartsvegen 4",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 2
+      }
+    }
   }
 ]
