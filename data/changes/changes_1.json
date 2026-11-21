@@ -1074930,5 +1074930,69 @@
         "ny": 0
       }
     }
+  },
+  {
+    "tidspunkt": "2026-11-21 20:02:03",
+    "type": "UPDATE",
+    "dokumentID": "2026/31893",
+    "tittel": "53/86 Ferdigattest - fasadeendring - Jøssangvegen 156A",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-11-21 20:02:03",
+    "type": "UPDATE",
+    "dokumentID": "2026/31807",
+    "tittel": "44/707 Tillatelse til tiltak - støttemur - Kvitemyrvegen 6",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-11-21 20:02:03",
+    "type": "UPDATE",
+    "dokumentID": "2026/31844",
+    "tittel": "Ny nasjonal hjorteviltstrategi",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-11-21 20:02:03",
+    "type": "UPDATE",
+    "dokumentID": "2026/31772",
+    "tittel": "49/652/0/3 Forurensning - Sak avsluttes",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 4,
+        "ny": 0
+      }
+    }
   }
 ]
