@@ -1075090,5 +1075090,53 @@
         "ny": 0
       }
     }
+  },
+  {
+    "tidspunkt": "2026-11-24 17:26:42",
+    "type": "UPDATE",
+    "dokumentID": "2026/31862",
+    "tittel": "29/11 Fakturagrunnlag - etablering av plattinger/telt - Tjøstheimsvegen 579",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 2
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-11-24 17:26:42",
+    "type": "UPDATE",
+    "dokumentID": "2026/31856",
+    "tittel": "Melding om vedtak - 29/11 Dispensasjon - plattinger/telt - Tjøstheimsvegen 579 - Normisjon Region Rogaland Vaulali Leirsted",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 9
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-11-24 17:26:42",
+    "type": "UPDATE",
+    "dokumentID": "2026/31772",
+    "tittel": "49/652/0/3 Forurensning - Sak avsluttes",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 4
+      }
+    }
   }
 ]

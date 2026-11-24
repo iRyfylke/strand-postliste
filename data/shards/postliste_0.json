@@ -284,8 +284,17 @@
     "avsender_mottaker": "",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/post-og-saksliste-til-og-med-24-9-2026/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020009918!5Nwgm4/d-6965376f__8677__47ea__a757__23e14c179149-2020286649!Gw6AUA",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "29/11 Fakturagrunnlag - etablering av plattinger/telt - Tjøstheimsvegen 579 (pdf, 49KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1307875_1_A!d-2020286649!5PBwV0?pid=29"
+      },
+      {
+        "tekst": "ordre_7053_0923_120738 (pdf, 380KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1307876_1_A!d-2020286649!c0aevY?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Oversikt oppdragsgivere - privat avlaster",
@@ -625,8 +634,25 @@
     "avsender_mottaker": "Mottaker: Strand Båtsenter As",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/post-og-saksliste-til-og-med-24-9-2026/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020015557!PAsnNi/d-6965376f__8677__47ea__a757__23e14c179149-2020286559!r8uj8Z",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "49/652/0/3 Forurensning - Sak avsluttes (pdf, 113KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1307682_1_A!d-2020286559!ff2B9h?pid=29"
+      },
+      {
+        "tekst": "49/652/0/3 Svar på kommunens forhåndsvarsel om pålegg etter forurensnignsloven (pdf, 592KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1307683_1_A!d-2020286559!HLDniv?pid=29"
+      },
+      {
+        "tekst": "E-post - 24/4189 / 25/23883 / WAAMAR (pdf, 67KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1307684_1_A!d-2020286559!X6Zzpu?pid=29"
+      },
+      {
+        "tekst": "49/652/0/3 Forhåndsvarsel om pålegg etter forurensningsloven (pdf, 143KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1307685_1_A!d-2020286559!ydhyrY?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "43/160 Tilbakemelding på purring på ferdigattest - naust",
@@ -1024,8 +1050,45 @@
     "avsender_mottaker": "Mottaker: Flere mottakere",
     "side": 1,
     "detalj_link": "https://www.strand.kommune.no/tjenester/politikk-innsyn-og-medvirkning/postliste-dokumenter-og-vedtak/post-og-saksliste-til-og-med-24-9-2026/#/details/a-6965376f__8677__47ea__a757__23e14c179149-2020009918!5Nwgm4/d-6965376f__8677__47ea__a757__23e14c179149-2020286643!eHFhaz",
-    "filer": [],
-    "status": "Må bes om innsyn"
+    "filer": [
+      {
+        "tekst": "Melding om vedtak - 29/11 Dispensasjon - plattinger/telt - Tjøstheimsvegen 579 - Normisjon Region Rogaland Vaulali Leirsted (pdf, 118KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1307856_1_A!d-2020286643!vDPeEN?pid=29"
+      },
+      {
+        "tekst": "29/11 Dispensasjonsvedtak - etablering av plattinger/telt - Tjøstheimsvegen 579 (pdf, 1MB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1096686_1_A!d-2020286643!MR3N3k?pid=29"
+      },
+      {
+        "tekst": "D Situasjonsplan (pdf, 623KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1067092_1_A!d-2020286643!LO7hf8?pid=29"
+      },
+      {
+        "tekst": "E Tegning - terrengsnitt A til D (pdf, 889KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1067093_1_A!d-2020286643!o46iOM?pid=29"
+      },
+      {
+        "tekst": "Plattinger på Vaulali leirsted (pdf, 29KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-990723_1_A!d-2020286643!urainY?pid=29"
+      },
+      {
+        "tekst": "29/11 Søknad om dispensasjon - etablering av plattinger/telt - Tjøstheimsvegen 579 - Normisjon Region Rogaland Vaulali Leirsted (pdf, 873KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1027885_1_A!d-2020286643!szEUed?pid=29"
+      },
+      {
+        "tekst": "Q Bilder (pdf, 176KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1027888_1_A!d-2020286643!hPR8ZU?pid=29"
+      },
+      {
+        "tekst": "29/11 Uttalelse - dispensasjon - Tjøstheimsvegen 579 - etablering plattinger/telt (pdf, 84KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1096251_1_A!d-2020286643!yfdyWk?pid=29"
+      },
+      {
+        "tekst": "29/11 Østerhusvannet - vurdering av søknad om tillatelse til fysiske tiltak i vassdrag (pdf, 104KB)",
+        "url": "https://www.strand.kommune.no/api/presentation/v2/nye-innsyn/filer/v-6965376f__8677__47ea__a757__23e14c179149-1140942_1_A!d-2020286643!m3JNlT?pid=29"
+      }
+    ],
+    "status": "Publisert"
   },
   {
     "tittel": "Oppfølgingsspørsmål - midlertidige bygninger",
