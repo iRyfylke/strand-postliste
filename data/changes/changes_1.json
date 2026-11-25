@@ -1075154,5 +1075154,21 @@
         "ny": 0
       }
     }
+  },
+  {
+    "tidspunkt": "2026-11-25 17:08:11",
+    "type": "UPDATE",
+    "dokumentID": "2026/31773",
+    "tittel": "Båtvrak ved Østerhusvatnet",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 3
+      }
+    }
   }
 ]
