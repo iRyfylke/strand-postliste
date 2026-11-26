@@ -1075266,5 +1075266,37 @@
         "ny": 2
       }
     }
+  },
+  {
+    "tidspunkt": "2026-11-26 22:12:37",
+    "type": "UPDATE",
+    "dokumentID": "2026/31799",
+    "tittel": "49/187 Ferdigattest - Garasje - Åvegen 10 - Eivind Fosså",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 3
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-11-26 22:12:37",
+    "type": "UPDATE",
+    "dokumentID": "2026/31772",
+    "tittel": "49/652/0/3 Forurensning - Sak avsluttes",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 4
+      }
+    }
   }
 ]
