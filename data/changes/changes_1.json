@@ -1075202,5 +1075202,69 @@
         "ny": 0
       }
     }
+  },
+  {
+    "tidspunkt": "2026-11-26 16:47:08",
+    "type": "UPDATE",
+    "dokumentID": "2026/31799",
+    "tittel": "49/187 Ferdigattest - Garasje - Åvegen 10 - Eivind Fosså",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 3,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-11-26 16:47:08",
+    "type": "UPDATE",
+    "dokumentID": "2026/31772",
+    "tittel": "49/652/0/3 Forurensning - Sak avsluttes",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 4,
+        "ny": 0
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-11-26 16:47:08",
+    "type": "UPDATE",
+    "dokumentID": "2026/31880",
+    "tittel": "53/476 Uttalelse fra fylkeskommunen - enebolig - Svarthølsvegen 12C - Jens Kristian Rein",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 1
+      }
+    }
+  },
+  {
+    "tidspunkt": "2026-11-26 16:47:08",
+    "type": "UPDATE",
+    "dokumentID": "2026/31864",
+    "tittel": "31/728 Fakturagrunnlag - hagestue - Breidablikkvegen 2",
+    "endringer": {
+      "status": {
+        "gammel": "Må bes om innsyn",
+        "ny": "Publisert"
+      },
+      "filer_count": {
+        "gammel": 0,
+        "ny": 2
+      }
+    }
   }
 ]
