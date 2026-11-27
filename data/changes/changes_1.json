@@ -1075298,5 +1075298,21 @@
         "ny": 4
       }
     }
+  },
+  {
+    "tidspunkt": "2026-11-27 21:54:39",
+    "type": "UPDATE",
+    "dokumentID": "2026/31806",
+    "tittel": "61/4 Angående mangler - Kvalvågvegen 891",
+    "endringer": {
+      "status": {
+        "gammel": "Publisert",
+        "ny": "Må bes om innsyn"
+      },
+      "filer_count": {
+        "gammel": 1,
+        "ny": 0
+      }
+    }
   }
 ]
